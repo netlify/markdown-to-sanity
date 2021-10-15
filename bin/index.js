@@ -15,7 +15,7 @@ async function run () {
       type: 'path',
       name: 'inputPath',
       default: process.cwd(),
-      message: 'The absolute path to your folder with markdown files',
+      message: '1The absolute path to your folder with markdown files',
       excludePath: nodePath => nodePath.startsWith('node_modules'),
     },
     {
