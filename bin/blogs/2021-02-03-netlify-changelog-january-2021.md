@@ -21,7 +21,7 @@ seo:
 ---
 This is a re-publishing of our product changelog newsletter sent to subscribers earlier this month. Sign up to receive future product news and updates!
 
-{{< newsletter-changelog >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 You and your team can build an even better web with these latest enhancements from Netlify.
 

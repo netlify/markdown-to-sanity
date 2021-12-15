@@ -29,7 +29,7 @@ In July, the Netlify team shipped tons of product updates, new tutorials and als
 
 Read on to discover what’s new at Netlify. And if you want product updates like this in your inbox, you can subscribe to our newsletter here 👇
 
-{{< newsletter >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 ## **Building e-commerce sites on Netlify with Shopify’s new Storefront APIs**
 

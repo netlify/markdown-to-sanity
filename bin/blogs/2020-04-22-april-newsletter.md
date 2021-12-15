@@ -25,7 +25,7 @@ seo:
 ---
 This is a re-publishing of our monthly newsletter sent to subscribers earlier this week. Sign up to receive future email newsletters!
 
-{{< newsletter >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 Hello! We are excited to open registration for Jamstack Conf virtual and can't wait to connect with you online. Also, our team has published lots of tutorials and case studies to our blog in recent weeks. So read on to check out some of the most popular articles, as well as an upcoming webinar about the journey from Drupal to the Jamstack.
 

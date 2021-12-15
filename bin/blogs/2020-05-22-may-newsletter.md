@@ -22,7 +22,7 @@ seo:
 ---
 This is a re-publishing of our monthly newsletter sent to subscribers earlier this week. Sign up to receive future email newsletters!
 
-{{< newsletter >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 As we gear up for Jamstack Conf Virtual—including some exciting product announcements from Netlify (teaser!) – we've packed the May newsletter with lots of helpful content and tutorials to get the most out of your development workflows.
 ​

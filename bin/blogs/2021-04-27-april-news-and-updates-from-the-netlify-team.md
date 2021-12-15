@@ -28,7 +28,7 @@ seo:
 ---
 It’s been a busy month at Netlify! Read about what we’ve been up to in this re-publishing of our monthly newsletter. Want to receive updates like this in your inbox? Sign up for our mailing list here ⬇️
 
-{{< newsletter >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 ## 💥On-demand Builders in Early Access
 

@@ -32,7 +32,7 @@ This August was all about the Jamstack ecosystem with new Netlify partner integr
 \
 Read on to discover what’s new at Netlify. And if you want product updates like this in your inbox, you can subscribe to our newsletter here👇
 
-{{< newsletter >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 ## Try the Essential Gatsby plugin—now with auto-install
 

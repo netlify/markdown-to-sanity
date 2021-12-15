@@ -26,7 +26,7 @@ seo:
 ---
 This is a re-publishing of our monthly newsletter sent to subscribers earlier this week. Sign up to receive future email newsletters!
 
-{{< newsletter >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 It's been nearly a month since we got together at Jamstack Conf Virtual and introduced [Netlify Build Plugins](https://www.netlify.com/blog/2020/05/27/netlify-build-plugins-are-here/). In the June newsletter, you'll find many new resources and updates, including case studies from TunnelBear and the Cloud Native Computing Foundation.
 

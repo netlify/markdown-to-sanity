@@ -26,7 +26,7 @@ Hi folks!
 
 Following a [big announcement](https://www.netlify.com/blog/2021/04/22/next.js-on-netlify-now-with-support-for-on-demand-builders-and-distributed-persistent-rendering/) in April to enhance support for Next.js and shorten build times for large sites, May was even bigger! We announced our first acquisition and the [next generation of Deploy Previews](https://www.netlify.com/blog/2021/05/19/next-generation-deploy-previews-plus-netlify-acquires-featurepeek/) to help teams gather feedback faster on web projects. But that’s not all, we’ve been making tons of product improvements and helpful updates for you! To help you sort through the flurry of announcements, we put together this changelog breaking down all the new things you can do with Netlify. Let’s dive in!
 
-{{< newsletter >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 ## 💥Next-gen Deploy Previews + FeaturePeek joins Netlify
 

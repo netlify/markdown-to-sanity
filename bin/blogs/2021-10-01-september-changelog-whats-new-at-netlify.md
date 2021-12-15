@@ -22,7 +22,7 @@ This September, Netlify announced a major milestone surpassing 2 MILLION develop
 
 Read on to discover what’s new at Netlify. And if you want product updates like this in your inbox, you can subscribe to our newsletter here👇
 
-{{< newsletter >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 ## New Enterprise Grid plan with team management and improved invoicing
 

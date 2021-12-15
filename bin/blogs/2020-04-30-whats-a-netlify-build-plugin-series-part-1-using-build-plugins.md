@@ -170,7 +170,7 @@ We are prepped and ready to start utilizing Build Plugins in our projects. We al
 
 To be notified of the next post in this series and to stay up to date on future posts, be sure to sign up for our newsletter!
 
-{{< newsletter >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 ## Resources for the Road
 

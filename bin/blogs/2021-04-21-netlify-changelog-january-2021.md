@@ -25,7 +25,7 @@ This April, the Netlify team has been making tons of product improvements and we
 
 This is a re-publishing of our product changelog newsletter sent to subscribers earlier this month. Sign up to receive future product news and updates!
 
-{{< newsletter-changelog >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 ### [Faster build times for large sites with On-Demand Builders](https://www.netlify.com/blog/2021/04/14/faster-builds-for-large-sites-on-netlify-with-on-demand-builders-now-in-early-access/)
 

@@ -23,7 +23,7 @@ seo:
 ---
 This is a re-publishing of our product changelog newsletter sent to subscribers earlier this month. Sign up to receive future product news and updates!
 
-{{< newsletter-changelog >}}
+{% renderFile './src/components/pages/blog/newsletter.vue' %}
 
 October is shaping up to be one our busiest months ever! With Jamstack Conf in the rearview and a flurry of product ships, we thought it was a good time to share all the new things you can do with Netlify to make your sites perform even better and shave some time off development.
 
