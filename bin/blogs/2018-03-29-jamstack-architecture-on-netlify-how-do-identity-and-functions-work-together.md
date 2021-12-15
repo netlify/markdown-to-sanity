@@ -30,8 +30,6 @@ This tutorial requires working knowledge of React and the HTML5 `fetch` API, as 
 
 We’ll build out a small service that lets authorized site users send up to one message per hour from a form on your site to a channel in your Slack workgroup, powered by Netlify Identity and an integrated serverless Lambda function.
 
-{{< toc >}}
-
 ## Sending to Slack
 
 This tutorial will be based on our [Create-React-App-Lambda](https://github.com/netlify/create-react-app-lambda) boilerplate. To follow along, start by creating a new site based on it:

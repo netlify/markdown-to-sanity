@@ -31,8 +31,6 @@ In this tutorial we'll take a look at how to host [Middleman](https://middlemana
 
 Let's start from scratch. If you already have a Middleman site set up, you can skip straight to the [Connecting to Netlify](#netlifystart) section.
 
-{{< toc >}}
-
 ## Installing Middleman
 
 This guide assumes you have [Ruby](https://www.ruby-lang.org) and [RubyGems](https://rubygems.org/) installed.

@@ -27,8 +27,6 @@ The term, **"serverless"** (love it or hate it), really implies that many of the
 
 In this post, we'll dive into the benefits & key characteristics of what **"going serverless"** truly means.
 
-{{< toc >}}
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AEBWLm1L-qI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## What are the benefits of going serverless?

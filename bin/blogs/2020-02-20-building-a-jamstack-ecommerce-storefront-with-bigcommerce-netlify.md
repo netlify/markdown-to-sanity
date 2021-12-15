@@ -36,8 +36,6 @@ In particular, creating these unique, content-driven, fast shopping experiences 
 
 So, the question you may find yourself asking now is how do I get started building an ecommerce site? Good news! In partnership with [Third and Grove](https://www.thirdandgrove.com/?ref=netlify), BigCommerce has created a starter plugin for deploying a JAMstack ecommerce storefront on Netlify.
 
-{{< toc >}}
-
 ## Tutorial: Using the Starter Plugin
 
 Developers are a first class citizen at BigCommerce, and it’s our priority to ensure we make it easy to get started building an integration to the platform, whether it’s an app extending our native capabilities or a [headless storefront](https://developer.bigcommerce.com/api-docs/developers-guide-headless/?utm_medium=partner&utm_source=Netlify&utm_campaign=USA_MM_ACQ_Headless_CT_2020_Q1_&utm_content=jamstack-ecomm-storefront). As such, providing developers with tools to accelerate their understanding of the platform and development is critical. With [the BigCommerce Netlify starter plugin](https://github.com/bigcommerce/gatsby-bigcommerce-netlify-cms-starter), we’ve created a plugin that allows a developer to get a functioning JAMstack storefront (with sample data), built using Gatsby, up and running in less than 5 minutes.

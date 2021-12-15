@@ -38,8 +38,6 @@ Today, we're going to look at how to host a project built with [Jekyll](https://
 
 Let's start from scratch. If you already have a Jekyll site set up, you can skip straight to  [Connecting to Netlify](#netlifystart).
 
-{{< toc >}}
-
 ## Installing Jekyll
 
 This guide assumes you have [Ruby](https://www.ruby-lang.org) and [RubyGems](https://rubygems.org/) installed.

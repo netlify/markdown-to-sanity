@@ -36,8 +36,6 @@ If you’d like to skip all of the jabber and just go straight to deploying, go 
 
 Heads up, this tutorial assumes you know React, JavaScript, and CSS. If you need help on any of those fronts, feel free to ask questions in the [Netlify Community](https://community.netlify.com/)!
 
-{{< toc >}}
-
 ## Setting up our Next.js project
 
 When you want to start a new Next app, open up your terminal and run:

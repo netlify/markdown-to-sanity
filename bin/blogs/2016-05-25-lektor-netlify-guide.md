@@ -31,8 +31,6 @@ The interesting thing about Lektor is that it comes with a built-in GUI CMS and 
 
 Let's start from scratch. If you already have a Lektor site set up, you can skip straight to the [Preparing for deployment](#gitstart) or [Connecting to Netlify](#netlifystart) sections.
 
-{{< toc >}}
-
 ## Installing Lektor
 
 This guide assumes you have [Python](https://www.python.org/) installed.

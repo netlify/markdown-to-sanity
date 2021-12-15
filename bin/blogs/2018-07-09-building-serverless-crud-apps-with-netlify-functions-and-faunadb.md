@@ -39,8 +39,6 @@ We will be walking through how you can use [FaunaDB](https://fauna.com/) with [N
 
 All the code used in the post can be [found here in the repo.](https://github.com/netlify/netlify-faunadb-example/)
 
-{{< toc >}}
-
 ## About this application
 
 This application is using [React](https://reactjs.org/) for the frontend, [Netlify Functions](https://www.netlify.com/docs/functions/) for API calls, and [FaunaDB](https://fauna.com/) as the backing database.

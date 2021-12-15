@@ -35,8 +35,6 @@ Gatsby is a fairly new static site generator, but it's gaining traction fast! It
 
 Let's start from scratch (if you already have a Gatsby site set up, you can skip down to [Connecting to Netlify](#connecting-to-netlify)).
 
-{{< toc >}}
-
 ## Install Gatsby
 
 Open your terminal, and enter the following command (this guide assumes you have [Node.js](https://nodejs.org/en/) installed):

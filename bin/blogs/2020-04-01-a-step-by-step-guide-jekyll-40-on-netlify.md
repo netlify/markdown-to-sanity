@@ -38,8 +38,6 @@ A few years ago, we originally posted our [Jekyll 3.0 on Netlify](https://www.ne
 
 If you already have a Jekyll 4.0 site prepared, you can jump ahead to [Connecting to Netlify](#netlifystart). Otherwise, let's begin!
 
-{{< toc >}}
-
 ## Installing Jekyll
 
 This guide assumes you have [Ruby](https://www.ruby-lang.org) and [RubyGems](https://rubygems.org/) installed.

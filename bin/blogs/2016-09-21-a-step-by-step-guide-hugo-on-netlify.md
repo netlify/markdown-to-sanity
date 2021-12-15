@@ -36,8 +36,6 @@ To get started, let's make sure you have all the tools you'll need. Go ahead and
 
 If you already have a Hugo site set up, you can skip straight to the [Connecting to Netlify](#netlifystart) section.
 
-{{< toc >}}
-
 ## Building Your Site
 
 Hugo builds and organizes a skeleton for your site, which will set up a main directory; for simplicity's sake, we'll call this `hugo`. Additionally it sets up sub-directories within this `hugo` directory for the purposes outlined below. Here is a basic breakdown of the structure Victor Hugo builds for you:

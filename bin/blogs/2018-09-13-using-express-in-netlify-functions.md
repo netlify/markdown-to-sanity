@@ -39,8 +39,6 @@ which Netlify Functions has abstracted away for us.
 
 The code & examples in this post can be found [here](#trying-it-out). 
 
-{{< toc >}}
-
 ## Quick Introduction to Lambda Functions
 
 Imagine a function that updates a database in a web application that is running

@@ -22,8 +22,6 @@ Phenomic is a new static site generator built with ReactJS. React is a hugely po
 
 Let’s start from scratch (if you already have a Phenomic site set up, you can skip down to [here](#netlifystart)).
 
-{{< toc >}}
-
 ## Prerequisites
 
 Before you get started, know that Phenomic uses requires at least npm v3. If you have a different version of npm (which is installed along with node), we suggest installing `nvm` (the Node Version Manager) to allow you to change versions of node depending on the project. Different versions of node come with different versions of npm. Make sure your version of `node` is greater than `4.2.0`, and your version of `npm` is greater than `3.0.0`.

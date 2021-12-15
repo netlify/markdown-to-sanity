@@ -46,8 +46,6 @@ You can authenticate with your account on that interactive microsite to see wher
 
 Not yet on Netlify? Become one of the next million to [try Netlify](https://www.netlify.com/pricing/).
 
-{{< toc >}}
-
 ## Netlify's Milestones on the road to 1 Million Devs
 
 ### Netlify officially launches

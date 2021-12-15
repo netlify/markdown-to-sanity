@@ -22,8 +22,6 @@ format: blog
 Ever wondered how to create an author page in Hugo that displays
 the author’s name, their bio, and a list of their articles, like WordPress does? It can be done 🙌
 
-{{< toc >}}
-
 ## Create authors taxonomy
 
 Hugo includes support for user-defined groupings of content called [taxonomies](https://gohugo.io/content-management/taxonomies/).

@@ -37,8 +37,6 @@ API is the “a” in “jam”. An important principle of Jamstack is decouplin
 
 Here are the points which we will cover:
 
-{{< toc >}}
-
 ## Balancing technical quality and business needs
 
 You’re buying a service that needs to fit neatly into your architecture, but also be balanced with the needs of the non-technical stakeholders, as it’s something they will manage. Therefore you need the best of both worlds: a fantastic API with equally fantastic documentation, along with an accessible and feature complete business dashboard, all the while keeping flexibility and control in balance for both stakeholder groups.

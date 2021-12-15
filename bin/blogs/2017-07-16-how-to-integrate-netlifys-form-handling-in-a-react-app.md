@@ -27,8 +27,6 @@ In a React app, however, just adding a `netlify` attribute to a JSX form won’t
 
 The post-processing bots that look for the `netlify` attributes when a site is deployed only know how to parse HTML. Until they evolve enough to detect forms rendered with JavaScript, we need to give them a little extra help.
 
-{{< toc >}}
-
 ## Form Handling with a Stateless React Form
 
 For simplicity’s sake, we’ll use [React’s single file example](https://facebook.github.io/react/downloads/single-file-example.html) as starting point for our very basic React contact form.

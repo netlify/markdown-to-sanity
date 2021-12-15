@@ -23,8 +23,6 @@ seo:
     improved conversion rates, and shipped faster.
   ogimage: /v3/img/blog/spring-netlify-og.png
 ---
-{{< toc >}}
-
 ## How Jamstack is enabling Spring to move iteratively from monolith to microservices
 
 ![Spring logo Teespring](/v3/img/blog/spring-logo-alpha-04.png "Spring logo Teespring")
