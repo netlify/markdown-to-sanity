@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="12px" viewBox="0 0 9 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>trending-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blog-2.0-v8" transform="translate(-727.000000, -203.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="hero" transform="translate(251.000000, 116.000000)">
+                <g id="content" transform="translate(35.000000, 82.000000)">
+                    <path d="M448.684268,8.6 C448.117263,9.6985 446.862202,10.429 446.862202,10.429 C446.862202,10.429 447.593908,8.9255 447.586258,7.3995 C446.6165,6.2505 445.939694,5.6 444.292679,5 C445.619741,9.6 441,8.97 441,12.8 C441,15.1525 444.292679,17 444.292679,17 C444.292679,17 442.646115,13.4 445.939694,11.6 C445.390689,14 446.67815,13.816 447.037254,14.6 C447.396807,15.3845 446.488699,17 446.488699,17 C450.862287,14.8165 450.594985,11.355 448.684268,8.6 Z" id="trending-icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

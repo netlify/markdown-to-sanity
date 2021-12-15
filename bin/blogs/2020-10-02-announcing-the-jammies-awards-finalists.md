@@ -14,7 +14,7 @@ tags:
 tweet: ""
 format: blog
 seo:
-  ogimage: /img/blog/jamstack-og-speakers-2-.png
+  ogimage: /v3/img/blog/jamstack-og-speakers-2-.png
 ---
 We received many excellent nominations for the Jammies awards, recognizing people and initiatives that are pushing forward the modern web. We are excited to announce the finalists and winners across four categories, who will receive coveted Jamstack jammies pants and all the community glory!
 

@@ -11,11 +11,11 @@ topics:
   - news
 tags:
   - headless commerce
-  - headless commerce summit
-  - next
-  - dpr
-  - case study
-  - partners
+  - Headless Commerce Summit
+  - Next.js
+  - DPR
+  - Case Studies
+  - Partners
 tweet: ""
 format: blog
 relatedposts:
@@ -27,7 +27,7 @@ seo:
     benefits of the headless model for ecommerce, how to architect your Headless
     Commerce apps on the Jamstack, how to pick the right stack, and best
     practices. "
-  ogimage: /img/blog/headless-commerce_2021.png
+  ogimage: /v3/img/blog/headless-commerce_2021.png
 ---
 Heads up: the future of e-commerce is headless. That’s why, on May 26, Netlify is hosting the [2021 Headless Commerce Summit](https://headlesscommercesummit.com/). We’re bringing together top digital agencies, popular e-commerce brands and technology vendors in the Headless Commerce ecosystem to discuss best practices and together, chart the future of e-commerce.
 
@@ -35,7 +35,7 @@ Heads up: the future of e-commerce is headless. That’s why, on May 26, Netlify
 
 ## About Headless Commerce Summit 2021
 
-![Headless Commerce Summit by Netlify](/img/blog/headless-commerce_2021.png)
+![Headless Commerce Summit by Netlify](/v3/img/blog/headless-commerce_2021.png)
 
 [Headless Commerce Summit](https://headlesscommercesummit.com/#register) is a free half-day, virtual event for web development leaders interested in learning about the Jamstack web architecture, including headless e-commerce platforms, headless content management systems, APIs and modern development workflows.
 
@@ -58,7 +58,7 @@ Headless commerce has all sorts of business advantages. Of course we want better
 
 ### Scaling from 0 to 6 million stores using Netlify and Jamstack
 
-![Spring's headless architecture for ecommerce ](/img/blog/springheadlesscommerce.png)
+![Spring's headless architecture for ecommerce ](/v3/img/blog/springheadlesscommerce.png)
 
 **Speakers: Rick Takes, Director of Engineering and Paras Chadha, Senior Engineering Manager at [Spring](https://www.spri.ng/)**
 
@@ -66,7 +66,7 @@ Learn how the team at Spring (formerly Teespring) [designed a headless architect
 
 ### Panel: Making virtual hype real - How ComplexLand used Shopify Plus for a new commerce experience
 
-![ComplexCon + Shopify's headless architecture](/img/blog/complexconheadlesscommerce.png)
+![ComplexCon + Shopify's headless architecture](/v3/img/blog/complexconheadlesscommerce.png)
 
 **Speakers: Victoria Duggan, Program Engineering Manager, Shopify; Andrés Smerkin, Lead Developer, Riess Group; William Chen, Technical Director, Jam3**
 
@@ -74,7 +74,7 @@ Learn how the team at Spring (formerly Teespring) [designed a headless architect
 
 ### Breakout: Everlane delivers high-speed hyper-personalization at scale on their Jamstack site
 
-![Everlane and Builder.io's Headless Commerce approach](/img/blog/everlaneheadlesscommerce.jpg)
+![Everlane and Builder.io's Headless Commerce approach](/v3/img/blog/everlaneheadlesscommerce.jpg)
 
 **Steve Sewell, Founder and CEO, [Builder.io](http://builder.io)**
 
@@ -82,7 +82,7 @@ The e-commerce powerhouse, Everlane, published +100 versions of its homepage in 
 
 ### Lightning Talk: JAAMIn’: Inclusive and Accessible Omnichannel Strategies
 
-![BigCommerce's approach to accessible omnichannel strategies ](/img/blog/bigcommerceheadlesssummit.png)
+![BigCommerce's approach to accessible omnichannel strategies ](/v3/img/blog/bigcommerceheadlesssummit.png)
 
 **\
 Speaker: Rachael Thompson, Developer Advocate, BigCommerce**
@@ -91,7 +91,7 @@ This lightning talk is a walk-through of best practices for creating an accessib
 
 ### Lightning Talk: Master UI architecture for headless search and browse in e-commerce
 
-![Algolia + Netlify ](/img/blog/algoliaheadlesscommerce.png)
+![Algolia + Netlify ](/v3/img/blog/algoliaheadlesscommerce.png)
 
 **Speaker: Matthew Foyle, Senior Solutions Engineer, [Algolia](https://www.algolia.com/)**
 
@@ -109,7 +109,7 @@ In this talk, Cassidy Williams will cover different caching strategies to improv
 
 ### Supercharging the restaurant industry with Netlify + Jamstack
 
-![Buskana's Jamstack Approach to ecommerce](/img/blog/buskanaheadlesscommerce.png)
+![Buskana's Jamstack Approach to ecommerce](/v3/img/blog/buskanaheadlesscommerce.png)
 
 **Speaker: Zahid Mahmood, Founder, buskana.com**
 

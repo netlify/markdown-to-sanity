@@ -11,9 +11,9 @@ topics:
   - case-studies
 tags:
   - case studies
-  - performance
-  - jamstack
-  - headless
+  - Performance
+  - Jamstack
+  - Headless
 tweet: ""
 format: blog
 relatedposts:
@@ -25,11 +25,11 @@ seo:
   metadescription: Pan Macmillan moved to Netlify to adopt the Jamstack. This
     improved site speed by 8x, improved SEO rankings, and enabled them to ship
     new content and changes instantly.
-  ogimage: /img/blog/og-netlify-pan-macmillan.png
+  ogimage: /v3/img/blog/og-netlify-pan-macmillan.png
 ---
 Pan Macmillan is world-renowned for the books they’ve published, from *Alice in Wonderland* to *American Psycho*. But recently, their business has relied upon an additional kind of writing: content marketing. Take a look at their 2 web properties and you’ll discover interviews and articles written for book readers, each with the goal of bringing search traffic to Pan Macmillan sites.
 
-![Pan Macmillan books](/img/blog/pan-macmillan-instagram-1.png "Pan Macmillan books")
+![Pan Macmillan books](/v3/img/blog/pan-macmillan-instagram-1.png "Pan Macmillan books")
 
 However, search traffic doesn’t always reward high-quality writing. Without fast load times, content quickly falls in Google’s search results. And without a simple way to publish, edit and update content, you can lose your audience, or worse, start to fall in search rankings.
 

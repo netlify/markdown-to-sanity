@@ -5,11 +5,11 @@ description: Want to use AMP in your Next.js projects? Want to know more about
 authors:
   - Cassidy Williams
 date: 2020-12-19
-lastmod: 2020-12-19
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
   - amp
 tweet: ""
@@ -22,7 +22,7 @@ seo:
   metatitle: Enabling AMP in your Next.js projects
   metadescription: Want to use AMP in your Next.js projects? Want to know more
     about what AMP is? Learn both now!
-  ogimage: /img/blog/blogvent19.png
+  ogimage: /v3/img/blog/blogvent19.png
 ---
 Welcome to Blogvent, day 19!
 
@@ -76,7 +76,7 @@ These things are actively being worked on at the time of writing, but as of righ
 ## I'd like to build something with Next.js + AMP!
 Heck yeah! Here's a starter application to try this out yourself:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=nextstarteramp-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=nextstarteramp-cs&utm_campaign=devex)
 
 (Clicking this button will deploy a Next.js starter project to Netlify, and clone it to your chosen Git provider)
 

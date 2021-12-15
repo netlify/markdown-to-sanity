@@ -10,8 +10,8 @@ lastmod: 2020-09-17
 topics:
   - insights
 tags:
-  - jamstack
-  - wordpress
+  - Jamstack
+  - Wordpress
 tweet: ""
 format: blog
 relatedposts:

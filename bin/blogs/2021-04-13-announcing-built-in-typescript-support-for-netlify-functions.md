@@ -9,7 +9,7 @@ lastmod: 2021-04-14
 topics:
   - news
 tags:
-  - functions
+  - Functions
   - TypeScript
 tweet: ""
 format: blog
@@ -21,7 +21,7 @@ seo:
   metadescription: Serverless made simpler! Native TypeScript support is the
     latest step in Netlify's quest to build simpler development workflows. Try
     for free today.
-  ogimage: /img/blog/og-typescript-functions.png
+  ogimage: /v3/img/blog/og-typescript-functions.png
 ---
 Until now, [JavaScript](https://docs.netlify.com/functions/build-with-javascript/) and [Go](https://docs.netlify.com/functions/build-with-go/) were the two languages natively supported by [Netlify Functions](https://www.netlify.com/blog/2021/02/18/netlify-functions-for-an-unrivaled-serverless-workflow/). You could technically author functions with TypeScript, but you needed a build step that compiled your code down to plain JavaScript prior to deploying.
 
@@ -82,7 +82,7 @@ Our build system uses [esbuild](https://www.netlify.com/blog/2021/04/02/modern-f
 
 First of all, we don't perform any type checking on your files. This can be handled by most modern code editors, as they can check types and offer visual feedback in real time. Alternatively, you can install the official TypeScript compiler and run `tsc --noEmit` locally, using it solely for type checking.
 
-![""](/img/blog/type-checking.png)
+![""](/v3/img/blog/type-checking.png)
 
 Secondly, we recommend that you enable the [`esModuleInterop`](https://www.typescriptlang.org/tsconfig#esModuleInterop) and [`isolatedModules`](https://www.typescriptlang.org/tsconfig#isolatedModules) properties in your TypeScript configuration file, for better compatibility.
 

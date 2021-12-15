@@ -12,18 +12,18 @@ date: 2017-05-16T21:37:08.000Z
 topics:
   - tutorials
 tags:
-  - graphql
-  - open source
+  - GraphQL
+  - Open source
   - how-to
-  - tutorial
+  - Tutorial
 format: blog
-image: /img/blog/og_image.png
+image: /v3/img/blog/og_image.png
 ---
 GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. The best way to learn about GraphQL is by using GraphQL, which is why I put together starter project to follow and take notes on open source projects on GitHub.
 
 At anytime you can see the finished [project](https://github.com/bdougie/open-sauced) on GitHub or live at [open-sauced.netlify.com/](http://open-sauced.netlify.com/).
 
-![open-sauced](/img/blog/open-sauced.png)
+![open-sauced](/v3/img/blog/open-sauced.png)
 
 ## The Project
 
@@ -37,7 +37,7 @@ I have created and implemented a simple [GraphQL schema](https://github.com/bdou
 
 Go ahead and give it a try by clicking the graphql-up button below.
 
-[![graphql-up](/img/blog/graphql-up.svg)](https://www.graph.cool/graphql-up/new?source=https://raw.githubusercontent.com/bdougie/open-sauced/master/open-sauced.schema)
+[![graphql-up](/v3/img/blog/graphql-up.svg)](https://www.graph.cool/graphql-up/new?source=https://raw.githubusercontent.com/bdougie/open-sauced/master/open-sauced.schema)
 
 Be sure to save your simple Graphcool endpoint so you can use in step 3 below.
 
@@ -47,7 +47,7 @@ GitHub introduced the alpha release of their new GraphQL API at the [GitHub Uni
 
 I leverage this GraphQL API to retrieve repo data for the Open Sauced project. The beauty of this is that I do not need to open up the vast GitHub API documentation. I can actually leverage tools like [GraphiQL](https://github.com/graphql/graphiql) to view the documentation while building queries (as shown below).
 
-![graphqiql-example](/img/blog/graphiql-example.gif)
+![graphqiql-example](/v3/img/blog/graphiql-example.gif)
 
 You will need a GitHub access token to access the repository data fetching Open sauce feature. You can find [instructions on how to retrieve one](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) on GitHub.
 

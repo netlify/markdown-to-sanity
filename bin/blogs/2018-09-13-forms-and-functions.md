@@ -11,10 +11,10 @@ date: '2018-09-14'
 topics:
   - tutorials
 tags:
-  - vue
-  - functions
-  - forms
-  - serverless
+  - Vue
+  - Functions
+  - Forms
+  - Serverless
 tweet: ''
 format: blog
 ---

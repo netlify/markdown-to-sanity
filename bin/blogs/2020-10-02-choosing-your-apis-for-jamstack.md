@@ -11,8 +11,8 @@ topics:
   - tutorials
 tags:
   - algolia
-  - apis
-  - build plugins
+  - APIs
+  - Build Plugins
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ seo:
   metatitle: 5 things to consider when choosing your APIs for Jamstack
   metadescription: Learn about building your Jamstack web application using third
     party APIs. This guide helps you choose the right ones for your project.
-  ogimage: /img/blog/temp-og-image-algolia-api-post.png
+  ogimage: /v3/img/blog/temp-og-image-algolia-api-post.png
 ---
 One of the beautiful things about [Jamstack](https://www.netlify.com/jamstack/) is that, along with boosting performance and scalability, it allows you to build your web application using any number of third party APIs. The result is that you can plug in best-in-class products for each individual job, and make use of continuous innovation in every specialized area; it's unbundling in a way.
 
@@ -31,7 +31,7 @@ With choice, of course, comes responsibility: how should you choose what solutio
 
 In this post, we’d like to share 5 criteria to consider when choosing an API for a project.
 
-![jamstack stack layers visualized image](/img/blog/jam.jpg)
+![jamstack stack layers visualized image](/v3/img/blog/jam.jpg)
 
 API is the “a” in “jam”. An important principle of Jamstack is decoupling the front end from the back end. Having JavaScript talk to backend services by API allows for more modular development where we can take advantage of the huge ecosystem of third party tools to provide website functionality. We’ll walk through the framework using the lens of a search API decision because the author of this post, Matt Foyle, works with [Algolia](https://www.algolia.com/), a search and discovery API.
 

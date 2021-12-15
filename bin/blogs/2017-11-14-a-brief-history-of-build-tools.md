@@ -10,8 +10,8 @@ topics:
   - tools
 tags:
   - build tools
-  - webpack
-  - static
+  - Webpack
+  - Static
 format: blog
 description: >
   At Netlify we ask our users to leverage build tools so we may assist in the
@@ -35,7 +35,7 @@ In recent years, as JavaScript grew into a language that demanded to be taken se
 
 In the internet of the 1990s, all content was delivered from a series folders containing HTML and CSS files. JavaScript was optional through the use of script tags.
 
-![static folder structure](/img/blog/static-folder-structure.png)
+![static folder structure](/v3/img/blog/static-folder-structure.png)
 
 These were great days because we didn’t need to have heaps of JavaScript knowledge to render web content. Plus, the web was fast, secure, and could render anywhere you could get a dial-up connection. Years later in the 2000’s, the web got more complicated. Broadband internet brought huge speed improvements and dynamic frameworks like WordPress and Drupal gave us tons of flexibility and functionality. The amount of JavaScript included on the page grew tremendously; we could no longer rely just on a few JavaScript snippets to get the job done. JavaScript frameworks like [Angular](https://en.wikipedia.org/wiki/AngularJS) introduced better organization into our projects which made wide adoption much easier.
 
@@ -103,7 +103,7 @@ Script tags can become an orchestration nightmare trying to rely too much on the
 
 That same JavaScript that got out of hand in frameworks can now be bundled into a static index.html. No matter how complicated the framework or how fancy we get with the JavaScript, the build tool removes the complexity and provides static assets ready for deployments. The build process introduces solutions for making sure the output of your site is optimized to render on any screen and on any connection.
 
-![bundled static](/img/blog/bundled-static.png)
+![bundled static](/v3/img/blog/bundled-static.png)
 
 ## Where can I learn more?
 

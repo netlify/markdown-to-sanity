@@ -9,8 +9,8 @@ description: Two weeks ago we released a new and improved user interface for our
 cmsUserSlug: ""
 date: 2016-09-01
 tags:
-  - design
-  - ui
+  - Design
+  - UI
 topics:
   - news
 ---

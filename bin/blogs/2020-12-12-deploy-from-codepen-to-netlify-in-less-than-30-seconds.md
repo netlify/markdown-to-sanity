@@ -18,7 +18,7 @@ seo:
   metatitle: Deploy from CodePen to Netlify in less than 30 seconds
   metadescription: Want to get your CodePen work deployed onto Netlify? Here's how
     to do it in a snap!
-  ogimage: /img/blog/blogvent12.png
+  ogimage: /v3/img/blog/blogvent12.png
 ---
 Welcome to Blogvent, day 12!
 

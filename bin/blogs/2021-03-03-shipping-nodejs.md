@@ -8,9 +8,9 @@ lastmod: 2021-03-03
 topics:
   - tutorials
 tags:
-  - nodejs
-  - workflow
-  - automation
+  - NodeJS
+  - Workflow
+  - Automation
 tweet: ""
 format: blog
 relatedposts:
@@ -19,7 +19,7 @@ relatedposts:
 seo:
   metatitle: "Shipping Node.js at Netlify: Our Tools, Processes, and Automation"
   metadescription: Learn more about some of the tools and processes that Netlify's Engineering team uses internally to ship Node.js projects. From project templates, to PR templates, and far beyond. Check it out!
-  ogimage: /img/blog/og-shippingnode.png
+  ogimage: /v3/img/blog/og-shippingnode.png
 ---
 
 At Netlify, we use a diverse set of technologies, languages and paradigms to build our product. Along with Ruby, Go, Rust and others, we write quite a bit of JavaScript. All flavors of it.
@@ -66,7 +66,7 @@ You can have different templates for different use cases: our [bug report templa
 
 Oh! More importantly, our pull request template encourages contributors to add a picture of a cute animal.
 
-![A pull request with a cute baby elephant](/img/blog/node-pr1.jpg)
+![A pull request with a cute baby elephant](/v3/img/blog/node-pr1.jpg)
 
 ## Labels
 
@@ -112,7 +112,7 @@ We have a [global configuration file](https://github.com/netlify/renovate-config
 
 It also includes a nifty [dependency dashboard](https://github.com/netlify/build/issues/1653) right on the repository, in the form of a GitHub issue. From there, you can see which modules are scheduled for an update or trigger a re-evaluation of the dependency graph, which speeds up the creation of a pull request — I use this a lot when I'm anxiously waiting for a dependency update to cut a release!
 
-![Renovate dependency dashboard](/img/blog/node-pr2.jpg)
+![Renovate dependency dashboard](/v3/img/blog/node-pr2.jpg)
 
 ## Automated releases
 

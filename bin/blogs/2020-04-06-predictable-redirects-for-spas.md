@@ -19,7 +19,7 @@ relatedposts:
   - Redirect Rules for All; How to configure redirects for your static site
   - Restrict access to your sites with role based redirects
 seo:
-  ogimage: /img/blog/redirectpage.jpg
+  ogimage: /v3/img/blog/redirectpage.jpg
   metadescription: >-
     Redirects are handy to manage how browsers serve content. Learn how to use
     Netlify redirects in SPAs effectively so users get content predictably.

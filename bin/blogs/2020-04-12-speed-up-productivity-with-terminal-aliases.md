@@ -12,7 +12,6 @@ tags:
   - bash_profile
   - bash
   - terminal
-  - aliased commands
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +20,7 @@ relatedposts:
 seo:
   metatitle: How to Create Bash Aliases for Git Commands & Search for Strings
   metadescription: Want to increase developer productivity? Then create terminal aliases! Check out this guide to learn how to create bash aliases for git commands and more, making full use of your `.bash_profile`.
-  ogimage: /img/blog/screen-shot-2020-04-12-at-12.46.00-pm.png
+  ogimage: /v3/img/blog/screen-shot-2020-04-12-at-12.46.00-pm.png
 ---
 I like to use aliases in my terminal as much as possible, in part because I like increasing my speed of execution, and in part because it feels pretty nice to customize this way.
 
@@ -71,7 +70,7 @@ Here's what I use:
 alias gr='grep --color -r'
 ```
 
-![Look for a string recursively in a directory and highlight the string](/img/blog/screen-shot-2020-04-12-at-1.17.23-pm.png)
+![Look for a string recursively in a directory and highlight the string](/v3/img/blog/screen-shot-2020-04-12-at-1.17.23-pm.png)
 
 ## Reset Once You Alias
 
@@ -98,7 +97,7 @@ alias la='ls -la | lolcat'
 
 Now we have a nice colored output for a lot of file information:
 
-![rainbow ls -la terminal output](/img/blog/screen-shot-2020-04-12-at-12.46.00-pm.png)
+![rainbow ls -la terminal output](/v3/img/blog/screen-shot-2020-04-12-at-12.46.00-pm.png)
 
 This isn't the only way you can customize, there are many extensions and other small things you can do. I use hyper, so I even have commands that [let me emit particles](https://github.com/zeit/hyperpower) as I type.
 

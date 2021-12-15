@@ -3,7 +3,7 @@
 title: "From Unstable to Reliable: A Release Engineering Journey"
 authors:
   - Ryan Neal
-image: /img/blog/releng-dangerous-meme.png
+image: /v3/img/blog/releng-dangerous-meme.png
 format: blog
 short_title: "A journey in Release Engineering"
 description: Release engineering is hard, tedious, and error prone. We help.
@@ -11,11 +11,10 @@ thumbnail: thumbnails/releng-dangerous-meme-mini.png
 cmsUserSlug: ""
 date: 2016-08-11
 tags:
-  - release engineering
   - atomic deploys
-  - features
-  - caching
-  - cdn
+  - Features
+  - Caching
+  - CDN
 topics:
   - insights
 ---
@@ -35,7 +34,7 @@ At Netlify we think that most people shouldn't think about caching; we’ll do t
     - atomic deploys
     - asset fingerprinting
     - instant cache invalidation
-    - continuous deployment
+    - Continuous Deployment
     - instant rollback
 
 The combination of these features let us give all the performance of a CDN and good release practices without any of the headache of doing it yourself. Good release engineering enables a developer to iterate quickly while operating in a sane and safe environment.
@@ -54,13 +53,13 @@ The more insidious case is that you want to just change the contents of the imag
 
 So we said "No more!" Netlify versions each asset according to its SHA1 and then burn that into the markup directly. This means that when asked "What image did they see?" we always know. We do the same with the markup, versioning its content by fingerprinting. By grouping the markup associated with a particular version of the site, we have created a snapshot of the whole site state; we call them deploys. They are very lightweight and let us keep a complete history of the site throughout time.
 
-![](/img/blog/releng-side-by-side.png)
+![](/v3/img/blog/releng-side-by-side.png)
 
 We call this an atomic deploy. Each deploy is a full snapshot of the site. We treat the site holistically, so we know exactly which assets and markup make up the site at any given time. We’re able to coordinate the release of the deploy all at once by following the convention of assets before markup. Removing the race from the race condition let’s Netlify guarantee a consistent version of the site globally.
 
 ## History and Rollback
 
-![](/img/blog/releng-rollback.png)
+![](/v3/img/blog/releng-rollback.png)
 
 If you’re familiar with git, you’ll recognize the way we structure a deploy. By using a composed tree of SHAs, we can minimize the uploads by uniquing the objects. What it also means is that we can easily store the history of a site.
 
@@ -72,7 +71,7 @@ All we have to do is invalidate all the caching layers.
 
 We have a network of nodes that make up our CDN. They cache the results of a request as close to a user as possible. That means that the next request for your site is like Greased Lightning. Not your next request, anyone's next request. However, all this performance comes at a cost — updating the version is difficult.
 
-![](/img/blog/releng-meme.jpg)
+![](/v3/img/blog/releng-meme.jpg)
 
 In a web request there are a few layers of caching. Closest to the user is the browser cache, it is controlled by [E-Tag and cache control headers](http://dev.mobify.com/blog/beginners-guide-to-http-cache-headers/). By setting these to values which cause no caching, we can make sure that the user doesn't see old assets. Why have this cache layer at all? Well, when you set these headers properly, the browser will do a [conditional get](https://spaces.internet2.edu/display/InCFederation/HTTP+Conditional+GET) — meaning we tell the browser to check in with the origin server and only load assets if necessary. Usually the value won't have changed, and the browser cache will do exactly what it is supposed to. If the value has changed, then we’ll load the correct value.
 

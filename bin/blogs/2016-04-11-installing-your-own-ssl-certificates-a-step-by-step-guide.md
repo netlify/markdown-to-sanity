@@ -3,7 +3,7 @@
 title: "Installing Your Own SSL Certificates: A Step-by-Step Guide"
 authors:
   - Aaron Autrand
-image: /img/blog/ssl-certificate.jpg
+image: /v3/img/blog/ssl-certificate.jpg
 image_caption: null
 format: blog
 short_title: Install Custom SSL Certs
@@ -12,8 +12,8 @@ thumbnail: thumbnails/ssllock.png
 cmsUserSlug: ""
 date: 2016-04-11T00:00:00.000Z
 tags:
-  - tutorial
-  - ssl
+  - Tutorial
+  - SSL
 topics:
   - tutorials
 ---
@@ -28,19 +28,19 @@ Log in to [app.netlify.com](https://app.netlify.com) and choose your site.
 
 First, make sure that your custom domain has been set. The domain name of your site must match the domain name on the SSL certificate.
 
-![ssldomain.png](/img/blog/ssldomain.png)
+![ssldomain.png](/v3/img/blog/ssldomain.png)
 
 Next click `SSL` at the top of your page. Then click the button labeled `Provide Your Own Certificate`.
 
-![sslprovidebutton.png](/img/blog/sslprovidebutton.png)
+![sslprovidebutton.png](/v3/img/blog/sslprovidebutton.png)
 
 A window will pop up that looks like this:
 
-![sslmanual.png](/img/blog/sslmanual.png)
+![sslmanual.png](/v3/img/blog/sslmanual.png)
 
 In the top box, you'll paste in the contents of your PEM formatted certificate. PEM format is the format most widely used by Certificate authorities, and will usually have extensions of `.pem`, `.crt`, `.cer` or `.key`. The file will look like something like this:
 
-![PEM Certificate Example](/img/blog/illust_pemfile.gif)
+![PEM Certificate Example](/v3/img/blog/illust_pemfile.gif)
 
 Copy the bottom portion, beginning with the first dash of the `Begin Certificate` line and ending after the last dash of the `End Certificate` line. Paste the selection in the `Certificate` box at the top of the popup.
 

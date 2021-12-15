@@ -8,9 +8,9 @@ lastmod: 2021-07-12
 topics:
   - tutorials
 tags:
-  - rollback
-  - jamstack
-  - netlify
+  - rollbacks
+  - Jamstack
+  - Netlify
 tweet: ""
 format: blog
 seo:

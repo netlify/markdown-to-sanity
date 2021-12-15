@@ -10,9 +10,9 @@ lastmod: 2020-07-13T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - stripe
-  - tutorial
-  - ecommerce
+  - Stripe
+  - Tutorial
+  - E-commerce
 tweet: ""
 format: blog
 seo:
@@ -20,7 +20,7 @@ seo:
     Learn How to Add Subscriptions and Protected Content With Stripe
   metadescription: >
     Companies at every size need to make money to survive. Learn how to manage user subscriptions and paywall content in this in-depth tutorial!
-  ogimage: /img/blog/stripe-subscriptions/og-image.jpg
+  ogimage: /v3/img/blog/stripe-subscriptions/og-image.jpg
 relatedposts:
   - Learn How to Accept Money on Jamstack Sites in 38 Minutes
   - Add a Donation Button & Start Accepting Money On Jamstack Sites
@@ -64,11 +64,11 @@ Clicking this button will:
 - Create a new GitHub repo on your account with the demo starter code (see the [starter repo](https://github.com/learnwithjason/demo-base))
 - Create and deploy a new Netlify site using your repo
 
-![The Deploy To Netlify UI.](/img/blog/stripe-subscriptions/deploy-to-netlify.png)
+![The Deploy To Netlify UI.](/v3/img/blog/stripe-subscriptions/deploy-to-netlify.png)
 
 Choose a name for your new repo, then click “Save & Deploy”. Once the deployment is complete, you’ll have a deployed, live site with the demo code. You’ll also have a new repository in your GitHub account with the code for the demo.
 
-![GitHub repo created by the Deploy To Netlify flow.](/img/blog/stripe-subscriptions/github-repo.png)
+![GitHub repo created by the Deploy To Netlify flow.](/v3/img/blog/stripe-subscriptions/github-repo.png)
 
 If you don’t already have it, install the Netlify CLI so you can run the site locally with access to Netlify features. This is necessary later on for testing serverless functions, so don’t skip this part!
 
@@ -185,7 +185,7 @@ ntl dev
 
 This starts a development server at `http://localhost:8888` that will automatically reload as you make changes.
 
-![The dev server rendering the CSS and HTML from above.](/img/blog/stripe-subscriptions/netlify-dev-server.png)
+![The dev server rendering the CSS and HTML from above.](/v3/img/blog/stripe-subscriptions/netlify-dev-server.png)
 
 At this point, you’ll see a headline, buttons to log in or sign up, and three headers for different tiers of content. In the next section, you’ll make those buttons work!
 
@@ -193,7 +193,7 @@ At this point, you’ll see a headline, buttons to log in or sign up, and three 
 
 To add [Netlify Identity](https://docs.netlify.com/visitor-access/identity/?utm_source=blog&utm_medium=stripe-subs-jl&utm_campaign=devex) to the site, visit your Netlify dashboard and click the “Identity” tab for the site you just created.
 
-![The UI to enable Netlify Identity in the Netlify dashboard.](/img/blog/stripe-subscriptions/netlify-identity.png)
+![The UI to enable Netlify Identity in the Netlify dashboard.](/v3/img/blog/stripe-subscriptions/netlify-identity.png)
 
 Click “Enable Identity” — all set!
 
@@ -244,27 +244,27 @@ Next, import the [Netlify Identity widget](https://github.com/netlify/netlify-id
 
 Click the "Sign Up" button and the Netlify Identity widget will show up. For local development, you need to configure the site’s URL so it knows where to look for user information.
 
-![Configure the site URL for local development with Netlify Identity.](/img/blog/stripe-subscriptions/netlify-identity-local-url.png)
+![Configure the site URL for local development with Netlify Identity.](/v3/img/blog/stripe-subscriptions/netlify-identity-local-url.png)
 
 Paste your Netlify site’s URL in the field, then click “Set site’s URL”. The widget will reload and show the “Sign up” view.
 
-![Sign up view in the Netlify Identity widget.](/img/blog/stripe-subscriptions/netlify-identity-widget.png)
+![Sign up view in the Netlify Identity widget.](/v3/img/blog/stripe-subscriptions/netlify-identity-widget.png)
 
 Create a user and click “Sign up”. This will trigger a confirmation email that looks similar to this:
 
-![Netlify Identity confirmation email.](/img/blog/stripe-subscriptions/confirmation-email.png)
+![Netlify Identity confirmation email.](/v3/img/blog/stripe-subscriptions/confirmation-email.png)
 
 Copy the link address from the email. It contains a hash starting with `confirmation_token=` — add that hash to the end of `http://localhost:8888` and you’ll be able to confirm your user account locally:
 
-![Confirm your Netlify Identity user locally.](/img/blog/stripe-subscriptions/local-confirmation.png)
+![Confirm your Netlify Identity user locally.](/v3/img/blog/stripe-subscriptions/local-confirmation.png)
 
 After loading that URL in your browser, you’ll see the widget open and confirm that you are, in fact, logged in.
 
-![Netlify Identity widget displaying logged in user confirmation.](/img/blog/stripe-subscriptions/logged-in.png)
+![Netlify Identity widget displaying logged in user confirmation.](/v3/img/blog/stripe-subscriptions/logged-in.png)
 
 If you look at the Netlify Identity tab in your account, you’ll see the new user created.
 
-![Netlify Identity tab in the dashboard showing the created user.](/img/blog/stripe-subscriptions/netlify-dashboard-users.png)
+![Netlify Identity tab in the dashboard showing the created user.](/v3/img/blog/stripe-subscriptions/netlify-dashboard-users.png)
 
 > **Heads up!** If you prefer, you can also deploy the site to sign up and confirm your account without using the local site. This will all feel much more seamless when the site is deployed!
 
@@ -527,7 +527,7 @@ This code sends of an asynchronous request to the `get-protected-content` server
 
 Stop the dev server with `control + C`, then run `ntl dev` again to see the loaded content.
 
-![All content fetched from the serverless function and displayed.](/img/blog/stripe-subscriptions/fetched-content.png)
+![All content fetched from the serverless function and displayed.](/v3/img/blog/stripe-subscriptions/fetched-content.png)
 
 ### Check for the appropriate role before returning content.
 
@@ -613,19 +613,19 @@ Netlify Functions automatically detect JWTs and place them into a `context` argu
 
 Save and check the browser to see that all of the content is now protected behind a “Subscription Required” notification.
 
-![Content displayed with no role on the user, meaning all content is marked as requiring a subscription.](/img/blog/stripe-subscriptions/content-no-role.png)
+![Content displayed with no role on the user, meaning all content is marked as requiring a subscription.](/v3/img/blog/stripe-subscriptions/content-no-role.png)
 
 If you go back to your Identity tab in the Netlify dashboard, you’ll see that the reason for this is that no role has been set for the user yet.
 
-![The Netlify Identity dashboard showing a user with no roles set.](/img/blog/stripe-subscriptions/netlify-identity-dashboard-no-role.png)
+![The Netlify Identity dashboard showing a user with no roles set.](/v3/img/blog/stripe-subscriptions/netlify-identity-dashboard-no-role.png)
 
 Click the user and edit the role to be “pro”.
 
-![The Netlify Identity dashboard showing a user with no roles set.](/img/blog/stripe-subscriptions/netlify-identity-dashboard-pro-role.png)
+![The Netlify Identity dashboard showing a user with no roles set.](/v3/img/blog/stripe-subscriptions/netlify-identity-dashboard-pro-role.png)
 
 After saving this change, reload `http://localhost:8888` while logged in to see that the user now has access to the free and pro content!
 
-![Content displayed with the pro role assigned to the user.](/img/blog/stripe-subscriptions/content-pro-role.png)
+![Content displayed with the pro role assigned to the user.](/v3/img/blog/stripe-subscriptions/content-pro-role.png)
 
 At this point, you’ve successfully set up role-based access management, but it’s managed manually right now — that’s not sustainable. In the next sections, you’ll extend this app to hook up Stripe and automatically manage roles based on the user’s active subscription status.
 
@@ -659,17 +659,17 @@ Click the “New Database” button, then give your database a memorable name an
 
 After creating the database, click on the GraphQL option in the left-hand nav, then click the “Import Schema” button and choose the schema file you just created in `db/schema.gql`. After the upload completes, you’ll see a GraphQL playground, and if you click the “docs” tab you can see the queries defined in the schema.
 
-![The GraphQL Playground on the Fauna dashboard.](/img/blog/stripe-subscriptions/fauna-graphql-playground.png)
+![The GraphQL Playground on the Fauna dashboard.](/v3/img/blog/stripe-subscriptions/fauna-graphql-playground.png)
 
 ### Generate a server key for your Fauna database.
 
 Next, click the “Security” option in the left-hand nav and click “New Key”. Choose the Server role and click “Save” to generate a secret key that will allow you to read from and write to Fauna from your serverless functions.
 
-![Secret key on the Fauna dashboard.](/img/blog/stripe-subscriptions/fauna-secret-key.png)
+![Secret key on the Fauna dashboard.](/v3/img/blog/stripe-subscriptions/fauna-secret-key.png)
 
 Copy this key, then head to your site admin page in your Netlify dashboard and click Settings, then Deployment. In the Environment section, add a new environment variable called `FAUNA_SERVER_KEY` and enter the key you just copied from the Fauna dashboard.
 
-![Fauna secret key saved as an environment variable on the Netlify dashboard.](/img/blog/stripe-subscriptions/netlify-env-fauna.png)
+![Fauna secret key saved as an environment variable on the Netlify dashboard.](/v3/img/blog/stripe-subscriptions/netlify-env-fauna.png)
 
 ### Create a Fauna utility function to send authenticated requests.
 
@@ -712,7 +712,7 @@ Head to [https://dashboard.stripe.com](https://dashboard.stripe.com) and sign in
 
 Set the name to “Free Plan”, set the price to $0.00 and click “Save product”. On the next screen, look for the Pricing section and copy the API ID for the price (it starts with `price_`). You’ll need this later.
 
-![The Stripe product dashboard showing the pricing API ID.](/img/blog/stripe-subscriptions/stripe-price-plan.png)
+![The Stripe product dashboard showing the pricing API ID.](/v3/img/blog/stripe-subscriptions/stripe-price-plan.png)
 
 Repeat the product creation process to add the following products and prices:
 
@@ -799,19 +799,19 @@ Once the site is deployed, delete the original user in the Netlify Identity tab 
 
 Once you verify your email, you’ll see the free tier content after logging in.
 
-![The UI showing only the free content after creating a new user.](/img/blog/stripe-subscriptions/content-free-role.png)
+![The UI showing only the free content after creating a new user.](/v3/img/blog/stripe-subscriptions/content-free-role.png)
 
 If you check the newly created user in the Netlify dashboard, you’ll see that the `free` role was automatically added!
 
-![Netlify Identity dashboard showing a user with the free role applied after signup.](/img/blog/stripe-subscriptions/netlify-identity-free-role.png)
+![Netlify Identity dashboard showing a user with the free role applied after signup.](/v3/img/blog/stripe-subscriptions/netlify-identity-free-role.png)
 
 Head to your Stripe dashboard and click “Customers” to see that a new customer with the same email as your user was created in Stripe.
 
-![Customer in the Stripe dashboard.](/img/blog/stripe-subscriptions/stripe-customer.png)
+![Customer in the Stripe dashboard.](/v3/img/blog/stripe-subscriptions/stripe-customer.png)
 
 And if you check the Fauna database, a new `User` entry has been created with the Netlify and Stripe IDs for this user.
 
-![User entry in the Fauna dashboard.](/img/blog/stripe-subscriptions/fauna-user-entry.png)
+![User entry in the Fauna dashboard.](/v3/img/blog/stripe-subscriptions/fauna-user-entry.png)
 
 At this point, you’ve successfully set up a full integration between Stripe, Fauna, and Netlify! Holy buckets!
 
@@ -1022,15 +1022,15 @@ https://<SITE_NAME>.netlify.app/.netlify/functions/handle-subscription-change
 
 In the “Events to send” dropdown, search for `customer.subscription.updated` and select it. Once that’s set, click the “Add endpoint” button to save it.
 
-![The webhook creation dialog in the Stripe dashboard.](/img/blog/stripe-subscriptions/stripe-webhook.png)
+![The webhook creation dialog in the Stripe dashboard.](/v3/img/blog/stripe-subscriptions/stripe-webhook.png)
 
 On the next screen, you’ll see a section called “Signing secret”. Click to reveal it, then copy it to your clipboard.
 
-![The webhook secret shown on the Stripe dashboard.](/img/blog/stripe-subscriptions/stripe-webhook-secret.png)
+![The webhook secret shown on the Stripe dashboard.](/v3/img/blog/stripe-subscriptions/stripe-webhook-secret.png)
 
 In your Netlify dashboard, create a new environment variable called `STRIPE_WEBHOOK_SECRET` and add the signing secret you just copied.
 
-![Netlify environment variables in the dashboard, including the Stripe webhook secret.](/img/blog/stripe-subscriptions/netlify-env-stripe-webhook-secret.png)
+![Netlify environment variables in the dashboard, including the Stripe webhook secret.](/v3/img/blog/stripe-subscriptions/netlify-env-stripe-webhook-secret.png)
 
 Now all that’s left to do is push the changes to Netlify and try it out!
 

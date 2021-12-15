@@ -10,7 +10,7 @@ topics:
 tags:
   - Frontend
   - Engineering
-  - Netlify functions
+  - Netlify Functions
 tweet: ""
 format: blog
 relatedposts:
@@ -20,7 +20,7 @@ relatedposts:
 seo:
   metadescription: Learn how to automatically trigger Netlify Functions on specific Netlify events
   metatitle: How to use event-triggered Netlify Functions
-  ogimage: /img/blog/og-event-triggered-netlify-functions.png
+  ogimage: /v3/img/blog/og-event-triggered-netlify-functions.png
 ---
 
 Netlify Functions are serverless functions you can write in Node.js, TypeScript or Go. You can use them to fetch data from APIs, send notification emails, and much more. But did you know they can be triggered automatically by certain Netlify events?
@@ -84,7 +84,7 @@ Once this function is pushed to your Git provider and the site deploys, if it fa
 
 Here's an example with cancelling a deploy:
 
-![Triggering a deploy and cancelling it before it finishes triggers the function and posts a GIF on Slack](/img/blog/event-triggered-function.gif)
+![Triggering a deploy and cancelling it before it finishes triggers the function and posts a GIF on Slack](/v3/img/blog/event-triggered-function.gif)
 
 Event-driven functions can be used to add all sorts of automation, observability, and integrations to your projects. How might you use them?
 

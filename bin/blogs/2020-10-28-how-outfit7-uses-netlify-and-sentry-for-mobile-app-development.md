@@ -10,7 +10,7 @@ topics:
   - case-studies
 tags:
   - mobile app
-  - jamstack
+  - Jamstack
   - sentry
   - app development
 tweet: ""
@@ -26,7 +26,7 @@ Back in the day, you were able to FTP a PHP script to a server and it was online
 
 Understanding these struggles first hand is primarily what drove the creation of both Netlify and Sentry. Netlify is on a mission to bring the simplicity of building and hosting software for the web based on the [Jamstack](https://www.netlify.com/jamstack/?utm_source=netlify.com%2Fblog%2F&utm_medium=blog&utm_campaign=partner-post-sentry) architecture, while [Sentry](https://sentry.io/signup/) is focused on helping developers diagnose, fix, and optimize their code. Together these tools help software teams ship customer value continuously with a new level of confidence.
 
-![Outfit7 logo image](/img/blog/outfit7_netlifyblogbanner.png)
+![Outfit7 logo image](/v3/img/blog/outfit7_netlifyblogbanner.png)
 
 We recently sat down with Primož Bevk, Senior IT Strategist at [Outfit7](https://outfit7.com/applications/), to learn more about how the team at the multinational gaming and entertainment company navigates the challenges of building mobile web applications, all while shipping frequent updates. Outfit7’s portfolio of over 20 games have a mind-bending 14 billion global downloads – and an engaged fan base that wants more of the fun and games they’ve come to know and love. Dedicated to continuing to deliver a first-class gaming experience, Outfit7 evaluated the tools it was using to help the team ship code changes frequently and address customer-facing issues quickly.
 

@@ -11,8 +11,8 @@ lastmod: 2021-08-02
 topics:
   - news
 tags:
-  - gitlab
-  - deploy previews
+  - Gitlab
+  - Deploy Previews
   - collaborative deploy previews
 tweet: ""
 format: blog
@@ -24,7 +24,7 @@ seo:
     free. "
   metatitle: New Netlify integration with GitLab for fast, visual feedback on
     Deploy Previews
-  ogimage: /img/blog/netlify-gitlab-og-image-for-august-3-2021.png
+  ogimage: /v3/img/blog/netlify-gitlab-og-image-for-august-3-2021.png
 ---
 GitLab users, your wait is over! You can now use Netlify’s new reviewer tools to create [GitLab issues](https://docs.gitlab.com/ee/user/project/issues/) and file bugs directly from Deploy Previews.
 
@@ -44,11 +44,11 @@ When you first set up collaborative Deploy Previews, you'll need to connect your
 
 From a Deploy Preview, open the Netlify Drawer and go to the Integrations tab. This tab is where you can connect to GitLab, and also to other productivity tools your team is using like Linear, Clubhouse (soon to be Shortcut), or Trello. Authenticating with your GitLab user ID will enable you to [mention team members](https://docs.gitlab.com/ee/user/project/issues/issue_data_and_actions.html#mentions) on your GitLab team, create new [issues](https://docs.gitlab.com/ee/user/project/issues/) in your GitLab [repository](https://docs.gitlab.com/ee/user/project/repository/), and comment on [merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/index.html).
 
-![How to connect GitLab to Netlify](/img/blog/cdp-gitlab-blog1.png)
+![How to connect GitLab to Netlify](/v3/img/blog/cdp-gitlab-blog1.png)
 
 Once you're logged in, you may want to visit the Activity tab in the Netlify Drawer, where team members and approved reviewers can leave comments on the Deploy Preview. These comments are then synced and mirrored on the GitLab merge request so that everyone on the project team stays aligned.
 
-![How to sync comments between Netlify and GitLab](/img/blog/cdp-gitlab-blog2.png)
+![How to sync comments between Netlify and GitLab](/v3/img/blog/cdp-gitlab-blog2.png)
 
 If you are a pending reviewer, a team Owner must approve your request before you can access all available collaboration tools for your role.
 

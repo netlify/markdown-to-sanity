@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Assemble on Netlify"
 authors:
   - Aaron Autrand
-image: /img/blog/assemble-screenshot.png
+image: /v3/img/blog/assemble-screenshot.png
 format: blog
 short_title: Assemble on Netlify
 description: A step-by-step guide on how to host a website built with static site generator Assemble.
@@ -12,8 +12,8 @@ cmsUserSlug: ""
 date: 2016-01-11
 tags:
   - assemble
-  - nodejs
-  - tutorial
+  - NodeJS
+  - Tutorial
 topics:
   - tutorials
 ---

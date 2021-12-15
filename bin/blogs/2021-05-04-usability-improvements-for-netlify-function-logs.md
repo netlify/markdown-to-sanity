@@ -9,8 +9,8 @@ lastmod: 2021-05-05
 topics:
   - news
 tags:
-  - serverless
-  - functions
+  - Serverless
+  - Functions
   - logs
 tweet: ""
 format: blog
@@ -23,7 +23,7 @@ seo:
   metadescription: "Managing and troubleshooting serverless functions in Netlify
     just got even easier. Learn how to color-code Netlify function logs, and
     filter by error message, date and time, and more. "
-  ogimage: /img/blog/og-usability-improvements-for-netlify-function-logs.png
+  ogimage: /v3/img/blog/og-usability-improvements-for-netlify-function-logs.png
 ---
 We’re excited to announce a few enhancements to make your life a little easier when managing and troubleshooting serverless functions on Netlify!
 
@@ -37,13 +37,13 @@ Now we’re focused on making it easier to use the function logs. This is a wrap
 
 If you tried to debug functions while looking at a log output, it can be pretty frustrating. The logs scroll by pretty fast. Now it’s possible to hit the pause button, which will stop auto-scrolling so you can take the time to review a specific log line or stack trace. Once you’re done, simply hit the down button to resume scrolling.
 
-![Pause auto-scrolling of Netlify Function Logs](/img/blog/netlify-function-log-scrolling.png)
+![Pause auto-scrolling of Netlify Function Logs](/v3/img/blog/netlify-function-log-scrolling.png)
 
 ## 2. Color coding
 
 To help you isolate important details in the function logs and determine when to hit the pause button, we’ve also introduced color coding. Now you’ll see sections of the logs highlighted with colors to help visually locate important attributes such as request identifiers, warnings, and errors.
 
-![How to color-code Netlify function logs](/img/blog/colorcodingnetlifylogs.png)
+![How to color-code Netlify function logs](/v3/img/blog/colorcodingnetlifylogs.png)
 
 ## 3. Text and log level filtering
 
@@ -51,17 +51,17 @@ When you know exactly what you’re looking for in a log output, it’s now poss
 
 For example, if you want to refine the logs for only one invocation, you can filter for that specific ID.
 
-![Text and log-level filtering in Netlify Logs](/img/blog/text-log-level-filtering-netlify.png)
+![Text and log-level filtering in Netlify Logs](/v3/img/blog/text-log-level-filtering-netlify.png)
 
 Then go one step further and filter by log level so you can just see just the errors for that ID.
 
-![Log-level filtering in Netlify Logs](/img/blog/netlify-error-log-search.png)
+![Log-level filtering in Netlify Logs](/v3/img/blog/netlify-error-log-search.png)
 
 ## 4. Date and time selection
 
 Often, there’s a specific time frame you need to evaluate within the logs. With a new date and time selector, you can view Function logs for different timeframes, including the latest (now+forward, tailing), the last hour, or from within a custom timeframe.
 
-![How to filter Netlify logs by date and time](/img/blog/date-time-selection-netlify-logs.png)
+![How to filter Netlify logs by date and time](/v3/img/blog/date-time-selection-netlify-logs.png)
 
 Serverless functions are becoming an essential tool for building performant and highly dynamic websites and web apps. We hope this makes your experience using Netlify Functions even more magical.
 

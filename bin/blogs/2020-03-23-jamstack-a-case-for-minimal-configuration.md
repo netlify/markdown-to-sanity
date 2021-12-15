@@ -14,7 +14,7 @@ lastmod: '2020-04-01'
 topics:
   - tutorials
 tags:
-  - jamstack
+  - Jamstack
 tweet: ''
 format: blog
 seo:
@@ -23,7 +23,7 @@ seo:
     JAMstack so delightful. JAMstack is a modern way to build apps that are
     fast, and secure.
   metatitle: 'JAMstack Build Automation, Event Triggers, & Serverless Functions'
-  ogimage: /img/blog/jamstackflag.png
+  ogimage: /v3/img/blog/jamstackflag.png
 ---
 Configuration is often more work than it's worth. As frontend developers, focused on the front end, configuring builds adds an extra layer of cognitive burden and can take away from completing the primary task at hand. The JAMstack seeks to abstract configuration in favor of a more streamlined workflow where complexity can be built in piecemeal or even outsourced entirely to a separate [microservice](https://www.netlify.com/blog/2019/11/18/what-are-microservices/). Building in this manner can cause unneeded complexity in applications in a more conscientious fashion and enables them to better reason about logic in their applications.
 

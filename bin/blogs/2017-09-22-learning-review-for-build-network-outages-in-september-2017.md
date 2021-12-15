@@ -2,7 +2,7 @@
 title: Learning Review for Build Network Outages in September 2017
 authors:
   - Chris McCraw
-image: /img/blog/planning.jpg
+image: /v3/img/blog/planning.jpg
 short_title: Learning Review for Build Network Outages
 topics:
   - insights

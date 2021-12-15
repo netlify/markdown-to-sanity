@@ -3,7 +3,7 @@
 title: Go Static Without Losing Your Server
 authors:
   - Sam Deere
-image: /img/blog/migrating-birds.jpg
+image: /v3/img/blog/migrating-birds.jpg
 format: blog
 short_title: Gradual Migration
 description: "Sam Deere of Giving What We Can talks about the reasons behind the non-profit's switch to the static stack, and how they are using Netlify to do it in stages."
@@ -12,7 +12,7 @@ cmsUserSlug: ""
 date: 2016-03-10T00:00:00.000Z
 tags:
   - popular
-  - tutorial
+  - Tutorial
   - migration
 topics:
   - tutorials

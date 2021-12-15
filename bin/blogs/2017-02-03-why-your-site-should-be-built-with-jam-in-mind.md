@@ -2,7 +2,7 @@
 title: Why your next site should be built with JAM
 authors:
   - Brian Douglas
-image: /img/blog/jamstack_logo.png
+image: /v3/img/blog/jamstack_logo.png
 format: blog
 short_title: Spread the JAM
 description: >-

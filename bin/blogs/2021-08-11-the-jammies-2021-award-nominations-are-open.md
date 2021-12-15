@@ -22,7 +22,7 @@ seo:
     the awards process and nominate a Jamstacker today. Winners will be
     announced at Jamstack Conf in October 2021.
   metatitle: The Jammies 2021 Award Nominations are Open!
-  ogimage: /img/blog/jammies2021nominations-og.png
+  ogimage: /v3/img/blog/jammies2021nominations-og.png
 ---
 Are you ready to get your Jammies on? We are, too! For the second time, we’re hosting our annual awards ceremony, [The Jammies](https://jamstackconf.com/jammies/), at [Jamstack Conf](https://jamstackconf.com/). The Jammies recognize innovative projects, new products and community organizers who are pushing the Jamstack ecosystem forward. Nominations for all award categories are now open, and the deadline to submit your nominations is September 3!
 

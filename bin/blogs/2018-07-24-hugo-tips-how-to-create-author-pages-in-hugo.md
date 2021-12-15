@@ -14,8 +14,8 @@ date: '2018-07-24'
 topics:
   - tutorials
 tags:
-  - hugo
-  - tutorial
+  - Hugo
+  - Tutorial
 tweet: ''
 format: blog
 ---

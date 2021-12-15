@@ -22,10 +22,10 @@ Forms, put simply, are user-friendly ways of configuring an HTTP request to send
 
 With Netlify, you have the ability to process form submissions without the need to configure a backend. This magic is brought to you by our build bots, which parse your markup at deploy time and spot any `form` elements in your code which would need somewhere to post their data. The build bots then automagically create the necessary form handlers and APIs for you, so there is no need for you to include additional JavaScript or API calls in your code. Huzzah. To start integrating Netlify forms in your app, all you have to do is add a `netlify` attribute to the form element. Once deployed, you can access form submissions via the Netlify interface under `forms` and selecting one of the active forms listed under `Active Forms.` 
 
-![image of forms admin](/img/blog/netlify-forms-in-a-vue-app1.png)
+![image of forms admin](/v3/img/blog/netlify-forms-in-a-vue-app1.png)
 
 With the form selected, you now have access to viewing every submission collected from that form. 
-![image of forms admin showing data collected](/img/blog/netlify-forms-in-a-vue-app2.png)
+![image of forms admin showing data collected](/v3/img/blog/netlify-forms-in-a-vue-app2.png)
 
 We’ve previously written about integrating Netlify forms into a React application. Though the general gotchas and takeaways can be adapted from that article but there are some additional configurations that are specific to using Netlify forms with Vue, so let’s dive into the specifics.  
 

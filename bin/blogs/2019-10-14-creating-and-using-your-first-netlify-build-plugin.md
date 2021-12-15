@@ -110,7 +110,7 @@ const Twilio = require("twilio")
 
 Then we want to provide our plugin with our Account SID and Auth token. We don’t want to  commit these to GitHub, so we create environment variables to use them in the project. We also want to get the Twilio testing phone number from the dashboard:
 
-![Twilio dashboard](/img/blog/twilio.jpg "Twilio dashboard")
+![Twilio dashboard](/v3/img/blog/twilio.jpg "Twilio dashboard")
 
 And then login to netlify, go to my site, and add them in Settings > Deploys > Environment (or go to this URL and replace the site ID: `https://app.netlify.com/sites/YOUR-SITE-NAME/settings/deploys#environment`
 
@@ -171,7 +171,7 @@ module.exports = {
 
 In this case, the `TO_NUM` is potentially the number of your boss. In my case, my boss is Netlify’s cofounder and as funny as this joke is I might not want to bother him too much 😳So instead, I’ll use this opportunity to text my colleague, Phil Hawksworth! I’m sure he likes that.
 
-![SMS notification of a successful deploy](/img/blog/blog-plugin-sms.jpg "SMS notification of a successful deploy")
+![SMS notification of a successful deploy](/v3/img/blog/blog-plugin-sms.jpg "SMS notification of a successful deploy")
 
 ## Using a Build Plugin
 

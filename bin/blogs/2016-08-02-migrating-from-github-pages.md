@@ -2,10 +2,10 @@
 title: Migrate GitHub Pages to Netlify
 authors:
   - Ryan Neal
-image: /img/blog/gh_to_nfp.png
+image: /v3/img/blog/gh_to_nfp.png
 short_title: Migrate GitHub Pages to Netlify
 tags:
-  - github
+  - Github
   - walkthrough
 format: blog
 description: How to migrate a GitHub Page to Netlify using the CLI
@@ -37,6 +37,6 @@ If you want to setup [continuous delivery](https://www.netlify.com/docs/continuo
 
 It’s just that easy. Your site is now live on our global CDN and tied in to Git. Watch below to see it in action!
 
-![](/img/blog/github-to-netlify.gif)
+![](/v3/img/blog/github-to-netlify.gif)
 
 Don’t worry if you missed any flags, want to setup a custom domain or do any other number of useful tasks, you can always [log in to the app](https://app.netlify.com) and tweak the settings.

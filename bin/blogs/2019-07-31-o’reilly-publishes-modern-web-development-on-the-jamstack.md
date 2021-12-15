@@ -12,7 +12,7 @@ relatedposts:
 topics:
   - news
 tags:
-  - JAMstack
+  - Jamstack
 tweet: ''
 format: blog
 ---
@@ -24,7 +24,7 @@ This history and commitment to sharing what we’ve learned about the JAMstack a
 
 
 
-![Book cover: Modern Web Development on the JAMstack](/img/blog/oreilly-book-promo.jpg "Modern Web Development on the JAMstack")
+![Book cover: Modern Web Development on the JAMstack](/v3/img/blog/oreilly-book-promo.jpg "Modern Web Development on the JAMstack")
 
 Written by Matt Biilmann and myself (Phil Hawksworth) with considerable help from the Netlify team, in particular Todd Morey and Chris Bach, this O’Reilly report covers many aspects of the JAMstack architectural approach.
 
@@ -46,4 +46,4 @@ If you have more questions about JAMstack, or comments about the book, please le
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#first-o-reilly-jamstack-book)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#first-o-reilly-jamstack-book)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#first-o-reilly-jamstack-book)

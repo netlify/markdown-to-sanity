@@ -12,7 +12,7 @@ topics:
 tags:
   - popular
   - jwt
-  - identity
+  - Identity
 tweet: ''
 format: blog
 ---
@@ -73,7 +73,7 @@ The widget is open source, so you’re free to fork and change it, or contribute
 When using Identity, you don’t have to enter the JWT secret on the site — Netlify will handle that for you automatically. Now let’s get Identity set up for you:
 
 1. First, head over to your Netlify site settings, and click the link in the main menu at the top to go to the Identity page. The URL is unique for each site, but you can see all of your sites from [here](https://app.netlify.com/). Once there, click the “Enable Identity” button as shown below:
-   ![Indtroducing Identity](/img/blog/introducing_identity.png)
+   ![Indtroducing Identity](/v3/img/blog/introducing_identity.png)
    Once you’ve done that, you’ll see a list of current Identity users, which will initially consist of the e-mail address associated with that Netlify account. From this page you can also add more users, but you won’t be able to complete user signup until you’ve done step 2.  This is because to confirm an e-mail account, the Netlify Identity Widget needs to be available on your site.
 2. You’ll need a way for users to log in. You can make your own with [G](https://github.com/netlify/gotrue-js)[oTrue-js](https://github.com/netlify/gotrue-js), or use the [Netlify Identity Widget](https://github.com/netlify/netlify-identity-widget). If you choose to use our widget, you can add it to your HTML files automatically by using our [script injection](https://www.netlify.com/docs/inject-analytics-snippets/), or manually add the following to the HTML pages you want to interact with the widget:
    ```html
@@ -111,7 +111,7 @@ If you don’t want to use Netlify Identity, you can use a third-party service l
 
 From your site dashboard, go to **Settings > Access control > Visitor access**, and set the JWT secret that you receive or set from the JWT authentication service you’re using. We need it to verify the signature on your tokens:
 
-![Set JWT Secret](/img/blog/set_secret.png)
+![Set JWT Secret](/v3/img/blog/set_secret.png)
 
 ## Identity sample site
 

@@ -11,7 +11,7 @@ topics:
   - news
 tags:
   - Netlify Labs
-  - design
+  - Design
   - UI
 tweet: ""
 format: blog
@@ -19,7 +19,7 @@ relatedposts:
   - Test Drive Netlify Beta Features with Netlify Labs
   - From semantic CSS to Tailwind - Refactoring the Netlify UI codebase
 seo:
-  ogimage: /img/blog/dark-mode.png
+  ogimage: /v3/img/blog/dark-mode.png
   metatitle: Dark mode fans - Take these steps to set it up in the Netlify app
   metadescription: New! Turn on dark mode with Netlify Labs, a beta testing area
     in the Netlify web app to try Netlify beta features. We share how we built
@@ -27,7 +27,7 @@ seo:
 ---
 Any Netlify customer can now turn on dark mode, giving you more options to fit your preferences.
 
-![Dark mode in the Netlify app](/img/blog/dark-mode-blogpost-image.png "Dark mode in the Netlify app")
+![Dark mode in the Netlify app](/v3/img/blog/dark-mode-blogpost-image.png "Dark mode in the Netlify app")
 
 It’s easy:
 

@@ -9,7 +9,7 @@ thumbnail: /uploads/netlify-gitlab-thumbnail.png
 cmsUserSlug: ""
 date: 2016-09-27
 tags:
-  - react
+  - React
 topics:
   - tutorials
 ---
@@ -34,7 +34,7 @@ This component is aware of its own state and even uses other functions to help o
 
 This a dumb component that simply presents the data as provided. These components are perfect for reusability and simple to test. The plan page showing pricing and features lives in the **<SitePlanMenu />** Component, which is a Smart Component.
 
-![plans](/img/blog/plans.png)
+![plans](/v3/img/blog/plans.png)
 
 The code originally was written with the idea of eventually moving towards Pure components, where each section is abstracted into its own function and called in the render method.
 

@@ -10,7 +10,7 @@ lastmod: 2021-04-01
 topics:
   - news
 tags:
-  - functions
+  - Functions
 tweet: ""
 format: blog
 relatedposts:
@@ -20,7 +20,7 @@ seo:
   metadescription: We're improving Netlify Functions to give developers better and
     faster serverless workflows. Try out our function bundler and new JavaScript
     features.
-  ogimage: /img/blog/og-modern-faster-netlify-functions.png
+  ogimage: /v3/img/blog/og-modern-faster-netlify-functions.png
 ---
 We've been working on a series of improvements to Netlify Functions that will give developers better and faster serverless workflows. In the spirit of sharing progress earlier and more often, we want to let you in while we're still developing this feature and use your feedback to create the best possible experience.
 
@@ -30,7 +30,7 @@ When you publish a JavaScript function, our build system does some processing to
 
 This process involves some optimizations to ensure that your functions are as small and fast as possible, like discarding any code that doesn’t contribute to the output of the program (*dead code elimination*), as well as filtering the dependencies — and the subset of their files — that your function actually needs (*tree shaking*).
 
-![The bundling process - functions are as small and fast as possible.](/img/blog/bundled-function.png "The function bundling process - functions are as small and fast as possible.")
+![The bundling process - functions are as small and fast as possible.](/v3/img/blog/bundled-function.png "The function bundling process - functions are as small and fast as possible.")
 
 With the latest release of [our function bundler](https://github.com/netlify/zip-it-and-ship-it), we’re starting to use [esbuild](https://esbuild.github.io/) under the hood to handle some parts of this. It also includes an additional step of *inlining*, where your function code and its dependencies are physically merged into a single file.
 

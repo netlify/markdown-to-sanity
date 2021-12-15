@@ -44,15 +44,15 @@ We'll assume you already have a Netlify site deployed with a [Custom Domain](htt
 2. You will receive a verification email, which will take you to your [Creators Dashboard](https://publishers.basicattentiontoken.org/publishers/home).
 3. Scroll down and click on **Add Channel**, and then **Website**:
 
-    ![BAT signup](/img/blog/batsignup.png)
+    ![BAT signup](/v3/img/blog/batsignup.png)
 
 4. Enter your domain, and choose a verification method.
 
-    ![batsignup2](/img/blog/batsignup2.png)
+    ![batsignup2](/v3/img/blog/batsignup2.png)
 
 5. Implement your chosen verification method. If you choose the trusted file method, you can follow their instructions, or you can go the DNS route and [add the DNS records](https://www.netlify.com/docs/dns/#adding-dns-records) in the Netlify UI:
 
-    ![batsignup3](/img/blog/batsignup3.png)
+    ![batsignup3](/v3/img/blog/batsignup3.png)
 
 After the verification process, which took a few minutes for me, you will have completed the setup process! From now onward, when someone who has set up the Brave browser to pay publishers visits your site, you will be earning BATs!
 

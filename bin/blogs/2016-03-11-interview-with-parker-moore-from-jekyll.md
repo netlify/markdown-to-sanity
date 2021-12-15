@@ -3,7 +3,7 @@
 title: Interview with Parker Moore from Jekyll
 authors:
   - Aaron Autrand
-image: /img/blog/parker-moore-jekyll.jpg
+image: /v3/img/blog/parker-moore-jekyll.jpg
 image_caption: null
 format: blog
 short_title: Interview with Parker Moore
@@ -12,10 +12,9 @@ thumbnail: thumbnails/parker.jpg
 cmsUserSlug: ""
 date: 2016-03-11T00:00:00.000Z
 tags:
-  - interview
+  - Interview
   - swt
-  - parker moore
-  - jekyll
+  - Jekyll
 topics:
   - tools
 ---

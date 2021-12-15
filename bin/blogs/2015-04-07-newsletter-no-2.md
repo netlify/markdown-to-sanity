@@ -3,7 +3,7 @@
 title: Netlify News No. 2
 authors:
   - Christian Bach
-image: /img/blog/vintage-dance-party.jpg
+image: /v3/img/blog/vintage-dance-party.jpg
 format: blog
 short_title: Our Second Newsletter
 description: "Netlify is live, we made front page of Hacker News and welcome to the Static Web-Tech SF Meetup"
@@ -14,8 +14,8 @@ lastmod: 2020-08-03
 relatedposts:
   - Netlify Milestones on the road to 1 Million Devs
 tags:
-  - netlify
-  - news
+  - Netlify
+  - News
 topics:
   - news
 ---
@@ -63,4 +63,4 @@ Matt & Chris
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-officially-launches)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-officially-launches)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-officially-launches)

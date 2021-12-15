@@ -9,7 +9,7 @@ date: '2019-03-13'
 topics:
   - sites
 tags:
-  - JAMstack
+  - Jamstack
   - Site
   - Headless
   - Search
@@ -26,6 +26,6 @@ Submissions are via a Google Form, which [populates a Google Sheet](https://twit
 
 Simple. Crafty. Effective.
 
-![Screenshot - https://www.designcurated.io](/img/blog/featured-site-curated.jpg "Screenshot - https://www.designcurated.io")
+![Screenshot - https://www.designcurated.io](/v3/img/blog/featured-site-curated.jpg "Screenshot - https://www.designcurated.io")
 
 👉[**www.designcurated.io**](https://www.designcurated.io)

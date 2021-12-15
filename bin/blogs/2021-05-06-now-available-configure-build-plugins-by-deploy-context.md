@@ -10,8 +10,8 @@ lastmod: 2021-05-06
 topics:
   - news
 tags:
-  - build plugins
-  - deploys
+  - Build Plugins
+  - Deploys
 tweet: ""
 format: blog
 relatedposts:
@@ -22,12 +22,8 @@ seo:
   metadescription: "Learn how to customize your Netlify build process
     with Build Plugins that run differently (or not at all) across production,
     Deploy Preview, and branch deploy contexts."
-  ogimage: /img/blog/configure-build-plugins-by-deploy-context-og-background-learn-more.png
+  ogimage: /v3/img/blog/configure-build-plugins-by-deploy-context-og-background-learn-more.png
 ---
-<style>
-.post-body a {
-  text-decoration: underline;
-</style>
 
 Now you can configure any of Netlify’s Build Plugins so they run only in specific deploy contexts!
 

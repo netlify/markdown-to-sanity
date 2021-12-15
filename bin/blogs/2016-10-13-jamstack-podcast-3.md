@@ -9,15 +9,15 @@ authors:
 guests:
   - name: Rafael Conde
     bio: Rafael Conde is the Design Lead at Heavybit Member company Netlify. His passion is design, and he codes for fun. You can check out some of his side projects like 'Break This Safe' and 'Frames' on his website.
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 description: "Join Brian and Rafael Conde in episode 3 of JAMstack Radio as they share their stories of designing and coding for the modern web. The two discuss how both web design and code are evolving at an increasing rate, the proliferation of fantastic build tools, frameworks, and languages, and finally how what was once old is new again."
 date: 2016-10-13
 minuteslong: 20
 tags:
-  - jamstack
-  - podcast
-  - episode
-  - design
+  - Jamstack
+  - Podcast
+  
+  - Design
 topics:
   - insights
 ---

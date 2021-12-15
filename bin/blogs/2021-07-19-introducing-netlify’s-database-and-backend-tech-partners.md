@@ -9,13 +9,13 @@ lastmod: 2021-07-19
 topics:
   - news
 tags:
-  - partners
+  - Partners
   - backend
-  - database
+  - Databases
   - stepzen
-  - fauna
+  - Fauna DB
   - nimbella
-  - datastax
+  - DataStax
 tweet: ""
 format: blog
 relatedposts:
@@ -26,7 +26,7 @@ seo:
   metadescription: "Today, Netlify is launching our first set of partners in the
     Backend & Database category: DataStax, Fauna, Nimbella, and StepZen"
   metatitle: Netlify’s New Database and Backend Tech Partners
-  ogimage: /img/blog/netlify-tech-partners-1-.png
+  ogimage: /v3/img/blog/netlify-tech-partners-1-.png
 ---
 We often get questions about how to run a specific backend server or database within Netlify.
 
@@ -56,7 +56,7 @@ Bringing up a new application can be time consuming and frustrating, but combini
 
 Over at DataStax Developer Relations, Netlify is the go-to partner for users looking to deploy their frontend applications. Netlify’s serverless functions in conjunction with the DataStax serverless Astra DB allows for a fully functional dynamic application on the Jamstack.
 
-![](/img/blog/datastax2.png)
+![](/v3/img/blog/datastax2.png)
 
 <a href="https://www.netlify.com/technology-partners/datastax" class="button">Learn more about Netlify + DataStax →</a>
 
@@ -72,7 +72,7 @@ Fauna’s integration with Netlify is a simple and scalable approach for Jamstac
 
 Combining Netlify with Fauna enables developers to build fast multi-tenant SaaS and mobile apps while minimizing complexity and operational overheads. Fauna’s innovative data model and querying capabilities with support for GraphQL and business logic make it productive to use for any database needs. Common use cases include commercial SaaS applications, custom CRMs, events and digital campaign platforms, decentralized apps, and projects involving modernization of digital experiences.
 
-![](/img/blog/fauna.png)
+![](/v3/img/blog/fauna.png)
 
 <a href="https://www.netlify.com/technology-partners/fauna" class="button">Learn more about Netlify + Fauna →</a>
 
@@ -82,7 +82,7 @@ Nimbella Serverless Platform makes serverless API and application development fr
 
 The Nimbella Plugin for Netlify is a [Netlify Build Plugin](https://www.netlify.com/products/build/plugins/) that extends Netlify sites with portable and stateful serverless functions using Nimbella. The [Nimbella Plugin](https://www.netlify.com/blog/2020/10/07/tech-partners-create-custom-build-plugins-to-reach-developers-in-their-workflow/) enables developers to deploy sites to Netlify's CDN, or to use Netlify as a proxy to sites hosted on other clouds. With this plugin, developers can build APIs using serverless functions that can be hosted on a cloud of their choice using the Nimbella portable serverless cloud. With the Nimbella plugin, developers also gain access to more serverless runtimes, customization of resources, integrated key-value and data stores, easier code packaging, and repeatable deployments that work across clouds.
 
-![](/img/blog/nimbella.png)
+![](/v3/img/blog/nimbella.png)
 
 <a href="https://www.netlify.com/technology-partners/nimbella" class="button">Learn more about Netlify + Nimbella →</a>
 
@@ -94,7 +94,7 @@ Using the [StepZen Netlify Build Plugin](https://app.netlify.com/plugins/netlify
 
 With only one endpoint to query, and the ability to deploy on Netlify, it's easy to build and deploy your Netlify frontend and your StepZen backend from the same code base. Because the build plugin runs prior to your Netlify build, real-time data from your StepZen GraphQL API is available to your site at build time.
 
-![](/img/blog/stepzen.png)
+![](/v3/img/blog/stepzen.png)
 
 <a href="https://www.netlify.com/technology-partners/stepzen" class="button">Learn more about Netlify + StepZen →</a></p>
 

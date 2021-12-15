@@ -5,11 +5,11 @@ description: What's so exciting about Next.js? Should I be using it for my
 authors:
   - Cassidy Williams
 date: 2020-06-18
-lastmod: 2020-07-09
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
 tweet: ""
 format: blog
 relatedposts:
@@ -20,7 +20,7 @@ seo:
   metadescription: Learn what's so exciting about Next.js. Help know if you should
     be using it for your project. This post dives into a variety of Next
     features like routing, API, CLI, and more. Check it out!
-  ogimage: /img/blog/next101.png
+  ogimage: /v3/img/blog/next101.png
 ---
 Chances are if you pay attention to the web development space, you might have been hearing quite a bit about Next.js.
 
@@ -99,4 +99,4 @@ Luckily, there’s already a ton of resources and examples out there in the worl
 
 Or, if you would rather not read and just dive into code, click the button below to deploy a Next.js site to Netlify right away and get a repository going on your chosen Git platform.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=next101starter-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=next101starter-cs&utm_campaign=devex)

@@ -31,9 +31,9 @@ A blog is a great place to share the inside scoop on your new features with your
 
 Here is a screenshot of the final project.
 
-![a screenshot of the final blog project](/img/blog/final-project.jpg)
+![a screenshot of the final blog project](/v3/img/blog/final-project.jpg)
 
-You can find the project at [https://angular-jamstack-blog.netlify.app/](https://angular-jamstack-blog.netlify.app/) and all the code in the [🐙 project repo here](https://github.com/tzmanics/angular-jamstack-blog). Now, let's get coding!
+You can find the project at [https://jamstack-angular-blog.netlify.app](https://jamstack-angular-blog.netlify.app) and all the code in the [🐙 project repo here](https://github.com/tzmanics/angular-jamstack-blog). Now, let's get coding!
 
 ## The Starting Gate
 
@@ -92,13 +92,13 @@ When we create new routes (like we will do with each new blog post) we'll have t
 
 This `jam-it` script will run the build, run Scully with the `scanRoutes` option to look for new routes, and run the serve option so we can see the pre-rendered content at [localhost:1668](http://localhost:1668/). If we look at the Sources tab in Developer Tools when we run `npm run jam-it`, we can see it's serving the `html` file.
 
-![screenshot of sources](/img/blog/local-html.jpg)
+![screenshot of sources](/v3/img/blog/local-html.jpg)
 
 ## Build a Blog
 
 We have all the tools we need, so let's do what we came here to do: eat tacos!
 
-![an image of SNL's taco town](/img/blog/taco-town.jpg)
+![an image of SNL's taco town](/v3/img/blog/taco-town.jpg)
 
 Wait, no, build a blog. Sorry, 'eat tacos!' is usually my number one goal, I get confused. Moving on.
 
@@ -139,7 +139,7 @@ slugs:
 
 At the top of that Markdown file there is some information in YAML, this is the [Front Matter](https://developers.google.com/web/resources/yaml-and-attr-reference). This won't show up in the blog post but we can use it to store information about the blog post. We can also use this information in a lot of ways but we'll talk about that when we make our page of all the blog posts.
 
-The `slugs` listed here is how we can create different routes to this post, since `blog/:slug` was added to the Scully config (when we generated the blog skeleton). We can assign many and anything (as long as it's valid url syntax) to `slugs` to make a new route. In the generated example there is a random, ludicrous route that would be hard to stumble upon. This is made so that before you publish a post you can share this route ([https://angular-jamstack-blog.netlify.app/blog/___unpublished___kccbnalf_mp0v7nfncfdagu2vtdhssrwzr2gxxvbl](https://angular-jamstack-blog.netlify.app/blog/___unpublished___kccbnalf_mp0v7nfncfdagu2vtdhssrwzr2gxxvbl)) with reviewers but your general audience can't easily find it.
+The `slugs` listed here is how we can create different routes to this post, since `blog/:slug` was added to the Scully config (when we generated the blog skeleton). We can assign many and anything (as long as it's valid url syntax) to `slugs` to make a new route. In the generated example there is a random, ludicrous route that would be hard to stumble upon. This is made so that before you publish a post you can share a link, like `https://jamstack-angular-blog.netlify.app/blog/___unpublished___kccbnalf_mp0v7nfncfdagu2vtdhssrwzr2gxxvbl`, with reviewers but your general audience can't easily find it.
 
 ## Poppin' in Posts
 
@@ -151,7 +151,7 @@ ng g @scullyio/init:post --name="The First Post is the Deepest"
 
 The CLI will prompt "What's the target folder for this post?" We'll go with the default "blog" directory that we created with the generate blog command. In the future we can make specific folders for posts, even nested folders.
 
-![output from running generate blog post command](/img/blog/generate-post-log.jpg)
+![output from running generate blog post command](/v3/img/blog/generate-post-log.jpg)
 
 > 🧠 Scully recursively looks for different routes so however far we nests our posts 🕵🏻‍♀️ Scully will find them.
 
@@ -182,7 +182,7 @@ slugs:
 
 The second thing I want to point out is that we can see the new routes that were created in the output logs:
 
-![output from running scully](/img/blog/blog-route-log.jpg)
+![output from running scully](/v3/img/blog/blog-route-log.jpg)
 
 We can also always see all our routes in `dist/static/assets/scully-routes.json`. This file has all the routes plus all the Front Matter data saved as a JSON object. Here's what this new blog post's route information looks like in that file:
 
@@ -316,7 +316,7 @@ When Scully creates the list of blog posts it only grabs the posts marked as `pu
 
 After re-running `npm run jam-it`, we can open up <http://localhost:1668/blog> to see we have all the blog posts! And, buddy, do they look silly!
 
-![screenshot of current state of posts](/img/blog/blog-root-before.jpg)
+![screenshot of current state of posts](/v3/img/blog/blog-root-before.jpg)
 
 Thankfully, we have CSS to the rescue!
 
@@ -351,7 +351,7 @@ li p {
 
 Let's see what this looks like.
 
-![list of blog posts styled](/img/blog/final-project.jpg)
+![list of blog posts styled](/v3/img/blog/final-project.jpg)
 
 Much better, moving on!
 
@@ -359,7 +359,7 @@ Much better, moving on!
 
 With a list of linked, lovely, um, posts. We want to make sure that the posts look great too. Let's see.
 
-![screenshot of a blog post](/img/blog/scully-div-before.jpg)
+![screenshot of a blog post](/v3/img/blog/scully-div-before.jpg)
 
 What the what?? Why does it say 'Scullyio content' and why is it pink? If we take a look at the blog module that generating the blog via Scully created we get our answers. First off, in `blog.component.html` we see:
 
@@ -442,9 +442,9 @@ h1 {
 
 If you still have `jam-it` running you may see these style changes. Always try canceling Scully serve (with Ctrl + c) and re-running `jam-it` if something that should be showing, isn't. Our blog posts now look like this:
 
-![shot 1 of a styled blog post](/img/blog/finished-blog-1.jpg)
+![shot 1 of a styled blog post](/v3/img/blog/finished-blog-1.jpg)
 
-![shot 2 of a styled blog post](/img/blog/finished-blog-2.jpg)
+![shot 2 of a styled blog post](/v3/img/blog/finished-blog-2.jpg)
 
 We have a nice-looking, finished blog! Let's show it to the world!
 
@@ -477,7 +477,7 @@ netlify init
 
 Now, we can run `ntl open` to see our deployed site's dashboard. Running `netlify init` also triggers a build so we can see there is already a deploy running. Once it's 'Published' we can click the link Netlify provides at the top of the site's dashboard.
 
-![screenshot pointing out site info](/img/blog/angular-blog-dashboard.jpg)
+![screenshot pointing out site info](/v3/img/blog/angular-blog-dashboard.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iyHYr89V5DQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

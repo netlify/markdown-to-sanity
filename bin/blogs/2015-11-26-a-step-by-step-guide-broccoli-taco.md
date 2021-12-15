@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Broccoli Taco"
 authors:
   - Jimmi Lee
-image: /img/blog/broccoli-taco.jpg
+image: /v3/img/blog/broccoli-taco.jpg
 format: blog
 short_title: Broccoli Taco on Netlify
 description: A step-by-step guide on how to get a site made with Broccoli Taco hosted on Netlify.
@@ -108,7 +108,7 @@ We start by creating a [GitHub](https://github.com/) repository for our broccoli
 
 We're naming ours broccoli-taco-demo and we'll skip adding files to the repository until after its creation, as this can sometimes create problems (The README, license and gitignore files).
 
-![netlify0x_createnewrepo.png](/img/blog/netlify0x_createnewrepo.png)
+![netlify0x_createnewrepo.png](/v3/img/blog/netlify0x_createnewrepo.png)
 
 Once the repository has been named and created we'll return to local environment.
 
@@ -127,7 +127,7 @@ git commit -m 'First commit'
 Once the files are committed, it's time to connect with the GitHub repository online.
 
 ### 3. Get & Add Remote URL
-![a1_remotegithuburl.png](/img/blog/a1_remotegithuburl.png)
+![a1_remotegithuburl.png](/v3/img/blog/a1_remotegithuburl.png)
 
 We return to the GitHub repository created earlier and retrieve the URL for the remote repository, since this is where our local repository will be pushed.
 Either copy paste the whole command or use the button as depicted above, to copy just the path to your clipboard.
@@ -162,12 +162,12 @@ It's time to connect it with Netlify.
 Creating a new site on Netlify is intuitive and once you’ve created an account and logged in, you’ll be taken to https://app.netlify.com/sites.
 
 ### Step 1: Add Your New Site
-![Netlify New Site](/img/blog/newsitebut.png)
+![Netlify New Site](/v3/img/blog/newsitebut.png)
 Click the *"New Site"* button (as seen above) to get started.
 
 ### Step 2: Link to Your GitHub
 Clicking *“New Site”* brings you to this screen:
-![Link to GitHub](/img/blog/createsite.png)
+![Link to GitHub](/v3/img/blog/createsite.png)
 When you push to GitHub, Netlify does all the work. No more wasting time on manual deploying of updates or changes!
 
 Since we're hosting the site assets on GitHub, we’ll need to link Netlify with GitHub. Click the button *“Link to GitHub”*.
@@ -176,10 +176,10 @@ Since we're hosting the site assets on GitHub, we’ll need to link Netlify with
 You can skip this step, if you already have an account with Netlify set up to automatically login!
 
 You will be asked to provide your GitHub login details:
-![GitHub Login](/img/blog/githublogin.png)
+![GitHub Login](/v3/img/blog/githublogin.png)
 
 We need to let Netlify and GitHub talk to each other, so review the permissions and then click authorize application.
-![Authorize netlify](/img/blog/authorization.png)
+![Authorize netlify](/v3/img/blog/authorization.png)
 
 Like it says in the image above on the right, Netlify doesn’t store your GitHub access token on our servers!
 

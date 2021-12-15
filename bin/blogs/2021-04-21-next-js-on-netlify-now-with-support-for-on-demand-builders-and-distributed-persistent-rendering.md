@@ -12,10 +12,10 @@ lastmod: 2021-04-21
 topics:
   - news
 tags:
-  - next
-  - on-demand builders
-  - build
-  - incremental static generation
+  - Next.js
+  - On-demand Builders
+  - Build
+  - Incremental Static Generation
 tweet: ""
 format: blog
 relatedposts:
@@ -27,7 +27,7 @@ seo:
     experience, and render content on demand without losing the benefits of the
     Jamstack. "
   metatitle: How to Shorten Build Times for Large Next.js Jamstack Sites
-  ogimage: /img/blog/next.js-on-netlify-2.png
+  ogimage: /v3/img/blog/next.js-on-netlify-2.png
 ---
 Last week, we [introduced an RFC](https://github.com/jamstack/jamstack.org/discussions/549) for an architectural concept that we think is an exciting step forward for the Jamstack: Distributed Persistent Rendering (DPR). Alongside the RFC, we also released a new feature, [On-demand Builders](https://www.netlify.com/blog/2021/04/14/faster-builds-for-large-sites-on-netlify-with-on-demand-builders-now-in-early-access/), that helps us take the first step toward achieving DPR. Today, we’re announcing a beta release of our Essential Next.js plugin that introduces support for On-demand Builders in your Next.js site automatically!
 

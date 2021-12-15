@@ -11,9 +11,9 @@ lastmod: 2020-05-09T01:00:00.000Z
 topics:
   - insights
 tags:
-  - design
+  - Design
   - teams
-  - let’s learn design systems
+  
 tweet: ""
 format: blog
 relatedposts:
@@ -24,7 +24,7 @@ seo:
     Intention vs. Drift — Let’s Learn Design Systems, Part 1
   metadescription: >
     If you write software, you’ve already built a design system. But how can you make sure it’s making you more efficient and not wasting your time? Check this post out to learn how!
-  ogimage: /img/blog/intention-vs-drift.jpg
+  ogimage: /v3/img/blog/intention-vs-drift.jpg
 ---
 
 **Every time you create software, you’re creating and using a design system.** So the question isn’t “should we create a design system”, but rather, “should we be _intentional_ about the design system we’re creating?” You can create a bunch of code that’s really complicated and terrible to use, and _that’s still a design system_ — it’s just not a very good one!
@@ -63,7 +63,7 @@ Every organization has its own unique blend of people, goals, history, and exist
 
 Can Photoshop be the home of a design system? A shared component library package? Sure! The medium doesn’t matter. What matters is that it empowers your team to do better work.
 
-![Intention vs. Drift](/img/blog/intention-vs-drift.jpg)
+![Intention vs. Drift](/v3/img/blog/intention-vs-drift.jpg)
 
 ## What is the difference between emergent and deliberate design systems?
 

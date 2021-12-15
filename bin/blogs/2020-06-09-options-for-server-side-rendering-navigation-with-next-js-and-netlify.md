@@ -9,7 +9,7 @@ lastmod: 2021-03-17
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - server side rendering
 tweet: ""
 format: blog
@@ -21,11 +21,12 @@ seo:
   metadescription: Learn how to use the next-on-netlify package in this tutorial,
     so that you can use some of Next.js&#x27;s server-side features on Netlify
     with ease. Check it out!
-  ogimage: /img/blog/ssrroutes.png
+  ogimage: /v3/img/blog/ssrroutes.png
 blog_i18n:
   key: next-netlify-server-routes
   lang: en
 ---
+
 Next.js has a lot of cool features. And, if you’re exporting your site to Netlify as a static site using some of their new functions like [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation), chances are you’re a happy camper without a care in the world.
 
 But, there are those of us who live in the shadows, who want to do some sneaky server-side rendering while still subscribing to the Jamstack philosophy. When you export your Next.js app, Next.js calls `getStaticProps` for each page that exports it, and passes the result to the page’s component. This export works for a *lot* of cases, and you can even include [dynamic routing](https://nextjs.org/docs/routing/dynamic-routes) this way. But, if you don’t necessarily know what your routes will be, or if you want to use query strings, that’s when things start to get sticky.

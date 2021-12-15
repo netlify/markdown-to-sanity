@@ -10,8 +10,8 @@ topics:
   - tutorials
 tags:
   - Data
-  - etl
-  - engineering
+  - ETL
+  - Engineering
 related posts:
   - From semantic CSS to Tailwind - Refactoring the Netlify UI codebase
   - Shipping Node.js at Netlify
@@ -39,7 +39,7 @@ While setting up Census, we tried a few different approaches and decided on a co
 2. In this example, we named this table `pub_hubspot_contacts` to indicate it’s a publishing table, intended for HubSpot’s contact object.
 3. We also leveraged dbt Exposures to group together all tables being synced to a single destination--this lets us easily monitor and test these tables in one step.
 
-![Netlify Data Team's data pipeline](/img/blog/drawing-how-we-use-census-at-netlify.png "How Netlify uses Census to sync operational data to third-party tools")
+![Netlify Data Team's data pipeline](/v3/img/blog/drawing-how-we-use-census-at-netlify.png "How Netlify uses Census to sync operational data to third-party tools")
 
 Even though we kick off our production run a few times per day, we’ve set our syncs to run hourly! Census’s pricing model is based on number of connectors, not number of syncs, so we find an hourly approach to be robust in situations where we can’t always be sure when our production run ends. This approach means our destination services will always have updated data within an hour after our production run finishes, and will still hold even if we ramp up frequency or have multiple job schedules.
 

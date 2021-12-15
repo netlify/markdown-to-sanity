@@ -19,13 +19,13 @@ guests:
       they rely on.
     name: Jonas Helfer
 title: Exploring GraphQL Through Apollo
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 minuteslong: 28
 short_title: Exploring GraphQL Through Apollo
 tags:
-  - graphql
+  - GraphQL
   - apollo
-  - podcast
+  - Podcast
 topics:
   - tools
 description: >

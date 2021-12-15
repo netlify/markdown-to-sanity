@@ -11,14 +11,14 @@ topics:
   - tutorials
 tags:
   - Build
-  - Deployment
+  - Deployments
 tweet: ""
 format: blog
 relatedposts:
   - 'Intelligent deploy skipping: An automatic optimisation'
   - Gatsby Build Speed Improvements With Parallel Image Processing
 seo:
-  ogimage: /img/blog/ignore-builds.jpg
+  ogimage: /v3/img/blog/ignore-builds.jpg
   metadescription: Unnecessary builds can be incredibly wasteful and time
     consuming. In this post we dive into Netlify's ignore config setting. Check out this simple and
     easy way to conserve build times.

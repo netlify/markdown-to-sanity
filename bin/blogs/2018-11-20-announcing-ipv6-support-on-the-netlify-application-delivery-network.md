@@ -9,7 +9,7 @@ topics:
 tags:
   - IPv6
   - adn
-  - cdn
+  - CDN
 tweet: ''
 format: blog
 ---

@@ -10,16 +10,16 @@ lastmod: 2021-03-11
 topics:
   - tools
 tags:
-  - Build plugins
-  - cypress
-  - testing
+  - Build Plugins
+  - Cypress
+  - Testing
 tweet: ""
 format: blog
 relatedposts:
   - "Netlify Build Plugin of the Week: Gatsby Cache Plugin"
   - Netlify Build Plugins Are Here!
 seo:
-  ogimage: /img/blog/week-plugin-cypress.png
+  ogimage: /v3/img/blog/week-plugin-cypress.png
   metadescription: >
     With a one-click install in Netlify’s UI, the Cypress Netlify Build plugin
     runs an end-to-end Cypress test with each Netlify build, so you can ship
@@ -30,7 +30,7 @@ Welcome to our series highlighting [Netlify Build Plugins](https://www.netlify.c
 
 And with the Cypress Netlify Build Plugin, you can streamline your workflow even *further*. With a one-click install in Netlify’s UI, the plugin runs an end-to-end Cypress test with each Netlify build, so you can ship with confidence without sacrificing efficiency.
 
-![cypress-netlify-plugin](/img/blog/cypress-netlify-inline.png)
+![cypress-netlify-plugin](/v3/img/blog/cypress-netlify-inline.png)
 
 **Plugin**: Cypress Netlify Build plugin <br>Runs Cypress end-to-end tests after Netlify builds the site <br>
 **By [Gleb Bahmutov](https://github.com/bahmutov)** <br>

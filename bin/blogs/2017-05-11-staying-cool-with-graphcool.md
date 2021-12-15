@@ -13,11 +13,11 @@ guests:
       iOS
     name: Johannes Schickling
 title: Staying Cool with Graphcool
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 short_title: Staying Cool with Graphcool
 tags:
-  - podcast
-  - graphql
+  - Podcast
+  - GraphQL
 topics:
   - tools
 description: >-

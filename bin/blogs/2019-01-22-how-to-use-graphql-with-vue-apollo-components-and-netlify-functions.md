@@ -10,9 +10,9 @@ topics:
   - links
 tags:
   - Functions
-  - serverless
+  - Serverless
   - GraphQL
-  - VueJS
+  - Vue
 tweet: >-
   Markus Oberlehner demonstrates how he uses Netlify Functions to add a GraphQL
   backend to his VueJS application.

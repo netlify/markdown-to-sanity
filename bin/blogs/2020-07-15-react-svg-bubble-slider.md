@@ -10,9 +10,8 @@ lastmod: 2020-07-16T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - gatsby
-  - animation
-  - react
+  - Gatsby
+  - React
   - gsap
 tweet: ""
 format: blog
@@ -21,7 +20,7 @@ seo:
     Learn to Add Playful Animated SVG Reactions to a Gatsby Blog
   metadescription: >
     Let your users tell you how they feel! Avoid the hassle of comment moderation without removing interactivity with this fun, open source slider!
-  ogimage: /img/blog/react-svg-bubble-slider-og.jpg
+  ogimage: /v3/img/blog/react-svg-bubble-slider-og.jpg
 relatedposts:
   - 
 ---
@@ -30,7 +29,7 @@ Well hey there 👋
 
 In this blog post I'm going to discuss how to add user reactions to your Gatsby blog posts using a fun, open-source React UI component called [react-svg-bubble-slider](https://react-svg-bubble-slider.netlify.app/).
 
-![React SVG Bubble Slider](/img/blog/react-svg-bubble-slider-reactions.jpg)
+![React SVG Bubble Slider](/v3/img/blog/react-svg-bubble-slider-reactions.jpg)
 
 ## Demo
 

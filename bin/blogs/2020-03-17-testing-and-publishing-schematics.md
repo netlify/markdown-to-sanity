@@ -13,7 +13,7 @@ format: blog
 seo:
   metatitle: How To Use Netlify's Schematics for Angular - Part 3 - Testing and Publishing Schematics
   metadescription: Explore this guide to learn how to add Netlify Schematics to your Angular project. In this third part of this series, learn to easily test and publish the schematics to npm.
-  ogimage: /img/blog/screen-shot-2020-03-15-at-2.37.01-pm.png
+  ogimage: /v3/img/blog/screen-shot-2020-03-15-at-2.37.01-pm.png
 ---
 Welcome to the third part of our series about the Netlify schematics we created for your Angular projects. I wanted to walk you through the creation process in hopes of helping you fulfill any schematics dreams you may have :). If this is the first post you're seeing you may want to check out the other two:
 

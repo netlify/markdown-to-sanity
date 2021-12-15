@@ -11,9 +11,9 @@ lastmod: 2020-12-18
 topics:
   - news
 tags:
-  - netlify
-  - features
-  - jamstack
+  - Netlify
+  - Features
+  - Jamstack
 tweet: >-
   It's been an amazingly productive year here @Netlify and we're going into 2020
   more inspired than ever to help you build, launch, and ship your best web
@@ -31,7 +31,7 @@ seo:
     from new features, products, resources, conferences, and continued growth of
     the JAMstack community.
   metatitle: 'Top 15 from 2019: Features, Resources, and Netlify & JAMstack News'
-  ogimage: /img/blog/top15-2019.png
+  ogimage: /v3/img/blog/top15-2019.png
 ---
 Where did 2019 go?
 
@@ -49,7 +49,7 @@ So, let's reflect on the past, and look forward to the future!
 
 ## Top 15 Netlify features and resources from 2019
 
-![Graphic for Top 15 from 2019: features, resources, and news on Netlify and the JAMstack](/img/blog/top15-2019.png)
+![Graphic for Top 15 from 2019: features, resources, and news on Netlify and the JAMstack](/v3/img/blog/top15-2019.png)
 
 **1. Get reliable analytics for your sites with [Netlify Analytics](https://www.netlify.com/products/analytics/)**
 

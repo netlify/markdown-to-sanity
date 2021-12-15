@@ -6,7 +6,7 @@ topics:
   - news
 tags:
   - feature
-  - form
+  - Forms
 format: blog
 description: An intro to the downloading all form submissions as CSV feature.
 date: 2017-10-19T00:00:00.000Z
@@ -16,7 +16,7 @@ Netlify’s [form handling](https://www.netlify.com/docs/form-handling/) (beta) 
 
 ## Download as CSV
 
-![Export form submissions and download as CSV](/img/blog/download_as_csv.gif)
+![Export form submissions and download as CSV](/v3/img/blog/download_as_csv.gif)
 
 To download your data as a CSV file, navigate to a particular form from within your dashboard and click **Download as CSV**.
 

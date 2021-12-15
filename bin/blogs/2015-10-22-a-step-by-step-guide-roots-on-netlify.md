@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Roots on Netlify"
 authors:
   - Aaron Autrand
-image: /img/blog/roots-screenshot.png
+image: /v3/img/blog/roots-screenshot.png
 format: blog
 short_title: Roots Hosted on Netlify
 description: A step-by-step guide on how to host a website built with static site generator Roots.
@@ -11,9 +11,9 @@ thumbnail: thumbnails/screen-shot-2015-10-22-at-18.01.40.png
 cmsUserSlug: ""
 date: 2015-10-22
 tags:
-  - nodejs
-  - roots
-  - tutorial
+  - NodeJS
+  - Roots
+  - Tutorial
 topics:
   - tutorials
 ---

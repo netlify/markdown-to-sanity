@@ -8,8 +8,8 @@ tweet: >-
 topics:
   - news
 tags:
-  - announcements
-  - case study
+  - Announcements
+  - Case Studies
   - speed test
 format: blog
 description: >-
@@ -38,4 +38,4 @@ Feeling inspired? Whether you simply want to speed up your site or you want to g
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#smashing-magazine-migrates-from-wordpress-to-jamstack-netlify)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#smashing-magazine-migrates-from-wordpress-to-jamstack-netlify)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#smashing-magazine-migrates-from-wordpress-to-jamstack-netlify)

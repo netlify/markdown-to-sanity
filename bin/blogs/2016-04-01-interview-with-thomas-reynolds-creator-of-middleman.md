@@ -3,7 +3,7 @@
 title: "Interview with Thomas Reynolds, Creator of Middleman"
 authors:
   - Aaron Autrand
-image: /img/blog/thomas-reynolds-mm.jpg
+image: /v3/img/blog/thomas-reynolds-mm.jpg
 image_caption: null
 format: blog
 short_title: Middleman Interview
@@ -12,10 +12,9 @@ thumbnail: thumbnails/thomasreynolds.jpeg
 cmsUserSlug: ""
 date: 2016-04-01T00:00:00.000Z
 tags:
-  - interview
+  - Interview
   - swt
-  - middleman
-  - thomas reynolds
+  - Middleman
 topics:
   - tools
 ---

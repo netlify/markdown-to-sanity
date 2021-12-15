@@ -4,11 +4,11 @@ description: Next.js collects telemetry data by default. Here's how to disable t
 authors:
   - Cassidy Williams
 date: 2020-12-15
-lastmod: 2020-12-15
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -17,7 +17,7 @@ relatedposts:
 seo:
   metatitle: How to turn off telemetry data in Next.js
   metadescription: Next.js collects telemetry data by default. Here's how to disable that!
-  ogimage: /img/blog/blogvent15.png
+  ogimage: /v3/img/blog/blogvent15.png
 ---
 Welcome to Blogvent, day 15!
 
@@ -52,6 +52,6 @@ NEXT_TELEMETRY_DISABLED=1
 
 Who doesn't? Here's a starter application to to try this out:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=nextstarterlogging-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=nextstarterlogging-cs&utm_campaign=devex)
 
 (Clicking this button will deploy a Next.js starter project to Netlify, and clone it to your chosen Git provider)

@@ -13,7 +13,7 @@ lastmod: 2020-05-07
 topics:
   - insights
 tags:
-  - Code Review
+  - Code review
 tweet: ""
 format: blog
 seo:
@@ -21,7 +21,7 @@ seo:
     the Feedback Ladder. We developed a system of shared terminology - naming
     conventions that describe each step. Check it out!
   metatitle: "Feedback Ladders: The Code Review System We Follow at Netlify"
-  ogimage: /img/blog/frame-4-2x.png
+  ogimage: /v3/img/blog/frame-4-2x.png
 ---
 The code review is a critical part of life as a professional developer: in most engineering organizations, no code gets checked in without at least a once-over from another engineer. This has many benefits for enforcing code standards; however, we can run into communication issues if we don’t establish standards for the code reviews themselves.
 
@@ -45,7 +45,7 @@ In an effort to make the levels of the feedback ladder easier to remember and us
 
 We prefix each piece of feedback with the name in square brackets, like so:
 
-![Code review suggestions and feedback on GitHub](/img/blog/feedback-ladder-code-review.png)
+![Code review suggestions and feedback on GitHub](/v3/img/blog/feedback-ladder-code-review.png)
 
 The way we give and receive feedback for each step on the ladder should scale appropriately according to its severity.
 

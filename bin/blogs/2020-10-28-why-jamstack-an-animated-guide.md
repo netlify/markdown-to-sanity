@@ -8,9 +8,8 @@ lastmod: 2020-10-28
 topics:
   - tutorials
 tags:
-  - jamstack
+  - Jamstack
   - why jamstack
-  - animated explainers
   - svg animation
   - jamstack hosting
 tweet: ""
@@ -21,7 +20,7 @@ relatedposts:
 seo:
   metadescription: Why is the Jamstack becoming so popular and widely used? How does it differ from other technology stacks? This animated explainer breaks down the answers. Check it out!
   metatitle: Why Jamstack? An Animated Guide
-  ogimage: /img/blog/screen-shot-2020-02-24-at-7.00.45-am.png
+  ogimage: /v3/img/blog/screen-shot-2020-02-24-at-7.00.45-am.png
 ---
 
 There can be a lot of confusion around why Jamstack is becoming so popular or so widely used. How does it differ from other technology stacks? This animated explainer breaks down the answer to "Why Jamstack?" visually.

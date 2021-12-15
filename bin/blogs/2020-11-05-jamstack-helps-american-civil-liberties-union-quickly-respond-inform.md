@@ -22,7 +22,7 @@ seo:
   metadescription: At Jamstack Conf the ACLU explained how it leveraged the
     Jamstack to support incremental and flexible web development, including
     building a new site for the 2020 election.
-  ogimage: /img/blog/og-aclu-blog-for-netlify.png
+  ogimage: /v3/img/blog/og-aclu-blog-for-netlify.png
 ---
 New technologies are often touted by companies who use them to serve their customers better than ever, and increase profitability while reducing costs. But another sector also is a critical beneficiary of new technologies, and their work helps all of us, and that is the nonprofit sector.
 

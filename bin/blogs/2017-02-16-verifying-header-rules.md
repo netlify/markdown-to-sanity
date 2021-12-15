@@ -2,7 +2,7 @@
 title: "Verifying your header rules configuration"
 authors:
   - David Calavera
-image: /img/blog/headers-playground.png
+image: /v3/img/blog/headers-playground.png
 format: blog
 short_title: Verifying your header rules configuration
 description: Learn how to use Netlify's Playground to test your header rules.
@@ -10,11 +10,11 @@ date: 2017-02-16
 topics:
   - news
 tags:
-  - elm-lang
+  - Elm
   - debugging
   - header rules
   - playground
-  - cdn
+  - CDN
 ---
 
 According to our metrics, we've processed more than one hundred thousand deploys with [custom header rules](/docs/headers-and-basic-auth). It turns out, that being able to customize the headers your site sends to a browser is very useful. You can configure CORS rules, specify security policies and even change the cache rules for those assets you know that never change. However, until now, it was hard to be sure if your headers were correct. The only way people had to test them, was to push them to their sites and check the browser's responses looking for them.

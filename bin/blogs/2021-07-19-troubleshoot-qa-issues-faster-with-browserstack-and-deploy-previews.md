@@ -10,9 +10,9 @@ lastmod: 2021-07-19
 topics:
   - news
 tags:
-  - deploy previews
-  - browserstack
-  - qa
+  - Deploy Previews
+  - BrowserStack
+  - QA
   - collaboration
 tweet: ""
 format: blog
@@ -24,7 +24,7 @@ seo:
   metadescription: "Learn about how Netlify and BrowserStack are partnering to
     create an even better developer experience. Plus, get 2x BrowserStack
     minutes for free. "
-  ogimage: /img/blog/og-image-browserstack.png
+  ogimage: /v3/img/blog/og-image-browserstack.png
 ---
 Netlify's collaborative [Deploy Previews](https://www.netlify.com/products/deploy-previews/) are packed full of features to help developers gather better feedback from their reviewers, including tools to comment, screen record, and annotate right from the actual preview link. Deploy previews are convenient for reviewers because they can leave high-quality feedback right from the preview, and it's easier for developers because every review gets automatically synced to the GitHub pull request or productivity tools like Clubhouse.io, Linear, or Trello.
 

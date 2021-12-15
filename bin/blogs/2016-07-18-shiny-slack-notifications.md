@@ -3,7 +3,7 @@
 title: Shiny Slack notifications from Netlify
 authors:
   - David Calavera
-image: /img/blog/netlify-slack-notifications.png
+image: /v3/img/blog/netlify-slack-notifications.png
 format: blog
 short_title: Slack notifications
 description: Send deploy and form notifications to Slack from Netlify
@@ -13,7 +13,7 @@ date: 2016-07-18
 tags:
   - slack
   - notifications
-  - integrations
+  - Integrations
 topics:
   - news
 ---
@@ -24,10 +24,10 @@ The messages were a bit sparse in content and format, so we decided to invest so
 
 There are three types of messages you can get for deployed sites on Netlify. When we start building your site, when a deploy is complete, and when something goes wrong:
 
-![](/img/blog/netlify-slack-deploy-notifications.png)
+![](/v3/img/blog/netlify-slack-deploy-notifications.png)
 
 You can also get form submission notifications in Slack if you use [Netlify forms](/docs/form-handling). We separate each field in the form so the message arrives to you loud and clear:
 
-![](/img/blog/netlify-slack-form-notifications.png)
+![](/v3/img/blog/netlify-slack-form-notifications.png)
 
 Configuring Slack notifications on Netlify is very straight forward, check out [our documentation](/docs/webhooks) to learn how to enable them for your deploys and forms!

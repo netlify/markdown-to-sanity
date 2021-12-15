@@ -1,31 +1,35 @@
 ---
-title: "Unlock Jamstack for Enterprise Web Apps With Self-Hosted Git Repos"
+title: Unlock Jamstack for Enterprise Web Apps With Self-Hosted Git Repos
 description: >
-  Netlify now supports self-hosted instances of GitHub Enterprise & GitLab! Learn how you can start shipping with Netlify today!
+  Netlify now supports self-hosted instances of GitHub Enterprise & GitLab!
+  Learn how you can start shipping with Netlify today!
 authors:
   - Netlify
 date: 2020-07-21T14:00:00.000Z
-lastmod: 2020-07-21T14:00:00.000Z
+lastmod: 2021-08-02
 topics:
   - tutorials
 tags:
-  - announcement
-  - build
-  - deploy
-  - features
-  - launch
-  - netlify
+  - Announcements
+  - Build
+  - Deploy
+  - Features
+  - Launch
+  - Netlify
+  - Gitlab
 tweet: ""
 format: blog
+relatedposts:
+  - "Netlify expands pricing options: More value for developers and enterprise
+    teams"
+  - Announcing Improved Netlify Build Logs!
 seo:
-  metatitle: >
+  metatitle: |
     Unlock Jamstack for Enterprise Web Apps w/Self-Hosted Git Repos
   metadescription: >
-    Netlify now supports self-hosted instances of GitHub Enterprise & GitLab! Learn how you can start shipping with Netlify today!
-  ogimage: /img/blog/self-hosted-repos-og.png
-relatedposts:
-  - "Netlify expands pricing options: More value for developers and enterprise teams"
-  - Announcing Improved Netlify Build Logs!
+    Netlify now supports self-hosted instances of GitHub Enterprise & GitLab!
+    Learn how you can start shipping with Netlify today!
+  ogimage: /v3/img/blog/self-hosted-repos-og.png
 ---
 
 **Starting today, Netlify now supports self-hosted instances of GitHub Enterprise and GitLab on [Business][plans] and [Enterprise plans][enterprise]!**
@@ -45,21 +49,21 @@ The setup of these integrations is fully supported from the Netlify UI, making i
 
 You kick things off in the settings section of the UI where you can make sure that you’re on the right plan to use the new integration (more on that later) and then go to “edit settings.”
 
-![Netlify self-hosted git repository setup in the dashboard.](/img/blog/self-hosted-git-setup.png)
+![Netlify self-hosted git repository setup in the dashboard.](/v3/img/blog/self-hosted-git-setup.png)
 
 From there, you’ll click on “Connect” to add your self-hosted server and it sends you to a modal where you can enter all the critical details about your server instance. 
 
 During the setup, we’ll provide you with account specific details and instructions to create the necessary GitHub app and then integrate that app on Netlify using this form.
 
-![Setting up self-hosted GitHub Enterprise with Netlify.](/img/blog/github-enterprise-netlify-setup.png)
+![Setting up self-hosted GitHub Enterprise with Netlify.](/v3/img/blog/github-enterprise-netlify-setup.png)
 
 Once you’ve filled that out, you’re ready to start linking your sites to your self-hosted repos!
 
-![Setting up self-hosted GitHub Enterprise with Netlify.](/img/blog/github-enterprise-netlify-configured.png)
+![Setting up self-hosted GitHub Enterprise with Netlify.](/v3/img/blog/github-enterprise-netlify-configured.png)
 
 Now your teams that are connected to self-hosted Git instances can select self-hosted repos in the Netlify UI when creating a new site from Git!
 
-![Setting up self-hosted GitHub Enterprise with Netlify.](/img/blog/github-enterprise-create-netlify-site.png)
+![Setting up self-hosted GitHub Enterprise with Netlify.](/v3/img/blog/github-enterprise-create-netlify-site.png)
 
 ## Bring All the Benefits of the Jamstack to Enterprise-Scale Teams
 

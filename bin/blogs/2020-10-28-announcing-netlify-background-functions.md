@@ -9,8 +9,8 @@ lastmod: 2020-10-29
 topics:
   - news
 tags:
-  - serverless
-  - functions
+  - Serverless
+  - Functions
   - Lambda
 tweet: ""
 format: blog
@@ -20,13 +20,13 @@ relatedposts:
 seo:
   metatitle: "Announcing Background Functions - Serverless Lambda Functions"
   metadescription: "Check out the new Netlify Background Functions, now available in Beta for customers on Pro plans and above. Deploy AWS Lambda functions that can run asynchronously for up to 15 minutes."
-  ogimage: /img/blog/background-functions-og.png
+  ogimage: /v3/img/blog/background-functions-og.png
 ---
 We are incredibly excited to announce: Background Functions are now available in Beta for Netlify customers on Pro plans and above! Background functions allow you to set up serverless functions that can run asynchronously for up to 15 minutes.
 
 Serverless functions, including background functions, allow developers to manage both frontend and backend code from a single repo for a [full-stack Jamstack](https://www.youtube.com/watch?v=Z1uVLa2lmZY&feature=youtu.be&t=1068) experience. These new types of functions also allow for more performant and responsive web applications, as you can offload longer-running functions to be processed behind the scenes.
 
-![Function log lines indicating data processes](/img/blog/background-functions.png)
+![Function log lines indicating data processes](/v3/img/blog/background-functions.png)
 
 ## Advantages of running functions in the background
 

@@ -6,9 +6,9 @@ short_title: Structured Redirects and Headers
 topics:
   - news
 tags:
-  - redirects
+  - Redirects
   - headers
-  - cdn
+  - CDN
 format: blog
 description: >-
   Today, we’re introducing a more structured approach to declaring redirects and

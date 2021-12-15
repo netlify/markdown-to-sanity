@@ -22,7 +22,7 @@ seo:
   metadescription: Learn how Netlify makes it easy to build and host your site as
     it scales. Use Netlify Redirects and Proxy to provide a seamless web
     experience for your users as your site grows in size.
-  ogimage: /img/blog/building-large-sites-netlify.png
+  ogimage: /v3/img/blog/building-large-sites-netlify.png
 ---
 Sites typically grow in size and complexity; over time, teams add new content and new sections. With the Jamstack architecture , sites are pre-built as static assets and hosted on a CDN. So as more content is added to the site, the build times can grow. This also depends on the kind of processing you do in the build phase (processing images takes a really long time), the static site generator you use to build the site and the infrastructure you build the site on. For the purpose of this article, I am going to focus on how to structure the site, and less on the specific frameworks and tools to build it.
 
@@ -42,11 +42,11 @@ Let us take an example ecommerce site to explain how to architect the site. Assu
 2. Blog (a few 100 posts, keeps growing, content editors use the headless CMS to post content)
 3. Product catalogue and information (this is fed into the headless ecommerce platform)
 
-![E-commerce sites with multiple sections](/img/blog/site-structure.png "E-commerce sites with multiple sections")
+![E-commerce sites with multiple sections](/v3/img/blog/site-structure.png "E-commerce sites with multiple sections")
 
 When the site builds, the static site generator will use APIs to pull content and product information (images, descriptions, etc.) and build static assets for each of the content/code changes will trigger builds on Netlify. Folks will have to wait for the site to build before changes go live.
 
-![Building a large site on Netlify](/img/blog/building-site-on-netlify.png "Building a large site on Netlify")
+![Building a large site on Netlify](/v3/img/blog/building-site-on-netlify.png "Building a large site on Netlify")
 
 ## Splitting the large site into microsites
 
@@ -54,7 +54,7 @@ Instead, what if you split the site up into multiple smaller sites; one per sect
 
 What does building a site this way look like?
 
-![Building e-commerce microsites on Netlify](/img/blog/splitting-ecommerce-site.png "Building e-commerce microsites on Netlify")
+![Building e-commerce microsites on Netlify](/v3/img/blog/splitting-ecommerce-site.png "Building e-commerce microsites on Netlify")
 
 ## Splitting up the site will reduce the build time
 
@@ -75,7 +75,7 @@ Now that we know how this architecture affects build time, let's move on to Host
 5. You can now host each of these subdomains on the [Netlify High Performance Edge](https://www.netlify.com/enterprise/) so that users see the content on the site as soon as possible and as reliably as possible.
 6. You redirect users from 1 subdomain to the other using Netlify Redirects.
 
-![Redirecting to subdomains using Netlify Redirects](/img/blog/redirecting-to-subdomains.png "Redirecting to subdomains using Netlify Redirects")
+![Redirecting to subdomains using Netlify Redirects](/v3/img/blog/redirecting-to-subdomains.png "Redirecting to subdomains using Netlify Redirects")
 
 Setting up the redirects is very straightforward on Netlify.
 
@@ -93,7 +93,7 @@ If you do not want separate subdomains per section, you can still populate the B
 2. The other microsites retain the default netlify subdomain say blog.netlify.app and, products.netlify.app
 3. You host the main www on our High Performance Edge network.
 
-![Proxying to microsites at Netlify Edge](/img/blog/proxying-to-microsites.png "Proxying to microsites at Netlify Edge")
+![Proxying to microsites at Netlify Edge](/v3/img/blog/proxying-to-microsites.png "Proxying to microsites at Netlify Edge")
 
 As users navigate to different paths in your site, say [www.example.org.com/blog](http://www.custom-ecommerce.com/blog), the content from the blog microsite will be proxied to them.
 

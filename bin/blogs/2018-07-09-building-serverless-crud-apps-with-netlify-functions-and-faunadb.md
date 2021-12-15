@@ -9,10 +9,10 @@ date: '2018-07-09'
 topics:
   - tutorials
 tags:
-  - serverless
-  - functions
-  - database
-  - jamstack
+  - Serverless
+  - Functions
+  - Databases
+  - Jamstack
 tweet: Building Serverless CRUD apps with Netlify Functions & FaunaDB
 format: blog
 ---

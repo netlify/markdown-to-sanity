@@ -9,9 +9,9 @@ lastmod: 2020-04-02
 topics:
   - tutorials
 tags:
-  - jekyll
-  - ruby
-  - tutorial
+  - Jekyll
+  - Ruby
+  - Tutorial
 tweet: ""
 format: blog
 relatedposts:
@@ -22,7 +22,7 @@ seo:
   metadescription: Check out this step-by-step guide to learn how to host a static
     website on Netlify built with static site generator Jekyll 4.0.0. Get
     started in minutes, check it out!
-  ogimage: /img/blog/welcome-to-jekyll-40.png
+  ogimage: /v3/img/blog/welcome-to-jekyll-40.png
 ---
 
 **This guide was most recently updated on Wed, Apr 2nd, 2020. Below are the package versions used:**
@@ -124,13 +124,13 @@ Now that your assets are up and running on GitHub, let's connect them to Netlify
 
 Once you log in to Netlify, you'll be taken to https://app.netlify.com/. From here, select 'New site from Git':
 
-![creating a new site from git in netlify app](/img/blog/new-site-from-git-betabp.png)
+![creating a new site from git in netlify app](/v3/img/blog/new-site-from-git-betabp.png)
 
 ### Step 2: Link to Your GitHub
 
 Clicking "New Site" brings you to this screen:
 
-![netlify app new site git provider connection screen](/img/blog/create-a-new-site-git.png)
+![netlify app new site git provider connection screen](/v3/img/blog/create-a-new-site-git.png)
 
 Whenever you push an update to GitHub (or GitLab/BitBucket), Netlify will automatically deploy your updates and changes!
 
@@ -142,7 +142,7 @@ It's time to allow Netlify and GitHub to talk to each other. Clicking the "Autho
 
 ### Step 4: Choose Your Repo
 
-![netlify app repository connection screen](/img/blog/choose_repo3.png)
+![netlify app repository connection screen](/v3/img/blog/choose_repo3.png)
 
 Now that you've connected Netlify and GitHub, you can see a list of your Git repos. There's the "jekyll" repo you just pushed to GitHub. Let's select it.
 
@@ -152,7 +152,7 @@ You now have the option to configure your deploy settings. For the purposes of t
 
 ### Step 6: Build Your Site
 
-![netlify app jekyll site build ci/cd configuration settings](/img/blog/deploy_in_progress_3.png)
+![netlify app jekyll site build ci/cd configuration settings](/v3/img/blog/deploy_in_progress_3.png)
 
 That's almost it! Now, you can kick back and wait a couple of moments until Netlify does its thing.
 

@@ -7,7 +7,7 @@ date: '2019-01-08'
 topics:
   - sites
 tags:
-  - JAMstack
+  - Jamstack
   - Site
 tweet: 'https://travel.hopper.com is a wonderful JAMstack site, hosted on Netlify.'
 format: blog
@@ -19,8 +19,8 @@ This beautifully designed, multilingual site includes all sorts of subtle, smoot
 👉 [**travel.hopper.com**](https://travel.hopper.com)
 
 
-![The travel.hopper.com home page](/img/blog/featured-site-screengrab-hopper.jpg)
+![The travel.hopper.com home page](/v3/img/blog/featured-site-screengrab-hopper.jpg)
 
 Its impressive responsive design approach, with clever navigation optimisations for mobile devices when appropriate, and its consideration of performance all go towards making it a site we really like.
 
-![Hopper's careers page](/img/blog/featured-site-screengrab-hopper-careers.jpg)
+![Hopper's careers page](/v3/img/blog/featured-site-screengrab-hopper-careers.jpg)

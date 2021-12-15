@@ -7,15 +7,15 @@ date: '2018-08-17'
 topics:
   - tools
 tags:
-  - Guest post
+  - Guest Post
   - projects
-  - resources
+  - Resources
 tweet: ''
 format: blog
 ---
 Recently my open source project known as cState reached a major milestone — a stable 2.0 release! Now, as you may know, Netlify has a rather extensive feature list and the nature of the Netlify workflow is well applied to not just apps but also status pages, which need reliable uptime and robust infrastructure. A status page is an important tool for many developers, companies, and customers. So, when downtime comes, you want to be prepared. In this post, I’ll detail what cState is, why you need a status page, and tackle the basics.
 
-![A preview of the CState status page](/img/blog/cstate-preview.png)
+![A preview of the CState status page](/v3/img/blog/cstate-preview.png)
 
 
 ## Why do I need a status page?
@@ -24,7 +24,7 @@ The truth is that we all make mistakes and, as you might know, there’s always 
 
 All large-scale companies — be it Netlify, GitHub, Dropbox, or Discord — have a status page. Most fully featured status pages are expensive and more affordable options are typically very limited in features or design (for an example, see Atlassian’s status page in comparison to Exana’s, which doesn’t seem to be maintained anymore). However, If you don’t have a status page, you risk not only upsetting your existing customers but also could look unreliable or untrustworthy, as if you’re hiding how stable your systems actually are.
 
-![A blog post heading captured for reference - Is it down right now?](/img/blog/cstate-down.png)
+![A blog post heading captured for reference - Is it down right now?](/v3/img/blog/cstate-down.png)
 
 ## Then why choose cState?
 

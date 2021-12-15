@@ -9,10 +9,10 @@ lastmod: 2021-05-26
 topics:
   - tutorials
 tags:
-  - serverless
+  - Serverless
   - Jamstack
   - migration
-  - functions
+  - Functions
 tweet: ""
 format: blog
 seo:
@@ -20,7 +20,7 @@ seo:
   metadescription: How incremental builds, performance benefits, and Netlify's
     ease-of-use allowed one dev to migrate dynamic sites to a microservices
     architecture on the Jamstack.
-  ogimage: /img/blog/moriel-dynamic_posts.png
+  ogimage: /v3/img/blog/moriel-dynamic_posts.png
 ---
 ### Why I migrated my dynamic sites to a serverless architecture
 
@@ -111,11 +111,11 @@ I was free to buy random domains and use them for one-off tools to my heart's co
 
 Migrating from a static server to serverless microservice architecture turned out to also significantly simplify the project and architecture, and made it significantly faster to respond and easier to maintain. You can see the change in the before and after architecture diagrams:
 
-![Traditional hosting vs. Microservices architecture with Netlify](/img/blog/traditional-hosting-architecture.jpg "Old site architecture on a traditional hosting server")
+![Traditional hosting vs. Microservices architecture with Netlify](/v3/img/blog/traditional-hosting-architecture.jpg "Old site architecture on a traditional hosting server")
 
 
 
-![Serverless Netlify functions diagram](/img/blog/netlify-serverless-architecture.jpg "New site architecture with serverless Netlify functions")
+![Serverless Netlify functions diagram](/v3/img/blog/netlify-serverless-architecture.jpg "New site architecture with serverless Netlify functions")
 
 
 

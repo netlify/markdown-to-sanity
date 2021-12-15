@@ -2,13 +2,13 @@
 title: 'Coding Modern Websites with the JAMstack: Part 2'
 authors:
   - Brian Douglas
-image: /img/blog/jamstack logo.png
+image: /v3/img/blog/jamstack logo.png
 short_title: Adding a CMS to a JAMstack site
 topics:
   - tutorials
 tags:
-  - cms
-  - tutorial
+  - CMS
+  - Tutorial
   - step-by-step
 format: blog
 description: >-
@@ -28,7 +28,7 @@ Think of the Head Chef of Tasty Licks or anyone else managing the menu needing t
 
 There are a lot of solutions to handling content management. Since we’re already on the working with Netlify, I am going to use the open source project, Netlify CMS, a headless CMS that will help any content contributor easily manage menu updates.
 
-![cms screenshot](/img/blog/netlify-cms-screenshot.png)
+![cms screenshot](/v3/img/blog/netlify-cms-screenshot.png)
 
 The entirety of the Netlify CMS lives in the static folder of our repository holding the files necessary to host the admin UI. The admin interface is a single-page app with the entry point stored in a static **/admin** folder you will need to add to the root of your static site. Go ahead and create the admin folder in your [site/static](https://github.com/netlify/restaurant-template-cms/tree/step-02-add-a-cms-completed/site/static/admin) folder. The static folder gets included in your Hugo build and placed in your **dist** folder. Within that structure, you will need to add an index.html with the content below.
 
@@ -73,7 +73,7 @@ Commit and push your changes to your GitHub repo to trigger a deploy on Netlify.
 
 If you attempt to log in you will be presented with an error. In the next paragraph, we will set up the basic authentication needed to make the CMS work.
 
-![login to cms](/img/blog/login-to-cms.png)
+![login to cms](/v3/img/blog/login-to-cms.png)
 
 ## Authentication with the CMS
 
@@ -89,7 +89,7 @@ Our template already includes the identity service turned on and you can confirm
 
 You can add this to your sites index.html, but my recommendation is to add it to the site dashboard, using Netlify feature to add snippet injection. You find the snippet injection form in your site settings under the build & deploys menu.
 
-![snippet injection](/img/blog/snippet injection.png)
+![snippet injection](/v3/img/blog/snippet injection.png)
 
 Once that script is populated and connected you will need to trigger a new deploy to update your live Netlify site with the Identity widget added.
 
@@ -97,13 +97,13 @@ The Identity widget will be available in preview and production versions of your
 
 Please go ahead and create an account to login with, be sure to confirm your account using the email that is sent after sign up.
 
-![login with identity](/img/blog/login-to-identity.png)
+![login with identity](/v3/img/blog/login-to-identity.png)
 
 You will now have the ability view your existing data as well as add new items to your restaurant menu when you log in.
 
 The connection to GitHub is made through Netlify’s open source [Git Gateway](https://www.netlify.com/docs/git-gateway/) feature, which grants access to only authenticated users through Netlify Identity service. Now that is a powerful combo!
 
-![working cms](/img/blog/working-cms.png)
+![working cms](/v3/img/blog/working-cms.png)
 
 ## Add a drink menu
 
@@ -154,13 +154,13 @@ collections:
 
 Once you have done the above commit these changes push to GitHub so can you can now add the drinks to your menu.
 
-![add a drink with cms](/img/blog/add-a-drink.png)
+![add a drink with cms](/v3/img/blog/add-a-drink.png)
 
 Go ahead and add a few more drinks to your menu, but please use moderation.
 
 ## Adding an image gallery
 
-![image gallery](/img/blog/add-image-gallery.png)
+![image gallery](/v3/img/blog/add-image-gallery.png)
 
 When looking for a restaurant, it is nice to see pictures of the food as well as what the place looks like to get a sense of quality. Having images somewhere on the page is a good idea for business.
 
@@ -215,7 +215,7 @@ You can change the [widget types for CMS](https://www.netlifycms.org/docs/widget
 
 There are a number of other widgets that exist in the CMS and there are options to create your own as well. You can find out more about [developing your own widget type](https://www.netlifycms.org/docs/extending/) in the Netlify CMS documentation.
 
-![images in cms](/img/blog/cms-image-gallery.png)
+![images in cms](/v3/img/blog/cms-image-gallery.png)
 
 Now that the CMS is connected you can freely upload images using the CMS. Remember each time you save the CMS, it will trigger a new deploy through Netlify and take a few moments to update live.
 

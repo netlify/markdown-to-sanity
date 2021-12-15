@@ -10,9 +10,9 @@ lastmod: 2021-06-03
 topics:
   - tools
 tags:
-  - gatsby
-  - build plugins
-  - serverless functions
+  - Gatsby
+  - Build Plugins
+  - Serverless functions
   - incremental builds
   - image caching
 tweet: ""
@@ -25,7 +25,7 @@ seo:
   metadescription: Try out new Gatsby Functions on Netlify with this early release of
     the Essential Gatsby plugin, which includes support for incremental builds and
     image caching. 
-  ogimage: /img/blog/gatsby_functions_on_netlify.png
+  ogimage: /v3/img/blog/gatsby_functions_on_netlify.png
 ---
 Starting today, you can try out new Gatsby Functions on Netlify using an early release of the Essential Gatsby plugin!
 

@@ -3,14 +3,14 @@ title: 'JAMstack, Netlify CMS, and 10x-ing Smashing Magazine'
 authors:
   - Matt Biilmann
   - Chris Bach
-image: /img/blog/new-changelog-logo.jpg
+image: /v3/img/blog/new-changelog-logo.jpg
 format: blog
 topics:
   - insights
 short_title: Netlify is on the Changelog
 tags:
-  - netlifycms
-  - jamstack
+  - Netlify CMS
+  - Jamstack
 description: >
   Matt Biilmann and Chris Bach joined the show to talk about JAMstack, Netlify
   CMS, how open source drives standards, and 10x-ing the speed of Smashing

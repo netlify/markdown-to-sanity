@@ -10,8 +10,8 @@ lastmod: 2020-05-20T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - build plugins
-  - build
+  - Build Plugins
+  - Build
 tweet: ""
 format: blog
 relatedposts:
@@ -51,7 +51,7 @@ We'll use the [`netlify build` and `netlify build --dry` commands](https://docs.
 
 Speaking of code to run it on, we'll need a test project to sic our Build Plugin on. Since we'll mostly be logging information to see how the plugins work, a simple, single `index.html` site with a [`netlify.toml` Netlify configuration file](https://docs.netlify.com/configure-builds/file-based-configuration/?utm_source=blog&utm_medium=what-plugin-2-tzm&utm_campaign=devex) will do. Wouldn't you know it, we have one right in the example build plugin folder: [🐙 here is the link to the example site's folder](https://github.com/tzmanics/netlify-plugin-to-all-events/tree/master/test-project).
 
-![screenshot of this test project](/img/blog/test-project.jpg)
+![screenshot of this test project](/v3/img/blog/test-project.jpg)
 
 *This project is a thing of beauty, I know.*
 
@@ -188,7 +188,7 @@ cd test-project/
 netlify build --dry
 ```
 
-![logs from netlify build --dry](/img/blog/build-dry.jpg)
+![logs from netlify build --dry](/v3/img/blog/build-dry.jpg)
 
 This output confirms that our Build Plugin is being triggered at all the build events. We can now turn this into a real build, [Pinocchio](https://youtu.be/EFFGR72tA4g?t=52). To do this we'll just drop the `--dry` flag.
 
@@ -198,7 +198,7 @@ This output confirms that our Build Plugin is being triggered at all the build e
 ntl build
 ```
 
-![screenshot of the full netlify build logs](/img/blog/build-logs.jpg)
+![screenshot of the full netlify build logs](/v3/img/blog/build-logs.jpg)
 
 One thing you may notice from these logs is that the output for `onError` didn't show up. That's because we had no errors, woohoo! Later on, we'll intentionally add an error so we can see this event triggered and look into how to handle errors.
 
@@ -316,7 +316,7 @@ onPostBuild: ({ constants }) => {
 
 If we run `ntl build` now we'll see all the constants and their values for our test project.
 
-![constants ntl build log output](/img/blog/constants.jpg)
+![constants ntl build log output](/v3/img/blog/constants.jpg)
 
 These logs are from the deployed version of the test project. The `SITE_ID` has been edited because it's sensititve information and not everyone out there is as nice as you 😘. The other values are the true, unedited information. We can access this individual information for each project that uses our plugin. In another plugin I built, [Brand Guardian](https://github.com/tzmanics/netlify-plugin-brand-guardian), I use the `PUBLISH_DIR` to get the route to all project's HTML files and check for spelling errors of uniquely spelled brand words.
 
@@ -357,11 +357,11 @@ In our Build Plugin we can add an error handler like so:
 ...
 ```
 
-![a canceled build error](/img/blog/cancelbuild.jpg)
+![a canceled build error](/v3/img/blog/cancelbuild.jpg)
 
 There's a lot going on in these logs. First, we see that `onSuccess` was triggered because technically the build happened before we triggered an error so the build was successful. Because we triggered an error we finally got to see the, hopefully often elusive, `onError` event get triggered. The very last line we see the main event, the message that the build has been canceled along with the error we passed in. If we run this on a deployed application the build will also show up as canceled in thr deploy dashboard.
 
-![a screenshot of the canceled build appearing in netlify app dashboard](/img/blog/canceleddashboard.jpg)
+![a screenshot of the canceled build appearing in netlify app dashboard](/v3/img/blog/canceleddashboard.jpg)
 
 > 🐙 In [this repo commit](https://github.com/tzmanics/netlify-plugin-to-all-events/commit/0a4ce9319133fe8b833f2226fc256b095bc92194) we add the different types of error handling to the Build Plugin.
 

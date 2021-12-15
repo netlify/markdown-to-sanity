@@ -12,8 +12,7 @@ topics:
 tags:
   - GraphQL
   - APIs
-  - Designing Schemas
-  - Graphs
+  - Schemas
 tweet: ''
 format: blog
 seo:
@@ -22,7 +21,7 @@ seo:
     at companies such as Pinterest and Trulia implementing large GraphQL
     migrations.
   metatitle: Advice from a GraphQL Expert
-  ogimage: /img/blog/null.png
+  ogimage: /v3/img/blog/null.png
 ---
 Last year I attended a NodeSF meetup where [Francesca Guiducci](https://twitter.com/engfragui) spoke. Francesca has been working with GraphQL for years at scale, at companies like Trulia and Pinterest, and has been key to a lot of migration and development. In her talk, _A GraphQL Guide for Backend Developers_, she walks through a lot of very good, battle-tested advice. Since the event wasn't captured, here's a brief summary of her talk (taken with her explicit permission).
 
@@ -32,11 +31,11 @@ This post assumes some familiarity with GraphQL. If you’re brand new, [the off
 
 If you’re building a brand new application, starting from zero, putting a GraphQL server in front of a database will help create minimal architecture.
 
-![GraphQL architecture graphic - graphQL client, server, and datasouce connection](/img/blog/graphql-post.png)
+![GraphQL architecture graphic - graphQL client, server, and datasouce connection](/v3/img/blog/graphql-post.png)
 
 Similarly, GraphQL can be used as a light wrapper around existing APIs if your microservices are already built out.
 
-![GraphQL architecture graphic - connection between graphql client, server, and multiple rest apis](/img/blog/graphql2.png)
+![GraphQL architecture graphic - connection between graphql client, server, and multiple rest apis](/v3/img/blog/graphql2.png)
 
 These services can be REST APIs, but they don’t necessarily need to be. They can also be [Thrift services](https://diwakergupta.github.io/thrift-missing-guide/) or databases or a combination of all the above. (For more information on microservices, [we have a write up](https://www.netlify.com/blog/2019/11/18/what-are-microservices/) that explains them).
 
@@ -62,7 +61,7 @@ What information is relevant to a user? If we're designing a user in the context
 
 Based on the graph on the left, your schema might end up looking something like this:
 
-![GraphQL schema example with relationship between user, and posts, comments, groups related to that user](/img/blog/graphql3.png)
+![GraphQL schema example with relationship between user, and posts, comments, groups related to that user](/v3/img/blog/graphql3.png)
 
 As you can see from the image above, Not only does a user have many posts, but the type Post points to its author. This is what thinking in graphs means.
 
@@ -78,11 +77,11 @@ Say you’re designing a schema for a restaurant and you want to assign a few fi
 
 However, it’s likely that you’ll need to expose other info related to location. In this case, what you can do is wrap the address in a location object. This will make it cleaner to add other info about the location like `zipCode, country, latLng` if you need instead of having them at the root level. 
 
-![GraphQL schema basic type, alternative types, and more detailing information](/img/blog/screen-shot-2020-01-16-at-8.41.53-am.png)
+![GraphQL schema basic type, alternative types, and more detailing information](/v3/img/blog/screen-shot-2020-01-16-at-8.41.53-am.png)
 
 If you for some reason started with the initial schema (schema.graphql), don’t fret. There’s still a way to change the schema so that we get rid of address and move to location instead.
 
-![GraphQL schema basic and alternative type](/img/blog/screen-shot-2020-01-16-at-8.43.10-am.png)
+![GraphQL schema basic and alternative type](/v3/img/blog/screen-shot-2020-01-16-at-8.43.10-am.png)
 
 Enter the `@deprecated` directive. With this feature, The deprecated field will continue to function, (as long as you don’t remove the logic to retrieve that field from the backend.) 
 
@@ -96,7 +95,7 @@ By default every field in GraphQL is “nullable”. This means that every field
 
 When we design the schema, it’s possible to come across fields that are always logically needed as part of a type. A typical example of this is an ID field. There’s a way to express that these fields will never come back as null so that the client logic can be simplified and we can further clarify the contract between client and server.
 
-![GraphQL schema fields non-nullable (exclamation point) and nullable example](/img/blog/null.png)
+![GraphQL schema fields non-nullable (exclamation point) and nullable example](/v3/img/blog/null.png)
 
 To define a field as non-nullable we can use an exclamation point after the field type. In this case we marked id, name and status as non-nullable, but we kept lift as nullable.
 

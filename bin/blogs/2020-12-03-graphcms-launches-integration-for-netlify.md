@@ -12,10 +12,10 @@ lastmod: 2020-12-03
 topics:
   - news
 tags:
-  - graphcms
+  - GraphCMS
   - graphql
-  - integration
-  - cms
+  - Integrations
+  - CMS
 tweet: ""
 format: blog
 relatedposts:
@@ -27,13 +27,13 @@ seo:
     can now build and deploy their Netlify sites and apps from within the
     GraphCMS UI itself. Check out this guest post from their team on how to try
     it out.
-  ogimage: /img/blog/netlify-graphscms-integration.png
+  ogimage: /v3/img/blog/netlify-graphscms-integration.png
 ---
 [GraphCMS](https://graphcms.com/blog/graphcms-netlify-integration?ref=netlify) just announced the release of an integration for Netlify. This integration allows Netlify sites and apps to be built and deployed from within the GraphCMS UI itself, with a single click.
 
 ## About the Integration
 
-![Netlify x GraphCMS integration screenshot](/img/blog/netlify-graphcms-01.png)
+![Netlify x GraphCMS integration screenshot](/v3/img/blog/netlify-graphcms-01.png)
 
 The integration allows you to update your static deployments via a button in the GraphCMS content view. Handled differently than by webhooks, the only configuration needed is connecting your GraphCMS project to your Netlify site/app and selecting which content entries can trigger a rebuild via the UI.
 
@@ -57,23 +57,23 @@ Log in to your GraphCMS project and select **Integrations** from the sidebar.
 
 Select Netlify, and enable the integration. Your GraphCMS user should have the necessary permissions for this.
 
-![Enabling Netlify integration in GraphCMS dashboard screenshot](/img/blog/netlify-graphcms-03.png)
+![Enabling Netlify integration in GraphCMS dashboard screenshot](/v3/img/blog/netlify-graphcms-03.png)
 
 Ensure that you're connected to your Netlify account so your Netlify sites can appear in the next step.
 
-![Connect to Netlify button in GraphCMS dashboard](/img/blog/netlify-graphcms-04.png)
+![Connect to Netlify button in GraphCMS dashboard](/v3/img/blog/netlify-graphcms-04.png)
 
 Select the sites you want to enable the integration for and ensure that they have continuous deployment enabled.
 
-![Netlify Sites build settings in GraphCMS integration settings](/img/blog/netlify-graphcms-05.png)
+![Netlify Sites build settings in GraphCMS integration settings](/v3/img/blog/netlify-graphcms-05.png)
 
 Select the content models that should show the Netlify button in the sidebar. This could range from anything larger like pages and posts, or something granular like authors and headers. Any content change that could trigger a new deploy should have the button enabled.
 
-![Netlify content schema models in GraphCMS integration dashboard](/img/blog/netlify-graphcms-06.png)
+![Netlify content schema models in GraphCMS integration dashboard](/v3/img/blog/netlify-graphcms-06.png)
 
 When creating or editing published content, simply click on *Start Building Demo* to trigger a new build. You'll be able to see the status of your build once triggered within the sidebar itself.
 
-![Netlify x GraphCMS integration button finalizing start building button](/img/blog/netlify-graphcms-07.png)
+![Netlify x GraphCMS integration button finalizing start building button](/v3/img/blog/netlify-graphcms-07.png)
 
 That's it, you're set!
 

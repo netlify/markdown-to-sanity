@@ -22,7 +22,7 @@ tweet: >-
 format: blog
 ---
 
-![Netlify Large Media illustration](/img/blog/large-media-blog-post-2x.jpg "Netlify Large Media illustration")
+![Netlify Large Media illustration](/v3/img/blog/large-media-blog-post-2x.jpg "Netlify Large Media illustration")
 
 Web projects are made up of more than just code. They regularly also contain a variety of image, audio, and even video assets. The problem is that Git, the tool we use for managing our code and powering our workflows, is better at managing code than managing these large, binary files.
 
@@ -38,7 +38,7 @@ By using [Netlify Large Media](/features/large-media/), you’ll be able to redu
 
 And there’s more.
 
-![Image transformation illustration](/img/blog/large-media-blog-post-2-2x.jpg "Image transformation illustration")
+![Image transformation illustration](/v3/img/blog/large-media-blog-post-2-2x.jpg "Image transformation illustration")
 
 ## Image transformations
 
@@ -86,4 +86,4 @@ And don’t forget to reach out with any feedback, questions, or concerns [@Netl
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-large-media-is-born)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-large-media-is-born)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-large-media-is-born)

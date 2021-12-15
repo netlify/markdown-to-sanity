@@ -12,8 +12,8 @@ topics:
 tags:
   - Redirects
   - Access Control
-  - serverless
-  - functions
+  - Serverless
+  - Functions
 tweet: ''
 format: blog
 ---
@@ -35,12 +35,12 @@ To start taking advantage of role based redirects, you start by defining the rol
 With the current state of redirect rules as defined above, there is no error handling or redirection for users who don’t meet the current condition, which is to have a role of editor. As a result, users without a role of editor will be sent to a default 404 Not Found page. The flowchart below shows the respective paths taken based on whether or not a user’s role has been granted access to a site. 
 
 
-![Flow Diagram of Netlify Redirects without fallback rule](/img/blog/redirects-wo-fallback.png)
+![Flow Diagram of Netlify Redirects without fallback rule](/v3/img/blog/redirects-wo-fallback.png)
 
 
 To gracefully handle this, you can customize the default navigation by adding an additional redirect rule to navigate users back to a login page. So it would work like this:
 
-![Flow Diagram of Netlify Redirects with fallback rule](/img/blog/redirects-w-fallback.png)
+![Flow Diagram of Netlify Redirects with fallback rule](/v3/img/blog/redirects-w-fallback.png)
 
 In the code snippet below, we’ve added this rule and included the gated site as a query parameter called `site`. Including the gated site as a query parameter allows us to grab the appropriate URL and return users to the site they had just left prior to logging in. The additional `splat` path at the end of the `site` query parameter adds extra granularity and enables us to capture the specific path a user was on.
 

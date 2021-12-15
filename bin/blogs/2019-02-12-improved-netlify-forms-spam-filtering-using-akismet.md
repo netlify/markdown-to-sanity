@@ -9,10 +9,9 @@ date: '2019-02-12'
 topics:
   - news
 tags:
-  - forms
+  - Forms
   - spam
   - akismet
-  - form submissions
 tweet: ''
 format: blog
 ---
@@ -27,13 +26,13 @@ So we're very excited to announce, that starting today, all form submissions wil
 Spam can be described in many ways – electronic junk, unsolicited content, and unwanted commercial advertising.  Wikipedia tells us the term comes from Spam luncheon meat by way of a [Monty Python sketch](https://en.wikipedia.org/wiki/Spam_(Monty_Python)) in which Spam is ubiquitous, unavoidable, and repetitive. 
 
 <div align="center"> 
-  <img src="/img/blog/spam.gif" alt="spam!">
+  <img src="/v3/img/blog/spam.gif" alt="spam!">
 </div>
 
 A quick look at our data during tests will confirm all three attributes: almost 50% of processed form submissions are spam.
 
 <div align="center"> 
- <img src="/img/blog/spam-submissions-graph.png" alt="Bar graph of spam submissions vs. total" />
+ <img src="/v3/img/blog/spam-submissions-graph.png" alt="Bar graph of spam submissions vs. total" />
   <figure>
     <figcaption><font color="grey" size="4">submissions / hour</font></figcaption>
   </figure>

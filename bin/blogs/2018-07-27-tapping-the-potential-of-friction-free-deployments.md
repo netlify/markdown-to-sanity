@@ -11,7 +11,6 @@ topics:
 tags:
   - Automation
   - Webhooks
-  - Experiments
 tweet: ''
 format: blog
 ---
@@ -57,7 +56,7 @@ Crazy? Perhaps! Recommend? No. Not every single minute. But… possible?!
 
 To find out I made something a little playful. Playful but effective. And something which [performs extremely well](https://twitter.com/zachleat/status/1020362835459805189). Take a look:
 
-[![Screenshot of setyourwatchby.netlify.com showing the time 5:17pm](/img/blog/setyourwatchbynetlify.png)](https://setyourwatchby.netlify.com/)
+[![Screenshot of setyourwatchby.netlify.com showing the time 5:17pm](/v3/img/blog/setyourwatchbynetlify.png)](https://setyourwatchby.netlify.com/)
 
 > [setyourwatchby.netlify.com/](https://setyourwatchby.netlify.com/)
 
@@ -80,7 +79,7 @@ Of course, each build, and the time shown in each location, will only be correct
 
 ## Is this wise?
 
-![Your scientists were so preoccupied with whether or not they could that they didn't stop to think if they should.](/img/blog/jeff-goldblum-gif.gif)
+![Your scientists were so preoccupied with whether or not they could that they didn't stop to think if they should.](/v3/img/blog/jeff-goldblum-gif.gif)
 
 Let's be honest. This is overkill. But it proves a point nicely.
 

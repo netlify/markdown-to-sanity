@@ -161,7 +161,7 @@ Enjoy!
     - port
   - netlify dev (detector)
     - env vars
-    - redirects
+    - Redirects
   - netlify dev --live (_beta_)
   - netlify functions:create
   - netlify functions:invoke

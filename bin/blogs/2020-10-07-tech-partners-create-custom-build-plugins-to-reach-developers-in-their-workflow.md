@@ -10,9 +10,9 @@ lastmod: 2020-10-07
 topics:
   - news
 tags:
-  - netlify
-  - product
-  - plugins
+  - Netlify
+  - Product
+  - Plugins
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ relatedposts:
 seo:
   metatitle: Netlify Tech Partners Creating Build Plugins
   metadescription: "Learn how 3 technology partners — Algolia, Nimbella, and Snyk — have integrated their services into the developer workflow with Netlify Build Plugins."
-  ogimage: /img/blog/plugins-og-64.png
+  ogimage: /v3/img/blog/plugins-og-64.png
 ---
 This week, as part of Jamstack Conf, we’re revisiting Build Plugins and highlighting how three technology partners — Algolia, Nimbella, and Snyk — have integrated their service offerings directly into the developer workflow with Netlify.
 

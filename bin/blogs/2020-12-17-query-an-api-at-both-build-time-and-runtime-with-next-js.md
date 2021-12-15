@@ -10,7 +10,7 @@ lastmod: 2020-12-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -23,8 +23,11 @@ seo:
   metadescription: Where and how do I call an API in Next.js? How does
     getStaticProps work? Can I mix and match build time and runtime? Learn all
     of this and more in this post.
-  ogimage: /img/blog/blogvent16.png
+  ogimage: /v3/img/blog/blogvent16.png
 ---
+
+
+
 Welcome to Blogvent, day 16!
 
 In Next.js, you can call an API at build time, *and* at runtime. There are pros and cons to this!
@@ -37,7 +40,7 @@ If you call an API at runtime, that means the data is pulled when the page is ru
 
 Of course! [Here's a demo I built](https://next-nasa-demo.netlify.app/) to illustrate this further:
 
-![Preview demo site querying the NASA API, build time on the left, and runtime on the right](/img/blog/nasapreview.png "Preview demo site querying the NASA API")
+![Preview demo site querying the NASA API, build time on the left, and runtime on the right](/v3/img/blog/nasapreview.png "Preview demo site querying the NASA API")
 
 This demo uses [NASA Open APIs](https://api.nasa.gov/) to pull in photos.
 
@@ -99,3 +102,4 @@ If you'd like to see the demo again, [here is the site](https://next-nasa-demo.n
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-nasa-demo&utm_source=blog&utm_medium=nextnasa-cs&utm_campaign=devex)
 
 Til next time!
+

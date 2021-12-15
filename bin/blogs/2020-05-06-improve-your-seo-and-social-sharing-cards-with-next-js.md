@@ -9,9 +9,9 @@ lastmod: 2020-07-09
 topics:
   - tutorials
 tags:
-  - nextjs
-  - static site generator
-  - seo
+  - Next.js
+  - Static site generators
+  - SEO
 tweet: ""
 format: blog
 relatedposts:
@@ -22,11 +22,12 @@ seo:
   metadescription: Check out this Next.js primer on SEO fundamentals. Utilize the
     Open Graph Protocol to update metadata in your Next apps, ship sites with
     optimize page titles, and more!
-  ogimage: /img/blog/good-cards.png
+  ogimage: /v3/img/blog/good-cards.png
 ---
+
 Look, we’ve all done it. We’ve shared a post of our latest blog or project to Twitter, or LinkedIn, or Slack, or something, and it ends up looking like a blurred mess on the timeline, or has a boring default thumbnail. We've taken a stroll over to [check your Lighthouse score](https://web.dev/measure/) and find that SEO is in the red. We've thought about how our users will *React* to our apps, realizing they don't have the *Context* when they see our links in the feed. Heyo.
 
-![On the left, a generic, unhelpful link. On the right, a properly tagged site!](/img/blog/boo.png "Look what you can do if you try")
+![On the left, a generic, unhelpful link. On the right, a properly tagged site!](/v3/img/blog/boo.png "Look what you can do if you try")
 
 When you want something to look decent on a feed, you can use something called the [Open Graph Protocol](https://ogp.me/). It allows you to customize your `<meta>` tags on your site so that it looks nice and beautiful when you share the URLs around.
 
@@ -118,3 +119,4 @@ I hope this is helpful for you, and here’s a great list of resources for more 
 * [Automatically Generate Social Images for Blog Posts](https://www.learnwithjason.dev/blog/auto-generate-social-image/)
 
 Keep an eye on this space. We'll have more posts on leveling up your SEO coming soon!
+

@@ -11,11 +11,11 @@ lastmod: 2020-07-09
 topics:
   - tutorials
 tags:
-  - jamstack
-  - ecommerce
-  - bigcommerce
-  - gatsby
-  - netlify
+  - Jamstack
+  - E-commerce
+  - BigCommerce
+  - Gatsby
+  - Netlify
 tweet: ''
 format: blog
 relatedposts:
@@ -26,7 +26,7 @@ seo:
     JAMstack Ecommerce store using BigCommerce, Netlify, & Gatsby. Fast,
     performant, optimized ecommerce.
   metatitle: How to Build JAMstack Ecommerce Store - BigCommerce & Netlify
-  ogimage: /img/blog/bigcommerce-netlify-headless-tutorial.png
+  ogimage: /v3/img/blog/bigcommerce-netlify-headless-tutorial.png
 ---
 There are a number of use cases for building a website on the JAMstack, but the value that static sites provides is especially compelling for companies selling online. Ecommerce is already a significant portion of retail sales, with Statista reporting that global [ecommerce sales were 14% of the total global retail sales](https://www.statista.com/study/10653/e-commerce-worldwide-statista-dossier/). This number is predicted to rise to 16% in 2020, reaching $4.2 billion in sales in the global market. 
 
@@ -67,7 +67,7 @@ Next, you’ll need to create an API user with the necessary scopes to get API c
 * Products: read-only
 * Carts: modify
 
-![bigcommerce dashboard api scopes](/img/blog/api_scopes.png)
+![bigcommerce dashboard api scopes](/v3/img/blog/api_scopes.png)
 
 Follow [these steps](https://developer.bigcommerce.com/api-docs/getting-started/authentication/rest-api-authentication#obtaining-store-api-credentials?utm_medium=partner&utm_source=Netlify&utm_campaign=USA_MM_ACQ_Headless_CT_2020_Q1_&utm_content=jamstack-ecomm-storefront) to create an API user account on your store. You’ll be creating an API user for a “V2/V3 API Token”.
 
@@ -106,7 +106,7 @@ Once you’ve got the repo setup, you’ll need to set the proper environment va
 2. Update the credentials in the `.env` file using your preferred text editor (Sublime, Vim, etc.). You’ll enter the credentials you received when creating your API user.
    * Store Hash – This is the alphanumeric hash for your particular store. It can be found in the API path
 
-![bigcommerce api credentials txt file setup example](/img/blog/api_credentials.png)
+![bigcommerce api credentials txt file setup example](/v3/img/blog/api_credentials.png)
 
 #### Step 3:  Deploy on Netlify
 
@@ -121,7 +121,7 @@ Working under the assumption that you already have a Netlify site, you simply ju
 3. Deploy to Netlify
    `netlify deploy`
 
-![netlify cli deploy commands example in terminal](/img/blog/netlify_deploy.png)
+![netlify cli deploy commands example in terminal](/v3/img/blog/netlify_deploy.png)
 
 This is very flexible, so you can use a net new site if you wish or deploy via any of the [many methods that Netlify supports](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git?utm_source=blog&utm_campaign=headless-bigcommerce-tutorial-feb-2020&utm_content=jamstack-ecomm-storefront).
 
@@ -134,7 +134,7 @@ As you’ll see when you deploy your own BigCommerce storefront on Netlify, the 
 * Cart
 * Checkout
 
-![gatsby netlify bigcommerce headless storefront example catalog and product pages](/img/blog/gatsby-netlify-bigcommerce-product-page-example.gif)
+![gatsby netlify bigcommerce headless storefront example catalog and product pages](/v3/img/blog/gatsby-netlify-bigcommerce-product-page-example.gif)
 
 In order to generate the list of all products and the specific product detail pages, we’re pulling the key catalog data from the BigCommerce store via the [catalog API](https://developer.bigcommerce.com/api-reference/store-management/catalog?utm_medium=partner&utm_source=Netlify&utm_campaign=USA_MM_ACQ_Headless_CT_2020_Q1_&utm_content=jamstack-ecomm-storefront). In the starter plugin, this is actually done by passing configuration options in the “gatsby-config.js” file for the “[gatsby-source-bigcommerce](https://github.com/thirdandgrove/gatsby-source-bigcommerce)” plugin, which is an open source plugin to pull in BigCommerce API data to any Gatsby site.
 

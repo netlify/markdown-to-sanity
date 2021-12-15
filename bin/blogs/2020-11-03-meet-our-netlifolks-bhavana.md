@@ -11,8 +11,8 @@ topics:
   - insights
 tags:
   - netlifolks
-  - engineering
-  - team
+  - Engineering
+  - teams
 tweet: ""
 format: blog
 relatedposts:
@@ -22,13 +22,13 @@ seo:
   metadescription: Check out the 'Meet our Netlifolks' series, a collection of
     interviews designed to give you a peek into our day to day & introduce you
     to the Netlifolks who build our products!
-  ogimage: /img/blog/bhavana.png
+  ogimage: /v3/img/blog/bhavana.png
   metatitle: "Meet our Netlifolks: Bhavana Srinivas, Senior Solutions Engineer"
 ---
 In this Netlify team interview series, we’ll be giving you a sneak peek of a day in the life of some of our teammates. Introducing *Meet our* *Netlifolks* - up first, meet Bhavana Srinivas, a Senior Solutions Engineer at Netlify!
 
 <div style="max-width: 400px; margin: 0 auto; text-align: center;">
-  <img src="/img/blog/bhavana-netlify-se.jpg" alt="Bhavana, Netlify SE featured headshot image" />
+  <img src="/v3/img/blog/bhavana-netlify-se.jpg" alt="Bhavana, Netlify SE featured headshot image" />
 </div>
 
 ***What was your path to Netlify and what were your first impressions of the company?***

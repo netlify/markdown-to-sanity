@@ -12,9 +12,9 @@ lastmod: 2020-05-21T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - stripe
-  - tutorial
-  - ecommerce
+  - Stripe
+  - Tutorial
+  - E-commerce
 tweet: ""
 format: blog
 relatedposts:
@@ -93,7 +93,7 @@ For your "create-react-app" use the following build command and directory:
 
 ## Use Netlify environment variables for local development
 
-![The environment variables section of your Netlify dashboard](/img/blog/stripe-prapi-netlify-env.png)
+![The environment variables section of your Netlify dashboard](/v3/img/blog/stripe-prapi-netlify-env.png)
 
 You can find detailed instructions on how to set up environment variables in [this tutorial](/blog/2020/04/13/learn-how-to-accept-money-on-jamstack-sites-in-38-minutes/#use-netlify-environment-variables-for-local-development?utm_source=blog&utm_medium=stripe-pi-jl&utm_campaign=devex).
 

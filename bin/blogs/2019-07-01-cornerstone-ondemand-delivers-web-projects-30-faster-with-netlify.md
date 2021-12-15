@@ -15,7 +15,7 @@ tags:
   - Sanity CMS
   - Marketo
   - Performance
-  - Case Study
+  - Case Studies
 tweet: ''
 format: blog
 ---

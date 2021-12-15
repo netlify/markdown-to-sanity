@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Brunch on Netlify"
 authors:
   - Aaron Autrand
-image: /img/blog/brunch-screenshot.png
+image: /v3/img/blog/brunch-screenshot.png
 format: blog
 short_title: Host Brunch on Netlify
 description: A step-by-step guide on how to host a website built with static site generator Brunch.
@@ -11,9 +11,8 @@ thumbnail: thumbnails/brunch-copy.png
 cmsUserSlug: ""
 date: 2015-10-26
 tags:
-  - nodejs
-  - brunch
-  - tutorial
+  - NodeJS
+  - Tutorial
 topics:
   - tutorials
 ---

@@ -7,7 +7,7 @@ episodenumber: '20'
 minuteslong: '41'
 audiolink: >-
   https://media.blubrry.com/heavybit/d3aeja1uqhkije.cloudfront.net/podcasts/jamstack-radio/20170511-jamstack-radio-020.mp3
-image: /img/blog/jamstack-radio-1024x1024.jpg
+image: /v3/img/blog/jamstack-radio-1024x1024.jpg
 short_title: 'Spike: A Full Featured Static Website Generator'
 guests:
   - bio: >-
@@ -17,9 +17,9 @@ guests:
       with front-end and node.
     name: 'Jeff Escalante '
 tags:
-  - podcast
+  - Podcast
   - spike
-  - static site generator
+  - Static site generators
 topics:
   - tools
 description: >-

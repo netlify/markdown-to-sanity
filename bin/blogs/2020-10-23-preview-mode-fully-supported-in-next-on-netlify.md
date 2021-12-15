@@ -8,9 +8,9 @@ lastmod: 2020-10-27
 topics:
   - news
 tags:
-  - nextjs
-  - next
-  - netlify
+  - Next.js
+  - Next.js
+  - Netlify
 tweet: ""
 format: blog
 relatedposts:
@@ -18,7 +18,7 @@ relatedposts:
   - Integrating Netlify Identity into your Next.js apps
 seo:
   metatitle: Preview Mode for Next.js Now Fully Supported on Netlify - Learn More
-  ogimage: /img/blog/final-13.png
+  ogimage: /v3/img/blog/final-13.png
   metadescription: Netlify's next-on-netlify package now fully supports Preview Mode for Next.js! Learn more about this new feature and how to set it up on your sites and apps.
 ---
 In the Next.js 9.3 release in Spring 2020, multiple features came out making static generation a first-class citizen in the framework. Jamstack developers, rejoice! Since then, more and more powerful features have come into play to make it a more modern, robust framework.
@@ -31,7 +31,7 @@ Preview mode allows users to bypass the statically generated page to server-side
 
 This week, we are happy to announce full support of Preview Mode using `next-on-netlify`, which wraps your application in a tiny compatibility layer, so that pages can use Netlify Functions to be server-side rendered!
 
-[![Next on Netlify](/img/blog/nextonnetlify.png)](https://github.com/netlify/next-on-netlify)
+[![Next on Netlify](/v3/img/blog/nextonnetlify.png)](https://github.com/netlify/next-on-netlify)
 
 ## Installing `next-on-netlify`
 

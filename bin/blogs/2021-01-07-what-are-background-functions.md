@@ -8,7 +8,7 @@ lastmod: 2021-01-07
 topics:
   - tutorials
 tags:
-  - serverless
+  - Serverless
   - background functions
 tweet:
 seo:

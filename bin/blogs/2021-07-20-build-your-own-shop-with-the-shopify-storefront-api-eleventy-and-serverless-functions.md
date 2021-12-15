@@ -11,7 +11,7 @@ topics:
   - tools
 tags:
   - Shopify
-  - Eccomerce
+  - E-commerce
   - Eleventy
   - Serverless
   - Functions
@@ -26,11 +26,11 @@ seo:
   metadescription: Learn how you can create your own online shopping experience
     using the improved Shopify Storefront API, serverless functions, and
     Eleventy.
-  ogimage: /img/blog/og-shopify-11ty.png
+  ogimage: /v3/img/blog/og-shopify-11ty.png
 ---
 When [Shopify](https://www.shopify.com/) expanded their [Storefront API](https://shopify.dev/api/storefront), they opened the door for developers to more easily build more of the shopping experience just as they (or their clients) desired.
 
-![Screenshot of example site showing a gallery of meats and cheese available to purchase](/img/blog/shopify-11ty-example-home-page.jpg "Shoperoni - Home page")
+![Screenshot of example site showing a gallery of meats and cheese available to purchase](/v3/img/blog/shopify-11ty-example-home-page.jpg "Shoperoni - Home page")
 
 The API provides great access to product, pricing and stock level data through an expressive GraphQL interface. And it also allows you to control the cart, enabling you to design and implement your shopping flow with far more control than was possible before.
 

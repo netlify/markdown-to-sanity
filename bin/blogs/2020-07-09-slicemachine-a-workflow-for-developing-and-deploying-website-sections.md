@@ -28,11 +28,11 @@ seo:
   metadescription: Learn how Prismic, a Jamstack headless CMS, brought a new tool
     to market that focuses on workflow and management of website components.
     Check it out!
-  ogimage: /img/blog/prismic-slice-machine-og.png
+  ogimage: /v3/img/blog/prismic-slice-machine-og.png
 ---
 At [Prismic](https://prismic.io/), we've been experimenting a lot with building websites with components. Our [Slices feature](https://prismic.io/feature/dynamic-layout-content-components), which encourages our users to visualize sections of their pages as components, has been one of our most popular features. That popularity made us think about how we could take the feature to the next level and develop a tool to improve component workflow and management—and that’s where Slice Machine was born.
 
-![Website page sections are macro components](/img/blog/website_page_sections_are_macro_components.png)
+![Website page sections are macro components](/v3/img/blog/website_page_sections_are_macro_components.png)
 
 We know that even technical terms can sometimes be interchangeable and unclear, so when we refer to components for this project we are thinking about page sections (macro components) like carousels, FAQ sections, hero sections, CTA, etc...
 
@@ -54,11 +54,11 @@ We took our first step on that journey when we created our Slices feature.
 
 With Slices you can break your page content into JSON components that correspond to your frontend components. Each Slice represents the JSON model (content) for a given component.
 
-![Correspondence between slices in Prismic, a component in your code used in a webpage](/img/blog/page-code.png)
+![Correspondence between slices in Prismic, a component in your code used in a webpage](/v3/img/blog/page-code.png)
 
 Slices also give non-technical people a visual interface that allows them to easily build and fill content and create pages simply by combining sections.
 
-![Correspondence between slices of a page and the webpage](/img/blog/corresponding-slices.jpeg)
+![Correspondence between slices of a page and the webpage](/v3/img/blog/corresponding-slices.jpeg)
 
 Slices are one of our coolest features and a big reason why so many people are choosing to use Prismic.
 
@@ -83,7 +83,7 @@ Of course, you could hard-code it and simply call the necessary components into 
 
 This is where SliceZone comes into play. SliceZone is a component that you drop into your page and it will take care of calling the necessary components and provide them with their content props to build the page.
 
-![SliceZone web component code example in Vue page template](/img/blog/slices-code.png)
+![SliceZone web component code example in Vue page template](/v3/img/blog/slices-code.png)
 
 This way, all that you have to do is use the visual editor Prismic interface to define your Slices. The SliceZone will automatically mirror these Slices by calling the corresponding components in your frontend code. Simple as that.
 
@@ -103,7 +103,7 @@ Building a page section is an iterative approach. You start by creating the comp
 
 With Slice Machine, we provide you with a CLI that will help you throughout the process of building website sections and significantly improve your workflow. You can quickly create the boilerplate for the component code and the model, sync that with Prismic, and properly list your components so that SliceZone can find them.
 
-![Slice Machine CLI and slice model in text editor](/img/blog/slices-code-model.png)
+![Slice Machine CLI and slice model in text editor](/v3/img/blog/slices-code-model.png)
 
 And as I mentioned, we've already built a default library of components to help you get started.
 
@@ -133,7 +133,7 @@ So we’ve already partnered with Sara Soueidan to ensure that we offer a great 
 
 The library has been developed in VUE, although we are actively working on developing more libraries and starters for other frameworks. Not only that, but we’re also working on developing components that integrate to other services ([like Netlify forms](https://www.netlify.com/products/forms/)).
 
-![Our vue-essential library - A whole set of open source, responsible and accessible components](/img/blog/component_library.png)
+![Our vue-essential library - A whole set of open source, responsible and accessible components](/v3/img/blog/component_library.png)
 
 ### Slice Machine is open-source. It needs a community. It needs you.
 

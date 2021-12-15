@@ -9,11 +9,11 @@ date: 2015-12-08T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - gitbook
-  - nodejs
-  - tutorial
+  - Gitbook
+  - NodeJS
+  - Tutorial
 format: blog
-image: /img/blog/gitbook.jpg
+image: /v3/img/blog/gitbook.jpg
 ---
 **This guide was most recently updated/verified on Tuesday, February 26th, 2019. Below are the package versions used to verify:**
 

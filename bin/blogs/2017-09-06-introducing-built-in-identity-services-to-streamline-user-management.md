@@ -3,7 +3,7 @@ title: Introducing Built-in Identity Service to Streamline User Management
 authors:
   - Matt Biilmann
   - Chris Bach
-image: /img/blog/identity.jpg
+image: /v3/img/blog/identity.jpg
 format: blog
 short_title: Introducing Built-in Identity Services
 topics:

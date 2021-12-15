@@ -21,7 +21,7 @@ Here at Netlify we love developer tools. We focus a lot of attention on making t
 
 So, in April 2017, when [Bas Buursma](https://twitter.com/bazzjuh) and [Ives van Hoorne](https://twitter.com/CompuIves) launched CodeSandbox, an IDE that you use right from the web browser, we watched with great interest.
 
-![CodeSandbox and Netlify logos](/img/blog/csb-loves-netlify.png "CodeSandbox and Netlify")
+![CodeSandbox and Netlify logos](/v3/img/blog/csb-loves-netlify.png "CodeSandbox and Netlify")
 
 
 
@@ -49,15 +49,15 @@ Today’s announcement adds yet another method of creating and deploying Netlify
 
 By selecting Netlify as your deployment target in CodeSandbox, you can have your project build in Netlify's CI/CD environment, and deployed directly to our [global ADN](https://www.netlify.com/features/adn/) with one click!
 
-![Deploy from CodeSandbox](/img/blog/csb-deploy.jpg "Deploy CodeSandbox site in Netlify")
+![Deploy from CodeSandbox](/v3/img/blog/csb-deploy.jpg "Deploy CodeSandbox site in Netlify")
 
 New sites are created with a unique URL just a few moments after hitting the _deploy_ button.
 
-![Claim your Netlify site from CodeSandbox](/img/blog/csb-claim-deploy.jpg "Claim your Netlify site from CodeSandbox")
+![Claim your Netlify site from CodeSandbox](/v3/img/blog/csb-claim-deploy.jpg "Claim your Netlify site from CodeSandbox")
 
 You can then claim the site and  attach it to your Netlify account to enjoy all the usual Netlify benefits of CI/CD and the other [features of Netlify](https://www.netlify.com/features/)
 
-![Add site to Netlify](/img/blog/csb-netlify-claim.jpg "Add your site to Netlify")
+![Add site to Netlify](/v3/img/blog/csb-netlify-claim.jpg "Add your site to Netlify")
 
 Here’s a quick look at just how quickly you can deploy:
 

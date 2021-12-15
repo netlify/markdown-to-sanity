@@ -25,19 +25,19 @@ We would like to apologize to anyone who was affected by this incident and reinf
 
 At 9:27am PT November 4th, our automated monitoring systems detected a big spike in client connections to one of our customer's websites. We quickly realized the spike was not due to the typical increase we see when the US comes online Monday morning based on our metrics system. In the graph below, it's evident the number of connections on Monday morning did not follow our daily pattern:
 
-![Established client connections](/img/blog/established-connections.png "Established client connections")
+![Established client connections](/v3/img/blog/established-connections.png "Established client connections")
 
 To dive into the consequences of this increase in connections, I need to tell you a little bit more about what happens when a request comes in to any of the nodes in our ADN.
 
 Over 80% of the incoming traffic to our network is encrypted. When a browser sends a request to one of our servers, first it will try to establish a secure connection. The server in charge of that request will read the name of the website from the TLS handshake, and it will try to find a valid certificate for that handshake. Since we manage millions of websites, a given server might not have a valid certificate at the time of the request to fulfill that handshake. If that's the case, the website's name is put in a queue that will request the certificate from an external API that we designed with the only purpose of providing all servers in our ADN with TLS certificates. Once the server has the certificate, it keeps it locally, so it doesn't need to reach this API again. Since our servers are multi-threaded, we implemented a queue system to ensure that we don't try to fetch the same certificate over and over again. During the morning of this incident, this queue system was completely flooded with requests to fetch the certificate for the website under attack. This made the TLS handshakes for any other website very slow, which caused timeouts in the browser. In the image below, you can see the increase in latency in our certificates API:
 
-![TLS certificate fetching](/img/blog/certificate-fetch.png "TLS certificate fetching")
+![TLS certificate fetching](/v3/img/blog/certificate-fetch.png "TLS certificate fetching")
 
 Our Enteprise ADN only use the TLS API when we bring server capacity online and when we rotate certificates, so it's much more resilient to congestion issues like this one since it only requests certificates once every few months.
 
 Once a client has established the secure connection with our server. The first thing we do to fulfill the request is to inspect our local cache for a response. If we've seen a request before, we keep a version of the response locally, so we don't have to fetch it from our origin servers. We use a very efficient proxy cache that can process hundreds of thousands of request per second to cache those responses at the edge. However, in the morning of the attack, the number of disk operations that our proxy cache had to process was so high, that our servers were unable to complete the request in a timely manner, which caused congestion for any other website that was trying to access the cache. In the image below, you can see the spike in the number of read operations in our cache, many of those failed because they were not able to complete:
 
-![Cache disk IO operations](/img/blog/disk-iops.png "Cache disk IO operations")
+![Cache disk IO operations](/v3/img/blog/disk-iops.png "Cache disk IO operations")
 
 Our Enteprise ADN is also more resilient to these kind of issues. Servers deployed in this network use a much more efficient RAM Cache that protects traffic from IO congestion.
 

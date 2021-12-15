@@ -12,7 +12,7 @@ topics:
   - news
 tags:
   - News
-  - JAMstack
+  - Jamstack
   - Partners
 tweet: ''
 format: blog
@@ -20,11 +20,11 @@ seo:
   metadescription: >-
     After onboarding 800,000 developers and businesses, Netlify raises $53 million in Series C funding to accelerate JAMstack ecosystem growth and enterprise adoption. Learn how we're changing the web
   metatitle: Netlify's $53M Series C Funding Announcement - See How We're Changing the Web
-  ogimage: /img/blog/funding-blogpost-og.jpg
+  ogimage: /v3/img/blog/funding-blogpost-og.jpg
 ---
 We're thrilled to [announce a new round of $53 million in Series C funding](https://www.netlify.com/press/after-onboarding-800000-developers-netlify-raises-53m-in-series-c-funding-to-fuel-enterprise-growth/), led by EQT Ventures, with participation from existing investors Andreessen Horowitz and Kleiner Perkins, as well as Preston-Werner Ventures. Our team will use this funding to push forward our vision for the web and [JAMstack](https://www.netlify.com/jamstack/) category to greater heights than ever before!
 
-![After onboarding 800,000 developers, Netlify raises $53M to further fuel enterprise and ecosystem growth](/img/blog/funding-og-image.jpg)
+![After onboarding 800,000 developers, Netlify raises $53M to further fuel enterprise and ecosystem growth](/v3/img/blog/funding-og-image.jpg)
 
 ### Our vision for the new web
 

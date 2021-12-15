@@ -9,9 +9,9 @@ topics:
   - tutorials
 tags:
   - Data
-  - etl
-  - engineering
-  - sql
+  - ETL
+  - Engineering
+  - SQL
   - Snowflake
 tweet: ""
 format: blog

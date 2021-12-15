@@ -9,15 +9,15 @@ lastmod: 2021-07-02
 topics:
   - tutorials
 tags:
-  - shopify
-  - headless
-  - Ecommerce
+  - Shopify
+  - Headless
+  - E-commerce
 tweet: ""
 format: blog
 seo:
   metatitle: Shopify announces enhanced Storefront APIs - A first look with Gridsome and Netlify
   metadescription: Learn how to work with the new Shopify Storefront APIs
-  ogimage: /img/blog/og-shopify-gridsome.png
+  ogimage: /v3/img/blog/og-shopify-gridsome.png
 ---
 
 The Shopify team recently announced enhancements to their [Storefront API](https://shopify.dev/api/storefront) that makes it possible for store owners to access and manage their entire store and inventory via APIs.

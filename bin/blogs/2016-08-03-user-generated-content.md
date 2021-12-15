@@ -3,7 +3,7 @@
 title: User Generated Content
 authors:
   - Cassandra Salisbury
-image: /img/blog/heart.gif
+image: /v3/img/blog/heart.gif
 format: blog
 short_title: User Generated Content
 description: We want to hear how you are using Netlify
@@ -11,7 +11,7 @@ thumbnail: /img/posts/thumbnails/heart-thumb.png
 cmsUserSlug: ""
 date: 2016-08-03
 tags:
-  - netlify
+  - Netlify
 topics:
   - news
 ---

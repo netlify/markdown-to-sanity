@@ -9,7 +9,7 @@ tweet: >-
 topics:
   - tutorials
 tags:
-  - serverless
+  - Serverless
 format: blog
 description: >+
   Side projects are especially awesome when they help you solve a real-life
@@ -35,11 +35,11 @@ I realized I could make my commute easier by answering the question, ‘When is 
 
 I built an app called [Hustlin](http://hustlin.netlify.com/) that knows when there is a home game and sends notifications at the start and anticipated end times.  I generated the project really quickly using Ruby on Rails and deployed to production using Heroku.
 
-![hustlin-preview-image](/img/blog/hustlin.png)
+![hustlin-preview-image](/v3/img/blog/hustlin.png)
 
 This was amazing until I realized I had to pay $7 a month to keep the thing up and running during the 7-month long season. I give the app some love every new baseball season, so I eventually rebuilt it to use the [JAMstack](https://jamstack.org/), separating the API from the markup. The frontend was easily hosted on Netlify for free as a React application, but I wanted to find something just as free to host my API. The solutions I came across were going to either cost more in money or time to set up and maintain. The API was costing too much just to optimize my commute.
 
-![jamstack vs severless cost](/img/blog/jam-servlerss-cost.png)
+![jamstack vs severless cost](/v3/img/blog/jam-servlerss-cost.png)
 
 I hosted David Wells from Serverless team on [an episode of JAMstack Radio](/blog/2016/10/28/the-serverless-framework--aws-lambda/) and discovered everything I did could be done with Serverless and hosted for free on AWS. Plus, AWS’s Lambda gives you 1 million invocations of functions for free.
 
@@ -176,7 +176,7 @@ resources:
 
 If you are interested in taking a closer look at the code check out[ bdougie/serverless-hustl](https://github.com/bdougie/serverless-hustl).
 
-![json hustlin api](/img/blog/json-hustlin-example.png)
+![json hustlin api](/v3/img/blog/json-hustlin-example.png)
 
 I have completely switched to DynamoDB to store my baseball game JSON data. I also used cron jobs to send notifications. I leveraged the [aws-node-scheduled-cron](https://github.com/serverless/examples/tree/master/aws-node-scheduled-cron) example repo to trigger my notifications, which is live at [bdougie/scheduled-hustlin-notifications](https://github.com/bdougie/scheduled-hustlin-notifications). After reading through the [Serverless documentation](https://serverless.com/framework/docs/providers/aws/examples/hello-world/node/) as well some heavy copy and pasting, I was able mirror what I was getting from my expensive Postgres database with simple JSON in a DynamoDB table.  
 

@@ -10,7 +10,7 @@ date: '2018-09-06'
 topics:
   - tutorials
 tags:
-  - open source
+  - Open source
   - snippet injection
 tweet: >-
   Many projects on Netlify are open source - we love it when folks show off with
@@ -92,7 +92,7 @@ Netlify gives you the option of two places to add your snippets — at the botto
 
 And that's it! Reload your page (note the snippet is injected so there is no build step needed) and voila!
 
-![It works!](/img/blog/traignel.png)
+![It works!](/v3/img/blog/traignel.png)
 
 If you want to play around with different kinds of ribbons, here are some fun ones to try out:
 

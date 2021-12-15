@@ -10,7 +10,7 @@ lastmod: 2020-10-20
 topics:
   - case-studies
 tags:
-  - ecommerce
+  - E-commerce
   - Jamstack
   - Gatsby
 tweet: ""
@@ -24,7 +24,7 @@ seo:
   metadescription: Learn how BRIKL invests in its developer experience using
     Jamstack, sourcing data from their GraphQL API, generating static sites with
     Gatsby, and hosts on Netlify.
-  ogimage: /img/blog/og-brikl.png
+  ogimage: /v3/img/blog/og-brikl.png
 ---
 ### BRIKL, a 3D and e-commerce software startup for custom made products, invests in its developer velocity and experience with Netlify to get to market faster
 
@@ -34,13 +34,13 @@ If retailers can bridge the gap between expectation and actuality, they can deli
 
 While 3D modeling bridges the gap between customer expectation and reality, many e-commerce retailers haven’t been able to take advantage of it. BRIKL is working to change that.
 
-![BRIKL e-commerce store](/img/blog/brikl-store.jpg)
+![BRIKL e-commerce store](/v3/img/blog/brikl-store.jpg)
 
 BRIKL is democratizing 3D modelling by ditching the slow, manual processes that made 3D modelling inaccessible for small to medium sized retailers, and instead building a sleek digital-first platform that helps retailers deliver an ideal experience to their customers in an instant. Netlify helps them do just that.
 
 ### Background
 
-![BRIKL logo](/img/blog/brikl-logo-whitebg.png)
+![BRIKL logo](/v3/img/blog/brikl-logo-whitebg.png)
 
 BRIKL powers 3D modelling software that retail and e-commerce clients use to give their customers a 360 view of their products and customize those products. When a retailer signs up, BRIKL provisions a new website for them, which serves as their online storefront, allowing the retailer’s customers to preview and purchase products without ever leaving BRIKL’s platform.
 
@@ -84,7 +84,7 @@ To vet new features before launch, BRIKL began using Netlify Deploy Previews. Th
 
 The difference between a developer tool that “just works” and one a developer has to make work is stark. **[Netlify’s CDN and Deploy Preview features](https://www.netlify.com/products/edge/)** are autoconfigured, saving developers from spending time setting up their environment and infrastructure manually. Whereas BRIKL’s developer used to have to stitch S3, CloudFront, and their developer environment together, Netlify’s build and hosting tools are coupled, allowing BRIKL’s team to move faster and iterate more seamlessly without any additional effort.
 
-![BRIKL- From developer workflow to provisioned storefront for end users](/img/blog/brikl-netlify-from-developer-workflow-to-provisioned-storefront-for-end-users.png "From developer workflow to provisioned storefront for end users")
+![BRIKL- From developer workflow to provisioned storefront for end users](/v3/img/blog/brikl-netlify-from-developer-workflow-to-provisioned-storefront-for-end-users.png "From developer workflow to provisioned storefront for end users")
 
 Netlify’s automated process of deploying every pull request to a unique URL gave the engineering team more time to focus on quality checking the pull request itself, as opposed to getting bogged down in the act of making a pull request accessible to the whole team. By ditching manual processes in favor of more streamlined developer tools, the engineering team was able to invest more time in consistently iterating product features based on customer feedback.
 
@@ -118,13 +118,13 @@ To put the entirety of their focus back on customer experience, the BRIKL engine
 
 Now, BRIKL can deploy hundreds of storefront sites without relying on costly manual processes. When a new customer signs up, BRIKL instantly provisions a site using Netlify’s Command Line Interface.
 
-![Build trigger on developer Git push to BRIKL monorepo](/img/blog/build-trigger-on-developer-git-push-to-brikl-monorepo-2.png "Build trigger on developer Git push to BRIKL monorepo")
+![Build trigger on developer Git push to BRIKL monorepo](/v3/img/blog/build-trigger-on-developer-git-push-to-brikl-monorepo-2.png "Build trigger on developer Git push to BRIKL monorepo")
 
 When BRIKL’s customer has made their desired tweaks to their storefront and is ready to ship it, the customer’s deploy request triggers an API response that pushes the page live using **[Netlify’s High-Performance Builds](https://www.netlify.com/enterprise/)**.
 
 “Automating the provisioning process of our storefronts via an API helps us a lot to scale automatically. Now a new customer is just a few API calls away,” said Tobias.
 
-![BRIKL- Storefront creation on tenant sign up](/img/blog/storefront-creation-on-tenant-sign-up-brikl.png)
+![BRIKL- Storefront creation on tenant sign up](/v3/img/blog/storefront-creation-on-tenant-sign-up-brikl.png)
 
 With a drastically streamlined process, BRIKL is set up to scale for an influx of new customers while delivering the same level of excellence in customer experience. Tobias’ team of engineers has not only the tools they need to be successful, but the powerful CI and CD architecture they need to continuously improve their developer workflow with Netlify.
 

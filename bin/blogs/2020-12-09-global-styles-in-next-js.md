@@ -4,11 +4,11 @@ description: Ever wanted to apply global styles across your Next.js application?
 authors:
   - Cassidy Williams
 date: 2020-12-09
-lastmod: 2020-12-09
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -19,7 +19,7 @@ seo:
   metatitle: Global Styles in Next.js
   metadescription: Ever wanted to apply global styles across your Next.js
     application? Here's how!
-  ogimage: /img/blog/blogvent9.png
+  ogimage: /v3/img/blog/blogvent9.png
 ---
 Welcome to Blogvent, day 9!
 
@@ -52,8 +52,8 @@ export default Application
 ```
 
 ## It's done!
-You now have a global stylesheet applied to your Next.js application. If you'd like to see it in a starter application, you can [check out this repo here](https://github.com/cassidoo/next-netlify-starter), or deploy the starter directly to Netlify with one click:
+You now have a global stylesheet applied to your Next.js application. If you'd like to see it in a starter application, you can [check out this repo here](https://github.com/netlify-templates/next-netlify-starter), or deploy the starter directly to Netlify with one click:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=nextstartertyling-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=nextstartertyling-cs&utm_campaign=devex)
 
 If you'd like to see this applied in a more advanced application, [you can check out the repo](https://github.com/netlify/explorers/blob/main/src/pages/_app.js#L6-L8) for [Jamstack Explorers](https://explorers.netlify.com/?utm_source=blog&utm_medium=explorers-cs&utm_campaign=devex)! 

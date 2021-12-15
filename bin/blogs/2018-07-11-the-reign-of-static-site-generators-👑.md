@@ -6,8 +6,8 @@ tweet: ''
 topics:
   - insights
 tags:
-  - static site generators
-  - jamstack
+  - Static site generators
+  - Jamstack
   - tools
 format: blog
 description: >-

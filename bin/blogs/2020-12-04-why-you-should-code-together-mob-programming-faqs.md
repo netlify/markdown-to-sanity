@@ -23,7 +23,7 @@ seo:
     but you aren't sure if it's the right fit for you, here's a bunch of answers
     to common questions to help you make your decision.
   metatitle: "Why you should code together: Mob Programming FAQs"
-  ogimage: /img/blog/blogvent6.png
+  ogimage: /v3/img/blog/blogvent6.png
 ---
 It's Blogvent, day 6!
 

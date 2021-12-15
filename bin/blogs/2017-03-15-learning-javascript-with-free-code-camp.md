@@ -14,14 +14,14 @@ guests:
   - bio: Berkeley is the CTO of Free Code Camp and Partner at Real World React.
     name: Berkeley Martinez
 title: Learning JavaScript with Free Code Camp
-image: /img/blog/jamstack-radio-1024x1024.jpg
+image: /v3/img/blog/jamstack-radio-1024x1024.jpg
 minuteslong: 25
 short_title: Free Code Camp
 tags:
-  - jamstack
-  - podcast
-  - javascript
-  - episode
+  - Jamstack
+  - Podcast
+  - Javascript
+  
 topics:
   - insights
 description: >-

@@ -3,7 +3,7 @@
 title: Five SEO Rules for Your JAMstack Site
 authors:
   - Aaron Autrand
-image: /img/blog/starfield2.jpg
+image: /v3/img/blog/starfield2.jpg
 image_caption: Does your site stand out in a field of stars?
 format: blog
 short_title: SEO for JAMstack
@@ -12,7 +12,7 @@ thumbnail: thumbnails/seo.jpg
 cmsUserSlug: ""
 date: 2016-06-17
 tags:
-  - jamstack
+  - Jamstack
   - SEO
   - responsive images
   - speed

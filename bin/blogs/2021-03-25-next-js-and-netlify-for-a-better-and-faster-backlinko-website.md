@@ -12,10 +12,10 @@ topics:
   - case-studies
 tags:
   - WordPress
-  - headless
-  - case study
-  - nextjs
-  - functions
+  - Headless
+  - Case Studies
+  - Next.js
+  - Functions
   - Jamstack
 tweet: ""
 format: blog
@@ -27,7 +27,7 @@ seo:
   metadescription: Backlinko worked with agency Bejamas, selecting Netlify as
     their webdev platform. Learn how they made the site 3x faster with Netlify
     Functions + Essential Next.js plugin.
-  ogimage: /img/blog/next.js-and-netlify-backlinko.png
+  ogimage: /v3/img/blog/next.js-and-netlify-backlinko.png
   metatitle: Learn About the Better, Faster Backlinko - Next.js and Netlify
 ---
 *This story is contributed to the Netlify blog by Thom Krupa, Co-Founder & CTO @ Bejamas.*
@@ -36,7 +36,7 @@ Backlinko is one of the world’s top websites for SEO tips, advice, and trainin
 
 [Backlinko](https://backlinko.com/) was powered by classic, monolithic WordPress. Over the years, they struggled with performance issues, and the website became slow and hard to maintain. To keep up with the market trends, they realized they needed a reliable architecture backing their website. They decided to move to Jamstack.
 
-![Backlinko is one of the world’s top websites for SEO tips, advice, and training](/img/blog/backlinko.png "Backlinko is one of the world’s top websites for SEO tips, advice, and training")
+![Backlinko is one of the world’s top websites for SEO tips, advice, and training](/v3/img/blog/backlinko.png "Backlinko is one of the world’s top websites for SEO tips, advice, and training")
 
 ## Challenges
 
@@ -54,7 +54,7 @@ Many people love WordPress. Despite many issues with plugins, scalability, and p
 
 Instead of using PHP templates and mixing them with HTML, we used WordPress API that returns content in JSON format.
 
-![Backlinko architecture with headless WordPress and Netlify](/img/blog/netlify-backlinko.png "Backlinko architecture with headless WordPress and Netlify")
+![Backlinko architecture with headless WordPress and Netlify](/v3/img/blog/netlify-backlinko.png "Backlinko architecture with headless WordPress and Netlify")
 
 We combined WordPress with the WPGraphQL plugin and made a single request to GraphQL endpoint instead of making multiple REST API requests for data. This way, we got all the content we need to build posts and pages.
 

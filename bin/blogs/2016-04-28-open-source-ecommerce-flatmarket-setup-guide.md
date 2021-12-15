@@ -3,7 +3,7 @@
 title: "How to Shop With Static: Open Source eCommerce with Flatmarket"
 authors:
   - Aaron Autrand
-image: /img/blog/colourful_shopping_carts.jpg
+image: /v3/img/blog/colourful_shopping_carts.jpg
 image_caption: null
 format: blog
 short_title: "Flatmarket: eCommerce for Static Sites"
@@ -12,7 +12,7 @@ thumbnail: thumbnails/shopping-cart-of-checkered-design_318-50865.png
 cmsUserSlug: static-ecommerce-flatmarket-guide
 date: 2016-04-28T00:00:00.000Z
 tags:
-  - eCommerce
+  - E-commerce
   - shopping
   - Tutorial
   - heroku
@@ -140,7 +140,7 @@ Now that your assets are up and running on GitHub, let’s connect them to Netli
 
 ### Step 1: Add Your New Site
 
-![step 1 - add](/img/blog/step1newsite.png)
+![step 1 - add](/v3/img/blog/step1newsite.png)
 
 Creating a new site on Netlify is simple. Once you’ve logged in, you'll be taken to https://app.netlify.com/sites. If you’re just starting out, there’s only one option.
 
@@ -148,7 +148,7 @@ Creating a new site on Netlify is simple. Once you’ve logged in, you'll be tak
 
 Clicking “New Site” brings you to this screen:
 
-![step 2 - link](/img/blog/step2link.png)
+![step 2 - link](/v3/img/blog/step2link.png)
 
 When you push to GitHub, Netlify does all the work. No more manual deploying of updates or changes!
 
@@ -156,47 +156,47 @@ Since your assets are hosted on GitHub, we’ll need to link Netlify to GitHub. 
 
 ### Step 3: Authorize Netlify
 
-![step 3 - authorize](/img/blog/step3authorize.png)
+![step 3 - authorize](/v3/img/blog/step3authorize.png)
 
 It’s time to allow Netlify and GitHub to talk to each other. Clicking the “Authorize Application” button will do just that. Like it says in the image below, Netlify doesn’t store your GitHub access token on our servers. If you’d like to know more about the permissions Netlify requests and why we need them, you can visit our [documentation on Git provider permissions](https://docs.netlify.com/configure-builds/repo-permissions-linking/).
 
 ### Step 4: Choose Your Repo
 
-![step4flatmarket.png](/img/blog/step4flatmarket.png)
+![step4flatmarket.png](/v3/img/blog/step4flatmarket.png)
 
 Now that you’ve connected Netlify and GitHub, you can see a list of your Git repos. There’s the **flatmarket-example** repo we just pushed to GitHub. Let's select it.
 
 ### Step 5: Configure Your Settings
 
-![step5flatmarket.png](/img/blog/step5flatmarket.png)
+![step5flatmarket.png](/v3/img/blog/step5flatmarket.png)
 
 Here you can configure your options. Make sure that `/build` is the directory you want to deploy, and enter `flatmarket --component ./node_modules/flatmarket-theme-bananas/index.jsx` as your build command.
 
 ### Step 6: Build Your Site
 
-![step 6 - build](/img/blog/step6build.png)
+![step 6 - build](/v3/img/blog/step6build.png)
 
 Now it’s time to sit back and relax. The first build will take some time, as Netlify gathers all the dependencies needed to build your site.
 
 ### Step 7: Site Is Live
 
-![step7flatmarket.png](/img/blog/step7flatmarket.png)
+![step7flatmarket.png](/v3/img/blog/step7flatmarket.png)
 
 Netlify has given your site a temporary name. We're going to change it for ease of use in the rest of this tutorial.
 
 ### Step 8: Name Change
 
-![step 8 - change name](/img/blog/flatmarket_assigned_name.png)
+![step 8 - change name](/v3/img/blog/flatmarket_assigned_name.png)
 
 Click `Edit` next to the `Name` field.
 
 In the resulting popup, we'll change the site name (and therefore the subdomain for the page)
 
-![update name](/img/blog/flatmarket_name_change.png)
+![update name](/v3/img/blog/flatmarket_name_change.png)
 
 Once you've clicked save, the site has a new name.
 
-![flatmarket new name](/img/blog/flatmarketname.png)
+![flatmarket new name](/v3/img/blog/flatmarketname.png)
 
 Now you can visit the site at [https://flatmarket-example.netlify.com](https://flatmarket-example.netlify.com). Note the `https`. Any Netlify site without a custom domain can use Netlify's SSL, just by specifying `https` in the URL.
 
@@ -206,7 +206,7 @@ Since the site is up and running, now you can connect it to your Stripe account,
 
 Log in to [Stripe](https://stripe.com) and select `Account Settings` from the `Your Account` dropdown
 
-![stripe_account](/img/blog/stripe_account.png)
+![stripe_account](/v3/img/blog/stripe_account.png)
 
 Select `API Keys`. You'll need to keep this window open for a while, so open a new browser tab.
 
@@ -224,7 +224,7 @@ You can connect your site to a Heroku app in a few simple steps.
 
 Visit [https://github.com/christophercliff/flatmarket-server-heroku](https://github.com/christophercliff/flatmarket-server-heroku) and click the `Deploy to Heroku` button.
 
-![new_heroku_app](/img/blog/new_heroku_app.png)
+![new_heroku_app](/v3/img/blog/new_heroku_app.png)
 
 A new browser tab will open, and you'll be presented with a page to configure your new Heroku app.
 
@@ -244,7 +244,7 @@ Back in the `Stripe` browser tab, copy the value of `Test Secret Key` and paste 
 
  When you are done, the variables should look like this:
 
-![heroku_config_variables](/img/blog/heroku_config_variables.png)
+![heroku_config_variables](/v3/img/blog/heroku_config_variables.png)
 
  Click `Deploy for Free`, and Heroku will build your app. Once it is finished, click `View`.
 
@@ -266,13 +266,13 @@ Back in the `Stripe` browser tab, copy the value of `Test Secret Key` and paste 
 
  The `Buy Now` button should turn green with a check mark, and then you'll see a message:
 
-![flatmarket_error.png](/img/blog/flatmarket_error.png)
+![flatmarket_error.png](/v3/img/blog/flatmarket_error.png)
 
  This is perfectly fine, and you can ignore it. To really see if your Flatmarket install is working, you'll need to check two places.
 
  Open your [Heroku Dashboard](https://dashboard.heroku.com) and click on your app.
 
-![heroku_logs](/img/blog/heroku_logs.png)
+![heroku_logs](/v3/img/blog/heroku_logs.png)
 
 Click the three purple dots in the upper right hand corner, then select `View Logs`.
 

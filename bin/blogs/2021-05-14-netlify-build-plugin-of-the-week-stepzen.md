@@ -10,8 +10,8 @@ lastmod: 2021-05-14
 topics:
   - tools
 tags:
-  - build plugins
-  - graphql
+  - Build Plugins
+  - GraphQL
   - stepzen
   - APIs
 tweet: ""
@@ -24,7 +24,7 @@ seo:
   metadescription: Building dynamic applications on the Jamstack is even easier
     with the StepZen plugin, which deploys a StepZen GraphQL API with any
     Netlify build.
-  ogimage: /img/blog/netlify-stepzen-og.png
+  ogimage: /v3/img/blog/netlify-stepzen-og.png
 ---
 Welcome to our series highlighting [Netlify Build Plugins](https://www.netlify.com/products/build/plugins/)! This week, we’re featuring the [StepZen plugin](https://app.netlify.com/plugins/netlify-plugin-stepzen/install). [StepZen](https://stepzen.com/) enables you to quickly build a GraphQL API that unifies data from multiple sources into a single endpoint. With only one endpoint to query, building dynamic applications on the Jamstack becomes even easier.
 
@@ -32,7 +32,7 @@ The data you need to power your web apps and sites comes from more than one plac
 
 Using the [StepZen Netlify build plugin](https://app.netlify.com/plugins/netlify-plugin-stepzen/install), the deployment of that endpoint is simple and seamless, and happens within your Netlify build. You can build your site using your site editor tool (like Hugo or Gatsby), and then get the data via queries to your unified GraphQL endpoint running on StepZen.
 
-![Netlify Build Plugin: StepZen](/img/blog/netlify-stepzen-plugin.png)
+![Netlify Build Plugin: StepZen](/v3/img/blog/netlify-stepzen-plugin.png)
 
 Plugin: StepZen
 

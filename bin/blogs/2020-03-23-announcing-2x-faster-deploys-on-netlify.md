@@ -18,9 +18,9 @@ seo:
     Check out how you can get up to 2x faster deploys for large sites. Iterate faster on your
     site and web app, quickly respond to minor requests, and rollback changes in
     an instant with Netlify.
-  ogimage: /img/blog/faster-deploys-netlify-large-sites.png
+  ogimage: /v3/img/blog/faster-deploys-netlify-large-sites.png
 ---
-![Announcing Faster Deploys for Large Sites on Netlify](/img/blog/faster-deploys-netlify-large-sites-no-cta.png)
+![Announcing Faster Deploys for Large Sites on Netlify](/v3/img/blog/faster-deploys-netlify-large-sites-no-cta.png)
 
 We’ve sped up our [Build pipeline](https://www.netlify.com/products/build/), and large site deployments on Netlify are nearly 2x faster! Deploys have always been super fast for sites containing a few hundred or even 1,000 files, but deploy time could be a blocker for JAMstack sites when reaching 10,000 files and beyond.
 
@@ -30,7 +30,7 @@ And stay tuned! We’re making even more improvements to supercharge deploys in 
 
 As we've rolled out the faster deploy architecture to every Netlify account, we've been measuring the performance improvements in production. Here are the early results.
 
-![99th percentile deploy time improvements chart](/img/blog/99th-percentile-deploy-time-improvements-chart.png)
+![99th percentile deploy time improvements chart](/v3/img/blog/99th-percentile-deploy-time-improvements-chart.png)
 
 To get to these numbers we grouped our deployments into 5 typical sizes of sites deployed on Netlify and then compared how long it took to complete the deploy before and after our improvements. This graph shows the size of the speed gains for each group, using the 99th percentile of deploy times as our metric. We use the 99th percentile to measure this as performance matters most in the worst-case scenario. The more files in your site, the bigger the improvement seen with these changes.
 

@@ -22,7 +22,7 @@ seo:
   metadescription: See how Netlify Build Plugins allow you to customize, automate,
     and have more control over your build processes. Learn how to enable and
     utilize Build Plugins, as well as run them locally and disable them.
-  ogimage: /img/blog/enable-plugins.jpg
+  ogimage: /v3/img/blog/enable-plugins.jpg
 ---
 We're so excited to give you the opportunity to customize, automate, and have more control of your build process. How are we doing that? With [Build Plugins](https://docs.netlify.com/configure-builds/build-plugins/?utm_source=blog&utm_medium=whatbp1_tzm&utm_campaign=devex) of course! Netlify Build Plugins are, simply put, plain 'ol JavaScript files that let you trigger actions at different events of your build cycle. The best way I learned about the power behind Build Plugins was to use them, build them, and learn about the [other plugins built by my team and other devs in the community](https://github.com/netlify/plugins). So, obviously, I wanted to share all of that with you too!
 
@@ -45,7 +45,7 @@ Excited? Yea, me too. Ok, let's get started.
 
 Let's get things started with an easy win: enabling Build Plugins for a project. At the top of the team or project page there is a 'Build Plugins Beta' button. Click that to head to the Build Plugins page. Here we can find a button that says 'Enable sites', pick from our project list and select one or multiple sites. Then click the 'Enable' button and they will show up on our list of 'Beta-enabled sites'.
 
-![Screenshot of the UI to enable Build Plugins](/img/blog/enable-plugins.jpg)
+![Screenshot of the UI to enable Build Plugins](/v3/img/blog/enable-plugins.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nKZJqn8vOPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -110,7 +110,7 @@ package = "netlify-plugin-to-all-events"
 
 With that, we have all the code to let Netlify know that we are incorporating a build plugin into our project. If we were to trigger a build with this added to our project this is what our logs would look like:
 
-![a screenshot of the build logs from the Netlify UI](/img/blog/build-logs.jpg)
+![a screenshot of the build logs from the Netlify UI](/v3/img/blog/build-logs.jpg)
 
 ## How to Run a Build Plugin Locally
 
@@ -150,7 +150,7 @@ Using the [Netlify CLI](https://docs.netlify.com/cli/get-started/?utm_source=blo
 
 Here's a side-by-side snippet of the logs:
 
-![screenshot of both build outputs](/img/blog/builds-comparison.jpg)
+![screenshot of both build outputs](/v3/img/blog/builds-comparison.jpg)
 
 We are all setup to run Build Plugins locally.
 

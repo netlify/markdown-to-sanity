@@ -1,0 +1,63 @@
+---
+title: "Meet our Netlifolks: Dana Lawson"
+description: "Meet Dana Lawson, Netlify's new Senior Vice President of Engineering. "
+authors:
+  - Netlify People Team
+date: 2021-11-02
+lastmod: 2021-11-01
+topics:
+  - insights
+tags:
+  - netlifolks
+tweet: ""
+format: blog
+seo:
+  ogimage: /v3/img/blog/dana-og.png
+---
+![Dana Lawson, Netlify](/v3/img/blog/dana-headshot2.jpg "Dana Lawson, Netlify")
+
+**What was your path to Netlify and why did you join our team?**
+
+I've been in the developer tools space making tools for developers of any sort for over 10 years. I had the opportunity to start that journey at New Relic when application performance monitoring started to supplement what a product developer could do, and it was this mesh of taking on the premise of DevOps and now site reliability--all new terms that were coming out at the time. It still didn't change how I was gravitating towards thinking about how we can empower makers and builders. I was thinking about how can we stop having systems where you have to pass the baton for everything and instead start giving some autonomy back by having a rich toolset and creating abstractions that make sense so that you can focus on a customer's journey versus how do you get to that customer's journey.
+
+For me, when I was thinking about Netlify, the timing was right. We've been talking about DevOps and site reliability and speed, and the advancements in technology that today have shown that we can abstract so many of the things that you don't need to worry about when you're doing true web development. There's always going to be a need for full-stack developers. But most of the web and what you see today doesn't need full stacks to support the customer experience. In the future, even more of that backend stack will still be obfuscated. What we're doing at Netlify is really giving the opportunity to say "take this new way that systems can be built and do it in a way that reaches the entire globe quickly to unlock innovation for developers." For me, it was a natural fit with the evolution of thinking through how we used to have sys admins that would do this, and now we have tools that do it, and even further now we have ecosystems and platforms. Now we're going to reinvent the web of how we even think about the curation and be smarter than we were 5 or even 10 years ago. It was the right time and the right place for me!
+
+**Tell us more about your role and team.**
+
+I lead the engineering team at Netlify. We're a globally diverse, inclusive team and we have team members from almost every continent. We're looking for that mystery Antarctica scientist/developer who can work at Netlify so that we can truly say we've conquered all continents! Our team is a world-class engineering team that is dedicated to building the new web and we come from all walks of life, which is another reason I love being here! We show up like our developer community shows up.
+
+**What are you most excited to tackle next year?**
+
+I'm excited about our opportunity to bring more to the Netlify ecosystem. With thinking beyond how do we produce a static website, but rather how do we produce a rich experience which allows people to still have what we love about Netlify. This means having a fast, clean, easy deployment, where you can do things quickly and iterate faster, but also so that you can add and have more flexibility in the content that you're providing. I'm excited about bringing additional integrations and toolsets to the Netlify platform so that we can unlock developer innovation.
+
+**What do you love about our team?**
+
+I love the culture! I think that this team comes from a place of practicing kindness. It's just the way that people interact and some of these people have never even met each other in real life. There seems to be this huge emphasis on building interpersonal relationships and taking the time and the opportunity throughout the day to not just jam through the tasks that we have, but to understand each other and grow together as a team. I think it's been just super refreshing to have such an open culture that truly feels like people care about each other.
+
+**What’s your philosophy for leading an engineering team?**
+
+I think you have to be human-centric. You have to realize that the world is an unpredictable place and we're in an unpredictable time. We no longer just bring one facet of ourselves to work. People want fulfillment in the work that they're doing and we want to encourage them to bring their whole selves and not have to worry about covering anything up. For me, it's about ensuring that you look out for all those things that we've been conditioned to see as good or bad and ensure that we're constantly growing and saying, "I can show up even 1% better than I did yesterday." That's all that I ever ask for with the team and then always do it in a way that is receptive. It doesn't mean accepting bad behavior - I definitely have a 'don't hire jerks' philosophy. Just knowing that people do make mistakes and have an opportunity to learn something new means we make sure that we approach it with kindness, first and foremost, and understand that these people have signed up on the same journey and get back to that core of why we're here. I think once you do that and you recognize people for who they are and what they bring to the table then you're going to have a great experience.
+
+I think just stripping away thinking about how do you be a successful engineer is key. We already hired successful engineers, so it's all about how do we create a great place where people can apply what they already do best and do it in a way, where they feel safe, where they feel heard, where they seem feel seen, and where we can celebrate the things that they've accomplished.
+
+**You've managed many distributed teams in the past - what's your strategy for bringing out the best in such a diverse team?**
+
+I think there's not one size fits all. I think that you have to find the right level of process, the right level of visibility, and really ensure that you're creating systems that encourage autonomy and agency, but still have objectives and goals. For me, it's ensuring that you don't only rely on async communication and that you can have disagreements where you take that opportunity to come and speak even if it's on a Zoom call, you're working it out in real-time - I think there's a lot of power to that. For distributed teams, you have to be intentional about some things. When you're growing as a startup it's not as important, because you're small enough and you can get everybody into the virtual room, but for distributed teams, you have to start thinking about this. How do people pair and how do they collaborate and communicate? I'm very much in the digital-first mindset but I also am more human first than digital-first. We know from years and years of study that people crave and do their best work when they fill in the gaps with the people that have the skills that they may not have around them.
+
+Development is definitely a team sport. So when we think about having distributed teams, we need to think with that team mindset in place - what are we going to do to ensure that this group of people can collaborate and run when they need to and work freely when they need to because we all don't get to spend all of our time together? It's about ensuring that you have the right systems in the right place and that you have good constraints where they need to be and flexibility where you don't. There isn't a one-size-fits-all. If I had to say one thing, establish enrichment of a written culture and don't make everything into sacred texts that can't be changed. Write stuff down and don't assume that people don't know something. Really try to be clear, try to be contextual, and always try to have action items behind that. Also, reflect on how people work. Know what the boundaries are, know what you're responsible for and know what they're responsible for, and then take the initiative and ensure that all of those things that you've discussed have been agreed upon and move forward. There's a ton of strategies there and I'm looking forward just to continuing to elevate what we've already got going on here Netlify and just continuing to scale. Distributed teams are easy but scaled distributed teams can be hard, and so we have to continue to think about how we can continue to execute at the speed that our developer community needs and do it in a way that people don't have to stop and ask, 'can I do this' - they know what they already can do and how they can get it done so clearly defining requirements.
+
+**What’s the most important thing you’ve learned during your career in tech?**
+
+The most important thing I've learned in tech is that nobody has all the answers, even if they show up as they do. We all have insecurities and we all don't feel like we're good enough or smart enough. Even when we've accomplished great things and just to remember, at the end of the day, you don't know what's going on with somebody. I think it comes back to you always giving people the benefit of the doubt and practicing kindness, then pushing people to accomplish things they didn't think they could accomplish by ensuring they have the support and motivation and the backing of people that believe in them. Because I don't care how great and how far you've gone, it never hurts to say how are you doing, you did a great job, or ask how can help you with that? It's always great to check-in and I think it doesn't matter what you've accomplished just knowing you have that support system. I think people inherently want to do good. We're all adults and I think we all inherently want to do good - we want to pay our bills, you want to take and provide for the things that we've signed up to provide for in our lives for ourselves or others, so remembering why people are motivated to show up and trying to create that space so that they can accomplish their own personal goals.
+
+**What kind of people are you looking for to join your team?**
+
+We're looking for people who are smart, hungry, and humble! You make smart decisions, you're hungry because you think and know that the work that you're going to do can change humans for the better. I know that's ambitious but why are we doing this, do we believe in the new web? I do! Look at what the Internet has brought us - we have a responsibility out there with building this product. We really just want humble people to come with low ego. I don't care how good you are, we're all good in our own unique amazing way and sharing that sense of belonging is more important than anything else and recognizing when you're wrong as well.
+
+**How do you think about growth and hiring?**
+
+People have so much potential to learn new things. When you're going and looking for somebody to join your team, the things that you should look for are - do they believe in the mission and the objectives that you have at hand and are they excited about being a part of it? Do they have the experience to show that they've done it in the past and that they can learn new things? Most importantly, it's seeing a track record of personal growth. Have you taken on challenges that may have been uncomfortable? Have you learned new skills and trades that you didn't know two years ago? Keep an open mind, because, especially as technology advances, you want to look for foundational characteristics: Are they great communicators? Are they open-minded? Do they have a growth mindset? Are they willing to speak up? We have created a place where they can speak up and feel comfortable doing so, and so, for me, growth in hiring is all about human determination and if you find a good candidate that believes in what you're doing and has the right skill set, even if they don't have the years of experience, you're going to find a good fit and I truly believe that. If you can learn one programming language you probably can learn another, doesn't mean you'll be an expert, but we're all learning constantly if we have engineer in our title.
+
+**What are some of your passions outside of work?**
+
+A fun fact about me is that I love music! I sell vinyl records and probably buy too much music. I'm incredibly passionate about music and art outside of work and I love to try new things. I love to paint and draw. I also run a Burning Man camp so outside of work you can find me preparing my camp for Burning Man every year - 2022, it's on! I'm so excited to go play in the desert!

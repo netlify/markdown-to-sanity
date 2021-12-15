@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Hosting Exposé on Netlify"
 authors:
   - Aaron Autrand
-image: /img/blog/jack-ventures.jpg
+image: /v3/img/blog/jack-ventures.jpg
 format: blog
 short_title: Host Exposé on Netlify
 description: A step-by-step guide on how to host a site built with Exposé - A simple static site generator for photoessays written in Bash.
@@ -13,7 +13,7 @@ date: 2015-11-02T00:00:00.000Z
 tags:
   - expose
   - bash
-  - tutorial
+  - Tutorial
 topics:
   - tutorials
 ---

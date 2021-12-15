@@ -10,10 +10,8 @@ lastmod: 2021-07-16
 topics:
   - tutorials
 tags:
-  - agency
-  - partners
+  - Partners
   - enterprise
-  - agencies
 tweet: ""
 format: blog
 relatedposts:
@@ -24,7 +22,7 @@ seo:
   metatitle: The Agency Partner's Guide to Managing Client Projects with Netlify
   metadescription: "Learn best practices for managing client projects on Netlify:
     A guide for web development agencies."
-  ogimage: /img/blog/agency-partner-guide-og.png
+  ogimage: /v3/img/blog/agency-partner-guide-og.png
 ---
 At Netlify, we know there's strength in numbers. One of the most powerful parts of developing on Netlify is the vibrant ecosystem of agency partners delivering Jamstack projects for customers large and small. [Netlify agency partners](https://www.netlify.com/partners/agency/) are active participants in the Netlify community, suggesting improvements to our developer experience and educating clients about the productivity and performance benefits of developing web apps on Netlify.
 
@@ -54,7 +52,7 @@ In addition, what do you need to be successful on this project? Netlify can prov
 
 Once you've determined the appropriate Netlify license for your client, make sure to include any technology fees in your SOW so all expenses are transparent to the client.
 
-![](/img/blog/pitching_the_project.png)
+![](/v3/img/blog/pitching_the_project.png)
 
 ## 💰 **Winning** the project
 
@@ -85,7 +83,7 @@ Lastly, dedicated client accounts better enable the Netlify team to support the 
 
 > 📣 **Did you know?** Netlify introduced Teams in 2017, enabling agency users to contribute to, manage, and easily navigate between different client projects in an organized way with a single Netlify login.
 
-![](/img/blog/winning_the_project.png)
+![](/v3/img/blog/winning_the_project.png)
 
 ### User management
 
@@ -118,7 +116,7 @@ Adding Reviewers is frictionless - there's no setup necessary for your clients. 
 
 If your client prefers to [preview changes without the Netlify Drawer,](https://docs.netlify.com/site-deploys/deploy-previews/#preview-changes-without-the-netlify-drawer) you can opt out of loading the Netlify Drawer by visiting your Site settings. You can also open a [branch deploy or deploy permalink](https://docs.netlify.com/site-deploys/overview/#branches-and-deploys) if you need to preview a deploy but don't want to access any of the collaboration features. Both links are available in the Netlify Drawer under Settings or on your site’s Deploys page in the Netlify UI.
 
-![](/img/blog/collaborating_during_development.png)
+![](/v3/img/blog/collaborating_during_development.png)
 
 ## 🚀 Getting ready to go live
 

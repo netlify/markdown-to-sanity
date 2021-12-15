@@ -5,8 +5,8 @@ authors:
 image: ''
 short_title: Netlify on Zapier
 tags:
-  - zapier
-  - tools
+  - Zapier
+  - Tools
 format: blog
 description: >-
   Use the Netlify Zap on Zapier to set Netlify events to trigger notifications

@@ -12,7 +12,7 @@ topics:
 tags:
   - Netlify Dev
   - Tools
-  - Products
+  - Product
 tweet: >-
   One of the design goals for Netlify Dev is to be technology agnostic while
   still offering a magical, universal netlify dev command that “just works”. We

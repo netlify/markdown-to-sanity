@@ -1,7 +1,7 @@
 ---
 
 title: "Integrating With Netlify: OAuth2"
-image: /img/blog/netlifylogo.png
+image: /v3/img/blog/netlifylogo.png
 authors:
   - Mathias Biilmann
 format: blog
@@ -9,9 +9,9 @@ short_title: Netlify and Oauth2
 description: "Netlify has an extensive developer API that enables anybody to build integrations and services on top of our service. This tutorial will show how to integrate any service with Netlify by using our OAuth2 provider."
 date: 2016-10-10T14:00:00.000Z
 tags:
-  - netlify
-  - api
-  - integrations
+  - Netlify
+  - APIs
+  - Integrations
 topics:
   - tutorials
 ---

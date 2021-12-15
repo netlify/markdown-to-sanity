@@ -9,10 +9,10 @@ lastmod: 2021-06-22
 topics:
   - tutorials
 tags:
-  - Github action
+  - Github Action
   - Frontend
-  - Netlify build plugin
-  - build plugin
+  - Build Plugins
+  - Build Plugins
   - Engineering
   - Cypress
   - Testing
@@ -22,7 +22,7 @@ relatedposts:
 seo:
   metadescription: Learn how (and why) the Netlify engineering team moved from running Cypress tests using a Github action to using a Netlify build plugin
   metatitle: How to Migrate a Github action to a Netlify Build Plugin
-  ogimage: /img/blog/cypress-plugin-og-image.jpg
+  ogimage: /v3/img/blog/cypress-plugin-og-image.jpg
 ---
 
 The Netlify engineering team runs our end-to-end tests with Cypress. For a long time, we've run our Cypress tests using a GitHub action. Recently, we've run into a couple issues with that workflow, and decided to migrated our logic to a [Netlify Build Plugin](https://www.netlify.com/products/build/plugins/). In this blog, we'll talk about why we decided to migrate from GitHub actions to a Netlify Build Plugin, and how the migration went.
@@ -89,7 +89,7 @@ As we want to run it on production and deploy previews, we can use the `context`
 
 Once these changes are committed and pushed, the deploy preview logs should be showing something like this:
 
-![Deploy logs showing the onPreBuild command output saying "Hello, world!"](/img/blog/cypress-plugin-onprebuild.jpg)
+![Deploy logs showing the onPreBuild command output saying "Hello, world!"](/v3/img/blog/cypress-plugin-onprebuild.jpg)
 
 ## Build events
 
@@ -192,7 +192,7 @@ utils.status.show({
 ```
 
 
-![](/img/blog/cypress-plugin-deploy-summary-output.jpg)
+![](/v3/img/blog/cypress-plugin-deploy-summary-output.jpg)
 
 
 ## Updating status checks on GitHub
@@ -294,7 +294,7 @@ if (netlifyConfig.build.environment.CONTEXT === 'production') {
 
 When the tests fail in production, here's what will be posted on Slack:
 
-![Cypress bot message saying "Cypress tests failed on production. Check the logs"](/img/blog/cypress-plugin-slack.jpg)
+![Cypress bot message saying "Cypress tests failed on production. Check the logs"](/v3/img/blog/cypress-plugin-slack.jpg)
 
 ---
 

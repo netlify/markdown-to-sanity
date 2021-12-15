@@ -6,8 +6,8 @@ topics:
   - news
 tags:
   - https
-  - domains
-  - feature
+  - Domains
+  - Features
 format: blog
 description: >-
   If you're hosting your site on Netlify, we'll automatically request a Let’s

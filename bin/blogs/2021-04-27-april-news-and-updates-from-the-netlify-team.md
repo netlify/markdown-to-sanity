@@ -12,7 +12,7 @@ tags:
   - newsletter
   - On-demand Builders
   - Headless Commerce Summit
-  - case study
+  - Case Studies
   - dark mode
 tweet: ""
 format: blog
@@ -24,7 +24,7 @@ seo:
     events, and more"
   metadescription: "Product updates and thoughts on Jamstack from the team at
     Netlify, plus news about upcoming events like Headless Commerce Summit. "
-  ogimage: /img/blog/og-april-21-newsletter.png
+  ogimage: /v3/img/blog/og-april-21-newsletter.png
 ---
 It’s been a busy month at Netlify! Read about what we’ve been up to in this re-publishing of our monthly newsletter. Want to receive updates like this in your inbox? Sign up for our mailing list here ⬇️
 
@@ -32,7 +32,7 @@ It’s been a busy month at Netlify! Read about what we’ve been up to in this 
 
 ## 💥On-demand Builders in Early Access
 
-![Shorten build times for large sites with On-Demand Builders from Netlify](/img/blog/odb-large-sites-netlify.png)
+![Shorten build times for large sites with On-Demand Builders from Netlify](/v3/img/blog/odb-large-sites-netlify.png)
 
 On-demand Builders is a new solution to improve build times for large sites on Netlify. Along with the Jamstack community **[proposal (RFC)](https://github.com/jamstack/jamstack.org/discussions/549)** for **[Distributed Persistent Rendering (DPR)](https://www.netlify.com/blog/2021/04/14/distributed-persistent-rendering-a-new-jamstack-approach-for-faster-builds/)**, this release represents the first step forward in a significant evolution of the Jamstack architecture to support larger websites and more complex applications.
 
@@ -40,7 +40,7 @@ On-demand Builders is a new solution to improve build times for large sites on N
 
 ## How to set up Dark Mode...and how one dev claps it on 👏
 
-![Dark Mode now available in the Netlify app](/img/blog/dark-mode-blogpost-image.png)
+![Dark Mode now available in the Netlify app](/v3/img/blog/dark-mode-blogpost-image.png)
 
 Are you a fan of [dark mode? Opt-in to Netlify Labs and take these steps to set it up in the Netlify app](https://www.netlify.com/blog/2021/04/05/dark-mode-fans-take-these-steps-to-set-it-up-in-the-netlify-app/). Want more fun? Read about how one of our team members, Charlie Gerard, [experimented with a clap-on/clap-off](https://charliegerard.dev/blog/toggle-dark-mode-clapping-hands-chrome-extension/) Chrome extension using TensorFlow.js that toggles dark mode on and off.
 
@@ -57,7 +57,7 @@ Are you a fan of [dark mode? Opt-in to Netlify Labs and take these steps to set 
 
 ## 🎟️Register: Headless Commerce Summit is May 26
 
-![](/img/blog/headless-commerce-banner2021.png)
+![](/v3/img/blog/headless-commerce-banner2021.png)
 
 Join us for a half-day virtual event to learn all about headless e-commerce, the growing Jamstack ecosystem, modern developer workflows, and building performant web experiences at scale! Talks and speakers will be announced soon. Thanks to early sponsors Builder.io, Commerce.js, commercetools, Mux, Nacelle, Shogun, Storyblok and Swell.is. If your company would like to be involved in Headless Commerce Summit, please email [events@netlify.com](mailto:events@netlify.com).
 
@@ -72,7 +72,7 @@ Join us for a half-day virtual event to learn all about headless e-commerce, the
 
 ## How Gremlin Tamed their Web Development Workflows with Netlify
 
-![Netlify and Gremlin](/img/blog/netlify-gremlin.png "Netlify and Gremlin")
+![Netlify and Gremlin](/v3/img/blog/netlify-gremlin.png "Netlify and Gremlin")
 
 Netlify has become the central collaborative web development platform that has extended with Gremlin’s engineering and marketing teams, helping them iterate quickly and safely. From their main company website and web applications, learn about how this team has been able to grow on Netlify, relying on Netlify Builds, Netlify Forms, serverless functions, and more.
 
@@ -80,6 +80,6 @@ Netlify has become the central collaborative web development platform that has e
 
 ## Welcome New Netlify Customers!
 
-![New Netlify Enterprise Customers](/img/blog/netlify-customers.png "Netlify customers Affirm, Harper Collins, SafeBreach")
+![New Netlify Enterprise Customers](/v3/img/blog/netlify-customers.png "Netlify customers Affirm, Harper Collins, SafeBreach")
 
 We'd like to extend a warm welcome to the latest companies who trust Netlify with their web infrastructure! Learn more about [Netlify's enterprise products](https://www.netlify.com/enterprise/).

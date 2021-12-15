@@ -11,10 +11,10 @@ date: 2017-05-10T16:55:10.000Z
 topics:
   - insights
 tags:
-  - cdn
-  - guest post
+  - CDN
+  - Guest Post
 format: blog
-image: /img/blog/ddos-protection-title.jpg
+image: /v3/img/blog/ddos-protection-title.jpg
 ---
 When individuals or businesses opt to use CDN services, their primary goal is to provide a delightful experience to website visitors. Ensuring a fast loading website, despite the distance between an access point of the visitor and server where the website is hosted became a thing of utmost importance.
 
@@ -30,7 +30,7 @@ Since CDN services have an impact on both the website and the business, optimizi
 
 ## Measure Twice Before You Optimize
 
-![](/img/blog/seo-slow-loading.jpg)
+![](/v3/img/blog/seo-slow-loading.jpg)
 
 Getting a CDN solution doesn’t mean that you will experience the benefits within the next 24 hours. This is because a CDN has direct and postponed indirect consequences. The direct consequence of using a CDN is a faster website speed, while the indirect one is ranking better in search results pages.
 

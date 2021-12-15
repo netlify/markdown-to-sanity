@@ -9,9 +9,9 @@ date: '2019-11-30'
 topics:
   - tutorials
 tags:
-  - vue
-  - deploy
-  - nuxt
+  - Vue
+  - Deploy
+  - Nuxt
   - gridsome
   - templates
 tweet: ''
@@ -29,7 +29,7 @@ If you prefer something more automated for subsequent deploys, it makes sense to
 
 We log in, select where our repo is (GitHub, GitLab, or BitBucket), and authenticate by clicking on the button that says “New Site from Git”. We’ll then search for the repo given the options:
 
-![New site from git view in the Netlify Dashboard](/img/blog/screen-shot-2019-11-21-at-8.46.49-pm.png)
+![New site from git view in the Netlify Dashboard](/v3/img/blog/screen-shot-2019-11-21-at-8.46.49-pm.png)
 
 From here, if we would like to just deploy a directory that doesn’t need to a build process, we would leave the build command and point the publish directory to the folder where your site files can be found, which might just be the root of your repo.
 
@@ -66,7 +66,7 @@ Hit deploy and you’re off to the races!
 
 Netlify will automatically assign you a unique domain name, which I personally make up myself on the spot when you deploy a new site to Netlify.
 
-![Phil Hawksworth on twitter saying that Sarah thinks up all the site names herself every time a new site is created. And if there's a delay it's called Sarah buffering](/img/blog/buffering.png)
+![Phil Hawksworth on twitter saying that Sarah thinks up all the site names herself every time a new site is created. And if there's a delay it's called Sarah buffering](/v3/img/blog/buffering.png)
 
 (this is not really how it works 🙂)
 
@@ -76,7 +76,7 @@ If you wish to change the site name for free and don’t mind it on a subdomain,
 
 Go to the overview page, and under the URL, you’ll see a button that says “Site Settings”. 
 
-![Site settings in the Netlify dashboard](/img/blog/site-settings.png)
+![Site settings in the Netlify dashboard](/v3/img/blog/site-settings.png)
 
 At the top of the Site Settings page there is some basic setup info, and if you click “change site name”, a modal comes up where you can change the name directly.
 

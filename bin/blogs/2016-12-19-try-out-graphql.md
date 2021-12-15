@@ -2,7 +2,7 @@
 title: Try Out GraphQL
 authors:
   - Brian Douglas
-image: /img/blog/img/blog/graphcool.png
+image: /v3/img/blog/img/blog/graphcool.png
 format: blog
 short_title: Try Out GraphQL
 description: GraphQL is an open source query language from Facebook to connect APIs to Frontend applications. GraphQL provides a complete and understandable description of the data in your API and gives clients the power to ask for exactly what they need and nothing more.

@@ -8,7 +8,7 @@ lastmod: 2021-06-08
 topics:
   - tutorials
 tags:
-  - react
+  - React
 tweet: ""
 format: blog
 relatedposts:
@@ -16,7 +16,7 @@ relatedposts:
 seo:
   metatitle: React 18 Alpha is out! Now what?
   metadescription: React 18 Alpha is here! Here's what it'll include and how to use it.
-  ogimage: /img/blog/react-18-learn-more.png
+  ogimage: /v3/img/blog/react-18-learn-more.png
 ---
 
 Hello!

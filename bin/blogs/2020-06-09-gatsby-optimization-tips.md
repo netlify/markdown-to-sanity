@@ -10,12 +10,12 @@ lastmod: 2020-07-09
 topics:
   - tutorials
 tags:
-  - gatsby
-  - build-speeds
-  - caching
+  - Gatsby
+  - build speeds
+  - Caching
   - debugging
-  - performance
-  - tips
+  - Performance
+  - Tips
 tweet: ""
 format: blog
 seo:
@@ -23,7 +23,7 @@ seo:
     5 Optimizations to Get Faster Gatsby Builds Today
   metadescription: >
     Gatsby is a powerful tool for creating web sites and apps. Learn how to optimize your builds to be as fast as your website with these Gatsby build optimization tips.
-  ogimage: /img/blog/5-gatsby-build-optimization-tips.png
+  ogimage: /v3/img/blog/5-gatsby-build-optimization-tips.png
 relatedposts:
   - "Enable Gatsby Incremental Builds on Netlify"
   - "Gatsby 101: Features, Benefits, and Trade-Offs"
@@ -55,7 +55,7 @@ If `public` and `.cache` folders from a previous build are present when a build 
 
 Most build systems, including Netlify, don’t keep the Gatsby cache by default. However, you can [install the Gatsby Cache Netlify Build Plugin](http://app.netlify.com/plugins/netlify-plugin-gatsby-cache/install?utm_source=blog&utm_medium=gatsby-img-perf-jl&utm_campaign=devex) to make sure the cache persists between builds, which can cut your build times in half.
 
-![Install screen for the Netlify Build Plugin to persist the Gatsby cache.](/img/blog/gatsby-cache-netlify-build-plugin-install.png)
+![Install screen for the Netlify Build Plugin to persist the Gatsby cache.](/v3/img/blog/gatsby-cache-netlify-build-plugin-install.png)
 
 One click to cut your build times in half! Hot diggity!
 

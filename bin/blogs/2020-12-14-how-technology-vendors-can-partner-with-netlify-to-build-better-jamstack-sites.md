@@ -11,10 +11,10 @@ lastmod: 2020-12-14
 topics:
   - news
 tags:
-  - partners
-  - plugins
-  - jamstack
-  - integrations
+  - Partners
+  - Plugins
+  - Jamstack
+  - Integrations
 tweet: ""
 format: blog
 relatedposts:

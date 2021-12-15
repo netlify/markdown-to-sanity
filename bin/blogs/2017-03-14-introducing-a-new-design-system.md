@@ -2,13 +2,13 @@
 title: Introducing A New Design System
 authors:
   - Rafael Conde
-image: /img/blog/image.png
+image: /v3/img/blog/image.png
 format: blog
 short_title: The first of many iterations to our User Interface.
 topics:
   - news
 tags:
-  - design
+  - Design
   - UI
 description: >-
   We are beginning to roll out the first of many iterations to our app‘s user
@@ -49,7 +49,7 @@ Many of our users, after setting up their sites in Netlify, don’t really need 
 
 However, in the situation where you are going back to the UI, it’s ideal that for you to get in and get the job done as quickly possible.
 
-![Screenshot of the new Header](/img/blog/image.png)
+![Screenshot of the new Header](/v3/img/blog/image.png)
 
 The Hero Card is the first element that you see in most pages. It allows you to see a quick summary of the page and gives access to the most common/pertinent actions and information.
 
@@ -59,9 +59,9 @@ The Hero Card is the first element that you see in most pages. It allows you to 
 
 Our plan is to share a detailed look at our design process through the coming weeks. This will include our discoveries on subjects like typography, layout, processes, and some of the struggles we had to overcome.
 
-![Old sketch of UI](/img/blog/Screenshot 2017-03-14 14.48.19.png)
+![Old sketch of UI](/v3/img/blog/Screenshot 2017-03-14 14.48.19.png)
 
-![Another old sketch of the UI](/img/blog/Screenshot 2017-03-14 14.48.49.png)
+![Another old sketch of the UI](/v3/img/blog/Screenshot 2017-03-14 14.48.49.png)
 
 Like I said, often a complete redesign of a product takes months and months of intense work to put in place which is why we are doing it in batches.
 
@@ -79,4 +79,4 @@ _And **You**, the Netlify user, for being the best, most passionate, smart group
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#introduced-a-new-design-system-for-the-app)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#introduced-a-new-design-system-for-the-app)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#introduced-a-new-design-system-for-the-app)

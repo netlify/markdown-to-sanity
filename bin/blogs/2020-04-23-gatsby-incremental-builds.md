@@ -11,8 +11,8 @@ lastmod: 2021-03-12
 topics:
   - tutorials
 tags:
-  - gatsby
-  - performance
+  - Gatsby
+  - Performance
 tweet: ""
 format: blog
 relatedposts:

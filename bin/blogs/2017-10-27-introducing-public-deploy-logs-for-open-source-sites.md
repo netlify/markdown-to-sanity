@@ -5,8 +5,8 @@ authors:
 topics:
   - news
 tags:
-  - deploy previews
-  - deploys
+  - Deploy Previews
+  - Deploys
 format: blog
 description: >-
   Deploy Previews are now more useful for the open source community.  When you

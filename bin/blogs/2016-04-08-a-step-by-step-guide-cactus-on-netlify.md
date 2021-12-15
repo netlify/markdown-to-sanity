@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Cactus on Netlify"
 authors:
   - Aaron Autrand
-image: /img/blog/cactus-and-sofa.jpg
+image: /v3/img/blog/cactus-and-sofa.jpg
 image_caption: ""
 format: blog
 short_title: Cactus on Netlify
@@ -12,9 +12,9 @@ thumbnail: thumbnails/cactusformac.png
 cmsUserSlug: ""
 date: 2016-04-08
 tags:
-  - tutorial
+  - Tutorial
   - cactus
-  - python
+  - Python
   - django
 topics:
   - tutorials
@@ -198,12 +198,12 @@ Since your assets are hosted on GitHub, we'll need to link  Netlify to GitHub. C
 It's time to allow Netlify and GitHub to talk to each other. Clicking the "Authorize Application" button will do just that. Like it says in the image below, Netlify doesn't store your GitHub access token on our servers. If you'd like to know more about the permissions Netlify requests and why we need them, you can visit our [documentation on Git provider permissions](https://docs.netlify.com/configure-builds/repo-permissions-linking/).
 
 ### Step 4: Choose Your Repo
-![step 4 - repo](/img/blog/cactus4.png)
+![step 4 - repo](/v3/img/blog/cactus4.png)
 
 Now that you've connected Netlify and GitHub, you can see a list of your Git repos. There's the "cactus" repo we just pushed to GitHub. Let's select it.
 
 ### Step 5: Configure Your Settings
-![step 5 - configure](/img/blog/cactus_settings.png)
+![step 5 - configure](/v3/img/blog/cactus_settings.png)
 
 Here you can configure your options. Be sure your settings match the screenshot above, with `/.build` as the directory and `cactus build` as the build command.
 
@@ -215,6 +215,6 @@ Now it's time to sit back and relax. Netlify will build and optimize your site, 
 
 ### Step 7: Done
 
-![step 7 - done](/img/blog/cactus7.png)
+![step 7 - done](/v3/img/blog/cactus7.png)
 
 Wait, you thought there was going to be more? Nope! Netlify has done it all for you, including giving your site a temporary name. Your site is now live. Congratulations, and thanks for using Netlify!

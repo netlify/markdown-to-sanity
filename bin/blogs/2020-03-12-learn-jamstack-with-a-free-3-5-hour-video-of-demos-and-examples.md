@@ -10,14 +10,14 @@ date: '2020-03-12'
 topics:
   - tutorials
 tags:
-  - JAMstack
+  - Jamstack
 tweet: ''
 format: blog
 seo:
   metadescription: >-
     Free JAMstack video course developed by Phil Hawksworth. Check out the explanations and examples in this extended video from freeCodeCamp to learn about the JAMstack. Full of links and resources.
   metatitle: Learn JAMstack in Free 3.5 Hour Video Course - Demos & Examples
-  ogimage: /img/blog/jamstack-freecodecamp-video-poster.png
+  ogimage: /v3/img/blog/jamstack-freecodecamp-video-poster.png
 ---
 
 In the 5 years since the term "[JAMstack](/jamstack)" was coined by Netlify co-founders Matt Biilmann and Chris Bach, it has grown in popularity and gained increasingly broad adoption.

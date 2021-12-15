@@ -9,9 +9,9 @@ lastmod: 2021-06-11
 topics:
   - insights
 tags:
-  - next
-  - nextjs
-  - jamstack
+  - Next.js
+  - Next.js
+  - Jamstack
   - guide
 tweet: ""
 format: blog
@@ -23,8 +23,11 @@ seo:
   metadescription: 'Learn how to get the most out of Next.js and the Jamstack in
     this free ebook, "How to Deploy Next.js on the Jamstack: The Definitive
     Guide."  '
-  ogimage: /img/blog/enterprise-next.js-black-1200-x-635.png
+  ogimage: /v3/img/blog/enterprise-next.js-black-1200-x-635.png
 ---
+
+
+
 *This is an excerpt from our new e-book, [How to Deploy Next.js on the Jamstack: The Definitive Guide](https://www.netlify.com/resources/guides/next-js-on-the-jamstack/).*
 
 Next.js has become one of the most popular frameworks for building React apps. It’s no surprise, then, that we’re seeing more and more Jamstack applications built on Next.js.
@@ -44,3 +47,4 @@ But in March 2020, Next.js 9.3 introduced better support for building static sit
 In short, *yes.* That said, there’s a bunch of different ways to approach building a Jamstack application with Next.js, with different tradeoffs to keep in mind. In [How to Deploy Next.js on the Jamstack: The Definitive Guide](https://www.netlify.com/resources/guides/next-js-on-the-jamstack/), we cover important aspects of Next.js for Jamstack developers, and provide resources (and click-to-deploy starter projects) that’ll help you get the most of Next.js and the Jamstack.
 
 <p style="text-align:center"><a href="https://www.netlify.com/resources/guides/next-js-on-the-jamstack/" class="button">Get the Next.js Guide</a></p>
+

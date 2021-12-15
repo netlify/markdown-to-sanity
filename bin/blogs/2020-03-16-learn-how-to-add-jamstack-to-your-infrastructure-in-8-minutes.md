@@ -18,7 +18,7 @@ relatedposts:
   - "Top 15 from 2019: features, resources, and news on Netlify and the JAMstack"
   - JAMstack conference videos
 seo:
-  ogimage: /img/blog/smart-cdn-proxy.png
+  ogimage: /v3/img/blog/smart-cdn-proxy.png
   metadescription: See how to gradually add Jamstack capabilities to your existing
     infrastructure with Netlify redirects. Proxying and shadowing unlock a
     simple and clear migration path. Check out this explanation and video demo.
@@ -31,7 +31,7 @@ This is a common scenario. Especially in the enterprise where there may have bee
 Thankfully, there is a solution to this. One which is very simple to start exploring.
 
 
-![Image of Netlify's CDN proxying unsatisfied requests to a legacy stack](/img/blog/smart-cdn-proxy.png "Proxying and shadowing with the Netlify CDN")
+![Image of Netlify's CDN proxying unsatisfied requests to a legacy stack](/v3/img/blog/smart-cdn-proxy.png "Proxying and shadowing with the Netlify CDN")
 
 This solution is possible thanks to the high performance layer of logic possible at the [Netlify CDN](https://www.netlify.com/products/edge/?utm_source=blog&utm_medium=proxy-shadows-pnh&utm_campaign=devex). The [Netlify Redirects API](https://docs.netlify.com/routing/redirects/?utm_source=blog&utm_medium=proxy-shadows-pnh&utm_campaign=devex) might look simple, but it has some powerful capabilities and we can use some of those here.
 

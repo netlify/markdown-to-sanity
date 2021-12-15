@@ -9,9 +9,9 @@ date: '2019-01-09'
 topics:
   - sites
 tags:
-  - JAMstack
+  - Jamstack
   - Site
-  - PWA
+  - PWAs
 tweet: >-
   https://squoosh.app - An excellent example of a PWA which demonstrates both
   performance and power in the browser. Hosted on Netlify.
@@ -23,7 +23,7 @@ This web application was launched by Google's Chrome team at the 2018 [Chrome De
 
 Squoosh uses Web Assembly, workers, web components, and TypeScript to deliver a rapidly loading, powerful image compression tool. You can learn more about how it was implemented in the [presentation by Jake Archibald and Mariko Kosaka](https://developer.chrome.com/devsummit/schedule/complex-js-web-apps).
 
-![Squoosh.app screenshot](/img/blog/featured-site-screengrab-squoosh.jpg)
+![Squoosh.app screenshot](/v3/img/blog/featured-site-screengrab-squoosh.jpg)
 
 Squoosh is [open source](https://github.com/GoogleChromeLabs/squoosh), hosted on Netlify, and makes use of Netlify's custom header control and simple redirects API.
 

@@ -9,14 +9,14 @@ audiolink: http://media.blubrry.com/heavybit/p/d3aeja1uqhkije.cloudfront.net/pod
 guests:
   - name: Matt Biilmann
     bio: Matt Biilmann is the Co-founder and CEO of Netlify. Previous to Netlify, he founded BitBalloon and Webpop.
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 description: "In the second episode of JAMstack Radio, Brian talks with Matt Biilmann, the Co-founder and CEO of Netlify, about the origins of the term JAMstack and the massive changes in web infrastructure over the past decade that have made this new stack possible."
 date: 2016-09-15
 minuteslong: 43
 tags:
-  - jamstack
-  - podcast
-  - episode
+  - Jamstack
+  - Podcast
+  
 topics:
   - insights
 ---

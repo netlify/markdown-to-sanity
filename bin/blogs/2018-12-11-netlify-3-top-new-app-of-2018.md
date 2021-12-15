@@ -10,7 +10,7 @@ topics:
   - news
 tags:
   - Zapier
-  - announcements
+  - Announcements
 tweet: ''
 format: blog
 ---
@@ -20,7 +20,7 @@ Zapier credits Netlify's success to our powerful yet simple workflows to publish
 
 When we released the integration, our goal was to save our customers the sweat of implementing code, webhooks, and API keys when connecting their sites to apps. Our users responded and are building amazing automations with Netlify and Zapier—you always impress us with your ingenuity.
 
-Some of our other friends and services in the Zapier ecosystem are gaining momentum as well:[![Zapier Top New Apps of 2018](/img/blog/zapier-top-new-apps-2018.png)](https://zapier.com/blog/fastest-growing-apps/)
+Some of our other friends and services in the Zapier ecosystem are gaining momentum as well:[![Zapier Top New Apps of 2018](/v3/img/blog/zapier-top-new-apps-2018.png)](https://zapier.com/blog/fastest-growing-apps/)
 
 But there's more on the way! We are still rolling out new triggers and actions for [Netlify's Zapier integration](https://zapier.com/apps/netlify/integrations), so  you can create "Zaps" to connect services to Netlify in more ways than ever before. We just released these two new triggers in the Zapier app: 
 

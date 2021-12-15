@@ -9,7 +9,7 @@ lastmod: 2020-12-04
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -19,7 +19,7 @@ relatedposts:
 seo:
   metatitle: How to Build Custom React Media Query Hook for Responsive Apps
   metadescription: Learn how to make your React, Gatsby, and Next.js applications more responsive with a touch of JS and combining some cool APIs. Media queries to the rescue!
-  ogimage: /img/blog/blogvent5.png
+  ogimage: /v3/img/blog/blogvent5.png
 ---
 Welcome to Blogvent, day 5!
 

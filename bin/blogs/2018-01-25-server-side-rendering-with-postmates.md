@@ -7,12 +7,12 @@ episodenumber: '24'
 minuteslong: '23'
 audiolink: >-
   https://media.blubrry.com/heavybit/d3aeja1uqhkije.cloudfront.net/podcasts/jamstack-radio/20171026-jamstack-radio-024.mp3
-image: /img/blog/jamstack-radio-1024x1024.jpg
+image: /v3/img/blog/jamstack-radio-1024x1024.jpg
 short_title: 'No Server-Side Rendering '
 tags:
-  - podcast
-  - server-side rendering
-  - jamstack
+  - Podcast
+  - server side rendering
+  - Jamstack
 topics:
   - tools
 description: >-

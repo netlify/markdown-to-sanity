@@ -3,7 +3,7 @@
 title: Setting Up Your JAMstack from Scratch
 authors:
   - Aaron Autrand
-image: /img/blog/24042754923_4bfba6cc51_z.jpg
+image: /v3/img/blog/24042754923_4bfba6cc51_z.jpg
 image_caption: "Photo by [Lotus Carroll](https://www.flickr.com/photos/thelotuscarroll)"
 format: blog
 short_title: Setting Up Your JAMstack
@@ -12,7 +12,7 @@ thumbnail: thumbnails/24042754923_4bfba6cc51_q.jpg
 cmsUserSlug: ""
 date: 2016-06-07T00:00:00.000Z
 tags:
-  - JAMstack
+  - Jamstack
   - NodeJS
   - Ruby
   - Python

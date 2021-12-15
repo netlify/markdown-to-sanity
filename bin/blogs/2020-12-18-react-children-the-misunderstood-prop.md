@@ -11,9 +11,9 @@ topics:
   - tutorials
 tags:
   - blogvent
-  - react
-  - nextjs
-  - gatsby
+  - React
+  - Next.js
+  - Gatsby
 tweet: ""
 format: blog
 relatedposts:
@@ -24,7 +24,7 @@ seo:
     multiple ways to use them, and they have a module. Let's deep dive into how
     to use them!
   metatitle: "React Children: The misunderstood prop"
-  ogimage: /img/blog/blogvent17.png
+  ogimage: /v3/img/blog/blogvent17.png
 ---
 Welcome to Blogvent, day 17!
 

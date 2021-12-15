@@ -5,12 +5,12 @@ description: It's now easier to build Next.js on Netlify than ever before, with
 authors:
   - Cassidy Williams
 date: 2021-03-16
-lastmod: 2021-03-15
+lastmod: 2021-11-16
 topics:
   - news
 tags:
-  - nextjs
-  - build plugins
+  - Next.js
+  - Build Plugins
 tweet: ""
 format: blog
 relatedposts:
@@ -21,8 +21,11 @@ seo:
   metatitle: Try the new Essential Next.js plugin, now with auto-install!
   metadescription: It's now easier to build Next.js on Netlify than ever before,
     with auto-installation of our latest and greatest plugin.
-  ogimage: /img/blog/nextessential.png
+  ogimage: /v3/img/blog/nextessential.png
 ---
+
+
+
 Chances are, if you've used Next.js on Netlify, you've encountered either the `next-on-netlify` npm package, or the Next.js Build Plugin to enable some of its Node-driven features.
 
 Today, we're happy to announce that the two have become one, to form the **Essential Next.js Plugin**!
@@ -46,7 +49,7 @@ What does this mean for you if you already use the old version of the plugin, or
 * If you have a `next.config.json`, make sure to set `target: "serverless"`, but if you don't have anything else in that file, you can remove it.
 * Install the new plugin either in the UI or [manually in your netlify.toml](https://github.com/netlify/netlify-plugin-nextjs#installation-and-configuration):
 
-![Install the Essential Next.js plugin](/img/blog/essentialnext.png "Install the Essential Next.js plugin")
+![Install the Essential Next.js plugin](/v3/img/blog/essentialnext.png "Install the Essential Next.js plugin")
 
 For a new site deployed with Next.js, Netlify will automatically install this plugin.
 
@@ -60,6 +63,7 @@ If you'd like to learn more or get involved:
 
 You can get started with a new Next.js project here!
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
 
 (Clicking this button will clone a starter repo to your Git provider of choice, and deploy it instantly to Netlify)
+

@@ -12,8 +12,7 @@ topics:
 tags:
   - covid
   - free support
-  - coronavirus
-  - education
+  - covid
 tweet: ""
 format: blog
 relatedposts:

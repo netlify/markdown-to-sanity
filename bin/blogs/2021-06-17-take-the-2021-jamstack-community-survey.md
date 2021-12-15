@@ -12,9 +12,8 @@ topics:
 tags:
   - Jamstack
   - survey
-  - data
-  - community
-  - analysis
+  - Data
+  - Community
 tweet: ""
 format: blog
 relatedposts:
@@ -24,8 +23,14 @@ seo:
     survey to help us get a broader understanding of where we are at and how
     we’ve shifted as a community over the past year.
   metatitle: Take the 2021 Jamstack Community Survey
-  ogimage: /img/blog/jamstack-community-survey-og-image-14.png
+  ogimage: /v3/img/blog/jamstack-community-survey-og-image-14.png
 ---
+> Note: The 2021 State of the Jamstack survey is now closed for submissions. Findings will be announced at this year's Jamstack Conf, October 6-7. [Register for free](https://jamstackconf.com/)!
+
+
+
+
+
 We’d like for you to participate in the second annual [Jamstack Community Survey](https://www.surveymonkey.com/r/jamstack-survey-blog)!
 
 <p style="text-align:center"><a href="https://www.surveymonkey.com/r/jamstack-survey-blog" class="button">Take the Survey</a></p>

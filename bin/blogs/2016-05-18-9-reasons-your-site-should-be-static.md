@@ -8,10 +8,10 @@ format: blog
 short_title: 9 Reasons For Static Sites
 thumbnail: thumbnails/swirling-globe_66243268.jpg
 title: 9 Reasons Your Site Should Be Static
-image: /img/blog/swirling-globe_66243268.jpg
+image: /v3/img/blog/swirling-globe_66243268.jpg
 tags:
   - popular
-  - design
+  - Design
 description: Is a static site right for you?
 topics:
   - insights
@@ -60,7 +60,7 @@ A static site, when generated, is capable of being hosted on any web server that
 
 ### 5. Reliability
 
-![databaseerrorimage](/img/blog/databaseerror.jpg)
+![databaseerrorimage](/v3/img/blog/databaseerror.jpg)
 
 Does that look familiar (and painful)? If you've managed to avoid it with your own site thus far...congratulations, you are in rare company. Obviously, working without a database you won't see that, but static site reliability goes beyond database errors. The beauty of serving up flat HTML files is that they can be hosted anywhere and everywhere, like on a CDN. Let's say there's a DDoS attack on the server where your legacy site is hosted. Sorry, but you might just be screwed for a few hours (or days). That same attack hits a node where your static site is hosted? Your site just gets served up from the next closest node. Your visitors never even notice that there's a problem.
 

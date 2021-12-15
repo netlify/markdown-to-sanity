@@ -10,8 +10,8 @@ lastmod: 2020-09-03
 topics:
   - case-studies
 tags:
-  - Ecommerce
-  - e-commerce
+  - E-commerce
+  - E-commerce
   - Jamstack
 tweet: ""
 format: blog
@@ -24,9 +24,9 @@ seo:
   metadescription: Headless Commerce Summit, presented by Netlify, shares benefits
     of a headless model, how to architect your headless commerce apps on the
     Jamstack, and the best practices.
-  ogimage: /img/blog/headless-commerce-summit-og.png
+  ogimage: /v3/img/blog/headless-commerce-summit-og.png
 ---
-![Headless Commerce Summit banner image](/img/blog/headless-commerce-banner.png)
+![Headless Commerce Summit banner image](/v3/img/blog/headless-commerce-banner.png)
 
 We held the virtual [Headless Commerce Summit](https://headlesscommercesummit.com/) today with a variety of keynotes and live conversations about the future of e-commerce.
 
@@ -119,7 +119,7 @@ The Headless Commerce Summit event attracted more than 2,500 live attendees thro
 
 Thank you to our speakers, host, [Cassidy Williams](https://www.netlify.com/authors/cassidy-williams/), and Netlify team. And a very special thank you to our sponsors, [Commerce Layer](https://commercelayer.io/), [Commerce.js](https://commercejs.com/), [imgix](https://www.imgix.com/), [Outsmartly](https://www.outsmartly.com/), [Prismic](https://prismic.io/), [Shogun](https://getshogun.com/) and [Snipcart](https://snipcart.com/)!
 
-![Headless Commerce sponsors: Commerce Layer, Commerce.js, imgix, Outsmartly, Prismic, Shogun, Snipcart](/img/blog/sponsors-headless-commerce.png)
+![Headless Commerce sponsors: Commerce Layer, Commerce.js, imgix, Outsmartly, Prismic, Shogun, Snipcart](/v3/img/blog/sponsors-headless-commerce.png)
 
 - - -
 

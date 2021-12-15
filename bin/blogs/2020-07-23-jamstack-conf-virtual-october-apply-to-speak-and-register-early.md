@@ -20,7 +20,7 @@ seo:
   metadescription: >
     Embrace modern web development tools & architecture at Jamstack Conf
     Virtual! Submit a talk or register early to join us online, October 6-7. 
-  ogimage: /img/blog/announcing-jamstack-conf-virtual-oct-2020.jpg
+  ogimage: /v3/img/blog/announcing-jamstack-conf-virtual-oct-2020.jpg
 ---
 Jamstack Conf is going virtual again!
 

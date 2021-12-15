@@ -9,10 +9,10 @@ lastmod: 2021-02-22
 topics:
   - tutorials
 tags:
-  - angular
-  - netlify functions
+  - Angular
+  - Netlify Functions
   - headless cms
-  - sanity.io
+  - Sanity.io
 tweet: ""
 format: blog
 relatedposts:
@@ -36,7 +36,7 @@ In Part 2 (coming soon) of this series, we will:
 
 This is what the page will look like:
 
-![the final project product page](/img/blog/template.jpg "The final projet product page")
+![the final project product page](/v3/img/blog/template.jpg "The final projet product page")
 
 > ⏩ Want to skip the reading and just "make it work"? Here's is [the project repo](https://github.com/tzmanics/angular-sanity), or you can click the button below to deploy the site now!
 
@@ -54,7 +54,7 @@ In order to jump into grabbing data as soon as we can, we'll use a template proj
 
 Or we can click the 'Use this template' button from [the repo's homepage](https://github.com/tzmanics/angular-sanity).
 
-![the template home page](/img/blog/use-template.png "The template home page")
+![the template home page](/v3/img/blog/use-template.png "The template home page")
 
 Whichever approach we take we'll need to install all the dependencies locally with npm. Change into the project directory and run:
 
@@ -98,7 +98,7 @@ netlify init
 
 First, we install the Netlify CLI globally (if we don't already have it installed) and log in (unless we're already logged in). The `netlify init` command will ask a few questions and set the command and publish settings with the project's `netlify.toml` file. This command will also trigger a deploy of the project. We can run `netlify open` to get to the project dashboard, to see when the build has been published.
 
-![netlify init output](/img/blog/ntl-init.jpg "`netlify init` output")
+![netlify init output](/v3/img/blog/ntl-init.jpg "`netlify init` output")
 
 Once this is set up, we can commit the changes we made when we changed this project name.
 
@@ -121,7 +121,7 @@ sanity init
 
 When we run `sanity init` it will make sure we're logged in (and have an account) then it will step through prompts to set up a new project.
 
-![sanity init ouput](/img/blog/sanity-init.jpg "`sanity init` ouput")
+![sanity init ouput](/v3/img/blog/sanity-init.jpg "`sanity init` ouput")
 
 We'll create a new project and name it `backend`, say yes to the defaults, but use the `Clean project with no redefined schemas`. Using the clean product will allow us to write custom schemas without too much overhead that may be confusing.
 
@@ -134,13 +134,13 @@ sanity start
 
 Then head to [`http://localhost:3333/`](http://localhost:3333/) to see what we have to work with. It's nothing. This is right because we haven't added any schemas yet!
 
-![results at localhost:3333](/img/blog/empty-schema.jpg "localhost:3333 output")
+![results at localhost:3333](/v3/img/blog/empty-schema.jpg "localhost:3333 output")
 
 ### Deploying the Sanity.io Desk
 
 Although we can host our Sanity.io instance on Netlify, I want to show the built-in way. From the terminal, we can run `sanity deploy` and it will prompt for a name then set the live instance at https://<project name>.sanity.desk. Once made, this information can be found at the top of the project page at [sanity.io](https://sanity.io).
 
-![sanity.io dashboard](/img/blog/sanity-deploy.jpg "Sanity.io dashboard")
+![sanity.io dashboard](/v3/img/blog/sanity-deploy.jpg "Sanity.io dashboard")
 
 Anytime we want to update the deployed version of the Sanity.io instance, we'll need to run the `sanity deploy` command again.
 
@@ -404,14 +404,14 @@ We can run `sanity start` again to see the data added.
 
 To connect to the CMS, we'll need to use some project credentials: the project id, dataset, and a token. We can grab this information from the project's dashboard. First, the project id is at the top of the page and we know we are using the 'production' data set. To get the Sanity.io token we'll go to Settings/API/Tokens and click the 'Add New Token' button.
 
-![Sanity.io project dashboard](/img/blog/sanity-project-dashboard.jpg "Sanity.io project dashboard")
+![Sanity.io project dashboard](/v3/img/blog/sanity-project-dashboard.jpg "Sanity.io project dashboard")
 
 Then, we'll name the token 'functions' and give it rights to write (which includes read, write, and delete data). When we click the 'Add New Token' button, we'll get a token to copy.
 
 
-![creating a new token](/img/blog/create-token.jpg "Creating a new token")
+![creating a new token](/v3/img/blog/create-token.jpg "Creating a new token")
 
-![the new token](/img/blog/new-token.jpg "Sanity.io token")
+![the new token](/v3/img/blog/new-token.jpg "Sanity.io token")
 
 Next, we'll head back over to the project's Netlify dashboard to enter these values. Go to Site settings/Build & deploy/Environment and click the `Edit variables` button. We will add the following variables:
 
@@ -419,7 +419,7 @@ Next, we'll head back over to the project's Netlify dashboard to enter these val
 * `SANITY_DATASET` = production
 * `SANITY_PROJECT_ID` = <your project id (e.g. kgu5d2ud)>
 
-![Netlify environment variables entry](/img/blog/env-vars.jpg "Environment variables")
+![Netlify environment variables entry](/v3/img/blog/env-vars.jpg "Environment variables")
 
 ## Finally, the Function!
 
@@ -461,7 +461,7 @@ Through the Netlify CLI we can start up a local development environment by using
 
 Now when we run `netlify dev`, we can head to [`http://localhost:8888/.netlify/functions/getProduct`](http://localhost:8888/.netlify/functions/getProduct) to see the output from the test function: 'ok'. Riveting, I know.
 
-![test function output](/img/blog/test-output.jpg "Test function ouput")
+![test function output](/v3/img/blog/test-output.jpg "Test function ouput")
 
 > 📓 Here's [a blog post on getting started with Netlify Functions](https://hubs.ly/H0H2h--0) if you want to learn more about what's going on here.
 
@@ -537,11 +537,11 @@ exports.handler = async () => {
 
 Once we have our function live, where do we find the logs? Netlify has a dedicated section for the functions to make them easy to keep track of and manage. From the project dashboard, there is a 'Functions' tab where we can see all the functions listed that the project uses.
 
-![screenshot of functions dashboard](/img/blog/function-dashboard.jpg "Functions Dashboard")
+![screenshot of functions dashboard](/v3/img/blog/function-dashboard.jpg "Functions Dashboard")
 
 To deploy the updated function we can git add, commit, and push the changes. The new build will be triggered and if we go to [`https://angular-sanity.netlify.app/.netlify/functions/getProducts`](https://angular-sanity.netlify.app/.netlify/functions/getProducts) we can see the output on the page and in our logs.
 
-![screenshot of function logs](/img/blog/function-logs.jpg "Function Logs")
+![screenshot of function logs](/v3/img/blog/function-logs.jpg "Function Logs")
 
 ## Functional Function Finita!
 

@@ -10,7 +10,7 @@ lastmod: 2020-11-04
 topics:
   - case-studies
 tags:
-  - graphql
+  - GraphQL
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ seo:
   metadescription: Learn how Netlify grew to a core strategy for Apollo GraphQL.
     Revamping its internal site architecture unlocked powerful ways to iterate
     and improve how they serve devs.
-  ogimage: /img/blog/og-apollo-graphql-case-study.png
+  ogimage: /v3/img/blog/og-apollo-graphql-case-study.png
 ---
 An experimental project can become a core part of your business. All it takes is a window of opportunity to see what might happen if you pursue that idea that tends to get filed away to the next development sprint.
 
@@ -97,7 +97,7 @@ Debating between fragmented documentation hosting where individual bits of code 
 
 Instead, Apollo used **[Netlify as a proxy to redirect users to individual repos](https://www.netlify.com/blog/2020/06/16/building-large-sites-on-netlify/)** while hosting the entire experience on their website. Now, users can get to specific docs sites, and specific repos without leaving Apollo’s domain.
 
-![visual representation of Netlify implementation/web stack - Apollo GraphQL](/img/blog/apollographql-netlify.png "Netlify implementation/web stack - Apollo GraphQL")
+![visual representation of Netlify implementation/web stack - Apollo GraphQL](/v3/img/blog/apollographql-netlify.png "Netlify implementation/web stack - Apollo GraphQL")
 
 “The company trusted in us to be able to move fast. We were able to kind of use what we had learned from building the documentation to then build other properties,” said Peggy. “Even though we're adding more surface area, we've still been able to maintain that quality.”
 

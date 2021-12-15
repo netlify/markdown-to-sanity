@@ -10,7 +10,7 @@ topics:
 tags:
   - Engineering
   - Netlify CLI
-  - netlify
+  - Netlify
   - tools
 tweet: ""
 format: blog
@@ -18,7 +18,7 @@ relatedposts:
 seo:
   metadescription: The Netlify CLI allows you to run a local development server, run your functions or plugins locally, deploy your site, and much more; but did you know it can handle multiple Netlify accounts? Learn how in this blog post.
   metatitle: "Tutorial: How to handle multiple accounts within the Netlify CLI"
-  ogimage: /img/blog/og-handling-multiple-accounts-netllify-cli.png
+  ogimage: /v3/img/blog/og-handling-multiple-accounts-netllify-cli.png
 ---
 
 The [Netlify CLI](https://cli.netlify.com/) allows you to run a local development server, run your functions or plugins locally, deploy your site, and much more; but did you know it can handle multiple Netlify accounts?
@@ -41,7 +41,7 @@ This will open a browser window, asking you to log in with Netlify and grant acc
 
 Once you've authorised, you can close the browser tab, go back to your terminal, and you should see the following message:
 
-![Screenshot of Netlify CLI success message for switching accounts](/img/blog/netlify-cli-switch-account-success.jpg)
+![Screenshot of Netlify CLI success message for switching accounts](/v3/img/blog/netlify-cli-switch-account-success.jpg)
 
 Run `netlify switch` again, you should see your 2 accounts and be able to switch between them!
 

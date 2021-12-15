@@ -19,7 +19,7 @@ seo:
   metatitle: Add Web Monetization to your sites with Snippet Injection
   metadescription: Curious about the new Web Monetization W3C proposal? Here's how
     to implement it in your projects with Netlify Snippet Injection!
-  ogimage: /img/blog/blogvent14.png
+  ogimage: /v3/img/blog/blogvent14.png
 ---
 Welcome to Blogvent, day 14!
 
@@ -46,7 +46,7 @@ You can add it into the `<head>` of your website, and it's done! But, if you don
 
 Head do your Site Settings on Netlify, then Build & Deploy, then down to Snippet Injection. Make a new snippet, make it "Insert before </head>", and add your tag in the HTML, like so:
 
-![Snippet injection panel with monetization meta tag](/img/blog/snippetmonetization.png "Snippet injection panel with monetization meta tag")
+![Snippet injection panel with monetization meta tag](/v3/img/blog/snippetmonetization.png "Snippet injection panel with monetization meta tag")
 
 Now, your web monetization will be automatically added into your site's build, without you having to update your `<head>` across your codebase.
 

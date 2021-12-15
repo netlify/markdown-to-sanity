@@ -11,8 +11,8 @@ topics:
   - case-studies
 tags:
   - Jamstack
-  - ecommerce
-  - headless
+  - E-commerce
+  - Headless
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ relatedposts:
   - "Watch the Videos from Headless Commerce Summit: E-Commerce Jamstack stories"
 seo:
   metatitle: See How Netlify + Gatsby Bring Responsiveness to E-commerce Startup
-  ogimage: /img/blog/og-butcherbox.png
+  ogimage: /v3/img/blog/og-butcherbox.png
   metadescription: This ButcherBox case study dives into benefits of the Jamstack, including improved page speed and performance, faster time-to-market using Netlify, and security improvements.
 ---
 ## Netlify and Gatsby bring agility and responsiveness to a fast-growing e-commerce startup.
@@ -30,7 +30,7 @@ E-commerce web development teams that value agility and speed to market are beco
 
 Let’s talk about one company’s transition from a monolith to the [Jamstack](https://www.netlify.com/jamstack/) architecture, reducing complexity by separating the front and backend.
 
-![ButcherBox logo](/img/blog/butcherbox-logo.png)
+![ButcherBox logo](/v3/img/blog/butcherbox-logo.png)
 
 Recently, ButcherBox, a delivery service for quality meats, otherwise known as the neighborhood butcher for modern America, made the transition from a PHP monolith to the Jamstack. The company had started out with WordPress, allowing them to move quickly to market. It was easy to hire developers who knew PHP and jQuery, and it was great for nontechnical content collaborators to use the WordPress CMS. Jeff Gnatek, head of engineering at ButcherBox talked about the [Butcher Box journey to headless commerce](https://www.youtube.com/watch?v=pGjEz9bVoos) with Jamstack and Netlify at the Headless Commerce Summit 2020. This story dives into benefits with the Jamstack, including:
 
@@ -60,7 +60,7 @@ A specific example of how the combination of Netlify and Gatsby helped ButcherBo
 
 Gnatek delivered the farm directory in three days, powered by an Excel file of farms and offerings that the business team had compiled. A Node script used the .CSV file and created Contentful content types. The team was able to hand off maintenance to nontechnical team members, and the stack required no special servers and no DevOps team: Gnatek delivered the entire project over the course of three evenings.
 
-![ButcherBox- ig image](/img/blog/butcherbox-instagram-image-cooked-fowl.png)
+![ButcherBox- ig image](/v3/img/blog/butcherbox-instagram-image-cooked-fowl.png)
 
 ## Things to Consider when Transitioning Architectures
 

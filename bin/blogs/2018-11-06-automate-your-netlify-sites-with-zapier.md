@@ -42,7 +42,7 @@ First, head to [Zapier](https://zapier.com/) to log in or create a new account.
 
 Once you have logged in, you can start making Zaps right away on the [home page](https://zapier.com/app/home) by connecting Netlify to another app. The example below highlights a Netlify-Google Sheets automation. Each time a new form is submitted on the Netlify site, a new row in a Google Sheet will update with the information from the submission. 
 
-![On the Zapier homepage, select Netlify and Google Sheets apps, then select New Form Submission and Create Spreadsheet Row.](/img/blog/zapier-setup.png)
+![On the Zapier homepage, select Netlify and Google Sheets apps, then select New Form Submission and Create Spreadsheet Row.](/v3/img/blog/zapier-setup.png)
 
 We’ve also created some Zap Templates to get you started. You can click the **Make a Zap!** button in any template (even in this blog post!), and it will take you directly to the Zap setup interface.
 

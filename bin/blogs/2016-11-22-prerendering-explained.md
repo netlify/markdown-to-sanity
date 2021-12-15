@@ -3,7 +3,7 @@
 title: Prerendering Explained
 authors:
   - Brian Douglas
-image: /img/blog/
+image: /v3/img/blog/
 format: blog
 short_title: Prerendering Explained
 description: Prerendering is a process to preload all elements on the page in preparation for a web crawler to see it. This is very important tool for Single Page JavaScript applications where SEO is needed.
@@ -11,8 +11,8 @@ date: 2016-11-22
 topics:
   - tools
 tags:
-- seo
-- prerender
+- SEO
+- Pre-render
 ---
 If you’re using a [Single Page Application](http://adamsilver.io/articles/the-disadvantages-of-single-page-applications/) (SPA) for a site that’s not behind a login, SEO is an important concern. [Google recommends](https://webmasters.googleblog.com/2015/10/deprecating-our-ajax-crawling-scheme.html) you use their built-in capacity for interpreting JavaScript applications, but our recommendation is not to trust Google on this. In our experience that’s often still not enough and prerendering is often still a necessity.
 
@@ -26,7 +26,7 @@ Prerendering is a process to preload all elements on the page in preparation for
 
 To better understand this here is an image:
 
-![robot-example-meme](/img/blog/prerender-robot.jpg)
+![robot-example-meme](/v3/img/blog/prerender-robot.jpg)
 
 *Photo courtesy of knowyourmeme.com*
 
@@ -54,7 +54,7 @@ Google’s web crawler is a bot that checks out the content and navigation of yo
 
 Social network bots, i.e. Twitter, Facebook, etc, showcase links to your website also use bots the [Open Graph](http://ogp.me/) data from the site's metadata will load instead of a pre-cached version from prerendering.
 
-![prerender example](/img/blog/prerender-example.png)
+![prerender example](/v3/img/blog/prerender-example.png)
 
 ## Should I Prerender all the things?
 

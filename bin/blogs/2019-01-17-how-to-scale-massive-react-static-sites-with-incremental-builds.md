@@ -16,7 +16,6 @@ topics:
   - tutorials
 tags:
   - React
-  - React-Static
 tweet: >-
   Scaling static sites and the JAMstack to hundreds of thousands of pages with
   Incremental Builds, and how to do it with React-Static!

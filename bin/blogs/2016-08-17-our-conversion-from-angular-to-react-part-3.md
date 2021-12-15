@@ -3,7 +3,7 @@
 title: Converting Angular to React, JSX
 authors:
   - Brian Douglas
-image: /img/blog//react-heart.svg
+image: /v3/img/blog//react-heart.svg
 format: blog
 short_title: Exploring Basics with React and JSX
 description: Converting Angular templates to React components can be straight forward if you follow a few rules and tricks.
@@ -11,8 +11,8 @@ thumbnail: /uploads/raising-both-hands-in-celebration.png
 cmsUserSlug: ""
 date: 2016-08-17
 tags:
-  - react
-  - angular
+  - React
+  - Angular
 topics:
   - insights
 ---
@@ -44,7 +44,7 @@ about your Component encapsulated into one file, including styles.
 
 JSX is the key piece that makes React ideal constructing UI.
 
-![open-source-modal](/img/blog/open-source-modal.png)
+![open-source-modal](/v3/img/blog/open-source-modal.png)
 
 ```
 // OpenSource Modal Component

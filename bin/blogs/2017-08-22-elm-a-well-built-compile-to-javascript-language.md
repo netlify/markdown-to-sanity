@@ -7,7 +7,7 @@ episodenumber: '19'
 minuteslong: '31'
 audiolink: >-
   https://media.blubrry.com/heavybit/d3aeja1uqhkije.cloudfront.net/podcasts/jamstack-radio/20170328-jamstack-radio-017.mp3
-image: /img/blog/jamstack-radio-1024x1024.jpg
+image: /v3/img/blog/jamstack-radio-1024x1024.jpg
 short_title: 'Elm: A Well Built Compile to JavaScript Language'
 guests:
   - bio: >-
@@ -21,8 +21,8 @@ guests:
       as Senior Teaching Assistant at App Academy.
     name: Brooke Angel
 tags:
-  - podcast
-  - elm
+  - Podcast
+  - Elm
 topics:
   - tools
 description: >-

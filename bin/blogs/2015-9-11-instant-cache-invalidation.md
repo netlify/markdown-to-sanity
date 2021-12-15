@@ -3,7 +3,7 @@
 title: Instant Cache Invalidation
 authors:
   - Chris Bach
-image: /img/blog/instant-cache-thumb.jpg
+image: /v3/img/blog/instant-cache-thumb.jpg
 format: blog
 short_title: Instant Cache Invalidation
 description: "Instant Cache Invalidation is definitively part of Netlify's rocketjuice. Learn all about it here."
@@ -11,9 +11,9 @@ thumbnail: instant-cache-thumb.jpg
 cmsUserSlug: ""
 date: 2015-09-11
 tags:
-  - netlify
-  - features
-  - cdn
+  - Netlify
+  - Features
+  - CDN
   - cache invalidation
 topics:
   - insights
@@ -26,7 +26,7 @@ While we’d rate our ability to name things to be fairly average, Instant Cache
 
 Here is a bit about what it actually means, and why it’s important.
 
-![cache-invalidation-quote.png](/img/blog/cache-invalidation-quote.png)
+![cache-invalidation-quote.png](/v3/img/blog/cache-invalidation-quote.png)
 *See what I did there?..*
 
 <!-- excerpt -->
@@ -63,7 +63,7 @@ Most CDN services will have you choose between caching aggressively and having t
 
 — So either wait, or miss out on the promised speed of the modern static site…
 
-![choose-your-poison.gif](/img/blog/choose-your-poison.gif)
+![choose-your-poison.gif](/v3/img/blog/choose-your-poison.gif)
 
 ## The solution
 
@@ -79,7 +79,7 @@ What it means is simply that when you update your site you don’t have to wait 
 
 So, you get a highly cached site which makes it load ultra fast. But at the same time you see your changes when you update, instantly.
 
-![instant-cache-invalidation-joy.gif](/img/blog/instant-cache-invalidation-joy.gif)
+![instant-cache-invalidation-joy.gif](/v3/img/blog/instant-cache-invalidation-joy.gif)
 *If the above didn’t register, laughing cute animal / baby + Betty White should leave no doubt. Instant Cache Invalidation is a great thing.*
 
 

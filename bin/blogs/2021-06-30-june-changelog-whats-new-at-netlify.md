@@ -13,9 +13,9 @@ topics:
 tags:
   - changelog
   - newsletter
-  - deploy previews
+  - Deploy Previews
   - Gatsby
-  - jamstack
+  - Jamstack
 tweet: ""
 format: blog
 relatedposts:
@@ -27,7 +27,7 @@ seo:
     of Deploy Previews, June highlights included our biggest Headless Commerce
     Summit yet. You’ll also find a bunch of new product enhancements to explore.
     "
-  ogimage: /img/blog/june-changelog-2021-og.png
+  ogimage: /v3/img/blog/june-changelog-2021-og.png
 ---
 👋  Hi folks!
 
@@ -37,7 +37,7 @@ Read on to discover what’s new at Netlify!
 
 ## Usability improvements for collaborative Deploy Previews
 
-![Changelog improvements to Netlify UI](/img/blog/changelog-2.png)
+![Changelog improvements to Netlify UI](/v3/img/blog/changelog-2.png)
 
 Now you have more control over Netlify’s new [collaborative Deploy Previews](https://www.netlify.com/blog/2021/05/19/next-generation-deploy-previews-plus-netlify-acquires-featurepeek/)! You can drag to move the Netlify Drawer icon, or [opt out of loading the Netlify Drawer](https://docs.netlify.com/site-deploys/deploy-previews/#preview-changes-without-the-netlify-drawer) on a site’s Deploy Previews. You can also open a branch deploy or deploy permalink if you need to preview a deploy but don't want to access any of the collaboration features.
 
@@ -45,7 +45,7 @@ Now you have more control over Netlify’s new [collaborative Deploy Previews](h
 
 ## Try out new Gatsby Functions on Netlify with the Essential Gatsby plugin!
 
-![](/img/blog/changelog-1.png)
+![](/v3/img/blog/changelog-1.png)
 
 \
 Get a first look at the new Essential Gatsby plugin which includes support for Gatsby Functions, incremental builds, and image caching. Most Netlify plugins are available for one-click install, but this new plugin hasn’t been published to the directory yet, so you’ll need to install it directly with npm instead of through the Netlify UI.
@@ -81,7 +81,7 @@ Nuxt Image is a plug-and-play image optimization module designed to give develop
 
 ## Popular Articles
 
-[![Take the Jamstack 2021 Community Survey](/img/blog/jamstack-community-survey-og-image-14.png)](https://www.surveymonkey.com/r/jamstack-survey-blog)
+[![Take the Jamstack 2021 Community Survey](/v3/img/blog/jamstack-community-survey-og-image-14.png)](https://www.surveymonkey.com/r/jamstack-survey-blog)
 
 * [Take the 2021 Jamstack Community Survey](https://www.netlify.com/blog/2021/06/23/take-the-2021-jamstack-community-survey/)
 * [Migrating Cypress Tests from a Github Action to a Netlify Build Plugin](https://www.netlify.com/blog/2021/06/22/migrating-cypress-tests-from-a-github-action-to-a-netlify-build-plugin/)

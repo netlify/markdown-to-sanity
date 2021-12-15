@@ -9,7 +9,7 @@ date: '2018-10-16'
 topics:
   - news
 tags:
-  - JAMstack
+  - Jamstack
   - Events
 tweet: >-
   GitHub and Contentful bring so much to JAMstack_Conf as the platinum sponsors.
@@ -19,7 +19,7 @@ format: blog
 
 We will soon be hosting [JAMstack_Conf](https://jamstackconf.com), the first conference dedicated to discussing the JAMstack ecosystem and this powerful modern way of building for the web.
 
-![](/img/blog/jasmstack_conf_splash.png)
+![](/v3/img/blog/jasmstack_conf_splash.png)
 
 [We've been looking forward to this for a while](/blog/2018/08/30/this-october-attend-the-first-ever-jamstack_conf/), and are incredibly excited by [the speakers](https://jamstackconf.com#speakers) who will grace the stage to share their expertise. 
 

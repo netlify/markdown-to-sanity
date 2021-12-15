@@ -10,8 +10,7 @@ lastmod: 2021-07-23
 topics:
   - news
 tags:
-  - partners
-  - agencies
+  - Partners
   - technology partners
 tweet: ""
 format: blog
@@ -23,7 +22,7 @@ seo:
   metadescription: "Recently, we hosted our quarterly Netlify Partner Kickoff,
     where we invited agency and technology partners to learn about what’s new in
     the product, share Jamstack success stories, and more. "
-  ogimage: /img/blog/q3partnerday-og.png
+  ogimage: /v3/img/blog/q3partnerday-og.png
 ---
 Netlify partners are [Jamstack](https://www.netlify.com/jamstack/) advocates. They’re development agencies and technologists who help advocate for the Jamstack, and educate developers about how to make the most out of their Jamstack projects.
 

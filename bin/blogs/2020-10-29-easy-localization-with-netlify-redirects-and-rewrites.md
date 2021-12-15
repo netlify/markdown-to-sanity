@@ -9,7 +9,7 @@ authors:
 date: 2020-10-30T16:00:00.000Z
 lastmod: 2020-10-30
 tags:
-  - redirects
+  - Redirects
 topics:
   - tutorials
 tweet: ""
@@ -18,13 +18,13 @@ relatedposts:
   - "Localize your environment variables by context with build plugins"
   - "How to do redirects on Netlify"
 seo:
-  ogimage: /img/blog/easy-localization-with-netlify-redirects-and-rewrites-og.png
+  ogimage: /v3/img/blog/easy-localization-with-netlify-redirects-and-rewrites-og.png
   metatitle: How to Localize a Website with Netlify Redirects & Rewrites
   metadescription: "Visiting Netlify's homepage from the United States, you may notice that we added a dismissible US Election banner at the top of the page. Learn how we did this."
 ---
 If you visited our homepage recently and are in the United States, you might have noticed that we added a small dismissible US Election banner at the top of the page to encourage Americans to make their voice heard and go vote in the upcoming election.
 
-![Screenshot of Netlify's US homepage with Election banner](/img/blog/go-vote.jpg)
+![Screenshot of Netlify's US homepage with Election banner](/v3/img/blog/go-vote.jpg)
 
 One of our goals was to keep that banner relevant for US visitors only and we were able to easily achieve that with our own [redirects and rewrites](https://docs.netlify.com/routing/redirects/) engine.
 

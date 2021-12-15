@@ -2,14 +2,14 @@
 title: 'Unveiling: Netlify News'
 authors:
   - Eli Williamson
-image: /img/blog/sotw@2x.jpg
+image: /v3/img/blog/sotw@2x.jpg
 format: blog
 short_title: 'Unveiling: Netlify News'
 description: "Best practices on building, deploying and maintaining websites is changing tremendously fast right now. \_Therefore it has always been one of our goals as a company is to provide plenty of compelling, useful material for our users to choose from."
 date: 2016-12-07T18:57:39.390Z
 tags:
-  - feature
-  - announcement
+  - Features
+  - Announcements
 topics:
   - news
 ---
@@ -22,7 +22,7 @@ Publishing blog posts several times a week we’ve found that creating the conte
 
 Keeping all this content organized for you was a different matter, we wanted to make this content more digestible for followers of [JAMstack](http://jamstack.org) and the modern web, thus, ‘Netlify News’ is born. With a flow more akin to a publication, you should find this much easier to navigate the resources the team has put together for you.
 
-![netlify news](/img/blog/Screen Shot 2016-12-07 at 2.00.48 PM.png)
+![netlify news](/v3/img/blog/Screen Shot 2016-12-07 at 2.00.48 PM.png)
 
 On Netlify News you will find our different content initiatives:
 

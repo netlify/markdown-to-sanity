@@ -12,9 +12,9 @@ lastmod: 2020-04-22T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - stripe
-  - tutorial
-  - ecommerce
+  - Stripe
+  - Tutorial
+  - E-commerce
 tweet: ""
 format: blog
 relatedposts:
@@ -153,11 +153,11 @@ When you're ready to move things to live mode, add a new webhook endpoint in you
 - Endpoint URL: https://your-domain.com/.netlify/functions/handle-purchase
 - Events to send: `checkout.session.completed`
 
-![Add webhook endpoint screenshot](/img/blog/stripe-add-webhook.png)
+![Add webhook endpoint screenshot](/v3/img/blog/stripe-add-webhook.png)
 
 After you click the "Add endpoint" button, you will see your webhook details, including a panel to reveal the webhook secret.
 
-![Webhook details screenshot](/img/blog/stripe-webhook-secret.png)
+![Webhook details screenshot](/v3/img/blog/stripe-webhook-secret.png)
 
 Click the "Click to reveal" button and copy the webhook secret to your Netlify environment settings as the `STRIPE_WEBHOOK_SECRET` variable.
 

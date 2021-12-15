@@ -18,17 +18,17 @@ When the founder of Perfect Keto, Dr. Anthony Gustin, wanted to redo his popular
 
 Partnering with the web agency Wayfx, Dr. Gustin adopted a Headless WordPress architecture for the new website. Together they decided to throw out the previous solution in favor of WP Engine and Netlify, and are now delivering pages excitingly fast.
 
-![](/img/blog/keto-site.png)
+![](/v3/img/blog/keto-site.png)
 
 ## Results
 
-![](/img/blog/speed-graphic.png)
+![](/v3/img/blog/speed-graphic.png)
 
 ## What is Headless WordPress
 
 Headless WordPress means that the end user experience is decoupled from the content management system. So the site uses the WordPress backend but not the WordPress frontend (hence the name headless). Instead, the end user experience (aka the frontend) communicates with WordPress through the Rest API and is hosted away from WordPress (at a static host like Netlify).
 
-![](/img/blog/keto-site-cms.png)
+![](/v3/img/blog/keto-site-cms.png)
 
 ## Benefits of Headless WordPress
 

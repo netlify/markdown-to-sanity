@@ -9,14 +9,14 @@ lastmod: 2021-01-17
 topics:
   - insights
 tags:
-  - podcast
+  - Podcast
 tweet: ""
 format: blog
 seo:
   metatitle: Teams in the time of Pandemic Pair and Mob Programming
   metadescription: Distributed teams can keep up morale and team-building with
     pair and mob coding. Let us tell you all about the parts we like!
-  ogimage: /img/blog/ep-8.png
+  ogimage: /v3/img/blog/ep-8.png
 ---
 Netlify, as a company, has always been at least 50% distributed. Even if you lived around the office you were able to work from hom for half of the week to make sure we were all comfortable being remote. Now, like so many of us, the team is 100% remote, and maybe you are too! Whether you've been remote for years or this is new to you, being on a distributed team can be taxing to morale and teamwork.
 

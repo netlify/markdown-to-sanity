@@ -5,11 +5,11 @@ description: Want to add useful, fun, or experimental plugins and presets to
 authors:
   - Cassidy Williams
 date: 2020-12-18
-lastmod: 2020-12-18
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -19,8 +19,11 @@ seo:
   metadescription: Want to add useful, fun, or experimental plugins and presets to
     your Next.js projects? Here's how!
   metatitle: Adding Babel presets and plugins in Next.js
-  ogimage: /img/blog/blogvent18.png
+  ogimage: /v3/img/blog/blogvent18.png
 ---
+
+
+
 Welcome back, for Blogvent day 18!
 
 Next.js comes with [several Babel presets built in](https://github.com/vercel/next.js/blob/canary/packages/next/build/babel/preset.ts), and chances are, it will cover most of what you'd like to use in your projects. But, it's nice and simple to add custom presets and plugins, if you so desire!
@@ -64,8 +67,9 @@ So if I had my `.babelrc` like this, I would be able to use [this plugin](https:
 ## I want to use this!
 Of course you do! Here's a starter application to try this out yourself:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=nextstarterbabel-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=nextstarterbabel-cs&utm_campaign=devex)
 
 (Clicking this button will deploy a Next.js starter project to Netlify, and clone it to your chosen Git provider)
 
 Also, if you'd like to explore your plugin options, [check out this page](https://babeljs.io/docs/en/plugins) on the Babel Plugins website!
+

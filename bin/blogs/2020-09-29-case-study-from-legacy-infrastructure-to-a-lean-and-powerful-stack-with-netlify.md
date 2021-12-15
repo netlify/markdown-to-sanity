@@ -10,9 +10,9 @@ lastmod: 2020-09-30
 topics:
   - case-studies
 tags:
-  - jamstack
+  - Jamstack
   - migration
-  - architecture
+  - Architecture
 tweet: ""
 format: blog
 relatedposts:
@@ -34,7 +34,7 @@ Ample’s understanding of this need to consider the legacy technology, and thei
 Taylor MacDonald, CTO of Ample explained that at the time Crossroads had a full DevOps team who were just dipping their toe into figuring out how to dockerize and eliminate single points of failure. Furthermore any solutions brought to the table would need to be implemented across a team with a high turnover rate — meaning the ability to spin up new devs quickly would be an important factor to any decisions moving forward. 
 
 
-![Our job became one of education. Explaning the benefits that Netlify would bring. What does it mean to deploy a static site? What does this mean for the current architecture and how do we get there? quote by Taylor MacDonald, CTA at Ample](/img/blog/ample-cto-quote.png)
+![Our job became one of education. Explaning the benefits that Netlify would bring. What does it mean to deploy a static site? What does this mean for the current architecture and how do we get there? quote by Taylor MacDonald, CTA at Ample](/v3/img/blog/ample-cto-quote.png)
 
 Let’s take a look at how Ample embraced some of the key features of the Jamstack architecture, along with core Netlify features to transform how the platforms and content were managed. And at how you too could adopt methods to gradually migrate from legacy infrastructure, to a modern, more capable and agile stack.
 
@@ -72,25 +72,25 @@ The starting point: All traffic is directed to a Kubernetes cluster where it is 
 
 ### Original architecture
 
-![Current architecture of Crossroads](/img/blog/crossrorads-arch-current.png "Current architecture of Crossroads")
+![Current architecture of Crossroads](/v3/img/blog/crossrorads-arch-current.png "Current architecture of Crossroads")
 
 Adding Netlify to the stack: All traffic is directed to Netlify’s Edge which proxies all requests to the existing infrastructure other than those requests for which it has pre-generated pages.
 
 ### Phase One - Migrate server-side CMS pages to Netlify
 
-![Phase 1 - introducing Netlify to the architecture of Crossroads](/img/blog/crossrorads-arch-phase1.png "Phase 1 - introducing Netlify to the architecture of Crossroads")
+![Phase 1 - introducing Netlify to the architecture of Crossroads](/v3/img/blog/crossrorads-arch-phase1.png "Phase 1 - introducing Netlify to the architecture of Crossroads")
 
 Shifting and sunsetting: More requests are satisfied by micro frontends as they are added to the resources available from Netlify. Some legacy infrastructure continues to operate as before while awaiting migration.
 
 ### Phase Two - Migrate micro-client to Netlify and retire Maestro
 
-![Phase 2 - capturing more traffic within the Netlify infrastructure ](/img/blog/crossrorads-arch-phase2.png "Phase 2 - capturing more traffic within the Netlify infrastructure ")
+![Phase 2 - capturing more traffic within the Netlify infrastructure ](/v3/img/blog/crossrorads-arch-phase2.png "Phase 2 - capturing more traffic within the Netlify infrastructure ")
 
 Completed migration: All requests are able to be satisfied by the micro frontend architecture served from Netlify.
 
 ### Phase Three - consolidate front-end architecture
 
-![Phase 3 - all traffic being served from Netlify ](/img/blog/crossrorads-arch-phase3.png "Phase 3 - all traffic being served from Netlify ")
+![Phase 3 - all traffic being served from Netlify ](/v3/img/blog/crossrorads-arch-phase3.png "Phase 3 - all traffic being served from Netlify ")
 
 ## Stack goals
 

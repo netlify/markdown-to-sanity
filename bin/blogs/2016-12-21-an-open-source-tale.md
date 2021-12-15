@@ -2,11 +2,11 @@
 title: An Open Source Tale
 authors:
   - Cassandra Salisbury
-image: /img/blog/img/blog/rainbow-diamond.jpg
+image: /v3/img/blog/img/blog/rainbow-diamond.jpg
 format: blog
 short_title: Open Source Tale
 tags:
-  - open source
+  - Open source
 topics:
   - news
 description: >-

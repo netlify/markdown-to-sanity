@@ -2,12 +2,12 @@
 title: 'A Step-by-Step Guide: Middleman on Netlify'
 authors:
   - Aaron Autrand
-image: /img/blog/middleman-screenshot.png
+image: /v3/img/blog/middleman-screenshot.png
 short_title: Middleman with Netlify
 tags:
-  - middleman
-  - ruby
-  - tutorial
+  - Middleman
+  - Ruby
+  - Tutorial
 format: blog
 description: >-
   A step-by-step guide on how to host a website built with static site generator

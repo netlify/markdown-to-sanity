@@ -11,10 +11,10 @@ lastmod: 2020-04-20
 topics:
   - tutorials
 tags:
-  - nuxt
-  - contentful
-  - decoupled
-  - cms
+  - Nuxt
+  - Contentful
+  - Decoupled
+  - CMS
 tweet: ""
 format: blog
 relatedposts:
@@ -23,7 +23,7 @@ relatedposts:
 seo:
   metatitle: Learn How to Create a Blog with Contentful and Nuxt
   metadescription: Check out this this tutorial to learn how to set up a blog with Contentful and Nuxt. Contentful has gotten a lot of traction lately as a modern CMS that offers a headless model to allow for both rich content editing and the ability to build modern web applications.
-  ogimage: /img/blog/preview-blog.png
+  ogimage: /v3/img/blog/preview-blog.png
 ---
 In this tutorial, we’ll pair [Contentful](https://www.contentful.com/) with Vue by using the metaframework [Nuxt](https://nuxtjs.org/) — pulling in the posts from our application via an API. The [demo is here](https://contentful-nuxt-example.netlify.app/), and [the open-source repo is here](https://github.com/sdras/contentful-nuxt-netlify).
 
@@ -33,7 +33,7 @@ If you wish to skip all the steps below, I’ve prepared a template for you- tec
     <img style="margin: 0;" src="https://www.netlify.com/img/deploy/button.svg" title="Deploy to Netlify">
  </a>
 
-[![preview shot of the contentful blog](/img/blog/preview-blog.jpg)](https://contentful-nuxt-example.netlify.app/)
+[![preview shot of the contentful blog](/v3/img/blog/preview-blog.jpg)](https://contentful-nuxt-example.netlify.app/)
 
 Immediately following is a comprehensive tutorial of how we set this all up, in case you want to understand where everything is and how to modify it. Let’s dig in!
 
@@ -41,25 +41,25 @@ Immediately following is a comprehensive tutorial of how we set this all up, in 
 
 If you haven’t already, set up an account with Contentful- as of this writing, this meant clicking the *‘get started’* button and *‘try for free’* in the developer panel. Once you’ve logged in, select *'I develop content-rich products'*
 
-![*I develop content-rich products'*](/img/blog/work-content.jpg)
+![*I develop content-rich products'*](/v3/img/blog/work-content.jpg)
 
 When you select this, it will prompt you to deploy, but this setup with work with Gatsby, not Nuxt, so, select *‘skip’*
 
-![Show skipping the main screen](/img/blog/skip.jpg)
+![Show skipping the main screen](/v3/img/blog/skip.jpg)
 
 After this, select *‘create a new space’* then click on the highlighted free tier (unless you plan on working with more folks).
 
 The next step will ask you if you want to create an empty space, instead select *‘create an example space’* and select the *‘blog’* template.
 
-![Select *create an example space*](/img/blog/second-option.jpg)
+![Select *create an example space*](/v3/img/blog/second-option.jpg)
 
 Once that’s set up, if you go to the top bar, you’ll see 'Content Model' where you should now have two types- **Blog Posts** and **Authors**. This is where we define the API structure and fields, and in the Content tab, as you might expect that's where we'll create our content. :)
 
-![Content Model](/img/blog/content-model.jpg)
+![Content Model](/v3/img/blog/content-model.jpg)
 
 You can click the JSON preview pane to see the structure of the data you'll receive from the API:
 
-![JSON Preview](/img/blog/json-preview.jpg)
+![JSON Preview](/v3/img/blog/json-preview.jpg)
 
 From here, if you go to Settings > API Keys, you will find an example token all set up for you. It’s probably worthwhile to rename this and add a good description. From here, we will copy the `Space ID` and `Content Delivery API- access token`, we will use those in the next section.
 
@@ -71,7 +71,7 @@ If you prefer going through the steps with a Nuxt application from scratch, you 
 
 From here, within the site dashboard, go to **Settings > Build & Deploy**, and set a few environment variables:
 
-![Environment Variables in the Netlify Dashboard](/img/blog/env-var.jpg)
+![Environment Variables in the Netlify Dashboard](/v3/img/blog/env-var.jpg)
 
 * `CONTENTFUL_ACCESSTOKEN` – this will be the Content Delivery API- access token 
 * `CONTENTFUL_SPACE` – this will be the Space ID

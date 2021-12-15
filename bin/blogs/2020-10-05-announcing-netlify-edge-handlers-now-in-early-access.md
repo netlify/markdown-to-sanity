@@ -11,9 +11,9 @@ topics:
   - news
 tags:
   - edge handlers
-  - jamstack
-  - netlify
-  - product
+  - Jamstack
+  - Netlify
+  - Product
 tweet: ""
 format: blog
 relatedposts:
@@ -23,10 +23,10 @@ seo:
     it’s kind to combine edge compute with a Git-based workflow, making it easy
     for frontend developers to customize the network edge for a faster, more
     engaging web experience.
-  ogimage: /img/blog/early-access-edge-handlers-1-.png
+  ogimage: /v3/img/blog/early-access-edge-handlers-1-.png
   metatitle: "Announcing Netlify Edge Handlers: Sign Up For Early Access"
 ---
-![Netlify edge handlers announcement image](/img/blog/netlify-edge-handlers-early-access.png)
+![Netlify edge handlers announcement image](/v3/img/blog/netlify-edge-handlers-early-access.png)
 
 Today we’re incredibly excited to announce early access for [Netlify Edge Handlers](https://www.netlify.com/products/edge/edge-handlers/), making Jamstack an even more compelling approach for your most dynamic, personalized, websites and web apps. Edge Handlers are the first solution of its kind to combine edge compute with a Git-based workflow, making it easy for frontend developers to customize the network edge for a faster, more engaging web experience.
 
@@ -52,7 +52,7 @@ How do Edge Handlers work?
 2. Edge Handlers intercept inbound requests from the client or the response from the edge network.
 3. The Edge Handler then serves unique content based on the logic defined and respects conditions such as user identity, cookie settings, and location.
 
-![netlify edge diagram](/img/blog/netlify-edge-handlers.png)
+![netlify edge diagram](/v3/img/blog/netlify-edge-handlers.png)
 
 * **Redirects**: Teams manage web redirects in one clean workflow that is simpler and faster to iterate on. Instead of building countless API redirect rules, developers simply cache APIs at the network edge.
 * **A/B testing**: Deploy and test a single page with multiple versions of content. Simplify and experiment to improve experiences and conversion easily.

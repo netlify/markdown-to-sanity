@@ -11,8 +11,8 @@ topics:
   - news
 tags:
   - newsletter
-  - next
-  - deploy previews
+  - Next.js
+  - Deploy Previews
   - create-react-app
 tweet: ""
 format: blog
@@ -30,7 +30,7 @@ Following a [big announcement](https://www.netlify.com/blog/2021/04/22/next.js-o
 
 ## 💥Next-gen Deploy Previews + FeaturePeek joins Netlify
 
-![](/img/blog/deploy-previews-blog.png)
+![](/v3/img/blog/deploy-previews-blog.png)
 
 Last week we [announced some big news](https://www.netlify.com/press/netlify-acquires-featurepeek-and-launches-next-generation-of-deploy-previews-to-streamline-collaboration-for-web-teams): [Deploy Previews](https://www.netlify.com/products/deploy-previews), reimagined for teams to collaborate better and be more productive. We also welcomed FeaturePeek to our team to deliver this new capability.
 
@@ -40,7 +40,7 @@ Last week we [announced some big news](https://www.netlify.com/press/netlify-acq
 
 ## More Product News
 
-![](/img/blog/ubuntu-focal-image-netlify.jpeg)
+![](/v3/img/blog/ubuntu-focal-image-netlify.jpeg)
 
 #### **[New Ubuntu 20.04 Focal Fossa Build Image](https://answers.netlify.com/t/new-ubuntu-20-04-focal-fossa-build-image/37095)**
 
@@ -76,7 +76,7 @@ Now you can delete your own forms through the Netlify UI! You no longer need to 
 
 ## Pan Macmillan Sees 25 Percent Conversion Increase After Migrating to Netlify
 
-![](site/static/img/blog/og-netlify-pan-macmillan.png)
+![](site/static/v3/img/blog/og-netlify-pan-macmillan.png)
 
 Book publisher Pan Macmillan moved to Netlify to adopt the Jamstack. This improved site speed by 8x, improved SEO rankings, and enabled the team to ship new content and changes instantly.
 
@@ -84,6 +84,6 @@ Book publisher Pan Macmillan moved to Netlify to adopt the Jamstack. This improv
 
 ## Welcome New Netlify Customers!
 
-![](/img/blog/screen-shot-2021-06-02-at-11.22.38-am.png)
+![](/v3/img/blog/screen-shot-2021-06-02-at-11.22.38-am.png)
 
 We'd like to extend a warm welcome to the latest companies who trust Netlify with their web infrastructure! Learn more about [Netlify's enterprise products](https://www.netlify.com/enterprise/).

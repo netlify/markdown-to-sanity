@@ -50,7 +50,7 @@ npx @11ty/eleventy
 
 > NOTE: We’re using `npx` here, which allows us to execute the Eleventy CLI's build command without needing to install it as a dependency. For more information on how this works, see [the npm blog announcing `npx`](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner).
 
-![A screenshot of the above steps being run in the CLI.](/img/blog/11ty-quickstart.png)
+![A screenshot of the above steps being run in the CLI.](/v3/img/blog/11ty-quickstart.png)
 
 A `_site` folder with the generated `index.html` gets built, and you’re done.
 

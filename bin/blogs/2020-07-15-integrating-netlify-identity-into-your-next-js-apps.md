@@ -5,32 +5,33 @@ description: In this post you'll learn about how to use the Netlify Identity
 authors:
   - Cassidy Williams
 date: 2020-07-15T00:00:00.000Z
-lastmod: 2020-07-15T00:00:00.000Z
+lastmod: 2021-11-16T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
 tweet: ""
 format: blog
 seo:
   metatitle: Integrating Netlify Identity into your Next.js apps
-  ogimage: /img/blog/identitynext.png
+  ogimage: /v3/img/blog/identitynext.png
 ---
+
 Today I’d like to show you how to add login/logout functionality in a Next.js application!
 
 What’s great about the [Netlify Identity Widget](https://github.com/netlify/netlify-identity-widget) is that it’s open source, and super easy to drop in to most frameworks to enable authentication in your Jamstack apps.
 
 ## Starting fresh
 
-You can follow this tutorial with your own projects, but if you’d like to start from the ground up, you can use this [Next.js + Netlify starter project](https://github.com/cassidoo/next-netlify-starter)! It sets up your `netlify.toml` file and some very basic starter components that you can work off of.
+You can follow this tutorial with your own projects, but if you’d like to start from the ground up, you can use this [Next.js + Netlify starter project](https://github.com/netlify-templates/next-netlify-starter)! It sets up your `netlify.toml` file and some very basic starter components that you can work off of.
 
 Once you've deployed your project, you have to enable Netlify Identity! Head over to your project on Netlify and click "Identity":
 
-![Netlify Identity in your Project Settings](/img/blog/screen-shot-2020-07-13-at-7.26.10-pm.png "Netlify Identity in your Project Settings")
+![Netlify Identity in your Project Settings](/v3/img/blog/screen-shot-2020-07-13-at-7.26.10-pm.png "Netlify Identity in your Project Settings")
 
 Click "Enable Identity" and then click the "Settings and usage" button that appears on the next page.
 
-![Options for setting up Identity in your project](/img/blog/screen-shot-2020-07-13-at-7.28.42-pm.png "Options for setting up Identity in your project")
+![Options for setting up Identity in your project](/v3/img/blog/screen-shot-2020-07-13-at-7.28.42-pm.png "Options for setting up Identity in your project")
 
 There are plenty of options here for adding in certain OAuth providers, limiting registration, setting up confirmation emails, and more. You can leave all of this to the defaults if you'd like, but it's worth checking out if you haven't used it before.
 
@@ -197,10 +198,11 @@ This is just the tip of the iceberg for how much you can do with the Netlify Ide
 
 Once you've pushed your project live to Netlify, you can go to your app's Identity Settings where you can add as many auth providers as you'd like, limit registration, add CMS settings, and customize emails sent to your users.
 
-![](/img/blog/screen-shot-2020-07-05-at-4.35.59-pm.png "Adding different providers and setting up authentication providers")
+![](/v3/img/blog/screen-shot-2020-07-05-at-4.35.59-pm.png "Adding different providers and setting up authentication providers")
 
 I put together a [demo project](https://members-only.netlify.app/) using the Identity Widget if you'd like to see how it works and roll your own:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/members-only&utm_source=github&utm_medium=identitystarter-cs&utm_campaign=devex)
 
 (This will open up a dialog for you to start a new Netlify website based on [this project](https://github.com/cassidoo/members-only), and will make a new repository based on this project in your account.)
+

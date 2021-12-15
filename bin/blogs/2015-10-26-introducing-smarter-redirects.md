@@ -3,7 +3,7 @@
 title: Introducing Smarter Redirects
 authors:
   - Matt Biilmann
-image: /img/blog/signs.jpg
+image: /v3/img/blog/signs.jpg
 format: blog
 short_title: Smarter Redirects
 description: "We just made Netlify’s redirect engine smarter, to avoid chained redirects."
@@ -14,9 +14,9 @@ lastmod: 2020-08-03
 relatedposts:
   - Netlify Milestones on the road to 1 Million Devs
 tags:
-  - netlify
-  - news
-  - features
+  - Netlify
+  - News
+  - Features
 topics:
   - news
 ---
@@ -39,4 +39,4 @@ All this happens straight on our CDN nodes, so the extra roundtrip time when peo
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-launches-smarter-redirects)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-launches-smarter-redirects)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-launches-smarter-redirects)

@@ -10,8 +10,8 @@ lastmod: 2021-01-21
 topics:
   - insights
 tags:
-  - engineering
-  - team
+  - Engineering
+  - teams
   - careers
 tweet: ""
 format: blog
@@ -29,7 +29,7 @@ It’s a strength to the organization and to individuals to have these varying e
 
 Here’s a visual of Netlify’s career advancement tracks at this time.
 
-![netlify engineering career track image](/img/blog/engineering-career-path.png)
+![netlify engineering career track image](/v3/img/blog/engineering-career-path.png)
 
 The early years of an engineer’s path is focused on deepening their technical experience. Once an individual contributor achieves the senior level and is a strong performer, they can choose to try out the management track or remain on the technical path.
 
@@ -43,7 +43,7 @@ Here’s a high level view of our career framework. You can think of it as a 3x3
 
 This matrix has 3 core competencies:
 
-![netlify company growth matrix rubric](/img/blog/netlify-growth-rubric-matrix.jpg)
+![netlify company growth matrix rubric](/v3/img/blog/netlify-growth-rubric-matrix.jpg)
 
 * Values or guiding principles that we believe help us as individuals and team succeed
 * Technical skills which are necessary for the role

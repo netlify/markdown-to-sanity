@@ -12,10 +12,10 @@ date: '2019-01-29'
 topics:
   - news
 tags:
-  - deployments
+  - Deployments
   - Netlify Badges
-  - engineering
-  - design
+  - Engineering
+  - Design
 tweet: ''
 format: blog
 ---
@@ -25,7 +25,7 @@ We have previously built different ways to get deploy [notifications](https://ww
 
 Today, we are happy to announce that you can see the status of your most recent deployment, right from your repository or website, using Netlify Deployment Badges!
 
-![Netlify Deployment Badges](/img/blog/export for blog@2x.png)
+![Netlify Deployment Badges](/v3/img/blog/export for blog@2x.png)
 
 ## Show me your badges
 
@@ -37,7 +37,7 @@ Badges bring an underlying feeling of commitment and transparency that have made
 
 **It all started…with you!**
 
-![ask-netlify badges request](/img/blog/badges-request.png)
+![ask-netlify badges request](/v3/img/blog/badges-request.png)
 
 **What it actually means for us**
 
@@ -51,7 +51,7 @@ When it came to designing how this badge would look and feel, we knew we wanted 
 
 We went through multiple and fast iterations on how this Netlify Deployment Badge could look, while testing it against different backgrounds and in different contexts.
 
-![netlify badges design iterations](/img/blog/badges-iterations.png)
+![netlify badges design iterations](/v3/img/blog/badges-iterations.png)
 
 **API**
 
@@ -69,7 +69,7 @@ To keep it straightforward and easy to discover, we decided to surface the deplo
 
 The good news is we’ve already prepared the markdown you need to include in your README!  All you have to do is copy it from your site’s settings. The badge automatically updates to reflect the current state of your latest production deployment on Netlify. Clicking it takes you to the site’s deploy list if you’re authenticated, and to the login page otherwise. 
 
-![Netlify Badges UI](/img/blog/badges in ui@2x.png)
+![Netlify Badges UI](/v3/img/blog/badges in ui@2x.png)
 
 ## We want to hear from you
 

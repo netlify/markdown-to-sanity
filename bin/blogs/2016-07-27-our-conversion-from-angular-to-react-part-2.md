@@ -3,7 +3,7 @@
 title: Converting Angular to React, Exploring The Basics
 authors:
   - Brian Douglas
-image: /img/blog/react-dark-logo.svg
+image: /v3/img/blog/react-dark-logo.svg
 format: blog
 short_title: Exploring Basics with React
 description: Converting Angular controllers to React components can be straight forward if you follow a few rules and tricks.
@@ -11,8 +11,8 @@ thumbnail: thumbnails/raising-both-hands-in-celebration.png
 cmsUserSlug: ""
 date: 2016-07-27
 tags:
-  - react
-  - angular
+  - React
+  - Angular
 topics:
   - insights
 ---

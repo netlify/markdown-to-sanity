@@ -10,9 +10,9 @@ lastmod: 2020-07-09
 topics:
   - tutorials
 tags:
-  - ecommerce
-  - jamstack
-  - nextjs
+  - E-commerce
+  - Jamstack
+  - Next.js
 tweet: Learn how to use Commerce.js to create your own Jamstack eCommerce sites
   in this detailed tutorial with demonstrations and code samples.
 format: blog
@@ -24,7 +24,7 @@ seo:
   metatitle: How to Build eCommerce Stores on Netlify with Commerce.js and Next.js
   metadescription: Learn how to use Commerce.js and Next.js to create your own Jamstack eCommerce sites. Follow this detailed tutorial for hands-on demonstrations and code samples.
 ---
-![Commerce.js Next.js demo store screenshot](/img/blog/commercejs-nextjs-demo-store-1-.jpg "Commerce.js Next.js demo store screenshot")
+![Commerce.js Next.js demo store screenshot](/v3/img/blog/commercejs-nextjs-demo-store-1-.jpg "Commerce.js Next.js demo store screenshot")
 
 Performance and experience expectations for modern websites are at an all time high. This is especially true for websites that bid for the attention of users with the goal of selling products or services. Commerce websites that are built on the **Jamstack** have a particular edge when it comes to converting users into customers and growing a successful business. **Jamstack** commerce websites are lightning fast, secure, scalable, easily maintainable and hyper flexible for developers to build experiences wherever customers are. 
 
@@ -118,11 +118,11 @@ The **one-click deploy** allows you to connect Netlify to your GitHub account to
 
 By clicking the above button, you will be navigated to the Netlify’s direct deploy page with the project’s repository passed as parameters in the url. 
 
-![Connect to GitHub](/img/blog/commerce-connect-to-github.png)
+![Connect to GitHub](/v3/img/blog/commerce-connect-to-github.png)
 
 Click the **Connect to GitHub** button, name your repository and enter in this [public key](https://github.com/chec/commercejs-nextjs-demo-store/blob/master/.env.example#L2) in the “Chec Public Key” input. Please note that for the purpose of getting you up and running with a live deploy preview of the demo store, we provided you with the Public Key from our demo merchant account. Now, save & deploy your site.
 
-![Save and Deploy screen](/img/blog/commerce-save-and-deploy.png)
+![Save and Deploy screen](/v3/img/blog/commerce-save-and-deploy.png)
 
 Once you’ve hit that save button and run a deploy, you will now see a live preview of the site! Hooray, you’ve just deployed a full application! So go on and explore all the functionalities of a full-blown commerce application. 
 
@@ -151,7 +151,7 @@ cp .env.example .env
 
 You can access your API key under Setup, then navigate to the Developer tab to copy your Public Key and Secret Key:
 
-![Accessing public key](/img/blog/commerce-public_key.png)
+![Accessing public key](/v3/img/blog/commerce-public_key.png)
 
 Replace the provided `CHEC_PUBLIC_KEY` with your own and fill in your `CHEC_SECRET_KEY` in the `.env` file. The secret key is necessary for the seed script to have the proper permission to seed the sample data in `/seeds` into your Chec account. Remove the secret key once the data is seeded.
 
@@ -179,7 +179,7 @@ yarn seed
 
 The seeding may take a bit of time but once it’s completed, you should see this in your command line.
 
-![Seeding completed confirmation message](/img/blog/commerce-seeded.png)
+![Seeding completed confirmation message](/v3/img/blog/commerce-seeded.png)
 
 The utility script, [Chec Seeder](https://github.com/chec/seeder), in the dev dependencies is used to enable the seeding of data into your Chec account. Currently, we have included the products, categories and assets data in `.json` files that are going to be seeded into your Chec account when you run the seed scripts along with providing your API keys.
 

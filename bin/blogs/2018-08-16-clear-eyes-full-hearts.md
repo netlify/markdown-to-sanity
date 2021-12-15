@@ -12,14 +12,14 @@ topics:
 tags:
   - https
   - Let's Encrypt
-  - domains
-  - feature
+  - Domains
+  - Features
 tweet: ''
 format: blog
 ---
 Netlify has been using [Let’s Encrypt](https://letsencrypt.org/) to provide [free HTTPS](https://www.netlify.com/docs/ssl/#netlify) for our customers [since 2016](https://www.netlify.com/blog/2016/01/15/free-ssl-on-custom-domains/). We have issued many certificates since then, and we keep improving the feature to make the secure web more accessible to everyone.
 
-![Netlify x Let's Encrypt](/img/blog/le_title.png)
+![Netlify x Let's Encrypt](/v3/img/blog/le_title.png)
 
 I joined Netlify in May and the first project I worked on was to migrate our service from using [Let’s Encrypt’s ACME v1 API endpoint to v2](https://community.letsencrypt.org/t/acme-v2-production-environment-wildcards/55578). Migrating to v2 was important to us because it has a new key feature: wildcard domain support. Not only was this feature regularly requested by customers, but it was also something the team at Netlify were really keen on having, too. There was so much potential to improve our code base and reduce customer support requests.
 
@@ -40,11 +40,11 @@ Since I couldn’t do a percentage rollout, I decided to test thoroughly in a st
 
 With ACME v1, you request and complete separate authorization challenges for each domain you want to include in a certificate. You have to handle your own progress tracking to be sure all challenges are complete before creating a valid certificate request.
 
-![Issuing a certificate for xyz.com, xyz.net domains with ACME v1](/img/blog/le-acme-v1-cert.png)
+![Issuing a certificate for xyz.com, xyz.net domains with ACME v1](/v3/img/blog/le-acme-v1-cert.png)
 
 With ACME v2, the new concept of “order” objects was introduced. Order objects organize the whole certificate request process — you create an order first with the all domains that you want on the certificate. Then, you go through the challenges with these, and the order object tracks your progress. When everything is ready, you finalize the order to get the certificate.
 
-![Issuing a certificate for xyz.com, xyz.net domains with ACME v2](/img/blog/le-acme-v2-cert.png)
+![Issuing a certificate for xyz.com, xyz.net domains with ACME v2](/v3/img/blog/le-acme-v2-cert.png)
 
 The first iteration actually went pretty well with minimal changes, and I was able to ship it within my first (well, accurately second) week.
 
@@ -77,11 +77,11 @@ Let’s say we want to certify the domain `petsofnetlify.com`, and Let’s Encry
 * **HTTP challenge:** create an HTTP resource on `http://petsofnetlify.com/.well-known/acme-challenge/example_token` with the content `example_token.some_jwk_thumbprint`.
 * **DNS challenge:** create a TXT DNS record with domain `_acme-challenge.petsofnetlify.com` with `example_token` a value.
 
-![HTTP challenge and DNS challenge](/img/blog/le-challenges1.png)
+![HTTP challenge and DNS challenge](/v3/img/blog/le-challenges1.png)
 
 Previously, we had been using the HTTP challenge since Netlify serves HTTP resources for you and serving the right content at the right request path is what we’re good at. Also, we don’t necessary control DNS for you, so the HTTP challenge is the simple consistent challenge that we could use.
 
-![challenges with Netlify](/img/blog/le-challenges2.png)
+![challenges with Netlify](/v3/img/blog/le-challenges2.png)
 
 Let's Encrypt only offers wildcard certificates with the DNS challenge. I started by using it for domains purchased on Netlify. While testing a wildcard domain certificate issue with  `petsofnetlify.com, *.petsofnetlify.com`, I noticed that it failed to validate one of the domains.
 

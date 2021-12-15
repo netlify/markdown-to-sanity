@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Jekyll Netlify CMS"
 authors:
   - Jimmi Lee
-image: /img/blog/null
+image: /v3/img/blog/null
 format: blog
 short_title: Setting up Jekyll with Netlify CMS
 description: A step-by-step guide on how to set up Jekyll with Netlify CMS.
@@ -50,7 +50,7 @@ This will be the location of your local site.
 From the repo we made above, we want to clone a copy to our local directory.
 To do this we will first copy the remote GitHub URL (it will look like https://github.com/AccountName/RepoName.git or similar) from the above mentioned repo — the button looks like this:
 
-![a1_remotegithuburl.png](/img/blog/a1_remotegithuburl.png)
+![a1_remotegithuburl.png](/v3/img/blog/a1_remotegithuburl.png)
 
 Then we open a terminal window to the location of our local repo directory created above  and finally we use the following command (substitute my-repo-url with the URL you copied from GitHub):
 
@@ -203,22 +203,22 @@ We're done setting up the Jekyll with Netlify CMS template page, so let's connec
 These final steps we need to go through are important ones and require that you pushed the repository to a GitHub repo you own!
 
 ### Step 1: Add Your New Site
-![netlify New Site](/img/blog/newsitebut.png)
+![netlify New Site](/v3/img/blog/newsitebut.png)
 
 Creating a new site on Netlify is simple. Once you’ve created an account and logged in, you’ll be taken to https://app.netlify.com/sites. Click the *"New Site"* button to get started.
 
 ### Step 2: Link to Your GitHub
 Clicking *“New Site”* brings you to this screen:
-![Link to GitHub](/img/blog/createsite.png)
+![Link to GitHub](/v3/img/blog/createsite.png)
 When you push to GitHub, Netlify does all the work. No more manual deploying of updates or changes!
 Since your assets are hosted on GitHub, we’ll need to link Netlify to GitHub. Click *“Link to GitHub”*.
 
 ### Step 3: Authorize Netlify
 You will be asked to provide your GitHub login details:
-![GitHub Login](/img/blog/githublogin.png)
+![GitHub Login](/v3/img/blog/githublogin.png)
 
 It’s time to allow Netlify and GitHub to talk to each other, so review the permissions and click authorize application.
-![Authorize Netlify](/img/blog/authorization.png)
+![Authorize Netlify](/v3/img/blog/authorization.png)
 
 Like it says in the image above, Netlify doesn’t store your GitHub access token on our servers!
 
@@ -226,17 +226,17 @@ If you’d like to know more about the permissions Netlify requests and why we n
 
 ### Step 4: Choose Your Repo
 
-![netlify0x_chooserepo2.png](/img/blog/netlify0x_chooserepo2.png)
+![netlify0x_chooserepo2.png](/v3/img/blog/netlify0x_chooserepo2.png)
 
 Once you're connected to GitHub, Netlify will show you a list of your Git repos, as seen above.
 For the purpose of this tutorial we'll select the *“jekyll-netlify-cms-demo”* repo we just pushed to GitHub.
 
 ### Step 5: Configure Your Settings
 Netlify can detect the build command you need with most site generators, Jekyll being one of them:
-![Configure Settings](/img/blog/configurerepo.png)
+![Configure Settings](/v3/img/blog/configurerepo.png)
 
 In most cases, there's nothing we need to configure, but for this build we need to set an environment variable under the environment tab, as seen below:
-![jekyll_env_production.png](/img/blog/jekyll_env_production.png)
+![jekyll_env_production.png](/v3/img/blog/jekyll_env_production.png)
 
 Take care that it's spelled exactly like shown, with capital letters on the left and normal letters to the right, like this:
 
@@ -246,7 +246,7 @@ JEKYLL_ENV = production
 
 ### Step 6: Build Your Site
 Once you click save, Netlify will step in and take over, though it will let you know what's happening on the way, as seen in this screen shot:
-![siteisbuilding.png](/img/blog/siteisbuilding.png)
+![siteisbuilding.png](/v3/img/blog/siteisbuilding.png)
 
 Now it’s time to sit back and relax, as the next step may take a few minutes. Take a break and Netlify will do the rest, while you watch the progress.
 
@@ -254,12 +254,12 @@ Now it’s time to sit back and relax, as the next step may take a few minutes. 
 Open up the [GitHub developer application screen](https://github.com/settings/developers) and select **register a new application**.
 Next fill out the application information as seen in the screen shot below — you can name and describe it however you want, but it is imperative that you use the exact URL for the Authorization callback as this: **https://api.netlify.com/auth/done**
 
-![registernewapplication.png](/img/blog/registernewapplication.png)
+![registernewapplication.png](/v3/img/blog/registernewapplication.png)
 
 You can disregard choosing an image, though we did, to help distinguish the application.
 Once you're done filling out, simply click the green **Register application** button and you will get to the following screen shot (well, it will be similar at least):
 
-![Netlify0x_registerapp2.png](/img/blog/netlify0x_registerapp2.png)
+![Netlify0x_registerapp2.png](/v3/img/blog/netlify0x_registerapp2.png)
 
 What you need to take note of here, is the **Client ID** and the **Client Secret** in the upper right corner. You will need to provide both in the next step!
 
@@ -268,14 +268,14 @@ Return to Netlify and the site you just build and in the control panel select th
 
 This is where we give the GitHub Api access to our site with the application we just registered and you need to enter the **Client ID** and the **Client Secret** from above, as seen in the screen shot below:
 
-![githubaccess.png](/img/blog/githubaccess.png)
+![githubaccess.png](/v3/img/blog/githubaccess.png)
 
 Simply paste them into the windows where it says *enter Client ID here* and below where it says *enter Client Secret here* and you're good to go.
 
 ### Step 9: Trying Out Netlify CMS
 We tried testing the CMS system locally earlier in this guide and it's virtually the same using it online, you just have to change the address to **https://mysite.netlify.com/admin** to access the CMS system and then log in with GitHub, since we're using GitHub auth when working online.
 
-![jekyll-netlify-cms-act.png](/img/blog/jekyll-netlify-cms-act.png)
+![jekyll-netlify-cms-act.png](/v3/img/blog/jekyll-netlify-cms-act.png)
 
 As you can see, it takes very little time and effort to get up and running, so give it a try — I'm sure you won't regret it.
 

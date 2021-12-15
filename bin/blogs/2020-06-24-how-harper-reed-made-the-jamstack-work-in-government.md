@@ -10,7 +10,7 @@ lastmod: 2020-06-25T00:00:00.000Z
 topics:
   - case-studies
 tags:
-  - jamstack
+  - Jamstack
 tweet: ""
 format: blog
 relatedposts:
@@ -19,7 +19,7 @@ relatedposts:
 seo:
   metatitle: Learn How CTO of Obama for America made Jamstack work on the campaign trail
   metadescription: Hear from Harper Reed, CTO of Obama for America in 2012, about how they used the Jamstack for speed and efficiency. Learn how the architecture brings communities together on the internet.
-  ogimage: /img/blog/jamstack-promo-6-4-.png
+  ogimage: /v3/img/blog/jamstack-promo-6-4-.png
 ---
 Harper Reed has been a fan of the Jamstack for quite some time. He just didn’t know there was a proper title for the stack until, well, fairly recently. 
 

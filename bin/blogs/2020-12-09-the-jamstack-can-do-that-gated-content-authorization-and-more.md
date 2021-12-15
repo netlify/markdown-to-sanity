@@ -10,8 +10,8 @@ topics:
   - tools
 tags:
   - Remotely Interesting
-  - podcast
-  - identity
+  - Podcast
+  - Identity
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ seo:
   metadescription: Did you know the Jamstack could do so much with auth? Well, let
     Cassidy, Jason, Phil, and Tara walk you thru JWTs, Netlify Identity, and
     more!
-  ogimage: /img/blog/ep-4.png
+  ogimage: /v3/img/blog/ep-4.png
 ---
 Yes, no matter what [Phil Hawkworth](https://www.netlify.com/authors/phil-hawksworth/?utm_source=blog&utm_medium=ri-ep-4-tzm&utm_campaign=devex) says at the start of this episode, the statement above is, in fact, truthy. Using the Jamstack architecture allows you to [authorize users](https://docs.netlify.com/visitor-access/identity/?utm_source=blog&utm_medium=ri-ep-4-tzm&utm_campaign=devex), gate content, manage subscriptions, and more. In this episode, we talk about some resources from our team and the community that cover different aspects of auth in the Jamstack, and what "auth in the Jamstack" means.
 

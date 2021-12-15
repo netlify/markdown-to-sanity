@@ -25,7 +25,7 @@ seo:
     article, we dive into some of the whys, and then move on to the hows: the
     processes you can use to scope PRs down, as well as who on your team can
     assist.
-  ogimage: /img/blog/material-night-eighties.png
+  ogimage: /v3/img/blog/material-night-eighties.png
 ---
 One of the most valuable skills one can possess as a developer is to learn how to scope down your work into manageable pull requests (PRs). Why the emphasis on something as seemingly trivial as size? There are many reasons, but here are some of the most pertinent:
 
@@ -41,7 +41,7 @@ We’ll dive into some of those whys, and then move on to the hows: the processe
 
 If someone has to read through and make sense of your code in order to evaluate it, it’s much easier to get through if it’s smaller and more focused. Think about it from the reviewer’s standpoint: it’s their job to make sure whatever code they’re reading makes it through this process in the best state possible. The smaller the amount of code, the lower the cognitive load you impose on them to envision all the moving parts and any potential side effects. 
 
-![A PR with a lot of changes and 233 comments](/img/blog/conversation-github.png "The higher the number the amount of changes, the more conversation you’ll have to have")
+![A PR with a lot of changes and 233 comments](/v3/img/blog/conversation-github.png "The higher the number the amount of changes, the more conversation you’ll have to have")
 
 > *The higher the number of changes, the more conversation you’ll have to have.*
 
@@ -96,21 +96,21 @@ Furthermore, each PR should, when possible, only have one goal so the next itera
 
 If you’re going to leave unfinished work, it’s helpful to keep track of what’s left. This is not just for you, but for any stakeholders like your teammates or PMs. A lot of teams will make use of project boards for this, which also helps you go over what’s going on in the project as a group
 
-![Example GitHub Board, you can add in issues as well as notes.](/img/blog/example-project-board.png "Example GitHub Board, you can add in issues as well as notes.")
+![Example GitHub Board, you can add in issues as well as notes.](/v3/img/blog/example-project-board.png "Example GitHub Board, you can add in issues as well as notes.")
 
 *Example GitHub Board, you can add in issues as well as notes.*
 
 Some tools like GitHub and Jira will help you with some automation as well:
 
-![Showing a dropdown with an automated kanban board from GitHub](/img/blog/github-project-templates.png)
+![Showing a dropdown with an automated kanban board from GitHub](/v3/img/blog/github-project-templates.png)
 
 Even if you’re tracking things within these boards, it can be useful to your coworkers/reviewers to do a todo list or list of changes in the PR itself as well. This helps them immediately see the scope of the PR without having to check any other references, which can help with speed of execution:
 
-![Example of a comment where the work done is in a bulleted list and explained to be a rough draft](/img/blog/pr-discussion.png)
+![Example of a comment where the work done is in a bulleted list and explained to be a rough draft](/v3/img/blog/pr-discussion.png)
 
 As mentioned above, you can also make use of To dos — I do this sometimes, and will track what’s left with [this VS Code extension](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) that goes through and highlights any to do comments for you. You can also override and customize it, should your team have a different convention. 
 
-![Showing how the VS Code extension highlights to do and fixmes in the editor](/img/blog/material-night-eighties.png)
+![Showing how the VS Code extension highlights to do and fixmes in the editor](/v3/img/blog/material-night-eighties.png)
 
 These are just a few ways to track work at the developer level. Truly, there is a whole project management discipline that employs many different tools and techniques! Covering everything is out of the scope of the article, but hopefully these help while coding.
 

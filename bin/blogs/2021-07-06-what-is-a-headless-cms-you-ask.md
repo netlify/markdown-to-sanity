@@ -9,18 +9,18 @@ lastmod: 2021-07-06
 topics:
   - tools
 tags:
-  - podcast
-  - cms
-  - headless
-  - decoupled
-  - remotely interesting
+  - Podcast
+  - CMS
+  - Headless
+  - Decoupled
+  - Remotely Interesting
 tweet: ""
 format: blog
 seo:
   metatitle: What is a Headless CMS, You Ask?
   metadescription: Learn about headless CMSs from the ecosystem's pros on this
     episode of Remotely Interesting.
-  ogimage: /img/blog/ri-social-2-1-.jpg
+  ogimage: /v3/img/blog/ri-social-2-1-.jpg
 ---
 Content Management Systems (CMSs) have helped people handle lots of digital content. You may have now heard that they've lost their heads. [Headless CMS](https://jamstack.org/headless-cms/) is a  CMS that has the dependency to its presentation, or "head", layer removed. This gives teams the freedom to use their data with whatever technology they choose and the ability to change what they use down the road. My favorite part about this is that content providers can still have the same data entry UI they are used to then devs can use the Headless CMS APIs to use the data in the framework they're most comfortable with.
 

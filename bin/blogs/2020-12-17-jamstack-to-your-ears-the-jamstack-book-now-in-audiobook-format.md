@@ -21,7 +21,7 @@ seo:
 ---
 Sometimes reading things is hard. Well, give your eyes a rest and your ears a treat (hopefully) by checking out [the audiobook version of the Modern Web Development on the Jamstack book](https://www.netlify.com/oreilly-jamstack/?utm_source=blog&utm_medium=audiobook-post-tzm&utm_campaign=devex) for free. You can choose between M4B and MP3 formats plus download the PDF accompaniment for all the images and code examples I wisely decided not to read aloud (you're welcome).
 
-[![screenshot of the Jamstack book page download options](/img/blog/screen-shot-2020-12-16-at-11.25.16-am.png)](https://www.netlify.com/oreilly-jamstack/?utm_source=blog&utm_medium=audiobook-post-tzm&utm_campaign=devex)
+[![screenshot of the Jamstack book page download options](/v3/img/blog/screen-shot-2020-12-16-at-11.25.16-am.png)](https://www.netlify.com/oreilly-jamstack/?utm_source=blog&utm_medium=audiobook-post-tzm&utm_campaign=devex)
 
 This book is filled with great history, information, and examples that help really wrap your mind around the concept of the Jamstack architecture. I found myself recommending it to so many people while knowing it's so hard to find time to sit down and read. I looked at my mic setup as I was sending an email to the talented sound guru, [Chris Enns of Lemon Productions](https://www.lemonproductions.ca/), and realized I had all the tools I needed to make an audiobook (not that Chris is a tool, far from it).
 

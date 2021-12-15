@@ -8,7 +8,7 @@ tweet: >-
 topics:
   - news
 tags:
-  - design
+  - Design
   - favicon
 format: blog
 description: >+
@@ -21,7 +21,7 @@ Ever tab away from a Netlify deploy log only to lose it next to a sea of similar
 
 Here’s what you’ll see:
 
-![4 versions of the favicon: 1. A simplified version of the Netlify logo – a teal square rotated 45 degrees. 2. Simplified logo with a yellow circle. 3. Simplified logo with a red circle with a white line through it. 4. Simplified logo with a checkmark.](/img/blog/favicon-status-screenshot.jpeg)
+![4 versions of the favicon: 1. A simplified version of the Netlify logo – a teal square rotated 45 degrees. 2. Simplified logo with a yellow circle. 3. Simplified logo with a red circle with a white line through it. 4. Simplified logo with a checkmark.](/v3/img/blog/favicon-status-screenshot.jpeg)
 
 You will see a yellow dot on the icon when the deploy is building; it will turn into a white check on the logo if the build succeeds, or a red dot with with a line through it if the build fails.  When you are on a different page of the app, no status icon will be shown.  
 
@@ -31,13 +31,13 @@ While this might seem like a simple feature, we discovered a few interesting pro
 
 In one of our first iterations, we used red, yellow and green colorized versions of Netlify's logo. We decided against this initial version to avoid developing unintended user sentiment during negative outcomes like [when your build fails](https://sadtrombone.com/).
 
-<img alt="" src="/img/blog/color-status-screenshot.png" />
+<img alt="" src="/v3/img/blog/color-status-screenshot.png" />
 
 ## Shape and contrast
 
 In an attempt to solve the problems we identified with a colorized logo, we switched to using small colorized dots overlaid on an unmodified logo.
 
-<img alt="" src="/img/blog/favicon-shape.png" />
+<img alt="" src="/v3/img/blog/favicon-shape.png" />
 
 The colorized indicator overlay solved some of the problems we had with the colorized logos, but a large issue remained.  [Color blind and vision impaired individuals](http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/) may have trouble distinguishing the red, yellow and green colors of the dots if they lack any distinguishing features independent of color.
 
@@ -47,7 +47,7 @@ First, we removed a lot of the “noise” from our logo by reducing it to its s
 
 Then, we had to come up with different shapes to distinguish between the building and failed states. We tried a lot of them, and these were some of our favorites:
 
-![5 different versions of the favicon for a failed deploy. 1. circle. 2. cross, 3. hexagon, 4. triangle, 5. circle with a horizontal white line through it.](/img/blog/favicon-shape-variants.png)
+![5 different versions of the favicon for a failed deploy. 1. circle. 2. cross, 3. hexagon, 4. triangle, 5. circle with a horizontal white line through it.](/v3/img/blog/favicon-shape-variants.png)
 
 As we explored each shape, we had some realizations:
 
@@ -61,14 +61,14 @@ As we explored each shape, we had some realizations:
 
 Ultimately, we chose a set of favicons that incorporated considerations for color, shape, and contrast.
 
-![4 versions of the favicon: 1. A simplified version of the Netlify logo – a teal square rotated 45 degrees. 2. Simplified logo with a yellow circle. 3. Simplified logo with a red circle with a white line through it. 4. Simplified logo with a checkmark.](/img/blog/favicon-status-screenshot.jpeg)
+![4 versions of the favicon: 1. A simplified version of the Netlify logo – a teal square rotated 45 degrees. 2. Simplified logo with a yellow circle. 3. Simplified logo with a red circle with a white line through it. 4. Simplified logo with a checkmark.](/v3/img/blog/favicon-status-screenshot.jpeg)
 
 ## Conclusion
 
 Hopefully this feature comes in handy and isn’t too disruptive to your compile time sword fighting.  
 
 <figure>
-<a href="https://xkcd.com/303/"><img src="/img/blog/xkcd303.png" alt="The #1 programmer excuse for legitimately slacking off: 'My code’s compiling'"></a>
+<a href="https://xkcd.com/303/"><img src="/v3/img/blog/xkcd303.png" alt="The #1 programmer excuse for legitimately slacking off: 'My code’s compiling'"></a>
 <figcaption>I bet <a href="https://xkcd.com/303/">xkcd</a> didn't anticipate these status favicons</figcaption>
 </figure>
 

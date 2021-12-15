@@ -2,12 +2,12 @@
 title: 'Netlify CMS Planning: Working in Sprints'
 authors:
   - Cassandra Salisbury
-image: /img/blog/cmsflow.png
+image: /v3/img/blog/cmsflow.png
 short_title: Netlify CMS
 topics:
   - news
 tags:
-  - Netlify cms
+  - Netlify CMS
 format: blog
 description: >-
   Check out what's been happening in the open source project, Netlify CMS and
@@ -19,7 +19,7 @@ The Netlify CMS open source project held their bi-weekly planning session yester
 
 We are trying something a little different and out-of-the-norm for open source projects. We’ve decided to break down our December goal to 1.0 into [two week sprints](https://github.com/netlify/netlify-cms/projects/5). This is to help better organize efforts while enabling the community to know the primary focus of our efforts.
 
-![](/img/blog/Screen Shot 2017-09-28 at 9.20.24 AM.png)
+![](/v3/img/blog/Screen Shot 2017-09-28 at 9.20.24 AM.png)
 
 ## The next sprint
 

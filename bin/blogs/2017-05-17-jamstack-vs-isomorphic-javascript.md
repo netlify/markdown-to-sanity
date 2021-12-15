@@ -2,15 +2,14 @@
 title: JAMstack vs Isomorphic Server Side Rendering
 authors:
   - Brian Douglas
-image: /img/blog/jamstack logo.png
+image: /v3/img/blog/jamstack logo.png
 format: blog
 short_title: JAMstack vs Isomorphic Server-side Rendering
 topics:
   - insights
 tags:
-  - comparison
-  - jamstack
-  - server-side rendering
+  - Jamstack
+  - server side rendering
 description: >
   The JAMstack runs against all that is Isomorphic JavaScript. It encourages the
   separation of code between your client and your API while leveraging the use
@@ -41,7 +40,7 @@ If this is too many steps, Netlify offers [prerendering](https://www.netlify.com
 
 To better understand this, here is an image:
 
-![prerender-robot](/img/blog/prerender-robot.png)
+![prerender-robot](/v3/img/blog/prerender-robot.png)
 
 \*Image courtesy of [Saturday Morning Breakfast Cereal](http://www.smbc-comics.com/?id=2999)
 
@@ -75,9 +74,9 @@ I did some testing myself and compared 2 server-side rendered Hacker News apps t
 
 Just for reference, these are the performance numbers for the existing [news.ycombinator.com](https://news.ycombinator.com/) below. I used [TestMySite.IO](https://testmysite.io/) and [performance.sucuri.net](https://performance.sucuri.net/). These are both great sites for testing how fast your project is delivered to the end user. I also added [Google’s Lighthouse](https://developers.google.com/web/tools/lighthouse/), which has a strong emphasis on PWA, not the gold standard yet but interesting to look at.
 
-![ycom-sucuri-test](/img/blog/ycom-sucuri.png)
-![ycom-testmysiteio](/img/blog/ycom-test.png)
-![ycom-lighouse-perf](/img/blog/ycom-lighthouse-perf.png)
+![ycom-sucuri-test](/v3/img/blog/ycom-sucuri.png)
+![ycom-testmysiteio](/v3/img/blog/ycom-test.png)
+![ycom-lighouse-perf](/v3/img/blog/ycom-lighthouse-perf.png)
 
 I am not sure of how Hacker News is built, and for this argument, I can assume they are not using JAMstack but indeed using a CDN.
 
@@ -85,17 +84,17 @@ I am not sure of how Hacker News is built, and for this argument, I can assume t
 
 This is a Hacker News clone using a boilerplate:
 
-![next-sucuri-test](/img/blog/next-sucuri.png)
-![nest-testmysiteio](/img/blog/next-test.png)
-![next-lighthouse-perf](/img/blog/next-lighthouse-perf.png)
+![next-sucuri-test](/v3/img/blog/next-sucuri.png)
+![nest-testmysiteio](/v3/img/blog/next-test.png)
+![next-lighthouse-perf](/v3/img/blog/next-lighthouse-perf.png)
 
 It appears that this clone of Hacker News is not performing well outside the US. This is not due to the code itself but actually, the CDN not being global-ready. I am sure switching that will improve the TTFB. I also notice the full download of the HTML is a bit long,  most likely due to the initial round trip to the server to fetch the rendered HTML. This is a downside to server-side rendering—a lot of optimization is needed to improve that TTFB. On the contrary this site performs really with the lighthouse performance score, show
 
 **PWA Hacker News clone with server-side rendering **([site](https://react-hn.appspot.com), [code](https://github.com/insin/react-hn)): This is a server-side rendered application. I did notice there are a few [commits](https://github.com/insin/react-hn/commits?author=addyosmani) from Addy himself improving on the PWA aspect of the project to make this site PWA compatible.
 
-![reacthn-sucuri](/img/blog/reacthn-sucuri.png)
-![reacthn-testmysiteio](/img/blog/reacthn-test.png)
-![reacthn-sucuri-perf](/img/blog/reacthn-lighthouse-perf.png)
+![reacthn-sucuri](/v3/img/blog/reacthn-sucuri.png)
+![reacthn-testmysiteio](/v3/img/blog/reacthn-test.png)
+![reacthn-sucuri-perf](/v3/img/blog/reacthn-lighthouse-perf.png)
 
 This page is also clearly on a global CDN and checks all the boxes for performance in regards to the TTFB. There is not much bad to say about this setup, some of the techniques use for caching are pretty cool to look at.
 
@@ -103,9 +102,9 @@ This page is also clearly on a global CDN and checks all the boxes for performan
 
 **Client-side only Hacker News clone with no server-side rendering **([site](http://engraver-sonya-32257.netlify.com/), [code)](https://github.com/bdougie/pwa-hn-app): This is my Hacker News clone. I pulled most of the code from [this repo](https://github.com/alvarowolfx/react-hacker-news) and made very few changes. I am also not taking advantage of any prefetching with service workers, but just relying on Netlify’s CDN and what comes standard from the new [create-pwa-app](https://github.com/jeffposnick/create-react-pwa) CLI.
 
-![hnjam-sucuri](/img/blog/hnjam-sucuri.png)
-![hnjam-testmysiteio](/img/blog/hnjam-testmysite.png)
-![hnjam-lighthouse-perf](/img/blog/hnjam-lighouse-perf.png)
+![hnjam-sucuri](/v3/img/blog/hnjam-sucuri.png)
+![hnjam-testmysiteio](/v3/img/blog/hnjam-testmysite.png)
+![hnjam-lighthouse-perf](/v3/img/blog/hnjam-lighouse-perf.png)
 
 Just looking at the numbers, hosting a JAMstack site on a CDN gets you the best time to the first byte even without consideration for isomorphic rendering. As mentioned above I have plans to improve my Google Lighthouse score by including some of the tricks used in the React-HN app above, but for now, I think this performance will suffice.
 

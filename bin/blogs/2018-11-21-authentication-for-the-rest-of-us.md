@@ -28,7 +28,7 @@ Single Sign On (SSO) is the authentication process that enables users to authent
 
 
 
-![SSO Authentication Flow Diagram](/img/blog/auth-sso.png)
+![SSO Authentication Flow Diagram](/v3/img/blog/auth-sso.png)
 
 
 
@@ -36,7 +36,7 @@ Single Sign On (SSO) is the authentication process that enables users to authent
 
 Multi Factor Authentication (MFA) is a multi (usually two) step process for verifying a user’s identity when they sign into an application. As the name suggests, it requires more than one piece of identifying information for a successful log in. This often comes in the form of something you know (i.e. password), something you have (i.e. a trusted device like a phone or a [YubiKey](https://www.yubico.com/)) and/or something you are (i.e. a biometric like a fingerprint or your face). 
 
-![MFA Auth Flow Diagram](/img/blog/auth-mfa.png)
+![MFA Auth Flow Diagram](/v3/img/blog/auth-mfa.png)
 
 
 
@@ -45,7 +45,7 @@ Multi Factor Authentication (MFA) is a multi (usually two) step process for veri
 Social login allows users to sign into an application with credentials from external social login providers, like Facebook, Twitter and Google. You can think of Social login as SSO for end users. Similar to the passwordless authentication flow that we’ll cover later on, social login means one less password for a user to remember since they don’t have to create a new account specifically for the application they’re accessing. Instead of authentication happening on the central auth server, the social identity provider handles authentication and sends the authentication server a token which then validates the user’s session.
 
 
-![Social Login Flow Diagram](/img/blog/auth-social.png)
+![Social Login Flow Diagram](/v3/img/blog/auth-social.png)
 
 
 
@@ -54,7 +54,7 @@ Social login allows users to sign into an application with credentials from exte
 Passwordless authentication, as the name suggests is the system used to allow users to log in without the need for a password. If you’re a user of Slack, you are probably familiar with this workflow, where Slack emails you a “magic link” to log you into your account. Because of the extra layer of authentication provided by having to access an email address, or a text message to log in, passwordless authentication is in a way two factor authentication by default. In a system that uses passwordless authentication, the user first inputs an email address or a phone number. The server then creates a temporary one time use code and sends it to the user via a “magic link”. When the user clicks on the link, the server extracts the code, fetches the user associated with it, and redirects the user to a logged in page.
 
 
-![Passwordless Auth Flow Diagram](/img/blog/auth-passwordless.png)
+![Passwordless Auth Flow Diagram](/v3/img/blog/auth-passwordless.png)
 
 
  

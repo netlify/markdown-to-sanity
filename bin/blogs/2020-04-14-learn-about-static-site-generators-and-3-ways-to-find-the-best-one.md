@@ -12,7 +12,7 @@ topics:
 tags:
   - Jamstack
   - Tools
-  - Static Site Generators
+  - Static site generators
 tweet: Learn what SSGs are, how they can boost your website's speed, improve
   security, and more easily scale. Plus 3 tips for finding the best one for you.
 format: blog
@@ -24,9 +24,9 @@ seo:
     website's speed, improve security, and more easily scale. Plus 3 tips for
     finding the best one for you.
   metatitle: What is a Static Site Generator? How do I find the best one to use?
-  ogimage: /img/blog/og-image.png
+  ogimage: /v3/img/blog/og-image.png
 ---
-![Diagram static site generator turning assets into a website at build time](/img/blog/ssg-flow.png "Static site generators turn assets into sites")
+![Diagram static site generator turning assets into a website at build time](/v3/img/blog/ssg-flow.png "Static site generators turn assets into sites")
 
 ## What is a static site generator?
 
@@ -40,7 +40,7 @@ The greatest difference between a static site generator and a traditional web ap
 
 This has a number of valuable effects, but most important is that it shifts this work away from "request time" (when users ask for the view) to "build time" which is unrelated to when users ask for the view of a page. This "decoupled" architecture breaks the relationship between the number of visits to a site and the overhead of generating the views to service all of those visits.
 
-![Diagram: static site generation is decoupled from serving demands](/img/blog/ssg-host-flow.png "Site generation is decoupled from serving demands")
+![Diagram: static site generation is decoupled from serving demands](/v3/img/blog/ssg-host-flow.png "Site generation is decoupled from serving demands")
 
 ## Why are static site generators so popular now?
 

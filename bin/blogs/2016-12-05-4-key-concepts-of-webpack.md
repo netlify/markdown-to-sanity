@@ -9,7 +9,7 @@ description: >-
   lack of great docs and wealth of boilerplates have led to many people using
   it, but not understand it.
 tags:
-  - webpack
+  - Webpack
 topics:
   - tools
 ---

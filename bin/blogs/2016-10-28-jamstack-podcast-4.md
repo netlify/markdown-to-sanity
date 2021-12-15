@@ -9,15 +9,15 @@ authors:
 guests:
   - name: David Wells
     bio: David Wells is a full stack software developer at Serverless, where he gives developers the tools to build and operate serverless architectures.
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 description: "In Episode 4 of JAMstack Radio, Brian and Ryan are joined by engineer David Wells who explains the Serverless Framework and automation using AWS Lambda. The three cover topics including potential pain points of complex microservices, advantages of event-driven architectures, and writing Kanye skills for Amazon’s Alexa. Plus a new round of JAMPicks."
 date: 2016-10-28
 minuteslong: 32
 tags:
-  - jamstack
-  - podcast
-  - episode
-  - serverless
+  - Jamstack
+  - Podcast
+  
+  - Serverless
 topics:
   - insights
 ---

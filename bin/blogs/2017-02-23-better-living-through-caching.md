@@ -2,14 +2,14 @@
 title: Better Living Through Caching
 authors:
   - Chris McCraw
-image: /img/blog/caching.jpg
+image: /v3/img/blog/caching.jpg
 format: blog
 short_title: Better Living Through Caching
 topics:
   - insights
 tags:
-  - caching
-  - deploys
+  - Caching
+  - Deploys
 description: 'Learn about the ins and outs of caching at Netlify. '
 date: 2017-02-23T18:33:05.432Z
 ---
@@ -35,7 +35,7 @@ So, what’s our secret sauce?  From a browser point of view, things work just 
 
 You may have heard that cache invalidation is one of the hardest problems in computer science, and we agree.  Nonetheless, we think we have a solid implementation that will benefit you and your visitors.  When we send those Cache-control headers, ours look a little different than you’d expect.  Here’s a view of some headers for a typical file we served, from the developer tools in Chrome:
 
-![our caching headers from Chrome's dev tools](/img/blog/cache_headers.png)
+![our caching headers from Chrome's dev tools](/v3/img/blog/cache_headers.png)
 
 With these headers, we are saying specifically:
 

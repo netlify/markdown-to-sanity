@@ -17,13 +17,13 @@ guests:
       animation performance, and tinkering with data visualizations.
     name: Emily Hayman
 title: The Out Of Box Search Experience
-image: /img/blog/jamstack%20logo.png
+image: /v3/img/blog/jamstack%20logo.png
 minuteslong: 29
 short_title: Search Experience with Algolia
 tags:
-  - podcast
+  - Podcast
   - algolia
-  - search
+  - Search
 topics:
   - tools
 description: >-

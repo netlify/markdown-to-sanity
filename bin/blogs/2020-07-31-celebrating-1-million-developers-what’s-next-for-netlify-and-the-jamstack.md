@@ -11,9 +11,9 @@ lastmod: 2020-07-31
 topics:
   - news
 tags:
-  - jamstack
-  - netlify
-  - announcements
+  - Jamstack
+  - Netlify
+  - Announcements
 tweet: ""
 format: blog
 relatedposts:
@@ -25,9 +25,9 @@ seo:
   metadescription: Celebrating 1 million developers and businesses that have
     signed up for Netlify. Check out an interactive roadmap of the milestones
     and see what’s next for Jamstack.
-  ogimage: /img/blog/plugins-og-51.png
+  ogimage: /v3/img/blog/plugins-og-51.png
 ---
-![Celebrating 1 million developers: What’s next for Netlify and the Jamstack](/img/blog/plugins-og-48.png "Celebrating 1 million developers: What’s next for Netlify and the Jamstack")
+![Celebrating 1 million developers: What’s next for Netlify and the Jamstack](/v3/img/blog/plugins-og-48.png "Celebrating 1 million developers: What’s next for Netlify and the Jamstack")
 
 Today we celebrate a big milestone: more than one million developers and businesses have signed up for Netlify!
 

@@ -10,8 +10,8 @@ topics:
   - tutorials
 tags:
   - SSG
-  - Static Site Generators
-  - JAMstack
+  - Static site generators
+  - Jamstack
 tweet: ''
 format: blog
 ---
@@ -23,7 +23,7 @@ It's interesting to compare it to similar posts from [2017](/blog/2017/05/25/top
 
 The category, it seems, is gaining momentum.
 
-![A chart showing the increase in GitHub stars for the top 10 static site generators as of today](/img/blog/ssg-chart-2018.png)
+![A chart showing the increase in GitHub stars for the top 10 static site generators as of today](/v3/img/blog/ssg-chart-2018.png)
 
 > [Interactive chart via http://www.timqian.com/star-history](http://www.timqian.com/star-history/#jekyll/jekyll&zeit/next.js&gatsbyjs/gatsby&gohugoio/hugo&hexojs/hexo&GitbookIO/gitbook&nuxt/nuxt.js&vuejs/vuepress&facebook/Docusaurus&getpelican/pelican)
 
@@ -36,7 +36,7 @@ For many years, Jekyll has been the SSG with the greatest brand recognition. Its
 
 Still thriving and with an active community, Jekyll established many of the patterns we now see in other SSGs. Many of these patterns are what keep Jekyll popular and capable, from metadata in front matter and structured data folders, to support for Markdown, expressive Liquid templating, and support for categories and tags.
 
-![Jekyll](/img/blog/top-10-2018-jekyll.jpg)
+![Jekyll](/v3/img/blog/top-10-2018-jekyll.jpg)
 
 
 ## Next
@@ -47,7 +47,7 @@ Next's basis in ReactJS makes it well suited for a component-centric development
 
 The release of v6 now leverages React 16 and included a major advantage over previous versions in that it no longer requires you to manually specify all of the routes you wish to pre-render. Instead it generates a route map for you at build time and allows developers to bring their own Webpack and Babel configurations for advanced control.
 
-![NextJS](/img/blog/top-10-2018-next.jpg)
+![NextJS](/v3/img/blog/top-10-2018-next.jpg)
 
 
 ## Hugo
@@ -58,7 +58,7 @@ Although written in Go, dependency management for Hugo is very straightforward l
 
 Hugo's very fast site generation speed leads to a rapid and rewarding development experience and has also lead to it being used on some large scale site deployments where the number of unique pages being generated might number in the tens of thousand, or more.
 
-![Hugo](/img/blog/top-10-2018-hugo.jpg)
+![Hugo](/v3/img/blog/top-10-2018-hugo.jpg)
 
 
 ## Gatsby
@@ -69,7 +69,7 @@ It yields a high performance SPA (Single Page Application) with offline capabili
 
 It also has a growing number of [plugins](https://www.gatsbyjs.org/docs/plugins/) and an ever more engaged community and ecosystem.
 
-![GatsbyJS](/img/blog/top-10-2018-gatsby.jpg)
+![GatsbyJS](/v3/img/blog/top-10-2018-gatsby.jpg)
 
 
 ## Hexo
@@ -80,7 +80,7 @@ It has a nice plugin architecture which makes it readily extensible with plugins
 
 With strong conventions for internationalisation, Hexo even has utilities for returning localised language strings from localised content files. This has helped to make it particular popular in China.
 
-![Hexo](/img/blog/top-10-2018-hexo.jpg)
+![Hexo](/v3/img/blog/top-10-2018-hexo.jpg)
 
 
 
@@ -92,7 +92,7 @@ Gitbook is one such SSG which has a primary focus on documentation. It is a litt
 
 It is free for open-source and non-profit teams and has a number of other pricing tiers with different levels of analytics, support and collaboration tools.
 
-![Gitbook](/img/blog/top-10-2018-gitbook.jpg)
+![Gitbook](/v3/img/blog/top-10-2018-gitbook.jpg)
 
 
 
@@ -103,7 +103,7 @@ Heavily inspired by the approach taken by Next, Nuxt offers similar capabilities
 
 Nuxt can be extended with modules to provide all manner of advanced functionality and utilities which can be used at build time, but its default configuration can help you to get started very quickly.
 
-![Nuxt](/img/blog/top-10-2018-nuxt.jpg)
+![Nuxt](/v3/img/blog/top-10-2018-nuxt.jpg)
 
 
 ## VuePress
@@ -114,7 +114,7 @@ It provides a very rapid start to your documentation project, requiring very lit
 
 Markdown support is enhanced with custom markdown extensions developed for common technical documentation tasks — such as code snippets with line highlighting, code snippet imports, table of contents generation and more. You can also extend things further by using VueJS within markdown for even more advanced features and flexibility.
 
-![VuePress](/img/blog/top-10-2018-vuepress.jpg)
+![VuePress](/v3/img/blog/top-10-2018-vuepress.jpg)
 
 
 ## Docusaurus
@@ -125,7 +125,7 @@ It has support for localisations that goes beyond that of some of the others on 
 
 Documentation versioning and enabling search through [Algolia](https://www.algolia.com/) is also streamlined to help create rich and useful documentation sites.
 
-![Docusaurus](/img/blog/top-10-2018-docusaurus.jpg)
+![Docusaurus](/v3/img/blog/top-10-2018-docusaurus.jpg)
 
 
 ## Pelican
@@ -134,7 +134,7 @@ Showing less dramatic growth than the others in the list this year, but growing 
 
 Bringing very popular Jinja2 templating capabilities to static site generation, Pelican also boast a plugin architecture with quite a few plugins available. In addition to its Markdown support, the ability to use AsciiDoc and reStructuredText adds some further content format flexibility.
 
-![](/img/blog/top-10-2018-pelican.jpg)
+![](/v3/img/blog/top-10-2018-pelican.jpg)
 
 
 ## How to choose

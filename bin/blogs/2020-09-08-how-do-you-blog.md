@@ -11,7 +11,7 @@ topics:
   - insights
 tags:
   - Remotely Interesting
-  - podcast
+  - Podcast
 tweet: ""
 format: blog
 seo:
@@ -26,4 +26,4 @@ Ever wonder how some people are able to write a blog post a day? Or how to write
 
 The team also shares some posts and authors that they enjoy reading. So, whether you are able to "Divya" out and write a blog post a day for a month or go all "Jason" with 100,000+ words (🚨 hyperbole alert 🚨) we support your efforts! We hope we can provide you some helpful tips or at least some commiseration. As always, we hope you find this episode remotely interesting.
 
-![](/img/blog/ep-2.png)
+![](/v3/img/blog/ep-2.png)

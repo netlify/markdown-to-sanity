@@ -5,11 +5,11 @@ description: If you're wanting to migrate or import a Next.js project to
 authors:
   - Cassidy Williams
 date: 2021-05-04
-lastmod: 2021-05-04
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - migration
 tweet: ""
 format: blog
@@ -20,8 +20,11 @@ seo:
   metadescription: If you're wanting to migrate or import a Next.js project to
     Netlify, here's a handy guide to get you started!
   metatitle: Migrating an existing Next.js project to Netlify
-  ogimage: /img/blog/migrating.png
+  ogimage: /v3/img/blog/migrating.png
 ---
+
+
+
 Hellloooo!
 
 So, you have a Next.js project that works flawlessly, and you want to put it on Netlify for the first time. Fun! Here's some things you might have to do.
@@ -38,7 +41,7 @@ You'll need a `netlify.toml` file added at the top level of your project to make
 
 You can also do this in the Netlify UI if you don't want to make this file by filling in the build command and publish directory!
 
-![Basic build settings on Netlify, with command npm run build and directory out](/img/blog/screen-shot-2021-05-04-at-4.56.03-pm.png "Basic build settings on Netlify")
+![Basic build settings on Netlify, with command npm run build and directory out](/v3/img/blog/screen-shot-2021-05-04-at-4.56.03-pm.png "Basic build settings on Netlify")
 
 If you aren't using the defaults for your Next.js publish or functions directory, you can change the values here! For example:
 
@@ -69,6 +72,7 @@ Honestly, probably not. Each of these steps are optional, depending on your proj
 
 Been there! Here's a starter project for ya to get going:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=nextmigration-cs&utm_campaign=devex-cs)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=nextmigration-cs&utm_campaign=devex-cs)
 
 (Clicking this button will deploy a Next.js starter project to Netlify, and clone it to your chosen Git provider, PLUS because it's brand new, you can completely ignore the previous parts of this post)
+

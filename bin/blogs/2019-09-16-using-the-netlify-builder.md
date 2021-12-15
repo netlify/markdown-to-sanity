@@ -23,11 +23,11 @@ _code to run in the command line:_
 
 Running this command will walk us through setting up the builder. It first asks for the project API ID or Site ID of your Netlify project. We can find this by going to the project page clicking 'Settings' in the top menu, then 'Site Settings' under the 'General' menu tab (https://app.netlify.com/sites/{your site name}/settings/general#site-information) 
 
-![guide to find the site id in the settings page](/img/blog/app-id.png "site id")
+![guide to find the site id in the settings page](/v3/img/blog/app-id.png "site id")
 
 The next step in the builder setup asks for our Personal Access Token but we don't want to put that in a public file. If we do add it in this setup the builder adds that information to the `angular.json` file.
 
-![an example of the angular.json deploy setting](/img/blog/deploy-angular-json.png "deploy settings")
+![an example of the angular.json deploy setting](/v3/img/blog/deploy-angular-json.png "deploy settings")
 
 We want to avoid ☠️having that sensitive information in a public file that anyone can see. Luckily, the way Santosh set up the builder we don't have to add the Token here, [instead it will check for an environment variable](https://github.com/ngx-builders/netlify-builder/blob/master/command-builder/deploy/index.ts#L33). So, we just hit enter to skip that part.
 
@@ -37,7 +37,7 @@ We want to avoid ☠️having that sensitive information in a public file that a
 
 We want to set the token by using a `process.env` global variable. To find your Netlify Token just head to [your application's token generating page](https://app.netlify.com/user/applications/personal) or click on your avatar, the 'User Settings' option, click 'Applications' in the left menu, then click the 'New access token' button under 'Personal access tokens'. We can type anything that is a good reference for you as the description of your token and click the 'Generate' button.
 
-![finding your token through the Netlify UI](/img/blog/token.png "netlify access token")
+![finding your token through the Netlify UI](/v3/img/blog/token.png "netlify access token")
 
 > NOTE: Make sure you copy the newly created token once it's generated. You can't view it again after you leave that page. You can always create a new one though 😎👍.
 

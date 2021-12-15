@@ -9,13 +9,13 @@ topics:
 tweet: ''
 format: blog
 ---
-![Netlify + Framer](/img/blog/framer_blog_post_-_v22x.png "Netlify + Framer")
+![Netlify + Framer](/v3/img/blog/framer_blog_post_-_v22x.png "Netlify + Framer")
 
 Wondering what would be the best way to share your Framer X prototypes more widely? Netlify offers a great starting point to get your prototypes up and running on the web in just a few seconds.
 
 First, you need to export a [Web Preview on Framer](https://www.framer.com/support/using-framer-x/export-framer-x-project/).
 
-![web preview folder](/img/blog/created-folder.png "web preview folder")
+![web preview folder](/v3/img/blog/created-folder.png "web preview folder")
 
 This will create a new folder containing all your web-ready files that you will be uploading into [Netlify Drop](https://app.netlify.com/drop).
 

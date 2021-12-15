@@ -2,13 +2,13 @@
 title: 'Design Series: Our App''s New Color Palette'
 authors:
   - Rafael Conde
-image: /img/blog/color-palette.png
+image: /v3/img/blog/color-palette.png
 format: blog
 short_title: Netlify App 2.0 Color Palette
 topics:
   - insights
 tags:
-  - design
+  - Design
 description: >-
   Today we are going to address the color palette chosen to paint our
   backgrounds, our buttons, which gives our app it's look and feel.
@@ -29,7 +29,7 @@ We started with the base color, the color of our text, the yin for our `#fff` ya
 
 I remember reading this 5 years ago when I was still day-dreaming about switching from being a programmer to a designer. I have never used `#000`, pure black, in any of my work since. This time wouldn’t be any different.
 
-![Our background's dark blue color](/img/blog/background-color.png)
+![Our background's dark blue color](/v3/img/blog/background-color.png)
 
 We ended up deciding on this dark blue, it works well on a large footprint, like our background header, and it’s dark enough to pass as a very neutral, basic black for text.
 With this basic unit set, we needed a palette of different shades of such color, to provide a larger pool of contrasts and options to play on hierarchy and weights.
@@ -60,7 +60,7 @@ So we decided on our black, our base color, with a 2% opacity over a white backg
 
 Here’s an example of these base colors played with one another:
 
-![Our background header, with card](/img/blog/header-example.png)
+![Our background header, with card](/v3/img/blog/header-example.png)
 
 ## Just a splash of color
 
@@ -74,7 +74,7 @@ Picking these was very easy to me thanks to the wonderful work from my partner i
 
 I only had to get some stronger darker shades of our colors for specific elements, because a completely filled green button behaves very different from a thin block of text with the same color.
 
-![example of difference between using a color for background or text](/img/blog/contrast.png)
+![example of difference between using a color for background or text](/v3/img/blog/contrast.png)
 
 So we only ended up needing three main colors:
 
@@ -82,11 +82,11 @@ So we only ended up needing three main colors:
 * Red: to communicate **Destruction**, **Dangerous actions**, **Non-reversible actions**;
 * Our Gold: to communicate an **Upgrade**, **exclusive content/actions**, **limited offers**, **something new**;
 
-![Our final color palette](/img/blog/color-palette.png)
+![Our final color palette](/v3/img/blog/color-palette.png)
 
 In Sketch, by adding this palette to our Document’s Colors, makes it so easy to detect when something is *off* (because the selected color gets highlighted in the grid), and makes it so fast to get in, pick the right color, and get out.
 
-![Palette in Sketch](/img/blog/sketch picker.png)
+![Palette in Sketch](/v3/img/blog/sketch picker.png)
 
 ---
 

@@ -10,9 +10,9 @@ lastmod: 2020-07-21
 topics:
   - news
 tags:
-  - netlify
+  - Netlify
   - pricing
-  - product
+  - Product
   - news
 tweet: ""
 format: blog
@@ -22,7 +22,7 @@ relatedposts:
 seo:
   metatitle: See Netlify's Expanded Pricing Options - More Value for Devs and Enterprises
   metadescription: Get insights into Netlify's newly expanded pricing options that offer more value for developers and enterprise teams. Learn more about our monthly plans, the features, and more here.
-  ogimage: /img/blog/netlify-pricing-blog.png
+  ogimage: /v3/img/blog/netlify-pricing-blog.png
 ---
 At Netlify, we’ve pushed hard to make web infrastructure both simpler to reason about and less expensive to scale. And, [the simplicity of the Jamstack](https://www.netlify.com/jamstack/) is how we’ve believed the web should work. Today we’re excited to launch new, simplified pricing that we hope will make our services even more accessible. Now you can get all our [Pro](http://www.netlify.com/pricing/pro/) features for as little as $19/month and we’re launching a brand new [Business](http://www.netlify.com/pricing/business/) plan that starts at just $99/month. Importantly, now you have a full range of simple plans, priced per team member so you never have to buy more than your team needs.
 
@@ -53,7 +53,7 @@ Here’s the breakdown of [Netlify’s new pricing structure](https://www.netlif
 
 **[Enterprise](https://www.netlify.com/enterprise/)** – Finally, Netlify’s Enterprise plan is a custom plan that we design with you, for your organization. It includes all of the features and infrastructure in the Business plan, the mix of seats and high performance Build and Edge products you need, plus custom contract invoicing, early help with validating your architecture as you get started, and ongoing contact with your designated account manager.
 
-![netlify pricing plans](/img/blog/netlify-pricing-cards-blog.png "netlify pricing plans")
+![netlify pricing plans](/v3/img/blog/netlify-pricing-cards-blog.png "netlify pricing plans")
 
 ## New features for Business and Enterprise
 
@@ -67,7 +67,7 @@ For those who are new to the Business and Enterprise plans, you will get full ac
 
 Today we announce support for self-hosted GitHub Enterprise and GitLab implementations. This means you can now connect your site to a repository on a self-hosted GitHub Enterprise or GitLab server and get full access to Netlify’s workflow and features.
 
-![self-hosted github or gitlab repo setup](/img/blog/netlify-self-hosted-git.png "self-hosted github or gitlab repo setup")
+![self-hosted github or gitlab repo setup](/v3/img/blog/netlify-self-hosted-git.png "self-hosted github or gitlab repo setup")
 
 You can [learn more about self-hosted GitHub and GitLab on our blog](https://www.netlify.com/blog/2020/07/21/unlock-jamstack-for-enterprise-web-apps-with-self-hosted-git-repos/).
 

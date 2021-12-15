@@ -7,7 +7,7 @@ const slugify = require('slugify')
 const sanityClient = require('@sanity/client')
 const client = sanityClient({
   projectId: 'o0o2tn5x',
-  dataset: 'import-blog-authors',
+  dataset: 'import-blog-data',
   token: 'skzLDOzsYekJMYFTuNYyRk0hg87larhePKf69j3VceHU3WRLss96QULMVGsHyddihDsbleK4k5u1XCPqKb9I5quqHxKNLDG5Z6Y0YPwD0gaGCYtMwZC0mix6bcMHFEqIoVvM5lb2Xb7kStkjx8sE9JPDVlAaNrnVf3Fj1w1fISFdW2pOKNU5', 
 })
 
@@ -153,7 +153,7 @@ async function convertToSanityDocument({data = {}, contents}) {
   if(seo && seo.ogimage) {
     doc.seofields.ogimage = {
       "_type": "image",
-      "_sanityAsset": seo && seo.ogimage ? `image@file:///Users/huguestennier/Sites/netlify/marketing-cms${seo.ogimage}` : '',
+      "_sanityAsset": seo && seo.ogimage ? `image@file:///Users/sam/Documents/Netlify/Code/markdown-to-sanity${seo.ogimage}` : '',
     }
   }
 

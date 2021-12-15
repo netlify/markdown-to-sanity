@@ -23,9 +23,9 @@ seo:
   metadescription: "Enjoy a unified development workflow for your UI and your API.
     And deploy as many functions as you like, as frequently as you like. Just
     like you would the rest of your site. "
-  ogimage: /img/blog/netlify-functions-post-og.png
+  ogimage: /v3/img/blog/netlify-functions-post-og.png
 ---
-[![Unrivaled serverless workflows - Examples, Tutorials, and Playground](/img/blog/netlify-functions-unrivaled.png "Unrivaled serverless workflows - Examples, Tutorials, and Playground")](https://functions.netlify.com)
+[![Unrivaled serverless workflows - Examples, Tutorials, and Playground](/v3/img/blog/netlify-functions-unrivaled.png "Unrivaled serverless workflows - Examples, Tutorials, and Playground")](https://functions.netlify.com)
 
 The development workflow provided by Netlify is becoming second nature to many web developers:
 
@@ -58,7 +58,7 @@ Write it. Push it. [It's done](https://twitter.com/Netlify/status/13624405456044
 
 If the default source folder for your serverless functions doesn't suit your needs, that's no problem. Zero-config shouldn't mean forcing you to adopt our defaults. At Netlify, we know that it is important for you to have the flexibility to work how it suits you.
 
-![A screenshot of the Netlify site admin. Showing the Functions Directory option in the Deploy Settings](/img/blog/functions-folder-ui.jpg "Functions settings")
+![A screenshot of the Netlify site admin. Showing the Functions Directory option in the Deploy Settings](/v3/img/blog/functions-folder-ui.jpg "Functions settings")
 
 To define a custom folder path where your functions will live, all you need to do is add one line to your `netlify.toml` file or specify a folder through your site's deploy settings. This will tell Netlify where to find your serverless functions for deployment.
 

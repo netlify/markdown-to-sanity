@@ -9,8 +9,8 @@ lastmod: 2020-07-09
 topics:
   - tutorials
 tags:
-  - build plugins
-  - build
+  - Build Plugins
+  - Build
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ seo:
     we'll go over how to share your lovely new build plugins and find other
     plugins to utilize within the community!
   metatitle: "What's a Netlify Build Plugin Series: Part 3 - Sharing Build Plugins"
-  ogimage: /img/blog/plugins-og-25.png
+  ogimage: /v3/img/blog/plugins-og-25.png
 ---
 This is part 3 of a series on [Netlify Build Plugins](https://docs.netlify.com/configure-builds/build-plugins/) where we'll publish, share, and discover Build Plugins. If you've been following along, welcome back! If this is your introduction to the series, welcome! Let me fill you in on each part of the series. Here's the breakdown:
 
@@ -63,7 +63,7 @@ Using [npm](https://www.npmjs.com/) we can add the Build Plugin to the ecosystem
 
 > 🧐 Each time we publish new updates we'll need to [update the version](https://docs.npmjs.com/about-semantic-versioning) of that package beforehand using `npm version <patch | minor | major>`.
 
-![output of the publish commands](/img/blog/publish.jpg)
+![output of the publish commands](/v3/img/blog/publish.jpg)
 
 With that the plugin will be available to be used by the masses.
 

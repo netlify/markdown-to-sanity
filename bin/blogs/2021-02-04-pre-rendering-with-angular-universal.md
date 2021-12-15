@@ -43,7 +43,7 @@ This command will add Angular Universal by adding a few files to manage the new 
 
 Running the `prerender` command will build out the project then use [guess-parser](https://www.npmjs.com/package/guess-parser) to guess the application routes. Each of these routes is pre-rendered in HTML and that HTML file is saved in its own directory in `dist/<project name>/browser/`.
 
-![pre-rendered assets file structure](/img/blog/pre-render-file-struct.jpg "pre-rendered assets file structure")
+![pre-rendered assets file structure](/v3/img/blog/pre-render-file-struct.jpg "pre-rendered assets file structure")
 
 ## Netlify to Make it Live
 
@@ -72,7 +72,7 @@ This project already had a [`netlify.toml` configuration file](https://docs.netl
 
 If the [Netlify CLI](https://docs.netlify.com/cli/get-started/?utm_source=blog&utm_medium=au-prerender-tzm&utm_campaign=devex) isn't already installed, we'll do that now. Once it's installed we can run `netlify init` to hook it up to a Netlify account and deploy it. With that setup, any time we push new code a deploy will be triggered. The `netlify open` command will open a browser window showing the project dashboard. Once the project is built we can open the browser dev tools and [throttle the connection](https://css-tricks.com/throttling-the-network/) or [disable JavaScript](https://developers.google.com/web/tools/chrome-devtools/javascript/disable) to see how quickly the pre-rendered content still gets served.
 
-![screenshot of final site homepage](/img/blog/final-site.jpg "final site homepage")
+![screenshot of final site homepage](/v3/img/blog/final-site.jpg "final site homepage")
 
 > 📓 To learn more about the deployment options for Angular, I've made [this blog post](https://www.netlify.com/blog/2019/09/23/first-steps-using-netlify-angular/?utm_source=blog&utm_medium=au-prerender-tzm&utm_campaign=devex) just for you (and everyone else).
 

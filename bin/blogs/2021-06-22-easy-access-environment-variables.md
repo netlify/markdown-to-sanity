@@ -28,11 +28,11 @@ I have definitely gone through both of these scenarios and possibly, you have to
 
 There are three different ways we can set these variables for Netlify projects. My go-to is via the project dashboard in 'Site settings > Build & deploy > Environment > Environment variables'. These variables can be edited and removed with a click of a button.
 
-![project dashboard list of environment variable](/img/blog/screen-shot-2021-06-22-at-1.42.49-pm.jpg "project dashboard list of environment variable")
+![project dashboard list of environment variable](/v3/img/blog/screen-shot-2021-06-22-at-1.42.49-pm.jpg "project dashboard list of environment variable")
 
 The same approach can be made in team settings to make environment variables available to all of your projects. This is super handy for information that needs to be shared across multiple projects but they can also be overwritten at the site level. This can be set in the team settings, 'Team settings > Sites > Global site settings > Shared environment variables'.
 
-![team settings dashboard](/img/blog/screen-shot-2021-06-22-at-10.31.49-pm.jpg "team settings dashboard")
+![team settings dashboard](/v3/img/blog/screen-shot-2021-06-22-at-10.31.49-pm.jpg "team settings dashboard")
 
 Thirdly, if the variables we want to add aren't private infrormation, we can set environment variables in the [Netlify configurations file,`netlify.toml`](https://ntl.fyi/3xI8GiF)(this file gets committed so no privacy here!). The variables can be set to different [deploy contexts](https://ntl.fyi/3gUYY63) and this file will override anything set in the UI. Here's an example of what that might look like:
 

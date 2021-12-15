@@ -3,7 +3,7 @@
 title: Hosting Hugo on Netlify–Insanely Fast Deploys
 authors:
   - Matt Biilmann
-image: /img/blog/hugo-speed.jpg
+image: /v3/img/blog/hugo-speed.jpg
 format: blog
 short_title: Hugo Available on Netlify
 description: "From push to GitHub, until a new deploy is live on our CDN in 6 seconds for our test project!"
@@ -11,9 +11,9 @@ thumbnail: thumbnails/hugo-logo-small.png
 cmsUserSlug: hugo-on-netlify-insanely-fast-deploys
 date: 2015-07-30
 tags:
-  - news
-  - hugo
-  - go
+  - News
+  - Hugo
+  - Go
 topics:
   - news
 ---
@@ -38,7 +38,7 @@ The average time from push to eg. GitHub, until a new deploy is live on our CDN 
 
 Setting up continuous deployment for a Hugo project is straight forward, here's the settings for our test site:
 
-![Hugo Netlify Configuration](/img/blog/hugo-configuration.png)
+![Hugo Netlify Configuration](/v3/img/blog/hugo-configuration.png)
 
 We've simply set the build command to `hugo` to track the latest `hugo` release, but if you want to make sure future `hugo` releases won't cause problems for your build, just choose `hugo_0.14` as your build command.
 

@@ -8,11 +8,11 @@ tweet: >-
 topics:
   - tools
 tags:
-  - gatsby
-  - hugo
-  - cms
+  - Gatsby
+  - Hugo
+  - CMS
   - templates
-  - jamstack
+  - Jamstack
 format: blog
 description: >-
   We’ve started a collection of quick-start website project templates. Whether
@@ -25,7 +25,7 @@ Whether you are kicking off a new web project or just want to explore a new stat
 
 Yep. We think so. That’s why we’ve started a collection of quick-start project [templates](https://templates.netlify.com/tags/serverless).
 
-![A template page showing a Gatsby template on templates.netlify.com](/img/blog/templates-page-screenshot.jpg)
+![A template page showing a Gatsby template on templates.netlify.com](/v3/img/blog/templates-page-screenshot.jpg)
 
 ## What’s inside Netlify’s free website templates?
 
@@ -47,7 +47,7 @@ Click the Deploy to Netlify button.
 
 That’s it. You’re done.
 
-![An example of a Deploy to Netlify button](/img/blog/dtn-button.png)
+![An example of a Deploy to Netlify button](/v3/img/blog/dtn-button.png)
 
 
 A Deploy to Netlify button is a pointer to a repository. When you click one, it:

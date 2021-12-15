@@ -9,8 +9,7 @@ description: Last August 22nd our main load balancer was impacted by a DDoS atta
 cmsUserSlug: ""
 date: 2016-08-23
 tags:
-  - ddos
-  - learning review
+  - DDoS
 topics:
   - insights
 ---

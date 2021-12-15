@@ -12,7 +12,7 @@ topics:
 tags:
   - Build Plugins
   - Gatsby
-  - NextJS
+  - Next.js
   - Performance
   - Accessibility
 tweet: ""
@@ -21,7 +21,7 @@ relatedposts:
   - Netlify Build Plugins Are Here!
   - "What's a Netlify Build Plugin Series: Part 1 - Using Build Plugins"
 seo:
-  ogimage: /img/blog/plugins-og-37.png
+  ogimage: /v3/img/blog/plugins-og-37.png
   metadescription: Netlify recently announced Build Plugins which allows
     developers to customize the build process with one click from the UI. Check
     out this list of the top 10 most popular Build Plugins by installs.

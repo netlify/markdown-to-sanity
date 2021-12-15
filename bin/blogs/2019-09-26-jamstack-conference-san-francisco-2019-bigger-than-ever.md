@@ -9,7 +9,7 @@ date: '2019-09-26'
 topics:
   - news
 tags:
-  - JAMstack
+  - Jamstack
   - Events
 tweet: ''
 format: blog
@@ -19,7 +19,7 @@ relatedposts:
 ---
 One year and 2 additional conference dates after the [inaugural JAMstack conference](https://2018.jamstackconf.com) in San Francisco last year, we’ll be returning with [another edition](https://jamstackconf.com/sf), and we think it might be the best one yet.
 
-![JAMstack_conf stage banner](/img/blog/jamstack_conf_banner_photo_1.jpg)
+![JAMstack_conf stage banner](/v3/img/blog/jamstack_conf_banner_photo_1.jpg)
 
 The plan had been to hold the conference once a year in San Francisco. But after last year’s conference, the [JAMstack community](http://jamstackconf.com/slack) around the world spoke up, and so we added [New York](https://2019.jamstackconf.com/nyc) and [London](https://2019.jamstackconf.com/london) to the conference calendar. Both were amazing, with an increasingly enthusiastic and informed audience. And both have fed into the energy and anticipation of [JAMstack_conf San Francisco 2019](http://2019.jamstackconf.com/sf).
 

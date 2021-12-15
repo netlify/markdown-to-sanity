@@ -9,9 +9,9 @@ lastmod: 2021-05-24
 topics:
   - tutorials
 tags:
-  - react
+  - React
   - feature flags
-  - create-react
+  - create-react-app
   - "LaunchDarkly"
 relatedposts:
   - "What is React Fast Refresh?"
@@ -21,7 +21,7 @@ format: blog
 seo:
   metadescription: Learn how to combine the powers of feature flags and React in this tutorial, using create-react-app or Vite, the LaunchDarkly SDK, and Netlify.
   metatitle: "Tutorial: How to add feature flags to your React apps with LaunchDarkly"
-  ogimage: /img/blog/og-ld-react.png
+  ogimage: /v3/img/blog/og-ld-react.png
 ---
 
 Hello!
@@ -58,7 +58,7 @@ Because we're using React, make sure you check "SDKs using Client-side ID"! Now 
 
 Your Flag should generally look like this before you create it:
 
-![LaunchDarkly: create a feature flag](/img/blog/pokemonldscreenshot.png "LaunchDarkly: create a feature flag")
+![LaunchDarkly: create a feature flag](/v3/img/blog/pokemonldscreenshot.png "LaunchDarkly: create a feature flag")
 
 Woo hoo! You don't have to toggle that on just yet.
 

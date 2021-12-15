@@ -12,7 +12,7 @@ topics:
   - insights
 tags:
   - netlifolks
-  - team
+  - teams
   - business development
 tweet: ""
 format: blog
@@ -29,7 +29,7 @@ seo:
 As we celebrate Black History Month, we want to highlight some of our amazing team members to amplify their voices during this critical month. Meet Reesa, Business Development Representative at Netlify.
 
 <div style="max-width: 400px; margin: 0 auto; text-align: center;">
-  <img src="/img/blog/reesa-netlify.jpeg" alt="Reesa Hylton, BD Rep featured headshot image" />
+  <img src="/v3/img/blog/reesa-netlify.jpeg" alt="Reesa Hylton, BD Rep featured headshot image" />
 </div>
 
 **What was your path to Netlify and what were your first impressions of the company?**

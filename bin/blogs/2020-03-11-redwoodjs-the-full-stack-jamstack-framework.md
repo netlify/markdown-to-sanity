@@ -22,7 +22,7 @@ seo:
   metadescription: >-
     Do you love the JAMstack philosophy but need a database-backed web app? RedwoodJS is here! Built on React, GraphQL, and Prisma, Redwood works with the components and development workflow you already love.
   metatitle: Learn About RedwoodJS the Full-stack JAMstack Framework
-  ogimage: /img/blog/redwood-js.jpeg
+  ogimage: /v3/img/blog/redwood-js.jpeg
 ---
 The logical next step in the maturation of the [JAMstack movement](https://www.netlify.com/jamstack/) is for frameworks to extend beyond static site generators into full-stack frameworks. By having a stronger opinion on technologies used from frontend-to-backend, you can build in a quantum leap in developer experience for JAMstack apps.
 
@@ -52,4 +52,4 @@ For React developers in particular, two innovations are worth highlighting:
 
 If you're looking to get a glimpse of the future of JAMstack, you should definitely check out [RedwoodJS](https://redwoodjs.com/).
 
-[![RedwoodJS logo](https://www.netlify.com/img/blog/redwood-js.jpeg)](http://redwoodjs.com/)
+[![RedwoodJS logo](https://www.netlify.com/v3/img/blog/redwood-js.jpeg)](http://redwoodjs.com/)

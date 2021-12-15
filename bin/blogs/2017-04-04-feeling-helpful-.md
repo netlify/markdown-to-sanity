@@ -2,13 +2,13 @@
 title: Feeling Helpful?
 authors:
   - Chris McCraw
-image: /img/blog/pair.jpg
+image: /v3/img/blog/pair.jpg
 format: blog
 short_title: Feeling Helpful?
 topics:
   - news
 tags:
-  - support
+  - Support
 description: We're looking for another support engineer to join our team!
 date: 2017-04-04T15:43:44.699Z
 ---

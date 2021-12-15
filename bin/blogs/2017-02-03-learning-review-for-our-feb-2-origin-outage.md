@@ -2,7 +2,7 @@
 title: Learning Review for our Feb 2 Origin Outage
 authors:
   - Matt Biilmann
-image: /img/blog/Cover-Photo.png
+image: /v3/img/blog/Cover-Photo.png
 format: blog
 short_title: Learning Review Feb 2
 description: Background and preventive measures for our Feb 2 Origin Outage

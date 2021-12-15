@@ -2,13 +2,13 @@
 title: Selective Password Protection
 authors:
   - Chris McCraw
-image: /img/blog/lockedunlocked.jpg
+image: /v3/img/blog/lockedunlocked.jpg
 format: blog
 short_title: Selective Password Protection
 topics:
   - tutorials
 tags:
-  - deploys
+  - Deploys
 description: How to set up Password protection for specific deploys
 date: 2017-04-07T07:00:00.000Z
 ---

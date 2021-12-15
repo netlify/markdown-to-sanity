@@ -16,7 +16,7 @@ seo:
   metatitle: Wrapping up Blogvent 2020!
   metadescription: We posted a lot on the Netlify blog this month. Take a look at
     the Blogvent posts you might have missed!
-  ogimage: /img/blog/blogvent21.png
+  ogimage: /v3/img/blog/blogvent21.png
 ---
 We've had a long month of blogging this month here! It was my goal to write a post every day, and phew, we got it done.
 

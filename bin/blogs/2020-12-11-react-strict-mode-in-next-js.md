@@ -5,11 +5,11 @@ description: Learn what React Strict Mode is, and how to implement it across
 authors:
   - Cassidy Williams
 date: 2020-12-11
-lastmod: 2020-12-11
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -20,7 +20,7 @@ seo:
   metadescription: Learn what React Strict Mode is, and how to implement it across
     your Next.js applications!
   metatitle: React Strict Mode in Next.js
-  ogimage: /img/blog/blogvent11.png
+  ogimage: /v3/img/blog/blogvent11.png
 ---
 Welcome to Blogvent, day 11!
 
@@ -69,6 +69,6 @@ module.exports = {
 
 That's it! If you'd like to try it yourself, here's a starter application to get going:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=nextstarterstrictmode-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=nextstarterstrictmode-cs&utm_campaign=devex)
 
 (Clicking this button will deploy a Next.js starter project to Netlify, and clone it to your chosen Git provider)

@@ -8,7 +8,7 @@ lastmod: 2021-03-17
 topics:
   - insights
 tags:
-  - vuejs
+  - Vue
   - composition-api
 tweet: ""
 format: blog
@@ -17,7 +17,7 @@ relatedposts:
 seo:
   metatitle: "Choosing Between Ref and Reactive with Vue 3's Composition API"
   metadescription: An opinionated perspective on whether you should use ref or reactive in Vue 3's Composition API.
-  ogimage: /img/blog/og-ref-vs-reactive.png
+  ogimage: /v3/img/blog/og-ref-vs-reactive.png
 ---
 
 When working with Vue 3's Composition API, a common question that often comes up when working with reactive data is: "Should I use ref or reactive?"

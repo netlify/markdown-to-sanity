@@ -12,9 +12,9 @@ lastmod: 2020-04-28T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - stripe
-  - tutorial
-  - ecommerce
+  - Stripe
+  - Tutorial
+  - E-commerce
 tweet: ""
 format: blog
 relatedposts:
@@ -64,7 +64,7 @@ Keep the SKU handy, because we’ll need it in a minute.
 
 Next, we need our Stripe publishable key, which tells Stripe which account the donations should be sent to. Go to [your API keys](https://dashboard.stripe.com/test/apikeys) and copy the publishable key.
 
-![API keys section of the Stripe dashboard](/img/blog/stripe-api-keys.png)
+![API keys section of the Stripe dashboard](/v3/img/blog/stripe-api-keys.png)
 
 ## Add a button to your site
 
@@ -169,7 +169,7 @@ Start the site locally using `npx serve src` or your preferred server utility, t
 
 Alternatively, you can [deploy the site to Netlify](https://docs.netlify.com/#get-started) and see it running live!
 
-![Stripe Donation Page](/img/blog/stripe-donation-workflow.png)
+![Stripe Donation Page](/v3/img/blog/stripe-donation-workflow.png)
 
 Pay using one of Stripe’s [test credit cards](https://stripe.com/docs/testing#cards) and you’ll be redirected to the success page.
 

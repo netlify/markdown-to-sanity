@@ -3,7 +3,7 @@
 title: Serverless JAM - A Serverless Framework Tutorial (Part 2)
 authors:
   - Cassio Zen
-image: /img/blog/sls-beer-header.jpg
+image: /v3/img/blog/sls-beer-header.jpg
 format: blog
 short_title: Serverless JAM Tutorial Part 2
 description: This is part two of a tutorial about the Serverless Framework - In this part we will create custom lambda functions for “Serverless Beer”, a (fictitious) craft beer company.
@@ -11,9 +11,9 @@ thumbnail: /img/posts/thumbnails/serverless.png
 cmsUserSlug: ""
 date: 2016-10-13
 tags:
-  - hugo
-  - serverless
-  - jamstack
+  - Hugo
+  - Serverless
+  - Jamstack
 topics:
   - tutorials
 ---
@@ -24,7 +24,7 @@ Sometimes, though, we still need some custom tailored piece of backend functiona
 
 In part two we will create two custom functions for the “Serverless Beer” site. Serverless Beer is a (fictitious) craft beer company. There is already a JAMstack site in place but we want to add a rating feature using AWS Lambda — users will be able to rate the products and the site will display the average rating for each.
 
-![Serverless Beer site](/img/blog/sls-site.gif)
+![Serverless Beer site](/v3/img/blog/sls-site.gif)
 
 
 
@@ -522,7 +522,7 @@ var apiURL = "https://[your-url]/beer/rating";
 
 Great, we are already displaying the average rating for each beer:
 
-![Beer with description and star rating](/img/blog/sls-beer-bock.png)
+![Beer with description and star rating](/v3/img/blog/sls-beer-bock.png)
 
 Finally, let’s handle the user input and save his own rating:
 

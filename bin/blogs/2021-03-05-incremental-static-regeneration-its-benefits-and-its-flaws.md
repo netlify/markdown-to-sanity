@@ -10,10 +10,10 @@ topics:
   - insights
 tags:
   - popular
-  - nextjs
-  - functions
+  - Next.js
+  - Functions
   - rollbacks
-  - deploys
+  - Deploys
 tweet: ""
 format: blog
 relatedposts:
@@ -24,7 +24,7 @@ seo:
   metadescription: There are some awesome pros and some serious cons to using
     incremental static regeneration in your projects.
   metatitle: "Incremental Static Regeneration: Its Benefits and Its Flaws"
-  ogimage: /img/blog/isrog.png
+  ogimage: /v3/img/blog/isrog.png
 ---
 Right now there are a lot of hot takes out there about how to improve and scale sites "beyond Jamstack" by adding in features that use a Node server. One of those features is called Incremental Static Regeneration.
 
@@ -41,11 +41,11 @@ First of all, we should talk about what happens when you build Jamstack sites, a
 
 You can almost think of this as state-driven development. Every single deploy is a new state of your application or site.
 
-![Atomic deploys, the latest deploy is the live deploy](/img/blog/atomic-star.gif "Atomic deploys, the latest deploy is the live deploy")
+![Atomic deploys, the latest deploy is the live deploy](/v3/img/blog/atomic-star.gif "Atomic deploys, the latest deploy is the live deploy")
 
 If you were to make a mistake on your site, let's say you broke prod, you deployed the wrong brand colors, or you mixed up some copy, you can [instantly rollback](https://docs.netlify.com/site-deploys/manage-deploys/#rollbacks) to a previous deploy without having to wait for a new build, because that version of your site exists in space. It's why it works so well with Git, it's similar to reverting a commit.
 
-![Instant rollbacks mean you can choose any built deploy to go live at any time](/img/blog/rollback-star.gif "Instant rollbacks mean you can choose any built deploy to go live at any time")
+![Instant rollbacks mean you can choose any built deploy to go live at any time](/v3/img/blog/rollback-star.gif "Instant rollbacks mean you can choose any built deploy to go live at any time")
 
 I won't get into the details of the perks of pre-rendering all of your pages, but if you'd like to read more about that, you can check out more information on [Jamstack.org](https://jamstack.org/what-is-jamstack/).
 
@@ -59,7 +59,7 @@ When you deploy a site with ISR enabled, you deploy a (mostly) static site. You 
 
 Typically when you have a server-side rendered (SSR) page that is one of these unbuilt pages, your users have to wait for the page to be built and served all at once. But in the case of ISR, if your users hit that route, they get a *fallback page*. A fallback page is a placeholder for the actual content that will be on that page, and you can have skeleton components in place until data is built and loaded. Once that data has been resolved, that page is cached, added to the rest of the site's bundle, and the next user of your page will see the built page. If the data needs to update, the user will see that cached version instead of the fallback, and the site can set a *revalidate timeline* so that it can revalidate and update data regularly when your users hit the page.
 
-![Incremental static regeneration adds new pages to the latest deploy and caches them separately](/img/blog/isr-star.gif "Incremental static regeneration adds new pages to the latest deploy and caches them separately")
+![Incremental static regeneration adds new pages to the latest deploy and caches them separately](/v3/img/blog/isr-star.gif "Incremental static regeneration adds new pages to the latest deploy and caches them separately")
 
 Each of the new blocks in this diagram is a new page that is built at runtime and added to the "stack."
 
@@ -71,7 +71,7 @@ There's a few flaws in ISR that you might want to consider before going all-in o
 
 When you have a user come to your page, you want them to see the most up-to-date version, immediately. With ISR the first visitor to a page will not see that. They will always see a fallback first. And then later, if the data gets stale, the first visitor to see that cached page will see the out-of-date data first before it revalidates. Once again, this inconsistent experience can be pretty difficult to debug if your users experience negative side-effects as a result of old/unbuilt pages.
 
-![Pages can get stale, but they'll stay deployed](/img/blog/stale-star.gif "Pages can get stale, but they'll stay deployed")
+![Pages can get stale, but they'll stay deployed](/v3/img/blog/stale-star.gif "Pages can get stale, but they'll stay deployed")
 
 Remember the whole section up there of atomic and immutable deployment? ISR, unfortunately, breaks that model. By adding extra pages to your bundle, rollbacks can no longer be instant, and you no longer have that single new version of your site when you update your content.
 
@@ -79,7 +79,7 @@ Let's say you build a site that has a bunch of products for sale, and each of th
 
 If you rollback your site to a different deploy, because your page is cached separately from the bundle, it could exist in a different state for your user than expected. It could be the old version of the site, the new version, or some funky in-between cached version trying to revalidate itself. And unfortunately, debugging this is difficult, because different users (and the dev team!) would see different pages, and it might be difficult to duplicate.
 
-![ISR means that you can rollback, but the stale/separately cached pages will stay live](/img/blog/rollbackisr-star.gif "ISR means that you can rollback, but the stale/separately cached pages will stay live")
+![ISR means that you can rollback, but the stale/separately cached pages will stay live](/v3/img/blog/rollbackisr-star.gif "ISR means that you can rollback, but the stale/separately cached pages will stay live")
 
 Notice how in this graphic, the pages that are cached separately stick around with their nice big checkmarks, while the rolled-back page is no longer the shipped deploy. If the users navigate to those cached routes, they might see out-of-date data.
 

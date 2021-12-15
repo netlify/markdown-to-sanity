@@ -4,7 +4,7 @@ draft: true
 title: "A Step-by-Step: Hexo Netlify CMS"
 authors:
   - Jimmi Lee
-image: /img/blog/null
+image: /v3/img/blog/null
 format: blog
 short_title: Hexo Netlify CMS Template
 description: "A short tutorial about setting up Netlify's hexo-netlify-cms template"
@@ -61,7 +61,7 @@ We'll begin by forking our own copy of the [hexo-netlify-cms template](https://g
 
 Before we can make a local clone, we need to get the remote GitHub URL from the repository we created. The button looks like this:
 
-![netlify0x_remoteurl_but.png](/img/blog/netlify0x_remoteurl_but.png)
+![netlify0x_remoteurl_but.png](/v3/img/blog/netlify0x_remoteurl_but.png)
 
 The commands below first take us to the location where we want to put our new hexo based site and the second command uses Git to create the clone:
 
@@ -187,20 +187,20 @@ If you haven't made one already, create an account and login at [netlify](https:
 
 Creating a new site on Netlify is intuitive and quick.
 
-![netlify New Site](/img/blog/newsitebut.png)
+![netlify New Site](/v3/img/blog/newsitebut.png)
 
 Once your account is created and you're logged in, you’ll be taken to https://app.netlify.com/sites. Click the *"New Site"* button to get started (depicted above).
 
 Next, select *Link to GitHub* and you'll be shown a list of your GitHub repositories, as seen in the screen shot below. We'll select the hexo-netlify-cms-demo repository we made earlier.
-![netlify0x_chooserepo.png](/img/blog/netlify0x_chooserepo.png)
+![netlify0x_chooserepo.png](/v3/img/blog/netlify0x_chooserepo.png)
 
 ### 2. Configure Build
 Netlify will auto-detect the correct settings as seen in the screen shot below:
-![hexo_webconfig.png](/img/blog/hexo_webconfig.png)
+![hexo_webconfig.png](/v3/img/blog/hexo_webconfig.png)
 Hexo deploys to the */public* folder and the command we use to build with is `hexo generate`.
 
 To make sure the production environment builds properly you need to set an environment variable like this:
-![Netlify0x_environmentcms_envpro.png](/img/blog/netlify0x_environmentcms_envpro.png)
+![Netlify0x_environmentcms_envpro.png](/v3/img/blog/netlify0x_environmentcms_envpro.png)
 Take care that it's spelled exactly like shown, with capital letters on the left and normal letters to the right or use the following (copy/paste):
 
 ```
@@ -209,7 +209,7 @@ CMS_ENV = production
 
 ### 3: Build Your Site
 Once you click save, Netlify will step in and take over, though it will let you know what's happening along the way, as seen in this screen shot:
-![hexo_bulidlog.png](/img/blog/hexo_bulidlog.png)
+![hexo_bulidlog.png](/v3/img/blog/hexo_bulidlog.png)
 
 Taking a short break now might make sense, as the next step may take as much as a few minutes (depending on how much content you've added). Don't worry — Netlify will do the work while your attention is elsewhere and if there are errors or warnings, it's easy to look in the log file, as Netlify saves your previous builds, along with their log files.
 
@@ -218,14 +218,14 @@ Open up the [GitHub developer application screen](https://github.com/settings/de
 Next fill out the application information as seen in the screen shot below — you can name and describe it however you want, but it is important that you use the exact URL for the Authorization callback like this: `https://api.netlify.com/auth/done`
 Use the screen shot below as an example:
 
-![registernewapplication.png](/img/blog/registernewapplication.png)
+![registernewapplication.png](/v3/img/blog/registernewapplication.png)
 
 You can disregard choosing an image, though we did, to help distinguish the application.
 Just remember to tick `enable GitHub`.
 
 Once you're done filling out, simply click the green **Register application** button and you will get to the following screen shot (well, it will be similar at least):
 
-![netlify0x_registerapp2.png](/img/blog/netlify0x_registerapp2.png)
+![netlify0x_registerapp2.png](/v3/img/blog/netlify0x_registerapp2.png)
 
 What you need to take note of here, is the **Client ID** and the **Client Secret** in the upper right corner. You will need to provide both in the next step!
 
@@ -234,7 +234,7 @@ Return to Netlify and the site you just build and in the control panel select th
 
 This is where we give the GitHub Api access to our site with the application we just registered and you need to enter the **Client ID** and the **Client Secret** from above, as seen in the screen shot below:
 
-![githubaccess.png](/img/blog/githubaccess.png)
+![githubaccess.png](/v3/img/blog/githubaccess.png)
 
 Simply paste them into the windows where it says *enter Client ID here* and below where it says *enter Client Secret here* and you're good to go. Remember to tick *'enable GitHub'*.
 
@@ -242,7 +242,7 @@ Simply paste them into the windows where it says *enter Client ID here* and belo
 We tried testing the CMS system locally earlier in this guide and it's virtually the same using it online, you just have to change the address to **https://mysite.netlify.com/admin** (change to the URL of your site and add */admin* to the end) to access the CMS system and then log in with your GitHub account, since we're using GitHub auth when working online.
 
 In the screen shot below, you can see how it should look, after you log into the Netlify CMS part of our new demonstration page:
-![hexo_netlifycms.png](/img/blog/hexo_netlifycms.png)
+![hexo_netlifycms.png](/v3/img/blog/hexo_netlifycms.png)
 
 Hexo is a very pleasant static site generator and with Netlify CMS it's easily accessible, once you've done a bit of tweaking and well worth half an hour of your time.
 

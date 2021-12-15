@@ -9,7 +9,7 @@ topics:
 tags:
   - Netlify Dev
   - Tools
-  - Products
+  - Product
 tweet: ''
 format: blog
 ---

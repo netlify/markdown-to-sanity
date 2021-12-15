@@ -9,7 +9,7 @@ date: '2019-02-20'
 topics:
   - sites
 tags:
-  - JAMstack
+  - Jamstack
   - Tools
   - Vue
   - SSG
@@ -22,7 +22,7 @@ Gridsome is a static site generator which borrows many conventions and approache
 
 It also articulates some of the benefits of a JAMstack architecture very well.
 
-![Gridsome.org screenshot](/img/blog/gridsome.jpg "Gridsome")
+![Gridsome.org screenshot](/v3/img/blog/gridsome.jpg "Gridsome")
 
 👉[**gridsome.org**](https://gridsome.org/)
 

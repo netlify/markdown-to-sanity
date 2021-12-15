@@ -21,7 +21,7 @@ relatedposts:
 seo:
   metatitle: How The COVID Tracking Project Scaled From 0 to 2M API Requests in 3 Months
   metadescription: Learn how the COVID Tracking Project easily scaled and responded instantly on their Netlify setup, helping millions of unique users stay up to date on COVID-19 data.
-  ogimage: /img/blog/og-erin.png
+  ogimage: /v3/img/blog/og-erin.png
 ---
 As the COVID-19 pandemic was emerging, [Erin Kissane](https://twitter.com/kissane) and her friends at The Atlantic found themselves trying to answer a simple question: how many people in the United States tested positive for COVID-19? 
 

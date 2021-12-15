@@ -2,12 +2,11 @@
 title: 'Best Practices: Getting started with Netlify'
 authors:
   - Chris McCraw
-image: /img/blog/logo-icon-v1-01.svg
+image: /v3/img/blog/logo-icon-v1-01.svg
 format: blog
 short_title: Tips for setup & configuration
 tags:
-  - getting started
-  - how to
+  - how-to
 description: Tips for setup & configuration of a new Netlify site
 date: 2017-01-31T20:35:22.223Z
 topics:
@@ -18,9 +17,9 @@ We hope that our software is fairly intuitive and obvious.  However, one of my o
 To that end, here are some best practices for getting started with Netlify that we try to make easy even if they’re not obvious.  
 
  1. **Name your site something meaningful immediately.**  We pick an automatic name for you but it is just a string of words and numbers.  You can certainly leave your site named magic-firefighter-12345 but if you run a few sites with us, they are pretty hard to tell apart.  Pick a name that is a valid DNS hostname (all letters, numbers, and dashes — no spaces, symbols, dots, or underscores), and one that you don’t mind your customers knowing since it is visible to people who closely examine your site’s settings.  I usually use something like “projectname” or “project-test”.  You can change this later, but you will also have to revise some other settings when you do (see step 3 below)
-    ![screenshot of settings page](/img/blog/screen1.png)
+    ![screenshot of settings page](/v3/img/blog/screen1.png)
  2. **Get your site built and tested before you do anything else.**  I make this suggestion since it would be a bit of a waste of time to do any more in-depth configuration in case your site ends up not being a good fit for our service, and we want to save you time, not waste your time!  Here’s how our typical customer’s onboarding flow goes:
-    ![screenshot of deploys tab](/img/blog/screen2.png)
+    ![screenshot of deploys tab](/v3/img/blog/screen2.png)
  3. (Optional) **Link a repository.**  Get the connection between your Git provider hooked up if you plan to.  [This article has in-depth information on the why’s and how’s](https://www.netlify.com/docs/continuous-deployment/) — but never fear, our setup wizard does all of this for you automatically.
  4. (Optional) **Debug your builds.**  [Netlify provides its own build environment which is described here](https://www.netlify.com/blog/2016/10/18/how-our-build-bots-build-sites/).  It isn’t really special — but it also isn’t identical to your development machine.  In case you’re using [our CLI](https://www.netlify.com/docs/cli), [our API](https://www.netlify.com/docs/api/) or manual deploys, we won’t build anything for you — we’ll just deploy your files.
  5. **Check out the Deploys tab.**  Each site has its own Deploys tab in our UI, accessible from the main site settings page.  On this tab there are a few things of interest:

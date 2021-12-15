@@ -10,8 +10,8 @@ lastmod: 2020-12-21T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - graphql
-  - javascript
+  - GraphQL
+  - Javascript
 tweet: ""
 format: blog
 seo:
@@ -19,7 +19,7 @@ seo:
     Send GraphQL Queries With the Fetch API (Without Apollo, URQL)
   metadescription: >
     If you want to use GraphQL in your apps, most tutorials have you install Apollo, URQL, or other GraphQL clients. But you only need the Fetch API!
-  ogimage: /img/blog/graphql-fetch-og.jpg
+  ogimage: /v3/img/blog/graphql-fetch-og.jpg
 relatedposts:
   - GraphQL with Hasura and Nuxt
   - Advice from a GraphQL Expert
@@ -103,7 +103,7 @@ fetch('https://www.learnwithjason.dev/graphql', {
 
 This sends the GraphQL query and variables as a JSON object to the endpoint `https://www.learnwithjason.dev/graphql`, then logs the result, which looks something like this:
 
-![screenshot of GraphQL query result in the console after sending a fetch request](/img/blog/graphql-fetch-result.png)
+![screenshot of GraphQL query result in the console after sending a fetch request](/v3/img/blog/graphql-fetch-result.png)
 
 > **Heads up!** You can open your browser console and run this JavaScript to see this in action _right now!_
 

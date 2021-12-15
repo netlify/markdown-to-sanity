@@ -3,16 +3,16 @@
 title: "New to JAMstack? How to make a site from A to Z"
 authors:
   - Eli Williamson
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 format: blog
 short_title: "JAMstack: How to make a site from A to Z"
 description: A step-by-step guide on how to make a website using JAMstack practices. Take a blank canvase and turn it into a functional static site.
 cmsUserSlug: ""
 date: 2016-11-15
 tags:
-  - hugo
-  - go
-  - tutorial
+  - Hugo
+  - Go
+  - Tutorial
 topics:
   - tutorials
 ---
@@ -251,7 +251,7 @@ In this section, we will show you how easy it is to launch your first Hugo site 
 
 ### Step 1: Add Your New Site
 
-![step 1 - add](/img/blog/add-new-project.png)
+![step 1 - add](/v3/img/blog/add-new-project.png)
 
 Creating a new site on Netlify is simple. Once you've logged in, you'll be taken to https://app.netlify.com. If you're just starting out, there's only one option, Click the **Add A New Project** button shown above.
 
@@ -259,7 +259,7 @@ Creating a new site on Netlify is simple. Once you've logged in, you'll be taken
 
 Clicking "Add A New Project" brings you to this screen:
 
-![step 2 - link](/img/blog/step-2-hugo.png)
+![step 2 - link](/v3/img/blog/step-2-hugo.png)
 
 When you push to GitHub, Netlify does all the work. No more manual deploying of updates or changes!
 
@@ -276,22 +276,22 @@ It's time to allow Netlify and GitHub to talk to each other. Clicking the **Auth
 Now that you've connected Netlify and GitHub, you can see a list of your Git repos. There's the "hugo" repo we just pushed to GitHub. Let's select it.
 
 ### Step 5: Configure Your Settings
-![step 5 - configure](/img/blog/config-your-repo.png)
+![step 5 - configure](/v3/img/blog/config-your-repo.png)
 
 Here you can configure your options. Make sure your Directory is `dist/` and your build command is `npm run build`. Then click the **Build your site** button to continue.
 
 ### Step 6: Build Your Site
 
-![step 6 - build](/img/blog/building-site.png)
+![step 6 - build](/v3/img/blog/building-site.png)
 
 Now it's time to sit back and relax. You did your part let Netlify take care of the rest — it'll only take a minute.
 
 ### Step 7: All Done
 
-![step 7 - done](/img/blog/done-1.png)
+![step 7 - done](/v3/img/blog/done-1.png)
 
 Netlify went ahead and gave your site a temporary name. Let's quickly update that to make it look a little prettier:
 
-![step 8 - pretty](/img/blog/done-2.png)
+![step 8 - pretty](/v3/img/blog/done-2.png)
 
 There, that's better. Looks pretty good, huh? Take it a step further and setup your custom domain (Learn how to do that [here](https://www.netlify.com/blog/2016/03/14/setting-up-your-custom-domain/)). Congratulations, you're officially practicing the JAMstack on Netlify!

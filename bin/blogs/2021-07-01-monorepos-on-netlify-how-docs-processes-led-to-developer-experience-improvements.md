@@ -12,7 +12,7 @@ topics:
 tags:
   - documentation
   - monorepo
-  - developer experience
+  - Developer Experience
 tweet: ""
 format: blog
 relatedposts:
@@ -22,7 +22,7 @@ seo:
   metadescription: "From writing docs to improving the product! Learn more about
     new and improved monorepo support on Netlify. "
   metatitle: Improved Monorepo Support on Netlify
-  ogimage: /img/blog/monorepo-og.png
+  ogimage: /v3/img/blog/monorepo-og.png
 ---
 If you work with monorepos on Netlify, you may be glad to know there’s some [swanky new documentation](https://docs.netlify.com/configure-builds/common-configurations/monorepos/) available on this topic!
 
@@ -47,13 +47,13 @@ In this post, we’ll highlight what’s new for monorepo support, and we’ll s
 
 When you get started with a “New site from Git” you’ll find a new, optional field labeled “Base directory.” Before this field was added in this part of the Netlify UI, your only option was to configure the base directly in the `netlify.toml` file or to configure it in your Site settings after a first deploy failed.
 
-![](/img/blog/monorepo-ui-1.png)
+![](/v3/img/blog/monorepo-ui-1.png)
 
 ### **Set the base directory with a command in Netlify CLI**
 
 When you run the `netlify init` command in the CLI from a subdirectory instead of the root of a repository, you’ll be prompted about whether you want to set a base directory.
 
-![](/img/blog/monorepo-.png)
+![](/v3/img/blog/monorepo-.png)
 
 ### Better caching for Yarn workspaces
 

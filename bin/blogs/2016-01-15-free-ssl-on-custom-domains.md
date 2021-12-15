@@ -4,7 +4,7 @@ title: A World’s First. Free SSL with Let’s Encrypt
 slug: free-ssl-on-custom-domains
 authors:
   - Matt Biilmann
-image: /img/blog/system-lock-by-yuri-samoilov.jpg
+image: /v3/img/blog/system-lock-by-yuri-samoilov.jpg
 image_caption: "Photo credit: [Yuri Samoilov](https://www.flickr.com/photos/yusamoilov/13334048894)  \n"
 format: blog
 short_title: Announcing Free SSL
@@ -16,11 +16,11 @@ lastmod: 2020-08-03
 relatedposts:
   - Netlify Milestones on the road to 1 Million Devs
 tags:
-  - netlify
-  - news
-  - features
+  - Netlify
+  - News
+  - Features
   - https
-  - ssl
+  - SSL
   - popular
 topics:
   - news
@@ -74,7 +74,7 @@ To get started with Let’s Encrypt powered SSL on Netlify, first create a new s
 
 Once your custom domain has been configured, you can head over to the `ssl` tab for your site.
 
-![screen-shot-2016-01-15-at-10.02.59-pm.png](/img/blog/screen-shot-2016-01-15-at-10.02.59-pm.png)
+![screen-shot-2016-01-15-at-10.02.59-pm.png](/v3/img/blog/screen-shot-2016-01-15-at-10.02.59-pm.png)
 
 Click on **Let’s Encrypt Certificate** and Netlify will instantly provision and install a certificate for your site. The whole process takes seconds, and Netlify will renew your certificate automatically.
 
@@ -82,4 +82,4 @@ Click on **Let’s Encrypt Certificate** and Netlify will instantly provision an
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-first-hosting-provider-to-offer-free-ssl-through-let-s-encrypt)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-first-hosting-provider-to-offer-free-ssl-through-let-s-encrypt)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-first-hosting-provider-to-offer-free-ssl-through-let-s-encrypt)

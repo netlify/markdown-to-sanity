@@ -10,7 +10,7 @@ lastmod: 2020-09-17
 topics:
   - news
 tags:
-  - forms
+  - Forms
 tweet: ""
 format: blog
 relatedposts:
@@ -20,7 +20,7 @@ seo:
   metadescription: Check out the latest Netlify releases that include the ability
     to disable forms, a new build enqueued status, and build cycle usage
     visibility updates. Learn more here!
-  ogimage: /img/blog/image-2-.png
+  ogimage: /v3/img/blog/image-2-.png
 ---
 We have some new features heading your way to make your site maintenance a little easier! 
 
@@ -30,7 +30,7 @@ If you don't plan on including [Netlify-enabled forms](https://url.netlify.app/r
 
 If you head over to your site's settings (under **Settings > Build & deploy > Post processing > Form detection**), you'll see your ability to disable form detection:
 
-![Form detection](/img/blog/formdetect.png "Form detection")
+![Form detection](/v3/img/blog/formdetect.png "Form detection")
 
 Form detection is enabled by default, but you might want to disable it if your site doesn't have any forms to detect, or if you aren't using Netlify to manage the forms you do have. In those cases, if you do disable form detection, your post processing will be reduced, and your deploys may speed up, as well!
 
@@ -46,7 +46,7 @@ When your team's build capacity is full, additional builds will wait in your tea
 
 Sometimes, a build machine needs to be started up to run a new build. We now give visibility into that, so you'll see the "Starting Up" label before you see the "Building" state!
 
-![Build statuses](/img/blog/enqueued.png "Build statuses")
+![Build statuses](/v3/img/blog/enqueued.png "Build statuses")
 
 ## Added bonus: Last build cycle usage visibility
 
@@ -54,7 +54,7 @@ This is a small UI update we think you'll love! Before this update (and now), if
 
 We thought you might want a little more than that! If you're curious about exactly how many build minutes you used in your last billing period, we added that to the top of your team's Builds page. Now you can easily track how you're doing compared to your previous month.
 
-![Netlify Build Minutes used last period](/img/blog/buildmins.png "Minutes used last period")
+![Netlify Build Minutes used last period](/v3/img/blog/buildmins.png "Minutes used last period")
 
 ## Woo hoo!
 

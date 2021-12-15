@@ -11,11 +11,11 @@ lastmod: 2021-07-28
 topics:
   - tutorials
 tags:
-  - forms
-  - netlify forms
+  - Forms
+  - Netlify forms
   - guide
-  - functions
-  - netlify functions
+  - Functions
+  - Netlify Functions
 tweet: ""
 format: blog
 relatedposts:
@@ -26,7 +26,7 @@ seo:
   metadescription: In this post, we'll cover learned what multipart/form-data is,
     how it can be parsed using busboy, and how that ties in to Netlify
     Functions.
-  ogimage: /img/blog/multipart-forms-og.png
+  ogimage: /v3/img/blog/multipart-forms-og.png
 ---
 If you've ever built a file upload into your website, you might have come across the `multipart/form-data` encoding. It's the encoding browsers use for forms with file inputs in them, and it's also notoriously uncomfortable to work with.
 

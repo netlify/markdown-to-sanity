@@ -2,11 +2,11 @@
 title: 'To Message Bus or Not: Distributed Systems Design'
 authors:
   - Ryan Neal
-image: /img/blog/BMO-from-Adventure-Time.jpg
+image: /v3/img/blog/BMO-from-Adventure-Time.jpg
 format: blog
 topics:
   - insights
-short_title: 'To Message Bus or Not'
+short_title: ' To Message Bus or Not'
 description: 'Learn about a few ways that distributed systems can communicate. '
 date: 2017-03-02T00:57:03.410Z
 ---
@@ -23,7 +23,7 @@ I think that communication roughly falls into two schools: point to point and me
 
 In an architecture driven by a message bus it allows more ubiquitous access to data. The consumers are allowed to determine how they will consume the data. It is not something decided by the sender. The power created by decoupling the producer and consumer, far outweighs any operational overhead introduced. Point to point is easier in some ways, but it silos the data off from the rest of the system. This can be a perk, security and isolation for instance, but building these walled gardens of data will hurt innovation, development pace, and monitoring in the long run.
 
-![null](/img/blog/msg-styles.png)
+![null](/v3/img/blog/msg-styles.png)
 
 Often systems will use a hybrid of the two communication styles. For instance, we have a service that will take commands from a message bus, but are provided a callback URL where they can funnel the responses. It could have easily been that we just send messages back on the bus. We chose the hybrid approach because it fit the existing architecture better. We could have also stood up a proxy/load balancer that would have distributed the messages but looked like a single instance.
 
@@ -39,7 +39,7 @@ The biggest drawback of a point-to-point communication structure is that the dat
 
 Using a message bus will allow for the same communications, but it's a little more simple. Single request/reply, worker pool, and broadcast models are supported out of the box. Service discovery is a matter of just sending messages to the right topics. There is an operational cost of maintaining the message bus, and possibly having a piece of infrastructure that impacts all services. But, all the production grade buses support clustering, but still things can go wrong and it can lock the whole system up (looking at you RabbitMQ).
 
-![undefined](/img/blog/msg-patterns.png)
+![undefined](/v3/img/blog/msg-patterns.png)
 
 The primary benefit of a message bus architecture is that data is freely available. Services just provide data and don't mandate how it is used. You still have the necessary coordination in developing a system; part a generates messages like this and part b will do that. But now you can have any new service start non-destructively consuming those messages. This free flow of data allows for rapid prototyping, simple services crosscutting, intuitive monitoring and easier development.
 

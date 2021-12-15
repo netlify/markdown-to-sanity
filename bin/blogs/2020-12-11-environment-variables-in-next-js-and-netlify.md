@@ -9,7 +9,7 @@ lastmod: 2020-12-10
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -20,8 +20,11 @@ seo:
   metatitle: Environment variables in Next.js and Netlify
   metadescription: Both Next.js and Netlify come with built-in support for
     environment variables. Here's how to use them!
-  ogimage: /img/blog/blogvent10.png
+  ogimage: /v3/img/blog/blogvent10.png
 ---
+
+
+
 Welcome to Blogvent, day 10!
 
 If you'd like to use environment variables in Next.js, make a `.env.local` file at the root and you can use them all there! It might look something like this:
@@ -67,7 +70,7 @@ NEXT_PUBLIC_PAYMENT_TOKEN=thisispublic // this one is exposed to the browser
 
 When you've deployed your site, you can set your environment variables in the Netlify UI. Head over to the Build & Deploy settings in your Site Settings, and then plug your values in under "Environment variables":
 
-![Environment Variables in the UI](/img/blog/envnext.png "Environment Variables in the UI")
+![Environment Variables in the UI](/v3/img/blog/envnext.png "Environment Variables in the UI")
 
 You can also [use the Netlify CLI](https://docs.netlify.com/cli/get-started/#link-with-an-environment-variable) to use environment variables set in the UI (or even set them from the CLI, too)!
 
@@ -78,3 +81,4 @@ There's always more! There's *so many* things that you can do with environment v
 * [Build environment variables](https://docs.netlify.com/configure-builds/environment-variables/?utm_source=blog&utm_medium=envvars-cs&utm_campaign=devex)
 * [Build settings in netlify.toml](https://docs.netlify.com/configure-builds/file-based-configuration/?utm_source=blog&utm_medium=envvartoml-cs&utm_campaign=devex#build-settings)
 * [Example of environment variables in use in Next.js](https://github.com/cassidoo/next-adventure/blob/master/functions/get-character.js#L21-L24)
+

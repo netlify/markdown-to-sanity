@@ -3,7 +3,7 @@
 title: Interview with Geoff Kimball of ZURB Foundation
 authors:
   - Aaron Autrand
-image: /img/blog/zurb-foundation.svg
+image: /v3/img/blog/zurb-foundation.svg
 image_caption: null
 format: blog
 short_title: Interview with Geoff Kimball
@@ -12,16 +12,12 @@ thumbnail: thumbnails/geoffzurb.jpg
 cmsUserSlug: foundation-6-geoff-kimball
 date: 2016-03-03T00:00:00.000Z
 tags:
-  - interview
+  - Interview
   - swt
-  - foundation
-  - zurb
-  - panini
   - gulp
   - grunt
-  - geoff kimball
-  - nodejs
-  - design
+  - NodeJS
+  - Design
 topics:
   - tools
 ---

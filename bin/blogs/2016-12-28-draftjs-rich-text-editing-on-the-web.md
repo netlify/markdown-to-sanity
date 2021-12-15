@@ -8,13 +8,13 @@ date: 2016-12-29T18:19:36.000Z
 short_title: DraftJS & Rich Text Editing On The Web
 title: DraftJS & Rich Text Editing On The Web
 tags:
-  - jamstack
-  - podcast
+  - Jamstack
+  - Podcast
   - draftjs
-  - cms
+  - CMS
 topics:
   - tools
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 guests:
   - name: Nik Graf
     bio: >-

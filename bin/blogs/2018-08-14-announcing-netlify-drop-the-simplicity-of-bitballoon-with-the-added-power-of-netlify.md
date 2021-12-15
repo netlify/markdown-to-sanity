@@ -111,4 +111,4 @@ Happy dropping!
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-netlify-drop-https-app-netlify-com-drop-a-simple-drag-n-drop-way-to-launch-sites)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-netlify-drop-https-app-netlify-com-drop-a-simple-drag-n-drop-way-to-launch-sites)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-netlify-drop-https-app-netlify-com-drop-a-simple-drag-n-drop-way-to-launch-sites)

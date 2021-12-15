@@ -2,13 +2,13 @@
 title: This Weekend's DDoS Attack and What's in a (C)Name?
 authors:
   - Matt Biilmann
-image: /img/blog/norse.jpg
+image: /v3/img/blog/norse.jpg
 short_title: DDoS and DNS Records
 tags:
   - incident
-  - dns
-  - ddos
-  - domains
+  - DNS
+  - DDoS
+  - Domains
 format: blog
 description: Your DNS Setup can have a great effect on performance and DDoS resilience.
 date: 2016-01-12T00:00:00.000Z

@@ -18,7 +18,7 @@ tags:
   - Launch
   - Product
   - Functions
-  - serverless
+  - Serverless
 tweet: >-
   All the power and complexity of the backend, now auto-magically handled for
   you by Netlify. Deploy serverless AWS Lambda functions along with your
@@ -85,4 +85,4 @@ So go build something and tell us what you think of the new workflow. We’ll be
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-netlify-functions)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-netlify-functions)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-netlify-functions)

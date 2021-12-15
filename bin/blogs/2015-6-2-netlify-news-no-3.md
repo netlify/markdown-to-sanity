@@ -3,20 +3,20 @@
 title: Netlify News No. 3
 authors:
   - Christian Bach
-image: /img/blog/summer-vintage.jpg
+image: /v3/img/blog/summer-vintage.jpg
 format: blog
 short_title: Our Third Newsletter
 description: "Form handling, open-sourced build image and much more!"
 thumbnail: /img/posts/thumbnails/newsletter-3.jpg
 date: 2015-06-02
 tags:
-  - netlify
-  - news
-  - builds
-  - forms
-  - static web tech
+  - Netlify
+  - News
+  - Builds
+  - Forms
+  - Static site generators
   - meetup
-  - video
+  - Video
   - prerendering
 topics:
   - news

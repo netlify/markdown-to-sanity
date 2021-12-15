@@ -13,11 +13,11 @@ description: >-
   Jekyll 3.0.
 tags:
   - popular
-  - jekyll
-  - ruby
-  - tutorial
+  - Jekyll
+  - Ruby
+  - Tutorial
 format: blog
-image: /img/blog/jekyll-screenshot.png
+image: /v3/img/blog/jekyll-screenshot.png
 seo:
   metadescription: >-
     Check out this step-by-step guide to learn how to host a website on Netlify
@@ -129,7 +129,7 @@ Now that your assets are up and running on GitHub, let's connect them to Netlify
 
 ### Step 1: Add Your New Site
 
-![null](/img/blog/new_site_from_git.png)
+![null](/v3/img/blog/new_site_from_git.png)
 
 Creating a new site on Netlify is simple. Once you've logged in, you'll be taken to https://app.netlify.com/.
 
@@ -137,7 +137,7 @@ Creating a new site on Netlify is simple. Once you've logged in, you'll be taken
 
 Clicking "New Site" brings you to this screen:
 
-![null](/img/blog/Netlify_App_create_new_site_git.png)
+![null](/v3/img/blog/Netlify_App_create_new_site_git.png)
 
 When you push to GitHub (or GitLab or BitBucket), Netlify does all the work. No more manual deploying of updates or changes!
 
@@ -145,30 +145,30 @@ Since your assets are hosted on your Git provider, you'll need to link Netlify t
 
 ### Step 3: Authorize Netlify
 
-![null](/img/blog/Authorize_application_and_Netlify_App.png)
+![null](/v3/img/blog/Authorize_application_and_Netlify_App.png)
 
 It's time to allow Netlify and GitHub to talk to each other. Clicking the "Authorize Application" button will do just that. Like it says in the image below, Netlify doesn't store your GitHub access token on our servers. If you'd like to know more about the permissions Netlify requests and why we need them, you can visit [https://www.netlify.com/docs/github-permissions/](https://www.netlify.com/docs/github-permissions/).
 
 ### Step 4: Choose Your Repo
 
-![null](/img/blog/choose_repo2.png)
+![null](/v3/img/blog/choose_repo2.png)
 
 Now that you've connected Netlify and GitHub, you can see a list of your Git repos. There's the "jekyll-base" repo you just pushed to GitHub. Let's select it.
 
 ### Step 5: Configure Your Settings
 
-![null](/img/blog/deploy_settings_2.png)
+![null](/v3/img/blog/deploy_settings_2.png)
 
 Here you can configure your options. For the purposes of this tutorial, make sure your configuration matches the screenshot, then click "Save".
 
 ### Step 6: Build Your Site
 
-![null](/img/blog/deploy_in_progress_2.png)
+![null](/v3/img/blog/deploy_in_progress_2.png)
 
 Now it's time to sit back and relax. Go grab something cold to drink, scratch the dog behind the ears, or just get up and walk around (you've probably been in front of the computer for too long today, right?). Netlify will do the rest, and you can watch the progress.
 
 ### Step 7: Done
 
-![null](/img/blog/done_jekyll_deployed.png)
+![null](/v3/img/blog/done_jekyll_deployed.png)
 
 Wait, you thought there was going to be more? Nope! Netlify has done it all for you, including giving your site a temporary name. Now you can add your custom domain, and your site will be live for your adoring public to view. Congratulations, and thanks for using Netlify!

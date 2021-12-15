@@ -10,8 +10,8 @@ lastmod: 2020-04-16T00:00:00.000Z
 topics:
   - news
 tags:
-  - jamstack
-  - jamstack-conf
+  - Jamstack
+  - Jamstack Conf
 tweet: ""
 format: blog
 relatedposts:
@@ -22,9 +22,9 @@ seo:
   metadescription: Join us May 27-28, 2020 to be a part of the Jamstack virtual
     conference. Registration is free and now open to everyone. See schedule and
     registration info in this post.
-  ogimage: /img/blog/jamstack-promo-10.png
+  ogimage: /v3/img/blog/jamstack-promo-10.png
 ---
-[![Jamstack conf virtual announcement](/img/blog/jamstack-conf-virtual-banner-1-2020-.png)](https://jamstackconf.com/?ref=netlify-blog)
+[![Jamstack conf virtual announcement](/v3/img/blog/jamstack-conf-virtual-banner-1-2020-.png)](https://jamstackconf.com/?ref=netlify-blog)
 
 Let’s talk about web scale.
 

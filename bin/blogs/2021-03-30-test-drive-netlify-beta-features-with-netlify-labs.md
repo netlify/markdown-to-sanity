@@ -9,7 +9,7 @@ lastmod: 2021-03-31
 topics:
   - news
 tags:
-  - netlify labs
+  - Netlify Labs
   - research
 tweet: ""
 format: blog
@@ -33,7 +33,7 @@ As the Netlify Labs section grows, we’ll add more feedback options so we can i
 
 Ultimately, we want to help you enable the beta features that are most important to you. Because betas are works in progress, they’re meant for testing and may not always work as expected. Therefore, they aren’t recommended for production use. Also, depending on the feedback we get, they may not be rolled out permanently.
 
-![Netlify Labs user interface selector ](/img/blog/netlify-labs-ui-dark-mode.png)
+![Netlify Labs user interface selector ](/v3/img/blog/netlify-labs-ui-dark-mode.png)
 
 ### Living our values at Netlify
 
@@ -45,8 +45,8 @@ Netlify Labs is also a way for us to put internal Netlify values into action. On
 \
 There are even more ways to contribute your opinions and insights to the Netlify team. In addition to the feedback we’ll generate via Netlify Labs, we’re continuing our regular research calls. You can find the link to the sign up form directly in Netlify Labs, or [sign up here](https://www.netlify.com/research-program/). 
 
-![Join the Netlify Labs Research Program ](/img/blog/netlify-labs-research-dark-mode.png)
+![Join the Netlify Labs Research Program ](/v3/img/blog/netlify-labs-research-dark-mode.png)
 
 That's it, easy! We're excited to hear your thoughts on Netlify! Want to get started today? **[Try Dark Mode in Netlify Labs](https://app.netlify.com/user/labs).**
 
-![Try Dark Mode today with Netlify Labs](/img/blog/netlify-dark-mode-ui.png "Try Dark Mode today with Netlify Labs")
+![Try Dark Mode today with Netlify Labs](/v3/img/blog/netlify-dark-mode-ui.png "Try Dark Mode today with Netlify Labs")

@@ -7,9 +7,9 @@ short_title: Setting up form handling
 topics:
   - tutorials
 tags:
-  - tutorial
+  - Tutorial
   - step-by-step
-  - forms
+  - Forms
 format: blog
 description: >-
   In this tutorial, we will explore how to add user form handling. We will
@@ -24,7 +24,7 @@ One of the most important features for this restaurant is the ability to collect
 
 ## Adding a reservation form
 
-![reservation form](/img/blog/reservation form.png)
+![reservation form](/v3/img/blog/reservation form.png)
 
 Once again, add a new route to your config.toml for making reservations.
 
@@ -61,11 +61,11 @@ The action attribute determines what visitors see after submitting a form. If yo
 
 You will now be able to make reservations on your restaurant's page and see the submissions in the **Forms** tab in your Netlify dashboard.
 
-![form submissions](/img/blog/form submissions.png)
+![form submissions](/v3/img/blog/form submissions.png)
 
 Be sure to check out the Netlify documentation for details on how to configure [form submission notifications](/docs/form-handling/) and use tools like [Zapier](https://zapier.com/) to populate a spreadsheet or send an email.
 
-![form notifications](/img/blog/form notifications.png)
+![form notifications](/v3/img/blog/form notifications.png)
 
 # Share your site with the world
 
@@ -73,6 +73,6 @@ We now have a fully functional website and haven’t touched a single server. Th
 
 Your site is on a live Netlify URL, but you prefer to add a [custom domain ](/docs/custom-domains/)you can do that as well.
 
-![tasty site](/img/blog/tasy-site.png)
+![tasty site](/v3/img/blog/tasy-site.png)
 
 Feel free to make this template your own and take full advantage updating the copy and design to match your taste. Now that we are done here go [spread the JAM!](https://jamstack.org/)

@@ -11,17 +11,17 @@ lastmod: 2020-12-11
 topics:
   - case-studies
 tags:
-  - case study
+  - Case Studies
   - Jamstack
   - Sitecore
-  - headless
+  - Headless
 tweet: ""
 format: blog
 relatedposts:
   - "Watch the Videos from Headless Commerce Summit: E-Commerce Jamstack stories"
   - "Startup uses Netlify’s Powerful Developer Workflows to Drive Customer Success"
 seo:
-  ogimage: /img/blog/casestudy.png
+  ogimage: /v3/img/blog/casestudy.png
   metadescription: Klépierre, a large European retailer, recently migrated from a monolithic Sitecore architecture on Azure to headless Sitecore on the Jamstack, using Uniform and Netlify. Learn how they launched 98 new properties in just 6 months.
   metatitle: See How Klépierre Adopts Lightning-fast Headless Sitecore on Netlify
 ---

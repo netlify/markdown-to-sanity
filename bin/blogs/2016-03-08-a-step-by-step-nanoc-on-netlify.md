@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Nanoc on Netlify"
 authors:
   - Jimmi Lee
-image: /img/blog/nanoc.jpg
+image: /v3/img/blog/nanoc.jpg
 format: blog
 short_title: Nanoc on Netlify
 description: A short tutorial on the static site generator Nanoc and how to host it on Netlify (+continuous deployment).
@@ -12,8 +12,8 @@ cmsUserSlug: ""
 date: 2016-03-08T00:00:00.000Z
 tags:
   - nanoc
-  - ruby
-  - tutorial
+  - Ruby
+  - Tutorial
 topics:
   - tutorials
 ---
@@ -155,7 +155,7 @@ If you're using kramdown like us, simply use the above in your `Rules` file and 
 ### 6. Under the Hood
 Let's take a look at what's under the hood of this Nanoc site. First take a look at the folder structure, as depicted in the illustration below, the files and directories created are as follows:
 
-![nanoc_tree.png](/img/blog/nanoc_tree.png)
+![nanoc_tree.png](/v3/img/blog/nanoc_tree.png)
 
 In the file and folder tree above, there are some distinct folders and to create content and customize the layout, it's important to know what goes where and why!
 
@@ -279,7 +279,7 @@ Start by opening up [GitHub](https://github.com/) and create a new repository fo
 
 We're naming our site nanoc-demo and we'll skip adding files to the repository until after its creation, as this can sometimes create problems (The README, license and gitignore files).
 
-![netlify0x_createnewrepo.png](/img/blog/netlify0x_createnewrepo.png)
+![netlify0x_createnewrepo.png](/v3/img/blog/netlify0x_createnewrepo.png)
 
 As you'll see once you create the repository, GitHub provides very good documentation on what to do next.
 
@@ -353,11 +353,11 @@ If you haven't got a [Netlify account](https://www.netlify.com/) already, head o
 ### Step 1: Add Your New Site
 Click the **"New Site"** button to get started.
 
-![Netlify New Site](/img/blog/newsitebut.png)
+![Netlify New Site](/v3/img/blog/newsitebut.png)
 
 ### Step 2: Link to Your GitHub
 Next you'll be brought to this screen, where you can choose between manual deploy or linking to GitHub or Bitbucket - we'll link with GitHub for this demonstration:
-![Link to GitHub](/img/blog/createsite.png)
+![Link to GitHub](/v3/img/blog/createsite.png)
 When you push to GitHub, Netlify does all the work. No more wasting time on manual deploying of updates or changes!
 
 To link Netlify with GitHub click the button **“Link to GitHub”**.
@@ -366,10 +366,10 @@ To link Netlify with GitHub click the button **“Link to GitHub”**.
 You can skip this step or rather it will be skipped automatically, if you already have an account with Netlify set up to automatically login!
 
 If not, you'll be asked to provide your GitHub login details:
-![GitHub Login](/img/blog/githublogin.png)
+![GitHub Login](/v3/img/blog/githublogin.png)
 
 We need to let Netlify and GitHub talk to each other, so review the permissions and then click authorize application.
-![Authorize netlify](/img/blog/authorization.png)
+![Authorize netlify](/v3/img/blog/authorization.png)
 
 Like stated in the image above on the right, Netlify doesn’t store your GitHub access token on our servers!
 
@@ -378,26 +378,26 @@ If you’d like to know more about the permissions Netlify requests and why, you
 ### Step 4: Choose Your Repo
 Once you've connected Netlify with GitHub, you will be shown a list of your GitHub repositories, as seen below.
 
-![nanoc_chooserepo.png](/img/blog/nanoc_chooserepo.png)
+![nanoc_chooserepo.png](/v3/img/blog/nanoc_chooserepo.png)
 
 For the purpose of this tutorial we'll select the *“nanoc-demo”* repo we just pushed to GitHub.
 
 ### Step 5: Configure Your Settings
 Verify the configuration settings as seen in the screen shot below:
 
-![nanoc_config.png](/img/blog/nanoc_config.png)
+![nanoc_config.png](/v3/img/blog/nanoc_config.png)
 
 You shouldn't have to do anything, Netlify has actually done it for you. Click the *'Save'* button and watch the magic unfold.
 
 ### Step 6: Build Your Site
-![nanoc_building.png](/img/blog/nanoc_building.png)
+![nanoc_building.png](/v3/img/blog/nanoc_building.png)
 The first time, assuming you haven't added copious amounts of content, Netlify will build your Nanoc site very quickly. A console will let you know what's happening along the way. If you don't want to wait, simply do something else and you can always return and check the log file later, since Netlify will keep the log of each build.
 
 ### Step 7: The End
 That's all there is to it.
 
 Once Netlify has build your site, it will assign a random name to it and you'll be presented with the site and the control panel for the site, ready for additional customizing.
-![nanoc_done.png](/img/blog/nanoc_done.png)
+![nanoc_done.png](/v3/img/blog/nanoc_done.png)
 
 You can change the site to be private and password protected, which is great for work in progress. You can also assign a custom domain name and it's easy to change settings for your site in general and gives you a good quick overview.
 

@@ -11,10 +11,10 @@ topics:
 tags:
   - headless commerce
   - Jamstack
-  - eCommerce
-  - e-Commerce
-  - headlesscommercesummit
-  - on-demand builders
+  - E-commerce
+  - E-commerce
+  - Headless Commerce Summit
+  - On-demand Builders
 tweet: ""
 format: blog
 relatedposts:
@@ -26,7 +26,7 @@ seo:
   metadescription: Watch the videos from Headless Commerce Summit 2021 to learn
     about all things e-commerce on the Jamstack, from improving conversion rates
     to making migrations easy.
-  ogimage: /img/blog/ecommerce-jamstack-og.png
+  ogimage: /v3/img/blog/ecommerce-jamstack-og.png
 ---
 And… that’s a wrap on Netlify’s second [Headless Commerce Summit](https://headlesscommercesummit.com/)! Thanks to all our incredible presenters, sponsors and attendees. If there’s one major takeaway from Headless Commerce Summit 2021, it’s that there’s no one-size-fits all approach to e-commerce on the Jamstack. We’re so grateful for everyone who shared their stories and hard-won lessons.
 

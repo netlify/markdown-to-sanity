@@ -9,19 +9,22 @@ lastmod: 2020-12-01
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
 relatedposts:
   - Introducing Jamstack Explorers - Get started and learn with Netlify
 seo:
-  ogimage: /img/blog/blogvent1.png
+  ogimage: /v3/img/blog/blogvent1.png
   metatitle: Using React Context for state management in Next.js
   metadescription: Ever wondered how you should manage state information across
     your Next.js applications without installing anything extra? Look no
     further!
 ---
+
+
+
 Happy Blogvent season, Jamstackers!
 
 If you'd like to manage state across your Next.js applications, the easiest way to do it (without installing anything extra!) is using [React Context](https://reactjs.org/docs/context.html)!
@@ -59,7 +62,6 @@ export function AppWrapper({ children }) {
 export function useAppContext() {
   return useContext(AppContext);
 }
-
 ```
 
 Once this is done, go back to `pages/_app.js` and wrap your component with the `AppWrapper`:
@@ -84,6 +86,8 @@ Now, in every component and page in your application, if you'd like to access th
 Now, be discerning about how much you put into Context. You wouldn't want unnecessary re-renders across pages when you can just share them across certain components.
 
 ## Woo hoo!
+
 If you want to see this in action in a real application, you can check out the open sourced repo for [Jamstack Explorers](https://explorers.netlify.com/)!
 
 [Here is the code](https://github.com/netlify/explorers/blob/main/src/pages/_app.js#L10) for `_app.js`, and [here is the folder](https://github.com/netlify/explorers/tree/main/src/context) for the different providers created!
+

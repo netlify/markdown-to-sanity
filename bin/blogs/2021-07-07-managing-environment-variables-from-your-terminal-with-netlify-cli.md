@@ -19,7 +19,7 @@ relatedposts:
 seo:
   metadescription: Keep sensitive variables in a safe place with environment variables. Learn how you can keep your environment variables coordinated with the Netlify CLI.
   metatitle: Managing environment variables from your terminal with Netlify CLI
-  ogimage: /img/blog/og-cli-env.png
+  ogimage: /v3/img/blog/og-cli-env.png
 ---
 
 When you need to keep a sensitive variable in a safe place, environment variables can help. And with Netlify you can manage your environment variables centrally in your site's deploy settings admin, and event access them in your local build if your run your site with `netlify dev`.

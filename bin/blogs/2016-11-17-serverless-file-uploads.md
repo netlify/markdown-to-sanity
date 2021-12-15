@@ -2,15 +2,15 @@
 title: "Serverless File Uploads"
 authors:
   - Cassio Zen
-image: /img/blog/upload.jpg
+image: /v3/img/blog/upload.jpg
 format: blog
 short_title: "Serverless, Direct-to-S3 File Uploads"
 description: This tutorial demonstrates how to create a Serverless project that uploads files directly to S3.
 date: 2016-11-17
 tags:
   - popular
-  - serverless
-  - jamstack
+  - Serverless
+  - Jamstack
 topics:
   - tutorials
 ---
@@ -233,8 +233,8 @@ functions:
 Now, to upload a file directly to S3, all your client code needs to to is first ask for an upload URL then submit the blob directly to S3. For example, let’s create a bare-bones drag-n-drop file share:
 
 <video autoplay="autoplay" loop="loop" width="480" height="312">
-  <source src="/img/blog/slsupload.mp4" type="video/mp4" />
-  <img src="/img/blog/slsupload.gif" width="480" height="312" />
+  <source src="/v3/img/blog/slsupload.mp4" type="video/mp4" />
+  <img src="/v3/img/blog/slsupload.gif" width="480" height="312" />
 </video>
 
 That's exactly what the sample code below does [(Gist)](https://gist.github.com/cassiozen/f79d13bc6a79549690a817da13a8b377):

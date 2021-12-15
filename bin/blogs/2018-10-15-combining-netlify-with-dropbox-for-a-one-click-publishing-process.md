@@ -10,8 +10,8 @@ topics:
   - tutorials
 tags:
   - Dropbox
-  - serverless
-  - functions
+  - Serverless
+  - Functions
 tweet: >-
   Dropbox as CMS?! Why not? Every new file, every save action, can update your
   site, turning your Dropbox into one lean, mean, content machine!

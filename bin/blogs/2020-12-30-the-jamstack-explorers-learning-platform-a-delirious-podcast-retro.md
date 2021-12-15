@@ -10,7 +10,7 @@ lastmod: 2020-12-30
 topics:
   - news
 tags:
-  - podcast
+  - Podcast
   - Remotely Interesting
   - Jamstack
 tweet: ""
@@ -20,7 +20,7 @@ seo:
   metadescription: "Description: The DX team was so excited to share the Jamstack
     Explorers learning platform that we stayed up all night...and then recorded
     a podcast"
-  ogimage: /img/blog/ep-10.png
+  ogimage: /v3/img/blog/ep-10.png
 ---
 Have you [heard](https://www.netlify.com/blog/2020/11/18/introducing-jamstack-explorers-get-started-and-learn-with-netlify/?utm_source=blog&utm_medium=ri-ep-10-tzm&utm_campaign=devex)? We have a free learning platform, [Jamstack Explorers](https://explorers.netlify.com/?utm_source=blog&utm_medium=ri-ep-10-tzm&utm_campaign=devex)! We are busy making [more missions](https://explorers.netlify.com/missions?utm_source=blog&utm_medium=ri-ep-10-tzm&utm_campaign=devex) and [content about the tech we used to create it](https://www.netlify.com/blog/2020/12/16/how-jamstack-explorers-was-made-next.js-netlify-sanity.io-cloundinary-serverless-functions-and-more/?utm_source=blog&utm_medium=ri-ep-10-tzm&utm_campaign=devex) but we also talked into microphones about it.
 
@@ -30,6 +30,6 @@ Pumped on the excitement that comes with a release of a project we couldn't wait
 
 So, here we are on our [Remotely Interesting](https://remotelyinteresting.netlify.com/?utm_source=blog&utm_medium=ri-ep-10-tzm&utm_campaign=devex) podcast discussing the tech, the workflow, and all the other things surrounding the creation of Jamstack Explorers. We actually learned a ton while working on this project. We were excited to have a place to share that knowledge with you.
 
-![episode image jamstack explorers the guts](/img/blog/ep-10.png "Episode 10 with Ben Hong, Jason Lengstorf, Cassidy WIlliams, Phil Hawksworth, Sarah Drasner, and Tara Z. Manicsic")
+![episode image jamstack explorers the guts](/v3/img/blog/ep-10.png "Episode 10 with Ben Hong, Jason Lengstorf, Cassidy WIlliams, Phil Hawksworth, Sarah Drasner, and Tara Z. Manicsic")
 
 Hope you enjoy and, as always, we hope you find this podcast remotely interesting.

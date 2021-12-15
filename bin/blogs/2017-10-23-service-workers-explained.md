@@ -6,8 +6,8 @@ topics:
   - tools
 tags:
   - popular
-  - service-workers
-  - caching
+  - Service Workers
+  - Caching
 format: blog
 description: >-
   Service Workers in the browser are getting a lot of attention lately, but what
@@ -22,7 +22,7 @@ Service workers in the browser are getting a lot of attention lately, but what e
 
 Service workers are proxies that sit between the web page and the network, providing cached versions of the site when no network connectivity is available. This is the foundation of Google's [Progressive Web App](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/) (PWA) standard that provides potential performance improvements by leveraging the cache for almost instant page loads. The service worker script runs in the background making the decision to serve network or cached content based on availability. The older form of browser caching, [AppCache](https://appcachefacts.info/), was a more error-prone solution for [offline-first](http://diveintohtml5.info/offline.html) ready applications. You can think of [service workers as their successor](https://medium.com/@firt/service-workers-replacing-appcache-a-sledgehammer-to-crack-a-nut-5db6f473cc9b).
 
-![service worker diagram](/img/blog/service-worker-diagram.png)
+![service worker diagram](/v3/img/blog/service-worker-diagram.png)
 
 <small><a href="https://codepen.io/theskinnyghost/pen/MbXXrw?limit=all&page=3&q=yeti">yeti sourced from codepen</a></small>
 
@@ -38,7 +38,7 @@ You can start using service workers by adding a few lines to your JavaScript fil
 
 Services workers are still considered a "cutting edge" feature and not supported on all browsers. Only Chrome, Firefox, and Opera have full support for service workers and their browser caching.
 
-![service worker support](/img/blog/service-worker-support.png)
+![service worker support](/v3/img/blog/service-worker-support.png)
 
 To ensure your site will only attempt to register a service on a browser that has it enabled, you will need to wrap the registration code with a scope that checks to see if service workers exist in the browser navigator. I do this by checking if the browser's navigator includes **serviceWorker:**
 
@@ -139,7 +139,7 @@ If you are interested in hearing how Pinterest is using service workers at the n
 
 For a live example of a service worker in action, checkout [lodash.com](https://lodash.com/) and click the offline checkbox (nested in the network tab of the dev tools) to check out their service worker live in action.
 
-![lodash offline](/img/blog/lodash offline.png)
+![lodash offline](/v3/img/blog/lodash offline.png)
 
 Their [sw.js](https://github.com/lodash/lodash.com/blob/master/sw.js) is open sourced and available to view as well.
 

@@ -5,11 +5,11 @@ description: We loved our time at Reactathon, even when our discussions were...
 authors:
   - Cassidy Williams
 date: 2020-12-20
-lastmod: 2020-12-20
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -21,7 +21,7 @@ seo:
   metatitle: An Incredibly Serious Discussion about Next.js at Reactathon
   metadescription: We loved our time at Reactathon, even when our discussions
     were... very serious.
-  ogimage: /img/blog/blogvent20.png
+  ogimage: /v3/img/blog/blogvent20.png
 ---
 Welcome to Blogvent, day 20!
 
@@ -34,8 +34,8 @@ One of the talks was given by yours truly, and it was a very, very serious discu
 ## Wow! Can I see more?
 Of course you can! If you'd like to learn how to write Next.js, we have a Mission just for you on [Jamstack Explorers](https://explorers.netlify.com/learn/nextjs?utm_source=blog&utm_medium=nextjsmission-cs&utm_campaign=devex)!
 
-And [here's a starter project for Next.js](https://github.com/cassidoo/next-netlify-starter) if you'd like to get coding:
+And [here's a starter project for Next.js](https://github.com/netlify-templates/next-netlify-starter) if you'd like to get coding:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=nextstarterreactathon-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=nextstarterreactathon-cs&utm_campaign=devex)
 
 (Clicking this button will deploy a Next.js starter project to Netlify, and clone it to your chosen Git provider)

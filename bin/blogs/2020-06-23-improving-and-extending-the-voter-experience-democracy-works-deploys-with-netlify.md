@@ -12,8 +12,8 @@ lastmod: 2020-07-01T00:00:00.000Z
 topics:
   - case-studies
 tags:
-  - deploy
-  - case study
+  - Deploy
+  - Case Studies
 tweet: Learn how Democracy Works handles big traffic spikes with Netlify
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ relatedposts:
   - How CNCF enables community-sourced ecosystem map with Netlify deploy previews
 seo:
   metadescription: See how Netlify enables Democracy Works, a nonpartisan nonprofit improving the voting experience, to feel confident about handling huge spikes in traffic.
-  ogimage: /img/blog/og-netlify-and-democracy-works.png
+  ogimage: /v3/img/blog/og-netlify-and-democracy-works.png
   metatitle: Learn How Democracy Works handles huge traffic spikes with Netlify
 ---
 ## How Democracy Works deploys with Netlify to ensure smooth handling of big traffic spikes
@@ -30,7 +30,7 @@ Democracy Works is a nonpartisan nonprofit that builds tools to upgrade the infr
 
 Democracy Works built [TurboVote](https://www.democracy.works/tools-for-voters), an online tool that sends election reminders to over 7 million people, with information about how, when, and where to vote. Its Voting Information Project works directly with election officials to gather information for almost all local, state, and national races. It also built [Ballot Scout](https://www.democracy.works/ballot-scout), a ballot tracking service that provides transparency to the mail voting process.
 
-![Register to Vote graphic from Democracy Works](/img/blog/democracy-works-vote-image-2.png "Democracy Works is a nonpartisan nonprofit that builds tools to upgrade the infrastructure of American democracy.")
+![Register to Vote graphic from Democracy Works](/v3/img/blog/democracy-works-vote-image-2.png "Democracy Works is a nonpartisan nonprofit that builds tools to upgrade the infrastructure of American democracy.")
 
 ### Challenge
 

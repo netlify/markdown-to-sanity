@@ -2,7 +2,7 @@
 title: You might not need to build that script anymore
 authors:
   - Brian Douglas
-image: /img/blog/termnial-tools.jpg
+image: /v3/img/blog/termnial-tools.jpg
 format: blog
 short_title: You don't need that build script
 description: >-
@@ -15,7 +15,7 @@ topics:
   - insights
 ---
 
-![rube-toilet-paper-machine](/img/blog/rube toliet paper.gif)
+![rube-toilet-paper-machine](/v3/img/blog/rube toliet paper.gif)
 
 I often see individuals tweet about code showing they integrated into a complicated build script just to publish their website.
 

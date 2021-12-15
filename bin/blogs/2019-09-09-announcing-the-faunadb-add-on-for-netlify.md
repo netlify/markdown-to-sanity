@@ -10,16 +10,16 @@ date: "2019-09-10"
 topics:
   - news
 tags:
-  - Fauna
-  - database
-  - serverless
+  - Fauna DB
+  - Databases
+  - Serverless
   - stateful
-  - integration
+  - Integrations
 tweet: ""
 format: blog
 ---
 
-![](/img/blog/netlify-fauna.png)
+![](/v3/img/blog/netlify-fauna.png)
 
 We’re excited to announce the FaunaDB Add-on for Netlify, which empowers users to create a fully-featured, globally-distributed data backend for their applications within seconds.
 
@@ -64,7 +64,7 @@ The complete documentation for this add-on can be found [here](https://docs.faun
 
 Users can now also [create an account and login to FaunaDB](https://dashboard.fauna.com) with their Netlify account credentials using OAuth:
 
-![](/img/blog/screenshot-2019-09-10-06.04.14.png)
+![](/v3/img/blog/screenshot-2019-09-10-06.04.14.png)
 
 ## Benefits for users of Netlify and FaunaDB
 

@@ -13,7 +13,7 @@ topics:
   - case-studies
 tags:
   - customers
-  - case study
+  - Case Studies
 tweet: ''
 format: blog
 seo:
@@ -22,7 +22,7 @@ seo:
     Learn how Restaurant Brands International builds JAMstack sites at-scale,
     with Netlify, for customers like Popeye’s. Teddy Sherrill, CTO at RBI shares
     insights into their processes.
-  ogimage: /img/blog/og-image-17.png
+  ogimage: /v3/img/blog/og-image-17.png
 excludeFromSitemap: true
 ---
 Whether you’re in the mood for donuts in Canada, spicy chicken sandwiches in South Carolina, or a flame broiled burger in the UK, Restaurant Brands International (RBI) can help. RBI owns iconic quick service brands Tim Hortons, Burger King, and Popeye’s. 

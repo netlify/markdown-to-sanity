@@ -10,7 +10,7 @@ topics:
   - insights
 tags:
   - Remotely Interesting
-  - podcast
+  - Podcast
 tweet: ""
 format: blog
 relatedposts:
@@ -19,7 +19,7 @@ seo:
   metatitle: Do You Have to Have Passion to Be a Good Coder
   metadescription: On this episode of Remotely Interesting, Cassidy, Jason, Phil,
     Sarah, and Tara discuss passion & programming.
-  ogimage: /img/blog/ep-3.png
+  ogimage: /v3/img/blog/ep-3.png
 ---
 In the wise words of [Jason Lengstorf](https://www.netlify.com/authors/jason-lengstorf/?utm_source=blog&utm_medium=ri-ep-3-tzm&utm_campaign=devex):
 

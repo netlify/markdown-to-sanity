@@ -8,9 +8,9 @@ lastmod: 2020-12-21
 topics:
   - insights
 tags:
-  - netlify
-  - features
-  - jamstack
+  - Netlify
+  - Features
+  - Jamstack
 tweet: ""
 format: blog
 relatedposts:
@@ -19,7 +19,7 @@ relatedposts:
 seo:
   metatitle: "Top 10 Netlify Features & Announcements from 2020"
   metadescription: "Take a look back at some of the features and announcements Netlify made in 2020. A continued focus on how developers and enterprises work together on advancing the web."
-  ogimage: /img/blog/netlify-year-in-review-2020-top-10-features.jpg
+  ogimage: /v3/img/blog/netlify-year-in-review-2020-top-10-features.jpg
 ---
 
 2020\. Wow. It really goes without saying that this has been an extremely challenging year for everybody globally. Writing this article [last year](https://www.netlify.com/blog/2019/12/19/top-15-from-2019-features-resources-and-news-on-netlify-and-the-jamstack/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020) was a different experience.
@@ -34,7 +34,7 @@ So, let’s again reflect on the past, and look forward to the future!
 
 ## Top 10 Netlify features in 2020
 
-![featured image](/img/blog/netlify-year-in-review-2020-top-10-features.jpg)
+![featured image](/v3/img/blog/netlify-year-in-review-2020-top-10-features.jpg)
 
 **1. [Build Plugins General Availability Announcement](https://www.netlify.com/blog/2020/05/27/netlify-build-plugins-are-here/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020)**
 
@@ -44,7 +44,7 @@ In May, we announced the [GA of Build Plugins](https://www.netlify.com/blog/2020
 
 Announced earlier this month, the `next-on-netlify` Build Plugin utilizes Netlify Functions for server-side rendering. Install it to begin using the features of Next.js that you know and love that typically only work on apps running a Node server. [Add the Next.js Netlify Plugin here](https://app.netlify.com/plugins/@netlify/plugin-nextjs/install?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020).
 
-[![installing next-on-netlify plugin screenshot](/img/blog/nextjs-plugin-netlify.png)](https://www.netlify.com/blog/2020/12/07/announcing-one-click-install-next.js-build-plugin-on-netlify/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020)
+[![installing next-on-netlify plugin screenshot](/v3/img/blog/nextjs-plugin-netlify.png)](https://www.netlify.com/blog/2020/12/07/announcing-one-click-install-next.js-build-plugin-on-netlify/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020)
 
 **3. [Introducing Background Functions](https://www.netlify.com/blog/2020/10/29/announcing-background-functions/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020)**
 
@@ -58,7 +58,7 @@ Earlier in 2020 we were delighted to announce that assets delivered via Netlify 
 
 Mid-year, we celebrated a big milestone: one million developers and businesses (_now 1.3 million!_) have signed up for Netlify! To celebrate, we created an interactive timeline to review [Netlify’s major milestones throughout the years](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020). If you haven’t already, you can still [look up and share your unique "number" for joining Netlify](https://million-devs.netlify.com/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020).
 
-[![1 million developers on Netlify - 2020](/img/blog/netlify-one-million-developers-campaign.png)](https://www.netlify.com/blog/2020/08/03/celebrating-1-million-developers-whats-next-for-netlify-and-the-jamstack/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020)
+[![1 million developers on Netlify - 2020](/v3/img/blog/netlify-one-million-developers-campaign.png)](https://www.netlify.com/blog/2020/08/03/celebrating-1-million-developers-whats-next-for-netlify-and-the-jamstack/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020)
 
 **6. [Introducing the Netlify Agency Partner Program](https://www.netlify.com/blog/2020/08/26/global-agencies-are-teaming-up-with-netlify-for-jamstack-websites-and-web-apps/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020)**
 
@@ -76,7 +76,7 @@ During this year's second Jamstack Conf Virtual, we announced [early access to E
 
 Furthering improvements for the many enterprises on Netlify, we announced [Netlify's support for self-hosted instances of GitHub and GitLab](https://www.netlify.com/blog/2020/07/21/unlock-jamstack-for-enterprise-web-apps-with-self-hosted-git-repos/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020). This release unlocks new performance, collaboration, and workflow benefits of the Jamstack for organizations at every scale.
 
-[![github and gitlab self-hosted repos on netlify](/img/blog/self-hosted-git-github-gitlab-netlify.png)](https://www.netlify.com/blog/2020/07/21/unlock-jamstack-for-enterprise-web-apps-with-self-hosted-git-repos/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020)
+[![github and gitlab self-hosted repos on netlify](/v3/img/blog/self-hosted-git-github-gitlab-netlify.png)](https://www.netlify.com/blog/2020/07/21/unlock-jamstack-for-enterprise-web-apps-with-self-hosted-git-repos/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020)
 
 **10. [Netlify Technology Partners directory](https://www.netlify.com/blog/2020/12/15/introducing-netlify-technology-partners-helping-enterprises-build-better-jamstack-sites/?utm_source=netlify-internal-links&utm_medium=blog&utm_campaign=netlify-year-in-review-2020)**
 

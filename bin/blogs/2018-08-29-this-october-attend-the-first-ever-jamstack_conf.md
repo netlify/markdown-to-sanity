@@ -9,8 +9,8 @@ date: '2018-08-30'
 topics:
   - news
 tags:
-  - jamstack
-  - events
+  - Jamstack
+  - Events
 tweet: >-
   JAMstack_conf is coming October 29th–30th 2018! Attend the premier event to
   learn how to design, develop, and deploy fast, modern web projects that run

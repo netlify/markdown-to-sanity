@@ -12,8 +12,8 @@ topics:
 tags:
   - Jamstack
   - Jamstack Conf
-  - events
-  - workshops
+  - Events
+  - Workshops
 tweet: ""
 format: blog
 relatedposts:
@@ -24,13 +24,13 @@ seo:
   metadescription: Join us May 27-28, 2020 to be a part of the free Jamstack Conf
     Virtual. Check out keynotes sessions and lightning talks here, as well as
     paid workshops May 28 led by Jamstack experts.
-  ogimage: /img/blog/jamstack-promo-10-1-.png
+  ogimage: /v3/img/blog/jamstack-promo-10-1-.png
 ---
 Are you building the next generation of web applications? [Register](https://ti.to/netlify/jamstack_virtual) to join us, May 27-28, for the biggest Jamstack Conf yet. We already have more than 6,000 Jamstack community members registered from 123 countries, and can’t wait to gather together online.
 
 The full agenda is now available for [Jamstack Conf Virtual](https://jamstackconf.com/virtual/), the place for frontend and full stack developers to learn all things Jamstack, the modern web architecture. This special edition of Jamstack Conf will explore the current pandemic and the role of the web, in addition to case studies, demos, lightning launches and hands-on workshops.
 
-![Harper Reed, Erin Kissane and Tom Preston-Werner](/img/blog/screenshot-2020-05-09-14.49.38.png "Jamstack Conf speakers include Harper Reed, Erin Kissane and Tom Preston-Werner")
+![Harper Reed, Erin Kissane and Tom Preston-Werner](/v3/img/blog/screenshot-2020-05-09-14.49.38.png "Jamstack Conf speakers include Harper Reed, Erin Kissane and Tom Preston-Werner")
 
 The Jamstack Conf keynote speakers are not-to-miss:
 
@@ -66,4 +66,4 @@ We’ll see you on online May 27, ready to Jam!
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#jamstack-conf-virtual)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#jamstack-conf-virtual)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#jamstack-conf-virtual)

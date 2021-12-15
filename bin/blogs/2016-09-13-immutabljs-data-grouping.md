@@ -10,21 +10,21 @@ thumbnail: /uploads/netlify-gitlab-thumbnail.png
 cmsUserSlug: ""
 date: 2016-09-13
 tags:
-  - react
+  - React
   - redux
-  - immutable
+  - Immutability
 topics:
   - insights
 ---
 
 We recently wrapped up a UI update to the deploys page and laid our <a href="/blog/2016/08/25/cards-on-table/">Cards on the Table</a>. Netlify practices the [JAMstack](https://jamstack.org/) philosophy when building websites, including the one you are reading right now 💥 Which means, we have an API that populates everything on our new "`/deploys`" screen.
 
-![grouped deploys](/img/blog/grouped-deploys.png)
+![grouped deploys](/v3/img/blog/grouped-deploys.png)
 
 I was tasked with updating the data from a boring list (below) of deploys, to a new list
 grouped by date (above and fancy).
 
-![not grouped deploys](/img/blog/grouped-deploys-old.png)
+![not grouped deploys](/v3/img/blog/grouped-deploys-old.png)
 
 The challenge in completing this change is that the data is coming from the API is not grouped by date and just a boring array, did I mention how boring this was?
 

@@ -2,12 +2,12 @@
 title: Netlify CMS 0.5.0 released
 authors:
   - Cassandra Salisbury
-image: /img/blog/avatar-cms@2x.png
+image: /v3/img/blog/avatar-cms@2x.png
 short_title: Netlify CMS 0.5.0
 topics:
   - news
 tags:
-  - Netlify cms
+  - Netlify CMS
 format: blog
 description: >-
   We are well on our way to 1.0. Learn the progress this open source project has

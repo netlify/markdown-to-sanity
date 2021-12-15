@@ -21,9 +21,9 @@ relatedposts:
 seo:
   metatitle: How a Solo Founder Created Finance Web App  on Netlify
   metadescription: "Lunch Money, a personal finance tracking and budgeting web app, shares how it uses Netlify for its git-based workflow and continuous deployment process. Jamstack web app growth at-scale."
-  ogimage: /img/blog/lunch-money-4-1-.png
+  ogimage: /v3/img/blog/lunch-money-4-1-.png
 ---
-![Lunch Money](/img/blog/lunch-money-7-1-.png)
+![Lunch Money](/v3/img/blog/lunch-money-7-1-.png)
 
 As the API economy flourishes and brings more and more features and capabilities into the reach of development teams without the need to build everything in house, there has been a boom in small to medium-sized companies shipping complex products.
 
@@ -59,7 +59,7 @@ The core Lunch Money API is delivered by a NodeJS Express application which leve
 
 Foreign exchange rates are fetched on a daily basis and access to the financial transaction and cryptocurrency data of users is provided to the system by trusted third-party services such as [Plaid](https://plaid.com/) and [Zabo](https://zabo.com) via their APIs. Lunch Money also offers alternatives to automatic importing of financial data, such as a CSV importing tool and a developer API in addition to the manual entry of occasional transactions which is also possible through its user interface. Meanwhile, [Stripe](https://stripe.com/gb) is used to power the monetisation and subscription of Lunch Money itself.
 
-![A helicopter view of the technical architecture of the Lunch Money web site and web app](/img/blog/diagram-multicolor.png)
+![A helicopter view of the technical architecture of the Lunch Money web site and web app](/v3/img/blog/diagram-multicolor.png)
 
 *A helicopter view of the technical architecture of the Lunch Money web site and web app*
 
@@ -111,7 +111,7 @@ The underlying git branching model and workflow smooths this path to production.
 
 The accomplishment was recognized in October 2020, when Lunch Money scooped the award for [Jamstack Web Application of the Year at Jamstack Conf](https://www.netlify.com/blog/2020/10/06/announcing-the-jammies-awards-winners/?utm_source=lunchmoney-case-study&utm_medium=blog&utm_campaign=mkting-case-study), beating competition from much larger teams and organizations for the title. A great reminder of the power and resources developers and development teams have access to in this era of web development.
 
-![Jamstack Conf web app of the year 2020](/img/blog/lunch-money-1-1-.png)
+![Jamstack Conf web app of the year 2020](/v3/img/blog/lunch-money-1-1-.png)
 
 ## Want more Lunch Money?
 

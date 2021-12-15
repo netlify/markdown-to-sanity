@@ -10,7 +10,7 @@ lastmod: 2020-10-28T00:00:00.000Z
 topics:
   - insights
 tags:
-  - engineering
+  - Engineering
   - teams
 tweet: ""
 format: blog
@@ -19,7 +19,7 @@ seo:
     Optimize for Deletion: Speed Up Development Without Adding Risk
   metadescription: >
     We need to ship quickly, but we also need to avoid burying ourselves in tech debt. Learn how to set up experimental projects to accomplish both goals.
-  ogimage: /img/blog/optimize-for-deletion.png
+  ogimage: /v3/img/blog/optimize-for-deletion.png
 relatedposts:
   - "Metrics-driven engineering leadership: How to elevate the visibility of your distributed team"
   - How to Scope Down PRs

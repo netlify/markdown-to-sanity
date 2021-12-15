@@ -9,7 +9,7 @@ date: '2019-01-11'
 topics:
   - sites
 tags:
-  - JAMstack
+  - Jamstack
   - Site
 tweet: >-
   The Raspberry Pi Foundation's project site showcases a large repository of
@@ -22,8 +22,8 @@ The Raspberry Pi Foundation's extensive repository of projects helps people get 
 
 👉[**projects.raspberrypi.org**](https://projects.raspberrypi.org/)
 
-![Raspberry Pi Projects home page](/img/blog/featured-site-screengrab-rpi-projects-home.jpg)
+![Raspberry Pi Projects home page](/v3/img/blog/featured-site-screengrab-rpi-projects-home.jpg)
 
 Filter and find projects in many languages:
 
-![Projects list page screenshot](/img/blog/featured-site-screengrab-rpi-projects-list.jpg)
+![Projects list page screenshot](/v3/img/blog/featured-site-screengrab-rpi-projects-list.jpg)

@@ -10,7 +10,7 @@ lastmod: 2020-04-27T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - Feature
+  - Features
   - CI/CD
   - Deploy Previews
 tweet: Announcing improved control over sensitive environment variables in your
@@ -24,7 +24,7 @@ seo:
   metadescription: Netlify's automated Deploy Previews give you 3 ways to handle
     sensitive environment variables. Learn how we've improved them for even
     greater control.
-  ogimage: /img/blog/netlify-ci-cd-deploy-previews.png
+  ogimage: /v3/img/blog/netlify-ci-cd-deploy-previews.png
 ---
 Ever since [Deploy Previews](/products/build/) were [first introduced by Netlify in 2016](/blog/2016/07/20/introducing-deploy-previews-in-netlify/), users have been able to use them to see what the results of merging a pull request would be. They offer a valuable glimpse into the future and give insights and visibility to contributors and maintainers alike.
 

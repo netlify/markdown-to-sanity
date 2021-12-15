@@ -10,9 +10,9 @@ date: '2018-12-07'
 topics:
   - tutorials
 tags:
-  - vue
-  - authentication
-  - identity
+  - Vue
+  - Authentication
+  - Identity
 tweet: ''
 format: blog
 ---

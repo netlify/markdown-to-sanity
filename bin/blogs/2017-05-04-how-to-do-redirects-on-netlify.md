@@ -2,11 +2,11 @@
 title: How to do redirects on Netlify
 authors:
   - Brian Douglas
-image: /img/blog/meta-image.jpg
+image: /v3/img/blog/meta-image.jpg
 format: blog
 short_title: How to do redirects on Netlify
 tags:
-  - redirects
+  - Redirects
   - how-to
 topics:
   - tutorials

@@ -10,7 +10,7 @@ lastmod: 2020-09-28
 topics:
   - news
 tags:
-  - NextJS
+  - Next.js
   - Vue
   - Gatsby
   - Eleventy
@@ -24,9 +24,9 @@ relatedposts:
 seo:
   metatitle: Jamstack Frameworks Updates at Jamstack Conf, October 6-7, 2020
   metadescription: "Hear directly from web framework community leaders of Next.js, Gatsby, RedwoodJS, Vue, Eleventy, Angular, Hugo, and more at Jamstack Conf October 6-7, 2020."
-  ogimage: /img/blog/jamsnacks-blog-2.jpg
+  ogimage: /v3/img/blog/jamsnacks-blog-2.jpg
 ---
-![JamSnacks speakers at Jamstack Conf - Tom Preston-Werner, Obinna Ekwuno, Evan You, Cassidy Williams, Zach Leatherman, Tara Manicsic, and Bud Parr](/img/blog/jamsnacks-blog.png)
+![JamSnacks speakers at Jamstack Conf - Tom Preston-Werner, Obinna Ekwuno, Evan You, Cassidy Williams, Zach Leatherman, Tara Manicsic, and Bud Parr](/v3/img/blog/jamsnacks-blog.png)
 
 Introducing JamSnacks, quick bites from community leaders who are building key technologies and frameworks in the Jamstack ecosystem.
 
@@ -50,4 +50,4 @@ Don’t miss JamSnacks and [all the other great talks](https://jamstackconfvirtu
 
 ### Thank you again to our sponsors!
 
-![Jamstack Conf October 2020 sponsor logos](/img/blog/sponsors-oct-2020-5-.webp)
+![Jamstack Conf October 2020 sponsor logos](/v3/img/blog/sponsors-oct-2020-5-.webp)

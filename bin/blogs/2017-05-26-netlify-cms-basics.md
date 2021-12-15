@@ -2,14 +2,14 @@
 title: A Complete CMS with No Server and 18 Lines of Code
 authors:
   - Shawn Erquhart
-image: /img/blog/RugQjt3o.jpg
+image: /v3/img/blog/RugQjt3o.jpg
 short_title: Netlify CMS Basics
 topics:
   - tutorials
 tags:
   - popular
-  - cms
-  - tutorial
+  - CMS
+  - Tutorial
 format: blog
 description: >-
   Setting up Netlify CMS as a standalone tool and a hands-on explanation of how

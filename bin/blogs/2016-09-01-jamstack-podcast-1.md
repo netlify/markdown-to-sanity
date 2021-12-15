@@ -11,14 +11,14 @@ guests:
     bio: Aaron Autrand co-founded groundcontrolmag.com, and has a background in content creation.
   - name: Christian Schlensker
     bio: Christian Schlensker is a javascript developer with a background that spans both development and design which allows him to achieve a customer centric approach in his programming endeavors. He currently works for Bugsnag as a frontend engineer.
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 description: "In this first episode, Brian is joined by Aaron Autrand, and Christian Schlensker to discuss the JAMstack and some of it’s best applications."
 date: 2016-09-01
 minuteslong: 26
 tags:
-  - jamstack
-  - podcast
-  - episode
+  - Jamstack
+  - Podcast
+  
 topics:
   - insights
 ---

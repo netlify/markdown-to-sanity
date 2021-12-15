@@ -3,7 +3,7 @@
 title: Netlify vs Amazon S3
 authors:
   - Matt Biilmann
-image: /img/blog/apple-orange.jpg
+image: /v3/img/blog/apple-orange.jpg
 format: blog
 short_title: Netlify vs Amazon S3
 description: How Amazon S3 and Netlify compares as static site hosting platforms.
@@ -11,10 +11,9 @@ thumbnail: /img/posts/thumbnails/apple-orange.jpg
 cmsUserSlug: netlify-vs-amazon-s3
 date: 2015-03-06
 tags:
-  - netlify
+  - Netlify
   - s3
-  - comparisons
-  - features
+  - Features
 topics:
   - insights
 ---

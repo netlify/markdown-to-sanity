@@ -9,9 +9,9 @@ lastmod: 2020-08-26
 topics:
   - news
 tags:
-  - jamstack conf
-  - jamstack
-  - events
+  - Jamstack Conf
+  - Jamstack
+  - Events
 tweet: ""
 format: blog
 relatedposts:
@@ -21,9 +21,9 @@ seo:
   metadescription: Announcing Jamstack Conf Virtual Workshops - register today for
     the free event. We hope to see you in October ready to Jam!
   metatitle: Announcing Jamstack Conf Virtual Workshops
-  ogimage: /img/blog/jamstack-og.png
+  ogimage: /v3/img/blog/jamstack-og.png
 ---
-![Jamstack Conf virtual 2020 workshops banner image](/img/blog/blog-header.png)
+![Jamstack Conf virtual 2020 workshops banner image](/v3/img/blog/blog-header.png)
 
 In May we welcomed over 8,500 attendees live for the first virtual Jamstack Conf. We are gearing up for another fantastic event in October with even more Jamstack community and content. Today, we’re excited to announce the first workshops available.
 

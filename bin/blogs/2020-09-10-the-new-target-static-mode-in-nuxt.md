@@ -24,7 +24,7 @@ seo:
 
 As of v2.14.0 of [Nuxt.js](https://nuxtjs.org/), you may notice a new configuration while setting up a new Nuxt project. When following the prompts, you’ll see a prompt for “Deployment Target”, and one of the options is “Static/Jamstack hosting”:
 
-![terminal view of static mode option](/img/blog/target.png)
+![terminal view of static mode option](/v3/img/blog/target.png)
 
 If you’re on an older project, you can set this manually by upgrading your version of Nuxt to ^2.14.0 in `package.json` and in `nuxt.config.js`, adding
 
@@ -42,7 +42,7 @@ What does this do? The most amazing feature is that you no longer have to declar
 
 When creating dynamic pages in Nuxt, you’ll create a directory with an underscore of the unique identifier you’ll be using to associate the page, I typically use an `id`. So my pages directory would look like this:
 
-![directory view for a dynamic page in a nuxt site](/img/blog/pagesdirectory.png)
+![directory view for a dynamic page in a nuxt site](/v3/img/blog/pagesdirectory.png)
 
 And then I use `this.$route.params.id` to gather the unique id of the item and then create a computed property to filter my dataset for the rest of the object values.
 

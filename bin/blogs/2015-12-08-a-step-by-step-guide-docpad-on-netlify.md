@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Docpad on Netlify"
 authors:
   - Aaron Autrand
-image: /img/blog/docpad-screenshot.png
+image: /v3/img/blog/docpad-screenshot.png
 image_caption: null
 format: blog
 short_title: Docpad on Netlify
@@ -13,8 +13,8 @@ cmsUserSlug: ""
 date: 2015-12-08T00:00:00.000Z
 tags:
   - docpad
-  - nodejs
-  - tutorial
+  - NodeJS
+  - Tutorial
 topics:
   - tutorials
 ---

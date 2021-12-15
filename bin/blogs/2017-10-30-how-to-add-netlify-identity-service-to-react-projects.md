@@ -8,8 +8,8 @@ topics:
   - tutorials
 tags:
   - how-to
-  - react
-  - identity
+  - React
+  - Identity
 format: blog
 description: >-
   A step-by-step guide on how to add Netlify's built-in Identity service to your
@@ -92,7 +92,7 @@ The [Netlify Identity Widget](https://github.com/netlify/netlify-identity-widget
 
 You can take a closer look at the code that makes this work in this [commit](https://github.com/bdougie/open-sauced/commit/10ee3618769c3f54d26134d39569d5897a8319c9). My Open Sauced app is still a work in progress, but I now have the ability to show and hide content based on whether or not a user is logged in.
 
-![open sauced login](/img/blog/open-sauced-login.png)
+![open sauced login](/v3/img/blog/open-sauced-login.png)
 
 ## Adding users in the dashboard
 
@@ -100,7 +100,7 @@ By default, user registration is open, meaning users can sign up using a form on
 
 To disable new user registration, go to identity setting your site dashboard, and select **Invite only** under **Registration preferences**.
 
-![identity settings prefs](/img/blog/identy-settings-prefs.png)
+![identity settings prefs](/v3/img/blog/identy-settings-prefs.png)
 
 You can allow your users to log into your site using an account with an external service provider. Go to \*\*Settings > Identity > Identity configuration **,** \*\*and under **External providers,** select the providers you would like to include. We currently support Google, GitHub, Bitbucket, and GitLab.
 

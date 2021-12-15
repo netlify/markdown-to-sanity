@@ -9,9 +9,9 @@ date: '2020-02-25'
 topics:
   - tutorials
 tags:
-  - gatsby
+  - Gatsby
   - build speeds
-  - performance
+  - Performance
 tweet: ''
 format: blog
 seo:
@@ -20,13 +20,13 @@ seo:
     parallel image processing! This step-by-step tutorial will show you how.
     Check it out!
   metatitle: Improve Gatsby Build Speeds With Parallel Image Processing
-  ogimage: /img/blog/parallel-speed-comparison.jpg
+  ogimage: /v3/img/blog/parallel-speed-comparison.jpg
 ---
 Recently, Gatsby introduced powerful open source features that allow massive build speed improvements for sites with lots of images. Taking advantage of those features, Matt Biilmann set up parallel image processing for Gatsby using Google Cloud and [open sourced it as `gatsby-parallel-runner`](https://www.npmjs.com/package/gatsby-parallel-runner).
 
 **In this article we'll implement `gatsby-parallel-runner` to make image-heavy Gatsby builds on Netlify nearly 2× faster!**
 
-![Comparison of before parallel image processing (6m 21s) and after (3m 22s).](/img/blog/parallel-speed-comparison.jpg)
+![Comparison of before parallel image processing (6m 21s) and after (3m 22s).](/v3/img/blog/parallel-speed-comparison.jpg)
 
 On a [demo site with lots of images](https://github.com/jlengstorf/image-processing), adding `gatsby-parallel-runner` reduced build times for the site from [6 minutes and 21 seconds](https://app.netlify.com/sites/without-gatsby-parallel-runner/deploys/5e51653c34b48ddcd5e549e3?utm_source=blog&utm_medium=gatsby-parallel-images-jl&utm_campaign=devex) down to [3 minutes 22 seconds](https://app.netlify.com/sites/with-gatsby-parallel-runner/deploys/5e51648c051f084f3fabe4f6?utm_source=blog&utm_medium=gatsby-parallel-images-jl&utm_campaign=devex) — a whopping 47% drop!
 
@@ -56,7 +56,7 @@ That being said, use this with the standard disclaimer that we're it's still pre
 
 For this tutorial, we'll be using a repo with a lot of unoptimized images to make the impacts of parallel image processing clear. To avoid testing the speed of your internet connection, we'll work entirely on Netlify for this tutorial.
 
-![The “deploy to Netlify” flow: 3 steps to deploy a new site!](/img/blog/deploy-to-netlify.jpg)
+![The “deploy to Netlify” flow: 3 steps to deploy a new site!](/v3/img/blog/deploy-to-netlify.jpg)
 
 [Deploy the demo site to your Netlify account](https://app.netlify.com/start/deploy?repository=https://github.com/jlengstorf/image-processing&utm_source=blog&utm_medium=gatsby-parallel-images-jl&utm_campaign=devex) to get started. It'll start building right away using the standard `gatsby build` command, which will take about 6 or 7 minutes.
 
@@ -70,7 +70,7 @@ To get an idea of where things are _without_ enabling parallel image processing,
 
 We can see how long this takes by checking the deploy log after the site builds:
 
-![The Netlify deploy summary for the unoptimized build.](/img/blog/unoptimized-build-time.png)
+![The Netlify deploy summary for the unoptimized build.](/v3/img/blog/unoptimized-build-time.png)
 
 The site took 6 minutes and 27 seconds to build. If we look into [the raw build logs](https://app.netlify.com/sites/loving-northcutt-b764eb/deploys/5e51c446f91fc677a36cbd98?utm_source=blog&utm_medium=gatsby-parallel-images-jl&utm_campaign=devex), we can see that the vast majority of that build time comes from the "Generating image thumbnails" step:
 
@@ -96,7 +96,7 @@ This means we'll need to have a Google Cloud account and enable a few services.
 
 Once you've created a Google Cloud account, go to the [Google Cloud Platform dashboard](https://console.cloud.google.com/home/dashboard).
 
-![Google Cloud Dashboard.](/img/blog/gc-dashboard.png)
+![Google Cloud Dashboard.](/v3/img/blog/gc-dashboard.png)
 
 If you already have a Google Cloud account, click the dropdown next to the "Google Cloud Platform" banner, then choose "New Project" from the top-left of the modal that opens. Give it a name like "Gatsby Image Processing" so it's easy to remember why you created it later.
 
@@ -106,7 +106,7 @@ If you just set up your Google Cloud account, it should walk you through creatin
 
 From the dashboard, type "pub sub" into the search bar at the top, then click "Subscriptions" in the results that appear.
 
-![Google Cloud Pub/Sub selected in the search dropdown.](/img/blog/gc-pubsub.png)
+![Google Cloud Pub/Sub selected in the search dropdown.](/v3/img/blog/gc-pubsub.png)
 
 You'll see a note that the Pub/Sub service is being enabled for your account.
 
@@ -116,7 +116,7 @@ This also enables the Pub/Sub API, which is called by the `gatsby-parallel-runne
 
 Next, type "cloud storage" into the top search bar and choose "Google Cloud Storage JSON API" from the results.
 
-![Google Cloud Storage JSON API selected in the dropdown.](/img/blog/gc-storage.png)
+![Google Cloud Storage JSON API selected in the dropdown.](/v3/img/blog/gc-storage.png)
 
 This is required for handling any images that are too large to send using Pub/Sub.
 
@@ -124,7 +124,7 @@ This is required for handling any images that are too large to send using Pub/Su
 
 In the top search bar, type "cloud functions" and choose "Cloud Functions" from the options (there are a few options here — choose the one that _only_ says "Cloud Functions").
 
-![Cloud Functions selected in the dropdown.](/img/blog/gc-functions.png)
+![Cloud Functions selected in the dropdown.](/v3/img/blog/gc-functions.png)
 
 The parallel runner uses Cloud Functions to actually process images for Gatsby.
 
@@ -136,18 +136,18 @@ On the [service accounts dashboard](https://console.cloud.google.com/iam-admin/s
 
 On the next screen choose a name for your service account — to make it easy to remember, maybe choose something like "gatsby-parallel-runner".
 
-![The create service account page in Google Cloud.](/img/blog/gc-service-account.png)
+![The create service account page in Google Cloud.](/v3/img/blog/gc-service-account.png)
 
 On the next screen add two roles:
 
 1. Storage Admin — required to create storage buckets and access them
 2. Pub/Sub Editor — required to create topics, as well as send and receive messages
 
-![Workflow for setting service account permissions in Google Cloud.](/img/blog/gc-roles.png)
+![Workflow for setting service account permissions in Google Cloud.](/v3/img/blog/gc-roles.png)
 
 On the third screen, scroll down to the "Create key (optional)" section and click the "+ CREATE KEY" button. Leave the key type as JSON and click the "Create" button. A JSON file will be downloaded with your credentials.
 
-![Confirmation after generating and downloading credentials.](/img/blog/gc-private-key.png)
+![Confirmation after generating and downloading credentials.](/v3/img/blog/gc-private-key.png)
 
 Move the downloaded file somewhere safe. **For the purposes of this tutorial, we will assume that the file will be renamed to `google-cloud-creds.json`.**
 
@@ -244,13 +244,13 @@ In the "Environment" section, add the following environment variables:
 * `WORKER_TOPIC` — set this to a unique value (this can be shared between your own sites, but it has to be unique to your Google Cloud account)
 * `TOPIC` — set this to a unique value that identifies your site
 
-![Environment variables settings page in Netlify with requried env vars set.](/img/blog/netlify-env-vars.jpg)
+![Environment variables settings page in Netlify with requried env vars set.](/v3/img/blog/netlify-env-vars.jpg)
 
 ### Change your Netlify build command
 
 In the same "Build & deploy" settings on your Netlify dashboard, change the build command to `gatsby-parallel-runner`:
 
-![Netlify build settings updated to use `gatsby-parallel-runner`](/img/blog/netlify-build-settings.png)
+![Netlify build settings updated to use `gatsby-parallel-runner`](/v3/img/blog/netlify-build-settings.png)
 
 > Heads up! If you use a [Netlify config file](https://docs.netlify.com/configure-builds/file-based-configuration/?utm_source=blog&utm_medium=gatsby-parallel-images-jl&utm_campaign=devex), change the build command there instead.
 
@@ -260,7 +260,7 @@ Earlier in this process we modified our repo to add the `gatsby-parallel-runner`
 
 **On our demo repo, building the site is 47% faster when using `gatsby-parallel-runner`.**
 
-![Comparison of before parallel image processing (6m 21s) and after (3m 22s).](/img/blog/parallel-speed-comparison.jpg)
+![Comparison of before parallel image processing (6m 21s) and after (3m 22s).](/v3/img/blog/parallel-speed-comparison.jpg)
 
 ## This is (probably) just the beginning
 

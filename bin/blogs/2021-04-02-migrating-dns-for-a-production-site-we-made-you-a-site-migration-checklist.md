@@ -135,6 +135,6 @@ Once you've confirmed, it's time to crank the TTLs on your records back up to th
 
 Now you're in the home stretch! The only thing left to do is swap out your custom SSL certificate. You can switch to the Let's Encrypt certificate within your site dashboard, which we'll now be able to provision for you and then automatically renew every three months going forward. There will be no interruption of service when the one SSL certificate replaces the other.
 
-![screenshot of "provision let's encrypt certificate" prompt in the Netlify site dashboard](/img/blog/provision-le-cert-1.png "provision let's encrypt certificate button")
+![screenshot of "provision let's encrypt certificate" prompt in the Netlify site dashboard](/v3/img/blog/provision-le-cert-1.png "provision let's encrypt certificate button")
 
 Whew, you did it! Thanks for following along. If you’ve got more questions about live site migrations, please reach out in the [Netlify Forum](https://answers.netlify.com/).

@@ -20,11 +20,11 @@ relatedposts:
 seo:
   metatitle: See How LiveChat Migrated From WordPress to the Jamstack with Netlify
   metadescription: "Learn how the Jamstack and Netlify gives LiveChat’s web development team powerful tools. Adopting Netlify streamlined LiveChat&#x27;s workflow and made their sites more performant, secure, and reliable."
-  ogimage: /img/blog/og-livechat-netlify-blog.png
+  ogimage: /v3/img/blog/og-livechat-netlify-blog.png
 ---
 LiveChat doesn’t like to leave their customers waiting. Their suite of SaaS-based communication tools help companies from Adobe, to PayPal, to ING Bank serve customers across channels and around the clock. So, when it comes to LiveChat’s own site performance, every second counts. 
 
-![LiveChat logo](/img/blog/logo_rgb_orange.png)
+![LiveChat logo](/v3/img/blog/logo_rgb_orange.png)
 
 ## Challenges
 
@@ -80,7 +80,7 @@ To serve their network of partners and experts, [LiveChat](https://partners.live
 
 For LiveChat, community matters, too. To give back to the community, LiveChat sponsors a local Wroclaw Jamstack meetup where fellow developers can learn from each other and share their latest Jamstack projects. 
 
-![LiveChat sponsored Wroclaw Jamstack meetup](/img/blog/jamstack-wroclaw-meetup.jpg)
+![LiveChat sponsored Wroclaw Jamstack meetup](/v3/img/blog/jamstack-wroclaw-meetup.jpg)
 
 What started as a small series of site migrations in 2017 culminated in November 2019 when LiveChat brought their flagship site, LiveChat.com, over to Netlify. “Netlify has become a standard tool we use everyday as web developers,” says Dawid. 
 

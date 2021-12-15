@@ -10,12 +10,12 @@ lastmod: 2020-06-11T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - announcement
-  - build
-  - deploy
-  - features
-  - launch
-  - netlify
+  - Announcements
+  - Build
+  - Deploy
+  - Features
+  - Launch
+  - Netlify
 tweet: ""
 format: blog
 seo:
@@ -23,7 +23,7 @@ seo:
     Announcing Improved Netlify Build Logs — See What’s Changed
   metadescription: >
     Your Netlify builds just got better with improved logging. Get deeper insights into what’s happening in your builds for an even better experience!
-  ogimage: /img/blog/netlify-new-build-logs.png
+  ogimage: /v3/img/blog/netlify-new-build-logs.png
 relatedposts:
   - "Netlify Build Plugins Are Here!"
   - "A more flexible build architecture with updated Linux"
@@ -31,7 +31,7 @@ relatedposts:
 
 Netlify’s build logs just got better!
 
-![Netlify’s improved build log output.](/img/blog/netlify-build-logs-2020-06.png)
+![Netlify’s improved build log output.](/v3/img/blog/netlify-build-logs-2020-06.png)
 
 **The new logs are designed to provide more useful information in a human-friendly format.** Here’s what you’ll find in the new logs:
 

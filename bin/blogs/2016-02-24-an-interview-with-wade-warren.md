@@ -3,7 +3,7 @@
 title: An Interview with Wade Warren
 authors:
   - Aaron Autrand
-image: /img/blog/wade.jpg
+image: /v3/img/blog/wade.jpg
 image_caption: null
 format: blog
 short_title: Interviewing Wade Warren
@@ -12,9 +12,8 @@ thumbnail: thumbnails/performance.jpg
 cmsUserSlug: ""
 date: 2016-02-24T00:00:00.000Z
 tags:
-  - interview
+  - Interview
   - wikia
-  - wade warren
   - swt
 topics:
   - tools

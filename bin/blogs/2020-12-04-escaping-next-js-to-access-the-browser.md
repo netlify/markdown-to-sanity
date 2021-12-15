@@ -10,7 +10,7 @@ lastmod: 2020-12-04
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -22,7 +22,7 @@ seo:
   metadescription: Sometimes you need what's called an "escape hatch" to access
     certain browser properties and methods in a Next.js application. Here's how
     to make one!
-  ogimage: /img/blog/blogvent4.png
+  ogimage: /v3/img/blog/blogvent4.png
 ---
 Welcome to [Blogvent](https://www.netlify.com/tags/blogvent/), day 4!
 

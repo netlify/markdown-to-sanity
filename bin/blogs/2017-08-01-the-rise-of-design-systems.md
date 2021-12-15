@@ -4,13 +4,13 @@ audiolink: >-
 title: The Rise of Design Systems
 authors:
   - Brian Douglas
-image: /img/blog/jamstack-radio-1024x1024.jpg
+image: /v3/img/blog/jamstack-radio-1024x1024.jpg
 short_title: The Rise of Design Systems
 format: podcast
 tags:
-  - podcast
+  - Podcast
   - storybook
-  - design
+  - Design
 topics:
   - insights
 description: >-

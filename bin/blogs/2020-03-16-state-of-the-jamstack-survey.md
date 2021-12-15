@@ -10,7 +10,7 @@ date: '2020-03-17'
 topics:
   - news
 tags:
-  - JAMstack
+  - Jamstack
 tweet: ''
 format: blog
 relatedposts:
@@ -22,7 +22,7 @@ seo:
     Write your responses here to participate in the first JAMstack community
     survey! Whether you’re a developer or a designer, a copywriter, or a product
     marketer - all are welcome to take part!
-  ogimage: /img/blog/state-of-jamstack-2020-survey.png
+  ogimage: /v3/img/blog/state-of-jamstack-2020-survey.png
 ---
 We'd like you to participate in the first [JAMstack community survey](https://www.surveymonkey.com/r/DHKDBLG)!
 

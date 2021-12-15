@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Punch on Netlify"
 authors:
   - Jimmi Lee
-image: /img/blog/punch.png
+image: /v3/img/blog/punch.png
 format: blog
 short_title: Punch on Netlify
 description: "A short tutorial on how to set up Punch in continuous deployment on Netlify, with assets on GitHub"
@@ -12,8 +12,8 @@ cmsUserSlug: ""
 date: 2016-03-04T00:00:00.000Z
 tags:
   - punch
-  - nodejs
-  - tutorial
+  - NodeJS
+  - Tutorial
 topics:
   - tutorials
 ---
@@ -120,7 +120,7 @@ We start by creating a [GitHub](https://github.com/) repository for our Punch si
 
 We’re naming ours `punch-demo` and we’ll skip adding files to the repository until after its creation, as this can sometimes create problems (The README, license and gitignore files).
 
-![netlify0x_createnewrepo.png](/img/blog/netlify0x_createnewrepo.png)
+![netlify0x_createnewrepo.png](/v3/img/blog/netlify0x_createnewrepo.png)
 
 Once the repository has been named and created we’ll return to local environment.
 
@@ -161,7 +161,7 @@ Once the files are committed, it’s time to connect with the GitHub repository 
 
 ### 4. Get & Add Remote URL
 
-![a1_remotegithuburl.png](/img/blog/a1_remotegithuburl.png)
+![a1_remotegithuburl.png](/v3/img/blog/a1_remotegithuburl.png)
 
 We return to the GitHub repository we just created and retrieve the URL for the remote repository. This will be the location of all of our site assets  and is where our local repository will be pushed or uploaded to.
 Either copy paste the whole command or use the button as depicted above, to copy just the path to your clipboard.
@@ -196,7 +196,7 @@ It’s time to connect it with Netlify.
 
 Creating a new site on Netlify can be done with a few clicks, it’s intuitive and once you’ve created an account and logged in, you’ll be taken to [https://app.netlify.com/sites](https://app.netlify.com/sites).
 
-![Netlify New Site](/img/blog/newsitebut.png)
+![Netlify New Site](/v3/img/blog/newsitebut.png)
 
 Click the **New Site** button (as seen above) to get started.
 
@@ -204,7 +204,7 @@ Click the **New Site** button (as seen above) to get started.
 
 Clicking **New Site** brings you to this screen:
 
-![Link to GitHub](/img/blog/createsite.png)
+![Link to GitHub](/v3/img/blog/createsite.png)
 
 When you push to GitHub, Netlify does all the work. No more wasting time on manual deploying of updates or changes!
 
@@ -216,11 +216,11 @@ You can skip this step, if you already have an account with Netlify set up to au
 
 You will be asked to provide your GitHub login details:
 
-![GitHub Login](/img/blog/githublogin.png)
+![GitHub Login](/v3/img/blog/githublogin.png)
 
 We need to let Netlify and GitHub talk to each other, so review the permissions and then click authorize application.
 
-![Authorize netlify](/img/blog/authorization.png)
+![Authorize netlify](/v3/img/blog/authorization.png)
 
 Like it says in the image above on the right, Netlify doesn’t store your GitHub access token on our servers!
 
@@ -234,13 +234,13 @@ Once you’re connected to GitHub, Netlify will show you a list of your GitHub r
 
 Fill in the configuration settings as seen in the screen shot below:
 
-![punch_config.png](/img/blog/punch_config.png)
+![punch_config.png](/v3/img/blog/punch_config.png)
 
 Click the **Save** button and watch the magic unfold.
 
 ### Step 5: Build Your Site
 
-![punch_building.png](/img/blog/punch_building.png)
+![punch_building.png](/v3/img/blog/punch_building.png)
 
 If everything went according to plan, Netlify will now build your site, with a nice status window you can either follow or just leave, as Netlify saves the information in the log file it saves with each build.
 
@@ -248,7 +248,7 @@ If everything went according to plan, Netlify will now build your site, with a n
 
 You should arrive at something along the lines of this result within a few minutes:
 
-![punch_done.png](/img/blog/punch_done.png)
+![punch_done.png](/v3/img/blog/punch_done.png)
 
 Once Netlify has built your site, it will assign a random name to it and you’ll be presented with the site and the control panel for the site, ready for additional customizing.
 

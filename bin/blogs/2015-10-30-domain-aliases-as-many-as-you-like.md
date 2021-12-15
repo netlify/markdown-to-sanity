@@ -3,7 +3,7 @@
 title: Domain Aliases–as Many as You Like
 authors:
   - Matt Biilmann
-image: /img/blog/null
+image: /v3/img/blog/null
 format: blog
 short_title: Domain Aliases
 description: "With our new domain alias feature, you can easily point several domains or subdomain to the same site. "
@@ -11,10 +11,10 @@ thumbnail: thumbnails/many-arrows-design-pointing-up-bending-different-direction
 cmsUserSlug: ""
 date: 2015-10-30
 tags:
-  - netlify
-  - news
-  - features
-  - domains
+  - Netlify
+  - News
+  - Features
+  - Domains
 topics:
   - news
 ---

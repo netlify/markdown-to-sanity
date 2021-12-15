@@ -3,7 +3,7 @@
 title: Our conversion from Angular to React
 authors:
   - Brian Douglas
-image: /img/blog/pokemon-dance.gif
+image: /v3/img/blog/pokemon-dance.gif
 format: blog
 short_title: Netlify's conversion to React
 description: We quietly shipped our new React UI and it went relatively unnoticed
@@ -11,8 +11,8 @@ thumbnail: thumbnails/raising-both-hands-in-celebration.png
 cmsUserSlug: ""
 date: 2016-07-26
 tags:
-  - react
-  - angular
+  - React
+  - Angular
 topics:
   - insights
 ---

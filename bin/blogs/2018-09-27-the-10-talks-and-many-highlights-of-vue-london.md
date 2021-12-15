@@ -20,7 +20,7 @@ Last week I had the honour of being the MC at [Vue London](https://vuejs.london/
 
 I was not disappointed.
 
-![The view from the stage at Vue London](/img/blog/vue-london.jpg)
+![The view from the stage at Vue London](/v3/img/blog/vue-london.jpg)
 
 Although this was the first full conference for Vue in London, the organiser ([Blake Newman](https://twitter.com/blakenewman), who did a fantastic job) chose to stage the event at a large and modern venue in the regenerated area of London which hosted the Olympics in 2012. There were a lot of seats to fill.
 
@@ -40,7 +40,7 @@ There was so much content that I'd struggle to describe each and every talk in d
 
 Gregg opened the day brilliantly, with a detailed, well-paced, and clear explanation on how Vue achieves reactivity in what it renders. His walkthrough of the code evolved steadily to reveal deeper concepts as he went. It's no surprise that he founded [Vue Mastery](https://www.vuemastery.com/) and teaches much of the content to be found there. An excellent tutor worth seeking out.
 
-![Gregg Pollack speaking at Vue London](/img/blog/vue-london-gregg.jpg)
+![Gregg Pollack speaking at Vue London](/v3/img/blog/vue-london-gregg.jpg)
 
 ### Roman Kuba
 
@@ -48,7 +48,7 @@ Roman works at [Codeship](https://codeship.com) — a cloud-based CI/CD provider
 
 He delivered an excellent talk about testing in Vue. Describing tools like [Jest](https://jestjs.io/) and ways to make use of them with Vue's unit testing library: [vue-test-utils](https://vue-test-utils.vuejs.org/). Also discussing tactics for sensible mocking and other testing fundamentals. It was great to see this kind of practice getting good air time at the event. Most valuable.
 
-![Roman Kuba speaking at Vue London](/img/blog/vue-london-roman.jpg)
+![Roman Kuba speaking at Vue London](/v3/img/blog/vue-london-roman.jpg)
 
 ### Sara Vieira
 
@@ -56,7 +56,7 @@ Sara provided a great change of pace to keep us all alert. Her trademark style o
 
 As ever, her enthusiasm was infectious.
 
-![Sara Vieira speaking at Vue London](/img/blog/vue-london-sara.jpg)
+![Sara Vieira speaking at Vue London](/v3/img/blog/vue-london-sara.jpg)
 
 ### Sebastien Chopin
 
@@ -66,7 +66,7 @@ Not only did he deliver a state of the Next nation and report on the progress an
 
 Sebastien left me keen to explore and experiment more with Nuxt, which seems to have been very thoughtfully designed and implemented.
 
-![Sebastien Chopin speaking at Vue London](/img/blog/vue-london-sebastien.jpg)
+![Sebastien Chopin speaking at Vue London](/v3/img/blog/vue-london-sebastien.jpg)
 
 ### Jacob Schatz
 
@@ -76,7 +76,7 @@ Interesting comparisons were made with [Redux](https://redux.js.org/) for refere
 
 Jacob’s talk was another example of wonderfully paces technical explanations which balance detail and clarity.
 
-![Jacob Schatz speaking at Vue London](/img/blog/vue-london-jacob.jpg)
+![Jacob Schatz speaking at Vue London](/v3/img/blog/vue-london-jacob.jpg)
 
 ### Chris DeMars
 
@@ -84,7 +84,7 @@ Another theme that I was delighted to see getting some attention at the event wa
 
 Data, insights and recommendations galore in this talk.
 
-![Chris DeMars speaking at Vue London](/img/blog/vue-london-chris-dm.jpg)
+![Chris DeMars speaking at Vue London](/v3/img/blog/vue-london-chris-dm.jpg)
 
 ### Jen Looper
 
@@ -94,7 +94,7 @@ In her talk, Jen demonstrated the use of Vue beyond the web browser. Touching on
 
 The various attempts to make native application development possible via web technologies over the past few years have left me rather underwhelmed, but the demonstration of NativeScript suggests a more interesting future for this approach. And being able to use Vue as part of that is an interesting prospect.
 
-![Jen Looper live demoing with a volunteer at Vue London](/img/blog/vue-london-jen.jpg)
+![Jen Looper live demoing with a volunteer at Vue London](/v3/img/blog/vue-london-jen.jpg)
 
 ### Guillaume Chau
 
@@ -104,7 +104,7 @@ As version 3 of the Vue CLI was recently released, we got to learn lots about it
 
 Combine that with the UI which helps to configure and visualize projects which Guillaume, of which also demonstrated new features, and it becomes clear that developer experience is important to the Vue community. And a good deal of effort in this area is really paying off.
 
-![Guillaume Chau speaking at Vue London](/img/blog/vue-london-guillaume.jpg)
+![Guillaume Chau speaking at Vue London](/v3/img/blog/vue-london-guillaume.jpg)
 
 ### Daniel Rosenwasser
 
@@ -114,7 +114,7 @@ Daniel is Program Manager of [TypesScript](https://www.typescriptlang.org/) at M
 
 TypeScript and Vue are becoming an increasingly common pairing. I find myself eager to explore it more.
 
-![Daniel Rosenwasser speaking at Vue London](/img/blog/vue-london-daniel.jpg)
+![Daniel Rosenwasser speaking at Vue London](/v3/img/blog/vue-london-daniel.jpg)
 
 ### Evan You
 
@@ -134,11 +134,11 @@ I really enjoyed hearing Evan talk about not only about what was being planned f
 
 In addition to the full length talks, we also got a number of 7 minute lightening talks after lunch. These helped to keep the pace moving along nicely. Netlify’s own [Divya Sasidharan](https://twitter.com/shortdiv) gave a talk about [extending the Vue CLI via plugins](https://www.netlify.com/blog/2018/09/26/how-we-built-a-vue-cli-plugin-for-netlify-lambda/), including reference to a Netlify plugin to simplify the development of serverless functions as part of Vue projects. 
 
-![Phil Hawksworth introducing Divya Sasidharan at Vue London](/img/blog/divya-phil-vue.jpg)
+![Phil Hawksworth introducing Divya Sasidharan at Vue London](/v3/img/blog/divya-phil-vue.jpg)
 
 We also heard about data visualisation in Vue. The work being done my the [Vue Vixens](https://vuevixens.org/) organisation. We saw live demos of building with [VuePress](https://vuepress.vuejs.org/). Learnt about how Vue manages event handling. And to cap it all we got an amazing demonstration of the coming updates to [Codesandbox](https://codesandbox.io/) from [Ives van Hoorne](https://twitter.com/CompuIves), where he showed us how this client-side, browser-based IDE will soon be able to run server side logic through something called Server Side Bundling. This is something to look out for. Especially for those wanting to quickly bootstrap a JAMstack project and run their builds right in Codesandbox during development work. Likely to be a potent combination when used with Netlify.
 
-![Ives van Hoorne speaking at Vue London ](/img/blog/vue-london-ives.jpg)
+![Ives van Hoorne speaking at Vue London ](/v3/img/blog/vue-london-ives.jpg)
 
 ## More to come from Vue
 
@@ -150,6 +150,6 @@ As you can see, it was a full day. Undeterred by the effort required to make an 
 
 I’d book early.
 
-![Blake Newman wraps up 2018 and announces Vue London 2019](/img/blog/vue-london-blake.jpg)
+![Blake Newman wraps up 2018 and announces Vue London 2019](/v3/img/blog/vue-london-blake.jpg)
 
 > Photos courtesy of Vue London: https://vuejs.london/summary

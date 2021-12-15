@@ -14,7 +14,6 @@ tags:
   - remote engineering teams
   - slack
   - zoom
-  - iteration
 tweet: ""
 format: blog
 relatedposts:
@@ -43,7 +42,7 @@ Here’s a snippet from our internal documentation with some helpful tips:
 
   *This gives everyone at least 5 mins to take a short break and be ready on time for their next call.*
 
-  ![speedy meeting setting in google calendar](/img/blog/screen-shot-2020-04-12-at-9.12.44-am.png "gmail speedy meeting setting")
+  ![speedy meeting setting in google calendar](/v3/img/blog/screen-shot-2020-04-12-at-9.12.44-am.png "gmail speedy meeting setting")
 
 * Every call should have an agenda
 

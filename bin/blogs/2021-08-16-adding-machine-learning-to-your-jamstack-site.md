@@ -12,16 +12,16 @@ tags:
   - Engineering
   - TensorFlow.js
   - ml5.js
-  - Netlify functions
+  - Netlify Functions
   - machine learning
-  - javascript
+  - Javascript
 tweet: ""
 format: blog
 relatedposts:
 seo:
   metadescription: Machine learning can be done with JavaScript on both client and server-side. Learn about the different ways you can add machine learning to your Jamstack site.
   metatitle: Adding machine learning to your Jamstack site
-  ogimage: /img/blog/og-adding-ml-jamstack-site.png
+  ogimage: /v3/img/blog/og-adding-ml-jamstack-site.png
 ---
 
 Machine learning can be done with JavaScript on both client and server-side.

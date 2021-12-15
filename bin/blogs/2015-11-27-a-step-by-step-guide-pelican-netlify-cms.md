@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Pelican Netlify CMS"
 authors:
   - Jimmi Lee
-image: /img/blog/null
+image: /v3/img/blog/null
 format: blog
 short_title: The Pelican Netlify CMS Template
 description: A short guide on how to set up your very own Pelican Netlify CMS Template.
@@ -58,7 +58,7 @@ First we need to fork our own copy of the [pelican-netlify-cms template](https:/
 
 Second, to make a local clone first we need to get the remote GitHub URL from the Pelican repo we just made. The button looks like this:
 
-![netlify0x_remoteurl_but.png](/img/blog/netlify0x_remoteurl_but.png)
+![netlify0x_remoteurl_but.png](/v3/img/blog/netlify0x_remoteurl_but.png)
 
 The commands below first take us to the location where we want to put our new Pelican site and the second command uses Git to create the clone:
 
@@ -185,16 +185,16 @@ If you haven't made one already, create an account and login at [netlify](https:
 ### 1. Create Site.
 Creating a new site on Netlify is intuitive and quick.
 
-![netlify New Site](/img/blog/newsitebut.png)
+![netlify New Site](/v3/img/blog/newsitebut.png)
 
 Once your account is created and you're logged in, you’ll be taken to https://app.netlify.com/sites. Click the *"New Site"* button to get started (depicted above).
 
 Next, select *Link to GitHub* and you'll be shown a list of your GitHub repositories, as seen in the screen shot below. We'll select the Pelican repository we made earlier.
-![netlify0x_chooserepo.png](/img/blog/netlify0x_chooserepo.png)
+![netlify0x_chooserepo.png](/v3/img/blog/netlify0x_chooserepo.png)
 
 ### 2. Configure Build.
 You'll notice that Netlify detects the Pelican build command to be `pelican content`, but we'll change that to `make publish` instead, while using the `/output` as Dir, as seen in this screen shot:
-![buildpelican.png](/img/blog/buildpelican.png)
+![buildpelican.png](/v3/img/blog/buildpelican.png)
 
 A few notes on the difference between the two commands, though both will work with Netlify.
 
@@ -204,7 +204,7 @@ The `pelican content` command on the other hand, comes with pelican and will gen
 
 ### 3. Build Your Site.
 Once you click save, Netlify will step in and take over, while keeping you informed through a live build log, as seen in this screen shot:
-![pelicanlivebuildlog.png](/img/blog/pelicanlivebuildlog.png)
+![pelicanlivebuildlog.png](/v3/img/blog/pelicanlivebuildlog.png)
 
 While it may seem alluring, following the nice green bulletin isn't strictly necessary, as Netlify will also save it all in the log for your build, so now is as good a time as ever to take that break.
 
@@ -213,13 +213,13 @@ Open up the [GitHub developer application screen](https://github.com/settings/de
 Next fill out the application information as seen in the screen shot below — you can name and describe it however you want, but it is important that you use the exact URL for the Authorization callback like this: `https://api.netlify.com/auth/done`
 Use the screen shot below as an example:
 
-![registernewapplication.png](/img/blog/registernewapplication.png)
+![registernewapplication.png](/v3/img/blog/registernewapplication.png)
 
 You can disregard choosing an image, though we did, to help distinguish the application.
 
 Once you're done filling out, simply click the green **Register application** button and you will get to the following screen shot (well, it will be similar at least):
 
-![netlify0x_registerapp2.png](/img/blog/netlify0x_registerapp2.png)
+![netlify0x_registerapp2.png](/v3/img/blog/netlify0x_registerapp2.png)
 
 What you need to take note of here, is the **Client ID** and the **Client Secret** in the upper right corner. You will need to provide both in the next step!
 
@@ -228,7 +228,7 @@ Return to Netlify and the site you just build and in the control panel select th
 
 This is where we give the GitHub Api access to our site with the application we just registered and you need to enter the **Client ID** and the **Client Secret** from above, as seen in the screen shot below:
 
-![githubaccess.png](/img/blog/githubaccess.png)
+![githubaccess.png](/v3/img/blog/githubaccess.png)
 
 Simply paste them into the windows where it says *enter Client ID here* and below where it says *enter Client Secret here* and you're good to go.
 
@@ -236,7 +236,7 @@ Simply paste them into the windows where it says *enter Client ID here* and belo
 We tried testing the CMS system locally earlier in this guide and it's virtually the same using it online, you just have to change the address to **https://mysite.netlify.com/admin** (change to the URL of your site) to access the CMS system and then log in with GitHub, since we're using GitHub auth when working online.
 
 This screen shot depicts our CMS system with Pelican, after logging in:
-![pelicannetlifycms.png](/img/blog/pelicannetlifycms.png)
+![pelicannetlifycms.png](/v3/img/blog/pelicannetlifycms.png)
 
 As you can see from our little guide, with this template you can have a Pelican site up and running with Netlify CMS in no time at all.
 

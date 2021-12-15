@@ -12,10 +12,10 @@ topics:
 tags:
   - popular
   - cloud
-  - infrastructure
+  - Infrastructure
 tweet: 'Learn how Netlify migrated to a fully multi-cloud infrastructure. #cloud'
 format: blog
-image: /img/blog/migration-header.png
+image: /v3/img/blog/migration-header.png
 ---
 
 Netlify’s platform team is responsible for building and scaling the systems designed to keep Netlify, and the hundreds of thousands of sites that use it, up and running. We take that responsibility seriously, so we’re constantly looking for potential points of failure in our system and working to remove them. Most of our platform is cloud agnostic, and since we favor an approach that minimizes risk, we wanted to extend that to include our origin services. This led to a project that culminated in us migrating our origin services between cloud providers on a recent Sunday night — without any service interruptions.
@@ -29,9 +29,9 @@ Our CDN runs on six different cloud providers, but up until recently, our origin
 The main goal for this project was to have a multi-cloud production system where we could direct traffic to different providers on demand, without interruptions. Our primary sources of data are the database and the cloud store — the first for keeping references to the data and the second for the data itself. To keep latency down, we needed to run a production-ready copy of both sources in every provider. They also needed to have automatic fallbacks configured to the other clouds. For example, Google instances prioritize Google Cloud Storage (GCS) and fallback to S3 automatically.
 
 
-![Migration benchmark 1](/img/blog/migration-bench-1.png)
+![Migration benchmark 1](/v3/img/blog/migration-bench-1.png)
 
-![Migration benchmark 2](/img/blog/migration-bench-2.png)
+![Migration benchmark 2](/v3/img/blog/migration-bench-2.png)
 
 
 We first built a tool called [cloud bench](https://github.com/rybit/cloud-bench) that would check the performance of uploads to different cloud storages. It showed us what we suspected: upload to a cloud storage was faster if it stayed in the same provider. We also confirmed that pricing was better if uploads stayed inside the same network.
@@ -50,7 +50,7 @@ We built a Go service that would inspect an existing blob, figure out where it n
 
 We fed a few million objects to the service for replication. After manually checking those blobs, we started two processes. One that would process newly-uploaded objects and one to backfill the existing objects.
 
-![Meplication metric](/img/blog/migration-replication-1.png)
+![Meplication metric](/v3/img/blog/migration-replication-1.png)
 
 
 We chose a passive replication strategy for the objects; the service would come through and clean up from time to time. A more active strategy, like a 3-phase commit, introduced risk into the upload phase. For instance, bugs or provider issues could slow or disable uploads completely.
@@ -92,7 +92,7 @@ If successful, all the edge nodes in the CDN would automatically start to send t
 We chose a Sunday night to do the actual migration because that’s when Netlify sees its lowest traffic levels. The whole platform team got on a hangout, loaded up our dashboards, and prepared to aggressively monitor for errors or degraded performance that might result from the steps to come. Then we started pushing the buttons. We narrated each step, coordinating, and talking about any issues we saw. Thanks in large part to the planning and testing that went into the migration, the night was mostly spent chatting while the migration went off without a hitch.
 
 
-![Slack shoutout](/img/blog/migration-slack-1.png)
+![Slack shoutout](/v3/img/blog/migration-slack-1.png)
 
 
 As a result of the migration, we can now swap between different cloud providers without any user impact. This includes the databases, web servers, API servers, and object replication. We can easily move the entire brains of our service between Google, Amazon, and Rackspace in around 10 minutes with no service interruptions. Side note: Netflix’s world-class engineering team recently got failovers down from nearly an hour to [less than 10 minutes](https://medium.com/netflix-techblog/project-nimble-region-evacuation-reimagined-d0d0568254d4). We’re going to work our tails off to beat their record.

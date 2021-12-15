@@ -3,7 +3,7 @@
 title: Five Reasons You Want HTTPS for Your Static Site
 authors:
   - Matt Biilmann
-image: /img/blog/lock.jpg
+image: /v3/img/blog/lock.jpg
 format: blog
 short_title: Five Reasons for HTTPS
 description: "HTTPS is not just for E-commerce sites. Here's five reasons you should invest in HTTPS for your static site today."
@@ -12,11 +12,11 @@ cmsUserSlug: five-reasons-you-want-https-for-your-static-site
 date: 2014-10-03T00:00:00.000Z
 tags:
   - https
-  - ssl
+  - SSL
   - security
-  - features
-  - seo
-  - analytics
+  - Features
+  - SEO
+  - Analytics
 topics:
   - insights
 ---

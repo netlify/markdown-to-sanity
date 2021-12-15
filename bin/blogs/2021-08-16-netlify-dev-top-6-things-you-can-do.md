@@ -8,15 +8,15 @@ lastmod: 2021-08-16
 topics:
   - tutorials
 tags:
-  - netlify
-  - cli
+  - Netlify
+  - CLI
   - productivity
 tweet: ""
 format: blog
 seo:
   metatitle: Top 6 things you can do with Netlify Dev in 2021
   metadescription: Learn how to make the most of Netlify Dev with this top 6 tips for faster development.
-  ogimage: /img/blog/og-netlify-dev.png
+  ogimage: /v3/img/blog/og-netlify-dev.png
 ---
 
 You probably already know that Netlify has a [Command Line Interface](https://ntl.fyi/2U4xDqq) tool that makes local development cool.

@@ -17,7 +17,7 @@ format: blog
 relatedposts:
   - Agenda is Now Live for Jamstack Conf Virtual - Join us October 6-7
 seo:
-  ogimage: /img/blog/jamstack-og-speakers-2-.png
+  ogimage: /v3/img/blog/jamstack-og-speakers-2-.png
   metatitle: The Jammies awards debut at Jamstack Conf October 2020
 ---
 ### "The Jammies" awards debut at Jamstack Conf

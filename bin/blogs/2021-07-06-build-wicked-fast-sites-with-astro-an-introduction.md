@@ -11,8 +11,8 @@ topics:
   - tutorials
 tags:
   - astro
-  - javascript
-  - ssg
+  - Javascript
+  - SSG
 tweet: ""
 format: blog
 relatedposts:
@@ -22,7 +22,7 @@ seo:
     building faster websites with less client-side JavaScript. Learn how to use
     it and get started!"
   metatitle: "Build wicked fast sites with Astro: An Introduction"
-  ogimage: /img/blog/wickedfastastro.png
+  ogimage: /v3/img/blog/wickedfastastro.png
 ---
 One of the hot new frameworks on the scene is [Astro](https://astro.build/), and it's all about shipping less client-side JavaScript. I decided to give in a whirl and was pretty pleased with being able to write React, and see the immediate performance benefits when loading scripts only when I *want* to.
 

@@ -8,7 +8,7 @@ topics:
   - news
 tags:
   - DNS
-  - announcements
+  - Announcements
 tweet: ''
 format: blog
 ---

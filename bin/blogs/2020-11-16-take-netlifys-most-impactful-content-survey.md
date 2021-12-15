@@ -20,7 +20,7 @@ seo:
   metadescription: Help Netlify help you, by taking this content survey and
     telling us what type of content you'd like to see from us. Check it out!
   metatitle: Take Netlify's 'Most Impactful Content' Survey
-  ogimage: /img/blog/most-impactful-content-og.png
+  ogimage: /v3/img/blog/most-impactful-content-og.png
 ---
 ## What content matters most to you?
 

@@ -9,11 +9,10 @@ short_title: Better Post Processing
 styleoverrides: /blog.css
 title: Control Your Post Processing
 tags:
-  - netlify
-  - news
-  - features
-  - post-processing
-image: /img/blog/magnum-dean.jpg
+  - Netlify
+  - News
+  - Features
+image: /v3/img/blog/magnum-dean.jpg
 description: >-
   Now Netlify gives you detailed control over the post processing we do to your
   sites.

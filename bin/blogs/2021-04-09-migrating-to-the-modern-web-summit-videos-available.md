@@ -25,7 +25,7 @@ seo:
   metadescription: "Learn from Jamstack experts about best practices and common
     pitfalls when undergoing site migration from legacy to modern web
     architectures. "
-  ogimage: /img/blog/migrating-to-modern-web.png
+  ogimage: /v3/img/blog/migrating-to-modern-web.png
 ---
 Migrating from legacy web architectures to the modern web? You’re not alone. Netlify recently held a seminar on the subject, bringing real-world experience from teams who know how to adopt modern web architectures quickly, safely, and effectively. We heard from web development teams, agencies, and Netlify experts about how to put you on the fastest path possible to both better performance for your application and more productivity from your team.
 

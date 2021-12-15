@@ -1,7 +1,7 @@
 ---
 
 title: "Angular to React: Gradual Migration vs Rewrite From Scratch"
-image: /img/blog/react-dark-logo.svg
+image: /v3/img/blog/react-dark-logo.svg
 authors:
   - Matt Biilmann
 format: blog
@@ -9,9 +9,9 @@ short_title: Angular to React
 description: "When migrating from Angular to React, should you do a gradual migration vs a complete rewrite?"
 date: 2016-10-04T00:00:00.000Z
 tags:
-  - angular
-  - react
-  - netlify
+  - Angular
+  - React
+  - Netlify
 topics:
   - insights
 ---

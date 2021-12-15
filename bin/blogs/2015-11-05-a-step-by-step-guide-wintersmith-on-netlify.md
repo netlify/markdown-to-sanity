@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Wintersmith on Netlify"
 authors:
   - Aaron Autrand
-image: /img/blog/wintersmith-screenshot.png
+image: /v3/img/blog/wintersmith-screenshot.png
 format: blog
 short_title: Wintersmith on Netlify
 description: A step-by-step guide on how to host a website built with static site generator Wintersmith.
@@ -12,8 +12,8 @@ cmsUserSlug: ""
 date: 2015-11-05
 tags:
   - wintersmith
-  - nodejs
-  - tutorial
+  - NodeJS
+  - Tutorial
 topics:
   - tutorials
 ---

@@ -9,7 +9,7 @@ date: '2018-08-09'
 topics:
   - tutorials
 tags:
-  - JAMstack
+  - Jamstack
   - Static site generators
   - Tools
 tweet: >-

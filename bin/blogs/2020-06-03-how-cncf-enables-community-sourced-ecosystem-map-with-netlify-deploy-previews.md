@@ -18,13 +18,13 @@ seo:
     how Netlify has enabled their community-sourced ecosystem map's previews and
     developer workflow.
   metatitle: How CNCF Enables Crowdsourced Ecosystem Map with Netlify Deploy Previews
-  ogimage: /img/blog/cncf-landscape-map-2020.jpg
+  ogimage: /v3/img/blog/cncf-landscape-map-2020.jpg
 ---
 The [Cloud Native Computing Foundation](https://www.cncf.io/) (CNCF) serves as the home for many of the fastest-growing projects on GitHub, including Kubernetes, Prometheus, and Envoy. It also has over 550 members including the world’s largest public cloud and enterprise software companies. The idea behind the CNCF is to foster collaboration between the industry’s top developers, end users, and vendors.
 
 To do that — and to give others more insight and accessibility into these emerging technologies — Dan Kohn, former executive director of the CNCF, (along with Repoint Ventures and Amplify Partners) created the Cloud Native Landscape.
 
-![CNCF Cloud Native Interactive Landscape visual](/img/blog/cncf-landscape-map-2020.jpg)
+![CNCF Cloud Native Interactive Landscape visual](/v3/img/blog/cncf-landscape-map-2020.jpg)
 
 *Caption: [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)*
 

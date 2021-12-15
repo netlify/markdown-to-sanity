@@ -10,16 +10,16 @@ topics:
   - insights
 tags:
   - CSS
-  - frontend
-  - tailwind
-  - engineering
+  - Frontend
+  - Tailwind
+  - Engineering
 tweet: ""
 format: blog
 relatedposts:
 seo:
   metadescription: In 2021, we're taking on the challenge of refactoring the CSS of our entire UI codebase to Tailwind. Learn more about how we're going to achieve this.
   metatitle: From semantic CSS to Tailwind - Refactoring the Netlify UI codebase
-  ogimage: /img/blog/refactoring-tailwind-og.png
+  ogimage: /v3/img/blog/refactoring-tailwind-og.png
 ---
 
 The [React codebase](/blog/2016/07/26/our-conversion-from-angular-to-react/) that powers [app.netlify.com](https://app.netlify.com) is about five years old. During these five years, the focus has mostly been on high-speed growth, as most start-ups do. For this reason, what started with organised PostCSS gradually grew to become a complex and entangled global CSS architecture with a lot of specificity and overrides. As you might expect, there's a point where the added tech debt it introduces makes it difficult to keep shipping fast without adding any regressions. Besides, as the number of frontend developers contributing to the codebase also grows, this kind of CSS architecture becomes even more difficult to work with.
@@ -110,7 +110,7 @@ Looking at it this way, this milestone seems pretty feasible.
 
 To track our progress, all these issues are on a specific project board on GitHub and a milestone was created and added to each issue. Not only does it make it easier to filter down issues specific to this milestone, but it also gives a little visual feedback of the progress.
 
-![1st milestone for the project](/img/blog/tailwind-conversion/milestone.jpg)
+![1st milestone for the project](/v3/img/blog/tailwind-conversion/milestone.jpg)
 
 This way, we can see how we're driving towards the goal, check how many issues were merged per week, and if needed, bring it up as a topic in our weekly sync to understand why we might be getting behind.
 

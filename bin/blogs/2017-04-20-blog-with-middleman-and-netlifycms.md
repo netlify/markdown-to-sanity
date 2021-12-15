@@ -2,13 +2,13 @@
 title: Creating a blog with Middleman and Netlify CMS
 authors:
   - Brian Douglas
-image: /img/blog/Screen Shot 2017-03-17 at 9.00.42 AM.png
+image: /v3/img/blog/Screen Shot 2017-03-17 at 9.00.42 AM.png
 short_title: Setting up Netlify CMS with Middleman
 topics:
   - tutorials
 tags:
-  - cms
-  - middleman
+  - CMS
+  - Middleman
 format: blog
 description: >-
   Getting started is often the easy part, but staying consistent is where most
@@ -74,7 +74,7 @@ The power of the CMS comes from using GitHub as your backend, which is the defau
 
 Then go to the Access tab for your Netlify site and configure the GitHub provider with your new Client ID and Client Secret.
 
-![access-provider](/img/blog/access-provider.png)
+![access-provider](/v3/img/blog/access-provider.png)
 
 That completes the set up process, now you should be able to go to the `/admin` section of your site and log in.
 
@@ -82,7 +82,7 @@ That completes the set up process, now you should be able to go to the `/admin` 
 
 Now that you can view the CMS, you can create, edit and update posts via your web browser. Start drafting a post by selecting the ✎ pencil in the menu bar.
 
-![cms-middleman-preview](/img/blog/cms-middleman-preview.png)
+![cms-middleman-preview](/v3/img/blog/cms-middleman-preview.png)
 
 Each time you save a post, a GitHub commit will be made to the branch you selected in your config.yml. This could be ideal, but some posts might take more time, so I recommended adding a draft flag to the `admin/config.yml`. Middleman checks for drafts by using the `published` flag.
 
@@ -94,12 +94,12 @@ Each time you save a post, a GitHub commit will be made to the branch you select
 
 Now you can begin publishing directly to your blog's repo without the need to constantly push and pull the latest changes. Feel free to review my blogs CMS admin setup to reference with your setup [here](https://github.com/bdougie/blog/tree/2d46d7f231b75b2790ba6ab3f41d32be7460162d/source/admin).
 
-![live-middleman-preview](/img/blog/live-middleman-preview.png)
+![live-middleman-preview](/v3/img/blog/live-middleman-preview.png)
 
 **And More**
 
 There are quite a few other things you can do with Netlify CMS. I encourage you to check out the repository's [documentation](https://www.netlifycms.org/docs/) to find how to set up an editorial workflow that not only opens a new branch for you, but also creates a Pull Request to view the content changes and preview on a <a href="/blog/2016/07/20/introducing-deploy-previews-in-netlify/">deploy preview</a>.
 
-![editorial-preview](/img/blog/editorial-preview.png)
+![editorial-preview](/v3/img/blog/editorial-preview.png)
 
 We are hard at work on this open source tool, let us know in the [netlify-cms](https://github.com/netlify/netlify-cms) repository if there are any issues or if you have any feature requests. Pull requests are of course always welcomed!

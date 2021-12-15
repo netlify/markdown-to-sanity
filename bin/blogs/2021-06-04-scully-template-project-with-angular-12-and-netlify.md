@@ -26,7 +26,7 @@ Coding is hard, let me try to make it a bit easier by giving you some code. I cr
 
 You can find the [project repo here](https://github.com/tzmanics/scully-template-project) and this is what the template looks like.
 
-![screenshot of the template live](/img/blog/screen-shot-2021-06-04-at-12.41.10-am.jpg "tempalte screenshot")
+![screenshot of the template live](/v3/img/blog/screen-shot-2021-06-04-at-12.41.10-am.jpg "tempalte screenshot")
 
 You can also use the button below to immediately deploy this project onto your Netlify account.
 
@@ -38,7 +38,7 @@ Are you still humming the 'You're Welcome' song? Me too. Let's jump into the cod
 
 I was thinking ahead and made the project repo for this template a template project. So, we can just click the 'Template' button or clone the repo locally with the command `git clone https://github.com/tzmanics/scully-template-project`. Template, template, template, in case I hadn't used that word enough.
 
-![the template button on github](/img/blog/screen-shot-2021-06-04-at-12.43.46-am.jpg "template button")
+![the template button on github](/v3/img/blog/screen-shot-2021-06-04-at-12.43.46-am.jpg "template button")
 
 If we need to rename the project we'll have to find and replace every instance of `scully-template-project`. It exists many places in an Angular project so cloning with a new name (`git clone https://github.com/tzmanics/scully-template-project new-name`) is just the start. Most code editors will allow you to 'replace all' on a searched phrase to make the job easier.
 
@@ -63,7 +63,7 @@ Now, whenever we push code changes to GitHub the project will automatically upda
 
 Well, how about that, we got ourselves our own live Scully site.
 
-![screenshot of the site's Netlify dahsboard](/img/blog/screen-shot-2021-06-04-at-1.06.08-am.jpg "The site's Netlify dashboard")
+![screenshot of the site's Netlify dahsboard](/v3/img/blog/screen-shot-2021-06-04-at-1.06.08-am.jpg "The site's Netlify dashboard")
 
 ## The Future
 

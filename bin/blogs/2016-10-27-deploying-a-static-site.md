@@ -2,17 +2,17 @@
 title: "A Step-by-Step Guide: Deploying A Static Site or Single-page App"
 authors:
   - Eli Williamson
-image: /img/blog/cdns.png
+image: /v3/img/blog/cdns.png
 format: blog
 short_title: Deploying A Static Site or Single-page App
 description: Make your site blazing fast with this step-by-step guide on how to deploy a static site or single-page app on Netlify.
 date: 2016-10-27
 tags:
-  - deploy
-  - static
-  - app
+  - Deploy
+  - Static
+  - App
   - single-page
-  - tutorial
+  - Tutorial
 topics:
   - tutorials
 ---
@@ -27,7 +27,7 @@ In this section, we will show you how easy it is to launch your site on Netlify.
 
 ### Step 1: Add Your New Site
 
-![step 1 - add](/img/blog/add-new-project.png)
+![step 1 - add](/v3/img/blog/add-new-project.png)
 
 Creating a new site on Netlify is simple. Once you've logged in, you'll be taken to https://app.netlify.com. If you're just starting out, there's only one option, Click the **Add A New Project** button shown above.
 
@@ -35,7 +35,7 @@ Creating a new site on Netlify is simple. Once you've logged in, you'll be taken
 
 Clicking "Add A New Project" brings you to this screen:
 
-![step 2 - link](/img/blog/step-2-hugo.png)
+![step 2 - link](/v3/img/blog/step-2-hugo.png)
 
 Be sure to push your repo to GitHub, so that all we'll need to do is link Netlify to GitHub. Click the **GitHub** button as illustrated in the screenshot above.
 
@@ -50,7 +50,7 @@ It's time to allow Netlify and GitHub to talk to each other. Clicking the **Auth
 Now that you've connected Netlify and GitHub, you can see a list of your Git repos. Select your static site or single-page app.
 
 ### Step 5: Configure Your Settings
-![step 5 - configure](/img/blog/config-your-repo.png)
+![step 5 - configure](/v3/img/blog/config-your-repo.png)
 
 Here you can configure your options (if necessary). For example, if we were using the [Victor Hugo](https://github.com/netlify/victor-hugo) boilerplate when building our static site, we would need to set our build directory to `dist/` and our build command to `npm run build`. If your site is not using any preprocessors or compiling software then just set the directory to `/` and leave the build command blank.
 
@@ -58,16 +58,16 @@ When your satisfied with your configurations, click the **Build your site** butt
 
 ### Step 6: Build Your Site
 
-![step 6 - build](/img/blog/building-site.png)
+![step 6 - build](/v3/img/blog/building-site.png)
 
 Now it's time to sit back and relax. You did your part let Netlify take care of the rest — it'll only take a minute.
 
 ### Step 7: All Done
 
-![step 7 - done](/img/blog/done-1.png)
+![step 7 - done](/v3/img/blog/done-1.png)
 
 Netlify went ahead and gave your site a temporary name. Let's quickly update that to make it look a little prettier:
 
-![step 8 - pretty](/img/blog/done-2.png)
+![step 8 - pretty](/v3/img/blog/done-2.png)
 
 BOOM! You now have your site hosted on Netlify with blazing fast speeds, powerful CDNs, simple management, and ironclad security. Wasn't that easy? Take it a step further and setup your custom domain (Learn how to do that [here](https://www.netlify.com/blog/2016/03/14/setting-up-your-custom-domain/)). Congratulations, and thanks for using Netlify!

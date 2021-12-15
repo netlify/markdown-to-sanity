@@ -11,7 +11,7 @@ topics:
 tags:
   - Angular
   - CLI
-  - open source
+  - Open source
 tweet: ''
 format: blog
 seo:
@@ -19,7 +19,7 @@ seo:
     This post walks you through how to create a project type detector for the
     Netlify CLI using the Angular detector as an example.
   metatitle: Creating an Angular Detector for the Netlify CLI
-  ogimage: /img/blog/screen-shot-2020-02-19-at-9.08.20-pm.jpg
+  ogimage: /v3/img/blog/screen-shot-2020-02-19-at-9.08.20-pm.jpg
 ---
 The CLI at Netlify can detect project types to help make the user experience catered to that specific type of project. On my journey to make the Angular developer experience better I created the [Angular detector](https://github.com/netlify/cli/blob/master/src/detectors/angular.js). It was so easy I wanted to show you how to do it as well, so you can make detectors of your own if you fancy. After all, [our CLI is open source](https://www.netlify.com/blog/2018/09/10/netlify-cli-2.0-now-in-beta/?utm_source=blog&utm_medium=cli-detector-post_tzm&utm_campaign=devex)!
 

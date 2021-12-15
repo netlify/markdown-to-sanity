@@ -2,15 +2,14 @@
 title: Coding Modern Websites with the JAMstack, Part 1
 authors:
   - Brian Douglas
-image: /img/blog/jamstack logo.png
+image: /v3/img/blog/jamstack logo.png
 topics:
   - tutorials
 tags:
   - popular
-  - tutorial
-  - jamstack
-  - example
-  - hugo
+  - Tutorial
+  - Jamstack
+  - Hugo
 format: blog
 description: >
   Explore how to build a client-side application using modern tooling for a
@@ -24,7 +23,7 @@ In this tutorial, we will explore how to build a client-side application using m
 
 This tutorial assumes that you already have working knowledge of the basics of web development. If you are still learning, follow along and see how many of the following techniques you might already know. If you are just getting started, consider trying out some tools from our friends at [freeCodeCamp](https://www.freecodecamp.org/).
 
-![tasty site screenshot](/img/blog/tasy-site.png)
+![tasty site screenshot](/v3/img/blog/tasy-site.png)
 
 We will walk through the creation of these features while using the latest static site generation tools.
 
@@ -44,11 +43,11 @@ I am going to give you a one-time gift. It’s a link to clone and deploy a vers
 
 The button above takes you to a wizard where you can follow the steps towards cloning this project to your GitHub account as well as your Netlify Dashboard.
 
-![deploy netlify restaurant](/img/blog/deploy-netlify.png)
+![deploy netlify restaurant](/v3/img/blog/deploy-netlify.png)
 
 In the dashboard, we now have access to make changes to your deployed site. We will be exploring this dashboard in greater detail in future sections of this tutorial.
 
-![site dashboard github link emphasis](/img/blog/site-dashboard.png)
+![site dashboard github link emphasis](/v3/img/blog/site-dashboard.png)
 
 *note: that the site settings have a link to your newly created GitHub repo. Go ahead and clone that project locally
 
@@ -56,7 +55,7 @@ In the dashboard, we now have access to make changes to your deployed site. We w
 git clone your_github_repository_url
 ```
 
-![git clone the restaurant](/img/blog/git-restaurant.png)
+![git clone the restaurant](/v3/img/blog/git-restaurant.png)
 
 More instructions for setting up this project can be found inside the project’s [README.md](https://github.com/netlify/restaurant-template-cms/blob/step-01-add-a-menu/README.md). If there is something missing, feel free to open a PR on the original repository at [netlify/restaurant-template-cms](https://github.com/netlify/restaurant-template-cms). Within this repository you will be able to see that the code for each step is split off into separate branches, so if you  get lost on how to implement something you can find your way through the branches.
 
@@ -74,13 +73,13 @@ You will need to install Hugo using these [instructions ](https://gohugo.io/ove
 
 The power of Hugo is that you can bundle your site into a version that can be easily be hosted on a CDN. At <1 ms per page, the average site builds in less than a second. Take some time to explore the Hugo documentation and check out the [Hugo forum](https://discourse.gohugo.io/) for help and specific questions.
 
-![the hugo forum](/img/blog/hugo forum.png)
+![the hugo forum](/v3/img/blog/hugo forum.png)
 
 ## Updating the Menu
 
 Hugo and other [static site generators ](https://www.staticgen.com/)generally use markdown as the basis for dynamic content on the page. At the moment, the site you have cloned is a slightly underwhelming restaurant site with no way to share details about our savory dishes. We want to add a menu to this site to see which plates and appetizers are available for lunch and dinner.
 
-![site with no menu](/img/blog/site with no menu.png)
+![site with no menu](/v3/img/blog/site with no menu.png)
 
 Hugo has a simple yet powerful menu system that permits content to be placed in menus with a good degree of control—and not a lot of work. The **config.toml** is the place to tap into this menu system. [TOML](https://en.wikipedia.org/wiki/TOML)(Tom’s Obvious Markup Language) is a data markup format that’s focused on minimalism.
 
@@ -123,7 +122,7 @@ The example above is free for you to consume. You will see those same oysters ha
 
 We now have a menu, but it is pretty bare. Take some time and add some more items to your menu. Use the same format as we did with oysters above, but try out some unique combinations in your front-matter. Keep in mind the solution is available in [the original repository](https://github.com/netlify/restaurant-template-cms/tree/step-01-add-a-menu-completed) if you get stuck. Be sure to commit your changes before moving on.
 
-![site with menu](/img/blog/site with menu.png)
+![site with menu](/v3/img/blog/site with menu.png)
 
 *Note about Hugo taxonomies: All content in our restaurant template is rendered dynamically from what Hugo calls Taxonomies. By the end of this tutorial, we will have multiple taxonomy types, which are Food and Drinks.*
 
@@ -135,7 +134,7 @@ We now have a menu, but it is pretty bare. Take some time and add some more item
 
 *If you are curious, read more about Taxonomies in the [Hugo documentation](https://gohugo.io/taxonomies/overview/).*
 
-![hugo documentation](/img/blog/hugo documentation.png)
+![hugo documentation](/v3/img/blog/hugo documentation.png)
 
 Now that you have a basic understanding of how content is organized, let's work on [site/layouts](https://github.com/netlify/restaurant-template-cms/tree/step-01-add-a-menu/site/layouts). Within the layout structure, you will find the single and list views. The code below is the logic for how the different pages are rendered. I have notated with comments to point out how conditionals can be used to hide and show content based on the current page being viewed. This is a simple approach to rendering content. The Hugo documentation goes into [greater detail](https://gohugo.io/getting-started/directory-structure/) and I highly recommend you check it out for a deeper understanding.
 

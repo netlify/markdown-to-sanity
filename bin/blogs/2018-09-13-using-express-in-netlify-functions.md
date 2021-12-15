@@ -9,8 +9,8 @@ date: '2018-09-13'
 topics:
   - tutorials
 tags:
-  - functions
-  - serverless
+  - Functions
+  - Serverless
   - Express
 tweet: >-
   How to build an Express.js application on top of Netlify functions

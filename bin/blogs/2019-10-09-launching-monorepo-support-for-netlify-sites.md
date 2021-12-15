@@ -10,13 +10,13 @@ lastmod: 2020-07-13
 topics:
   - news
 tags:
-  - deployment
+  - Deployments
   - monorepo
-  - git
+  - Git
 tweet: ""
 format: blog
 ---
-![Diagram shows how one monorepo can be used to deploy multiple websites or apps](/img/blog/v6_noman-2x.png "Netlify monorepo support diagram")
+![Diagram shows how one monorepo can be used to deploy multiple websites or apps](/v3/img/blog/v6_noman-2x.png "Netlify monorepo support diagram")
 
 ## Managing web projects with monorepos
 
@@ -36,6 +36,6 @@ We are happy to share with you that working with monorepos has become a lot easi
 
 We are also introducing a new `netlify.toml` config option: `build.ignore`. It will allow you to skip builds triggered for sites that  observe no change in content. This new config option makes splitting your monorepo into multiple Netlify sites much more efficient.
 
-You can learn more about the support in our [documentation](https://docs.netlify.com/configure-builds/common-configurations/#monorepos).
+You can learn more about the support in our [documentation](https://docs.netlify.com/configure-builds/common-configurations/monorepos/).
 
 **Please note:** if your Netlify site was created before October 3, 2019, you'll need to reconnect it to automatically enable this feature.

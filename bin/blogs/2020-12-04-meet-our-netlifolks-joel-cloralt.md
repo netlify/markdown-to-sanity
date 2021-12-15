@@ -11,8 +11,8 @@ topics:
   - insights
 tags:
   - netlifolks
-  - product
-  - team
+  - Product
+  - teams
 tweet: ""
 format: blog
 relatedposts:
@@ -27,7 +27,7 @@ seo:
 In this Netlify team interview series, we’ll be giving you a sneak peek of a day in the life of some of our teammates. Next up: meet Joel, a Group Product Manager at Netlify.
 
 <div style="max-width: 400px; margin: 0 auto; text-align: center;">
-  <img src="/img/blog/joel-pm.jpg" alt="Joel Cloralt, Group Product Manager featured headshot image" />
+  <img src="/v3/img/blog/joel-pm.jpg" alt="Joel Cloralt, Group Product Manager featured headshot image" />
 </div>
 
 **What was the path that you took to join Netlify?**

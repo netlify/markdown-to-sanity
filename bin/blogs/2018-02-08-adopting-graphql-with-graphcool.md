@@ -7,11 +7,11 @@ episodenumber: '25'
 minuteslong: '29'
 audiolink: >-
   https://media.blubrry.com/heavybit/d3aeja1uqhkije.cloudfront.net/podcasts/jamstack-radio/20171107-jamstack-radio-025.mp3
-image: /img/blog/jamstack-radio-1024x1024.jpg
+image: /v3/img/blog/jamstack-radio-1024x1024.jpg
 short_title: Adopting GraphQL with Graphcool
 tags:
-  - podcast
-  - graphql
+  - Podcast
+  - GraphQL
 topics:
   - tools
 description: >+

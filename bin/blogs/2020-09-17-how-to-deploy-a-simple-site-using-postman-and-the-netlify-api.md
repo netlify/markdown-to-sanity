@@ -10,7 +10,7 @@ lastmod: 2020-09-24
 topics:
   - tutorials
 tags:
-  - deploy
+  - Deploy
   - postman
 tweet: ""
 format: blog
@@ -35,7 +35,7 @@ What you'll need:
 
 1. Log in to your Netlify account and get a personal access token from `https://app.netlify.com/user/applications`. We'll only show it on the screen once, and it grants access to **all the things** on your Netlify account, so be sure to store it in a safe place.
 
-![Screenshot of https://app.netlify.com/user/applications/personal showing how to generate your personal access token](/img/blog/0-netlify-pat.png)
+![Screenshot of https://app.netlify.com/user/applications/personal showing how to generate your personal access token](/v3/img/blog/0-netlify-pat.png)
 
 2. Clone the repository and `cd` into it.
 
@@ -71,13 +71,13 @@ There are tons of ways to explore the Netlify API: our [Javascript client](https
 
 The first step is to enter your personal access token in the "Authorization" tab, type "Bearer Token".
 
-![Screenshot of a new request in Postman, with "Authorization" tab highlighted and "Bearer token" selected from the type menu](/img/blog/1-enter-token.png)
+![Screenshot of a new request in Postman, with "Authorization" tab highlighted and "Bearer token" selected from the type menu](/v3/img/blog/1-enter-token.png)
 
 ### Create a site
 
 The first request we need to make is a POST with an empty body to `https://api.netlify.com/api/v1/sites`. 
 
-![Screenshot of a POST request to https://api.netlify.com/api/v1/sites](/img/blog/2-first-post-to-create-site.png)
+![Screenshot of a POST request to https://api.netlify.com/api/v1/sites](/v3/img/blog/2-first-post-to-create-site.png)
 
 When you POST, you should get a response back that includes a site ID we can use to create a deploy:
 
@@ -108,7 +108,7 @@ Grab that `id` and use it to construct the URL for the next request: `https://ap
 }
 ```
 
-![Screenshot of Postman interface making a POST request with the file digest as the body](/img/blog/4-post-file-digest-to-deploys-endpoint.png)
+![Screenshot of Postman interface making a POST request with the file digest as the body](/v3/img/blog/4-post-file-digest-to-deploys-endpoint.png)
 
 ### Upload the files to the deploy
 
@@ -135,17 +135,17 @@ At this point, the deploy is waiting for us to upload the files we said would be
 
 We'll upload one file at a time with a PUT request to `https://api.netlify.com/api/v1/deploys/:deploy_id/files/:file_name`, using the deploy ID from the last step and the file name we're including in the deploy. In this case, we are including the file `index.html`. The request body in this case will be the file itself and the content-type header will be `application/octet-stream`. The full URL will be: `https://api.netlify.com/api/v1/deploys/5f5908619fbfdd7121fe0493/files/index.html`.
 
-![Postman interface showing a PUT request of one file in the file digest, with Content-Type: application/octet-stream selected](/img/blog/6-put-first-file.png)
+![Postman interface showing a PUT request of one file in the file digest, with Content-Type: application/octet-stream selected](/v3/img/blog/6-put-first-file.png)
 
 The response from this PUT request will include some information about the file Netlify received:
 
-![Postman showing response to PUT request, which shows the file's ID, path, SHA, mime-type, and size](/img/blog/7-response-from-first-put.png)
+![Postman showing response to PUT request, which shows the file's ID, path, SHA, mime-type, and size](/v3/img/blog/7-response-from-first-put.png)
 
 We'll repeat the PUT request for every other file in the file digest: `first.html`, `second.html`, and `third.html`. Once every file in the digest has been received by Netlify, your deploy is complete! 
 
 The site dashboard will show that the site has been deployed 🎉
 
-![Netlify app dashboard showing deploy is live](/img/blog/ui-showing-deploy-is-live.png)
+![Netlify app dashboard showing deploy is live](/v3/img/blog/ui-showing-deploy-is-live.png)
 
 ## You did it!
 Congrats on deploying a site using the Netlify API.

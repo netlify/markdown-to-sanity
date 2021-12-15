@@ -19,14 +19,14 @@ guests:
       favorite classes of problems
     name: Ryan Scott Brown
 title: FaaS and the Benefits of Serverless
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 minuteslong: 36
 short_title: FaaS and the Benefits of Serverless
 tags:
-  - serverless
+  - Serverless
   - faas
-  - podcast
-  - functions
+  - Podcast
+  - Functions
   - microservices
 topics:
   - tools

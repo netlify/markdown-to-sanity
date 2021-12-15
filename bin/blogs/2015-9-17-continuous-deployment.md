@@ -3,7 +3,7 @@
 title: Continuous Deployment
 authors:
   - Chris Bach
-image: /img/blog/modern_times_gears.jpg
+image: /v3/img/blog/modern_times_gears.jpg
 format: blog
 short_title: Continuous Deployment
 description: Automatically build and deploy every time you push to git. All part of Netlify.
@@ -11,9 +11,9 @@ thumbnail: thumbnails/softwareupdate-icon.png
 cmsUserSlug: ""
 date: 2015-09-17
 tags:
-  - netlify
-  - features
-  - builds
+  - Netlify
+  - Features
+  - Builds
 topics:
   - news
 ---

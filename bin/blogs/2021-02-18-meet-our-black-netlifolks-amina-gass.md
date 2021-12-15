@@ -12,8 +12,7 @@ topics:
   - insights
 tags:
   - netlifolks
-  - operations 
-  - team
+  - teams
 tweet: ""
 format: blog
 relatedposts:
@@ -29,7 +28,7 @@ seo:
 As we celebrate Black History Month, we want to highlight some of our amazing team members to amplify their voices during this critical month. Meet Amina, People Operations Manager at Netlify.
 
 <div style="max-width: 400px; margin: 0 auto; text-align: center;">
-  <img src="/img/blog/amina.jpeg" alt="Amina Gass, People Operations Manager headshot image" />
+  <img src="/v3/img/blog/amina.jpeg" alt="Amina Gass, People Operations Manager headshot image" />
 </div>
 
 **What was your path to Netlify and what drew you to us?**

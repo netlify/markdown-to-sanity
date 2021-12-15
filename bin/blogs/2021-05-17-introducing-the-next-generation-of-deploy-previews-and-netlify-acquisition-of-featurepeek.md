@@ -10,8 +10,8 @@ lastmod: 2021-05-17
 topics:
   - news
 tags:
-  - deploy previews
-  - product
+  - Deploy Previews
+  - Product
   - news
 tweet: ""
 format: blog
@@ -23,7 +23,7 @@ seo:
   metadescription: Netlify has acquired FeaturePeek and is launching the next
     generation of Deploy Previews. Learn about collaboration tools for teams to
     manage feedback and deliver better web experiences.
-  ogimage: /img/blog/netlify-deploy-previews-og-image-launch-22x.png
+  ogimage: /v3/img/blog/netlify-deploy-previews-og-image-launch-22x.png
 ---
 About five years ago, Netlify pioneered the concept of Deploy Previews. We learned a lot from emerging best practices in large development teams and created an automated workflow where every push to Git can generate a unique preview URL. While this made it much easier for teams to share progress, it exposed a new challenge: gathering feedback on that preview. It’s not uncommon for feedback to roll in across GitHub, email, Slack messages, shared documents, and productivity tools. Days and weeks are often spent prioritizing and addressing the backlog of feedback.
 
@@ -41,7 +41,7 @@ First, let’s cover what stays the same. Deploy Previews will continue to suppo
 
 What’s new is a collaboration UI and workflow to help your team get better feedback, faster. The project managers, product designers, marketers, and SREs reviewing your Deploy Previews will now see a small icon with the Netlify logo in the lower-left corner. When they click on that icon, they’ll get access to a handy drawer full of tools to help them provide high-quality feedback to their teammates.
 
-![Netlify collaborative Deploy Previews](/img/blog/netlify-deploypreview-may-19-2021-9-am-pt.png "Next generation of Collaborative Deploy Previews")
+![Netlify collaborative Deploy Previews](/v3/img/blog/netlify-deploypreview-may-19-2021-9-am-pt.png "Next generation of Collaborative Deploy Previews")
 
 With Netlify’s new collaborative [Deploy Previews](https://www.netlify.com/products/deploy-previews/):
 
@@ -55,7 +55,7 @@ Reviewers now have an easy way to provide developers with high-quality feedback 
 
 ## FeaturePeek joins Netlify
 
-![Netlify Acquires FeaturePeek](/img/blog/frame-1-1-.png "Netlify Acquires FeaturePeek")
+![Netlify Acquires FeaturePeek](/v3/img/blog/frame-1-1-.png "Netlify Acquires FeaturePeek")
 
 Our next generation of collaborative Deploy Previews has been made possible by our acquisition of FeaturePeek. FeaturePeek was founded by Eric Silverman and Jason Barry and was part of Y Combinator’s 2019 cohort. We are thrilled to have the FeaturePeek team join Netlify.
 

@@ -11,8 +11,8 @@ topics:
   - tutorials
 tags:
   - strapi
-  - tutorial
-  - react
+  - Tutorial
+  - React
 tweet: ""
 format: blog
 seo:
@@ -20,7 +20,7 @@ seo:
     Learn How To Deploy a Strapi-Powered React Blog to Netlify
   metadescription: >
     Learn how to build a self-hosted, open-source blog. In this guide, you’ll learn how to deploy Strapi to Heroku & auto-deploy changes to your Netlify site.
-  ogimage: /img/blog/react-strapi-blog/og-image.png
+  ogimage: /v3/img/blog/react-strapi-blog/og-image.png
 relatedposts:
   - Create a Custom Back-End for Jamstack Apps with Strapi
   - Use a Custom Strapi Back-End to Build a Jamstack App
@@ -53,7 +53,7 @@ Netlify allows for a one-click deployment experience by cloning and deploying th
 
 
 <figure>
-  <img alt="Deploy to Netlify workflow landing page." src="/img/blog/react-strapi-blog/deploy-to-netlify.jpg" />
+  <img alt="Deploy to Netlify workflow landing page." src="/v3/img/blog/react-strapi-blog/deploy-to-netlify.jpg" />
   <figcaption>Connect your Github account to Netlify</figcaption>
 </figure>
 
@@ -61,14 +61,14 @@ Netlify allows for a one-click deployment experience by cloning and deploying th
 On the next screen, add your `API_URL`, which is the URL of your Strapi instance running on Heroku (e.g. `https://your-strapi-app.herokuapp.com`), without the trailing slash
 
 <figure>
-  <img alt="Deploy to Netlify workflow configuration page." src="/img/blog/react-strapi-blog/configure-deploy-to-netlify.jpg" />
+  <img alt="Deploy to Netlify workflow configuration page." src="/v3/img/blog/react-strapi-blog/configure-deploy-to-netlify.jpg" />
   <figcaption>Enter your Strapi instance URL in the <code>API_URL</code> field</figcaption>
 </figure>
 
 Netlify will create a copy of the starter repository on your GitHub and deploy it to production!
 
 <figure>
-  <img alt="React blog deployed to Netlify." src="/img/blog/react-strapi-blog/strapi-blog-deployed.jpg" />
+  <img alt="React blog deployed to Netlify." src="/v3/img/blog/react-strapi-blog/strapi-blog-deployed.jpg" />
   <figcaption>Your deployed Strapi-powered React blog</figcaption>
 </figure>
 
@@ -79,21 +79,21 @@ When you have a new article in mind, dive into your Strapi instance to create a 
 Head to the `/admin` route of your Strapi instance (e.g. `https://your-strapi-app.herokuapp.com/admin`) and log in. Click the "Articles" collection type to see your current list of articles.
 
 <figure>
-  <img alt="Articles listed in the Strapi UI." src="/img/blog/react-strapi-blog/strapi-articles.jpg" />
+  <img alt="Articles listed in the Strapi UI." src="/v3/img/blog/react-strapi-blog/strapi-articles.jpg" />
   <figcaption>Articles listed in the Strapi UI</figcaption>
 </figure>
 
 Click the "add article" button to create a new article.
 
 <figure>
-  <img alt="Creating a new article in the Strapi UI." src="/img/blog/react-strapi-blog/strapi-new-article.jpg" />
+  <img alt="Creating a new article in the Strapi UI." src="/v3/img/blog/react-strapi-blog/strapi-new-article.jpg" />
   <figcaption>Article creation in the Strapi UI</figcaption>
 </figure>
 
 After saving, go to your Netlify dashboard and deploy the site to see the new article live!
 
 <figure>
-  <img alt="New article displayed on the deployed site." src="/img/blog/react-strapi-blog/new-article-strapi-react.jpg" />
+  <img alt="New article displayed on the deployed site." src="/v3/img/blog/react-strapi-blog/new-article-strapi-react.jpg" />
   <figcaption>The new article is visible on the deployed site</figcaption>
 </figure>
 
@@ -111,7 +111,7 @@ If you don’t want to manually deploy your site every time you add an article, 
 Copy your new build hook, then head to your Strapi dashboard and add it as a new [webhook](https://strapi.io/documentation/v3.x/concepts/webhooks.html) by visiting Settings > Webhooks.
 
 <figure>
-  <img alt="Create a new Strapi webhook." src="/img/blog/react-strapi-blog/strapi-webhook.jpg" />
+  <img alt="Create a new Strapi webhook." src="/v3/img/blog/react-strapi-blog/strapi-webhook.jpg" />
   <figcaption>Create a new Strapi webhook in the Strapi UI</figcaption>
 </figure>
 

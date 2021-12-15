@@ -10,8 +10,8 @@ topics:
   - case-studies
 tags:
   - teespring
-  - next
-  - jamstack
+  - Next.js
+  - Jamstack
   - webinar
 tweet: ""
 format: blog
@@ -22,7 +22,7 @@ seo:
   metatitle: Learn About Teespring’s E-commerce Jamstack Migration Story
   metadescription: One of the most popular speakers from Jamstack Conf will be
     sharing an update on Teespring’s journey to the Jamstack. Check it out!
-  ogimage: /img/blog/og-teesprings-e-commerce-jamstack-migration-story.png
+  ogimage: /v3/img/blog/og-teesprings-e-commerce-jamstack-migration-story.png
 ---
 Encore! Encore!
 
@@ -52,8 +52,8 @@ Questions about migrating your enterprise web and e-commerce applications to the
 
 #### Tech Stack Before
 
-![Teespring tech stack before photo](/img/blog/teespring-tech-stack-before.png)
+![Teespring tech stack before photo](/v3/img/blog/teespring-tech-stack-before.png)
 
 #### Tech Stack After
 
-![Teespring tech stack after photo](/img/blog/teespring-tech-stack-after.png)
+![Teespring tech stack after photo](/v3/img/blog/teespring-tech-stack-after.png)

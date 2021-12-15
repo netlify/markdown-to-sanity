@@ -6,9 +6,9 @@ tweet: ''
 topics:
   - news
 tags:
-  - continuous deploys
-  - builds
-  - deploy previews
+  - Continuous Deployment
+  - Builds
+  - Deploy Previews
 format: blog
 description: >-
   Netlify now gives you control over which branches in your Git repository you
@@ -27,7 +27,7 @@ We’ve added a new setting to Netlify’s build and deploy pipeline that allows
 * Deploy only your production branch and all Deploy Previews on that branch
 * Deploy your production branch, the additional branches you specify, and all their Deploy Previews
 
-![allowed branches](/img/blog/allowed_branches.png)
+![allowed branches](/v3/img/blog/allowed_branches.png)
 
 All your current sites will remain as they are, building and deploying everything, however, we’re making a change to how new sites behave by default. Starting today, any new site you add won’t have Branch Deploys enabled by default. We will deploy the production branch and all Deploy Previews on that branch, but we won’t deploy branches under their own subdomain unless you add them the list of additional branches.
 

@@ -8,12 +8,12 @@ short_title: Deploy React in 30 Seconds
 date: 2016-07-22T00:00:00.000Z
 tags:
   - popular
-  - deploy
+  - Deploy
   - continuous delivery
-  - react
+  - React
 thumbnail: thumbnails/react-logo.png
 title: Deploy React Apps in less than 30 Seconds
-image: /img/blog/react-logo.png
+image: /v3/img/blog/react-logo.png
 description: Deploy React apps easily with Netlify.
 topics:
   - tools
@@ -49,7 +49,7 @@ as your deploy folder and voila you have a production React app!
 
 If that was too hard to follow, here is a gif of me doing it:
 
-![preview gif](/img/blog/react-deploy-30-seconds.gif)
+![preview gif](/v3/img/blog/react-deploy-30-seconds.gif)
 
 You can also link to a GitHub repo for [continuous deployment](https://www.netlify.com/docs/continuous-deployment) for specified branches and will grant you our nifty <a href="/blog/2016/07/20/introducing-deploy-previews-in-netlify/">Deploy Preview</a> feature.
 

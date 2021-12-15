@@ -12,19 +12,19 @@ topics:
 tags:
   - SaaS
   - fullstack
-  - hasura
-  - vue
+  - Hasura
+  - Vue
 tweet: ""
 format: blog
 relatedposts:
   - "How TunnelBear Streamlines DevOps and Speeds up Deploys by 10x with Netlify"
   - "How LiveChat Migrated from WordPress to the Jamstack with Netlify"
 seo:
-  ogimage: /img/blog/fieldfusion-og.png
+  ogimage: /v3/img/blog/fieldfusion-og.png
   metatitle: Learn How Fieldfusion built a SaaS application on Netlify
   metadescription: See how Fieldfusion optimized for new developer onboarding, faster load times, and purpose-built developer workflows with Netlify. Plus how they quickly launched a dynamic COVID-19 tracking app for its customers.
 ---
-![Fieldfusion mobile app UI](/img/blog/1500x500.jpeg)
+![Fieldfusion mobile app UI](/v3/img/blog/1500x500.jpeg)
 
 [Fieldfusion](https://fieldfusion.io/) is a SaaS startup in England that provides field service management software for tasks like scheduling customer visits and deliveries, vehicle tracking and route optimization. Its customers are primarily SMB companies in England with 20-100 employees, including telecoms providers rolling out 5G towers, fire and safety workers, property managers, and even a company that leases aquariums to biology departments and museums.
 
@@ -38,7 +38,7 @@ While there are many options for developers when it comes to deployment, what di
 
 The Fieldfusion team now builds and deploys both the web and mobile applications using Netlify. “We also build all bespoke work for clients on Netlify, and we’ve lost count of the number of times clients have been wowed that an entire production deployment of their application or website is online, highly available and with zero overhead cost.”
 
-![Fieldfusion mobile app in Google Play store](/img/blog/epdkkg8waaeswvc.jpeg)
+![Fieldfusion mobile app in Google Play store](/v3/img/blog/epdkkg8waaeswvc.jpeg)
 
 ### Faster development, better performance
 
@@ -54,7 +54,7 @@ As the coronavirus pandemic unfolded in March 2020, many of Fieldfusion's custom
 
 The idea was conceived late in the evening of March 16th, and by the morning of March 18th, they launched a fully operational and interactive application using Vue.js, websockets, Hasura and Netlify.
 
-![Fieldfusion architecture with Bitbucket, GraphQL, Hasura, Vue and Netlify](/img/blog/fieldfusion-basic-architecture.png)
+![Fieldfusion architecture with Bitbucket, GraphQL, Hasura, Vue and Netlify](/v3/img/blog/fieldfusion-basic-architecture.png)
 
 The COVID-19 severity tracker received 150,000 views on Facebook within the first few days. The free tool utilizes population data from the UK Office for National Statistics (ONS) and the latest data from Public Health England (PHE) to track the severity of the coronavirus pandemic across the UK over time. By comparing the number of confirmed cases with the population in a specific area, the tracker offers the ability to better understand the impact by region. Field workers can enter the postal codes for the areas which they need to visit in order to assess the risk.
 

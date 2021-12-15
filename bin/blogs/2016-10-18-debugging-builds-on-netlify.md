@@ -8,10 +8,10 @@ topics:
   - tutorials
 tags:
   - popular
-  - build
+  - Build
   - debugging
 format: blog
-image: /img/blog/robot_builds.jpg
+image: /v3/img/blog/robot_builds.jpg
 ---
 At Netlify, we believe in the simplicity of the [JAMstack](http://www.jamstack.org), and we are thrilled that you are contributing to the success of the stack along with us. Developing sites can be simple, but once you start thinking outside of the box, you’re probably using more than one framework, more than a few modules in the language that your site generator is written in, and some of your own code to glue them together.
 

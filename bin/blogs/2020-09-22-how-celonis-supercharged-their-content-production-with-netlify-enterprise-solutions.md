@@ -24,7 +24,7 @@ seo:
   metadescription: Moving from WordPress to the Jamstack. See how better workflows
     helped Celonis go from managing just 100 web pages to adding and maintaining
     100+ pages per month on Netlify.
-  ogimage: /img/blog/og-how-celonis-supercharged-their-content-production-with-netlify.png
+  ogimage: /v3/img/blog/og-how-celonis-supercharged-their-content-production-with-netlify.png
 ---
 ## Moving from WordPress to the Jamstack: How better workflows helped Celonis go from managing just 100 web pages to adding and maintaining 100+ pages per month on Netlify
 
@@ -36,7 +36,7 @@ Celonis helps enterprise companies like Uber, Lufthansa, Sysmex and others find 
 
 It’s no surprise Celonis practices what they preach. Celonis found an area of their business that they could tweak to make a big impact — their website. By switching to Netlify’s Enterprise offerings, Celonis was able to massively scale their website production, democratize access to their CMS, and host a livestream for 18,000 attendees with just a few weeks’ notice. 
 
-![Superfluid logo](/img/blog/celonis-logo-superfluid-red.png)
+![Superfluid logo](/v3/img/blog/celonis-logo-superfluid-red.png)
 
 ### Background
 

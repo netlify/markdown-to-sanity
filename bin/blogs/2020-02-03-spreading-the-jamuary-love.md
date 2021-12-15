@@ -8,7 +8,7 @@ topics:
   - insights
 tags:
   - JAMuary
-  - JAMstack
+  - Jamstack
 tweet: ''
 format: blog
 seo:

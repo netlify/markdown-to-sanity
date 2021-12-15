@@ -9,7 +9,7 @@ date: '2019-01-22'
 topics:
   - sites
 tags:
-  - JAMstack
+  - Jamstack
   - App
 tweet: >-
   https://synthetic.netlify.com - A Spotify-powered, data-driven music discovery
@@ -22,6 +22,6 @@ Use it to find music on Spotify to fit your mood, listen to a sample and add son
 
 Warning: it's a little addictive!
 
-![Screenshot of synthetic.netlify.com](/img/blog/synthetic.jpg)
+![Screenshot of synthetic.netlify.com](/v3/img/blog/synthetic.jpg)
 
 👉 [**synthetic.netlify.com**](https://synthetic.netlify.com/)

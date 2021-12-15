@@ -11,9 +11,9 @@ lastmod: 2020-05-09T02:00:00.000Z
 topics:
   - insights
 tags:
-  - design
+  - Design
   - teams
-  - let’s learn design systems
+  
 tweet: ""
 format: blog
 relatedposts:

@@ -9,8 +9,8 @@ short_title: Common errors in React
 description: React also does a great job with returning descriptive error messages when you make mistakes while creating your application. This post will walk through 3 of the most common error messages you will come across when writing React code.
 date: 2016-11-10
 tags:
-  - react
-  - javascript
+  - React
+  - Javascript
   - debugging
 topics:
   - tutorials
@@ -23,7 +23,7 @@ I am going to go through 3 of the most common error messages you will come acros
 It is a Nicolas Cage page and display the many faces of Cages. There is nothing too crazy, I have one Component call TheCage that displays his charming personality.
 
 
-![website screenshot](/img/blog/facethecage.png)
+![website screenshot](/v3/img/blog/facethecage.png)
 
 ## 1. Returning Invalid React Component
 
@@ -179,7 +179,7 @@ render() {
 
 Now I can see the data on the critically acclaimed movie, The Rock, just by adding a call to the data specific attribute to avoid trying to display the entire object blob.
 
-![the rock](/img/blog/therock.png)
+![the rock](/v3/img/blog/therock.png)
 
 There are other errors that show up while writing React code, but as far as the errors that show up constantly these are it. Once you are familiar with these errors and how to fix them the rest tends to get easier.
 

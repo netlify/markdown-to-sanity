@@ -13,7 +13,7 @@ date: '2019-06-12'
 topics:
   - case-studies
 tags:
-  - JAMstack
+  - Jamstack
 tweet: ''
 format: blog
 ---

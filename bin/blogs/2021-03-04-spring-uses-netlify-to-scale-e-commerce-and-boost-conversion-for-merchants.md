@@ -10,10 +10,10 @@ lastmod: 2021-03-09
 topics:
   - case-studies
 tags:
-  - case study
+  - Case Studies
   - Jamstack
-  - ecommerce
-  - nextjs
+  - E-commerce
+  - Next.js
 tweet: ""
 format: blog
 seo:
@@ -21,13 +21,13 @@ seo:
   metadescription: With Netlify, Spring migrated from a monolithic to a
     microservices-based web architecture. Learn how they improved site speed,
     improved conversion rates, and shipped faster.
-  ogimage: /img/blog/spring-netlify-og.png
+  ogimage: /v3/img/blog/spring-netlify-og.png
 ---
 {{< toc >}}
 
 ## How Jamstack is enabling Spring to move iteratively from monolith to microservices
 
-![Spring logo Teespring](/img/blog/spring-logo-alpha-04.png "Spring logo Teespring")
+![Spring logo Teespring](/v3/img/blog/spring-logo-alpha-04.png "Spring logo Teespring")
 
 As a leading social commerce platform for creating and selling custom products online, [Spring](https://www.spri.ng/)’s web experience matters a lot. The magic of customizing physical and digital products on demand is made possible with a dynamic web experience powered by Netlify using a modern [Jamstack](https://www.netlify.com/jamstack/) architecture.
 
@@ -51,7 +51,7 @@ However, as the company expanded, this model--with its multiple frameworks and a
 
 <figure>
   <center>
-    <img src="/img/blog/spring-original-tech-stack-rails.png" alt="Spring’s original tech stack.">
+    <img src="/v3/img/blog/spring-original-tech-stack-rails.png" alt="Spring’s original tech stack.">
   </center>
   <figcaption>Spring’s original tech stack.</figcaption>
 </figure>
@@ -93,7 +93,7 @@ Spring also takes advantage of **[Netlify Background Functions](https://www.netl
 At this point in time, said Takes, many of Spring’s microservices don’t even touch the Rails app: “We can have frontend apps living in Netlify and going through the API and then hitting a microservice, and that can return out to the frontend app without ever having to hit our Rails code base. That’s been a huge timesaver for us in building new applications.”
 
 <figure>
-  <img src="/img/blog/spring-current-architecture-1.png" alt="Spring’s current architecture that runs on Netlify">
+  <img src="/v3/img/blog/spring-current-architecture-1.png" alt="Spring’s current architecture that runs on Netlify">
   <figcaption>Spring’s current architecture that runs on Netlify.</figcaption>
 </figure>
 

@@ -24,7 +24,7 @@ relatedposts:
 seo:
   metatitle: Discover Netlify's Top 10 Build Plugins of 2021
   metadescription: "With Netlify Build Plugins, developers can hook automations directly into the CI/CD infrastructure and developer workflow. Explore the Top 10 Netlify Build Plugins, at the top of 2021."
-  ogimage: /img/blog/top-10-netlify-build-plugins-2021-ogimg.png
+  ogimage: /v3/img/blog/top-10-netlify-build-plugins-2021-ogimg.png
 ---
 Last May, Netlify announced the general availability of Build Plugins. Since then, a number of [technical partners have launched new plugins](https://www.netlify.com/blog/2020/10/07/tech-partners-create-custom-build-plugins-to-reach-developers-in-their-workflow/), allowing automated workflows to run on top of Netlify’s CI/CD infrastructure.
 

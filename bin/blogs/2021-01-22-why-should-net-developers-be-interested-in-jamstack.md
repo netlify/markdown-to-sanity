@@ -21,13 +21,13 @@ seo:
   metadescription: "Learn how .NET or C# devs can build websites on the Jamstack.
     These tools empower you: Netlify and Statiq Web, a .NET based static site
     generator."
-  ogimage: /img/blog/netlify-blog-statiq-net-ssg.png
+  ogimage: /v3/img/blog/netlify-blog-statiq-net-ssg.png
 ---
 _This post was contributed by our friends at [Kentico Kontent](https://www.netlify.com/technology-partners/kentico-kontent)._
 
 If you’re a .NET or C# developer, the [Jamstack](https://www.netlify.com/jamstack/) approach to building websites might have fallen off your radar over the years. With the development of the Jamstack ecosystem, now might be the right time for you to build on a Jamstack architecture and utilize all your well-deserved .NET skills.
 
-![featured image: Why should .NET developers be interested in Jamstack? with Netlify, Kentico, and Statiq Web](/img/blog/netlify-blog-net-statiq-kentico.png)
+![featured image: Why should .NET developers be interested in Jamstack? with Netlify, Kentico, and Statiq Web](/v3/img/blog/netlify-blog-net-statiq-kentico.png)
 
 ## What marmalade cake are you talking about?
 
@@ -175,15 +175,15 @@ This will be your local content data source file for your home page. It's a basi
 1. Go to [kontent.ai](https://kontent.ai/) and [create a new project](https://docs.kontent.ai/tutorials/manage-kontent/projects/manage-projects#a-creating-projects).
 2. Go to Content Types and create a new Home content type. Add Title and Content text elements. Save changes.
 
-    ![create content type statiq kentico kontent](/img/blog/create-content-type-kentico-cms.png)
+    ![create content type statiq kentico kontent](/v3/img/blog/create-content-type-kentico-cms.png)
 
 3. Go to the *Content & Assets* section and create a new content item *Hello World* from *Statiq*! based on *Home* content type. Fill in *Title* and *Content* elements. Publish the content item.
 
-    ![create content item hello world from statiq web ssg](/img/blog/create-content-item-hello-world-statiq-ssg.png)
+    ![create content item hello world from statiq web ssg](/v3/img/blog/create-content-item-hello-world-statiq-ssg.png)
 
 4. In the *Settings* section, you will find your *ProjectId* and *Preview* API keys. You will need them in the next step.
 
-![API settings kentico kontent cms](/img/blog/settings-api-keys-kentico-cms.png)
+![API settings kentico kontent cms](/v3/img/blog/settings-api-keys-kentico-cms.png)
 
 ### Step 6: Integrate content from the CMS into our Statiq site
 
@@ -218,7 +218,7 @@ We will create two sites on Netlify. While one will build our production site wi
 2. Go to Netlify and create a new site from Git, select your repository.
 3. Fill in `dotnet run` as a *Build command* and `output` as a *Publish directory*. Add a new `DeliveryOptions\_\_ProjectId` variable and enter your *projectId*. Note: Netlify uses double underscore (__) as the delimiter for the nested environment variables.
 
-    ![create new site netlify app screenshot](/img/blog/create-new-site-netlify-app-screenshot.png)
+    ![create new site netlify app screenshot](/v3/img/blog/create-new-site-netlify-app-screenshot.png)
 
 4. Click *Deploy site*. Your site will be ready within minutes.
 
@@ -227,7 +227,7 @@ We will create two sites on Netlify. While one will build our production site wi
 1. For previewing unpublished content, create a new site following steps from Step 7. In addition, you will have to provide a *PreviewApiKey* and *UsePreviewApi* flag.
 2. Besides `DeliveryOptions\_\_ProjectId` add two new environment variables `DeliveryOptions\_\_PreviewApiKey` with your *Preview API Key* value and `DeliveryOptions__UsePreviewApi` with *true* value.
 
-    ![create new netlify site preview deploy app screenshot](/img/blog/create-new-preview-site-deploy-netlify-app-screenshot.png)
+    ![create new netlify site preview deploy app screenshot](/v3/img/blog/create-new-preview-site-deploy-netlify-app-screenshot.png)
 
 3. Click *Deploy site*. Your preview site will be ready within minutes.
 

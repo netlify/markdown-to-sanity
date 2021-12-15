@@ -19,7 +19,7 @@ format: blog
 relatedposts:
   - See 13 Netlify features for the best control of development workflow
 seo:
-  ogimage: /img/blog/explaining-atomic-immutable.png
+  ogimage: /v3/img/blog/explaining-atomic-immutable.png
   metatitle: What are Atomic deploys? Immutable deploys? Learn here!
   metadescription: "Let's define the terms immutable deploys and atomic deploys and call out why they are important and
     beneficial to an efficient and reliable development workflow."
@@ -50,7 +50,7 @@ While a "mutable" item can change (be mutated) over time, an "immutable" item ca
 
 When paired with atomic deploys, immutable deploys make it possible for sites to enjoy abilities such as instant rollbacks and versioning, and help to ensure that the code and assets of a website can always be maintained in a known state.
 
-![Screenshot of the Netlify site deploys page](/img/blog/deploys-ui-screenshot.jpg "Screenshot of the Netlify site deploys page")
+![Screenshot of the Netlify site deploys page](/v3/img/blog/deploys-ui-screenshot.jpg "Screenshot of the Netlify site deploys page")
 
 A great demonstration of this concept can be found in the Deploys tab of your Netlify sites. Here, each deployment is listed as an entry in the page. Each one is an addressable instance of the site which will not change over time, no matter what actions you take during your future development. Having this confidence that a deployment will remain the same in perpetuity means that it can be given a unique address and visited as required. It unlocks efficient and effective workflows!
 

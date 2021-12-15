@@ -11,10 +11,10 @@ topics:
   - tutorials
 tags:
   - custom-strapi-back-end
-  - apis
+  - APIs
   - how-to
   - strapi
-  - tutorial
+  - Tutorial
 tweet: ""
 format: blog
 seo:
@@ -22,7 +22,7 @@ seo:
     Create a Custom Back-End for Jamstack Apps with Strapi
   metadescription: >
     If your Jamstack app needs extra power, create a custom back-end for dynamic features! Learn how in this tutorial on creating a custom Strapi back-end.
-  ogimage: /img/blog/custom-jamstack-back-end-strapi.png
+  ogimage: /v3/img/blog/custom-jamstack-back-end-strapi.png
 relatedposts:
   - Learn How to Accept Money on Jamstack Sites in 38 Minutes
   - Building Large Sites on Netlify
@@ -67,7 +67,7 @@ Our first step is to create the backend using [Strapi](https://strapi.io/). Beca
 
 Once you’ve logged into your DigitalOcean account, [create a new Strapi Droplet from the Marketplace](https://cloud.digitalocean.com/marketplace/5e4d482d84e1e9441275f1d5). You can find this by clicking "Marketplace" under the "Discover" section of the sidebar, then searching for Strapi.
 
-![Strapi in the DigitalOcean Marketplace](/img/blog/digitalocean-marketplace-strapi.png)
+![Strapi in the DigitalOcean Marketplace](/v3/img/blog/digitalocean-marketplace-strapi.png)
 
 Click the “Create Strapi Droplet” button at the top right and you’ll be taken to the Droplet creation flow.
 
@@ -75,21 +75,21 @@ Click the “Create Strapi Droplet” button at the top right and you’ll be ta
 
 This tutorial is built using basic 2 GB / 1 CPU size, which should be more than enough to get most apps up and running.
 
-![DigitalOcean Droplet configuration for Strapi.](/img/blog/digitalocean-create-strapi-droplet.png)
+![DigitalOcean Droplet configuration for Strapi.](/v3/img/blog/digitalocean-create-strapi-droplet.png)
 
 Choose whatever datacenter you prefer. Typically you’ll want to start with the datacenter closest to you. Add or choose your SSH key(s) in case you need to log into the Droplet from your terminal — we won’t do this during this tutorial, but it’s important to have this set up in case you need to make changes later.
 
 > **Heads up!** If you’re unfamiliar with SSH keys, DigitalOcean has written up a [guide to adding SSH keys to Droplets](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/).
 
-![Set SSH keys and a Droplet name for Strapi on DigitalOcean.](/img/blog/digitalocean-ssh-keys-strapi.png)
+![Set SSH keys and a Droplet name for Strapi on DigitalOcean.](/v3/img/blog/digitalocean-ssh-keys-strapi.png)
 
 Next, choose whether you want to add tags (these are optional and only for organizing Droplets in DigitalOcean) and whether you want to enable backups. Backups cost 20% of the Droplet price, but they also automatically back up your whole backend weekly — it’s your call, but in my opinion they’re worth it.
 
-![Enable backups for a Strapi Droplet on DigitalOcean.](/img/blog/digitalocean-backups-strapi.png)
+![Enable backups for a Strapi Droplet on DigitalOcean.](/v3/img/blog/digitalocean-backups-strapi.png)
 
 After choosing settings, click "Create Droplet" and you’ll see a progress bar as your new Droplet is provisioned and started.
 
-![Creation progress bar for a Strapi Droplet on DigitalOcean.](/img/blog/digitalocean-droplet-progress-strapi.png)
+![Creation progress bar for a Strapi Droplet on DigitalOcean.](/v3/img/blog/digitalocean-droplet-progress-strapi.png)
 
 After a minute or so, the Droplet will be fully set up and started.
 
@@ -97,7 +97,7 @@ After a minute or so, the Droplet will be fully set up and started.
 
 Once the Droplet starts, you’ll see its IP address, and if you hover there’s an option to copy it to your clipboard.
 
-![IP address of a Strapi Droplet on DigitalOcean.](/img/blog/digitalocean-strapi-droplet-ip.png)
+![IP address of a Strapi Droplet on DigitalOcean.](/v3/img/blog/digitalocean-strapi-droplet-ip.png)
 
  Copy the IP address — you’re ready to configure Strapi!
 
@@ -107,7 +107,7 @@ After the Droplet is created, your Strapi instance is up and running — no code
 
 On the first visit, Strapi shows a “getting started” page with a link to create an administrator.
 
-![Strapi’s getting started page.](/img/blog/strapi-getting-started-page.png)
+![Strapi’s getting started page.](/v3/img/blog/strapi-getting-started-page.png)
 
 Click the “Create the first administrator” button to get started.
 
@@ -115,7 +115,7 @@ Click the “Create the first administrator” button to get started.
 
 The Administrator account has full privileges on the Strapi instance. If you’ve worked with content management systems like WordPress before, the administrator account works similarly here. If you’re not familiar with Administrator accounts, this account is allowed to do everything, so keep the credentials safe!
 
-![Create an administrator account for Strapi.](/img/blog/strapi-create-administrator.png)
+![Create an administrator account for Strapi.](/v3/img/blog/strapi-create-administrator.png)
 
 Set a username, password, and email so you’re able to log in and, if necessary, recover your account.
 
@@ -123,7 +123,7 @@ Set a username, password, and email so you’re able to log in and, if necessary
 
 After creating the Administrator account, you’ll see the Strapi dasbhoard. Since there’s no content yet, a panel is displayed asking you to create your first content type.
 
-![The empty state of the Strapi dashboard.](/img/blog/strapi-dashboard-empty.png)
+![The empty state of the Strapi dashboard.](/v3/img/blog/strapi-dashboard-empty.png)
 
 Click the “Create your first content-type” button.
 
@@ -133,19 +133,19 @@ Our app is going to display photos of corgis to site visitors. Each corgi photo 
 
 To start, click the “collection” type and give it a name of “Corgi”.
 
-![Create a collection type in Strapi.](/img/blog/strapi-create-collection-type.png)
+![Create a collection type in Strapi.](/v3/img/blog/strapi-create-collection-type.png)
 
 After clicking “Continue”, you’ll see an option to add fields. Click the “Text” field type and add a new field with the name “photo”. This will hold the URL for corgi photos, which will be sourced from [Unsplash](https://unsplash.com/s/photos/corgi).
 
-![Add a text field in Strapi.](/img/blog/strapi-add-text-field.png)
+![Add a text field in Strapi.](/v3/img/blog/strapi-add-text-field.png)
 
 In the “Advanced Settings” tab, you also have the option to mark fields as required. This helps avoid accidental empty entries.
 
-![Mark a field as required in Strapi.](/img/blog/strapi-required-field.png)
+![Mark a field as required in Strapi.](/v3/img/blog/strapi-required-field.png)
 
 After choosing the advanced settings for the photo field, click “Add another field” and repeat the process for a “credit” and “title” field. When you’re done, you’ll have a “Corgi“ collection type with three text fields.
 
-![Strapi dashboard showing the custom Corgi type.](/img/blog/strapi-custom-corgi-type.png)
+![Strapi dashboard showing the custom Corgi type.](/v3/img/blog/strapi-custom-corgi-type.png)
 
 Next, you’ll need to create a “Reaction” type to handle pets and boops!
 
@@ -153,23 +153,23 @@ Next, you’ll need to create a “Reaction” type to handle pets and boops!
 
 To track boops and pets, create another collection type and name it “Reaction”.
 
-![Create a Reactions collection type in Strapi.](/img/blog/strapi-reaction-collection-type.png)
+![Create a Reactions collection type in Strapi.](/v3/img/blog/strapi-reaction-collection-type.png)
 
 Because this app only supports two reactions — boops and pets — choose the “Enumeration” field.
 
-![Enumeration field creation in the Strapi admin UI.](/img/blog/strapi-enumeration-field.png)
+![Enumeration field creation in the Strapi admin UI.](/v3/img/blog/strapi-enumeration-field.png)
 
 Name the field “type”, then place “pet” and “boop” in the values field on separate lines.
 
-![Configuration for the Reaction enumeration field in Strapi.](/img/blog/strapi-reaction-field-config.png)
+![Configuration for the Reaction enumeration field in Strapi.](/v3/img/blog/strapi-reaction-field-config.png)
 
 Each reaction needs to be associated with the corgi that spurred the reaction. To do this, add a “Relation” field and set it so that one corgi can have many reactions.
 
-![Strapi one-to-many relationship for reactions.](/img/blog/strapi-one-to-many-relationship.png)
+![Strapi one-to-many relationship for reactions.](/v3/img/blog/strapi-one-to-many-relationship.png)
 
 After saving the Reaction collection, open up the Corgi collection and you'll see a new `reactions` field that stores a relationship with our Reaction type.
 
-![Strapi automatically added a relationship field for the corgi type.](/img/blog/strapi-auto-relationship-field.png)
+![Strapi automatically added a relationship field for the corgi type.](/v3/img/blog/strapi-auto-relationship-field.png)
 
 This means that each Corgi entry can have any number of pets and boops attached to it, but a pet or a boop can only be attached to one corgi.
 
@@ -181,11 +181,11 @@ To keep this tutorial to a reasonable scope, we won’t cover creating corgis fr
 
 For now, click the “Corgis” collection type in the top left of the Strapi sidebar and you’ll see an empty list.
 
-![Adding an entry through the Strapi admin UI.](/img/blog/strapi-create-entry-from-dashboard.png)
+![Adding an entry through the Strapi admin UI.](/v3/img/blog/strapi-create-entry-from-dashboard.png)
 
 Strapi tells us that there is no Corgi, so — wait.
 
-![Same screenshot of above, but with the Ghostbusters meme with Siguorney Weaver when she says, “There is no Dana, only Zuul.”](/img/blog/there-is-no-corgi-only-zuul.png)
+![Same screenshot of above, but with the Ghostbusters meme with Siguorney Weaver when she says, “There is no Dana, only Zuul.”](/v3/img/blog/there-is-no-corgi-only-zuul.png)
 
 Sorry. Anyways.
 
@@ -195,7 +195,7 @@ Create a new corgi by clicking the “Add New Corgi” button at the top right. 
 - Credit: Florencia Potter
 - Title: A Very Good Corgo
 
-![Entry creation form for the corgi type in the Strapi admin UI.](/img/blog/strapi-create-an-entry.png)
+![Entry creation form for the corgi type in the Strapi admin UI.](/v3/img/blog/strapi-create-an-entry.png)
 
 For the second, add a pupper in glasses:
 
@@ -203,7 +203,7 @@ For the second, add a pupper in glasses:
 - Credit: Brianna Santellan
 - Title: Glasses!
 
-![Corgi entries listed in the Strapi admin UI.](/img/blog/strapi-corgi-entries.png)
+![Corgi entries listed in the Strapi admin UI.](/v3/img/blog/strapi-corgi-entries.png)
 
 Save, then check out the Corgi collection type to see both entries.
 
@@ -213,7 +213,7 @@ Strapi has fine-grained access control for each content type, so we can explicit
 
 For “Reaction” types, check the `count`, `create`, and `find` boxes. For “Corgi” types, check `find` and `findOne`.
 
-![Setting permissions for the public role in the Strapi admin UI.](/img/blog/strapi-permissions.png)
+![Setting permissions for the public role in the Strapi admin UI.](/v3/img/blog/strapi-permissions.png)
 
 Strapi also makes it straightforward to set up different types of authenticated access, which is great for more advanced use cases like commenting where someone should be able to [edit or delete their own posts, but not other people’s](https://strapi.io/documentation/v3.x/guides/is-owner.html#introduction). 
 
@@ -221,7 +221,7 @@ Strapi also makes it straightforward to set up different types of authenticated 
 
 After configuring the permissions, visit your Droplet’s IP address `/corgis` and you’ll see the corgi data returned as JSON.
 
-![JSON data returned from the Strapi API endpoint.](/img/blog/strapi-api-corgi-data.png)
+![JSON data returned from the Strapi API endpoint.](/v3/img/blog/strapi-api-corgi-data.png)
 
 **And just like that — with no code written and no servers logged into — you’ve built and deployed a full-on custom backend using Strapi!**
 

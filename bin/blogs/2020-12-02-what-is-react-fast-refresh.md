@@ -5,12 +5,12 @@ description: React Fast Refresh is the latest and greatest way to load
 authors:
   - Cassidy Williams
 date: 2020-12-03T15:00:00.000Z
-lastmod: 2020-12-02
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
-  - react
+  - Next.js
+  - React
   - blogvent
 tweet: ""
 format: blog
@@ -22,7 +22,7 @@ seo:
   metadescription: React Fast Refresh is the latest and greatest way to load
     components in vanilla React, Next.js 10+, Gatsby, and more!
   metatitle: What is React Fast Refresh?
-  ogimage: /img/blog/blogvent3.png
+  ogimage: /v3/img/blog/blogvent3.png
 ---
 Hello friends, and welcome to Blogvent, day 3!
 
@@ -74,6 +74,6 @@ This is obviously a very simplistic example, but if you think about the possibil
 It also reloads the page automatically once syntax or runtime errors are resolved, and does a full reload when you update something outside of the React tree (because it's more deeply integrated with React itself). Keep in mind, Fast Refresh only works for function components out of the box, not class-based components.
 
 ## I wanna try it!
-Check out [this repo](https://github.com/cassidoo/next-netlify-starter) if you'd like to see a Next.js v10+ starter project (which has Fast Refresh automatically enabled), or click this button below to clone+deploy a new Next.js project right away:
+Check out [this repo](https://github.com/netlify-templates/next-netlify-starter) if you'd like to see a Next.js v10+ starter project (which has Fast Refresh automatically enabled), or click this button below to clone+deploy a new Next.js project right away:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex)

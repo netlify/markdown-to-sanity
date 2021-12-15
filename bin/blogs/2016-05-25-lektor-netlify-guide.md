@@ -2,13 +2,13 @@
 title: Lektor on Netlify - A Step-By-Step Guide
 authors:
   - Aaron Autrand
-image: /img/blog/lektoregg.jpg
+image: /v3/img/blog/lektoregg.jpg
 short_title: Hosting Lektor on Netlify
 tags:
   - lektor
   - Python
-  - tutorial
-  - app
+  - Tutorial
+  - App
 format: blog
 description: Build sites with Lektor and host on Netlify with continuous deployment
 date: 2016-05-25T00:00:00.000Z
@@ -161,7 +161,7 @@ Now that your assets are up and running on GitHub, let's connect them to Netlify
 
 ### Step 1: Add Your New Site
 
-![step 1 - add](/img/blog/step1newsite.png)
+![step 1 - add](/v3/img/blog/step1newsite.png)
 
 Creating a new site on Netlify is simple. Once you’ve logged in, you'll be taken to https://app.netlify.com/sites. If you’re just starting out, there’s only one option.
 
@@ -169,7 +169,7 @@ Creating a new site on Netlify is simple. Once you’ve logged in, you'll be tak
 
 Clicking “New Site” brings you to this screen:
 
-![step 2 - link](/img/blog/step2link.png)
+![step 2 - link](/v3/img/blog/step2link.png)
 
 When you push to GitHub, Netlify does all the work. No more manual deploying of updates or changes!
 
@@ -177,30 +177,30 @@ Since your assets are hosted on GitHub, we’ll need to link Netlify to GitHub. 
 
 ### Step 3: Authorize Netlify
 
-![step 3 - authorize](/img/blog/step3authorize.png)
+![step 3 - authorize](/v3/img/blog/step3authorize.png)
 
 It’s time to allow Netlify and GitHub to talk to each other. Clicking the “Authorize Application” button will do just that. Like it says in the image below, Netlify doesn’t store your GitHub access token on our servers. If you’d like to know more about the permissions Netlify requests and why we need them, you can visit our [documentation on Git provider permissions](https://docs.netlify.com/configure-builds/repo-permissions-linking/).
 
 ### Step 4: Choose Your Repo
 
-![step4lektor.png](/img/blog/step4lektor.png)
+![step4lektor.png](/v3/img/blog/step4lektor.png)
 
 Now that you’ve connected Netlify and GitHub, you can see a list of your Git repos. There’s the **lektor** repo we just pushed to GitHub. Let's select it.
 
 ### Step 5: Configure Your Settings
 
-![step5lektor.png](/img/blog/step5lektor.png)
+![step5lektor.png](/v3/img/blog/step5lektor.png)
 
 Here you can configure your options. Make sure that `/build` is the directory you want to deploy, and enter `lektor build --output-path ./build` as your build command.
 
 ### Step 6: Build Your Site
 
-![step 6 - build](/img/blog/step6build.png)
+![step 6 - build](/v3/img/blog/step6build.png)
 
 Now it’s time to sit back and relax. The first build will take some time, as Netlify gathers all the dependencies needed to build your site.
 
 ### Step 7: Site Is Live
 
-![step7lektor.png](/img/blog/step7lektor.png)
+![step7lektor.png](/v3/img/blog/step7lektor.png)
 
 Netlify has given your site a temporary name, and it's now up and running for all to see. Pretty great, huh?

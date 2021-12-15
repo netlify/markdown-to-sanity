@@ -18,16 +18,16 @@ guests:
       the adoption of the JAMstack and Netlify as a partnered solution.
     name: Eli Williamson
 title: Isomorphic Rendering in the JAMstack
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 minuteslong: 29
 short_title: Isomorphic Rendering in the JAMstack
 description: >-
   A chat on isomorphic rendering in the JAMstack and the staggering performance
   improvements.
 tags:
-  - jamstack
-  - podcast
-  - graphql
+  - Jamstack
+  - Podcast
+  - GraphQL
 topics:
   - insights
 ---

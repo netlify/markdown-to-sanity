@@ -2,7 +2,7 @@
 title: JAMstack conference videos
 authors:
   - Brian Douglas
-image: /img/blog/jamstack%20logo.png
+image: /v3/img/blog/jamstack%20logo.png
 format: blog
 short_title: The first JAMstack Conference
 topics:

@@ -11,8 +11,8 @@ thumbnail: /img/posts/thumbnails/jamstack-radio-logo.jpg
 cmsUserSlug: ""
 date: 2016-09-23
 tags:
-  - podcasts
-  - jamstack
+  - Podcast
+  - Jamstack
 topics:
   - tools
 ---

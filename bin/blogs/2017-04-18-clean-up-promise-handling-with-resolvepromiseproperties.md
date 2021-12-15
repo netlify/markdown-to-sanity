@@ -2,13 +2,13 @@
 title: Clean up promise handling with resolvePromiseProperties
 authors:
   - Benaiah Mischenko
-image: /img/blog/readUnpublishedBranchFile.png
+image: /v3/img/blog/readUnpublishedBranchFile.png
 format: blog
 short_title: resolvePromiseProperties
 topics:
   - tutorials
 tags:
-  - js
+  - Javascript
 description: >-
   resolvePromiseProperties allows you to take an object which has promises as
   some of its properties and get a promise that resolves to an object where all

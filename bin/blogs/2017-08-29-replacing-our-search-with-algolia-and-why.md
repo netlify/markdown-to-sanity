@@ -2,14 +2,14 @@
 title: Replacing our search with Algolia
 authors:
   - Brian Douglas
-image: /img/blog/algolia-logo-light.png
+image: /v3/img/blog/algolia-logo-light.png
 short_title: Using Aloglia for search
 topics:
   - insights
 tags:
   - algolia
-  - search
-  - hugo
+  - Search
+  - Hugo
 format: blog
 description: >-
   Netlify has been using Algolia for search on our public marketing page for a
@@ -118,7 +118,7 @@ The markup is being render using  [Hugo](http://gohugo.io/), and it gives us the
   …
 ```
 
-![search website](/img/blog/search-website.gif)
+![search website](/v3/img/blog/search-website.gif)
 
 This worked well until we started noticing the build size growing with the **1.3MB** PagesIndex.json file. The search index was not the only issue, it seemed unnecessary to host our own search solution after I learned more about the hosted search-as-a-service, Algolia. It is always nice when there is a service that has built a solution for a common problem, alleviating the pain of building and maintaining a custom solution.
 
@@ -155,11 +155,11 @@ function search(query, downSelected, clearSelected) {
 
 The [netlify.com](https://www.netlify.com/) repository is private, so I added the [gulp indexing](https://github.com/bdougie/kaldi-hugo-search-template/blob/6a5230f9b81e1f876bc41973678b0691f61ab8d1/gulpfile.babel.js#L125-L184) task and [liveSearch.js](https://github.com/bdougie/kaldi-hugo-search-template/blob/master/site/static/js/liveSearch.js) to the [Kaldi template](https://kaldi-algolia.netlify.com/), which you can view using the same gulp index task where you can take a closer look at the code I mentioned above. The site is doing a little bit of jQuery to show and hide the search-overlay and animate.
 
-[![kaldi search example site](/img/blog/kaldi-search.gif)](https://kaldi-algolia.netlify.com/)
+[![kaldi search example site](/v3/img/blog/kaldi-search.gif)](https://kaldi-algolia.netlify.com/)
 
 Some of the cooler AlgoIia examples use text highlight to enhance search results, which I have plans to do in a similar way.
 
-[![jam-search](/img/blog/jam-search.gif)](https://community.algolia.com/instantsearch.js/examples/media/)
+[![jam-search](/v3/img/blog/jam-search.gif)](https://community.algolia.com/instantsearch.js/examples/media/)
 
 Algolia provides a faster experience by milliseconds and we are living in an age where [Milliseconds Matter](https://blog.algolia.com/). 
 
@@ -167,7 +167,7 @@ Our search results are now returning to the user at less than **10ms**�
 
 The switch to Algolia was trivial and came with other features like search analytics, where I can see the most common searches that return 0 results, a cool metric that lets us know how if there is content that the site is not providing that users expect. I can also see the top searches and now see there is indeed a need for more Hugo content ;)
 
-![search-analytics](/img/blog/search-analytics.png)
+![search-analytics](/v3/img/blog/search-analytics.png)
 
 If you are interested in trying our Algolia search on a project or simply looking to take a closer look, check out their InstantSearch.js [examples](https://community.algolia.com/instantsearch.js/examples/). You can also clone your own version of our gulp indexing solution with my [Kaldi template to get the full experience](https://app.netlify.com/start/deploy?repository=https://github.com/bdougie/kaldi-hugo-search-template).
 

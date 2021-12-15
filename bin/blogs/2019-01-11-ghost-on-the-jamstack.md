@@ -9,7 +9,7 @@ topics:
 tags:
   - Headless
   - CMS
-  - JAMstack
+  - Jamstack
 tweet: 'Ghost CMS embrace the JAMstack and announce their move to being a decoupled CMS'
 format: blog
 ---

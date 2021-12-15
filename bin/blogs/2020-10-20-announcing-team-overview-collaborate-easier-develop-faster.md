@@ -11,9 +11,9 @@ topics:
   - news
 tags:
   - dashboard
-  - app
-  - product
-  - netlify
+  - App
+  - Product
+  - Netlify
 tweet: ""
 format: blog
 seo:
@@ -26,7 +26,7 @@ While Netlify is known for making it super easy to get a site up and running glo
 
 This is why, today, we’re very excited to announce Team Overview, a central dashboard in the Netlify UI that surfaces the most important information about your team and the web projects they’re working on. You can see everything from real-time status of your team’s site builds to the latest audit logs, all in one place. This way everyone has a common understanding of what’s happening across your team’s websites and apps, and no one is wasting time digging for information.
 
-![Netlify Team Overview app screenshot](/img/blog/netlify-team-overview-app-screenshot.jpg)
+![Netlify Team Overview app screenshot](/v3/img/blog/netlify-team-overview-app-screenshot.jpg)
 
 ## All Your Team’s Web Projects, Together in One Place
 

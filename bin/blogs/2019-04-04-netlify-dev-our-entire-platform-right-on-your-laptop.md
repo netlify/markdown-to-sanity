@@ -1,5 +1,5 @@
 ---
-title: 'Netlify Dev — our entire platform, right on your laptop'
+title: ' Netlify Dev — our entire platform, right on your laptop'
 description: >-
   Netlify Dev is our next step on the road to making the experience of
   developing for the web as productive, simple, and predictable as possible.
@@ -14,7 +14,7 @@ topics:
 tags:
   - Netlify Dev
   - Tools
-  - Products
+  - Product
 tweet: >-
   Netlify Dev - our entire platform, right on your laptop.
 
@@ -23,7 +23,7 @@ tweet: >-
   as productive, simple, and predictable as possible.
 format: blog
 ---
-![](/img/blog/dev-blog-post-2x.png)
+![](/v3/img/blog/dev-blog-post-2x.png)
 
 When it comes to web development, the ability to replicate your production environment is key. It brings confidence that the code you write on your local machine will behave as intended when it is published to the world. This has been one of the many desirable aspects of [JAMstack](https://jamstack.org) sites since the beginning. Sites comprised of pre-generated assets can be deployed simply and with confidence. They are portable by default.
 
@@ -110,4 +110,4 @@ We can’t wait to hear how using [Netlify Dev](/products/dev/) works for you.
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-dev-public-beta-at-jamstack-conf-nyc)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-dev-public-beta-at-jamstack-conf-nyc)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-dev-public-beta-at-jamstack-conf-nyc)

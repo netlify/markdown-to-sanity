@@ -12,7 +12,7 @@ topics:
 tags:
   - Jamstack Explorers
   - Redirects
-  - Tutorials
+  - Tutorial
 tweet: ""
 format: blog
 relatedposts:
@@ -22,7 +22,7 @@ seo:
   metadescription: Netlify Redirects give developers the power to control routing
     logic on Netlify Edge from within the code and configuration of their sites.
     Learn how with this set of free videos.
-  ogimage: /img/blog/og-jamstack-explorers-redirects-mission.png
+  ogimage: /v3/img/blog/og-jamstack-explorers-redirects-mission.png
 ---
 [Jamstack Explorers](https://explorers.netlify.com), our video-based learning resource, now has a mission to help you get the most out of Netlify Redirects.
 

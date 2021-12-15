@@ -9,16 +9,14 @@ date: '2019-05-21'
 topics:
   - news
 tags:
-  - form submissions
-  - spam detection
+  - spam
   - form handling
-  - anti-spam
-  - spam filtering
+  - spam
 tweet: ''
 format: blog
 ---
 <p align="center">
- <img src="/img/blog/form-handling.svg" alt="Netlify forms" width=300 />
+ <img src="/v3/img/blog/form-handling.svg" alt="Netlify forms" width=300 />
 </p>
 
 Not long ago, we [improved Netlify Forms spam filtering using Akismet](https://www.netlify.com/blog/2019/02/12/improved-netlify-forms-spam-filtering-using-akismet/), which significantly enhanced our capability of detecting spam. But this has been a hidden power that you can’t manage. Wouldn’t it be lovely if you had more control?

@@ -2,13 +2,13 @@
 title: Who Moved My (Cheese) Manual Deploys?
 authors:
   - Rafael Conde
-image: /img/blog/cheese.jpg
+image: /v3/img/blog/cheese.jpg
 format: blog
 short_title: How can I do a Manual Deploy?
 topics:
   - news
 tags:
-  - design
+  - Design
 description: >-
   With our new User Interface, some elements were moved around. Here's how you
   perform a Manual Deploy.
@@ -19,7 +19,7 @@ Some things have changed with the [introduction of our brand new User Interface]
 
 One of those things is the way to trigger a Manual Deploy — here's how you do it:
 
-![Gif of the new Manual Deploys](/img/blog/manual_deploy_2.gif)
+![Gif of the new Manual Deploys](/v3/img/blog/manual_deploy_2.gif)
 
 ## Manually Deploy to an existing site:
 

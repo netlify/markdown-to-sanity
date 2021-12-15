@@ -8,11 +8,11 @@ date: 2017-05-11T13:51:41.196Z
 topics:
   - tutorials
 tags:
-  - jekyll
+  - Jekyll
   - how-to
-  - tutorial
+  - Tutorial
 format: blog
-image: /img/blog/jekyll.png
+image: /v3/img/blog/jekyll.png
 ---
 **This guide was most recently updated on July 24th, 2018. Below are the package versions used:**
 
@@ -42,15 +42,15 @@ Once you have a Gemfile and a .ruby-version file, you can now connect your site 
 
 [Adding a new site with Git](https://app.netlify.com/start) is not a requirement for adding a site, but it’s strongly recommend to take advantage of all of Netlify's continuous deployment features.
 
-![connect-git](/img/blog/Screenshot 2017-05-11 07.10.17.png)
+![connect-git](/v3/img/blog/Screenshot 2017-05-11 07.10.17.png)
 
 Once your site is connected, you can find your Repository from the list GitHub repos. There is also a convenient search box in case you have more repositories than the page can fit.
 
-![repo-search](/img/blog/Screenshot 2017-05-11 07.10.39.png)
+![repo-search](/v3/img/blog/Screenshot 2017-05-11 07.10.39.png)
 
 Finally, you will just need to add the Jekyll build command and build location. For Jekyll that is `jekyll build` for the command and `_site` for the location.
 
-![build-settings](/img/blog/Screenshot 2017-05-11 07.10.04.png)
+![build-settings](/v3/img/blog/Screenshot 2017-05-11 07.10.04.png)
 
 You now have your Jekyll site on Netlify and can take advantage of some great features, like [deploy previews](https://www.youtube.com/watch?v=s_4UL9oAcVE) and free [custom domains](https://www.netlify.com/docs/custom-domains/) with [SSL](https://www.netlify.com/docs/ssl/).
 

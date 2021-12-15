@@ -33,7 +33,7 @@ In this article, we reintroduce closures by building a tiny clone of React Hooks
 
 One of the [many selling points](https://reactjs.org/docs/hooks-intro.html#classes-confuse-both-people-and-machines) of using hooks is to avoid the complexity of classes and higher order components altogether. However, with hooks, some feel we may have swapped one problem for another. Instead of [worrying about bound context](https://overreacted.io/how-are-function-components-different-from-classes/), we now have to [worry about closures](https://overreacted.io/making-setinterval-declarative-with-react-hooks/). As [Mark Dalgleish memorably summarized](https://twitter.com/markdalgleish/status/1095025468367990784):
 
-![A Star Wars meme about React Hooks and closures](/img/blog/tweet-markdalgleish-hooks.jpg "A Star Wars meme about React Hooks and closures")
+![A Star Wars meme about React Hooks and closures](/v3/img/blog/tweet-markdalgleish-hooks.jpg "A Star Wars meme about React Hooks and closures")
 
 Closures are a fundamental concept in JS. In spite of this, they are notorious for being confusing to many especially newer developers. Kyle Simpson of [You Don’t Know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md) fame defines closures as such:
 

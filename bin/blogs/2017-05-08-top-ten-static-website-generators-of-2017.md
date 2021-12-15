@@ -10,11 +10,10 @@ topics:
   - insights
 tags:
   - popular
-  - jamstack
-  - generators
-  - countdown
+  - Jamstack
+  - Generators
 format: blog
-image: /img/blog/411518_3552981989871_102544901_o.jpg
+image: /v3/img/blog/411518_3552981989871_102544901_o.jpg
 ---
 We're progressively seeing the [JAMstack](https://jamstack.org/) (Javascript, APIs, and Markup) gain momentum in modern web development; with static site generators at the epicenter.
 
@@ -32,7 +31,7 @@ Monolithic apps run server-side code each time a visitor makes a request. This w
 
 Of course, if you are looking to make the switch, the myriad choices can seem daunting. We hope to clear the air while we take a look at a lineup of the most popular static website generators and what they’re best suited for.
 
-![jekyllrb.png](https://cdn.netlify.com/473a594f32d61d5eb57c9e76930e3ee3617ee04d/4d198/img/blog/jekyllrb.png)
+![jekyllrb.png](https://cdn.netlify.com/473a594f32d61d5eb57c9e76930e3ee3617ee04d/4d198/v3/img/blog/jekyllrb.png)
 
 **1. Jekyll — [jekyllrb.com](http://jekyllrb.com/)**
 
@@ -42,9 +41,9 @@ Jekyll is built in Ruby and typically used for blogs or personal projects. Jekyl
 
 _Try it out with one click now on Netlify:_
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/jekyll-base" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/img/blog/svg+xml.svg)</a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/jekyll-base" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/v3/img/blog/svg+xml.svg)</a>
 
-![hugologo.png](https://cdn.netlify.com/13dc05b7af6c04ba9c128e6793628264786681e2/dea0e/img/blog/hugologo.png)
+![hugologo.png](https://cdn.netlify.com/13dc05b7af6c04ba9c128e6793628264786681e2/dea0e/v3/img/blog/hugologo.png)
 
 **2. Hugo — [gohugo.io](https://gohugo.io/)**
 
@@ -54,9 +53,9 @@ Hugo takes a directory of content and renders it based on a directory of layouts
 
 _Try it out with one click now on Netlify:_
 
-<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/victor-hugo" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/img/blog/svg+xml.svg)</a>
+<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/victor-hugo" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/v3/img/blog/svg+xml.svg)</a>
 
-![hexo.jpg](https://cdn.netlify.com/ca8dac1dae98c2c399d888c4dd31a52e00f29670/44051/img/blog/hexo.jpg)
+![hexo.jpg](https://cdn.netlify.com/ca8dac1dae98c2c399d888c4dd31a52e00f29670/44051/v3/img/blog/hexo.jpg)
 
 **3. Hexo — [hexo.io](https://hexo.io/)**
 
@@ -64,9 +63,9 @@ Hexo is a build tool created with Node.js, which allows for super speedy renderi
 
 _Try it out with one click now on Netlify:_
 
-<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/hexojs/site" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/img/blog/svg+xml.svg)</a>
+<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/hexojs/site" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/v3/img/blog/svg+xml.svg)</a>
 
-![GitBook](/img/blog/Screen Shot 2017-05-16 at 11.13.33 AM.png)
+![GitBook](/v3/img/blog/Screen Shot 2017-05-16 at 11.13.33 AM.png)
 
 **4. GitBook — [gitbook.com](http://gitbook.com/)**
 
@@ -74,13 +73,13 @@ GitBook is a bit different than your standard static web tool, it that is specia
 
 With an editor reminiscent of Google Docs, it is easy to to create and format content quickly. Beyond documentation, GitBook is also great for knowledge bases and manuals.
 
-![octopress.png](https://cdn.netlify.com/52d189f2a45cad4144d10df58da9f1d96df9cc7d/abae7/img/blog/octopress.png)
+![octopress.png](https://cdn.netlify.com/52d189f2a45cad4144d10df58da9f1d96df9cc7d/abae7/v3/img/blog/octopress.png)
 
 **5. Octopress — [octopress.org](http://octopress.org/)**
 
 Octopress is Jekyll blogging at its finest (if your a developer). As a self-proclaimed "blogging framework for hackers", Octopress allows users to easily embed their code directly into posts from gists, jsFiddle or their own filesystems, all with Solarized styling. It features a handy library of integrations (inboard, Delicious, GitHub Repositories, Disqus Comments and Google Analytics, to name a few). With handy rake tasks and plug-ins, Octopress is a must for the blogging hacker.
 
-![Gastby](/img/blog/gastby-logo.png)
+![Gastby](/v3/img/blog/gastby-logo.png)
 
 **6. Gatsby -
 [github.com/gatsbyjs](https://github.com/gatsbyjs)**
@@ -89,9 +88,9 @@ We proudly welcome Gatsby to this year's Top 10. If you recall, last year we not
 
 _Try it out with one click now on Netlify:_
 
-<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/img/blog/svg+xml.svg)</a>
+<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/v3/img/blog/svg+xml.svg)</a>
 
-![pelican.png](https://cdn.netlify.com/5c8e8aa21a2b6abb2bac40ee5d7faeae816950b6/e7e48/img/blog/pelican.png)
+![pelican.png](https://cdn.netlify.com/5c8e8aa21a2b6abb2bac40ee5d7faeae816950b6/e7e48/v3/img/blog/pelican.png)
 
 **7. Pelican — [getpelican.com](http://blog.getpelican.com/)**
 
@@ -99,7 +98,7 @@ Pelican is a static site generator written in Python. Content can be written in 
 
 Jinja2 templates allow users to customize the them, and Pelican supports neat features such as code syntax highlighting, Atom and RSS feeds, social media integration, external commenting tools (like Disqus) and analytics (via Google Analytics). Content that lives elsewhere can be imported from WordPress, Dotclear or RSS feeds.
 
-![brunch.jpg](https://cdn.netlify.com/f08ded8400c2cfb691255a88bfa9898b675b900c/5f048/img/blog/brunch.jpg)
+![brunch.jpg](https://cdn.netlify.com/f08ded8400c2cfb691255a88bfa9898b675b900c/5f048/v3/img/blog/brunch.jpg)
 
 **8. Brunch — [brunch.io](http://brunch.io/)**
 
@@ -109,7 +108,7 @@ Brunch uses skeletons to get users up and running. It is better suited for users
 
 Brunch is more comparable to Grunt or Gulp than to a blogging framework like Jekyll or Hugo. It is agnostic of programming languages, frameworks or libraries, which makes it quite flexible.
 
-![metalsmith.png](https://cdn.netlify.com/1b2094ff1ee70501c822355fc365e50bf5b8dba8/222e7/img/blog/metalsmith.png)
+![metalsmith.png](https://cdn.netlify.com/1b2094ff1ee70501c822355fc365e50bf5b8dba8/222e7/v3/img/blog/metalsmith.png)
 
 **9. Metalsmith — [metalsmith.io](http://www.metalsmith.io/)**
 
@@ -117,7 +116,7 @@ With Metalsmith, the sky’s the limit. That’s because Metalsmith is extremely
 
 It’s worth noting that Metalsmith’s structure means that users should have a fairly high level of technical proficiency before trying to tackle a project. Beginners would be better served by one of the other tools on this list. But if you want something infinitely flexible, Metalsmith could be the tool of choice for you.
 
-![Middleman](/img/blog/Screen Shot 2017-05-08 at 1.49.12 PM.png)
+![Middleman](/v3/img/blog/Screen Shot 2017-05-08 at 1.49.12 PM.png)
 
 **10. Middleman — [middlemanapp.com](https://middlemanapp.com/)**
 
@@ -127,13 +126,13 @@ Middleman is a command-line tool that uses Ruby and Ruby Gems to build web appli
 
 _Try it out with one click now on Netlify:_
 
-<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/wallin/middleman-template" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/img/blog/svg+xml.svg)</a>
+<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/wallin/middleman-template" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/v3/img/blog/svg+xml.svg)</a>
 
 ## Honorable Mentions:
 
 Unfortunately there's just not enough room for all the great generators so we wanted to make special note of some that didn't quite make it.
 
-![Nuxt](/img/blog/Screen Shot 2017-05-08 at 1.28.47 PM.png)
+![Nuxt](/v3/img/blog/Screen Shot 2017-05-08 at 1.28.47 PM.png)
 
 **Nuxt — [nuxtjs.org](https://nuxtjs.org/)**
 
@@ -141,9 +140,9 @@ Inspired by [Next.js](https://github.com/zeit/next.js), Nuxt.js is a framework f
 
 _Try it out with one click now on Netlify:_
 
-<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/bdougie/nuxt-starter" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/img/blog/svg+xml.svg)</a>
+<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/bdougie/nuxt-starter" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/v3/img/blog/svg+xml.svg)</a>
 
-![MkDocs](/img/blog/Screen Shot 2017-05-08 at 1.39.29 PM.png)
+![MkDocs](/v3/img/blog/Screen Shot 2017-05-08 at 1.39.29 PM.png)
 
 **MkDocs — [mkdocs.org](http://www.mkdocs.org/)**
 
@@ -153,9 +152,9 @@ Simply write your docs in Markdown and let MkDocs do the rest.
 
 _Try it out with one click now on Netlify:_
 
-<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/mkdocs-base" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/img/blog/svg+xml.svg)</a>
+<a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/mkdocs-base" alt="Deploy to Netlify" title="Deploy to Netlify">![Deploy to Netlify](/v3/img/blog/svg+xml.svg)</a>
 
-![StaticGen](/img/blog/Screen Shot 2017-05-08 at 4.41.37 PM.png)
+![StaticGen](/v3/img/blog/Screen Shot 2017-05-08 at 4.41.37 PM.png)
 
 **StaticGen — [staticgen.com](https://www.staticgen.com/)**
 

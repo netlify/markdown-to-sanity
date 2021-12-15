@@ -11,8 +11,8 @@ lastmod: 2021-02-26
 topics:
   - tools
 tags:
-  - build plugins
-  - gatsby
+  - Build Plugins
+  - Gatsby
 tweet: ""
 format: blog
 seo:
@@ -21,13 +21,13 @@ seo:
     capabilities to every build. You can click to install from a directory of
     community plugins or create your own."
   metatitle: "Netlify Build Plugin of the Week: Gatsby Cache Plugin"
-  ogimage: /img/blog/week-plugin-gatsby.png
+  ogimage: /v3/img/blog/week-plugin-gatsby.png
 ---
 This week we feature one of our most popular Netlify Build Plugins: the Gatsby Cache plugin. It has remained one of our [top 10 build plugins](https://www.netlify.com/blog/2021/01/25/top-10-netlify-build-plugins-2021-update/) in the #1 position.
 
 [Netlify Build Plugins](https://www.netlify.com/products/build/plugins/) add powerful capabilities to every build. You can click to install from a directory of community plugins or create your own.
 
-![Netlify Build Plugin - Gatsby Cache](/img/blog/plugin-of-the-week.png "Netlify Build Plugin - Gatsby Cache")
+![Netlify Build Plugin - Gatsby Cache](/v3/img/blog/plugin-of-the-week.png "Netlify Build Plugin - Gatsby Cache")
 
 ## **Plugin: Gatsby Cache**
 

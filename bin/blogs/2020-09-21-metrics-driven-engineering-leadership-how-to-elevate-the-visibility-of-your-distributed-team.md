@@ -12,8 +12,7 @@ lastmod: 2020-09-22
 topics:
   - insights
 tags:
-  - engineering
-  - leadership
+  - Engineering
   - teams
 tweet: ""
 format: blog
@@ -25,7 +24,7 @@ seo:
     distributed engineering team.
   metatitle: "Metrics-driven Eng Leadership: How to Elevate Visibility of
     Distributed Teams"
-  ogimage: /img/blog/dalia-engineering-leadership-og-image.png
+  ogimage: /v3/img/blog/dalia-engineering-leadership-og-image.png
 ---
 It's historically been the case that engineering operations are opaque to leaders, as well as the team members themselves. Some leaders have attempted to gather metrics around velocity, estimation and other measures, but in many ways these numbers have fallen short. They neither provided the promised predictable practice nor allowed for a healthy and productive conversation with the team members themselves.
 
@@ -43,13 +42,13 @@ Productivity is a marathon: if your team burns out during the first few miles, t
 
 At Netlify, throughput is expressed as the total number of pull requests merged weekly. The incentive I love about this metric is that it drives the team to deliver small, incremental changes. Focusing on small PRs means that we get quicker code reviews with less deployment risk because rollbacks are easier. I measure this to get an understanding of trends from one week to the next, and it shows me if our work is being delivered along a sustainable pace.
 
-![throughput total prs merged chart](/img/blog/screen-shot-2020-09-21-at-3.20.37-pm.png)
+![throughput total prs merged chart](/v3/img/blog/screen-shot-2020-09-21-at-3.20.37-pm.png)
 
 #### Cycle Time
 
 I like to pair throughput with cycle time, expressed as the average number of days (or hours) it takes from the first commit to when the PR gets merged. This tells us the average time each unit of work takes to get into production. High cycle times might signal that PRs are too large, making changes more time consuming to review. Or, it could signal challenges in managing work across distributed teams and multiple time zones. Cycle time is a great metric because all engineering organizations want a quick turnaround from code to production. Focusing on cycle time helps you understand where persistent blockers are.
 
-![cycle time average time spent on prs](/img/blog/screen-shot-2020-09-21-at-3.20.46-pm.png)
+![cycle time average time spent on prs](/v3/img/blog/screen-shot-2020-09-21-at-3.20.46-pm.png)
 
 #### Quality-Based Metrics
 

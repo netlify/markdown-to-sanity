@@ -22,7 +22,7 @@ seo:
   metatitle: "How to build a database-driven Jamstack site"
   metadescription: "Learn how to use StepZen to build a Jamstack site with a MySQL backend. This approach works with works for any SSG, including Next.js and Hugo, and data sources like REST APIs and Postgres."
 ---
-Raymond Camden wrote a good post about [Building a Data-driven Eleventy Site](https://www.raymondcamden.com/2021/04/15/building-a-database-driven-eleventy-site). In it, he makes a direct connection to a MySQL database using the mysql npm package to pull the posts for a simple blog that is statically generated (aka pre-rendered). While Ray does this for Eleventy specifically, you could leverage a similar workflow to generate content from a MySQL database in other static site generators (SSGs) like Next.js for instance.
+Raymond Camden wrote a good post about [Building a Database-driven Eleventy Site](https://www.raymondcamden.com/2021/04/15/building-a-database-driven-eleventy-site). In it, he makes a direct connection to a MySQL database using the mysql npm package to pull the posts for a simple blog that is statically generated (aka pre-rendered). While Ray does this for Eleventy specifically, you could leverage a similar workflow to generate content from a MySQL database in other static site generators (SSGs) like Next.js for instance.
 
 This got me thinking. While there are relatively straightforward methods for pulling from various external APIs or databases using the JavaScript-based SSGs, the same cannot be said for some other traditional SSGs like Hugo or Jekyll. I'm a big Hugo fan, so could I replicate this for Hugo? Or what if I needed to connect more than just a database?
 
@@ -99,7 +99,7 @@ StepZen allows us to write a GraphQL schema and then connect it to a variety of 
 
 Within our Hugo project, let's create a folder in our root directory named `stepzen` to hold our schema. This is the folder the [StepZen Netlify Build Plugin](https://www.npmjs.com/package/netlify-plugin-stepzen) assumes. Inside that folder, we'll place the `.graphql` files that represent our GraphQL types. These types will mirror the MySQL backend we just set up.
 
-Before we create the types however, let's set up the coniguration that we'll use tell StepZen how to connect to our MySQL database. We need to put this in a `config.yaml` file in our `stepzen` folder. Inside that, we'll provide StepZen with the DSN information we copied from Heroku earlier. Note that the DSN should be formatted as shown in the example below.
+Before we create the types however, let's set up the configuration that we'll use to tell StepZen how to connect to our MySQL database. We need to put this in a `config.yaml` file in our `stepzen` folder. Inside that, we'll provide StepZen with the DSN information we copied from Heroku earlier. Note that the DSN should be formatted as shown in the example below.
 
 ```yaml
 configurationset:
@@ -237,7 +237,7 @@ npm install slugify
 
 > Note that we'll hook this all up to the build using `netlify dev`, which automatically injects the environment variables we created in the Netlify dashboard. However, if you want to run this script directly, outside the scope of `netlify dev`, you'll need a library like [dotenv](https://www.npmjs.com/package/dotenv) and a local `.env` file with the value of `STEPZEN_API_KEY` to make it work.
 
-One final step before we work on the script – you'll need a folder for `/content/blog/`, which is where the generated Markdown files will be placed. Since these will be generated on each build, it can be empty, however we need to create a simple `.gitignore` file within the `/content/blog/` directory with the following contents so that the empty folder will stil commit in your git repository.
+One final step before we work on the script – you'll need a folder for `/content/blog/`, which is where the generated Markdown files will be placed. Since these will be generated on each build, it can be empty, however we need to create a simple `.gitignore` file within the `/content/blog/` directory with the following contents so that the empty folder will still commit in your git repository.
 
 ```yaml
 # Ignore everything in this directory

@@ -5,7 +5,7 @@ episodenumber: 5
 audiolink: https://media.blubrry.com/heavybit/p/d3aeja1uqhkije.cloudfront.net/podcasts/jamstack-radio/20161027-jamstack-radio-007.mp3
 authors:
   - Brian Douglas
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 description: We sat down with Kyle Daigle, manager on the API team at GitHub to chat about how they implement GraphQL into their API at GitHub.
 guests:
   - name: Kyle Daigle
@@ -13,9 +13,9 @@ guests:
 date: 2016-11-30
 minuteslong: 41
 tags:
-  - jamstack
-  - podcast
-  - graphql
+  - Jamstack
+  - Podcast
+  - GraphQL
 topics:
   - tools
 ---

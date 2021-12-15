@@ -19,7 +19,7 @@ relatedposts:
 seo:
   metadescription: Learn more about 13 Netlify features that give outstanding control over builds and deployments. As chosen by the Netlify Developer Experience team.
   metatitle: See 13 Netlify features for the best control of development workflow
-  ogimage: /img/blog/screen-shot-2020-05-12-at-7.10.00-am.png
+  ogimage: /v3/img/blog/screen-shot-2020-05-12-at-7.10.00-am.png
 ---
 Part of the appeal of Netlify is that it enables unprecedented productivity and control for web development. The experience afforded to developers from our workflow and conventions is fueled by many features which have become so core to how we build for the web, that using them has become second nature. And so, even though many of these features were invented right here, even we take them for granted at times.
 
@@ -150,7 +150,7 @@ With [Branch Deploys](https://www.netlify.com/blog/2017/11/16/get-full-control-o
 
 Thanks to Branch Deploys, requesting a new hosting environment is as simple as making a new branch in your Git repository, and the using your site’s Netlify admin at **Settings** > **Build & deploy** > **Deploy contexts** to build "All" branches or, if you prefer you can choose "Let me add individual branches". That’s it! Immediate, unlimited environments!
 
-![Screenshot: Configuring which branches to build](/img/blog/feature-picks-branch-build.png "Screenshot: Configuring which branches to build")
+![Screenshot: Configuring which branches to build](/v3/img/blog/feature-picks-branch-build.png "Screenshot: Configuring which branches to build")
 
 Every branch gets built and deployed to its own subdomain which corresponds to its name. It takes moments! And what’s more, since all deployments are served from the same infrastructure, all of your environments can get the same characteristics and CI/CD workflow. A real boon for confidence throughout the development process.
 
@@ -162,7 +162,7 @@ I never (ever) had it so good!
 
 This gem is why I adopted Netlify before I worked here for my open source projects. Netlify will automatically set up deploy previews for your site, and if you’re active on GitHub like me, this is incredibly time saving! When someone submits a PR and you’re doing a code review, you can check out a preview of the built site by clicking the last link on the tests Netlify provides:
 
-![deploy preview link inline in a pull request](/img/blog/screen-shot-2020-05-12-at-7.10.00-am.png)
+![deploy preview link inline in a pull request](/v3/img/blog/screen-shot-2020-05-12-at-7.10.00-am.png)
 
 The old joke goes: *If debugging is the process of removing software bugs, then programming must be the process of putting them in.* 
 
@@ -174,7 +174,7 @@ Some clients of ours will even use the deploy previews for visual regression tes
 
 One of my favorite things about Netlify is that not only are builds and deploys seamless, but we also have complete control of them. One of the ways I can control my builds is that Netlify auto-publishes by default, but I can pause this any time I like. In the UI, I can go to **Settings > Build & deploy > Continuous deployment > Build settings**, select **Edit settings**, and then toggle **Builds** to **Stop builds**.
 
-![Screenshot: Configuring pausing builds](/img/blog/feature-picks-stop-builds.png "Screenshot: Configuring pausing builds")
+![Screenshot: Configuring pausing builds](/v3/img/blog/feature-picks-stop-builds.png "Screenshot: Configuring pausing builds")
 
 If a member of your team pauses builds, Netlify will highlight it in the UI several ways, and also email your teammates, to make sure they know why builds have stopped. If you would prefer to deploy manually from here, you can still [run your builds locally in the CLI](https://docs.netlify.com/cli/get-started/?utm_source=blog&utm_medium=netlify-features-sd&utm_campaign=devex#run-builds-locally). 
 
@@ -188,7 +188,7 @@ You can trigger a new build or deploy via a URL! This is especially useful when 
 
 You can find this handy feature in your site dashboard at **Settings** > **Build & deploy** > **Continuous deployment** > **Build hooks**.
 
-![Screenshot: Configuring build hooks](/img/blog/feature-picks-build-hooks.png "Screenshot: Configuring build hooks")
+![Screenshot: Configuring build hooks](/v3/img/blog/feature-picks-build-hooks.png "Screenshot: Configuring build hooks")
 
 [Here are the docs](https://docs.netlify.com/configure-builds/build-hooks/?utm_source=blog&utm_medium=netlify-features-sd&utm_campaign=devex#parameters), and I put together an article for [how this works with a CMS like Contentful](/blog/2020/04/24/automate-contentful-deploys-with-netlify-webhooks/?utm_source=blog&utm_medium=netlify-features-sd&utm_campaign=devex).
 

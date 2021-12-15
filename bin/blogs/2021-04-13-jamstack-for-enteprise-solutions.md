@@ -8,7 +8,7 @@ lastmod: 2021-05-03
 topics:
   - insights
 tags:
-  - jamstack
+  - Jamstack
   - enterprise
   - migration
 tweet: ""
@@ -19,7 +19,7 @@ format: blog
 seo:
   metatitle: Learn How the Jamstack Can Power Enterprise Applications
   metadescription: The Jamstack model is currently capable of powering large enterprises, however, we've heard claims that Jamstack is only for small and static sites. Let's take a look at the reality of that in this post
-  ogimage: /img/blog/ent-jam.png
+  ogimage: /v3/img/blog/ent-jam.png
 ---
 
 There’s an occasional misconception that since [Jamstack](https://www.netlify.com/jamstack/) sites and applications don't rely on traditional server architectures, they aren't able to handle powerful and dynamic enterprise experiences. But the Jamstack, like any other technology, [has evolved a lot since its inception](https://www.smashingmagazine.com/2021/05/evolution-jamstack/) and is currently capable of handling large sites and enterprise applications.

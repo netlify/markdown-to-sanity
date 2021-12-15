@@ -11,8 +11,8 @@ topics:
   - insights
 tags:
   - netlifolks
-  - community
-  - team
+  - Community
+  - teams
 tweet: ""
 format: blog
 relatedposts:
@@ -23,12 +23,12 @@ seo:
     interviews designed to give you a peek into our day to day & introduce you
     to the Netlifolks who build our products!
   metatitle: "Meet our Netlifolks: Perry Eising, Sr. Community Program Manager"
-  ogimage: /img/blog/perry.png
+  ogimage: /v3/img/blog/perry.png
 ---
 In this Netlify team interview series, we’ll be giving you a sneak peek of a day in the life of some of our teammates. Next up: meet Perry, Netlify's Senior Community Program Manager.
 
 <div style="max-width: 400px; margin: 0 auto; text-align: center;">
-  <img src="/img/blog/perry-eising-netlify-community-manager.jpg" alt="Perry, Netlify Community Manager featured headshot image" />
+  <img src="/v3/img/blog/perry-eising-netlify-community-manager.jpg" alt="Perry, Netlify Community Manager featured headshot image" />
 </div>
 
 **What was your path to Netlify and what were your first impressions of the company?**

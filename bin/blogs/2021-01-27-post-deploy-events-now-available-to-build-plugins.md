@@ -10,7 +10,7 @@ lastmod: 2021-01-28
 topics:
   - news
 tags:
-  - build plugins
+  - Build Plugins
 tweet: ""
 format: blog
 relatedposts:
@@ -19,7 +19,7 @@ relatedposts:
 seo:
   metatitle: "Get Post-deploy Events - Now Available in Netlify Build Plugins"
   metadescription: "Netlify Build Plugins can now run tasks after assets are deployed. Learn how this opens the door to production perf and acceptance testing and timely connections with other services."
-  ogimage: /img/blog/post-deploy-events-netlify-build-plugins.png
+  ogimage: /v3/img/blog/post-deploy-events-netlify-build-plugins.png
 ---
 Build Plugins enable you to "plug in" to different [event stages](https://docs.netlify.com/configure-builds/build-plugins/create-plugins/#plug-into-events) in the build-deploy lifecycle, running custom automated tasks right at the time when they're needed. This week, we're excited to announce an expansion of those capabilities.
 

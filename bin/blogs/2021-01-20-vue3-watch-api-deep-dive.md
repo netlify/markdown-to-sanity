@@ -8,8 +8,8 @@ lastmod: 2021-01-29
 topics:
   - tutorials
 tags:
-  - vue 3
-  - reactivity
+  - Vue 3
+  - Reactivity
   - watch-api
   - composition-api
 tweet: ""
@@ -20,7 +20,7 @@ relatedposts:
 seo:
   metatitle: "Learn Vue Composition API's watch() method - Watch API Tutorial"
   metadescription: "Check out this post to explore Vue's Watch API. The watch API is part of the larger Vue Composition APIs. Learn how to track data changes in Vue 3 applications and much more."
-  ogimage: /img/blog/vue-3-watch-api-deep-dive.png
+  ogimage: /v3/img/blog/vue-3-watch-api-deep-dive.png
 ---
 
 ![Vue 3 watch API deep dive](https://res.cloudinary.com/kennyy/image/upload/q_auto/v1611869243/watch-api-deep-dive.png)

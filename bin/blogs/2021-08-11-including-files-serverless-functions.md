@@ -8,10 +8,10 @@ lastmod: 2021-08-11
 topics:
   - news
 tags:
-  - functions
+  - Functions
   - Engineering
-  - products
-  - serverless
+  - Product
+  - Serverless
 tweet: ""
 format: blog
 relatedposts:
@@ -20,7 +20,7 @@ relatedposts:
 seo:
   metatitle: "How to Include Files in Netlify Serverless Functions"
   metadescription: You can include any type of file in Netlify serverless functions, even if you reference them using dynamic expressions. Learn how in this blog post.
-  ogimage: /img/blog/og-including-files-serverless-functions.png
+  ogimage: /v3/img/blog/og-including-files-serverless-functions.png
 ---
 
 When you deploy a [Netlify Function](https://www.netlify.com/products/functions/), you don't have to think about a build step. That's because we manage the whole process of taking your source code and all its dependencies into a deployable artifact.
@@ -39,7 +39,7 @@ A better approach is to find every `require` and `import` call in the code and m
 
 At the end of this process, we can discard any files or modules that weren't visited during the traversal.
 
-![The bundling process - traversing references to find required files.](/img/blog/function-dependency-traversal.png "The bundling process - traversing references to find required files.")
+![The bundling process - traversing references to find required files.](/v3/img/blog/function-dependency-traversal.png "The bundling process - traversing references to find required files.")
 
 ## Imports with dynamic expressions
 
@@ -89,7 +89,7 @@ In the case of a reference with a dynamic expression, the ideal scenario would b
 
 When zip-it-and-ship-it finds a reference with a dynamic expression, it gets parsed so that we can make sense of its structure. Unlike static expressions, the goal is not to look for the path of the referenced file, which is impossible to know; instead, the system will look for the list of paths that the reference _may_ resolve to at runtime.
 
-![Parsing references with dynamic expressions](/img/blog/function-parsing-dynamic-expression.png "Parsing references with dynamic expressions")
+![Parsing references with dynamic expressions](/v3/img/blog/function-parsing-dynamic-expression.png "Parsing references with dynamic expressions")
 
 Going back to the function above, zip-it-and-ship-it will take `./languages/${lang}.json` and infer that, at runtime, this expression can reference any file with a `.json` extension living inside the `languages` directory or any of its sub-directories. If we translate this to a glob pattern and add that to the list of included files, our function deployment will have all the files it needs to resolve this expression when the function is invoked.
 

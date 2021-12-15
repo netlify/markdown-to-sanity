@@ -11,8 +11,8 @@ lastmod: 2020-12-14
 topics:
   - news
 tags:
-  - partners
-  - integrations
+  - Partners
+  - Integrations
   - enterprise
 tweet: ""
 format: blog
@@ -27,11 +27,11 @@ seo:
   metadescription: Today we celebrate and announce the Netlify Technology Partners
     Program for enterprise technology vendors working with Netlify to bring the
     Jamstack architecture to more enterprise web teams.
-  ogimage: /img/blog/partner-showcase-blog.png
+  ogimage: /v3/img/blog/partner-showcase-blog.png
 ---
 Today we celebrate and announce the Netlify Technology Partners Program for enterprise technology vendors working with Netlify to bring the [Jamstack](https://www.netlify.com/jamstack/) architecture to more enterprise web teams. More organizations than ever are looking to Jamstack and Netlify to push the limits of their website performance and team productivity. Our technology partners play an important role in realizing these outcomes. Companies including Algolia, Auth0, Contentful, GraphCMS, Kentico Kontent, Magnolia CMS, Prismic, Sentry, Snyk, Storyblok and Uniform are amongst those already working with Netlify.
 
-[![Netlify Technology partners directory logos of main partners](/img/blog/showcase-partners-copy-7.png)](https://www.netlify.com/technology-partners)
+[![Netlify Technology partners directory logos of main partners](/v3/img/blog/showcase-partners-copy-7.png)](https://www.netlify.com/technology-partners)
 
 In addition, today we have launched an [Enterprise Technology Partners Showcase](https://www.netlify.com/technology-partners/). The showcase offers developer teams a way to discover Netlify Partner solutions and approved integrations and resources to use the partner’s technology with their Netlify projects. Enterprises looking to build Jamstack sites can be confident that their use cases are well supported on Netlify with these trusted partners. [Contact us](https://www.netlify.com/technology-partners/matchmaking) directly from the showcase to learn more.
 

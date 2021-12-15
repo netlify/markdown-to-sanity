@@ -9,8 +9,8 @@ date: '2018-08-29'
 topics:
   - tutorials
 tags:
-  - react
-  - performance
+  - React
+  - Performance
   - popular
 tweet: >-
   We had a big performance issue with rendering large server logs. Now we don't.
@@ -23,11 +23,11 @@ The latest version of the React DevTools ([released on Aug 23](https://github.co
 
 Whenever you trigger a deploy on Netlify (e.g. with a GitHub commit), a new deploy begins with an associated log. It looks like this:
 
-![netlify log screen](/img/blog/netlifylog.png)
+![netlify log screen](/v3/img/blog/netlifylog.png)
 
 However there is a known performance problem when logs start being very, very big. You can simulate this by generating an arbitrarily large number of logs by just writing a for-loop with a bunch of console.logs ([like in this repo](https://github.com/sw-yx/netlify-generate-big-log-for-perf-devtools/blob/master/index.js)), which looks like this:
 
-![netlify big log](/img/blog/netlifylog2.png)
+![netlify big log](/v3/img/blog/netlifylog2.png)
 
 Through various customer reports with very large builds, we were getting feedback that this log screen was unresponsive for them.
 
@@ -35,15 +35,15 @@ Through various customer reports with very large builds, we were getting feedbac
 
 I decided to take a look at it with the new React DevTools Profiler (note that your app must use a version of React that exposes the profiler hooks, currently only available through [the prerelease link](https://react-devtools-profiler-prerelease.now.sh/) but likely to be in a future React release). Once you have it installed, switch to the Profiler tab and hit Record:
 
-![profiler first look](/img/blog/netlifylog3.png)
+![profiler first look](/v3/img/blog/netlifylog3.png)
 
 Now perform the nonperformant action. For us, it is navigating to the page that displays the large logs. Once you are done with the action, end the profiling session and you should get a flamegraph that looks like this:
 
-![netlify flamegraph](/img/blog/netlifylog4.png)
+![netlify flamegraph](/v3/img/blog/netlifylog4.png)
 
 There's a lot going on there so I'll try to break it down. Let's zoom in on the right hand side of the Profiler:
 
-![react profiler rhs](/img/blog/netlifylog5.png)
+![react profiler rhs](/v3/img/blog/netlifylog5.png)
 
 What we see here is there were a total of 265 commits to the DOM during our profiling session, and the first commit occurred 2.2 seconds after I hit record, which took 41.5 milliseconds to render. Excellent!
 
@@ -57,11 +57,11 @@ I verify this by increasing the number of times my script prints `console.log` o
 
 We're not done yet though. We can use the Profiler to zoom in on the exact component that is causing the issue. Looking around between the frames I see that there are some sections that are highlighted in colors (longer = oranger) and most of my renders are focused on rendering this `DeployLogContainer` component:
 
-![profiler element view](/img/blog/netlifylog6.png)
+![profiler element view](/v3/img/blog/netlifylog6.png)
 
 When I have `DeployLogContainer` selected, the right panel changes to display the props (which flash when they change as you navigate between frames!) as well as a "Render Count" field. This field is pretty useful for us — because when I navigate to the last frame of this field, guess what the Render count reads?
 
-![netilfy render count](/img/blog/netlifylog7.png)
+![netilfy render count](/v3/img/blog/netlifylog7.png)
 
 261 renders of this component! That's the cause of the performance issues.
 
@@ -144,11 +144,11 @@ And that's that!
 
 Re-running the app and Profiler, this is the new profile we get from a 500-console.log deploy log:
 
-![fixed renders](/img/blog/netlifylog8.png)
+![fixed renders](/v3/img/blog/netlifylog8.png)
 
 Only 12 commits! The page also loads noticeably faster. `DeployLogContainer` is still rendered 7 times, but presumably that is due to updates higher up in the tree, but we have fixed the big perf issue. The real test is when we go for a 10,000-line log:
 
-![netlify 10k](/img/blog/netlifylog9.png)
+![netlify 10k](/v3/img/blog/netlifylog9.png)
 
 We have **the same amount of commits** for a 10,000 line log! Awesome! Moving our rendering from O(n) to O(1) can only be a good thing, right?
 

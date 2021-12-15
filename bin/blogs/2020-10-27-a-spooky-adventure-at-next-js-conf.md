@@ -9,14 +9,14 @@ lastmod: 2020-10-27
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
 tweet: ""
 format: blog
 relatedposts:
   - Preview Mode for Next.js now fully supported on Netlify
 seo:
   metatitle: A Spooky Adventure at Next.js Conf
-  ogimage: /img/blog/final-14.png
+  ogimage: /v3/img/blog/final-14.png
   metadescription: We had a blast at Next.js Conf and our teammate Cassidy had a
     spooky demo for everyone.
 ---

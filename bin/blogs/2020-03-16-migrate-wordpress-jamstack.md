@@ -11,7 +11,7 @@ topics:
   - tutorials
 tags:
   - popular
-  - JAMstack
+  - Jamstack
   - WordPress
   - Gatsby
   - migration
@@ -25,7 +25,7 @@ seo:
   metadescription: See how you can keep the benefits of WordPress while avoiding
     its biggest flaws. In this step-by-step guide, learn to migrate to the
     Jamstack using Gatsby and Netlify.
-  ogimage: /img/blog/wordpress-jamstack.jpg
+  ogimage: /v3/img/blog/wordpress-jamstack.jpg
 ---
 WordPress is the most popular content management system on the planet, powering about a third of the websites online today.
 
@@ -80,7 +80,7 @@ Once the plugins are installed, we need to activate them. Head to your WordPress
 
 We should see both WP GraphQL and WP GraphiQL as installed, but not activated.
 
-![WordPress plugins page](/img/blog/01-wp-plugins-inactive.png)
+![WordPress plugins page](/v3/img/blog/01-wp-plugins-inactive.png)
 
 Click the "Activate" link for both WP GraphQL and WP GraphiQL.
 
@@ -88,7 +88,7 @@ Click the "Activate" link for both WP GraphQL and WP GraphiQL.
 
 Click the new "GraphiQL" menu option at the left-hand side. This brings up the GraphiQL interface inside our WordPress dashboard.
 
-![WPGraphiQL UI](/img/blog/02-wp-graphiql.png)
+![WPGraphiQL UI](/v3/img/blog/02-wp-graphiql.png)
 
 Choose fields in the explorer at the left-hand side to build out a query. For example, if we want to load our site’s pages, we can run this query:
 
@@ -105,7 +105,7 @@ query MyQuery {
 }
 ```
 
-![GraphQL query result.](/img/blog/03-wp-graphiql-result.png)
+![GraphQL query result.](/v3/img/blog/03-wp-graphiql-result.png)
 
 Great! We’ve now got a functioning GraphQL API for WordPress that we can use to power our Jamstack frontend!
 
@@ -205,7 +205,7 @@ Add the following query in GraphiQL:
 
 After executing the query by pressing the play button, we’ll see our WordPress data loaded in Gatsby!
 
-![WordPress data loaded from GraphQL in Gatsby](/img/blog/04-gatsby-page-data.png)
+![WordPress data loaded from GraphQL in Gatsby](/v3/img/blog/04-gatsby-page-data.png)
 
 ## Create pages from WordPress content
 
@@ -282,7 +282,7 @@ After saving this file, we can stop the server (press `control + C`), then run `
 
 Once the site has started, visit `http://localhost:8000`. We can see everything that Gatsby passes to page components, including the `id` value we passed in `context`:
 
-![Debugging data printed from a Gatsby page React component.](/img/blog/05-page-debug.png)
+![Debugging data printed from a Gatsby page React component.](/v3/img/blog/05-page-debug.png)
 
 This doesn’t look like much right now, but it gives us the page ID, which will let us load page-specific data in our template component.
 
@@ -321,7 +321,7 @@ Anything passed in the `context` object is also available as a GraphQL variable,
 
 Once we save this, the page at `http://localhost:8000` will update to include a new `data` prop that contains the result of this query.
 
-![Debugging output with the data prop highlighted.](/img/blog/06-data-prop.png)
+![Debugging output with the data prop highlighted.](/v3/img/blog/06-data-prop.png)
 
 Alright! Now that we have content, we need to write some markup to actually display it in a reader-friendly way.
 
@@ -363,7 +363,7 @@ To use our page data, we can grab just the `data` prop in our component, then dr
 
 Save and check out `http://localhost:8000` — it’s working!
 
-![WordPress content displaying on a simple page in Gatsby.](/img/blog/07-simple-page-display.png)
+![WordPress content displaying on a simple page in Gatsby.](/v3/img/blog/07-simple-page-display.png)
 
 ## Add a shared layout and styles
 
@@ -439,7 +439,7 @@ Once we have a layout component, we need to import it in our page template and w
 
 Once we’ve saved these changes, we can head to `http://localhost:8000` to see the header at the top of the page.
 
-![The WordPress page with the header from the shared Layout component.](/img/blog/08-layout.png)
+![The WordPress page with the header from the shared Layout component.](/v3/img/blog/08-layout.png)
 
 ### Add basic styles
 
@@ -507,7 +507,7 @@ To apply our styles, we need to import the stylesheet in our `Layout` component:
 
 After saving this change, our page at `http://localhost:8000` will start looking a little more stylish.
 
-![The page with styles applied.](/img/blog/09-styles.png)
+![The page with styles applied.](/v3/img/blog/09-styles.png)
 
 > NOTE: Gatsby has built-in support for [multiple styling approaches](https://www.gatsbyjs.org/tutorial/part-two/). You can likely use whatever flavor of CSS you prefer.
 
@@ -622,7 +622,7 @@ exports.createPages = async ({ actions, graphql }) => {
 
 Stop the server and restart it, then visit one of your post URLs, such as `http://localhost:8000/blog/wordpress-jamstack`.
 
-![A blog post from WordPress displayed in Gatsby.](/img/blog/10-blog.png)
+![A blog post from WordPress displayed in Gatsby.](/v3/img/blog/10-blog.png)
 
 Hey, that wasn’t so bad — we’re getting pretty close here!
 
@@ -674,7 +674,7 @@ Once we have the package installed, we can import _only_ the stylesheet in our l
 
 After saving this, start up the server and head to a page with a styled block on it (such as `http://localhost:8000/blog/wordpress-jamstack`) to see the WordPress block styles applied.
 
-![A WordPress blog post in Gatsby with WordPress Gutenberg block styles applied.](/img/blog/11-block-styles.png)
+![A WordPress blog post in Gatsby with WordPress Gutenberg block styles applied.](/v3/img/blog/11-block-styles.png)
 
 This looks pretty okay considering we didn’t write any custom styles.
 
@@ -734,7 +734,7 @@ export default Blog
 
 Save this file, then head to `http://localhost:8000/blog` to see the previews.
 
-![Blog previews from WordPress displayed on a Gatsby page.](/img/blog/12-previews.png)
+![Blog previews from WordPress displayed on a Gatsby page.](/v3/img/blog/12-previews.png)
 
 ## Use WordPress settings to configure your Gatsby site
 
@@ -745,7 +745,7 @@ Save this file, then head to `http://localhost:8000/blog` to see the previews.
 
 WordPress has a full-featured set of tools for managing site settings that is friendly to non-developers, which means it’s more approachable for site contributors than modifying code.
 
-![The WordPress General Settings page.](/img/blog/13-settings.png)
+![The WordPress General Settings page.](/v3/img/blog/13-settings.png)
 
 WP GraphQL makes these settings available to our Gatsby site, so we can take advantage of this workflow to enable non-developers to update settings for our Gatsby site as well.
 
@@ -801,7 +801,7 @@ Save and check out the site to see that the settings are being loaded. If you wa
 
 WordPress menus allow content editors to control the navigation settings on the site. If we want to use those menus for our Gatsby site, we can!
 
-![WordPress menus UI.](/img/blog/14-menus.png)
+![WordPress menus UI.](/v3/img/blog/14-menus.png)
 
 ### Get the menu ID
 
@@ -824,7 +824,7 @@ In GraphiQL (`http://localhost:8000/___graphql`), run the following query:
 
 Look for the menu with the `name` value of “Main Menu”, then grab its ID for use in the next section.
 
-![GraphQL query result that contains the menu ID.](/img/blog/15-menu-id.png)
+![GraphQL query result that contains the menu ID.](/v3/img/blog/15-menu-id.png)
 
 ### Load the menu items and make links relative
 
@@ -890,7 +890,7 @@ One important thing to note is that we also need to load the site’s URL from t
 
 Save these changes and look at `http://localhost:8000` — the WordPress navigation is now displayed in the header, and it works to navigate our Gatsby site!
 
-![A Gatsby site with top navigation items source from WordPress menus.](/img/blog/16-nav.png)
+![A Gatsby site with top navigation items source from WordPress menus.](/v3/img/blog/16-nav.png)
 
 At this point, our WordPress site has been fully migrated to the Jamstack: we’re loading pages, posts, settings, and menus into a fully functional Gatsby site.
 
@@ -951,23 +951,23 @@ Netlify sites automatically rebuild whenever changes are pushed to our code, but
 
 To do that, we need to install a plugin called [JAMstack Deployments](https://github.com/crgeary/wp-jamstack-deployments) on our WordPress site. Head to the Plugins section of our WordPress admin, then click “Add New” and search for “jamstack”. JAMstack Deployments will be the first option.
 
-![The JAMstack Deployments plugin in the “Add Plugins” UI in WordPress.](/img/blog/17-deploy-plugin.png)
+![The JAMstack Deployments plugin in the “Add Plugins” UI in WordPress.](/v3/img/blog/17-deploy-plugin.png)
 
 Once the plugin is installed, go to the Settings menu, then choose the new Deployments section. To fill this section out, we need to create a Build Hook in our Netlify settings.
 
 Head to the Netlify dashboard, then click Settings. In the side menu of the Settings page, click “Build & deploy”, then scroll down to the “Build hooks” section and click “Add build hook”.
 
-![The build hook section of the Netlify settings.](/img/blog/19-build-hook.png)
+![The build hook section of the Netlify settings.](/v3/img/blog/19-build-hook.png)
 
 Once you’ve created the hook, copy the URL and paste it into the WordPress Deployment settings field called “Build Hook URL”.
 
 Next, go to the Settings page of your Netlify dashboard and scroll down to the “Status badges” section. The badge has two URLs: the first is the actual image for the badge, and the second is a link to your site’s Deploys page.
 
-![The status badge section of the Netlify settings.](/img/blog/20-status-badge.png)
+![The status badge section of the Netlify settings.](/v3/img/blog/20-status-badge.png)
 
 Copy and paste each URL into the respective Deployments settings fields.
 
-![The Deployments settings area in WordPress admin.](/img/blog/18-deployments.png)
+![The Deployments settings area in WordPress admin.](/v3/img/blog/18-deployments.png)
 
 Finally, check boxes for the types of updates that should trigger a rebuild on Netlify. If you’re not sure which ones you need, start with posts, pages, and navigation menu items — you can always adjust these settings later on.
 

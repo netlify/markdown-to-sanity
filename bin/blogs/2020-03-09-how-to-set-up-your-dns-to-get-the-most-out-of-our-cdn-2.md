@@ -21,7 +21,7 @@ seo:
   metadescription: Learn how to set up DNS on Netlify. Should you choose a
     subdomain or bare domain? Use Netlify DNS or another DNS provider? See our
     recommendations to help you best leverage our global CDN.
-  ogimage: /img/blog/how-to-setup-netlify-dns.png
+  ogimage: /v3/img/blog/how-to-setup-netlify-dns.png
 ---
 You’ve [created a Netlify account](https://app.netlify.com/signup) to host your website, chosen your preferred deployment method, and now you want to configure your custom domain name. How you configure your domain name impacts both how people will find your site, but also what kind of site performance they will experience when they visit. In this article, based on a 2017 post by Mathias Biilmann, we’ll dive into what we currently recommend and why.
 

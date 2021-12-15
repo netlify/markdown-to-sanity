@@ -2,7 +2,7 @@
 title: 'Contentful: An API-First CMS'
 authors:
   - Brian Douglas
-image: /img/blog/jamstack-radio-1024x1024.jpg
+image: /v3/img/blog/jamstack-radio-1024x1024.jpg
 short_title: 'Contentful: An API-First CMS'
 format: podcast
 episodenumber: 16
@@ -20,8 +20,8 @@ guests:
       keenlogics GmbH.
     name: Rouven Wessling
 tags:
-  - podcast
-  - contentful
+  - Podcast
+  - Contentful
   - headless cms
 topics:
   - tools

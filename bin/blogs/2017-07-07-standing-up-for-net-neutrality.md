@@ -3,13 +3,13 @@ title: Standing Up for Net Neutrality
 authors:
   - Matt Biilmann
   - Chris Bach
-image: /img/blog/nn-header.png
+image: /v3/img/blog/nn-header.png
 format: blog
 short_title: Standing Up for Net Neutrality
 topics:
   - news
 tags:
-  - net neutrality
+  - Net neutrality
 description: 'On July 12, we’re taking a stand, and so can you. '
 date: 2017-07-07T00:44:15.000Z
 ---
@@ -34,7 +34,7 @@ To generate as many comments as possible before the close of the first round, le
 
 On July 12, sites across the web will [display an alert](https://widget.battleforthenet.com/demos/modal.html?theme=slow) to show what the web might look like without net neutrality. The alert includes an easy way for visitors to submit their comments directly to the FCC and Congress.
 
-![Alert overlay on netlify.com, with call to action and government contact form](/img/blog/net-neutrality-alert.png)
+![Alert overlay on netlify.com, with call to action and government contact form](/v3/img/blog/net-neutrality-alert.png)
 
 ## Answering the Call
 
@@ -42,7 +42,7 @@ Netlify is joining the effort, and we hope you will, too! We’re enabling the a
 
 Battle for the Net has provided a [script](https://github.com/fightforthefuture/battleforthenet-widget) that anyone can use to add the alert to their site, and we’ve decided to make it even easier for Netlify customers to participate. We’ve taken our built-in script injection feature one step further, allowing you to add the alert with a single click:
 
-![1-click alert functionality at the top of the site settings page](/img/blog/netneutrality@2x.png)
+![1-click alert functionality at the top of the site settings page](/v3/img/blog/netneutrality@2x.png)
 
 You'll find this at the top of the settings page for each of your [sites on Netlify](https://app.netlify.com/sites/). You can add the alert to your Netlify site now, and it will go live on July 12, displaying once for each visitor to your site. After that, we'll automatically remove it, or you can go back to the settings yourself and remove it earlier.
 

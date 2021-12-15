@@ -11,8 +11,8 @@ topics:
   - news
 tags:
   - CMS
-  - open source
-  - jamstack
+  - Open source
+  - Jamstack
 format: blog
 description: >-
   The open source Netlify CMS has hit 1.0, with the release of an
@@ -27,7 +27,7 @@ hacker_news_id: ''
 ---
 Today we shipped [Netlify CMS 1.0](https://github.com/netlify/netlify-cms), the production-ready update to our open source project that allows developers to implement Git-based content management for static sites and single page apps. The project now features a fully-redesigned user interface, rewritten markdown editor, and media library.
 
-![In-post view for editors](/img/blog/editor view flavbor wheel.png)
+![In-post view for editors](/v3/img/blog/editor view flavbor wheel.png)
 
 ## The Road to 1.0
 
@@ -69,4 +69,4 @@ Ready to give Netlify CMS a try? Deploy a pre-configured template that uses [Hug
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-cms-is-released)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-cms-is-released)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#netlify-cms-is-released)

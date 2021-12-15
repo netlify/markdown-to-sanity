@@ -9,7 +9,7 @@ topics:
   - news
 tags:
   - popular
-  - domains
+  - Domains
   - DNS
   - HTTPS
 format: blog

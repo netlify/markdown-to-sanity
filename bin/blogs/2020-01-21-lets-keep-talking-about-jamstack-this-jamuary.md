@@ -7,7 +7,7 @@ date: '2020-01-22'
 topics:
   - insights
 tags:
-  - JAMstack
+  - Jamstack
 tweet: ''
 format: blog
 seo:

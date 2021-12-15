@@ -12,7 +12,7 @@ topics:
   - case-studies
 tags:
   - Jamstack
-  - ecommerce
+  - E-commerce
   - Contentful
 tweet: ""
 format: blog
@@ -22,9 +22,9 @@ relatedposts:
 seo:
   metatitle: How Fostr used Shopify and the Jamstack for eCommerce on Victoria Beckham Beauty
   metadescription: "Learn how Victoria Beckham Beauty engaged Fostr, an e-commerce agency, to create their online store utilizing the Jamstack and a decoupled architecture with Shopify."
-  ogimage: /img/blog/vbb-og.png
+  ogimage: /v3/img/blog/vbb-og.png
 ---
-![Victoria Beckham Beauty website](/img/blog/vbb-web.jpg "Victoria Beckham Beauty website")
+![Victoria Beckham Beauty website](/v3/img/blog/vbb-web.jpg "Victoria Beckham Beauty website")
 
 [Victoria Beckham Beauty](https://www.victoriabeckhambeauty.com/) engaged [Fostr](https://www.fostr.io/), an e-commerce agency, to create their online store. They wanted a premium, bespoke customer experience to match their brand.
 
@@ -42,7 +42,7 @@ This case study explores some of the technical choices and the motivations behin
 * [Register](https://ti.to/netlify/headless-commerce-summit) to learn more about this story with Fostr live at [Headless Commerce Summit](https://headlesscommercesummit.com/) on September 3.
 * Watch the [Contentful, Victoria Beckham Beauty and Netlify webinar](https://www.netlify.com/resources/webinars/victoria-beckham-beauty-uses-contentful-and-netlify-to-build-a-dream-ecommerce-experience/).
 
-[![Victoria Beckham Beauty web story on Netlify](/img/blog/vbb-og.png "Victoria Beckham Beauty's digital experience on Netlify")](https://www.netlify.com/customers/victoria-beckham-beauty/)
+[![Victoria Beckham Beauty web story on Netlify](/v3/img/blog/vbb-og.png "Victoria Beckham Beauty's digital experience on Netlify")](https://www.netlify.com/customers/victoria-beckham-beauty/)
 
 ---
 

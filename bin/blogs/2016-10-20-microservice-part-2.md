@@ -3,7 +3,7 @@
 title: Building a RESTful API in go
 authors:
   - Ryan Neal
-image: /img/blog/sleeping-jake.png
+image: /v3/img/blog/sleeping-jake.png
 format: blog
 short_title: Adding a RESTful API to a microservice
 description: "RESTful APIs are great, adding them is simple too!"
@@ -12,9 +12,8 @@ cmsUserSlug: microservice-restful-api
 date: 2016-10-20
 tags:
   - popular
-  - tutorial
-  - go
-  - series
+  - Tutorial
+  - Go
   - code
 topics:
   - tutorials

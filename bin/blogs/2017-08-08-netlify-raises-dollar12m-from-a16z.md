@@ -3,7 +3,7 @@ title: Netlify Raises $12m from A16Z
 authors:
   - Matt Biilmann
   - Chris Bach
-image: /img/blog/fireworks.gif
+image: /v3/img/blog/fireworks.gif
 format: blog
 short_title: Netlify Raises $12m from A16Z
 topics:
@@ -12,7 +12,6 @@ tags:
   - popular
   - Announcements
   - Netlify
-  - a16z
 description: >
   Today we're excited to announce that we've raised a $12 million Series A round
   from Andreessen Horowitz, together with our awesome existing investors:
@@ -36,7 +35,7 @@ On the backend side of things, we’re seeing a strong trend to split large mono
 
 Netlify is our attempt at bringing the web into the era of microservices by creating a coherent workflow around a decoupled web, based on the principles of the [JAMstack](https://jamstack.org).
 
-![Evolution of the web](/img/blog/evolution-of-the-web.png)
+![Evolution of the web](/v3/img/blog/evolution-of-the-web.png)
 
 **Decoupling** is something we always strive to accomplish as developers. It’s a way to let us isolate smaller units that we can reason about and a way to construct building blocks that can be reused independently of each other.
 
@@ -50,7 +49,7 @@ Netlify brings the same kind of one-click setup to the modern web architecture, 
 
 ## Building the Community
 
-![The worlds first JAMstack conference](/img/blog/jamstack-community.jpg)
+![The worlds first JAMstack conference](/v3/img/blog/jamstack-community.jpg)
 
 More than a hundred thousand developers are on Netlify today and thousands of open source projects like Yarn, Lodash, Kubernetes, Docker, Meteor, Apollo, and Hugo have adopted Netlify as a part of their workflow. We're seeing [JAMstack Meetups](https://jamstack.org/community/) pop up worldwide and modern frameworks like React as well as site generators like Hugo and Gatsby are exploding in popularity.
 

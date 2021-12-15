@@ -3,7 +3,7 @@
 title: Netlify News No. 6
 authors:
   - Chris Bach
-image: /img/blog/michael-caine-newspaper.jpg
+image: /v3/img/blog/michael-caine-newspaper.jpg
 format: blog
 short_title: Our Sixth Newsletter
 description: "HTTP2.0 supported! Also new CDN PoPs, Canonical URLs & more!"
@@ -11,11 +11,11 @@ thumbnail: thumbnails/http2-1.png
 cmsUserSlug: ""
 date: 2015-10-20
 tags:
-  - netlify
-  - news
+  - Netlify
+  - News
   - https
-  - ssl
-  - cdn
+  - SSL
+  - CDN
   - urls
 topics:
   - news

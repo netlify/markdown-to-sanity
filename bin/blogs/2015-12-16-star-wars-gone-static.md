@@ -3,7 +3,7 @@
 title: Star Wars Gone Static
 authors:
   - Chris Bach
-image: /img/blog/star_wars_web.jpg
+image: /v3/img/blog/star_wars_web.jpg
 image_caption: null
 format: blog
 short_title: Star Wars Gone Static
@@ -12,7 +12,7 @@ thumbnail: thumbnails/screen-shot-2015-12-16-at-20.13.25.png
 cmsUserSlug: ""
 date: 2015-12-16T00:00:00.000Z
 tags:
-  - news
+  - News
 topics:
   - news
 ---
@@ -31,7 +31,7 @@ We picked out 3 sites that are all made with modern static build tools and all h
 
 <br>
 
-![wikia-starwars.png](/img/blog/wikia-starwars.png)
+![wikia-starwars.png](/v3/img/blog/wikia-starwars.png)
 
 ## Wikia ##
 To start it off let’s have a look at Wikia’s Star Wars page.
@@ -44,7 +44,7 @@ This is definitely one of the better Star Wars fan pages out there, nicely made,
 
 <br>
 
-![carrot-starwars.jpg](/img/blog/carrot-starwars.jpg)
+![carrot-starwars.jpg](/v3/img/blog/carrot-starwars.jpg)
 
 ## Carrot ##
 New York based Carrot agency is amongst the most recognised digital agencies in the World. They build the static site generator Roots that’s used to power all kinds of cool sites including WeWork.com and the Malalafoundation and of course their own site Carrot.is. And this is where we find the 2nd of today’s StarWars sites.
@@ -59,7 +59,7 @@ To top it off, apparently all Carrot employees are expected to see the original 
 
 <br>
 
-![sphero.jpg](/img/blog/sphero.jpg)
+![sphero.jpg](/v3/img/blog/sphero.jpg)
 
 ## Sphero (aka BB-8) ##
 Last of we have a company that has a great tip for getting initial traction. Have your prototype droid be picked up by the biggest movie franchise in the World and have them give it a prominent role in the film and marketing of the film.

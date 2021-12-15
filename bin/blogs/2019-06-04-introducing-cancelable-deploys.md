@@ -10,7 +10,6 @@ topics:
   - news
 tags:
   - CI
-  - Admin
   - Features
 tweet: ''
 format: blog

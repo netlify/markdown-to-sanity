@@ -9,7 +9,7 @@ date: '2019-02-27'
 topics:
   - sites
 tags:
-  - JAMstack
+  - Jamstack
   - Site
   - Headless
 tweet: >-
@@ -19,6 +19,6 @@ format: blog
 ---
 This elegant campaign site from Nike is deployed and hosted as a JAMstack site with Netlify. Its content management is decoupled from the frontend and drawn from a [headless CMS](https://headlesscms.org) at build time (in this case, [Dato CMS](https://www.datocms.com/)), and has a frontend developed using [GatsbyJS](https://www.gatsbyjs.org/)
 
-![Screenshot of justdoit.nike.com](/img/blog/nike-do-it.jpg "justdoit.nike.com")
+![Screenshot of justdoit.nike.com](/v3/img/blog/nike-do-it.jpg "justdoit.nike.com")
 
 👉[**justdoit.nike.com**](https://justdoit.nike.com/)

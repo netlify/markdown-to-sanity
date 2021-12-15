@@ -26,9 +26,9 @@ A DNS zone contains all the DNS records for a domain. To see all of your DNS
 zones on Netlify, navigate to your Account/Team root page, and click **DNS
 zones**.
 
-![The new DNS Zone Panel](/img/blog/domains-dns-zones@2x.png)
+![The new DNS Zone Panel](/v3/img/blog/domains-dns-zones@2x.png)
 
-![DNS Records](/img/blog/domains-dns-settings@2x.png)
+![DNS Records](/v3/img/blog/domains-dns-settings@2x.png)
 
 ## A redesigned Domains card
 
@@ -37,7 +37,7 @@ Domains card that makes it easier to tell exactly which addresses are assigned
 to your Netlify site. It also features more useful troubleshooting and
 documentation for when something is _just not right_.
 
-![Redesigned Custom Domains Card](/img/blog/domains-settings@2x.png)
+![Redesigned Custom Domains Card](/v3/img/blog/domains-settings@2x.png)
 
 ## Getting to know DNS
 

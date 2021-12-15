@@ -9,7 +9,7 @@ lastmod: 2020-11-12
 topics:
   - tutorials
 tags:
-  - jamstack
+  - Jamstack
   - enterprise
   - productivity
 tweet: ""
@@ -21,11 +21,11 @@ seo:
   metatitle: How to Unlock Developer Productivity for Enterprises with Jamstack
   metadescription: Read an excerpt from one of our free eBooks showcasing how the
     Jamstack can unlock developer productivity within enterprises. Check it out!
-  ogimage: /img/blog/plugins-og-66-3-.png
+  ogimage: /v3/img/blog/plugins-og-66-3-.png
 ---
 This is an excerpt the first of a series of eBooks detailing how engineering leaders are moving to the [Jamstack](https://www.netlify.com/jamstack/) modern web architecture with the help of Netlify to increase development velocity, and deliver the most performant sites and web applications. The series explores issues including performance optimization, security and how your team can ship faster using Jamstack and Netlify workflows.
 
-[![Netlify developer productivity eBook promo](/img/blog/blog-1.png)](https://www.netlify.com/resources/ebooks/enterprise-web-performance/developer-productivity/)
+[![Netlify developer productivity eBook promo](/v3/img/blog/blog-1.png)](https://www.netlify.com/resources/ebooks/enterprise-web-performance/developer-productivity/)
 
 ### The Barriers to Building An Ideal Developer Experience
 
@@ -60,7 +60,7 @@ Here are some additional results:
 * 20x faster product production
 * 36k monthly cost savings
 
-![loblaw + netlify stats image](/img/blog/blog-2-3-.png)
+![loblaw + netlify stats image](/v3/img/blog/blog-2-3-.png)
 
 By unlocking the power of developer productivity, Loblaw is able to get more products to market faster.
 

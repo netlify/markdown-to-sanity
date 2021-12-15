@@ -10,8 +10,8 @@ lastmod: 2020-11-18
 topics:
   - news
 tags:
-  - jamstack
-  - explorers
+  - Jamstack
+  - Jamstack Explorers
   - tutorials
 tweet: ""
 format: blog
@@ -23,9 +23,9 @@ seo:
   metadescription: Join our Jamstack Explorers community program, a learning
     platform to help you get more expertise in the Jamstack. Plus check out how
     to engage with the Netlify community.
-  ogimage: /img/blog/explorers.png
+  ogimage: /v3/img/blog/explorers.png
 ---
-[![Jamstack Explorers by Netlify](/img/blog/jamstack-explorers-netlify-blog-header.png "Jamstack Explorers community program")](https://explorers.netlify.com/?utm_source=blog&utm_medium=intro-post-tzm&utm_campaign=devex)
+[![Jamstack Explorers by Netlify](/v3/img/blog/jamstack-explorers-netlify-blog-header.png "Jamstack Explorers community program")](https://explorers.netlify.com/?utm_source=blog&utm_medium=intro-post-tzm&utm_campaign=devex)
 
 Today we announce a few exciting updates for our Netlify community to make it even easier to get involved and learn more about the [Jamstack](https://www.netlify.com/jamstack/), an architecture that decouples the front and backend and supports new tools and workflows used in modern web development.
 
@@ -45,7 +45,7 @@ We plan to add more missions and we look forward to your feedback as you advance
 
 ## Other ways to get involved with the Netlify community
 
-[![Netlify Community](/img/blog/netlify-community-blog-header.png "Netlify Community")](https://www.netlify.com/community/?utm_source=blog&utm_medium=intro-post-tzm&utm_campaign=devex)
+[![Netlify Community](/v3/img/blog/netlify-community-blog-header.png "Netlify Community")](https://www.netlify.com/community/?utm_source=blog&utm_medium=intro-post-tzm&utm_campaign=devex)
 
 There’s more! [You can engage with the Netlify community](https://www.netlify.com/community/?utm_source=blog&utm_medium=intro-post-tzm&utm_campaign=devex) in a variety of ways:
 

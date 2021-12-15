@@ -2,7 +2,7 @@
 title: 'How To Shave time Off Of Your Load Time (It’s Really, Really Easy)'
 authors:
   - Matt Biilmann
-image: /img/blog/traffic-car-vehicle-speed.jpg
+image: /v3/img/blog/traffic-car-vehicle-speed.jpg
 format: blog
 short_title: Shave 73% off your load time
 tags:
@@ -77,7 +77,7 @@ At Amazon, every [100 ms](http://blog.gigaspaces.com/amazon-found-every-100ms-of
 
  [Walmart ](http://www.globaldots.com/how-website-speed-affects-conversion-rates/)decided to attempt to increase the competitive nature of their retail site, during their research they discovered: 
 
-![null](/img/blog/Screen Shot 2017-02-14 at 4.07.30 PM.png)
+![null](/v3/img/blog/Screen Shot 2017-02-14 at 4.07.30 PM.png)
 
 This kind of data reflects the struggle that development teams face trying to optimize these metrics. Sometimes spending years trying to achieve as shaving off seconds on a legacy stack is both hard and costly.
 

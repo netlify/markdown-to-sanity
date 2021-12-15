@@ -10,9 +10,9 @@ lastmod: 2020-07-31
 topics:
   - news
 tags:
-  - ecommerce
-  - e-commerce
-  - headless
+  - E-commerce
+  - E-commerce
+  - Headless
 tweet: ""
 format: blog
 relatedposts:
@@ -23,9 +23,9 @@ seo:
   metadescription: Join Netlify at Headless Commerce Summit to learn about the
     benefits of a headless model, how to architect your Headless Commerce apps
     on the Jamstack, and best practices.
-  ogimage: /img/blog/headless-commerce-og.png
+  ogimage: /v3/img/blog/headless-commerce-og.png
 ---
-![Headless Commerce Summit](/img/blog/banner.png "Headless Commerce Summit")
+![Headless Commerce Summit](/v3/img/blog/banner.png "Headless Commerce Summit")
 
 They say that time is money. That’s why site performance and the ability to iterate quickly are so critical for e-commerce. And because speed is one of the biggest benefits of the Jamstack architecture, e-commerce is often cited as the quintessential use case for a Headless architecture on the Jamstack.
 

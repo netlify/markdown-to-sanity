@@ -23,7 +23,7 @@ seo:
     October 6 where nearly 16,000 developers and web enthusiasts registered to
     join the virtual conference.
   metatitle: Watch Highlight Videos from Jamstack Conf Virtual October 2020
-  ogimage: /img/blog/jamstack-promo-23-1-.png
+  ogimage: /v3/img/blog/jamstack-promo-23-1-.png
 ---
 Jamstack Conf Virtual talks from October 6 are here! [Watch the recordings in this playlist](https://www.youtube.com/playlist?list=PL58Wk5g77lF94tg-F3y5zRyDeLVhTDnTg).
 

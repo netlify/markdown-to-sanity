@@ -25,7 +25,7 @@ Setting a user’s role is fairly standard with most authentication providers. W
 In Netlify, you can assign user roles directly from the dashboard by navigating to an individual user page. From here, you can then set the role of the user appropriately. (See diagram below)
 
 
-![Workflow of setting a user role through the Netlify UI](/img/blog/set-role-identity.jpg)
+![Workflow of setting a user role through the Netlify UI](/v3/img/blog/set-role-identity.jpg)
 
 
 Once assigned, these roles can now be used to gate content on your site. 

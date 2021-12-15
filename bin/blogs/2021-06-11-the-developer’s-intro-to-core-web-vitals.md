@@ -8,9 +8,9 @@ lastmod: 2021-06-11
 topics:
   - tutorials
 tags:
-  - seo
+  - SEO
   - core web vitals
-  - performance
+  - Performance
 tweet: ""
 format: blog
 seo:
@@ -18,7 +18,7 @@ seo:
   metadescription: "Learn about the three pillars of Google's 2021 Core Web Vitals
     update, and common fixes to improve page experience, site performance, and
     SEO rankings. "
-  ogimage: /img/blog/core-web-vitals-og.png
+  ogimage: /v3/img/blog/core-web-vitals-og.png
 ---
 ### What to expect from Google’s Core Web Vitals 2021 page experience update
 
@@ -38,7 +38,7 @@ Google has been using metrics like this to proxy user experience for a long time
 
 With Google’s 2021 update, Core Web Vitals has three pillars: speed, responsiveness, and visual stability. This is just a subset of a larger group of Web Vitals, which also take security, mobile-readiness, and more into account.
 
-![Page experience signals in CWV](/img/blog/core-web-vitals-search-signals.png "Page experience signals ")
+![Page experience signals in CWV](/v3/img/blog/core-web-vitals-search-signals.png "Page experience signals ")
 
 Specifically, Core Web Vitals examines how fast the biggest piece of content in the initial viewport loads (loading), how responsive a page is (interactivity), and how jumpy a page is (visual stability). Each pillar is attached to one metric. The three metrics that make up the Core Web Vitals are Largest Contentful Paint, First Input Delay, and Cumulative Layout Shift.
 
@@ -60,7 +60,7 @@ For more on what kinds of elements are considered, and how element size is calcu
 
 A good LCP score, in Google’s book, is less than 2.5 seconds.
 
-![](/img/blog/lcp-score.png)
+![](/v3/img/blog/lcp-score.png)
 
 Long LCP times tend to happen for the following reasons:
 
@@ -85,7 +85,7 @@ So. How exactly is that calculated? FID is expressed in milliseconds, and is the
 
 To provide a good user experience, pages should have a FID of less than 100 ms.
 
-![](/img/blog/fid-score.png)
+![](/v3/img/blog/fid-score.png)
 
 There’s basically one culprit for high FID load times: heavy client-side JavaScript execution.
 
@@ -112,7 +112,7 @@ How is CLS calculated? It’s a scale created by Google that measures how much y
 
 To provide a good user experience, pages should maintain a CLS of less than 0.1.
 
-![](/img/blog/cls-score.png)
+![](/v3/img/blog/cls-score.png)
 
 Most websites can avoid unexpected layout shifts by sticking to a few guiding principles, as [indicated by Google](https://web.dev/cls/#how-to-improve-cls):
 

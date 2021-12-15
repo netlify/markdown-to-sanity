@@ -10,11 +10,11 @@ lastmod: 2021-06-29
 topics:
   - tutorials
 tags:
-  - testing
-  - deploy previews
+  - Testing
+  - Deploy Previews
   - QA wolf
   - QA
-  - open source
+  - Open source
 tweet: ""
 format: blog
 relatedposts:
@@ -24,7 +24,7 @@ seo:
   metadescription: "End-to-end testing has a lot of benefits, but it can be hard
     to get started. Learn how to kick off end-to-end testing with deploy
     previews and QA Wolf. "
-  ogimage: /img/blog/e2e-tests-og-image.png
+  ogimage: /v3/img/blog/e2e-tests-og-image.png
 ---
 ### 3 common problems with E2E tests, and how to solve them with Deploy Previews
 
@@ -42,7 +42,7 @@ Enter deploy previews. 🦸
 
 In addition to speeding up the development cycle, deploy previews pave the way for better E2E testing. Before deploy previews, powerful test infrastructure often required a team of automation engineers. Now, companies of all sizes can leverage modern tooling to test as fast as they commit.
 
-![End-to-end testing with QA Wolf and Netlify](/img/blog/qa-wolf-blog.png)
+![End-to-end testing with QA Wolf and Netlify](/v3/img/blog/qa-wolf-blog.png)
 
 If you have deploy previews but aren't yet running E2E tests, now just might be the time to get started.
 
@@ -68,7 +68,7 @@ With 100% parallelization, the time it takes to run tests shrinks from half an h
 
 For example, say you have 45 tests that each take 1 minute to run. Without parallelization, it would take about 45 minutes to run all your tests (45 tests x 1 minute to run each test). With parallelization, it would take about 1 minute to run all tests since each test runs independently.
 
-![Running QA tests in parallel ](/img/blog/qawolf-parallelization.png)
+![Running QA tests in parallel ](/v3/img/blog/qawolf-parallelization.png)
 
 All that's left is to set up the infrastructure to run your tests in 100% parallel. One way to do this is with tools like [AWS Lambda](https://aws.amazon.com/lambda/). On each deployment, you can call an independent function to run a test script against your preview URL.
 

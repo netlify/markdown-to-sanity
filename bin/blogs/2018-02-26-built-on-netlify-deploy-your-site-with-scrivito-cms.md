@@ -6,7 +6,7 @@ tweet: ''
 topics:
   - tools
 tags:
-  - partner
+  - Partners
   - CMS
 format: blog
 description: >-

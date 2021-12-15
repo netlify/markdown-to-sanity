@@ -11,10 +11,10 @@ lastmod: 2020-07-08
 topics:
   - tutorials
 tags:
-  - domain
-  - domain names
-  - dns
-  - netlify
+  - Domains
+  - Domains
+  - DNS
+  - Netlify
 tweet: ""
 format: blog
 relatedposts:
@@ -25,13 +25,13 @@ seo:
   metadescription: Netlify and Name.com have teamed up to share insights and
     resources about DNS. Learn more about TLDs, DNS Records, Nameservers, and
     more. And how domains work on Netlify.
-  ogimage: /img/blog/plugins-og-39-1-.png
+  ogimage: /v3/img/blog/plugins-og-39-1-.png
 ---
 Netlify and Name.com have teamed up to offer domain names in Netlify’s all-in-one platform. Netlify uses Name.com’s API to integrate domain purchasing and [DNS setup](https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-a-records/) within your sites, projects, and deployment processes. When you get a domain name from Netlify, their engineers have made it possible to configure the DNS automatically (as well as free SSL through Let’s Encrypt). And that’s amazing. It's so nice to have this all set up for you Like Magic™, but it's still good to have a foundation of what DNS is and how it works.
 
 Some of the top domain extensions (TLDs) registered at Netlify:
 
-![TLDs available to register on Netlify](/img/blog/1-netlify-domain-names.jpg)
+![TLDs available to register on Netlify](/v3/img/blog/1-netlify-domain-names.jpg)
 
 1. .com
 2. .net
@@ -52,7 +52,7 @@ Understanding DNS is important to fully harness the capabilities of online compu
 
 The impetus for DNS is actually pretty simple. At its core, computers are very good with numbers and humans are very good with names. DNS puts names to what otherwise is a number.
 
-![DNS management A records example](/img/blog/2-netlify-manage-dns.jpg)
+![DNS management A records example](/v3/img/blog/2-netlify-manage-dns.jpg)
 
 *The name points to the number. Here you see the domain `gadgetress.rocks` pointing to the IP address.*
 
@@ -113,13 +113,13 @@ Now your computer’s browser sends your search for Netlify.com to the recursive
 
 The recursive server sets out to resolve (it’s called a resolver, actually) your query quickly. Its first stop is the root server. Aptly named because they are the root to the DNS hierarchy in servers placed all around the world in 13 DNS root zones. The root zone checks to determine the domain extension. In this case it’s a .com. After the root server responds to the recursive resolver with the fact that it’s a .com, our request is pointed toward the .com TLD. The recursive resolver makes a request to the .com TLD’s server.
 
-![DNS records common errors troubleshooting guide](/img/blog/3-netlify-dns-troubleshooting.jpg)
+![DNS records common errors troubleshooting guide](/v3/img/blog/3-netlify-dns-troubleshooting.jpg)
 
 In this case for Netlify, the TLD server verifies the .com but then pretty much says that’s all I’ve got. So the .com has been confirmed and the search continues to where the domain name is registered. This is the left side of the dot. Netlify dot com is registered at a domain registrar, and that registrar will have the authoritative servers. 
 
 This is where you and your domain come in. You've either set up the DNS records yourself or had a convenient in-flow DNS hookup like what you’ll find in Netlify. These are the servers that point to the computer that hosts your website’s data. The recursive resolver, now down to it’s final chore, sends a query to one of the domain’s authoritative nameservers (these are the ones you set up via Netlify or directly at the domain registrar like Name.com). You have now accessed the server that has the data. The website you’ve requested has been cracked open by the query and, after an HTTP request from the browser, will pour forth its contents onto your computer.
 
-![DNS example guide graphic](/img/blog/4-netlify-dns-tacos.jpg)
+![DNS example guide graphic](/v3/img/blog/4-netlify-dns-tacos.jpg)
 
 There you have it. Troubleshooting, metaphors, and even more metaphors. The concept is simple but it mostly takes setting up your first records. You’re in control of making things happen (and screwing things up). That’s why Name.com is here to help and Netlify can do it automatically for you!
 

@@ -24,7 +24,7 @@ seo:
   metadescription: Discover how you to get a 15-20% improvement in compression
     with Netlify Edge. Brotli support on Netlify is here. You don't need to do a
     thing! It's done.
-  ogimage: /img/blog/brotli-og.png
+  ogimage: /v3/img/blog/brotli-og.png
 ---
 [Netlify Edge](https://www.netlify.com/products/edge/?utm_source=blog&utm_medium=brotli-pnh&utm_campaign=devex), our globally distributed, intelligent CDN quietly and automatically delivers abilities to developers which were once only within reach of enterprises with big budgets and expert consultants.
 

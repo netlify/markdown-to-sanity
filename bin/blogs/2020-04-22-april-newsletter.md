@@ -1,5 +1,6 @@
 ---
-title: "April Netlify Newsletter: Jamstack Conf Virtual Registration, Demos, Walkthroughs, and More!"
+title: "April Netlify Newsletter: Jamstack Conf Virtual Registration, Demos,
+  Walkthroughs, and More!"
 description: Register to attend Jamstack Conf Virtual, learn how to use Drupal
   and WordPress with the Jamstack, and more!
 authors:
@@ -22,7 +23,6 @@ seo:
     attend Jamstack Conf Virtual 2020, learn how to use Drupal and WordPress
     with the Jamstack, and much more!
 ---
-
 This is a re-publishing of our monthly newsletter sent to subscribers earlier this week. Sign up to receive future email newsletters!
 
 {{< newsletter >}}

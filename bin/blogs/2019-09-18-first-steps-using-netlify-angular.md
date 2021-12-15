@@ -41,7 +41,7 @@ For Angular, the build command is, most likely `ng build --prod`. You can defini
 
 That is all the information needed to deploy your Angular project onto Netlify using the web UI. Once that's setup and a deploy is started you can track the progress and see the logs on your project's overview (https://app.netlify.com/sites/{project name}/overview) or deploys (https://app.netlify.com/sites/{project name}/deploys) page. You can also find the link for your site on those two pages.
 
-![the site overview screen](/img/blog/screen-shot-2019-09-19-at-12.26.21-pm.png "overview page")
+![the site overview screen](/v3/img/blog/screen-shot-2019-09-19-at-12.26.21-pm.png "overview page")
 
 ### Deploying, Three Ways 😙👌
 

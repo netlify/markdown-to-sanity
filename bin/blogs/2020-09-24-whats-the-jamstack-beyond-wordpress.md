@@ -10,7 +10,7 @@ topics:
   - news
 tags:
   - Remotely Interesting
-  - podcast
+  - Podcast
 tweet: ""
 format: blog
 relatedposts:
@@ -28,4 +28,4 @@ In this episode, we talk through the different aspects of the Jamstack that stoo
 
 As always we hope you find the podcast, Remotely Interesting!
 
-![episode image for remotely interesting episode 6](/img/blog/ep-6.png "Episode 6 Hosts of Remotely Interesting")
+![episode image for remotely interesting episode 6](/v3/img/blog/ep-6.png "Episode 6 Hosts of Remotely Interesting")

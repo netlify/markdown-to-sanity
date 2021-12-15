@@ -3,7 +3,7 @@
 title: Creating a Microservice Boilerplate in Go
 authors:
   - Ryan Neal
-image: /img/blog/lock.jpg
+image: /v3/img/blog/lock.jpg
 format: blog
 short_title: Creating a Microservice Boilerplate in Go
 description: "Microservices are great, they required a lot of rote code. Here is the template we use"
@@ -11,9 +11,8 @@ thumbnail: /img/posts/thumbnails/lock.jpg
 cmsUserSlug: creating-a-boilerplate-for-for-a-microservice
 date: 2016-09-06
 tags:
-  - tutorial
-  - go
-  - series
+  - Tutorial
+  - Go
   - code
 topics:
   - tutorials

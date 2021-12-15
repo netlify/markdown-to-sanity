@@ -24,7 +24,7 @@ seo:
   metatitle: "Distributed Persistent Rendering: Building Large Jamstack Sites"
   metadescription: "Netlify CEO Matt Biilmann on a new architectural approach to
     building large Jamstack sites: Distributed Persistent Rendering."
-  ogimage: /img/blog/og-keeping-it-simple-netlify.png
+  ogimage: /v3/img/blog/og-keeping-it-simple-netlify.png
 ---
 In case you missed it, the [remote edition of React Summit](https://remote.reactsummit.com/) took place April 14th-16th. It was an inspiring and educational online event with lots of great programming, lovely conversations, and lots of attendees snapping selfies of their snazzy desk setups.
 

@@ -14,8 +14,8 @@ topics:
 tags:
   - Rust
   - Go
-  - edge
-  - engineering
+  - Edge
+  - Engineering
 tweet: ""
 format: blog
 relatedposts:

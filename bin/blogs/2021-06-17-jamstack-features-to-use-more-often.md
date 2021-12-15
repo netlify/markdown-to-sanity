@@ -8,8 +8,8 @@ lastmod: 2021-06-17
 topics:
   - tutorials
 tags:
-  - seo
-  - jamstack
+  - SEO
+  - Jamstack
   - DPR
 tweet: ""
 format: blog

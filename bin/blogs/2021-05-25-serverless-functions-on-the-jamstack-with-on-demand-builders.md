@@ -6,11 +6,11 @@ authors:
 date: 2021-05-26
 lastmod: 2021-05-26
 tags:
-  - on-demand builders
-  - jamstack
-  - next
-  - dpr
-  - serverless
+  - On-demand Builders
+  - Jamstack
+  - Next.js
+  - DPR
+  - Serverless
 topics:
   - tutorials
 relatedposts:

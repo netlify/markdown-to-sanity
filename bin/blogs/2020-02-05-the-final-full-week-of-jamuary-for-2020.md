@@ -7,7 +7,7 @@ date: '2020-02-12'
 topics:
   - insights
 tags:
-  - JAMstack
+  - Jamstack
   - JAMuary
 tweet: ''
 format: blog

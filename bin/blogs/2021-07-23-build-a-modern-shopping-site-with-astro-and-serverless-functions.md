@@ -10,9 +10,9 @@ topics:
   - tutorials
 tags:
   - astro
-  - ssg
-  - shopify
-  - serverless
+  - SSG
+  - Shopify
+  - Serverless
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ seo:
   metatitle: Build a modern shopping site with Astro and serverless functions
   metadescription: If you've ever wanted to build your own online shop, here's how
     you can get up and running with your own custom solution with Astro!
-  ogimage: /img/blog/og-shopify-with-astro.png
+  ogimage: /v3/img/blog/og-shopify-with-astro.png
 ---
 Hello!
 
@@ -34,7 +34,7 @@ If you are interested in how I built it, keep on reading. If you'd like to see h
 - [Ekene, with Gridsome](https://www.netlify.com/blog/2021/07/19/shopify-announces-enhanced-storefront-apis-a-first-look-with-gridsome-and-netlify/)
 - [Phil, with 11ty](https://www.netlify.com/blog/2021/07/20/build-your-own-shop-with-the-shopify-storefront-api-eleventy-and-serverless-functions/)
 - [Ben, with Nuxt](https://www.netlify.com/blog/2021/07/21/building-an-e-commerce-site-with-nuxt-and-shopifys-new-storefront-cart-api-part-1/)
-- Tara, with Angular (coming soon)
+- [Tara, with Angular](https://www.netlify.com/blog/2021/08/25/e-commerce-with-angular-shopify-netlify-serverless-functions/)
 
 ## A unified start
 

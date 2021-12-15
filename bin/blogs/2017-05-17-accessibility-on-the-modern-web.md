@@ -7,12 +7,12 @@ date: 2017-05-18
 topics:
   - insights
 tags:
-  - JAMstack
+  - Jamstack
   - Accessibility
-  - Videos
+  - Video
 featured: false
 format: blog
-image: /img/blog/gaad.jpg
+image: /v3/img/blog/gaad.jpg
 ---
 Today is [Global Accessibility Awareness Day](http://www.globalaccessibilityawarenessday.org/). On Tuesday night [JAMstackSF](https://www.meetup.com/jamstack-sf/) gathered at [Wikia’s](http://www.wikia.com/fandom) office to explore the topic of accessibility on the modern web.
 

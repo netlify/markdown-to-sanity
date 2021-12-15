@@ -3,7 +3,7 @@
 title: "5 Bulls**t Reasons Not to Use a Static Generator"
 authors:
   - Aaron Autrand
-image: /img/blog/bull.jpg
+image: /v3/img/blog/bull.jpg
 image_caption: "Image courtesy: [Colin Brough](http://www.rgbstock.com/user/ColinBrough)"
 format: blog
 short_title: Bullshit Reasoning

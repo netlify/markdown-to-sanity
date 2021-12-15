@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "project": {
+    "name": "Netlify"
+  },
+  "api": {
+    "projectId": "o0o2tn5x",
+    "dataset": "import-blog-data"
+  }
+}

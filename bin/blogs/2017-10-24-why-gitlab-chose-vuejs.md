@@ -7,7 +7,7 @@ episodenumber: '21'
 minuteslong: '33'
 audiolink: >-
   https://media.blubrry.com/heavybit/d3aeja1uqhkije.cloudfront.net/podcasts/jamstack-radio/20170530-jamstack-radio-021.mp3
-image: /img/blog/jamstack-radio-1024x1024.jpg
+image: /v3/img/blog/jamstack-radio-1024x1024.jpg
 short_title: Why GitLab chose VueJS
 guests:
   - bio: >-
@@ -17,9 +17,9 @@ guests:
       Senior Javascript Developer at Mobiquity.
     name: Jacob Schatz
 tags:
-  - podcast
-  - gitlab
-  - vuejs
+  - Podcast
+  - Gitlab
+  - Vue
 topics:
   - tools
 description: >+

@@ -9,9 +9,9 @@ lastmod: 2020-09-15
 topics:
   - news
 tags:
-  - jamstack
-  - events
-  - jamstack conf
+  - Jamstack
+  - Events
+  - Jamstack Conf
 tweet: ""
 format: blog
 relatedposts:
@@ -22,9 +22,9 @@ seo:
   metadescription: Check out the Agenda for Jamstack Conf Virtual and be sure to
     register for the event happening on October 6-7, 2020. We look forward to
     seeing you there!
-  ogimage: /img/blog/jamstack-og-speakers-1-.png
+  ogimage: /v3/img/blog/jamstack-og-speakers-1-.png
 ---
-![Jamstack Conf October, 2020 featured image](/img/blog/blog-header-speakers.png)
+![Jamstack Conf October, 2020 featured image](/v3/img/blog/blog-header-speakers.png)
 
 Today we announce the agenda and speakers for [Jamstack Conf Virtual](https://jamstackconf.com/), happening on October 6-7, 2020!
 
@@ -100,7 +100,7 @@ Join instructor Gift Egwuenu as they cover everything you need to know to build 
 
 Thank you to our Jamstack Conf Virtual sponsors so far: Algolia, Cloudflare, CNCF, Commerce Layer, Elastic Path, Epsagon, Fauna, imgix, Moovweb, Mux, Outsmartly, Prismic, Redwood.js, Strapi, Twilio, and Uniform.
 
-![Jamstack Conf 2020 sponsor logos](/img/blog/sponsors-oct-2020.png)
+![Jamstack Conf 2020 sponsor logos](/v3/img/blog/sponsors-oct-2020.png)
 
 If your company is interested in getting involved, reach out about [becoming a sponsor](https://forms.gle/EuKgTKeiGrftgfo89).
 

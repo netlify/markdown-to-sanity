@@ -8,9 +8,9 @@ lastmod: 2020-12-08
 topics:
   - insights
 tags:
-  - accessibility
-  - frontend
-  - product
+  - Accessibility
+  - Frontend
+  - Product
 tweet: ""
 format: blog
 relatedposts:
@@ -19,7 +19,7 @@ relatedposts:
 seo:
   metadescription: At Netlify, to ensure a better experience for all our users, we consider a11y to be part of every developer's responsibility. Learn how we test for it in our workflow!
   metatitle: Learn How We Test for Product Accessibility at Netlify
-  ogimage: /img/blog/how-we-test-for-accessibility-og.png
+  ogimage: /v3/img/blog/how-we-test-for-accessibility-og.png
 ---
 
 At Netlify, the core frontend team aligns on the importance of making our interface accessible for all our users.
@@ -36,7 +36,7 @@ Pull requests are an important part of our development workflow. When we open pu
 
 Here's our standard template:
 
-![Netlify Frontend team's pull request template](/img/blog/pr-template.jpg)
+![Netlify Frontend team's pull request template](/v3/img/blog/pr-template.jpg)
 
 We start by asking for a summary of the work done in the PR, to help reviewers quickly get an understanding of its purpose. Then, if this work includes a visual change, we ask for a before/after screenshot (or only the after) to help the reviewer have a better idea of where they should focus in the UI when they check the changes in the deploy preview.
 
@@ -51,7 +51,7 @@ Finally, the "standard checks" is dedicated to the steps that should be more gen
 
 An example of this PR template filled could look like this:
 
-![Example of a pull request template completed](/img/blog/pr-template-completed.jpg)
+![Example of a pull request template completed](/v3/img/blog/pr-template-completed.jpg)
 
 In the screenshot above, when we say "Check for accessibility", we include some notes to call out some specific checks to do:
 
@@ -75,7 +75,7 @@ As we already use Storybook extensively to check our components when reviewing a
 
 Here's an example of a color contrast violation in one of our components:
 
-![Example of color contrast violation using the Storybook a11y addon](/img/blog/storybook-a11y-addon.jpg)
+![Example of color contrast violation using the Storybook a11y addon](/v3/img/blog/storybook-a11y-addon.jpg)
 
 If this violation is related to the current work done in the PR, the developer should fix it before merging the work. If it is unrelated or if it requires a bigger change (e.g. it means the color palette needs to be updated), the developer usually creates an issue to address it separately.
 
@@ -85,7 +85,7 @@ As Storybook displays your components independently, it may miss accessibility i
 
 Here's an example of what is displayed in the browser's console, when this package finds issues:
 
-![Example of accessibility issue found by the axe package, displayed in the browser's developer tools](/img/blog/axe-devtool.jpg)
+![Example of accessibility issue found by the axe package, displayed in the browser's developer tools](/v3/img/blog/axe-devtool.jpg)
 
 The potential problem with this tool however, is that it flags all accessibility issues in a page and not necessarily the ones associated with your current work. As a result, to avoid creating additional noise and confusion, we've decided to use this tool to do an accessibility audit across all pages, capture the violations found in GitHub issues to make sure they get worked on, and then remove it.
 

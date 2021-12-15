@@ -9,8 +9,8 @@ date: '2019-02-15'
 topics:
   - news
 tags:
-  - community
-  - support
+  - Community
+  - Support
 tweet: ''
 format: blog
 ---
@@ -24,7 +24,7 @@ Picking a Community platform that meets our needs is a process we are approachin
 
 These are great ambitions — but, at the same time, they don’t provide much guidance because they are so airy. We knew we needed some more concrete cornerstones to help structure this process. 🤔 
 
-![Aerial view of freeways intersecting](/img/blog/denys-nevozhai-100695-unsplash.jpg)
+![Aerial view of freeways intersecting](/v3/img/blog/denys-nevozhai-100695-unsplash.jpg)
 
 Photo by [Denys Nevozhai on Unsplash](https://unsplash.com/photos/7nrsVjvALnA)
 
@@ -71,7 +71,7 @@ Each team shared thoughts, input, and concerns on the list of requirements. This
 
 The next step involved spending time researching which community software platforms met our requirements.  I gathered the data in a giant spreadsheet, and began evaluating. (I began taking a lot of sales calls during this time.…)
 
-![Large bright question mark at the end of a dark hallway](/img/blog/emily-morter-188019-unsplash.jpg)
+![Large bright question mark at the end of a dark hallway](/v3/img/blog/emily-morter-188019-unsplash.jpg)
 
 Photo by [Emily Morter on Unsplash](https://unsplash.com/photos/8xAA0f9yQnE)
 

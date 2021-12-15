@@ -9,9 +9,9 @@ date: '2018-11-29'
 topics:
   - tutorials
 tags:
-  - serverless
-  - aws
-  - jamstack
+  - Serverless
+  - AWS
+  - Jamstack
 tweet: >-
   How to deploy Netlify sites with AWS Cloudformation, SAM, and the serverless
   Framework

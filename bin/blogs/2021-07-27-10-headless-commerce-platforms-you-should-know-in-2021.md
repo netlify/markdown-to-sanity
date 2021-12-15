@@ -12,8 +12,8 @@ topics:
   - tools
 tags:
   - headless commerce
-  - e-commerce
-  - ecommerce
+  - E-commerce
+  - E-commerce
 tweet: ""
 format: blog
 relatedposts:
@@ -23,17 +23,19 @@ seo:
   metadescription: Headless commerce is constantly evolving. Learn some of the top
     storefront builders, backend layers, and all-in-one services for headless
     commerce in 2021, and why companies are choosing to go with them.
-  ogimage: /img/blog/10-hcp-og.png
+  ogimage: /v3/img/blog/10-hcp-og.png
 ---
 As an increasing number of transactions move online, e-commerce is witnessing a massive overhaul. One side effect of that: more companies are going headless. “Headless” is a modern architecture for e-commerce that’s driving higher conversion through sites that are significantly faster, more custom to the brand, and more personalized to the customer. And since headless implementations are API-first, it’s easy to integrate with the important tools and systems in your stack. Developers don’t have to worry about security, servers, or scale.
 
 As more companies realize the benefits of a headless architecture, the ecosystem of technology providers has grown rapidly over the last 18 months, including new providers and established e-commerce companies who are entering the market with a headless solution.
 
+<p style="text-align:center"><a href="https://www.netlify.com/for/ecommerce/" class="button">Deploy an eCommerce Site to Netlify for Free</a></p>
+
 Not only are there more players in the headless commerce field, with different kinds of capabilities, but they are also driving the price down for e-commerce platforms. Gartner predicts that by 2023, prices for B2C digital commerce platforms will be [30% less than in 2019](https://www.gartner.com/doc/reprints?id=1-1ZYE1TKD&ct=200819&st=sg), due to feature commoditization and headless implementations.
 
 This graphic outlines just some of the category breakdowns in the Headless Commerce ecosystem today, and what part of the stack they assist with:
 
-![](/img/blog/screen-shot-2021-07-30-at-1.39.40-pm.png "Headless Commerce Summit Landscape")
+![](/v3/img/blog/screen-shot-2021-07-30-at-1.39.40-pm.png "Headless Commerce Summit Landscape")
 
 This only represents a fraction of available tools, but it represents important breakdowns in the landscape. Some of these tools are native [Jamstack](https://jamstack.org/) platforms—they’re API-first and make Jamstack development really easy out of the box—whereas some are established players that now support a headless architecture. This can be especially helpful if you’re an established company already using say, Shopify or BigCommerce, and want to go headless within tools you already use.
 
@@ -98,7 +100,7 @@ Commercetools only runs the commerce layer—it doesn’t offer a built-in digit
 
 ## Nacelle
 
-![](/img/blog/nacelle-horizontal-black-logo-2021.png)
+![](/v3/img/blog/nacelle-horizontal-black-logo-2021.png)
 
 *Differentiators: Jamstack-native, D2C, Customer support*
 

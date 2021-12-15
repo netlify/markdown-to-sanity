@@ -10,10 +10,10 @@ lastmod: 2021-06-03
 topics:
   - case-studies
 tags:
-  - jamstack
-  - deploy previews
-  - ci
-  - qa
+  - Jamstack
+  - Deploy Previews
+  - CI
+  - QA
 tweet: ""
 format: blog
 relatedposts:
@@ -25,7 +25,7 @@ seo:
     the small VMware team to stand up a developer portal in only three months,
     and triple their expectations for users in the first year.
   metatitle: Why VMware's Tanzu Chose Netlify to Power their Site
-  ogimage: /img/blog/vmware-og-image.png
+  ogimage: /v3/img/blog/vmware-og3.png
 ---
 When VMware set out to build a website of developer-focused educational content, they needed a place to host it. They created [tanzu.vmware.com/developer](https://tanzu.vmware.com/developer) to serve as a single hub that would serve blogs, videos, and other resources to their primary audience: developers.
 
@@ -63,7 +63,7 @@ The team made the decision to go with [Hugo](https://gohugo.io/) since they alre
 
 They decided to go with Netlify after using [Netlify Build](https://www.netlify.com/products/build/) and discovering the power of [deploy previews](https://www.netlify.com/products/deploy-previews/). Straight out of the box, Netlify Build gave the team all the infrastructure and automation they needed to get CI and QA workflows in place, all without leaving GitHub.
 
-![VMware Tanzu's Netlify Architecture](/img/blog/vmware-netlify.png)
+![VMware Tanzu's Netlify Architecture](/v3/img/blog/vmware-netlify.png)
 
 The proof of concept was soon validated when the Tanzu team got a pull request from somewhere else in the company providing new content. It was an existing guide that was being sent to customers, and the team realized they could make the guide public. Since the guide was already in Markdown, the contributors could just port it over and add it to the [Tanzu repo](https://github.com/vmware-tanzu/tanzu-dev-portal) themselves. If there had been a monolithic CMS to go through, with administrative grants and code restyling, that collaboration would not have happened as easily (or maybe at all).
 

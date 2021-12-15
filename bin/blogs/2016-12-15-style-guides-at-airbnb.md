@@ -8,13 +8,12 @@ date: 2016-12-16T10:55:47-08:00
 short_title: Style Guides at Airbnb
 title: Style Guides at Airbnb
 tags:
-  - jamstack
-  - podcast
-  - airbnb
+  - Jamstack
+  - Podcast
   - eslint
 topics:
   - tools
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 guests:
   - name: Harrison Shoff
     bio: >-

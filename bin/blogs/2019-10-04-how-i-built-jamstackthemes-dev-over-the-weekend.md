@@ -10,7 +10,7 @@ date: '2019-10-07'
 topics:
   - case-studies
 tags:
-  - JAMstack
+  - Jamstack
   - SSG
   - CMS
   - ''
@@ -19,7 +19,7 @@ format: blog
 ---
 [Stackbit](https://www.stackbit.com/) recently launched [JAMstack Themes](https://www.jamstackthemes.dev/). It’s a free resource that lists hundreds of themes and starters for JAMstack sites. This post is a retrospective on how I built the site.
 
-![](/img/blog/jamstack-themes-screenshot.png)
+![](/v3/img/blog/jamstack-themes-screenshot.png)
 
 ## The Idea
 
@@ -95,7 +95,7 @@ One cool (and relatively unknown) feature in Hugo is the Git file integration. I
 
 Now that I had a grid of themes I realised I needed a little more metadata to help me evaluate the themes quality. I wanted to see the repos star count and last commit date. This is a useful proxy to assess quality and staleness of a theme without having to click through to the actual GitHub repo. It also allowed for additional sorting options.
 
-![](/img/blog/theme-stars-commit.png)
+![](/v3/img/blog/theme-stars-commit.png)
 
 Since stars and last commit are constantly changing, it wasn’t information that could be submitted in the markdown files front-matter. I needed to use the GitHub API to get this data. I would fetch this data every time the site was built, which wouldn’t be real time, but it would be good enough for the MVP. I figured I could add scheduled builds in the future.
 
@@ -159,7 +159,7 @@ Two thumbnails are generated for each theme. In the Hugo layouts I used `srcset`
 
 Normally I don’t bother doing this, but there are over 160 images on the homepage. Using srcset and careful image preparation I was able to maintain fast page loads with just native browser features. 
 
-![](/img/blog/lighthouse-score.png)
+![](/v3/img/blog/lighthouse-score.png)
 
 I'm actually curious to see how many images/themes we can support until page speed suffers. I actually implemented the new chrome 76 [native lazy loading](https://web.dev/native-lazy-loading) but it's a bit hard to tell if it's working 😬. I feel like a lot of the JS techniques such as lazy loading, progressive scanning, etc. are good in theory but as a user they often feel janky and there is definitely a perceived slowness when scrolling.
 
@@ -187,7 +187,7 @@ Create a `netlify.toml` file and override the default hugo build command.
 
 One of my favourite Netlify features is [deploy previews](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/). When a GitHub PR is submitted, Netlify automatically creates a deploy preview 🏜 I don’t know where it comes from, but it just appears… like magic. In the screenshot below, the last check contains the live [deploy preview](https://deploy-preview-5--jamstackthemes.netlify.com/).
 
-![](/img/blog/pr-deploy-preview.png)
+![](/v3/img/blog/pr-deploy-preview.png)
 
 For JAMstack Themes this is really helpful. Since people are submitting a PR and the GitHub data and screenshot is only visible AFTER the build, the deploy preview helps validate everything worked correctly. On top of that if the build fails when fetching the GitHub API data or generating the screenshot you can click through and see the public Netlify build log. Super useful.
 

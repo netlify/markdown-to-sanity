@@ -18,7 +18,7 @@ tags:
 tweet: ''
 format: blog
 ---
-![Wavy illustration](/img/blog/analytics-blog-post-2x.png)
+![Wavy illustration](/v3/img/blog/analytics-blog-post-2x.png)
 
 Site analytics bring the ability to understand what content on your site is popular, where traffic comes from, and how many visitors you are serving. It is an important capability for those wanting to measure and improve their sites to perform better.
 
@@ -30,7 +30,7 @@ Since Netlify Analytics is driven directly from the genuine source of truth — 
 
 Unlike popular client-side analytics solutions, [Netlify Analytics](/products/analytics) runs entirely server-side. This means that it is not impacted by ad blockers or JavaScript support. Every single request is measured. No sampling. So we can offer greater accuracy. Nor can it impact the speed of your site as no potentially impactful third party JavaScript need be included. 
 
-![Illustration - Simple analytics chart](/img/blog/analytics-blog-post-2-2x.png)
+![Illustration - Simple analytics chart](/v3/img/blog/analytics-blog-post-2-2x.png)
 
 Watching the HTTP requests server-side also lets you track 404 errors to give valuable insight into where your visitors might be falling off your happy path. And although [Netlify Analytics](/products/analytics) runs server-side, you needn’t worry about implementing or maintaining software or configuration yourself. We handle all of that for you on our infrastructure. 
 
@@ -40,7 +40,7 @@ All you need to do is enable it.
 
 Updated on an hourly basis, your Netlify Analytics dashboard has beautifully simple and easy to comprehend visualisations of your site analytics for the last 30 days of data. You’ll also now have something else that many had been asking for — better visibility of your bandwidth quota usage, which can now be seen per site.
 
-![](/img/blog/analytics-blog-post-4-2x.png)
+![](/v3/img/blog/analytics-blog-post-4-2x.png)
 
 ## Start measuring now
 
@@ -59,4 +59,4 @@ We hope you love this new feature. And we welcome hearing about how you are usin
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-netlify-analytics-from-jamstack-conf-london)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-netlify-analytics-from-jamstack-conf-london)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-netlify-analytics-from-jamstack-conf-london)

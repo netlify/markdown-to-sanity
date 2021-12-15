@@ -42,12 +42,12 @@ Starting today, all new sites on Netlify use the “Xenial” build image by def
 Meanwhile, existing sites will continue running on the same “Trusty” image they always have. But what if you want to upgrade, too? We’ve got a button for that.
 
 
-![Build image selection settings UI at Settings > Build & deploy > Continuous deployment](/img/blog/build-image-selection-settings.png)
+![Build image selection settings UI at Settings > Build & deploy > Continuous deployment](/v3/img/blog/build-image-selection-settings.png)
 
 
 You can change your build image from your site’s **Build & deploy settings** page at any time. When you run a new deploy, the image version will display in the deploy logs:
 
-![The third line of a deploy log reads, 'build-image tag: xenial'](/img/blog/deploy-log-build-version.png)
+![The third line of a deploy log reads, 'build-image tag: xenial'](/v3/img/blog/deploy-log-build-version.png)
 
 
 If you run into build issues, or you change your mind, you can go back to the same settings panel and switch back. You can find our more in the [build image selection docs](/docs/build-settings/#build-image-selection).

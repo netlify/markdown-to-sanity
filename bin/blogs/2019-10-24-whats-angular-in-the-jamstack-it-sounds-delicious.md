@@ -9,7 +9,7 @@ topics:
   - tutorials
 tags:
   - Angular
-  - JAMstack
+  - Jamstack
 tweet: ''
 format: blog
 relatedposts:

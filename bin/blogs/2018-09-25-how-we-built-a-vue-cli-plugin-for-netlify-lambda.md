@@ -13,7 +13,7 @@ tags:
   - Vue
   - CLI
   - Functions
-  - serverless
+  - Serverless
 tweet: ''
 format: blog
 ---

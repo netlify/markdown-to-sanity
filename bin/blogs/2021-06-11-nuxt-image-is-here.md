@@ -8,15 +8,15 @@ lastmod: 2021-06-11
 topics:
   - tutorials
 tags:
-  - nuxt
-  - vue
+  - Nuxt
+  - Vue
 tweet: ""
 format: blog
 relatedposts:
 seo:
   metatitle: Nuxt Image is here! And it's a game changer
   metadescription: Nuxt Image is here and it's a game changer for image optimization workflows
-  ogimage: /img/blog/nuxt-image-is-here.png
+  ogimage: /v3/img/blog/nuxt-image-is-here.png
 ---
 
 Let's face it. Managing images in the modern web is hard. Not only do we have to manage what dimensions images should render on different screen sizes, but then we also have to try and deliver the smallest possible high-quality image so that the performance of our site doesn't suffer. After all, if a user is on a 400px wide device on a mobile network, why should they be downloading a 4000px size image that is then resized down to 400px using CSS?

@@ -8,10 +8,10 @@ topics:
   - tutorials
 tags:
   - microservices
-  - serverless
+  - Serverless
   - monolith
   - APIs
-  - JAMstack
+  - Jamstack
 tweet: ''
 format: blog
 ---

@@ -5,18 +5,18 @@ description: In this post, you'll learn how to set up and integrate Prismic with
 authors:
   - Cassidy Williams
 date: 2020-08-28
-lastmod: 2020-08-28
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
 tweet: ""
 format: blog
 relatedposts:
   - Integrate Next.js & Contentful
   - "Next.js 101: What you should know"
 seo:
-  ogimage: /img/blog/final-8-1-.png
+  ogimage: /v3/img/blog/final-8-1-.png
   metatitle: Next.js + Prismic CMS Tutorial
   metadescription: Part two in a Next.js series exploring CMS options and
     integration into Next.js. Learn how to setup Prismic and Next, deployed on
@@ -32,11 +32,11 @@ TL;DR: We will be building a simple demo site [like this one](https://next-prism
 
 Go ahead and sign up for [Prismic](https://prismic.io/), and start a new repository. Once you've done that, create a new custom type:
 
-![New type of Post](/img/blog/prismicnewtype.png "New type of Post")
+![New type of Post](/v3/img/blog/prismicnewtype.png "New type of Post")
 
 Once you create that type, you can add whatever fields you'd like. I added a `Title`, `Date`, and `Image`:
 
-![Post can have custom attributes](/img/blog/prismicnewpost.png "Post can have custom attributes")
+![Post can have custom attributes](/v3/img/blog/prismicnewpost.png "Post can have custom attributes")
 
 From here, make a couple of Posts now so that you have something to populate your project with.
 
@@ -52,23 +52,23 @@ Navigate into the Prismic dashboard to get your keys, next!
 
 Next (pun!), we're going to set up your project on Netlify. You can start a brand new Next.js project now, or you can use your own. Here's a lil one-click starter if you'd like to start with that:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex)
 
 **This is a fresh, new Next.js project! If you want to use an existing basic Prismic starter, use the project linked at the bottom of this blog post (or [right here](https://github.com/cassidoo/next-prismic-starter)). You will still need to do the rest of the steps in this section to connect Netlify to Prismic!**
 
 Now that you have a Netlify project, go to your Build & Deploy settings and stick in your access token! Make sure you name it something starting with `NEXT_PUBLIC_` so the variable will be accessible in the browser (this is [a Next.js thing](https://nextjs.org/docs/basic-features/environment-variables#exposing-environment-variables-to-the-browser)).
 
-![Netlify environment variables](/img/blog/screen-shot-2020-08-26-at-12.10.30-am.png "Netlify environment variables")
+![Netlify environment variables](/v3/img/blog/screen-shot-2020-08-26-at-12.10.30-am.png "Netlify environment variables")
 
 Scroll to the "Build hooks" section here and make a new Prismic hook.
 
-![New Prismic Post Build Hook](/img/blog/screen-shot-2020-08-26-at-12.14.28-am.png "New Prismic Post Build Hook")
+![New Prismic Post Build Hook](/v3/img/blog/screen-shot-2020-08-26-at-12.14.28-am.png "New Prismic Post Build Hook")
 
 Copy the URL the UI gives you. We’re going to provide Prismic with this, so whenever you make a new post, it will trigger a site rebuild!
 
 Go to your Prismic settings again, click "Webhooks", and make a new Webhook. Paste in the URL from Netlify into the form:
 
-![Create a new webhook](/img/blog/screen-shot-2020-08-26-at-12.15.29-am.png "Create a new webhook")
+![Create a new webhook](/v3/img/blog/screen-shot-2020-08-26-at-12.15.29-am.png "Create a new webhook")
 
 Woo hoo, we're all set up! If you used the final project I mentioned before, you're done. If you started from scratch, it's time to get coding!
 

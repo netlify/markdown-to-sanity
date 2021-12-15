@@ -8,8 +8,8 @@ lastmod: 2021-01-12
 topics:
   - tutorials
 tags:
-  - serverless
-  - vue
+  - Serverless
+  - Vue
   - composition-api
 tweet: ""
 format: blog
@@ -19,7 +19,7 @@ relatedposts:
 seo:
   metatitle: How to Build an Event Reg Page - Composition API + Serverless Functions
   metadescription: This post explores how to build an event registration signup flow using Vue's Composition API. Learn how to hook up forms and more with serverless functions.
-  ogimage: /img/blog/comp-serverless.png
+  ogimage: /v3/img/blog/comp-serverless.png
 ---
 
 ![composition api and serverless functions](https://res.cloudinary.com/kennyy/image/upload/q_auto/v1610374368/comp-serverless_qdglg1.png)

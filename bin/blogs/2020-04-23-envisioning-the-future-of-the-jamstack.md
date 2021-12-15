@@ -10,7 +10,7 @@ lastmod: 2020-04-29T00:00:00.000Z
 topics:
   - insights
 tags:
-  - jamstack
+  - Jamstack
 tweet: ""
 format: blog
 seo:
@@ -18,7 +18,7 @@ seo:
   metadescription: Learn how the Jamstack ecosystem has gained widespread adoption
     across companies large and small over the last 5 years. See what the future
     of the Jamstack holds, from Netlify's perspective. Check it out!
-  ogimage: /img/blog/future-of-jamstack.png
+  ogimage: /v3/img/blog/future-of-jamstack.png
 ---
 In the last 5 years, the Jamstack has seen a meteoric growth from relative obscurity to becoming one of the fastest growing architectures for building fast and secure websites. A notable catalyst for the Jamstack’s rise in popularity was the global migration away from monolithic web applications to a more decoupled architecture that relied heavily on microservices. Up until that point, monolithic web applications had been the de-facto standard, and harnessing core business logic, like authentication, required a fully featured backend. 
 

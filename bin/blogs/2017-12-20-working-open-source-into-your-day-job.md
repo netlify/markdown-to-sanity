@@ -7,11 +7,11 @@ episodenumber: '23'
 minuteslong: '29'
 audiolink: >-
   https://media.blubrry.com/heavybit/d3aeja1uqhkije.cloudfront.net/podcasts/jamstack-radio/20170926-jamstack-radio-023.mp3
-image: /img/blog/jamstack-radio-1024x1024.jpg
+image: /v3/img/blog/jamstack-radio-1024x1024.jpg
 short_title: Introduction to Downshift and Glamorous
 tags:
-  - podcast
-  - open source
+  - Podcast
+  - Open source
 topics:
   - insights
 description: >+

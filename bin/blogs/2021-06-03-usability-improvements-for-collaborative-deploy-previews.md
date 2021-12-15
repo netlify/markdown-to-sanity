@@ -8,8 +8,8 @@ lastmod: 2021-06-03
 topics:
   - news
 tags:
-  - deploy previews
-  - product
+  - Deploy Previews
+  - Product
 tweet: ""
 format: blog
 relatedposts:
@@ -17,7 +17,7 @@ relatedposts:
   - Give Meaningful Feedback with Collaborative Deploy Previews
 metatitle: Introducing Improvements to Collaborative Deploy Previews
 metadescription: "We're fast at work making collaborating even easier. Learn how to unpin the Netlify drawer, and what else is new with collaborative deploy previews! "
-ogimage: /img/blog/og-image-cdp-improvements.png
+ogimage: /v3/img/blog/og-image-cdp-improvements.png
 ---
 
 It’s only been a couple weeks since we launched [collaborative Deploy Previews](https://www.netlify.com/blog/2021/05/19/next-generation-deploy-previews-plus-netlify-acquires-featurepeek/), but there’s already more to talk about! The developer community shared some excellent feedback for improving the Reviewer experience and we've got new updates to make getting feedback from Reviewers easier and more accessible.
@@ -34,7 +34,7 @@ The Netlify Drawer is the set of reviewer tools that overlays a Deploy Preview. 
 
 You can now drag the Drawer icon and it will pin to any of the four corners of the preview. This way if the Drawer is covering something important, all you have to do is move it. Try it out on one of your own [Netlify Deploy Previews!](https://app.netlify.com/)
 
-![How to move the Netlify Drawer in deploy previews ](/img/blog/netlifydrawer.gif)
+![How to move the Netlify Drawer in deploy previews ](/v3/img/blog/netlifydrawer.gif)
 
 ## 2. Permalink and branch deploy link added to Netlify Drawer Deploy Preview Settings
 
@@ -48,13 +48,13 @@ Netlify offers multiple types of Deploy Preview links:
 
 To make it easier to access permalinks and branch deploy links, we've added them to the Netlify Drawer Deploy Preview Settings. [Learn more in docs.](https://docs.netlify.com/site-deploys/deploy-previews/)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c572be80-5bab-4ceb-8a4d-bea7869ba93f/120566230-191fcc80-c40f-11eb-97f0-c09f6c6a0ddc.png](/img/blog/netlify-permalink-blog.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c572be80-5bab-4ceb-8a4d-bea7869ba93f/120566230-191fcc80-c40f-11eb-97f0-c09f6c6a0ddc.png](/v3/img/blog/netlify-permalink-blog.png)
 
 ## 3. Avatar titles (user names) now accessible to screen readers in GitHub
 
 We're always looking for ways to make Netlify more accessible, and many of our users rely on screen readers to help them collaborate with their peers. To better serve screen reader users, we've made avatar titles (user names) accessible to screen readers in GitHub. Now when you leave feedback for your teammates in a GitHub pull request, your username (and those of everyone else who has commented) will be readable by the screen reader.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f162052c-0b25-4b57-b21e-73b4978a5c81/120566232-19b86300-c40f-11eb-8c77-a5ad569d8543.png](/img/blog/netlify-cdp-reviewers.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f162052c-0b25-4b57-b21e-73b4978a5c81/120566232-19b86300-c40f-11eb-8c77-a5ad569d8543.png](/v3/img/blog/netlify-cdp-reviewers.png)
 
 ## Coming soon
 

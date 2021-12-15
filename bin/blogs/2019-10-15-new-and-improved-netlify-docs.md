@@ -22,11 +22,11 @@ This represents a huge team effort that took place over the course of a year, mo
 
 Our previous docs hierarchy was flat, with all docs pages presented in a single navigation list. This worked when our product feature set was fairly small and we didn't need that many pages, but as we grew over the years, that navigation grew to 35 pages, with more than 10 headings per page on average!
 
-![Page about snippet injection, a top-level item in a list of 35 pages](/img/blog/before.png)
+![Page about snippet injection, a top-level item in a list of 35 pages](/v3/img/blog/before.png)
 
 With the new site's nested navigation menu, we can give content more structure and simultaneously focus the scope of any given view. We've reduced the number of top-level navigation items significantly to only 14, while more than doubling the total number of pages to 79, with a new average of just over 5 headings per page.
 
-![Same page about snippet injection, this time nested under Site deploys > Post processing](/img/blog/after.png)
+![Same page about snippet injection, this time nested under Site deploys > Post processing](/v3/img/blog/after.png)
 
 We're hoping these changes make it easier for you to browse for the topics you need, and find related information quickly.
 
@@ -48,7 +48,7 @@ Getting feedback is essential to making our docs meet our customers' needs. Duri
 
 Now that the site is live, we're hoping to keep that feedback loop going by including a feedback form at the bottom of every page. When you click the 👍 or 👎 icon and/or add an optional comment, it triggers a Netlify serverless function to add the feedback to a shared spreadsheet as well as send us the message in Slack.
 
-![Form with thumbs down button selected presents prompt for feedback: What can we improve in this doc?](/img/blog/feedback-downvote.png)
+![Form with thumbs down button selected presents prompt for feedback: What can we improve in this doc?](/v3/img/blog/feedback-downvote.png)
 
 ## What's next
 
@@ -64,4 +64,4 @@ In the meantime, I'm just really excited to finally have the new site out for al
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#new-and-improved-docs-site)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#new-and-improved-docs-site)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#new-and-improved-docs-site)

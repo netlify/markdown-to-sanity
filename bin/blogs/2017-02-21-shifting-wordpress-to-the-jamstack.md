@@ -4,16 +4,16 @@ format: podcast
 episodenumber: 9
 audiolink: http://media.blubrry.com/heavybit/p/d3aeja1uqhkije.cloudfront.net/podcasts/jamstack-radio/20161213-jamstack-radio-009.mp3
 tags:
-  - jamstack
-  - podcast
-  - wordpress
-  - serverless
-  - episode
+  - Jamstack
+  - Podcast
+  - Wordpress
+  - Serverless
+  
 topics:
   - tools
 authors:
   - Brian Douglas
-image: /img/blog/jamstack-radio-1024x1024.jpg
+image: /v3/img/blog/jamstack-radio-1024x1024.jpg
 short_title: Shifting WordPress to the JAMstack
 guests:
   - bio: >-

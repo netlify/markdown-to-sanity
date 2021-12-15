@@ -9,7 +9,7 @@ date: '2019-09-11'
 topics:
   - tutorials
 tags:
-  - JAMstack
+  - Jamstack
   - ''
 tweet: ''
 format: blog
@@ -20,7 +20,7 @@ Typically this entails advertising the details of the new feature to a set of us
 
 Here’s one which is similar, but not quite identical, to the opt-in for an upcoming Netlify release:
 
-![example beta opt-in UI](/img/blog/blog-split-test-betas-beta.jpg)
+![example beta opt-in UI](/v3/img/blog/blog-split-test-betas-beta.jpg)
 
 
 
@@ -49,7 +49,7 @@ Netlify can build all of your branches and serve them on dedicated URLs. [Creati
 [Netlify’s Split Testing feature](https://www.netlify.com/docs/split-testing/) uses your deployed branches to power different variants of your sites as part of multi-variant tests. If you’ve not explored this before, it’s worth checking out [my previous article and video about A/B testing on Netlify.](https://dev.to/philhawksworth/power-up-gatsby-sites-with-a-b-testing-on-netlify-fp4)  (tl;dr: You can invisibly shape your site traffic across any of your branch builds right at the CDN, with no loss of performance).
 
 
-![Configuring a split test on Netlify](/img/blog/blog-split-test-betas-config.jpg)
+![Configuring a split test on Netlify](/v3/img/blog/blog-split-test-betas-config.jpg)
 
 
 
@@ -65,7 +65,7 @@ Netlify split testing allocates visitors to the different available branches by 
 
 Here’s the cookie added by the Netlify CDN when I visit my own site:
 
-![](/img/blog/blog-split-test-betas-inspect.jpg)
+![](/v3/img/blog/blog-split-test-betas-inspect.jpg)
 
 
 That numeric value was randomly generated and will persist in the user’s browser until it expires, or until the spit test is terminated. The value of the cookie will determine which branch services the user’s request.  It corresponds to the weighting of each branch participating in the split test. 
@@ -92,7 +92,7 @@ It’s important to know what you are getting yourself into when you opt in to a
 
 My own site, which I used as the example in the video above, has evolved a little since the time of recording, but that invite URL lives on. These days, it looks like this:
 
-![Try out a new feature via this invitation](/img/blog/blog-split-test-betas-gimme.jpg)
+![Try out a new feature via this invitation](/v3/img/blog/blog-split-test-betas-gimme.jpg)
 
 
 You can [go to this opt-in page](https://www.hawksworx.com/gimme-gimme) and give it a try.

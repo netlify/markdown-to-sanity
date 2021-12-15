@@ -2,14 +2,14 @@
 title: Netlify Plus Hugo 0.20 and Beyond
 authors:
   - David Calavera
-image: /img/blog/hugo.png
+image: /v3/img/blog/hugo.png
 short_title: Hugo 0.20 and beyond
 topics:
   - tools
 tags:
-  - hugo
-  - build
-  - deploy
+  - Hugo
+  - Build
+  - Deploy
 format: blog
 description: Upgrading and testing Hugo 0.20 and any future release.
 date: 2017-04-11T15:59:17.219Z

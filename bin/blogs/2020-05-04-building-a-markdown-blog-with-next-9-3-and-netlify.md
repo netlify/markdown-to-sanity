@@ -9,9 +9,9 @@ lastmod: 2021-03-09
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - markdown
-  - static site generator
+  - Static site generators
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ seo:
   metadescription: Check out this post to learn how to build a Next-powered
     Markdown blog and deploy it to Netlify. A great project for getting started
     with Next.js (tutorial using latest 9.4.4).
-  ogimage: /img/blog/nextjs-demo-blog-netlify.png
+  ogimage: /v3/img/blog/nextjs-demo-blog-netlify.png
 blog_i18n:
   key: next-markdown-blog-tutorial
   lang: en
@@ -70,7 +70,7 @@ public/
 
 This is how it should look in your editor all together:
 
-![Next.js blog project folder structure example](/img/blog/screen-shot-2020-05-04-at-9.40.57-am.png "Folder Structure")
+![Next.js blog project folder structure example](/v3/img/blog/screen-shot-2020-05-04-at-9.40.57-am.png "Folder Structure")
 
 ## Let’s code!
 
@@ -99,7 +99,7 @@ If you’d like, at this point you can stick your own custom favicon in the `pub
 
 In your terminal, run `npm run dev`, and voila! You have a Next app up and running!
 
-![Hello, World Next.js site on localhost, in the browser](/img/blog/18c61719-61ca-4746-b671-9ee7a9c62537.png "Hello, World!")
+![Hello, World Next.js site on localhost, in the browser](/v3/img/blog/18c61719-61ca-4746-b671-9ee7a9c62537.png "Hello, World!")
 
 Chances are if you know React, this `index.js` file isn’t too surprising. I’d like to explain that `getStaticProps` function for you, though. It was released in Next 9.3. That function lets you fetch data, and return it as props to the page component. You can use `getStaticProps` to fetch local data (as you can see here, fetching from the `siteconfig.json` file), or external APIs and libraries. This function will only work on page components in the `pages` directory! The page will be rendered at build time, and you can pass that data to its child components. Let’s implement some of those child components now, so you can see it work in action.
 
@@ -161,7 +161,7 @@ import Layout from '../components/Layout'
 
 Alright, let’s check out our site in the browser!
 
-![Next.js blog page shown locally with our title, description, and footer.](/img/blog/ef26f382-dcc1-4f8b-bb10-8418b7f55e8e.png "The layout is live!")
+![Next.js blog page shown locally with our title, description, and footer.](/v3/img/blog/ef26f382-dcc1-4f8b-bb10-8418b7f55e8e.png "The layout is live!")
 
 Not too shabby! Notice how the description in the paragraph there and the title on the browser tab comes from our `getStaticProps`. We’re using real data!
 
@@ -212,7 +212,7 @@ export default function Layout({ children, pageTitle, ...props }) {
 
 Let’s check it out in the browser.
 
-![Next.js blog showing navigation links on top of the existing blog](/img/blog/1ed1c077-5d1f-4c43-8313-27ee2713f5e8.png "Nav Links exist now!")
+![Next.js blog showing navigation links on top of the existing blog](/v3/img/blog/1ed1c077-5d1f-4c43-8313-27ee2713f5e8.png "Nav Links exist now!")
 
 Oh heck. We have navigation, people! You might notice though that if you click on that About link, we get a 404. We should fix that.
 
@@ -259,7 +259,7 @@ export async function getStaticProps() {
 
 This looks a lot like our `index.js` file, and that’s cool for now. You can populate it with whatever, and you can even add more files in here if you want. But, for now, let’s just go back to our browser and click on the About link in the navigation.
 
-![Next.js site About page with the given content in it](/img/blog/52f69c0a-d515-45c2-8248-49e1bfe1dfcf.png "Our About Page!")
+![Next.js site About page with the given content in it](/v3/img/blog/52f69c0a-d515-45c2-8248-49e1bfe1dfcf.png "Our About Page!")
 
 Oh me oh my, we have pages! Are you thrilled? I’m thrilled. Let’s get more thrilled and talk about **dynamic routes**.
 
@@ -387,7 +387,7 @@ I used [Hipster Ipsum](https://hipsum.co/) for this, but you can fill it with wh
 
 We’ve done it! Navigate to `localhost:3000/post/mypost` and witness all of your hard work!
 
-![Next.js blog on localhost showing contents of the blog post markdown rendered to the page.](/img/blog/a7f9014b-ee43-40f1-94b7-63872679e796.png "Our blog post lives!")
+![Next.js blog on localhost showing contents of the blog post markdown rendered to the page.](/v3/img/blog/a7f9014b-ee43-40f1-94b7-63872679e796.png "Our blog post lives!")
 
 ## Listing our posts
 
@@ -495,7 +495,7 @@ export default Index
 
 We imported `matter` to parse the front matter, we passed in `posts` as a prop, and then drilled that down into `PostList` so that we can get a list of real posts. Let’s look at our browser!
 
-![Next.js project showing list of blog posts on our homepage](/img/blog/82a98c83-ca79-47d6-bde9-7e6bc6b806da.png "A List of Posts!")
+![Next.js project showing list of blog posts on our homepage](/v3/img/blog/82a98c83-ca79-47d6-bde9-7e6bc6b806da.png "A List of Posts!")
 
 Hooray!! We have a post list!! Now, whenever we add a Markdown file to our `posts` directory, it will appear here in the listing.
 
@@ -541,7 +541,7 @@ Amazingly, this is all you need to get your project set up for Netlify! Push you
 
 Now, log in to Netlify, and click “New site from Git” and follow the prompts to select your repo. Because you have your `netlify.toml` file already made, the build settings should already be filled out for you:
 
-!["Create a new site" on Netlify](/img/blog/10e549df-2c88-4762-9a9f-ba7c3e560914.png "Creating a new site on Netlify")
+!["Create a new site" on Netlify](/v3/img/blog/10e549df-2c88-4762-9a9f-ba7c3e560914.png "Creating a new site on Netlify")
 
 Click that shiny “Deploy site” button, and within a few moments your site is live!! You did it!! And, whenever you make changes to your project and push them to your GitHub repo, your site will rebuild automatically. How cool is that??
 

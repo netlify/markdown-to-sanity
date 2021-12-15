@@ -24,6 +24,7 @@
   "dependencies": {
     "@sanity/block-tools": "^0.141.5",
     "@sanity/client": "^2.10.5",
+    "@sanity/core": "^2.22.3",
     "@sanity/schema": "^0.141.5",
     "bottleneck": "^2.19.5",
     "date-fns": "^1.30.1",

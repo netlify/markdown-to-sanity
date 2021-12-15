@@ -11,10 +11,10 @@ topics:
 tags:
   - core web vitals
   - SEO
-  - jamstack
+  - Jamstack
   - migration
-  - performance
-  - case study
+  - Performance
+  - Case Studies
   - case studies
 tweet: ""
 format: blog
@@ -23,7 +23,7 @@ seo:
     Contentful Paint by 50 percent. Plus, they gained a better experience for
     customers and developers alike.
   metatitle: "Core Web Vitals on the Jamstack: Medallia's Migration to Netlify"
-  ogimage: /img/blog/medallia-og-designed.png
+  ogimage: /v3/img/blog/medallia-og-designed.png
 related posts:
   - The Developer’s Intro to Core Web Vitals
   - Pan Macmillan Sees 25 Percent Conversion Increase After Migrating to Netlify
@@ -32,7 +32,7 @@ If any company knows the importance of customer experience, it’s [Medallia](ht
 
 In order to provide the best-in-class customer experience their users expect, the marketing team at Medallia needed to make more frequent content updates. But Medallia’s marketing site, which had previously been hosted as a monolithic WordPress application, was difficult to QA, update, and deploy—not to mention, their [Core Web Vitals](https://www.netlify.com/blog/2021/06/11/the-developers-intro-to-core-web-vitals/) needed some improvement.
 
-![Medallia's Jamstack Migration led to 50 percent better Core Web Vital Scores](/img/blog/medallia-inline.png "Medallia's Migration to Netlify led to 50 percent better Core Web Vital Scores")
+![Medallia's Jamstack Migration led to 50 percent better Core Web Vital Scores](/v3/img/blog/medallia-inline.png "Medallia's Migration to Netlify led to 50 percent better Core Web Vital Scores")
 
 Medallia’s recent migration from WordPress to the Jamstack powered by Netlify has enabled shorter development cycles, increased deploy speed, and most importantly, a better experience for customers and developers alike.
 

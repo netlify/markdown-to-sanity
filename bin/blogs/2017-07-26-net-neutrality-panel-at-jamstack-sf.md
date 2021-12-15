@@ -2,7 +2,7 @@
 title: Net Neutrality Panel at JAMstack SF
 authors:
   - Cassandra Salisbury
-image: /img/blog/netneut.jpeg
+image: /v3/img/blog/netneut.jpeg
 format: blog
 short_title: Net Neutrality Panel
 topics:

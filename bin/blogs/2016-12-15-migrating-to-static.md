@@ -2,12 +2,12 @@
 title: Migrating to a Static Site with JAMstack & Netlify
 authors:
   - Eli Williamson
-image: /img/blog/old-is-dead.png
+image: /v3/img/blog/old-is-dead.png
 short_title: Migrating to a Static Site with JAMstack
 tags:
   - migration
   - drupal
-  - wordpress
+  - Wordpress
   - heroku
 format: blog
 description: >-
@@ -24,7 +24,7 @@ Everyone is fed up with the constant admin and update cycles of bulky server-dep
 
 Tip: Regardless of where you're coming from (WordPress, Drupal, Heroku, etc.), Netlify has you covered with [great boiler-plate templates](https://templates.netlify.com) to get your new site up and running before you can say "pump up the jam" ten times, fast.
 
-![Pump up the Jam](/img/blog/pump-up-the-jam.png)
+![Pump up the Jam](/v3/img/blog/pump-up-the-jam.png)
 
 ## Why JAMstack? Why Netlify?
 

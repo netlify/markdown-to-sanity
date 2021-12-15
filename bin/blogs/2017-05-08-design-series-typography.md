@@ -2,15 +2,14 @@
 title: 'Design Series: Typography'
 authors:
   - Rafael Conde
-image: /img/blog/type-header.png
+image: /v3/img/blog/type-header.png
 format: blog
 short_title: Picking a great user interface font.
 topics:
   - insights
 tags:
-  - design
+  - Design
   - typography
-  - '2.0'
 description: >-
   Picking a good user interface typeface is not an easy task — here's some of
   our explorations and decisions for the new chapter of our app.
@@ -61,7 +60,7 @@ The cool thing about this is  the macOS is smart enough to automatically switch 
 
 There's also a slight variance in available weights of the two fonts,  for example, you can't add a **8px** text in **Thin** weight.
 
-![San Francisco weights](/img/blog/type-weights.png)
+![San Francisco weights](/v3/img/blog/type-weights.png)
 
 Prioritizing doesn't mean we will neglect the others, it just means that anywhere  I will need to pick just one font, I’ll pick SF, like for a design mockup.
 
@@ -71,7 +70,7 @@ If you want to use San Francisco in Sketch:
 2. Download and install this handy plugin to automatically fix the character spacing to match Apple’s (if you use Text Styles you’ll only have to run it once per style).
 3. Use SF UI Display for text size > 26, SF UI Text for the rest (again, if you use Text Styles you’ll only have to keep this in mind when creating them).
 
-![SF in Sketch](/img/blog/type-sketch.png)
+![SF in Sketch](/v3/img/blog/type-sketch.png)
 
 ---
 
@@ -83,7 +82,7 @@ Here’s some explorations with some great fonts that in the end didn't make the
 
 It carries a lot of personality, healthy amount of weight options. It's not usually used for UI, but I really like how it looks.
 
-![Font Exploration with Adelle Sans](/img/blog/image-5.png)
+![Font Exploration with Adelle Sans](/v3/img/blog/image-5.png)
 
 ---
 
@@ -91,7 +90,7 @@ It carries a lot of personality, healthy amount of weight options. It's not usua
 
 A widely used font nowadays, so we would risk being a bit boring, but it's a solid font.
 
-![Font Exploration with Source Sans Pro](/img/blog/image-6.png)
+![Font Exploration with Source Sans Pro](/v3/img/blog/image-6.png)
 
 ---
 
@@ -99,7 +98,7 @@ A widely used font nowadays, so we would risk being a bit boring, but it's a sol
 
 The font used in Firefox OS, this was a pleasant surprise for me – love the personality (especially the lowercase G) and it has a huge selection of weights and styles.
 
-![Font Exploration with Fira](/img/blog/image-7.png)
+![Font Exploration with Fira](/v3/img/blog/image-7.png)
 
 ---
 
@@ -107,7 +106,7 @@ The font used in Firefox OS, this was a pleasant surprise for me – love the pe
 
 Oh Roboto, Google's font. Since Google updated it last year it really matured into a solid and great font for UI. Being used nowadays for all Google things. It's also as you may know, the font that we're currently using in our marketing site.
 
-![Font Exploration with Roboto](/img/blog/image-8.png)
+![Font Exploration with Roboto](/v3/img/blog/image-8.png)
 
 ---
 
@@ -115,7 +114,7 @@ Oh Roboto, Google's font. Since Google updated it last year it really matured in
 
 This was also another pleasant surprise, good personality, a bit quirky (not very versatile, only has 3 weights though).
 
-![Font Exploration with Gudea](/img/blog/image-9.png)
+![Font Exploration with Gudea](/v3/img/blog/image-9.png)
 
 ---
 
@@ -123,12 +122,12 @@ This was also another pleasant surprise, good personality, a bit quirky (not ver
 
 macOS, iOS and all things Apple nowadays. A solid font designed for screens that performs like a champ.
 
-![Font Exploration with San Francisco](/img/blog/image-10.png)
+![Font Exploration with San Francisco](/v3/img/blog/image-10.png)
 
 ---
 
 And lastly here's just a couple of side by side examples:
 
-![Side by side comparison with Cards](/img/blog/image-2.png)
+![Side by side comparison with Cards](/v3/img/blog/image-2.png)
 
-![Side by side comparison of buttons](/img/blog/type-buttons.png)
+![Side by side comparison of buttons](/v3/img/blog/type-buttons.png)

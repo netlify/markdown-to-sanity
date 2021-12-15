@@ -10,7 +10,7 @@ topics:
   - tutorials
 tags:
   - Angular
-  - Ecommerce
+  - E-commerce
   - Netlify Functions
 tweet: ""
 format: blog
@@ -26,7 +26,7 @@ When it comes to eCommerce sites it's pretty important to have people, you know,
 
 First off, here is what the end product for today will look like: a simple product page with 'Buy Now' buttons and the Stripe checkout page the users are sent to for making their purchase.
 
-![side-by-side picture of the final project](/img/blog/screen-shot-2021-06-16-at-11.01.08-am-1-.jpg "side-by-side picture of the final project")
+![side-by-side picture of the final project](/v3/img/blog/screen-shot-2021-06-16-at-11.01.08-am-1-.jpg "side-by-side picture of the final project")
 
 Here is what we'll do in this post:
 
@@ -53,7 +53,7 @@ In order to jump right in, we'll use the `ng new` command from the Angular CLI t
 
 Here is what this page will look like:
 
-![a screenshot of the product page](/img/blog/screen-shot-2021-06-13-at-11.29.25-pm.jpg "the product page")
+![a screenshot of the product page](/v3/img/blog/screen-shot-2021-06-13-at-11.29.25-pm.jpg "the product page")
 
 With that in place, we can now add some functionality to that button!
 
@@ -65,7 +65,7 @@ One of my favorite things about deploying on Netlify is how easy it is to set up
 
 On the Stripe dashboard at <https://dashboard.stripe.com/test/apikeys>, on the left-hand side under the 'Developer' menu, there is an 'API keys' menu. In that section, we'll find the 'Publishable key' and 'Secret key' we need for this project.
 
-![Stripe API key menu](/img/blog/screen-shot-2021-06-10-at-11.49.33-pm.jpg "Stripe API key menu")
+![Stripe API key menu](/v3/img/blog/screen-shot-2021-06-10-at-11.49.33-pm.jpg "Stripe API key menu")
 
 > 🚨 If you have an activated Stripe account and are just trying this out make sure you have 'Viewing test data' toggled on the left-hand side of the dashboard.
 
@@ -98,7 +98,7 @@ Under the project's 'Environment' menu is a section for 'Environment variables'.
 
 Then click 'Save' and we're all set!
 
-![stripe environment variables in netlify dashboard](/img/blog/screen-shot-2021-06-12-at-11.28.47-pm.png "environment variables in netlify dashboard")
+![stripe environment variables in netlify dashboard](/v3/img/blog/screen-shot-2021-06-12-at-11.28.47-pm.png "environment variables in netlify dashboard")
 
 With that, the project credentials are all set.
 
@@ -292,7 +292,7 @@ export class AppComponent {
 
 We can test it locally by running [`netlify dev`](https://ntl.fyi/3gKIs8y) or by pushing the new code up to the project repo (which would trigger a new deploy) and seeing how it works in [the real world by going to the live site](https://angular-stripe-checkout.netlify.app/). Whichever environment, we should be able to click the 'Buy Now' button and be sent to the Stripe checkout process for the product clicked.
 
-![stripe checkout page for clicked product](/img/blog/screen-shot-2021-06-14-at-1.43.53-am.jpg "stripe checkout")
+![stripe checkout page for clicked product](/v3/img/blog/screen-shot-2021-06-14-at-1.43.53-am.jpg "stripe checkout")
 
 > 📚 To learn more about developing Netlify Functions with Angular [check out this blog post on just that](https://ntl.fyi/35zHRBf)
 

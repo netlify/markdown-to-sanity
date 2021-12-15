@@ -11,9 +11,9 @@ topics:
   - case-studies
 tags:
   - Sitecore
-  - headless
+  - Headless
   - Jamstack
-  - case study
+  - Case Studies
 tweet: ""
 format: blog
 relatedposts:
@@ -22,9 +22,9 @@ relatedposts:
 seo:
   metatitle: Mall leader Klépierre adopts lightning-fast headless Sitecore on Netlify
   metadescription: Learn how Mall operator Klépierre worked with Proximity to overhaul their web presence. With a headless Sitecore CMS and Netlify, they reduced spend and delivered performant sites.
-  ogimage: /img/blog/klepierre-netlify-blog-og-image.png
+  ogimage: /v3/img/blog/klepierre-netlify-blog-og-image.png
 ---
-![European shopping mall operator Klépierre](/img/blog/klepierre-visual-for-netlify-blog.png "European mall leader Klépierre")
+![European shopping mall operator Klépierre](/v3/img/blog/klepierre-visual-for-netlify-blog.png "European mall leader Klépierre")
 
 Faced with the challenges of the digital revolution and transformative shifts to the shopping experience, European mall operator **Klépierre** decided to undertake a massive overhaul of their web presence. Klépierre operates over 150 malls in 14 European countries, and has hundreds of content authors and stakeholders across their 98 web properties. Their existing Sitecore architecture worked well for content authoring, but Sitecore’s heavy infrastructure didn’t allow for the lightning-fast experience their customers expected.
 

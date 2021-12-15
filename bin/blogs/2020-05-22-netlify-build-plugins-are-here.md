@@ -10,7 +10,7 @@ lastmod: 2020-08-03
 topics:
   - news
 tags:
-  - build plugins
+  - Build Plugins
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ seo:
   metadescription: Thanks to Build Plugins we can now optimize, customize, and
     automate our build process. This post is chock-full of resources to help
     guide you through making and using Build Plugins. Check it out!
-  ogimage: /img/blog/bp-here.png
+  ogimage: /v3/img/blog/bp-here.png
 ---
 We are excited to announce the release of [Netlify Build Plugins](https://www.netlify.com/products/build/plugins/?utm_source=blog&utm_medium=bp-release-tzm&utm_campaign=devex) today! Build Plugins allow you to automate build tasks, customize your build process, and make your development process even easier. As a user of Build Plugins, you can take advantage of the one-click installs to [cache files](https://github.com/jlengstorf/netlify-plugin-gatsby-cache), [check for broken links](https://github.com/munter/netlify-plugin-checklinks), [trigger testing](https://github.com/tkadlec/netlify-build-plugin-speedcurve), and more. As a developer, creating Build Plugins keeps us in the realms of the familiar, relying on a plain 'ol JavaScript at its base.
 
@@ -38,7 +38,7 @@ Although I could talk about Build Plugins for days, I thought I'd share with you
 
 You can now find your Plugins page listed at the top of your Netlify dashboard.
 
-![Netlify Build Plugins available on the App Dashboard](/img/blog/dashboard.jpg)
+![Netlify Build Plugins available on the App Dashboard](/v3/img/blog/dashboard.jpg)
 
 ## Blog Posts & Tutorials
 
@@ -50,7 +50,7 @@ Not only does David walk you through the steps on how to use his [Ghost Markdown
 
 Tim really likes SpeedCurve and really likes Netlify which lead him to create the [Netlify SpeedCurve Deploy Plugin](https://github.com/tkadlec/netlify-build-plugin-speedcurve). Read all about it in his great post.
 
-![Netlify Build Plugin for SpeedCurve build output](/img/blog/speed-curve.jpg)
+![Netlify Build Plugin for SpeedCurve build output](/v3/img/blog/speed-curve.jpg)
 
 ### [Enable Gatsby Incremental Builds on Netlify 🔗](https://www.netlify.com/blog/2020/04/23/enable-gatsby-incremental-builds-on-netlify/?utm_source=blog&utm_medium=bp-release-tzm&utm_campaign=devex) by [Jason Lengstorf](https://www.netlify.com/authors/jason-lengstorf/?utm_source=blog&utm_medium=bp-release-tzm&utm_campaign=devex)
 
@@ -60,7 +60,7 @@ In this post Jason covers how to boost your Gatsby build time with the [Gatsby C
 
 The more I work with Build Plugins, the more ways I learn they can be used. Rareș uses Build Plugins to help strategically deploy sites with monorepos and this is a great in-depth post on just that.
 
-![Build Plugins, Monorepos, and Nx - code snippet screenshot](/img/blog/nx.jpg)
+![Build Plugins, Monorepos, and Nx - code snippet screenshot](/v3/img/blog/nx.jpg)
 
 ### [Run Cypress Tests on Netlify Using a Single Line 🔗](https://www.cypress.io/blog/2020/03/30/run-cypress-tests-on-netlify-using-a-single-line/) by [Gleb Bahmutov](https://glebbahmutov.com/)
 
@@ -106,4 +106,4 @@ I hope these resources help inform, entertain, and inspire you! There are so man
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-build-plugins)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-build-plugins)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-build-plugins)

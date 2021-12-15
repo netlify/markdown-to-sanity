@@ -11,7 +11,7 @@ topics:
   - news
 tags:
   - changelog
-  - product
+  - Product
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ seo:
   metadescription: "Learn about product updates and announcements from the Netlify
     team, from improved support for monorepos to our new backend database
     partners. "
-  ogimage: /img/blog/july-changelog-og.png
+  ogimage: /v3/img/blog/july-changelog-og.png
 ---
 Hi folks!
 

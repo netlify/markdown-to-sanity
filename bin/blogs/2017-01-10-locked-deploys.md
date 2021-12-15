@@ -12,12 +12,12 @@ topics:
 date: 2017-01-10
 tags:
   - continuous delivery
-  - deployment
+  - Deployments
 ---
 
 We just launched [Locked Deploys](/docs/locked-deploys)! These help you keep stable versions of your sites in production without losing the advantages of continuous deploys. Locked Deploys are specially helpful in those times when you want to pause publishing to production in every single merge to a master branch, for a while.
 
-![](/img/blog/locked-deploys.gif)
+![](/v3/img/blog/locked-deploys.gif)
 
 You can pin any site to its current deploy and we’ll keep building new deploys as they come in, but we won’t publish them if they affect production. The sites will still have unique URLs for you and your team to check them out, safely. Whenever you’re ready to publish a new version, you can unlock your site and deploy the new version, or publish an existent one directly from Netlify.
 

@@ -18,7 +18,7 @@ seo:
     Explore this guide to learn how to add Netlify Schematics to your Angular
     project. In part two of a three part series, learn how to create and edit
     files for your Angular projects.
-  ogimage: /img/blog/angular-netlify-schematics-prompt-screenshot.jpg
+  ogimage: /v3/img/blog/angular-netlify-schematics-prompt-screenshot.jpg
 ---
 Welcome to the journey of creating Netlify schematics for Angular projects. If this is your first post, I'm very happy to have you :). Also, you can find more information about the Netlify schematics project in the other posts in this series:
 

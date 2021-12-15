@@ -9,7 +9,7 @@ topics:
   - tools
 tags:
   - build tools
-  - webpack
+  - Webpack
   - gulp
   - npm
 format: blog
@@ -111,11 +111,11 @@ Bunde is another term for build and commonly used synonymously. In most cases it
 
 In an ideal world, bundled assets would like this:
 
-![clean chunks](/img/blog/clean-chunks.png)
+![clean chunks](/v3/img/blog/clean-chunks.png)
 
 In the real world bundles look like this:
 
-![messy chunks](/img/blog/messy-chunks.png)
+![messy chunks](/v3/img/blog/messy-chunks.png)
 
 There are number of ways to bundle and concatenating files together and it takes a bit of trial and error. If you care to use a common tool with a built-in plugin, take a look at webpack’s [CommonChunksPlugin](https://webpack.js.org/plugins/commons-chunk-plugin/) to start.
 
@@ -145,7 +145,7 @@ plugins: [
 
 If you prefer not to fiddle, Netlify offers a feature that create bundles for you. This is great if you don’t have the time or you have yet to optimize your own build. This feature is free for all sites and available with a click of few checkboxes in your site settings.
 
-![asset optimization box](/img/blog/asset-optimization-boxes.png)
+![asset optimization box](/v3/img/blog/asset-optimization-boxes.png)
 
 This feature will optimize your bundle through the use of concatenation and minification (explained below), but nothing else. In most cases this is all you need, but of course, you can always take it further.
 

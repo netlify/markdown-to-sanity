@@ -9,9 +9,9 @@ lastmod: 2021-06-28
 topics:
   - tutorials
 tags:
-  - Database
+  - Databases
   - Serverless
-  - API
+  - APIs
 tweet: ""
 format: blog
 relatedposts:
@@ -21,7 +21,7 @@ seo:
   metadescription: "How to add a database to your web project with Supabase and
     interact with it using serverless functions "
   metatitle: Saving data to Supabase and getting it back again
-  ogimage: /img/blog/og-blog-supabase.png
+  ogimage: /v3/img/blog/og-blog-supabase.png
 ---
 [Supabase](https://supabase.io) is the most recent *database as a service* to catch my eye. It has an elegant API, lovely documentation, and a nice shallow on-ramp which means that you can start doing useful things with it very quickly. 
 
@@ -37,17 +37,17 @@ Let's make a fresh new database to experiment with, and then we can define a tab
 
 Create a Supabase account and sign in and then Click **New project**. 
 
-![Screenshot of Supabase New project screen](/img/blog/supabase-screenshot-new-project.png "Screenshot of Supabase New project screen")
+![Screenshot of Supabase New project screen](/v3/img/blog/supabase-screenshot-new-project.png "Screenshot of Supabase New project screen")
 
 Provide a name, a password, and a region for your new database, and click **Create new project**.
 
-![Screenshot of Supabase New project options screen](/img/blog/supabase-screenshot-new-project-options.png "Screenshot of Supabase New project options screen")
+![Screenshot of Supabase New project options screen](/v3/img/blog/supabase-screenshot-new-project-options.png "Screenshot of Supabase New project options screen")
 
 This sometimes takes a moment or two while Supabase generates everything for your new database, including various authentication and authorization schemes, and the API credentials that we'll use in a moment to interact with our new database via its API.
 
 Now we'll need to create some tables. Supabase provides an intuitive UI to help us with this. Click **New Table** and define some columns. For this example, I've created a table to store the date, a text note, and a unique identifier which the database will generate for each new record.
 
-![Screenshot of Supabase New table screen](/img/blog/supabase-screenshot-new-table.png "Screenshot of Supabase New table screen")
+![Screenshot of Supabase New table screen](/v3/img/blog/supabase-screenshot-new-table.png "Screenshot of Supabase New table screen")
 
 We could start editing content directly in the Supabase UI, but instead lets make a function which we'll use to insert data into it programmatically. We'll need to be authorized to do that.
 
@@ -62,7 +62,7 @@ Your functions will need two details from Supabase in order to use the API
 
 You can find them both by going to Settings and then API. It's best to stash these in environment variables rather than hard-coding them into your function so that they don't get leaked into your version control.
 
-![Screenshot of Supabase API credentials screen](/img/blog/supabase-screenshot-api-auth.png "Screenshot of Supabase API credentials screen")
+![Screenshot of Supabase API credentials screen](/v3/img/blog/supabase-screenshot-api-auth.png "Screenshot of Supabase API credentials screen")
 
 ## Discovering the API and writing data
 

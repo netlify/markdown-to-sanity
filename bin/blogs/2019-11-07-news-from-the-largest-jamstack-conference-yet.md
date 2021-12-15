@@ -12,7 +12,7 @@ relatedposts:
 topics:
   - news
 tags:
-  - JAMstack
+  - Jamstack
   - Events
 tweet: ''
 format: blog
@@ -25,7 +25,7 @@ format: blog
 
 This year’s [JAMstack_conf in San Francisco](https://2019.jamstackconf.com/sf/) was the biggest yet, which seems appropriate given it had the unofficial theme of “JAMstack at scale”. Quite a few of the Netlify team were on hand. And we had a great time.
 
-![Netlifyers celebrate another successful JAMstack Conference](/img/blog/jamstack_conf-2019-sf-team.jpg "Netlifyers celebrate another successful JAMstack Conference")
+![Netlifyers celebrate another successful JAMstack Conference](/v3/img/blog/jamstack_conf-2019-sf-team.jpg "Netlifyers celebrate another successful JAMstack Conference")
 
 It’s hard to believe that it was only a little over a year since the first JAMstack conference. The demand after [our inaugural outing in October 2018](https://2018.jamstackconf.com) persuaded us to add events in [New York](https://2019.jamstackconf.com/nyc) and [London](https://2019.jamstackconf.com/london) in 2019, making our return to San Francisco the 4th JAMstack conference in the space of one very busy year.
 
@@ -166,11 +166,11 @@ The sponsors are a big part of what makes this event possible. From the platinum
 
 But it feels like all of the sponsors at JAMstack_conf are a little more than that. Each one feels invested not only in the event, but in the success of the growing ecosystem. And most are either making exciting things as part of the ecosystem, or are building the ecosystem itself. I mean, just look how jolly our friends from Contentful look!
 
-![The super friendly faces of Contentful at their sponsor booth](/img/blog/jamstack_conf-2019-sf-contenful.jpg "The super friendly faces of Contentful at their sponsor booth")
+![The super friendly faces of Contentful at their sponsor booth](/v3/img/blog/jamstack_conf-2019-sf-contenful.jpg "The super friendly faces of Contentful at their sponsor booth")
 
 Having a room full of these sponsors, ready and eager to talk to the attendees, brings the feeling of collaboration and excitement. Truly there is a spirit of all working together to help rise the JAMstack tide. And with it, lift all of us up to reach ever more exciting possibilities.
 
-![Bustling exhibitors hall at JAMstack_conf](/img/blog/jamstac_conf-2019-sf-gatsby-sponsor.jpg "Bustling exhibitors hall at JAMstack_conf")
+![Bustling exhibitors hall at JAMstack_conf](/v3/img/blog/jamstac_conf-2019-sf-gatsby-sponsor.jpg "Bustling exhibitors hall at JAMstack_conf")
 
 Huge and heartfelt thanks to each and every one of our sponsors. We can't wait for our next opportunity to get together to harness more of that incredible energy.
 
@@ -201,11 +201,11 @@ The JAMstack community is already growing rapidly by adding more and more local 
 
 To stay in the loop, you should follow both the [@Netlify](https://twitter.com/netlify) and [@JAMstackConf](https://twitter.com/jamstackconf) Twitter accounts where news and announcements will be published. And to participate even more in the conversation, [join us in the JAMstack community Slack](https://jamstack.org/slack), where we'd love to hear from you!
 
-![The JAMstack_conf stage with a link to the community slack](/img/blog/jamstack_conf-sf-slack.jpg "The JAMstack_conf stage")
+![The JAMstack_conf stage with a link to the community slack](/v3/img/blog/jamstack_conf-sf-slack.jpg "The JAMstack_conf stage")
 
 
 ---
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#jamstack-sf-jamstack-at-scale-nike-popeyes-longos-speaking)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#jamstack-sf-jamstack-at-scale-nike-popeyes-longos-speaking)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#jamstack-sf-jamstack-at-scale-nike-popeyes-longos-speaking)

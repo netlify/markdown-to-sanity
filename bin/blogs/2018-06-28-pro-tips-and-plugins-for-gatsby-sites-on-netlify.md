@@ -8,8 +8,8 @@ topics:
   - tutorials
 tags:
   - Gatsby
-  - static site generator
-  - tips
+  - Static site generators
+  - Tips
 tweet: ''
 format: blog
 ---

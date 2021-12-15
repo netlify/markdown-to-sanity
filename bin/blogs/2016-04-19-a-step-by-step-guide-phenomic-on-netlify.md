@@ -3,7 +3,7 @@
 title: "A Step-by-Step Guide: Phenomic on Netlify"
 authors:
   - Aaron Autrand
-image: /img/blog/phenomic.png
+image: /v3/img/blog/phenomic.png
 image_caption: null
 format: blog
 short_title: Phenomic on Netlify
@@ -178,7 +178,7 @@ Now that your assets are up and running on GitHub, let’s connect them to Netli
 
 ### Step 1: Add Your New Site
 
-![step 1 - add](/img/blog/step1newsite.png)
+![step 1 - add](/v3/img/blog/step1newsite.png)
 
 Creating a new site on Netlify is simple. Once you’ve logged in, you'll be taken to https://app.netlify.com/sites. If you’re just starting out, there’s only one option.
 
@@ -186,7 +186,7 @@ Creating a new site on Netlify is simple. Once you’ve logged in, you'll be tak
 
 Clicking “New Site” brings you to this screen:
 
-![step 2 - link](/img/blog/step2link.png)
+![step 2 - link](/v3/img/blog/step2link.png)
 
 When you push to GitHub, Netlify does all the work. No more manual deploying of updates or changes!
 
@@ -194,30 +194,30 @@ Since your assets are hosted on GitHub, we’ll need to link Netlify to GitHub. 
 
 ### Step 3: Authorize Netlify
 
-![step 3 - authorize](/img/blog/step3authorize.png)
+![step 3 - authorize](/v3/img/blog/step3authorize.png)
 
 It’s time to allow Netlify and GitHub to talk to each other. Clicking the “Authorize Application” button will do just that. Like it says in the image below, Netlify doesn’t store your GitHub access token on our servers. If you’d like to know more about the permissions Netlify requests and why we need them, you can visit our [documentation on Git provider permissions](https://docs.netlify.com/configure-builds/repo-permissions-linking/).
 
 ### Step 4: Choose Your Repo
 
-![step 4 - repo](/img/blog/Step4phenomic.png)
+![step 4 - repo](/v3/img/blog/Step4phenomic.png)
 
 Now that you’ve connected Netlify and GitHub, you can see a list of your Git repos. There’s the **phenomic** repo we just pushed to GitHub. Let's select it.
 
 ### Step 5: Configure Your Settings
 
-![step 5 - configure](/img/blog/Step5phenomic.png)
+![step 5 - configure](/v3/img/blog/Step5phenomic.png)
 
 Here you can configure your options. Make sure that `/dist` is the directory you want to deploy, and enter `npm run build` as your build command.
 
 ### Step 6: Build Your Site
 
-![step 6 - build](/img/blog/step6build.png)
+![step 6 - build](/v3/img/blog/step6build.png)
 
 Now it’s time to sit back and relax. The first build will take some time, as Netlify gathers all the dependencies needed to build your site.
 
 ### Step 7: Done
 
-![step 7 - done](/img/blog/Step7phenomic.png)
+![step 7 - done](/v3/img/blog/Step7phenomic.png)
 
 And...you're done! Netlify has done it all for you, including giving your site a temporary name. Now you can add your custom domain, and your site will be live for your adoring public to view. Congratulations, and thanks for using Netlify!

@@ -9,8 +9,11 @@ topics:
 tags:
   - popular
 format: blog
-image: /img/blog/04-static-site-generator-trends-opt.png
+image: /v3/img/blog/04-static-site-generator-trends-opt.png
 ---
+
+> 👋 We have a brand new post discussing current SSGs, [check it out here](https://www.netlify.com/blog/2021/06/02/10-static-site-generators-to-watch-in-2021/)!
+
 These days, speed and security is the name of the game.
 
 Website visitors abandon sites after just a second or two of delay, and database hacks have become commonplace. Just look at the news to see the latest scandal laid bare by hackers who gained access to sensitive information due to poorly maintained WordPress or Drupal installs.
@@ -25,7 +28,7 @@ To decide what to cover, we are using [StaticGen.com](https://www.staticgen.com)
 
 Before we start, you'll probably notice that ReactJS isn't on this list. You can't talk about frontend development in 2016 without talking about React, but React is more rightly a set of tools that can be used for many things, including static site and single page app development. React has been used to create some of the SSBs on this list, and will undoubtedly continue to have a hand in the future of the modern web, but for the purposes of this article, we're looking at tools that can build entire sites and apps, not just components.
 
-![jekyllrb.png](/img/blog/jekyllrb.png)
+![jekyllrb.png](/v3/img/blog/jekyllrb.png)
 
 **1. Jekyll**
 
@@ -35,7 +38,7 @@ Before we start, you'll probably notice that ReactJS isn't on this list. You can
 
   [jekyllrb.com](http://jekyllrb.com)
 
-![hexo.jpg](/img/blog/hexo.jpg)
+![hexo.jpg](/v3/img/blog/hexo.jpg)
 
 **2. Hexo**
 
@@ -43,7 +46,7 @@ Before we start, you'll probably notice that ReactJS isn't on this list. You can
 
   [hexo.io](https://hexo.io)
 
-![hugologo.png](/img/blog/hugologo.jpg)
+![hugologo.png](/v3/img/blog/hugologo.jpg)
 
 **3. Hugo**
 
@@ -53,7 +56,7 @@ Before we start, you'll probably notice that ReactJS isn't on this list. You can
 
   [gohugo.io](https://gohugo.io)
 
-![octopress.png](/img/blog/octopress.png)
+![octopress.png](/v3/img/blog/octopress.png)
 
 **4. Octopress**
 
@@ -63,7 +66,7 @@ Before we start, you'll probably notice that ReactJS isn't on this list. You can
 
   [octopress.org](http://octopress.org/)
 
-![pelican.png](/img/blog/pelican.png)
+![pelican.png](/v3/img/blog/pelican.png)
 
 **5. Pelican**
 
@@ -73,7 +76,7 @@ Before we start, you'll probably notice that ReactJS isn't on this list. You can
 
   [getpelican.com](http://blog.getpelican.com/)
 
-![brunch.jpg](/img/blog/brunch.jpg)
+![brunch.jpg](/v3/img/blog/brunch.jpg)
 
 **6. Brunch**
 
@@ -85,7 +88,7 @@ Before we start, you'll probably notice that ReactJS isn't on this list. You can
 
   [brunch.io](http://brunch.io/)
 
-![middleman.jpg](/img/blog/middleman.jpg)
+![middleman.jpg](/v3/img/blog/middleman.jpg)
 
 **7. Middleman**
 
@@ -95,7 +98,7 @@ Before we start, you'll probably notice that ReactJS isn't on this list. You can
 
   [middlemanapp.com](https://middlemanapp.com/)
 
-![metalsmith.png](/img/blog/metalsmith.png)
+![metalsmith.png](/v3/img/blog/metalsmith.png)
 
 **8. Metalsmith**
 
@@ -105,7 +108,7 @@ Before we start, you'll probably notice that ReactJS isn't on this list. You can
 
   [metalsmith.io](http://www.metalsmith.io)
 
-![harplogo.png](/img/blog/harplogo.png)
+![harplogo.png](/v3/img/blog/harplogo.png)
 
 **9. Harp**
 
@@ -113,7 +116,7 @@ Before we start, you'll probably notice that ReactJS isn't on this list. You can
 
   [harpjs.com/](http://harpjs.com/)
 
-![expose.png](/img/blog/expose.png)
+![expose.png](/v3/img/blog/expose.png)
 
 **10. Exposé**
 
@@ -125,7 +128,7 @@ Before we start, you'll probably notice that ReactJS isn't on this list. You can
 
 There's always a few favorites that get left out of any top ten list, and this one is no different. We decided to add a few of our personal favorites to the list, just because we like 'em.
 
-![gatsby.png](/img/blog/gatsby.png)
+![gatsby.png](/v3/img/blog/gatsby.png)
 
 **Gatsby**
 
@@ -133,7 +136,7 @@ There's always a few favorites that get left out of any top ten list, and this o
 
   [github.com/gatsbyjs](https://github.com/gatsbyjs)
 
-![roots.png](/img/blog/roots.png)
+![roots.png](/v3/img/blog/roots.png)
 
 **Roots**
 
@@ -141,7 +144,7 @@ There's always a few favorites that get left out of any top ten list, and this o
 
   [roots.netlify.com](https://roots.netlify.com/)
 
-![gitbook.png](/img/blog/gitbook.png)
+![gitbook.png](/v3/img/blog/gitbook.png)
 
 **GitBook**
 
@@ -151,7 +154,7 @@ There's always a few favorites that get left out of any top ten list, and this o
 
   [gitbook.com](http://gitbook.com)
 
-![cactusformac.png](/img/blog/cactusformac.png)
+![cactusformac.png](/v3/img/blog/cactusformac.png)
 
 **Cactus**
 

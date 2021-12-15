@@ -2,13 +2,13 @@
 title: Why You Don't Need Cloudflare with Netlify
 authors:
   - Brian Douglas
-image: /img/blog/cloudflare.png
+image: /v3/img/blog/cloudflare.png
 format: blog
 short_title: Cloudflare is redundant with Netlify
 topics:
   - insights
 tags:
-  - JAMstack
+  - Jamstack
   - SSL
   - CDN
   - DNS
@@ -48,7 +48,7 @@ Our intelligent deployment process also allows us to completely change the state
 
 Dealing with different DNS providers and custom configurations can sometimes be difficult, which is why Netlify also offers the option to hand over DNS configuration to Netlify with our Domain Dashboard feature. This feature is available on our [Pro Plan](https://www.netlify.com/pricing/) and above.
 
-![domain-walk](/img/blog/domain-walk.gif)
+![domain-walk](/v3/img/blog/domain-walk.gif)
 
 ## You don't need Cloudflare when you use Netlify
 

@@ -2,14 +2,13 @@
 title: Introducing Audit Log
 authors:
   - Bret Comnes
-image: /img/blog/audit-log-icons.png
+image: /v3/img/blog/audit-log-icons.png
 format: blog
 short_title: Introducing Audit log
 topics:
   - news
 tags:
   - teams
-  - audit
   - security
 description: We are excited to announce a new feature to Teams called Audit log!
 date: 2017-07-27T20:52:05.000Z
@@ -22,7 +21,7 @@ and manage their sites more efficiently.
 
 Today we are introducing a new feature within Teams: Audit Log.
 
-![](/img/blog/audit-log-screenshot.png)
+![](/v3/img/blog/audit-log-screenshot.png)
 
 The Audit Log feature will be available for our Business customers and above.  Similar to our
 deploy list, Audit Log provides transparency into the different actions taken by team
@@ -51,4 +50,4 @@ Let us know what you think [@netlify][twitter].
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-audit-logs-for-teams)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-audit-logs-for-teams)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#launched-audit-logs-for-teams)

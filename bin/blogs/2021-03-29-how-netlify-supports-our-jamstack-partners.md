@@ -25,11 +25,11 @@ The Jamstack has seen massive growth since 2015, as more companies and developer
 
 We're grateful for tech partners who have built against our API and authored integrations through [build plugins](https://www.netlify.com/products/build/plugins/), and for the thousands of companies who have participated in Jamstack Conf over the years. Last summer, the Jamstack reached a huge milestone: over 1 million developers on Netlify.
 
-![Jamstack Timeline](/img/blog/jamstack-timeline-partners.png)
+![Jamstack Timeline](/v3/img/blog/jamstack-timeline-partners.png)
 
 In an effort to even better collaborate with other companies working on Jamstack technologies, we launched our [technology partners program](https://www.netlify.com/technology-partners) in December 2020 and we’re now working with dozens of technology vendors on joint projects.
 
-![Netlify's technology partners logos image](/img/blog/jamstack-ecosystem.png)
+![Netlify's technology partners logos image](/v3/img/blog/jamstack-ecosystem.png)
 
 Today the partner programs have two components:
 

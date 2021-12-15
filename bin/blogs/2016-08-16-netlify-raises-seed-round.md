@@ -3,7 +3,7 @@ title: "Netlify Raises $2.1M from the founders of GitHub, Heroku, and Rackspace 
 authors:
   - Matt Biilmann
   - Chris Bach
-image: /img/blog/fireworks.gif
+image: /v3/img/blog/fireworks.gif
 format: blog
 short_title: Netlify Raises Seedround
 description: Today we're happy to announce a round of seed financing for Netlify.
@@ -14,8 +14,8 @@ relatedposts:
   - Netlify Milestones on the road to 1 Million Devs
 published: true
 tags:
-  - netlify
-  - announcements
+  - Netlify
+  - Announcements
 topics:
   - news
 ---
@@ -61,4 +61,4 @@ Matt & Chris
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#raised-seed-funding-and-joined-heavybit-accelerator-program)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#raised-seed-funding-and-joined-heavybit-accelerator-program)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#raised-seed-funding-and-joined-heavybit-accelerator-program)

@@ -9,11 +9,11 @@ date: '2018-07-30'
 topics:
   - tutorials
 tags:
-  - serverless
-  - functions
+  - Serverless
+  - Functions
   - oauth
   - intercom
-  - jamstack
+  - Jamstack
 tweet: How to setup serverless OAuth Flows with Netlify Functions & Intercom
 format: blog
 image: /img/press/logos/logomark-light.png

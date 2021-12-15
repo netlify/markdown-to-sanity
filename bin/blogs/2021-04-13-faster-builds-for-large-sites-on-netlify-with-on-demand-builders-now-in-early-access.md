@@ -13,7 +13,7 @@ topics:
 tags:
   - Build
   - Incremental Static Regeneration
-  - Next
+  - Next.js
   - Nuxt
   - Eleventy
   - Jamstack
@@ -26,7 +26,7 @@ seo:
   metadescription: Learn how On-demand Builders improve build times for large
     sites on Netlify. They help the Jamstack support larger websites and more
     dynamic apps across any JavaScript framework.
-  ogimage: /img/blog/odb-early-access-1-.png
+  ogimage: /v3/img/blog/odb-early-access-1-.png
 ---
 Today we’re excited to announce On-demand Builders, a new solution to improve build times for large sites on Netlify. Along with the proposal for [Distributed Persistent Rendering (DPR)](https://www.netlify.com/blog/2021/04/14/distributed-persistent-rendering-a-new-jamstack-approach-for-faster-builds/), this release represents the first step forward in a significant evolution of the [Jamstack architecture](https://www.netlify.com/jamstack/) to support larger websites and faster development cycles—across any JavaScript framework.
 

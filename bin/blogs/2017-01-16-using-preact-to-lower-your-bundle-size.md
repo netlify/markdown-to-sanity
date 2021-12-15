@@ -2,7 +2,7 @@
 title: Exploring Preact with React
 authors:
   - Brian Douglas
-image: /img/blog/preact-logo.png
+image: /v3/img/blog/preact-logo.png
 format: blog
 short_title: Using Preact with React
 description: >-

@@ -3,18 +3,18 @@ title: Netlify News No. 4
 authors:
   - Christian Bach
 format: blog
-image: /img/blog/overwhelmed-postman.jpg
+image: /v3/img/blog/overwhelmed-postman.jpg
 short_title: Our Fourth Newsletter
 description: Support for automatic builds with Clojure & Leiningen. Gitlab & self-hosted Git repo support & more.
 thumbnail: thumbnails/download-1.jpeg
 date: 2015-09-08
 tags:
-  - netlify
-  - news
+  - Netlify
+  - News
   - clojure
   - leiningen
-  - gitlab
-  - git
+  - Gitlab
+  - Git
 topics:
   - news
 ---

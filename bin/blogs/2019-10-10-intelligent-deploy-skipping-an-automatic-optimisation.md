@@ -9,7 +9,7 @@ topics:
 tags:
   - Build
   - CI
-  - Deployment
+  - Deployments
   - Automation
 tweet: ''
 format: blog

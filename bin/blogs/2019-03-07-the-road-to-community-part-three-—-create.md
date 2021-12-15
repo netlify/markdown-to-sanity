@@ -10,8 +10,8 @@ date: '2019-03-07'
 topics:
   - news
 tags:
-  - community
-  - support
+  - Community
+  - Support
 tweet: ''
 format: blog
 ---

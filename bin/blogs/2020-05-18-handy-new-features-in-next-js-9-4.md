@@ -4,12 +4,12 @@ description: Next.js 9.4 is out, and there's a handful of juicy features to try 
 authors:
   - Cassidy Williams
 date: 2020-05-18T00:00:00.000Z
-lastmod: 2020-05-18T00:00:00.000Z
+lastmod: 2021-11-16T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - nextjs
-  - static site generator
+  - Next.js
+  - Static site generators
 tweet: ""
 format: blog
 relatedposts:
@@ -62,7 +62,7 @@ I love how clean this is. You can stop counting the number of `../`s you have in
 
 This was a pleasantly surprising feature I didn’t expect to be included in Next.js. Recently, the Google Chrome team released [Web Vitals](https://web.dev/vitals/) as an initiative to “provide unified guidance for quality signals that are essential to delivering a great user experience on the web.” Their team worked with the Next.js maintainers to release a `reportWebVitals` functionality, which allows you to capture several different metics, like Time to First Byte, First Contentful Paint, Largest Contentful Paint, and several others (including some Next.js specific ones, like the length of time it takes to render a route change).
 
-![The spectrum for Largest Contentful Paint](/img/blog/lcp_ux.svg "The spectrum for Largest Contentful Paint")
+![The spectrum for Largest Contentful Paint](/v3/img/blog/lcp_ux.svg "The spectrum for Largest Contentful Paint")
 
 It’s a very simple, clean API, and you can do something as small as this to get reporting started:
 
@@ -78,8 +78,8 @@ There’s a LOT of meat to this feature that would be super useful to you as you
 
 ## And mooooore
 
-You can use all of these features on Netlify today! Go ahead and start your own with the click of a button, or [check out the starter repo](https://github.com/cassidoo/next-netlify-starter)! This is a starter project that has some sample components, absolute alias imports enabled, and a `netlify.toml` for easy deployment. 
+You can use all of these features on Netlify today! Go ahead and start your own with the click of a button, or [check out the starter repo](https://github.com/netlify-templates/next-netlify-starter)! This is a starter project that has some sample components, absolute alias imports enabled, and a `netlify.toml` for easy deployment. 
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex)
 
 If you'd like to learn about the other features tucked in to Next.js 9.4, you can [take a look at their announcement blog post](https://nextjs.org/blog/next-9-4) to check them out.

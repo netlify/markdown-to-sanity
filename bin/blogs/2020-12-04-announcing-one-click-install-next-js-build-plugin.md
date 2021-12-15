@@ -6,11 +6,11 @@ description: Today we're excited to bring you a build plugin for deploying
 authors:
   - Cassidy Williams
 date: 2020-12-07
-lastmod: 2020-12-04
+lastmod: 2021-11-16
 topics:
   - news
 tags:
-  - nextjs
+  - Next.js
 tweet: ""
 format: blog
 relatedposts:
@@ -18,8 +18,11 @@ relatedposts:
     How to Deploy Next.js Sites to Netlify
   - "Next.js: Should I use SSR or SSG?"
 seo:
-  ogimage: /img/blog/buildpluginog.png
+  ogimage: /v3/img/blog/buildpluginog.png
 ---
+
+
+
 Hey devs!
 
 We are super excited to share with you our latest [build plugin](https://www.netlify.com/products/build/plugins/) in the Netlify ecosystem, to make it even easier to deploy Next.js apps onto Netlify!
@@ -41,7 +44,7 @@ With this new build plugin, you can use the features of Next.js that you know an
 
 You can install it from [the Netlify UI via the Plugins directory](https://app.netlify.com/plugins/@netlify/plugin-nextjs/install):
 
-![Next.js Build Plugin in the UI](/img/blog/nextplugin.png "Next.js Build Plugin in the UI")
+![Next.js Build Plugin in the UI](/v3/img/blog/nextplugin.png "Next.js Build Plugin in the UI")
 
 
 Or you can install it in your `netlify.toml`:
@@ -79,8 +82,9 @@ If you'd like to learn more, here are some blog posts to get you started:
 
 Ready to try it for yourself? Click the button below to deploy a starter project for Next.js:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=nextstarter-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=nextstarter-cs&utm_campaign=devex)
 
-(This clones [a starter project for Next.js](https://github.com/cassidoo/next-netlify-starter) to your GitHub and deploys it to Netlify)
+(This clones [a starter project for Next.js](https://github.com/netlify-templates/next-netlify-starter) to your GitHub and deploys it to Netlify)
 
 Go get coding!
+

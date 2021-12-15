@@ -24,7 +24,7 @@ seo:
   metadescription: In this tutorial, we'll create a Nuxt application with Hasura
     to create GraphQL endpoints. It's an incredibly smooth developer experience
     to create a fullstack Jamstack app quickly.
-  ogimage: /img/blog/favegamescreen.jpg
+  ogimage: /v3/img/blog/favegamescreen.jpg
 blog_i18n:
   key: hasura-graphql
   lang: en
@@ -39,7 +39,7 @@ Here’s the repo:<br>
 
 We’ll be scoping it to just the basic functionality for the purposes of clarity, but you can build far richer experiences from here with a lot of ease. Let’s dive in!
 
-![screenshot of favegames site](/img/blog/favegamescreen.jpg)
+![screenshot of favegames site](/v3/img/blog/favegamescreen.jpg)
 
 ## Setting up
 
@@ -47,15 +47,15 @@ First, create a free [Hasura account](https://hasura.io/)- it will prompt you if
 
 From there, create a new project. In that project, you’ll create a table and add the fields you’ll need. Our first table is `users` I needed an `id`, of type `Integer` (auto-incrementing), name, of type `Text` (another name for `String` :) ), and `profileImg`, which will be of type `Text` as well.
 
-![Screenshot of Hasura's "Add a new table" form](/img/blog/image7.png)
+![Screenshot of Hasura's "Add a new table" form](/v3/img/blog/image7.png)
 
 From there, insert some rows of dummy data in the **Insert Row** tab as well. If you switch to the **Browse Rows** tabs, you should see your dummy data populated.
 
-![Screenshot of Hasura's dashboard where we are browing the users table and seeing the first three rows of data](/img/blog/image15.png)
+![Screenshot of Hasura's dashboard where we are browing the users table and seeing the first three rows of data](/v3/img/blog/image15.png)
 
 Now, let’s create another table called `favoriteGames` and do the same. This time we’ll use the same id, and name, but also add `rating` (Integer), and `image` (Text):
 
-![Screenshot of Hasura's dashboard with favoriteGames table with new rating and image columns](/img/blog/image11.png)
+![Screenshot of Hasura's dashboard with favoriteGames table with new rating and image columns](/v3/img/blog/image11.png)
 
 
 
@@ -119,7 +119,7 @@ returns:
 }
 ```
 
-![Screenshot of GraphiQL query of getGames and the results](/img/blog/image2.png)
+![Screenshot of GraphiQL query of getGames and the results](/v3/img/blog/image2.png)
 
 Great! But what we really want is a list of all of the games along with the relevant active users associated with each game. In order to create that association between the two tables, we need to create a relationship.
 
@@ -127,19 +127,19 @@ Great! But what we really want is a list of all of the games along with the rele
 
 Let’s go back to our `users` table, and click on the `modify` tab. Here, we’ll create one more field, called `gameId`. This will give us the ability to pick an associative id from the `favoriteGames` table. Let’s go back to our `browse rows` tab and add id numbers of some games as well.
 
-![Screenshot of Hasura modify gameId](/img/blog/image13.png)
+![Screenshot of Hasura modify gameId](/v3/img/blog/image13.png)
 
 Now, go back to favoriteGames and click the relationships tab. In the table, specify an Array Relationship, name it gameUser, and reference the users table. 
 
 The id of this table should have a relationship with the gameId you just created in the other users table.
 
-![Screenshot of Hasura SQL relationships](/img/blog/image8.png)
+![Screenshot of Hasura SQL relationships](/v3/img/blog/image8.png)
 
 Once you save it, you should see the array relationship reflected in the table in this tab:
 
 `users . gameId  → favoriteGames . id`
 
-![Screenshot of Hasura SQL gameUser array relationships](/img/blog/image1.png)
+![Screenshot of Hasura SQL gameUser array relationships](/v3/img/blog/image1.png)
 
 Now we can go back to the top GraphiQL tab, and type in a new query, with that relationship:
 
@@ -159,7 +159,7 @@ query getGames {
 }
 ```
 
-![Screenshot of Hasura GraphiQL getGame response](/img/blog/image5.png)
+![Screenshot of Hasura GraphiQL getGame response](/v3/img/blog/image5.png)
 
 Cool! Now we have our first set of data and relationships set up and ready to use in our application.
 
@@ -275,7 +275,7 @@ plugins: [`~/plugins/getGames.server.js`],
 
 You can look in your devtools at the Vuex tab and see the data coming in as it should:
 
-![favoriteGames data in devtools at the Vuex tab](/img/blog/image14.png)
+![favoriteGames data in devtools at the Vuex tab](/v3/img/blog/image14.png)
 
 Awesome! Now we've created a relationship with our data from Hasura and our application.
 
@@ -355,21 +355,21 @@ Publish directory:<br>
 
 We’ll also go into the **Settings** tab at the very end, scroll down to **Environment**, and the **Environment Variables** section, and add in the same endpoint you did to the `.env` file you had locally:
 
-![Netlify env settings hasura endpoint key value variable](/img/blog/image4.png)
+![Netlify env settings hasura endpoint key value variable](/v3/img/blog/image4.png)
 
 And there we have it! Our app is living on the internets:
 
-![Favorite Games app live](/img/blog/favegamescreen.jpg)
+![Favorite Games app live](/v3/img/blog/favegamescreen.jpg)
 
 ## Finally, let’s subscribe to updates
 
 We can create a [build hook in Netlify](https://docs.netlify.com/configure-builds/build-hooks/?utm_source=blog&utm_medium=graphql-hasura-sd&utm_campaign=devex) to trigger a rebuild, go again to the settings tab, to Build & Deploy, and then to Build Hooks. I called this one Hasura. Grab the link from here:
 
-![Netlify build hook hasura api link](/img/blog/image9.png)
+![Netlify build hook hasura api link](/v3/img/blog/image9.png)
 
 Finally, back in the Hasura dashboard, we’ll click on the Events tab at the top, name the hook Netlify, and add the hook:
 
-![Hasura dashboard event trigger with webhook link](/img/blog/image10.png)
+![Hasura dashboard event trigger with webhook link](/v3/img/blog/image10.png)
 
 Click the **Create Event Trigger** button and you’re all set! Now you’ve created a relationship between both accounts, so that when you update your `favoriteGames` table, Netlify knows to trigger a build and repopulate that data.
 

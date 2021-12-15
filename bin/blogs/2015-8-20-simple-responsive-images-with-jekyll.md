@@ -10,11 +10,11 @@ thumbnail: thumbnails/jekyll-logo.png
 date: 2015-08-20
 format: blog
 tags:
-  - jekyll
-  - plugins
+  - Jekyll
+  - Plugins
   - responsive images
-  - tools
-  - design
+  - Tools
+  - Design
 topics:
   - tools
 ---

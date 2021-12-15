@@ -35,7 +35,7 @@ Here, in Part 2 we are going to:
 
 This is what the page will look like:
 
-[![the final project](/img/blog/template.jpg "The final project")](https://angular-sanity.netlify.app/)
+[![the final project](/v3/img/blog/template.jpg "The final project")](https://angular-sanity.netlify.app/)
 
 > ⏩ Want to skip the reading and just "make it work"? Here's is [the project repo](https://github.com/tzmanics/angular-sanity), or you can click the button below to deploy the site now!
 
@@ -344,7 +344,7 @@ Let's make sure the products look good on the page. We'll use `inline-flex` for 
 
 Get excited, we can finally see how this looks! To do so locally, we can run `ntl dev` in the root directory of the project. Then we'll head to [`localhost:8888/products`](localhost:8888/products).
 
-![final project locally](/img/blog/project-local.jpg "The final project locally")
+![final project locally](/v3/img/blog/project-local.jpg "The final project locally")
 
 Now if we've either already hooked this project up to Netlify using the CLI `ntl init` command, or followed the steps in [part 1 of this series](https://hubs.ly/H0Hks4C0), we have CI/CD set up. That means we can git commit the code changes we made and it will trigger a new build of the project. Then we can head to the project dashboard or run the command `ntl open` to have Netlify take us right to the dashboard. Once, the new build is published we should see the same products we saw locally.
 
@@ -356,11 +356,11 @@ The data from Sanity.io will be added to the site whenever it is built. To make 
 
 Netlify provides an easy interface for setting up [Build Hooks](https://hubs.ly/H0HlCyf0) through the project's dashboard. We'll head to Site settings > Build & deploy > Continuous deployment > Build hooks and click the 'Add build hook' button. Today we'll just set the name to 'angular-sanity', for identification, and use the 'main' branch.
 
-![add hook](/img/blog/add-hook.jpg "Creating a hook")
+![add hook](/v3/img/blog/add-hook.jpg "Creating a hook")
 
 Once we have the build hook information saved, we'll get a unique URL to copy for the next step. To trigger this hook, we need to send a POST request to that URL. Thankfully, Sanity.io has a quick process to set up that POST request.
 
-![hook link](/img/blog/hook-link.jpg "Unique link for a build hook")
+![hook link](/v3/img/blog/hook-link.jpg "Unique link for a build hook")
 
 ### Creating a Sanity Hook
 
@@ -370,21 +370,21 @@ In the terminal, we need to make sure we're in the `backend` directory where our
 
 Through the prompts, we'll name the hook `netlify`, set the dataset to `production`, and paste the link we just received from Netlify when we made the Build Hook.
 
-![sanity hook](/img/blog/sanity-hook.jpg "Creating a Sanity.io hook")
+![sanity hook](/v3/img/blog/sanity-hook.jpg "Creating a Sanity.io hook")
 
 ### [Hook](https://www.youtube.com/watch?v=pdz5kCaCRFM&ab_channel=BluesTravelerVEVO) Test
 
 Does this work? Well, let's add a new product and see about that. We can head back to our deployed Sanity.io instance. The address for this can be found at the top of the project dashboard beside 'Studio'. Check out [the section on Sanity deploying in the first part of this series](https://hubs.ly/H0HhzY30) to see where this link lives.
 
-![adding new data](/img/blog/add-data.jpg "Adding new data")
+![adding new data](/v3/img/blog/add-data.jpg "Adding new data")
 
 After hitting 'Publish' on the new data, we can look at the Netlify Production deploy logs (on the project's main dashboard) and see that a build has been triggered by the Build Hook.
 
-![hook triggered](/img/blog/hook-triggered.jpg "Hook triggered deploy")
+![hook triggered](/v3/img/blog/hook-triggered.jpg "Hook triggered deploy")
 
 Once that deploy is published we just head back to our site and, voila, a new product!
 
-![new product added](/img/blog/product-added.jpg "New product added")
+![new product added](/v3/img/blog/product-added.jpg "New product added")
 
 ## C'est Fini!
 

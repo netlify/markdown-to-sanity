@@ -5,11 +5,11 @@ description: Where are my logs? Next.js is a hybrid framework, so depending on
 authors:
   - Cassidy Williams
 date: 2020-12-13
-lastmod: 2020-12-12
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -19,8 +19,11 @@ seo:
   metadescription: Where are my logs? Next.js is a hybrid framework, so depending
     on where you call console.log(), the results could be in different spots.
   metatitle: Logging in Next.js
-  ogimage: /img/blog/blogvent13.png
+  ogimage: /v3/img/blog/blogvent13.png
 ---
+
+
+
 Welcome to Blogvent, day 13!
 
 Next.js is a hybrid framework. Some parts of it live in the browser, and some parts live in Node.js. When you're developing, that can make for some fairly confusing development, sometimes!
@@ -36,6 +39,7 @@ If you have utilities, call APIs, or render certain routes based on external dat
 ## I want to experiment with this!
 Who doesn't? Here's a starter application to try this out:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=nextstarterlogging-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=nextstarterlogging-cs&utm_campaign=devex)
 
 (Clicking this button will deploy a Next.js starter project to Netlify, and clone it to your chosen Git provider)
+

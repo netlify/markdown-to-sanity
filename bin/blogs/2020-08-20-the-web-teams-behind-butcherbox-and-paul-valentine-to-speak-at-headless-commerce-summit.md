@@ -11,8 +11,8 @@ lastmod: 2020-08-21
 topics:
   - news
 tags:
-  - ecommerce
-  - headless commerce summit
+  - E-commerce
+  - Headless Commerce Summit
   - headless commerce
   - conference
 tweet: ""
@@ -22,9 +22,9 @@ seo:
     event for web development leaders interested in learning about the Jamstack
     web architecture. Hosted by Netlify.
   metatitle: Headless Commerce Summit - Hear from ButcherBox, Paul Valentine, and More
-  ogimage: /img/blog/og-1-.png
+  ogimage: /v3/img/blog/og-1-.png
 ---
-![Headless Commerce Summit conference featured image](/img/blog/og-1-.png)
+![Headless Commerce Summit conference featured image](/v3/img/blog/og-1-.png)
 
 On September 3, we’re hosting the first-ever **Headless Commerce Summit**, bringing together top digital agencies, popular e-commerce brands and technology vendors in the Headless Commerce ecosystem to discuss best practices and plot the future of e-commerce.
 

@@ -7,9 +7,9 @@ tweet: >-
 topics:
   - news
 tags:
-  - serverless
-  - aws lambda
-  - functions
+  - Serverless
+  - AWS Lambda
+  - Functions
 format: blog
 description: >+
   Netlify's AWS Lambda integration now includes support for Node.js 8.10

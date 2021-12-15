@@ -36,7 +36,7 @@ Every project needs a jumping off point, especially when you have to coordinate 
 
 Notion is a document-based collaboration tool. We use it through-out Netlify and it's a great place for me to keep updates on the high-level status of the project as well as its resources. I was tech lead on the project after an awesome jump off with [Cassidy Williams](https://www.netlify.com/authors/cassidy-williams/?utm_source=blog&utm_medium=explorers-innards-tzm&utm_campaign=devex) as tech lead.
 
-![a screenshot of one of our notion docs](/img/blog/screen-shot-2020-12-14-at-10.57.36-am.png)
+![a screenshot of one of our notion docs](/v3/img/blog/screen-shot-2020-12-14-at-10.57.36-am.png)
 
 We did a lot of [mob and pair programming](https://remotelyinteresting.transistor.fm/episodes/008-pandemic-pair-and-mob-programming) on this project and we would record the sessions, so I would keep those recordings along with other handy resources in Notion. Since we could all add to documents, it was a great place to start meeting notes, then follow-up asynchronously with thoughts on agenda items we didn't have enough time to cover. I also tried to keep GitHub issue information but it was too hard to keep up, which brings us to the next tool.
 
@@ -55,7 +55,7 @@ This is just naming a few of the aspects we used with GitHub. How could I mess u
 
 Not only did we need to collaborate on documents and code, but also on how to visualize what our data and user paths would be. For this we turned to [Whimisical](https://whimsical.com/), a visual workplace, or visual drawing board. It's basically an online blank canvas where you and your team can all move around sticky notes, flowcharts, wireframes etc.
 
-![a screenshot of our whimsical board](/img/blog/screen-shot-2020-12-14-at-9.42.44-pm.png)
+![a screenshot of our whimsical board](/v3/img/blog/screen-shot-2020-12-14-at-9.42.44-pm.png)
 
 After getting our giggles out by placing all kinds of memes and silly drawings, we were able to visually walk-through some mindmaps. That put us all on the same page to allow us to all start creating data schemas and user path flows separately but all on, literally, the same page. This was a great reference for us to go back to when we started coding it all out. For future iterations, we plan to go back to our Whimsical page to update and expand our initial musings and keep it as a source of truth for the project.
 

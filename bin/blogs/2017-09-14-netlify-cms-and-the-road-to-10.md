@@ -2,7 +2,7 @@
 title: Netlify CMS and the Road to 1.0
 authors:
   - Cassandra Salisbury
-image: /img/blog/avatar-cms@2x.png
+image: /v3/img/blog/avatar-cms@2x.png
 short_title: Netlify CMS and the Road to 1.0
 topics:
   - news
@@ -28,7 +28,7 @@ Netlify CMS is a Content Management System for static sites, allowing collaborat
 
 At its core, Netlify CMS is an open-source React app that acts as a wrapper for the Git workflow, using the GitHub API.
 
-![](/img/blog/collab.svg)
+![](/v3/img/blog/collab.svg)
 
 [Learn more in the docs →](https://www.netlifycms.org/docs/)
 
@@ -60,7 +60,7 @@ We recently started using Kent C. Dodds’s [All Contributors project](https://
 
 ## Get Involved with Netlify CMS
 
-![GitHub "help wanted" tag](/img/blog/help-wanted-tag.png)
+![GitHub "help wanted" tag](/v3/img/blog/help-wanted-tag.png)
 
 As mentioned previously we have [bi-weekly planning sessions](https://www.eventbrite.com/e/netlify-cms-planning-session-bi-weekly-tickets-35794058994) for the community to understand what’s being worked on, for contributors to talk about what they’ve accomplished or need help with, and to assess what our next sprint planning will look like.
 

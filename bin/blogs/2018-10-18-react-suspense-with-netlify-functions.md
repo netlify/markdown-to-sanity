@@ -10,8 +10,8 @@ topics:
   - tutorials
 tags:
   - React
-  - functions
-  - serverless
+  - Functions
+  - Serverless
 tweet: >-
   Netlify Functions are the best way to locally emulate and deploy a React
   Suspense app. Here's how.
@@ -187,7 +187,7 @@ And here you have written your first fetcher, which is a resource with a cache w
 
 When `DataFetcher` is read, it suspends the render of the `LambdaDemo` component. When suspending, the `fallback` text of `'Loading...'` that we specified inside the `App` component shows, and when the `fetch` promise resolves, `LambdaDemo` completes its render and we get the final UI:
 
-![Success with our React Suspense app](/img/blog/helloworld.png)
+![Success with our React Suspense app](/v3/img/blog/helloworld.png)
 
 ## Deploying with Netlify Functions
 

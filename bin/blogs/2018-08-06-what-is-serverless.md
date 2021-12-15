@@ -8,10 +8,10 @@ date: '2018-08-06'
 topics:
   - tutorials
 tags:
-  - serverless
-  - functions
+  - Serverless
+  - Functions
   - faas
-  - jamstack
+  - Jamstack
 tweet: 5 Key Benefits of "Going Serverless" & What it means for developers
 format: blog
 image: /img/press/logos/logomark-light.png

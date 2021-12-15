@@ -2,13 +2,13 @@
 title: Introducing Site Dashboards
 authors:
   - Bret Comnes
-image: /img/blog/site-tutorial-card.png
+image: /v3/img/blog/site-tutorial-card.png
 format: blog
 short_title: Introducing Site Dashboards
 topics:
   - news
 tags:
-  - feature
+  - Features
   - settings
 description: 🎉 We redesigned our site settings page and added a dashboard 🎉
 date: 2017-08-22T09:03:15-07:00
@@ -41,5 +41,5 @@ As always, we love feedback!  Hit us up [@netlify][twitter] with your thoughts a
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9qzTnbKb4ys" frameborder="0" allowfullscreen></iframe>
 
 [twitter]: https://twitter.com/netlify
-[settings]: /img/blog/new-site-settings.png
-[dash]: /img/blog/site-dashboard-original.png
+[settings]: /v3/img/blog/new-site-settings.png
+[dash]: /v3/img/blog/site-dashboard-original.png

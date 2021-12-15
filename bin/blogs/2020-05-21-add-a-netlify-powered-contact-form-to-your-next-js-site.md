@@ -5,11 +5,11 @@ description: Accepting submissions to forms with Netlify and Next.js is
 authors:
   - Cassidy Williams
 date: 2020-05-26
-lastmod: 2020-07-09
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
 tweet: ""
 format: blog
 relatedposts:
@@ -24,9 +24,9 @@ Hey all you cool cats and kittens, have you ever wanted to build a form into you
 
 For this tutorial, let's assume I have a Next.js application that is already styled up, and I want to add a Contact page.
 
-Note: If you want to build along with me but don’t have a project to work with, try this [Next + Netlify starter project](https://github.com/cassidoo/next-netlify-starter) that will give you a starting point!
+Note: If you want to build along with me but don’t have a project to work with, try this [Next + Netlify starter project](https://github.com/netlify-templates/next-netlify-starter) that will give you a starting point!
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=formblog&utm_medium=nextstarter-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=formblog&utm_medium=nextstarter-cs&utm_campaign=devex)
 
 # Creating a form
 
@@ -88,7 +88,7 @@ Anyway, you can style it however you want, and import it into your `Contact` pag
 
 Alright, now run your application (typically with `yarn run dev` unless you changed it in your own project), and navigate to `localhost:3000/contact`! Depending on how you styled it, you should see a little something like this:
 
-![Contact form styled](/img/blog/contactpreview.png "Contact form")
+![Contact form styled](/v3/img/blog/contactpreview.png "Contact form")
 
 Now, if you were to deploy this to Netlify right now, it won’t do anything. It’s a plain form with nothing hooked up to it to make the form data go anywhere. Let’s fix that, shall we?
 
@@ -134,7 +134,7 @@ Now, go ahead and deploy your site to Netlify, and watch your form in action (pu
 
 From your site’s dashboard, you can click on “Forms” and go to your form named “contact” (the name comes from the hidden `input` that we put in our `ContactForm` component), and you  can check out the Verified Submissions there!
 
-![Verified submissions, with a hello world submission](/img/blog/submissionspreview.png "Verified submissions!")
+![Verified submissions, with a hello world submission](/v3/img/blog/submissionspreview.png "Verified submissions!")
 
 There’s even more options you can add to this form, like [extra spam prevention](https://docs.netlify.com/forms/spam-filters/#extra-spam-prevention) and adding a serverless function [on the `submission-created` event](https://docs.netlify.com/functions/trigger-on-events/#available-triggers) to capture the data!
 

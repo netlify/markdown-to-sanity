@@ -38,7 +38,7 @@ The initial investigation surfaced that the database nodes had been terminated w
 
 Our graphs also indicated that the number of client connections to the database at the time of the incident had doubled from the usual amount of connections. You can see that spike and the connection drop when the cluster became unavailable in the graph below:
 
-![outage report graph cluster spike](/img/blog/netlify-outage-report-graph-setp-2020.png)
+![outage report graph cluster spike](/v3/img/blog/netlify-outage-report-graph-setp-2020.png)
 
 This graph gave us a clearer understanding of why we suddenly got those termination signals across our cluster.
 

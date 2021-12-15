@@ -27,7 +27,7 @@ It's been a busy March at Netlify! Read about what we've been up to in this re-p
 
 ## 🌶 News: Next.js on Netlify integration now available
 
-![Next.js on Netlify ](/img/blog/next-is_on_netlify.png)
+![Next.js on Netlify ](/v3/img/blog/next-is_on_netlify.png)
 
 Are you a Next.js user? We have [news](https://www.netlify.com/press/netlify-announces-next-js-integration-enabling-next-js-10-for-enterprise-teams) for you! Netlify now auto-detects and enables Next.js apps with zero-configuration required, supporting features like preview mode, internationalized routing and server-side rendering (with Netlify Functions!). [Get started with the docs for the Essential Next.js plugin on Netlify today](https://docs.netlify.com/configure-builds/common-configurations/next-js/)!
 
@@ -44,7 +44,7 @@ Some Jamstack articles we've been snacking on:
 
 ## 🔗 Linkable log = better team collab
 
-![Netlify Linkable Logs](/img/blog/linkable-logs-newsletter.png)
+![Netlify Linkable Logs](/v3/img/blog/linkable-logs-newsletter.png)
 
 You can now create a shareable URL for a single deploy log line or range of lines, making it super easy to reference and share with team members. This handy feature was created in our company-wide hack day, because we build Netlify on Netlify, and are passionate about developer experience. ✨ [Check out the docs](https://docs.netlify.com/site-deploys/overview/#share-log-content).
 
@@ -62,7 +62,7 @@ Bonus: you can now pause and play Functions logs, making for a better debugging 
 
 ## 📘 How Spring Migrated from a Monolith to Microservices
 
-![](/img/blog/spring_case_study.png)
+![](/v3/img/blog/spring_case_study.png)
 
 Spring (formerly Teespring) is a massive e-commerce platform with more than 1 million unique visitors each day. They migrated from a monolithic Rails app to a microservices-based web architecture, and achieved vastly better developer experience, site performance and conversion rates. They also cut build times from 90 minutes to 1 minute using Netlify High-Performance Build.
 
@@ -78,6 +78,6 @@ Spring (formerly Teespring) is a massive e-commerce platform with more than 1 mi
 
 ## 🥳 Welcome New Netlify Customers!
 
-![](/img/blog/march_logos.png)
+![](/v3/img/blog/march_logos.png)
 
 We'd like to extend a warm welcome to the latest companies who trust Netlify with their web infrastructure! Learn more about [Netlify's enterprise products](https://www.netlify.com/enterprise/).

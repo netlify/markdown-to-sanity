@@ -7,8 +7,8 @@ date: '2018-10-19'
 topics:
   - news
 tags:
-  - community
-  - support
+  - Community
+  - Support
 tweet: ''
 format: blog
 ---

@@ -2,7 +2,7 @@
 title: Sponsoring Let's Encrypt
 authors:
   - Matt Biilmann
-image: /img/blog/lets-encrypt.png
+image: /v3/img/blog/lets-encrypt.png
 format: blog
 short_title: Sponsoring Let's Encrypt
 topics:

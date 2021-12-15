@@ -12,7 +12,7 @@ topics:
 tags:
   - changelog
   - logs
-  - deploy
+  - Deploy
 tweet: ""
 format: blog
 seo:
@@ -20,7 +20,7 @@ seo:
     Sharing your deploy logs with your teammates is easier than ever with
     linkable log lines!
   metatitle: Linkable log lines now available!
-  ogimage: /img/blog/cabin.png
+  ogimage: /v3/img/blog/cabin.png
 ---
 Wow! I loved [Lincoln Logs](https://www.basicfun.com/lincoln-logs.html) when I was a kid! It was so fun to be able to build houses, or even castles, and get so creative with them, and the— wait, there's a typo in my notes... ohhhhh, not **Lincoln Logs**, it's **linking logs**!
 
@@ -28,7 +28,7 @@ Well, you know, this is just as fun. We have some very cool changes just release
 
 Your deploy logs include all kinds of important info, like details about your site's build image, the Netlify build process, dependency caching, build plugins, and details about if your deploy succeeded or not. And sometimes, you're going to want to share some of that information, just like you might share your Lincoln Logs with your friends!
 
-![Linkable log lines!](/img/blog/loglines.png "Linkable log lines!")
+![Linkable log lines!](/v3/img/blog/loglines.png "Linkable log lines!")
 
 When you go to your logs, you can now select the line number to highlight the line, or hit Shift and select a range of lines, and you can share the resulting URL with your teammates. Wow, that was so easy, almost as easy as... Lincoln Logs. 👀
 

@@ -11,11 +11,11 @@ topics:
   - tutorials
 tags:
   - custom-strapi-back-end
-  - apis
+  - APIs
   - how-to
-  - serverless
+  - Serverless
   - strapi
-  - tutorial
+  - Tutorial
 tweet: ""
 format: blog
 seo:
@@ -23,7 +23,7 @@ seo:
     Use a Custom Strapi Back-End to Build a Jamstack App
   metadescription: >
     Have a custom back-end or API? You can build a Jamstack app with that! Learn how it works in this step-by-step tutorial.
-  ogimage: /img/blog/custom-strapi-api-jamstack-app.png
+  ogimage: /v3/img/blog/custom-strapi-api-jamstack-app.png
 relatedposts:
   - Learn How to Accept Money on Jamstack Sites in 38 Minutes
   - Building Large Sites on Netlify
@@ -60,7 +60,7 @@ Now that we have a backend ready, we can build out our front-end! To give the fr
 
 Visit https://github.com/learnwithjason/demo-base and click the “Use This Template” button at the top-right of the page, then choose a name for your new repo and click “Create repository from template”.
 
-![Create a new GitHub repo using a template repository.](/img/blog/github-create-repo-from-template.png)
+![Create a new GitHub repo using a template repository.](/v3/img/blog/github-create-repo-from-template.png)
 
 > **Heads up!** If you don’t want to use the starter, that’s totally fine! The demo code will be unchanged — it just won’t look as freakin’ sweet as the demo base does. <span style="font-style: normal">😎</span>
 
@@ -68,7 +68,7 @@ Visit https://github.com/learnwithjason/demo-base and click the “Use This Temp
 
 To start writing code, click the “clone or download” button and copy the URL to your clipboard.
 
-![Repo cloning URL in the GitHub UI.](/img/blog/github-clone-repo.png)
+![Repo cloning URL in the GitHub UI.](/v3/img/blog/github-clone-repo.png)
 
 In your terminal, run the following commands to clone the repo, move into the new project folder, and install dependencies:
 
@@ -98,7 +98,7 @@ title: Strapi on Digital Ocean + Netlify Functions
 
 If you don’t already have the [Netlify CLI](https://docs.netlify.com/cli/get-started/?utm_source=blog&utm_medium=strapi-custom-backend-jl&utm_campaign=devex) installed, run `npm i -g netlify-cli`, then start the app with `ntl dev`, then visit `http://localhost:8888` in your browser.
 
-![Demo in the browser with a TODO headline.](/img/blog/front-end-demo-start.png)
+![Demo in the browser with a TODO headline.](/v3/img/blog/front-end-demo-start.png)
 
 > **Heads up!** This tutorial uses [Netlify Dev](/products/dev/?utm_source=blog&utm_medium=strapi-custom-backend-jl&utm_campaign=devex) to make it easy to test serverless functions locally. If you don’t want to use the Netlify CLI, you can also deploy the site to test the functions.
 
@@ -247,7 +247,7 @@ This function exports a `handler`, which sends off a `GET` request using the Fet
 
 Once you’ve saved this, run `ntl dev` again, then visit [`http://localhost:8888/.netlify/functions/load-corgis`](http://localhost:8888/.netlify/functions/load-corgis) to see your corgi data loaded!
 
-![Corgi data from Strapi loaded from a Netlify serverless function.](/img/blog/netlify-functions-corgi-data.png)
+![Corgi data from Strapi loaded from a Netlify serverless function.](/v3/img/blog/netlify-functions-corgi-data.png)
 
 ### Call the serverless function to load corgi data into the frontend.
 
@@ -273,7 +273,7 @@ All the way at the bottom of `src/index.liquid`, below the template, let’s add
 
 This code creates a function that loads corgis using our serverless function, then loops through each corgi and — for now, at least — logs it to the console.
 
-![Corgi data logged in the console.](/img/blog/front-end-data-console-logging.png)
+![Corgi data logged in the console.](/v3/img/blog/front-end-data-console-logging.png)
 
 ### Use the HTML template to display corgi data on screen.
 
@@ -322,7 +322,7 @@ This code selects the template node and the corgi container div node, then creat
 
 Finally! Save this file, then look in your browser to see the corgi content we all came for!
 
-![Corgi images displaying in the front-end with reaction counts and buttons.](/img/blog/front-end-corgi-display.png)
+![Corgi images displaying in the front-end with reaction counts and buttons.](/v3/img/blog/front-end-corgi-display.png)
 
 ## Write to a Custom Strapi backend Using Serverless Functions
 
@@ -435,7 +435,7 @@ This creates a click handler that will send off a request to the serverless func
 
 Save this, reload the browser, then click the reaction buttons to pet and boop these corgis!
 
-![Reaction counts stored and retrieved from Strapi using Netlify Functions.](/img/blog/front-end-reaction-counts.png)
+![Reaction counts stored and retrieved from Strapi using Netlify Functions.](/v3/img/blog/front-end-reaction-counts.png)
 
 Refresh the page and/or load this in another browser to see that your reactions persist between page loads!
 

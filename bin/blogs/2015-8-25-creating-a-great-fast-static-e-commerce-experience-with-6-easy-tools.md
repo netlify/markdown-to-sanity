@@ -6,16 +6,16 @@ format: blog
 short_title: E-Commerce with Snipcart
 date: 2015-08-25T00:00:00.000Z
 tags:
-  - hugo
-  - go
-  - e-commerce
-  - guest post
+  - Hugo
+  - Go
+  - E-commerce
+  - Guest Post
   - widgets
   - tools
   - popular
 thumbnail: thumbnails/logo-snipcart.png
 title: 'A Great, Fast Static E-Commerce Experience with 6 Easy Tools'
-image: /img/blog/snipcart.jpeg
+image: /v3/img/blog/snipcart.jpeg
 description: 'Creating a Great, Fast Static E-Commerce Experience With 6 Easy Tools'
 topics:
   - tutorials
@@ -109,7 +109,7 @@ First step: [sign up](https://login.mailchimp.com/signup?) for MailChimp if you 
 
 Then, [create a list](http://kb.mailchimp.com/lists/growth/create-a-new-list) in your MailChimp dashboard. Open the new list and click on the _Signup forms_ tab. Personally, we chose to use the basic Embedded forms option: it allows you to generate a form that can be integrated directly within your website. Users will then be able to subscribe to your mailing list simply by filling up the form.
 
-![Mailchimp Configuration](/img/blog/snipcart-netlify-mailchimp-embedded.png)
+![Mailchimp Configuration](/v3/img/blog/snipcart-netlify-mailchimp-embedded.png)
 
 You also could use the popup integration or any of the other ones available in the _Signup forms_ section. Choose the one that fits the best for your specific needs.
 
@@ -133,7 +133,7 @@ Okay, it might not be that easy. But the deploying part *will* be that easy. Our
 
 Simply create a new site in [Netlify's dashboard](https://app.netlify.com/sites).  In our post about integrating Snipcart with Hugo, we suggest you to link your site repository directly to Netlify. This is the easiest way to do it. You can either use GitHub or Bitbucket for that. Once your site is linked, fill the setup form like this:
 
-![Confguring Netlify for hugo](/img/blog/netlify-deploy-hugo.png)
+![Confguring Netlify for hugo](/v3/img/blog/netlify-deploy-hugo.png)
 
 Netlify will then automatically build your website, and it should be up and running in a matter of seconds.
 

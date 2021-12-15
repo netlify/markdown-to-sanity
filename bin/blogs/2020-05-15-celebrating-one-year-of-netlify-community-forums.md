@@ -20,7 +20,7 @@ relatedposts:
 seo:
   metadescription: Happy 1st Birthday Netlify Community! Time flies when you are answering questions (and having fun). Read what Community Manager Perry shares about the first 365 days of running the Netlify Community forums.
   metatitle: Celebrating 1 Year of Netlify Community Forums
-  ogimage: /img/blog/nick-stephenson-p-kesvnva84-unsplash.jpg
+  ogimage: /v3/img/blog/nick-stephenson-p-kesvnva84-unsplash.jpg
 ---
 **Happy Birthday, Netlify Community!** 🎂 
 
@@ -30,7 +30,7 @@ Prior to creating a public support forum, we built a word class support team, bu
 
 Hence the idea for a public support community was born!
 
-![a collection of open faced books](/img/blog/patrick-tomasso-oaqk7qqnh_c-unsplash.jpg "Thanks to Patrick Tomasso for sharing their work on Unsplash.")
+![a collection of open faced books](/v3/img/blog/patrick-tomasso-oaqk7qqnh_c-unsplash.jpg "Thanks to Patrick Tomasso for sharing their work on Unsplash.")
 
 In April 2019 we debuted [Community](https://community.netlify.com/) to the public, and we have seen the number of people who access help through our forums skyrocket over the past year.
 
@@ -40,7 +40,7 @@ In April 2019 we debuted [Community](https://community.netlify.com/) to the publ
 
 We certainly feel like that is reason to celebrate 🎉
 
-![round cake with candles and "happy birthday" sign](/img/blog/nick-stephenson-p-kesvnva84-unsplash.jpg "Thanks to Nick Stephenson for sharing their work on Unsplash.")
+![round cake with candles and "happy birthday" sign](/v3/img/blog/nick-stephenson-p-kesvnva84-unsplash.jpg "Thanks to Nick Stephenson for sharing their work on Unsplash.")
 
 Are you considering starting your own Support Community? Here are some things that worked for us.
 

@@ -9,7 +9,7 @@ date: '2020-02-18'
 topics:
   - case-studies
 tags:
-  - jamstack
+  - Jamstack
   - nike
   - matter supply
 tweet: ''
@@ -21,9 +21,9 @@ seo:
   metatitle: >-
     Matter Supply Scales JAMstack To Support Nike’s Emmy-Award Winning Ad
     Campaign
-  ogimage: /img/blog/image-alone.png
+  ogimage: /v3/img/blog/image-alone.png
 ---
-![Colin Kaepernick Nike Dream Supply campaign image](/img/blog/image-alone.png)
+![Colin Kaepernick Nike Dream Supply campaign image](/v3/img/blog/image-alone.png)
 
 The clock started when [Matter Supply](https://mattersupply.co/) got the call from Nike. Nike enlisted the Portland-based agency for help building a critical component of their forthcoming Dream Supply campaign.
 
@@ -55,7 +55,7 @@ Matter Supply picked Netlify and JAMstack to empower their developers to focus o
 
 About five days before the launch of Nike’s Dream Supply, Colin Kaepernick teased the campaign on twitter. This put Matter Supply under an even more intense time crunch.
 
-![Colin Kapernick dream supply nike campaign tweet 2018](/img/blog/colin-kapernick-nike-tweet.jpg)
+![Colin Kapernick dream supply nike campaign tweet 2018](/v3/img/blog/colin-kapernick-nike-tweet.jpg)
 
 > “We had to move fast, because we had to follow up. We had to strike while the iron is hot,” said Marc. “For us, the JAMstack allowed us to pull more people on the project and to really get it done on time.” 
 >
@@ -69,7 +69,7 @@ The site itself exceeded expectations, effortlessly supporting traffic beyond wh
 * **Scale** – Nike and Matter Supply received over **190,000 submissions** to Dream Supply, nearly doubled their expected figure. 
 * **Speed** – The Dream Supply’s **first contentful paint clocked in at 0.9 seconds**, a lightning fast pace for sites within the Nike ecosystem.
 
-![Marc Armann Matter Supply JAMstack quote](/img/blog/marc-armann-matter-supply-jamstack-quote.jpg)
+![Marc Armann Matter Supply JAMstack quote](/v3/img/blog/marc-armann-matter-supply-jamstack-quote.jpg)
 
 “Agencies don’t really have a lot of people on their bench waiting for Nike to call them,” says Marc, but with just two developers and a few powerful tools, Netlify and JAMstack, Matter Supply was able to craft the ideal for Nike’s Emmy-award winning campaign. 
 

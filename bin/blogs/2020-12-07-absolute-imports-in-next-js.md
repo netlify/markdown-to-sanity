@@ -9,7 +9,7 @@ lastmod: 2020-12-07
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -18,10 +18,13 @@ relatedposts:
   - '"Escaping" Next.js to access the browser'
 seo:
   metatitle: Absolute Imports in Next.js
-  ogimage: /img/blog/blogvent7.png
+  ogimage: /v3/img/blog/blogvent7.png
   metadescription: Absolute imports can save the day when you have to deal with
     project organization and multiple levels of folders.
 ---
+
+
+
 Welcome to Blogvent, day 7!
 
 We've all been there, you're organizing your files in a project, and you see a dreaded import statement:
@@ -66,3 +69,4 @@ Glad you asked! If you'd like to see a working example of this, check out the [J
 
 - [The jsconfig file](https://github.com/netlify/explorers/blob/main/jsconfig.json)
 - [Example imports on the About page](https://github.com/netlify/explorers/blob/main/src/pages/about.js#L1-L3)
+

@@ -3,7 +3,7 @@
 title: "Make Your Site Faster with Netlify's Intelligent CDN"
 authors:
   - Aaron Autrand
-image: /img/blog/world-communications-by-eric-fischer.jpg
+image: /v3/img/blog/world-communications-by-eric-fischer.jpg
 image_caption: "Photo credit: [Eric Fischer](https://www.flickr.com/photos/walkingsf/6635655755)"
 format: blog
 short_title: "CDNs: Netlify's Secret Sauce"
@@ -12,9 +12,9 @@ thumbnail: thumbnails/world.png
 cmsUserSlug: ""
 date: 2016-04-15T00:00:00.000Z
 tags:
-  - netlify
-  - features
-  - cdn
+  - Netlify
+  - Features
+  - CDN
 topics:
   - insights
 ---

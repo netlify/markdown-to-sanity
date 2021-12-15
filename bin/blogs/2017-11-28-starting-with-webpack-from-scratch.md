@@ -10,7 +10,7 @@ short_title: Starting with Webpack from scratch
 tags:
   - React
   - Webpack
-  - build tool
+  - build tools
 format: blog
 description: >-
   Webpack is a build tool for modern web applications. When Webpack bundles your
@@ -26,13 +26,13 @@ This concept of module bundling is not unique to Webpack, but its approach hashe
 
 At the 2016 Chrome Dev Summit, Addy Osmani shared a remarkable revelation showing Webpack usage amongst devs who use a build tool to bundle their projects, Webpack owns 83% of that pie. I suppose you can say Webpack has the cake and eats it too.
 
-![webpack-usage](/img/blog/webpack-usage-from-chrome-dev-summit.png)
+![webpack-usage](/v3/img/blog/webpack-usage-from-chrome-dev-summit.png)
 
 Webpack has found its way into a large of amount of [boilerplates](https://github.com/react-boilerplate/react-boilerplate/blob/master/internals/webpack/webpack.prod.babel.js) and [CLI generated templates](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/config/webpack.config.prod.js) that provide little to no configuration and learning needed. Templates are great but there is a lot of value with understanding the underlying tools, which is why I am going walk you through how to get Webpack up and running in a React application by confidently using just the [webpack-cli](https://webpack.js.org/api/cli/) and nothing more.
 
 ## Staring Webpack from scratch
 
-![yum-scone](/img/blog/yum-scones.gif)
+![yum-scone](/v3/img/blog/yum-scones.gif)
 
 The follow tutorial will use [npm](https://www.npmjs.com/) to manage dependencies so please make sure you have it installed on your environment before you begin.Please be sure to **confirm you are using npm 5** and **node 8** or later.
 

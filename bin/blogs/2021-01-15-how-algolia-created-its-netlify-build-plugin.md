@@ -11,8 +11,8 @@ lastmod: 2021-01-19
 topics:
   - tutorials
 tags:
-  - build plugins
-  - search
+  - Build Plugins
+  - Search
 tweet: ""
 format: blog
 relatedposts:
@@ -20,7 +20,7 @@ relatedposts:
     Workflow
   - Creating and using your first Netlify Build Plugin
 seo:
-  ogimage: /img/blog/how-algolia-created-its-netlify-build-plugin.png
+  ogimage: /v3/img/blog/how-algolia-created-its-netlify-build-plugin.png
   metadescription: Learn how Algolia developed a custom Netlify build plugin that
     indexes site's structured date for search after a deploy is successful. Gain
     insights for developing your own build plugin.
@@ -36,7 +36,7 @@ We recently released [the Algolia Netlify plugin](https://www.globenewswire.com/
 
 The Algolia Netlify plugin is an easy way to add search on your Netlify website, allowing you to add an Algolia search experience in just a few lines of code. One advantage is that after setup, the search results provided by the plugin will evolve with your website content, automatically refreshing each time you publish a new version of your site, which removes the hassle of maintaining the search index. Each time you publish a new version of your site the plugin triggers a crawler that browses and extracts your website's content and pushes it into an Algolia index.
 
-![Diagram representation of how Algolia triggers the crawler based on Netlify versions](/img/blog/plugin_flow.jpg)
+![Diagram representation of how Algolia triggers the crawler based on Netlify versions](/v3/img/blog/plugin_flow.jpg)
 
 ## How we built it
 
@@ -52,7 +52,7 @@ Our main objective was to create a Netlify plugin that would, after each deploym
 
 To use Algolia, the first requirement is to have an account. Then, to access the Algolia Crawler interface you need dedicated permissions, normally activated manually. To provide a smooth experience, and avoid having the users to copy/paste tokens or request accesses, we added a new login option: "Login with Netlify" that is integrated with [Netlify's OAuth2 API](https://docs.netlify.com/api/get-started/#authentication). When you login to Algolia with your Netlify account, we automatically create an Algolia account (or link it if you already have one), and grant access to the Algolia Crawler interface. We also retrieve and store a Netlify token, that we'll use later on.
 
-![The login screen for Algolia with options for Github, Google, and the new Netlify login button](/img/blog/netlify_login.png)
+![The login screen for Algolia with options for Github, Google, and the new Netlify login button](/v3/img/blog/netlify_login.png)
 
 ## Crawler UI Updates
 
@@ -60,11 +60,11 @@ We needed to provide a reporting interface for users to know how the Crawler was
 
 To manage the available tools, we introduced a new "Netlify" role that provides access to some of the advanced configuration screens and most of the advanced debugging tools that we provide to our normal customers.
 
-![Algolia Crawler Interface](/img/blog/crawler_interface.png)
+![Algolia Crawler Interface](/v3/img/blog/crawler_interface.png)
 
 This Netlify role also grants access to a few extra pages that were developed exclusively for the plugin and are only available for Netlify users. These pages permit to manage the plugin installation on the Netlify sites. They use the OAuth token that we retrieve during authentication to talk with the Netlify API, list the sites of the user, and push the necessary API credentials to Netlify when the plugin is installed on one of the sites.
 
-![Screenshot of Plugin Configuration for Netlify Sites](/img/blog/plugin_management.png)
+![Screenshot of Plugin Configuration for Netlify Sites](/v3/img/blog/plugin_management.png)
 
 ## API update
 
@@ -104,7 +104,7 @@ For the Netlify plugin, we wanted to provide a generic solution that would handl
 
 There is no magical way to do this. The solution is to start with a simple extraction function that tries to extract the content from multiple places in each page and test it on real webpages. From there, we can identify common patterns and iterate. To be sure that each modification in the extraction process is beneficial, we took the time to make snapshots of various web pages (hosted on Netlify of course!), run the extractor on them and create extraction snapshots. This way, each time we tweak the extraction algorithm, we immediately see what it breaks or improves:
 
-![Screenshot of regression test results related to data extraction](/img/blog/regression_tests_extraction.png)
+![Screenshot of regression test results related to data extraction](/v3/img/blog/regression_tests_extraction.png)
 
 ## Front-end bundle
 
@@ -128,7 +128,7 @@ The result is that, by copy/pasting those few lines in your website code...
 
 ...that you end up with an autocomplete UI.
 
-![Screenshot of search results with autocomplete user interface](/img/blog/autocomplete_ui.png)
+![Screenshot of search results with autocomplete user interface](/v3/img/blog/autocomplete_ui.png)
 
 Of course, for the design to be perfectly adapted to your website, we still recommend building your own, but we believe this pre-packaged UI is a great way to get started in a few minutes. Of course, we expose a [theme property](https://github.com/algolia/algoliasearch-netlify/tree/master/frontend#theme) to let you tweak the colors.
 
@@ -148,7 +148,7 @@ But when we've implemented the initial version, the `onSuccess` build event wasn
 
 Note: the `onSuccess` event is currently under development by the Netlify team, and the timing of when that event fires could change in the future. Watch for product updates around this topic!
 
-![Screenshot of Netlify build logs showing site is live, focused on the logs generated by the Algolia plugin](/img/blog/netlify_logs.png)
+![Screenshot of Netlify build logs showing site is live, focused on the logs generated by the Algolia plugin](/v3/img/blog/netlify_logs.png)
 
 Since the complete crawl can take time (depending on the number of pages of each website), the plugin doesn't block the build process and continues in the background.
 
@@ -156,7 +156,7 @@ Since the complete crawl can take time (depending on the number of pages of each
 
 We decided to put the plugin code and the UI code in the same repository. We also added a directory containing a static test website.
 
-![Screenshot showing the organization of a repo with three directories labeled frontend, plugin, and public](/img/blog/repo_organisation.png)
+![Screenshot showing the organization of a repo with three directories labeled frontend, plugin, and public](/v3/img/blog/repo_organisation.png)
 
 This allows us to have centralized scripts for development and release. Since the [Netlify CLI](https://docs.netlify.com/cli/get-started/) permits to simulate a Netlify build locally, we were able to setup a single `yarn dev` command, which:
 

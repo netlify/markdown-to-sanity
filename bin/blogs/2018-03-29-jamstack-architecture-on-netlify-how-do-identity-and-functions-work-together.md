@@ -7,10 +7,10 @@ topics:
   - tutorials
 tags:
   - popular
-  - tutorial
-  - functions
-  - identity
-  - serverless
+  - Tutorial
+  - Functions
+  - Identity
+  - Serverless
 format: blog
 description: >-
   Take a deeper look at how to use Netlify Functions together
@@ -203,7 +203,7 @@ If you run this locally, you'll see a link in the header that lets us open the I
 
 Before this will work, however, you'll need to add an identity service to your site. You can do this from the Identity tab in your Netlify site dashboard.
 
-![Enabling Identity on the Netlify App](/img/blog/enable identity @2x.png)
+![Enabling Identity on the Netlify App](/v3/img/blog/enable identity @2x.png)
 
 Now you have a brand new identity service for your site that you can start using straight away. Make sure to deploy your site again, and once it's live, you should be able to sign up and get a confirmation mails from your new identity service. Follow the link and create your first user.
 

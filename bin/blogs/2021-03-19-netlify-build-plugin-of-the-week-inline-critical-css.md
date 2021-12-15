@@ -11,15 +11,15 @@ lastmod: 2021-03-19
 topics:
   - tools
 tags:
-  - css
-  - build plugins
+  - CSS
+  - Build Plugins
 tweet: ""
 format: blog
 relatedposts:
   - Netlify Build Plugins Are Here!
   - "What's a Netlify Build Plugin Series: Part 1 - Using Build Plugins"
 seo:
-  ogimage: /img/blog/netlify-plugin-inline-critical-css.png
+  ogimage: /v3/img/blog/netlify-plugin-inline-critical-css.png
   metadescription: If you’re using the Jamstack for speedy content delivery,
     inlining critical CSS can make your content render even faster. This
     community-contributed Netlify Build plugin extracts and inlines your
@@ -32,7 +32,7 @@ Welcome to our series highlighting [Netlify Build Plugins](https://www.netlify.c
 
 If you’re using the Jamstack for [speedy content delivery](https://www.netlify.com/products/edge/), inlining critical CSS can make your content render even faster. Inlining the critical CSS directly into the HTML document eliminates additional requests and can be used to deliver a “one roundtrip” critical path where only the HTML is a blocking resource. You can use this plugin together with Bonnike’s [Inline Source plugin](http://app.netlify.com/plugins/netlify-plugin-inline-source/install) to inline your other assets/sources such as small images, SVGs or render-blocking scripts.
 
-![Netlify Build Plugin of the Week: Inline Critical CSS](/img/blog/build-plugin-critical-css.png)
+![Netlify Build Plugin of the Week: Inline Critical CSS](/v3/img/blog/build-plugin-critical-css.png)
 
 **Plugin: Inline Critical CSS Netlify Build plugin** <br>
 Automatically extract and inline the critical CSS of your pages in order to render content to the user as fast as possible. <br>

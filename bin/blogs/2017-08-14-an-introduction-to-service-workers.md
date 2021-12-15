@@ -1,5 +1,5 @@
 ---
-title: 'An Introduction to Service Workers'
+title: ' An Introduction to Service Workers'
 authors:
   - Brian Douglas
 format: podcast
@@ -7,8 +7,8 @@ episodenumber: '18'
 minuteslong: '26'
 audiolink: >-
   https://media.blubrry.com/heavybit/d3aeja1uqhkije.cloudfront.net/podcasts/jamstack-radio/20170504-jamstack-radio-019.mp3
-image: /img/blog/jamstack-radio-1024x1024.jpg
-short_title: 'An Introduction to Service Workers'
+image: /v3/img/blog/jamstack-radio-1024x1024.jpg
+short_title: ' An Introduction to Service Workers'
 guests:
   - bio: >-
       Zack Argyle is a Senior Software Engineer at Pinterest where he is
@@ -17,8 +17,8 @@ guests:
       systems for PlayStation 3 and 4.
     name: Zack Argyle
 tags:
-  - podcast
-  - service workers
+  - Podcast
+  - Service Workers
 topics:
   - tools
 description: >-

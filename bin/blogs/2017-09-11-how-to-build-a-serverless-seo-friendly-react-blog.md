@@ -2,19 +2,19 @@
 title: 'How to Build a Serverless, SEO-friendly React blog'
 authors:
   - Roger Jin
-image: /img/blog/butter-horizontal.svg
+image: /v3/img/blog/butter-horizontal.svg
 format: blog
 short_title: 'How to Build a Serverless, SEO-friendly React blog'
 topics:
   - tutorials
 tags:
   - popular
-  - serverless
-  - cms
-  - buttercms
+  - Serverless
+  - CMS
+  - ButterCMS
   - how-to
-  - tutorial
-  - react
+  - Tutorial
+  - React
 description: >
   In this tutorial we are going to show you how to build a serverless,
   SEO-friendly CMS-powered blog using React, ButterCMS, and Netlify.
@@ -357,15 +357,15 @@ Before deploying to Netlify we'll create a production build of our app:
 
 Check your `build` directory to verify that the production build was created successfully. To upload your site on Netlify, drag the `build` folder onto Netlify's dashboard.
 
-![Netlify dashboard screenshot](/img/blog/netlify-dashboard.png)
+![Netlify dashboard screenshot](/v3/img/blog/netlify-dashboard.png)
 
 Prerendering can be enabled from your app settings.
 
-![Netlify prerendering screenshot](/img/blog/netlify-prerendering.png)
+![Netlify prerendering screenshot](/v3/img/blog/netlify-prerendering.png)
 
 Your blog will work when its loaded from the homepage, but if you try to load a post directly, you'll get a 404 page:
 
-![Netlify 404 screenshot](/img/blog/404.png)
+![Netlify 404 screenshot](/v3/img/blog/404.png)
 
 Remember that our app is serverless? To fix the 404 error we need to create a URL rewrite rule that servers up  `index.html` no matter what URL the browser requests.
 

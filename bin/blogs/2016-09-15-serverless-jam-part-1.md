@@ -3,7 +3,7 @@
 title: Serverless JAM - A Serverless Framework Tutorial
 authors:
   - Cassio Zen
-image: /img/blog/lambda.png
+image: /v3/img/blog/lambda.png
 format: blog
 short_title: Serverless JAM Tutorial
 description: Finding a modern toolset to create truly fast, secure and dynamic sites has been an endless search. With JAMstack and the Serverless approach, we have just that. JAMstack sites are fast and secure by nature, and while they are static, 90% of the features that once required a custom backend can now be done entirely on the front-end. And that missing 10%? Enter Serverless.
@@ -12,9 +12,9 @@ cmsUserSlug: ""
 date: 2016-09-15
 tags:
   - popular
-  - hugo
-  - serverless
-  - jamstack
+  - Hugo
+  - Serverless
+  - Jamstack
 topics:
   - tutorials
 ---
@@ -66,13 +66,13 @@ The Serverless command line will need access to your AWS account in order to cre
 1. Log into AWS panel (aws.amazon.com). If this is your first time, you can create a new account which will provide you some services (including Lambda) for free on the first year (up to a certain limit on usage.).
 
 2. In the panel, click on the "Identity and Access Management" icon.
-![Aws Panel](/img/blog/sls-config-step1.png)
+![Aws Panel](/v3/img/blog/sls-config-step1.png)
 
 3. Now you will create a new user for the Serverless Framework. Click in "Users" then, on the next screen, click on "Create New Users". Finally, add a user named "serverless-admin" (make sure to keep the "generate access key" option checked)
-![Aws User Creation](/img/blog/sls-config-step2.png)
+![Aws User Creation](/v3/img/blog/sls-config-step2.png)
 
 4. The next screen presents you with the access key credentials for the serverless user. Copy both the "Access Key ID" and "Secret Access Key" values. You will need to provide this information for your Serverless Framework installation.
-![User Credentials](/img/blog/sls-config-step3.png)
+![User Credentials](/v3/img/blog/sls-config-step3.png)
 
   **Don’t forget to copy or download the serverless-admin credentials.**
 
@@ -80,7 +80,7 @@ The user is now created, but for security reasons it doesn’t have access to an
 
 
 5. Back in the list of users, click on "serverless-admin" user, then, on the next screen, Click "Attach Policy". Finally, choose "Administrator Access" and click "Attach Policy".
-![Attach policy to user](/img/blog/sls-config-step4.png)
+![Attach policy to user](/v3/img/blog/sls-config-step4.png)
 
 
 
@@ -155,7 +155,7 @@ Serverless: Successfully created service with template: "aws-nodejs"
 The “serverless create” command will generate a new folder with three files:
 
 
-![Serverless framework folder structure](/img/blog/sls-folder-structure.png)
+![Serverless framework folder structure](/v3/img/blog/sls-folder-structure.png)
 
 
 
@@ -247,7 +247,7 @@ In the first time you run the “deploy” command, the Serverless framework wil
 
 Observe that the serverless creates an URL (line 18 on the sample output above) to invoke our function. If you opening it on the browser you will see the returned JSON:
 
-![Testing lambda function with http emdpoint](/img/blog/sls-testing-function.png)
+![Testing lambda function with http emdpoint](/v3/img/blog/sls-testing-function.png)
 
 
 On the [second part of this tutorial](https://www.netlify.com/blog/2016/10/13/serverless-jam---a-serverless-framework-tutorial-part-2/) we will further investigate how Lambda functions are defined, how to setup a DynamoDB database to store ratings for our sample project and deploy two custom functions.

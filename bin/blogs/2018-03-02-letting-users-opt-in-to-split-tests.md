@@ -6,7 +6,7 @@ topics:
   - tutorials
 tags:
   - Features
-  - tutorial
+  - Tutorial
 format: blog
 description: >-
   [Video] Did you know that you can use Netlify's split testing (beta) feature

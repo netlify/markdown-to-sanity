@@ -8,8 +8,8 @@ topics:
   - news
 tags:
   - apache traffic server
-  - cdn
-  - open source
+  - CDN
+  - Open source
   - platform
 tweet: ''
 format: blog

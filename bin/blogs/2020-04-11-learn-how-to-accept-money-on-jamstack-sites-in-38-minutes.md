@@ -10,9 +10,9 @@ lastmod: 2020-04-13T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - stripe
-  - tutorial
-  - ecommerce
+  - Stripe
+  - Tutorial
+  - E-commerce
 tweet: ""
 format: blog
 relatedposts:
@@ -151,7 +151,7 @@ ntl login
 
 This takes us to the Netlify site and asks us to authorize the CLI. After we grant the authorization, we’ll see this screen and we’re connected for local development!
 
-![Netlify CLI login](/img/blog/ntl-cli-login.png)
+![Netlify CLI login](/v3/img/blog/ntl-cli-login.png)
 
 Next, we need to tell the CLI where our files are, so let’s create a `netlify.toml` to specify which files will be published to production (in our case, the `public` folder is our web root).
 
@@ -170,7 +170,7 @@ ntl dev
 
 The site will automatically open in the browser and we’ll see the basic site setup with our styles applied.
 
-![The browser displaying a styled index.html page.](/img/blog/basic-layout.png)
+![The browser displaying a styled index.html page.](/v3/img/blog/basic-layout.png)
 
 ## Write a serverless function that returns product data
 
@@ -246,7 +246,7 @@ For Netlify to deploy our serverless functions, we need to tell it where they’
 
 Once we’ve saved our updated config, we can start the server with `ntl dev` and visit `http://localhost:8888/.netlify/functions/get-products` to see the output of our function!
 
-![JSON output returned from the function in the browser](/img/blog/product-json.png)
+![JSON output returned from the function in the browser](/v3/img/blog/product-json.png)
 
 ## Use the fetch API to load data into an HTML page
 
@@ -304,7 +304,7 @@ Make the following changes in `public/index.html`:
 
 Reload the browser to see the data displayed.
 
-![product JSON displayed on the page](/img/blog/json-display.png)
+![product JSON displayed on the page](/v3/img/blog/json-display.png)
 
 ## Use HTML templates to display asynchronously loaded JSON data
 
@@ -467,7 +467,7 @@ To make our products look a little more presentable, let’s add styles for the 
 
 Reload the browser to see the styled products.
 
-![styled products in the browser](/img/blog/styled-products.png)
+![styled products in the browser](/v3/img/blog/styled-products.png)
 
 ## Connect to Netlify and set up automatic deployments using the Netlify CLI
 
@@ -498,7 +498,7 @@ git add -A
 git commit -m 'wip: loading products, no checkout yet'
 ```
 
-![command line output of Git commit command](/img/blog/git-commit.png)
+![command line output of Git commit command](/v3/img/blog/git-commit.png)
 
 After we have all the files committed, we need to push them up to GitHub:
 
@@ -532,11 +532,11 @@ After the site is created, we can open the new site’s dashboard from the comma
 ntl open
 ```
 
-![the Netlify dashboard](/img/blog/stripe-netlify-dashboard.png)
+![the Netlify dashboard](/v3/img/blog/stripe-netlify-dashboard.png)
 
 To visit the deployed site, we can use `ntl open:site` or click the URL displayed on the admin dashboard:
 
-![deployed site on Netlify](/img/blog/stripe-deployed.png)
+![deployed site on Netlify](/v3/img/blog/stripe-deployed.png)
 
 At this point, any time we make changes, we can commit them to our `master` branch and push the to GitHub — Netlify will automatically deploy the site every time we do!
 
@@ -561,7 +561,7 @@ To get these values, we need to:
 4. Click “API keys”
 5. Copy both the publishable key and secret key from the “Standard keys” panel
 
-![Stripe API keys on the dashboard](/img/blog/stripe-api-keys.png)
+![Stripe API keys on the dashboard](/v3/img/blog/stripe-api-keys.png)
 
 ### Store your Stripe credentials as environment variables in Netlify
 
@@ -569,7 +569,7 @@ Now that we have our Stripe keys, we need to make them available to our app.
 
 To do this, open the Netlify dashboard at <https://app.netlify.com> and click on your site to open its overview.
 
-![Netlify site overview](/img/blog/site-overview.png)
+![Netlify site overview](/v3/img/blog/site-overview.png)
 
 On the site’s admin dashboard, do the following:
 
@@ -578,11 +578,11 @@ On the site’s admin dashboard, do the following:
 3. Click “Envoronment” in the left-hand nav
 4. Click “Edit variables” and add `STRIPE_PUBLISHABLE_KEY` and `STRIPE_SECRET_KEY` with the corresponding values from Stripe, then save
 
-![Stripe env vars added to the Netlify environment settings](/img/blog/env-vars.png)
+![Stripe env vars added to the Netlify environment settings](/v3/img/blog/env-vars.png)
 
 After saving, go to the command line and run `ntl dev` to see the environment variables injected locally. They’ll be printed in the CLI output near the top.
 
-![Netlify Dev with injected env vars](/img/blog/ntl-dev-with-env.png)
+![Netlify Dev with injected env vars](/v3/img/blog/ntl-dev-with-env.png)
 
 ## Handle product purchasing flow with Stripe Checkout
 

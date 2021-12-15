@@ -2,13 +2,13 @@
 title: How To Get Involved in Hacktoberfest
 authors:
   - Cassandra Salisbury
-image: /img/blog/hacktoberfest-2017.jpg
+image: /v3/img/blog/hacktoberfest-2017.jpg
 short_title: Netlify joins Hacktoberfest
 topics:
   - news
 tags:
-  - open source
-  - netlify cms
+  - Open source
+  - Netlify CMS
 format: blog
 description: >-
   Hacktoberfest has begun! Check out the details of Hacktoberfest, learn how to
@@ -22,7 +22,7 @@ According to Github, [last year's Hacktoberfest](https://blog.digitalocean.com/o
 
 That’s amazing, right? Well, let’s make this year even bigger.
 
-![null](/img/blog/happyhacktober.jpg)
+![null](/v3/img/blog/happyhacktober.jpg)
 
 ## What is Hacktoberfest?
 
@@ -32,7 +32,7 @@ If you open four pull requests marked Hacktoberfest between October 1-31, you’
 
 And you’re helping some awesome projects!
 
-![null](/img/blog/hackshirt.jpg)
+![null](/v3/img/blog/hackshirt.jpg)
 
 ## How can you get involved?
 

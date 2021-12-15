@@ -10,7 +10,7 @@ topics:
   - news
 tags:
   - changelog
-  - product
+  - Product
 tweet: ""
 format: blog
 relatedposts:

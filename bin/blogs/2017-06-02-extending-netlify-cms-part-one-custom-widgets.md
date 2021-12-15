@@ -2,13 +2,13 @@
 title: 'Extending Netlify CMS, Part One: Custom Widgets'
 authors:
   - Benaiah Mischenko
-image: /img/blog/cms-presentations-example.png
+image: /v3/img/blog/cms-presentations-example.png
 format: blog
 short_title: 'Netlify CMS: Custom Widgets'
 topics:
   - tutorials
 tags:
-  - cms
+  - CMS
 description: >-
   While Netlify CMS has enough functionality for many sites out of the box, some
   sites are going to need a setup geared specifically for their use case. This

@@ -18,7 +18,7 @@ tweet: >-
   more!
 format: blog
 ---
-![Tom Preston-Werner](/img/blog/tom-preston-werner.jpg)
+![Tom Preston-Werner](/v3/img/blog/tom-preston-werner.jpg)
 
 The next in our interview series with leaders and innovators in Developer Experience (DX) – who better to ask than the legendary founder of GitHub?
 

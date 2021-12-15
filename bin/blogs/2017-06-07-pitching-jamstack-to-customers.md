@@ -16,11 +16,11 @@ guests:
       who has been coding since his early teens.
     name: Charles Ouellet
 title: Pitching the JAMstack To Customers
-image: /img/blog/jamstack.png
+image: /v3/img/blog/jamstack.png
 short_title: Pitching JAMstack To Customers
 tags:
-  - podcast
-  - ecommerce
+  - Podcast
+  - E-commerce
   - snipcart
 topics:
   - tools

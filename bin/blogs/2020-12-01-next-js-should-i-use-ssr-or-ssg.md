@@ -9,7 +9,7 @@ lastmod: 2020-12-02
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - blogvent
 tweet: ""
 format: blog
@@ -19,11 +19,14 @@ relatedposts:
     How to Deploy Next.js Sites to Netlify
 seo:
   metatitle: "Next.js: Should I use SSR or SSG?"
-  ogimage: /img/blog/blogvent2.png
+  ogimage: /v3/img/blog/blogvent2.png
   metadescription: Next.js allows you to both server-side render and statically
     generate websites. Why would you choose one over the other? Read and find
     out!
 ---
+
+
+
 It's Blogvent, day 2!
 
 If you use Next.js, chances are you're aware that it can do both server-side rendering (SSR) and static site generation (SSG). It's very powerful! But why would you choose one or the other?
@@ -60,3 +63,4 @@ On Netlify, if you'd like to run both static and server-rendered pages, all you 
 That's it! What this plugin does is turn your server-rendered routes into Netlify Function API calls that serve the pages you need. You can also install the plugin via the Netlify UI ([docs here](https://docs.netlify.com/configure-builds/build-plugins/#install-a-plugin), or [go here](https://app.netlify.com/plugins/@netlify/plugin-nextjs/install)).
 
 If you'd like to see this plugin in action, check out [this demo project using dynamic routes](https://github.com/cassidoo/next-prankz)!
+

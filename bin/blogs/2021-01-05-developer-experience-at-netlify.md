@@ -11,7 +11,6 @@ topics:
   - insights
 tags:
   - Developer Experience
-  - Integrations Engineering
   - Technical Writing
 tweet: ""
 format: blog
@@ -19,7 +18,7 @@ relatedposts:
   - Introducing Smarter Redirects
   - Five Reasons You Want HTTPS for Your Static Site
 seo:
-  ogimage: /img/blog/devex-org.jpg
+  ogimage: /v3/img/blog/devex-org.jpg
   metatitle: Developer Experience at Netlify
   metadescription: The Developer Experience organization at Netlify is quite
     unique. In this post, we talk through the structure of the organization, how
@@ -50,7 +49,7 @@ Developer Experience makes up roughly 10% of the company. **What follows is docu
 
 Much like a Boys II Men harmony, the Developer Experience organization at Netlify consists of 3 parts.
 
-![Org chart showing the three groups: Integrations Engineering, Developer Experience Engineering, Documentation](/img/blog/devex-org.jpg)
+![Org chart showing the three groups: Integrations Engineering, Developer Experience Engineering, Documentation](/v3/img/blog/devex-org.jpg)
 
 ### Developer Experience Engineering
 
@@ -58,7 +57,7 @@ Developer Experience Engineering is a hybrid role that is an intersection betwee
 
 **Everyone on the Developer Experience Engineering team regularly does engineering work, both for team initiatives and also as part of product engineering rotations.** The goal of this group is to ensure quality, end-to-end for our customers. This includes work to build integrations, prototypes, research labs, refine processes, teach developers how to use our product effectively, and also provide feedback on the product. We work closely with the Product team, mostly because I’m in love with [Laurie Voss’ dog Guff](https://twitter.com/seldo/status/1282696119504351234?s=20).
 
-![Screenshot of Jamstack Explorers learning platform](/img/blog/explorers-screen.jpg)
+![Screenshot of Jamstack Explorers learning platform](/v3/img/blog/explorers-screen.jpg)
 
 Recently we built a learning platform called [Jamstack Explorers](https://explorers.netlify.com/), which was built with Next.js, Sanity.io, Cloudinary, and serverless functions. Not only was the video content developed by the team, but also every part of the functionality, and there’s more to come! This project is open source; you can [check the repo out here](https://github.com/netlify/explorers). We can blame Jason Lengstorf for the space-themed musical interlude on the readme.
 
@@ -87,7 +86,7 @@ Having a representative for every different framework helps us give particular f
 
 We do some technical case studies, like how [Victoria Beckham Beauty’s tech stack is set up](https://www.netlify.com/customers/victoria-beckham-beauty/), or how to [migrate to Jamstack with proxies](https://www.netlify.com/blog/2020/09/30/from-legacy-infrastructure-to-a-lean-and-powerful-stack-with-netlify/). We also engage with partners to teach people how to pair Netlify with other services, such as [Stripe](https://www.netlify.com/blog/2020/04/13/learn-how-to-accept-money-on-jamstack-sites-in-38-minutes/), [Auth0](https://www.youtube.com/watch?v=j-vuF2PYHmU), and [Algolia](https://github.com/algolia/algoliasearch-netlify).
 
-![Screenshot of Remotely Interesting site](/img/blog/podcast.jpg)
+![Screenshot of Remotely Interesting site](/v3/img/blog/podcast.jpg)
 
 We also have a podcast called [Remotely Interesting](https://remotelyinteresting.transistor.fm/), where we chat about myriad things going on in the industry, from mob programming, to Edge Handlers, to rendering on the Jamstack. As the mom of one of the team members puts it: “It doesn’t matter if anyone ever listens to this because you all crack yourselves up so much.”
 
@@ -99,7 +98,7 @@ Following in the same vein of thinking through the experience of developers is t
 
 This team works very closely and partners with Product Engineering- particularly teams that work on our build system and workflow integrations. We’re extraordinarily lucky to have a team that engages in these cross-functional partnerships so well.
 
-![Next on Netlify readme](/img/blog/non.jpg)
+![Next on Netlify readme](/v3/img/blog/non.jpg)
 
 We just shipped [one-click support](https://www.netlify.com/blog/2020/12/07/announcing-one-click-install-next.js-build-plugin-on-netlify/) for [Next on Netlify](https://www.npmjs.com/package/next-on-netlify) with no configuration necessary, and we’re working now on Next.js 10 support, including next/image and Next.js Internationalized Routing. Coming up, we’re also partnering with the Nuxt team on some special features in upcoming releases that are really exciting!
 
@@ -109,7 +108,7 @@ Currently, [Lindsay Levine](https://twitter.com/levlinds) works on this team wit
 
 This is new! As of a month ago, the Documentation team at Netlify has moved under Developer Experience and we couldn’t be more thrilled! Docs can have a profound impact on developer experience at every stage of a developer's journey. After all, if you think of it from a user perspective- docs are literally a piece of how they are experiencing the product for the first time. Even a tutorial, demo, or open source repo will likely link back there, or vice versa. Now we can ensure this path is as smooth and seamless for the user as our platform aims to be.
 
-![Screenshot of Docs Deploys page](/img/blog/docs.jpg)
+![Screenshot of Docs Deploys page](/v3/img/blog/docs.jpg)
 
 This team consists of [Rachael Stavchansky](https://twitter.com/RMStav) focusing on workflow, [Jacklyn Carroll](https://twitter.com/Jacklyn_Lee), focusing on runtime and integrated apps, and [Kristen Lavavej](https://www.netlify.com/authors/kristen-lavavej/), focusing on something exciting we can't quite talk about yet 🤫
 

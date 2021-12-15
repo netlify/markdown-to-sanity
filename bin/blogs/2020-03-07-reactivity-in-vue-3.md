@@ -12,7 +12,7 @@ date: '2020-03-10'
 topics:
   - tutorials
 tags:
-  - vue
+  - Vue
 tweet: ''
 format: blog
 seo:
@@ -21,7 +21,7 @@ seo:
     Check out this post that dives into the new Composition Functions API and
     what else is coming in Vue 3.
   metatitle: Vue 3 Reactivity - Learn Composition Functions API
-  ogimage: /img/blog/reactivity-in-vue3.jpg
+  ogimage: /v3/img/blog/reactivity-in-vue3.jpg
 ---
 If you take even the slightest peek at [the infamous and since merged Function-based Component RFC](https://github.com/vuejs/rfcs/pull/42) that launched a thousand comments, you immediately notice that the new 3.0 syntax is unfamiliar compared to the current 2.x syntax. From a superficial standpoint, it’s hard not to assume that Vue is trying to “*pull an Angular”* with its upcoming release. In the RFC, Vue 2.x is directly contrasted with Vue 3.0 and there are examples of how to migrate from the current syntax to the new one indicating that a 2.x deprecation is imminent. There is even mention in the RFC (*in early versions, this has since been changed*) of separate builds that could potentially split the community in terms of how Vue is used and adopted. While these criticisms are valid and Vue has since accounted for this miscommunication, it’s worth noting that this new syntax posits a shift in how we currently think and reason about Vue. Most notably, it highlights a significant change in how cross component state management and reactivity will work in future versions of Vue.
 

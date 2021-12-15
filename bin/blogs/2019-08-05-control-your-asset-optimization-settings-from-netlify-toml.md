@@ -20,7 +20,7 @@ Netlify deploys include the ability to automatically optimize assets as part of 
 
 Available options like CSS and JS minification, image compression, and pretty URLs allow you to improve the performance of your sites with just a few clicks.
 
-![](/img/blog/assetoptimization.png)
+![](/v3/img/blog/assetoptimization.png)
 
 Until now, this feature was only available via the admin interface. We are happy to announce that from today, you'll also be able to control these options directly in your code as part of your `netlify.toml` file. Now you can keep your code and configuration all in the same place, and under the same version control.
 

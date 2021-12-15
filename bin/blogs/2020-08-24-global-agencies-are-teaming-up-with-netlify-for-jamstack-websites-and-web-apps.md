@@ -20,9 +20,9 @@ seo:
   metadescription: Netlify’s Agency Partner program is here! Learn why global
     agencies choose to work with Netlify and the Jamstack to deliver
     transformative digital experiences to customers.
-  ogimage: /img/blog/plugins-og-58.png
+  ogimage: /v3/img/blog/plugins-og-58.png
 ---
-![Netlify Agency Partner Program](/img/blog/blog-imag.png "Introducing Netlify Agency Partner Program")
+![Netlify Agency Partner Program](/v3/img/blog/blog-imag.png "Introducing Netlify Agency Partner Program")
 
 Today we announce the **[Netlify Agency Partner](https://www.netlify.com/partners/agency/)** program.
 
@@ -46,7 +46,7 @@ Additionally, Fostr worked with Netlify on [Victoria Beckham Beauty’s e-commer
 We celebrate all agencies working with Netlify, including our launch partners: AKQA, Alpha Omega Agency, Appnovation, Aquent DEV6, Atoms Studio, Barrel NY, Bejamas, Blue State Digital, Deloitte Digital, Dyode, Evans Hunt, Firstborn, Fostr, Fueled, Function1, Giant Machines, Happy Cog, Harvey Cameron, Hill Holliday, Home Agency, iDream Interactive, Kluge Interactive, Last Rev, Left Field Labs, Luminary, Matter Supply, Mediacurrent, MHz Design, MojoTech, Narrative, Origen Studio, Pixel Union, Proximity, Reign, SDG, Sellry, Staff Only, Tap Room, Tenet Partners, The Frameworks, The New Dynamic, Therefore, Twim, Ultrō, Valtech, We Make Websites, and more.
 <!-- textlint-enable -->
 
-![Netlify Agency Partner Program](/img/blog/agency-partners-6-.png "Netlify agency launch partners")
+![Netlify Agency Partner Program](/v3/img/blog/agency-partners-6-.png "Netlify agency launch partners")
 
 ## Agency Partner benefits: Jamstack expertise with Netlify
 

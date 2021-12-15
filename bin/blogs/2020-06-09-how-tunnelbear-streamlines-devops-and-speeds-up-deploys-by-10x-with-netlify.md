@@ -17,7 +17,7 @@ relatedposts:
 seo:
   metatitle: How TunnelBear Streamlines DevOps & 10x Deploy Speed with Netlify
   metadescription: See how TunnelBear's use of Netlify empowered them to be able to regain control over their process and site architecture while letting go of the processes that taxed developer productivity. 
-  ogimage: /img/blog/blogpost-4.png
+  ogimage: /v3/img/blog/blogpost-4.png
 ---
 In the middle of a deploy, developers are focused on the task at hand. They don’t quite have the luxury of taking a thousand-foot view of their work and asking “What are we best at and what should we really be focusing on?” 
 
@@ -27,7 +27,7 @@ Using Netlify, TunnelBear’s team of engineers were able to regain control over
 
 TunnelBear’s road to streamlined deploys, faster sites, and better developer experience all started with that one question. Taking the time to answer it has paid dividends for TunnelBear, its developers, and its customers. 
 
-![TunnelBear DevOps logo](/img/blog/tunnelbear.jpg "TunnelBear")
+![TunnelBear DevOps logo](/v3/img/blog/tunnelbear.jpg "TunnelBear")
 
 ## Background
 

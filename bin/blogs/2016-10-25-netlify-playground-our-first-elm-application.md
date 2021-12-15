@@ -5,15 +5,14 @@ cmsUserSlug: ''
 date: 2016-10-25T00:00:00.000Z
 image_style: contained
 title: 'Netlify Playground, our first Elm application in production'
-image: /img/blog/elm-logo.svg
+image: /v3/img/blog/elm-logo.svg
 format: blog
 short_title: 'Netlify Playground, our first Elm application in production.'
 tags:
-  - deploy
+  - Deploy
   - playground
-  - redirects
-  - configuration
-  - elm-lang
+  - Redirects
+  - Elm
 description: >-
   Netlify Playground will help you validate Netlify configuration files to
   deploy them with confidence.

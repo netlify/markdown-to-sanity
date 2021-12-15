@@ -21,7 +21,7 @@ tags:
   - MongoDB
   - Refactoring
   - Deploy
-  - Feature Flags
+  - feature flags
 tweet: ""
 format: blog
 relatedposts:
@@ -36,13 +36,13 @@ seo:
     observability while rolling it out to production.
   metatitle: What Netlify’s Infrastructure Team Learned as It Increased Deploy
     Speed by up to 2x
-  ogimage: /img/blog/nitro-diagram2.png
+  ogimage: /v3/img/blog/nitro-diagram2.png
 ---
 What if you realized you could optimize the structure of an existing system by doing less work? We can probably all attest that it's one thing to notice an opportunity, and an entirely different beast to actually roll it out into production. This is the story of how the infrastructure team at Netlify took a 4 year old codebase and isolated an issue, tested a few different solutions (with some interesting stumbling blocks along the way), and eventually improved observability while rolling it out to production.
 
 The result of this work is what we’re fondly calling “nitro deploys”, a 2x increase in the speed of our deploy mechanism. For a high level background, [check out the announcement post](https://url.netlify.com/HJcuHPPKU) about Netlify faster deploys. Otherwise dive in to see how we built this functionality.
 
-![deploy chart](/img/blog/99th-percentile-deploy-time-improvements-chart.png)
+![deploy chart](/v3/img/blog/99th-percentile-deploy-time-improvements-chart.png)
 
 ## Motivation
 
@@ -107,11 +107,11 @@ Those are the building blocks we knew we would have to shift at a really high le
 
 #### System architecture before
 
-![architecture diagram before](/img/blog/diagram1.png)
+![architecture diagram before](/v3/img/blog/diagram1.png)
 
 #### System architecture after
 
-![System architecture after](/img/blog/nitro-diagram2.png)
+![System architecture after](/v3/img/blog/nitro-diagram2.png)
 
 
 ## The Nitty Gritty
@@ -136,7 +136,7 @@ We’ve decided a new queuing system involves a much bigger effort for what woul
 
 So our initial idea of moving all the work to Netlify Server became only partially feasible. The one piece we did move was the one with the largest numbers of operations and requests – file uploads. This now exists exclusively on the Netlify Server.
 
-![number of database operations after optimization](/img/blog/deploy-perf.gif)
+![number of database operations after optimization](/v3/img/blog/deploy-perf.gif)
 
 ## Rolling it out
 
@@ -180,7 +180,7 @@ The results were that our testing has paid off, and this time around, we success
 
 ## Now fully released: Nitro Deploys
 
-![Deploy log that says things about nitro deploys](/img/blog/screen-shot-2020-03-15-at-1.22.18-pm.png)
+![Deploy log that says things about nitro deploys](/v3/img/blog/screen-shot-2020-03-15-at-1.22.18-pm.png)
 
 *When we were working on this feature, we added a little deploy log to know when nitro deploys were active ⚡️ It's since been removed.*
 

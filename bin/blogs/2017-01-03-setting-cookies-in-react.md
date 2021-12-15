@@ -2,7 +2,7 @@
 title: Setting Cookies in React
 authors:
   - Brian Douglas
-image: /img/blog/Chocolate_Chip_Emoji.png
+image: /v3/img/blog/Chocolate_Chip_Emoji.png
 format: blog
 short_title: Setting Cookies in React
 description: >-
@@ -13,12 +13,12 @@ topics:
   - tutorials
 tags:
   - popular
-  - react
+  - React
 ---
 
 On first login to Netlify we present you with a wonderful onboarding modal explaining briefly what we are all about.
 
-![website screenshot](/img/blog/welcome-carousel.png)
+![website screenshot](/v3/img/blog/welcome-carousel.png)
 
 I was given the task to only present this modal to the new users, but not to existing users. My first thought was to add a check to see if a user has exactly 1 site deployed to Netlify, then this onboard modal. This was not a great solution due to most new users onboarding with Netlify via our [Sign Up](https://app.netlify.com/signup) flow and that coaches the user through a path to deployment of your first site, which is the real purpose of the modal — to provide next steps after your first deploy to Netlify. This also does not prevent the modal from appearing on future logins as well.
 

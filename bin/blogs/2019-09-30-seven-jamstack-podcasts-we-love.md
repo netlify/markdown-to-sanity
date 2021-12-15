@@ -9,7 +9,7 @@ date: '2019-09-30'
 topics:
   - links
 tags:
-  - Podcasts
+  - Podcast
 tweet: >-
   In honor of International Podcast Day, we thought we'd share a few JAMstack
   Podcasts we love!

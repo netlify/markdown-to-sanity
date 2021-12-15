@@ -4,11 +4,11 @@ description: Learn what Next.js shallow routing is, and how it works!
 authors:
   - Cassidy Williams
 date: 2021-06-02
-lastmod: 2021-06-02
+lastmod: 2021-11-16
 topics:
   - tutorials
 tags:
-  - nextjs
+  - Next.js
   - shallow routing
 tweet: ""
 format: blog
@@ -17,9 +17,11 @@ relatedposts:
   - Try the new Essential Next.js plugin, now with auto-install!
 seo:
   metatitle: How to Change URLs with Shallow Routing in Next.js
-  ogimage: /img/blog/shallowrouting.png
+  ogimage: /v3/img/blog/shallowrouting.png
   metadescription: Learn how to change your Next.js website's URL without re-running data fetching methods with shallow routing.
 ---
+
+
 
 Hello!
 
@@ -48,6 +50,7 @@ The code for the routing [is here](https://github.com/cassidoo/next-adventure/bl
 
 Heck yeah you can! Here's a starter project for ya to get building:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=blog&utm_medium=shallownext-cs&utm_campaign=devex-cs)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=blog&utm_medium=shallownext-cs&utm_campaign=devex-cs)
 
 (Clicking this button will deploy a Next.js starter project to Netlify, and clone it to your chosen Git provider)
+

@@ -11,8 +11,8 @@ topics:
   - insights
 tags:
   - netlifolks
-  - data
-  - team
+  - Data
+  - teams
 tweet: ""
 format: blog
 relatedposts:
@@ -27,7 +27,7 @@ seo:
 In this Netlify team interview series, we’ll be giving you a sneak peek of a day in the life of some of our teammates. Next up: meet Laurie, Senior Data Analyst at Netlify.
 
 <div style="max-width: 400px; margin: 0 auto; text-align: center;">
-  <img src="/img/blog/seldo-voss.jpg" alt="Laurie Voss, Senior Data Analyst featured headshot image" />
+  <img src="/v3/img/blog/seldo-voss.jpg" alt="Laurie Voss, Senior Data Analyst featured headshot image" />
 </div>
 
 **What was your path to joining Netlify?**

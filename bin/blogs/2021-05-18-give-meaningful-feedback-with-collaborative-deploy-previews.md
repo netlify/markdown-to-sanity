@@ -13,8 +13,8 @@ relatedposts:
   - "Feedback Ladders: How We Encode Code Reviews at Netlify"
   - "Next-generation Deploy Previews, plus Netlify acquires FeaturePeek"
 tags:
-  - deploy previews
-  - code review
+  - Deploy Previews
+  - Code review
   - QA
 tweet: ""
 format: blog
@@ -23,7 +23,7 @@ seo:
   metadescription: "Learn how to easily give feedback on your dev team's work with
     new capabilities available in Collaborative Deploy Previews, including
     screengrabs, videos, and annotations.  "
-  ogimage: /img/blog/CDP-Feedback-og-image-2.png
+  ogimage: /v3/img/blog/CDP-Feedback-og-image-2.png
 ---
 
 Reviewers rejoice! Now when your dev team sends you a preview of an upcoming web update ([aka Deploy Preview](https://www.netlify.com/blog/2021/05/19/next-generation-deploy-previews-plus-netlify-acquires-featurepeek/)), you can leave feedback right from the preview.
@@ -44,7 +44,7 @@ Ready to start reviewing? First, be sure to get a [Deploy Preview URL](https://w
 
 Next, find the Netlify drawer in the bottom-left corner of your browser window and click to open the drawer.
 
-![Netlify Drawer in Collaborative Deploy Previews ](/img/blog/netlify-drawer-ui.png "Look for a tab with the Netlify logo. That’s the Netlify drawer.")
+![Netlify Drawer in Collaborative Deploy Previews ](/v3/img/blog/netlify-drawer-ui.png "Look for a tab with the Netlify logo. That’s the Netlify drawer.")
 
 ### Sign in or sign up for free
 
@@ -56,7 +56,7 @@ If you already have a Netlify account, sign in! If you don’t yet have a Netlif
 
 The handy Netlify drawer gives you a few tools to help make your review as clear as possible.
 
-![Record videos and take screengrabs in Netlify's Collaborative Deploy Previews](/img/blog/netlify-cdp-tools.png "Once you’re signed into Netlify, you’ll see additional utilities stacked on top of the Netlify drawer tab.")
+![Record videos and take screengrabs in Netlify's Collaborative Deploy Previews](/v3/img/blog/netlify-cdp-tools.png "Once you’re signed into Netlify, you’ll see additional utilities stacked on top of the Netlify drawer tab.")
 
 \
 Here’s what you can do:

@@ -3,7 +3,7 @@
 title: "Developing with ReactJS: An Interview with Gatsby's Kyle Mathews"
 authors:
   - Aaron Autrand
-image: /img/blog/null
+image: /v3/img/blog/null
 image_caption: ""
 format: blog
 short_title: "React & Gatsby: Kyle Mathews"
@@ -12,11 +12,10 @@ thumbnail: thumbnails/kyle.jpg
 cmsUserSlug: ""
 date: 2016-04-18
 tags:
-  - interview
+  - Interview
   - swt
-  - gatsby
-  - react
-  - kyle mathews
+  - Gatsby
+  - React
 topics:
   - tools
 ---

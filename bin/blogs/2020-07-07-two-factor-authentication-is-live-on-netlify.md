@@ -15,7 +15,7 @@ relatedposts:
   - The role of roles and how to set them in Netlify Identity
   - Authentication for the REST of us
 seo:
-  ogimage: /img/blog/86273482-3a0ceb80-bbc8-11ea-8da0-f676ed6d92ae.png
+  ogimage: /v3/img/blog/86273482-3a0ceb80-bbc8-11ea-8da0-f676ed6d92ae.png
   metatitle: Two-Factor Authentication Now Live on Netlify
   metadescription: Learn about Netlify's introduction of Two-factor authentication. This is now live and ready for all customers - easily get started within your Netlify account!
 ---
@@ -49,16 +49,16 @@ Adding this extra level of security on your account ensures that if someone were
 
 Great! Head over to your **User Settings** and go to the **Security** tab, and you'll find a spot to enable two-factor authentication. Or, you can just [click here](https://app.netlify.com/user/security) if you're already logged in.
 
-![User Security page](/img/blog/screen-shot-2020-06-29-at-5.48.15-pm.png "User Security page")
+![User Security page](/v3/img/blog/screen-shot-2020-06-29-at-5.48.15-pm.png "User Security page")
 
 Once you click the button that says "Enable two-factor authentication", you'll see a screen like this:
 
-![Setting up 2FA via a third-party application](/img/blog/screen-shot-2020-06-29-at-2.32.04-pm.png "Setting up 2FA on your account")
+![Setting up 2FA via a third-party application](/v3/img/blog/screen-shot-2020-06-29-at-2.32.04-pm.png "Setting up 2FA on your account")
 
 Netlify offers two-factor authentication through your favorite authentication apps. Use <a href="https://authy.com/" target="_blank">Authy</a>, <a href="https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=en" target="_blank">Google Authenticator</a>, <a href="https://lastpass.com/auth/" target="_blank">LastPass Authenticator</a>, <a href="https://support.1password.com/one-time-passwords/" target="_blank">1Password</a>, or any others to scan the provided QR code (or manually enter in your authentication token) to connect your account.
 
 Once you've connected your accounts, the next step is to save your recovery codes in case you lose access to your two-factor authentication apps. Save these in a safe place, and you can use each of them once to regain access to your account.
 
-![Recovery codes page](/img/blog/screen-shot-2020-06-30-at-5.51.47-pm.png "Save your recovery codes!")
+![Recovery codes page](/v3/img/blog/screen-shot-2020-06-30-at-5.51.47-pm.png "Save your recovery codes!")
 
 And voilà! In just a few steps your Netlify account is more secure than ever. Now go forth and coooode!

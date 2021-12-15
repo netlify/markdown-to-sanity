@@ -173,11 +173,11 @@ We will also pass the query parameter `location` and set it like so:
 
 [`http://localhost:8888/.netlify/functions/hello?location=Lorain`](http://localhost:8888/.netlify/functions/hello?location=Lorain)
 
-![localhost check](/img/blog/localhost-check.jpg "localhost check")
+![localhost check](/v3/img/blog/localhost-check.jpg "localhost check")
 
 The functions logs will be displayed in the terminal so we can now see the objects we get for `event` and `context`.
 
-![localhost logs](/img/blog/localhost-logs.jpg "localhost logs")
+![localhost logs](/v3/img/blog/localhost-logs.jpg "localhost logs")
 
 ## Testing in Production
 
@@ -187,21 +187,21 @@ The easiest way to get this project deployed is to run [`netlify init`](https://
 
 Once that's set up we can run [`netlify open`](https://cli.netlify.com/commands/open/?utm_source=blog&utm_medium=ng-func-starter-tzm&utm_campaign=devex) to see this project's dashboard. Here we can find the link to our live site as well as the link to our 'Functions' dashboard.
 
-![project's Netlify dashboard](/img/blog/functions-dashboard.jpg "project's Netlify dashboard")
+![project's Netlify dashboard](/v3/img/blog/functions-dashboard.jpg "project's Netlify dashboard")
 
 Moving to the Functions dashboard, we can see our new 'hello' function listed and click it to look at the information and logs for this function.
 
-![hello function dashboard](/img/blog/hello-function-dashboard.jpg "hello function dashboard")
+![hello function dashboard](/v3/img/blog/hello-function-dashboard.jpg "hello function dashboard")
 
 The 'hello' function's dashboard will list the endpoint for our function and also list all of its logs.
 
-![hello function logs  ](/img/blog/hello-function-logs.jpg "hello function logs  ")
+![hello function logs  ](/v3/img/blog/hello-function-logs.jpg "hello function logs  ")
 
 We copy the endpoint then add the `location` parameter like so:
 
 [`https://angular-netlify-functions-starter.netlify.app/.netlify/functions/hello?location=Ohio`](https://angular-netlify-functions-starter.netlify.app/.netlify/functions/hello?location=Ohio)
 
-![hello function production output](/img/blog/function-output.jpg "hello function production output")
+![hello function production output](/v3/img/blog/function-output.jpg "hello function production output")
 
 ## That's a Wrap 🎬
 

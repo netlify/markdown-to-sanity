@@ -1,23 +1,23 @@
 ---
+title: Yarn support on Netlify
 authors:
   - David Calavera
-cmsUserSlug: ''
 date: 2016-11-01T00:00:00.000Z
-image_style: contained
-title: Yarn support on Netlify
-image: /img/blog/yarn-kitten-circle.png
-format: blog
-short_title: Introducing Yarn support on Netlify
-tags:
-  - build
-  - yarn
-  - configuration
-description: >-
-  Netlify now detects your yarn.lock files and stores the yarn cache for
-  reusage.
+lastmod: 2021-05-07
 topics:
   - news
+image_style: contained
+short_title: Introducing Yarn support on Netlify
+description: Netlify now detects your yarn.lock files and stores the yarn cache for reusage.
+tags:
+  - Build
+  - yarn
+format: blog
+image: /v3/img/blog/yarn-kitten-circle.png
+cmsUserSlug: ""
 ---
+> **Update, May 2021**: We've made a ton of improvements to our Yarn support since this blog post was written. Please check out [our docs](https://docs.netlify.com/configure-builds/manage-dependencies/#yarn) for the most current information.
+
 We're very excited to announce full support for [Yarn](https://yarnpkg.com), the dependency manager, on Netlify.
 
 Yarn is a dependency manager for JavaScript projects. Although Yarn launched only a month ago, its three main features: speed, security and reproducibility are making this new package to gain popularity very quickly. We've been following the project very closely and we started using it for our own projects almost since the day it launched. Supporting it as a first class dependency manager in our continuous delivery pipeline was just a matter of time.
@@ -26,7 +26,7 @@ If that wasn't enough reason for us to like Yarn, the project uses Netlify to ho
 
 Starting today, if you deploy a site that includes a `yarn.lock` file in the base of the repository, we'll use Yarn to install dependencies. We'll do this automatically, without you having to change any configuration options. After the initial dependency linking, we'll store Yarn's cache for your project so future builds can use it to resolve package changes. If your dependencies don't change between deploys, you'll see those resolutions drop to under a second.
 
-![](/img/blog/yarn-log.png)
+![](/v3/img/blog/yarn-log.png)
 
 We've got a few environment variables you can set to control yarn behavior too:
 

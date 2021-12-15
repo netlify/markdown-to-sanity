@@ -10,9 +10,9 @@ topics:
   - links
 tags:
   - Fauna DB
-  - serverless
-  - database
-  - functions
+  - Serverless
+  - Databases
+  - Functions
 tweet: >-
   Chris Anderson talks about the origins of FaunaDB and how it works swimmingly
   with the JAMstack.

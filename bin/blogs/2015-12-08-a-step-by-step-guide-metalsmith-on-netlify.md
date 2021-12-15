@@ -2,12 +2,12 @@
 title: 'A Step-by-Step Guide: Metalsmith on Netlify'
 authors:
   - Jimmi Lee
-image: /img/blog/metalsmith-banner.png
+image: /v3/img/blog/metalsmith-banner.png
 short_title: Metalsmith on Netlify
 tags:
   - metalsmith
-  - nodejs
-  - tutorial
+  - NodeJS
+  - Tutorial
 format: blog
 description: >-
   A short tutorial on the static site generator Metalsmith and how to host it on
@@ -51,7 +51,7 @@ We'll fill in the content of the files in the following steps and more files wil
 
 The folder structure for this project:
 
-![metalsmith_folder.jpg](/img/blog/metalsmith_folder.jpg)
+![metalsmith_folder.jpg](/v3/img/blog/metalsmith_folder.jpg)
 
 ### 2. Create .nvmrc file
 Did you notice the *.nvmrc* file in the tree above?
@@ -469,7 +469,7 @@ We start by creating a [GitHub](https://github.com/) repository for our metalsmi
 
 We're naming ours metalsmith-demo and we'll skip adding files to the repository until after its creation, as this can sometimes create problems (The README, license and gitignore files).
 
-![netlify0x_createnewrepo.png](/img/blog/netlify0x_createnewrepo.png)
+![netlify0x_createnewrepo.png](/v3/img/blog/netlify0x_createnewrepo.png)
 
 Once the repository has been named and created we need to setup our local environment with GitHub.
 
@@ -493,7 +493,7 @@ git commit -m 'First commit'
 ```
 
 ### 3. Get & Add Remote URL
-![a1_remotegithuburl.png](/img/blog/a1_remotegithuburl.png)
+![a1_remotegithuburl.png](/v3/img/blog/a1_remotegithuburl.png)
 
 It's now time to return to the GitHub repository created above and retrieve the URL for the remote repository, since this is where our local repository will be pushed.
 Either copy paste the whole command or use the button as depicted above, to copy just the path to your clipboard.
@@ -526,12 +526,12 @@ It's time to connect it with Netlify.
 Creating a new site on Netlify is super easy and once you’ve created an account and logged in, you’ll be taken to https://app.netlify.com/sites.
 
 ### Step 1: Add Your New Site
-![netlify New Site](/img/blog/newsitebut.png)
+![netlify New Site](/v3/img/blog/newsitebut.png)
 Click the *"New Site"* button (as seen above) to get started.
 
 ### Step 2: Link to Your GitHub
 Clicking *“New Site”* brings you to this screen:
-![Link to GitHub](/img/blog/createsite.png)
+![Link to GitHub](/v3/img/blog/createsite.png)
 When you push to GitHub, Netlify does all the work. No more wasting time on manual deploying of updates or changes!
 
 Since we're hosting the site assets on GitHub, we’ll need to link Netlify to GitHub. Click the button *“Link to GitHub”*.
@@ -540,35 +540,35 @@ Since we're hosting the site assets on GitHub, we’ll need to link Netlify to G
 You can skip this step, if you already have an account with Netlify set up to automatically login!
 
 You will be asked to provide your GitHub login details:
-![GitHub Login](/img/blog/githublogin.png)
+![GitHub Login](/v3/img/blog/githublogin.png)
 
 We need to let Netlify and GitHub talk to each other, so review the permissions and then click authorize application.
-![Authorize netlify](/img/blog/authorization.png)
+![Authorize netlify](/v3/img/blog/authorization.png)
 
 Like it says in the image above on the right, Netlify doesn’t store your GitHub access token on our servers!
 
 If you’d like to know more about the permissions Netlify requests and why we need them, you can check out our [documentation on GitHub Permissions](https://docs.GitHubnetlify.com/github-permissions/).
 
 ### Step 4: Choose Your Repo
-![metalsmith_choose_repo.jpg](/img/blog/metalsmith_choose_repo.jpg)
+![metalsmith_choose_repo.jpg](/v3/img/blog/metalsmith_choose_repo.jpg)
 Once you're connected to GitHub, Netlify will show you a list of your GitHub repositories, as seen above.
 For the purpose of this tutorial we'll select the *“metalsmith-demo”* repo we just pushed to GitHub.
 
 ### Step 5: Configure Your Settings
 Fill in the configuration settings as seen in the screen shot below:
-![metalsmith_nodebuild.jpg](/img/blog/metalsmith_nodebuild.jpg)
+![metalsmith_nodebuild.jpg](/v3/img/blog/metalsmith_nodebuild.jpg)
 
 Click the *'Save'* button and watch the magic unfold.
 
 ### Step 6: Build Your Site
-![metalsmith_sitebuilding.jpg](/img/blog/metalsmith_sitebuilding.jpg)
+![metalsmith_sitebuilding.jpg](/v3/img/blog/metalsmith_sitebuilding.jpg)
 Once you click save, Netlify will step in and take over, though it will let you know what's happening along the way. This may take a few minutes, so take a break and Netlify will do the rest, while you watch the progress.
 
 ### Step 7: The End
 That's it.
 
 Once Netlify has build your site, it will assign a random name to it and you'll be presented with the site and the control panel for the site, ready for additional customizing.
-![metalsmith_done.jpg](/img/blog/metalsmith_done.jpg)
+![metalsmith_done.jpg](/v3/img/blog/metalsmith_done.jpg)
 
 You can change the site to be private and password protected, which is great for work in progress. You can also assign a custom domain name and it's easy to change settings for your site in general and gives you a good quick overview.
 

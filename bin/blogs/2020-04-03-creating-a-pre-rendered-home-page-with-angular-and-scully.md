@@ -245,7 +245,7 @@ Finally, we have a section to set the widths, margins, and font-sizes for mobile
 
 That's it for styling! You can see the whole file [here](https://github.com/tzmanics/prerendered-home-page/blob/master/src/app/home/home.component.scss). If you take a look at what we have being server on [localhost:4200](http://localhost:4200/) you should have a responsive layout of cards with titles, images, and blurbs.
 
-![screenshot of app home page](/img/blog/screenshot-of-app-home-page.jpg)
+![screenshot of app home page](/v3/img/blog/screenshot-of-app-home-page.jpg)
 
 Want to see it live? Just commit and push your code to your repository. This will trigger a Netlify build and you can run Netlify's open command to see the build in your project dashboard.
 
@@ -271,7 +271,7 @@ ng add @scullyio/init
 
 As you can see from the output, the Scully schematics updated a few files (`app.module.ts`, `polyfills.ts`, and `package.json`) and created a `scully.base-project.config.js` file. Since this project is a clone of the [our base project](https://github.com/tzmanics/base-project_final) it has taken the name information from the `angular.json` file to set this file name.
 
-![screenshot of scully output](/img/blog/screenshot-of-scully-output.jpg)
+![screenshot of scully output](/v3/img/blog/screenshot-of-scully-output.jpg)
 
 We want to make sure we run the build command `ng build (or ng build --prod)` before we run Scully with `npm run scully`. Scully traverses the project to get information on the routes and pre-renders the content, so we build the project to have the most up-to-date version ready for Scully. Instead of having to run these commands each time we can make two scripts, `jam` and `jam-prod` in the `package.json` file.
 
@@ -296,7 +296,7 @@ We want to make sure we run the build command `ng build (or ng build --prod)` be
 
 To make local checks easier the `jam` script can be run with `npm run jam`. That will build out the project, run Scully, and also open up a local server to check the output at [localhost:1668](http://localhost:1668/). We can see the stats from running Scully including how many routes it created and how long it took.
 
-![screenshot of output from running scully](/img/blog/screenshot-of-output-from-running-scully.jpg)
+![screenshot of output from running scully](/v3/img/blog/screenshot-of-output-from-running-scully.jpg)
 
 The script we made for the production build is a little different. First off we append the `--prod` flag to `ng build` to set the build configuration to production target. Then we pass two different flags to Scully. The first `--` is there to let npm know you're are about to pass parameters and the second `--nw` is to turn Scully's `watch` feature off. This is the feature that is turned on by default and starts up the local server (at `localhost:1668`). We don't want that in our production build on Netlify because it will make it so the build never completes.
 

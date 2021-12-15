@@ -2,7 +2,7 @@
 title: How to Integrate Netlify’s Form Handling in a React App
 authors:
   - Irene Morente
-image: /img/blog/react.svg
+image: /v3/img/blog/react.svg
 short_title: How to Integrate Netlify’s Form Handling in a React App
 topics:
   - tutorials

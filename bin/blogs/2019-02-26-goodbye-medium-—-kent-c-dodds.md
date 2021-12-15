@@ -12,9 +12,9 @@ topics:
 tags:
   - Redirects
   - Blogging
-  - JAMstack
-  - serverless
-  - functions
+  - Jamstack
+  - Serverless
+  - Functions
 tweet: >
   Kent C. Dodds explains why he migrated from Medium to his own #JAMstack site,
   and shows us his approach to leaving no URL behind. Made possible by Netlify's

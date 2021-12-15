@@ -9,7 +9,7 @@ lastmod: 2021-06-23
 topics:
   - tools
 tags:
-  - build Plugins
+  - Build Plugins
   - Testing
   - CI
   - E2E
@@ -23,7 +23,7 @@ seo:
   metatitle: How to Run Ghost Inspector Tests Within Netlify
   metadescription: Learn how to run end-to-end tests on every Netlify build with
     Ghost Inspector's Netlify Build Plugin.
-  ogimage: /img/blog/ghost-inspector-og.png
+  ogimage: /v3/img/blog/ghost-inspector-og.png
 ---
 Bugs in prod? [Ghost Inspector](https://ghostinspector.com/) is here to ~~haunt~~ help! With their brand new [Netlify Build Plugin](https://app.netlify.com/plugins/netlify-plugin-ghost-inspector/install), you can run your E2E tests on every Netlify build.
 

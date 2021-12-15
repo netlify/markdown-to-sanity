@@ -9,7 +9,7 @@ lastmod: 2020-06-30T00:00:00.000Z
 topics:
   - tutorials
 tags:
-  - identity
+  - Identity
   - Angular
 tweet: ""
 format: blog
@@ -60,13 +60,13 @@ netlify init
 
 We haz a site!
 
-![a screenshot of the project we have to far](/img/blog/initial-project.jpg)
+![a screenshot of the project we have to far](/v3/img/blog/initial-project.jpg)
 
 ## Adding Login with Netlify Identity
 
 To add login we only need TWO lines of code! I Shih Tzu not.
 
-![a shih tzu giving side eye](/img/blog/shihtzu.jpeg)
+![a shih tzu giving side eye](/v3/img/blog/shihtzu.jpeg)
 
 First, in the `index.html` file we will add a script that brings in the [Netlify Identity](https://docs.netlify.com/visitor-access/identity/?utm_source=blog&utm_medium=angular-identity-tzm&utm_campaign=devex) widget.
 
@@ -122,7 +122,7 @@ Then to add 'Log in' button we'll edit the template page it will live in. For th
 
 The final step is enabling Netlify Identity on our project's Netlify dashboard.
 
-![the Netlify Identity dashboard](/img/blog/enable-identity.jpg)
+![the Netlify Identity dashboard](/v3/img/blog/enable-identity.jpg)
 
 I could write more, but we just need to click the 'Enable Identity' button. So, that's all I'll say. Nothing more, nothing less. Anything else I write would
 just be more to read...oh, sorry. The video below shows how our empty button
@@ -143,18 +143,18 @@ Going back to the Identity section of our Netlify site's dashboard, we'll need t
 'Registration' section there is a box labeled 'External providers'. Click the
 'Add provider' dropdown to select an external provider.
 
-![dropdown of external providers](/img/blog/external-providers.jpg)
+![dropdown of external providers](/v3/img/blog/external-providers.jpg)
 
 When selected a pop-up window will open up and allow us to either use the default configurations or use our own credentials.
 
-![the form for using your own external provider credentials](/img/blog/own-credentials.jpg)
+![the form for using your own external provider credentials](/v3/img/blog/own-credentials.jpg)
 
 Using the default means that our visitors will see 'Netlify Identity' as the app requesting authorization. If we use our credentials they will see our GitHub,
 Google, etc. app or site instead. Once we choose either option and provide our
 info, if not using the defaults, we can refresh the page and see our new
 authorization options.
 
-![list of authorization options](/img/blog/external-list.jpg)
+![list of authorization options](/v3/img/blog/external-list.jpg)
 
 Here's a video walking through the whole process.
 
@@ -171,7 +171,7 @@ click the 'Edit settings' button all the user's information becomes editable.
 new roles. If we need to remove roles we can click the 'x' next to that role to
 remove it.
 
-![the User metadata form](/img/blog/roles.jpg)
+![the User metadata form](/v3/img/blog/roles.jpg)
 
 Words are hard, so here's a video instead!
 

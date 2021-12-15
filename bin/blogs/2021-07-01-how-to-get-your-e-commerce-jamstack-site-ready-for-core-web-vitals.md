@@ -8,10 +8,10 @@ lastmod: 2021-07-01
 topics:
   - tutorials
 tags:
-  - Ecommerce
-  - jamstack
+  - E-commerce
+  - Jamstack
   - Performance
-  - seo
+  - SEO
   - core web vitals
   - Builder.io
   - headless commerce
@@ -23,7 +23,7 @@ relatedposts:
 seo:
   metatitle: How to get your e-commerce Jamstack site ready for Core Web Vitals
   metadescription: "Jamstack sites have all kinds of performance benefits. But is that enough for the 2021 Core Web Vitals algorithm update? Learn more about how to optimize your ecommerce Jamstack sites. "
-  ogimage: /img/blog/ecommerce-cwv-og.png
+  ogimage: /v3/img/blog/ecommerce-cwv-og.png
 ---
 
 *This post is a contributed blog from Steve Sewell, founder and CEO of [Builder.io](https://www.builder.io) a headless CMS for ecommerce + powerful drag and drop page builder. Prior to Builder, Steve founded two other startups, a mobile & web application framework and a music gaming startup, and  led web engineering at ShopStyle.*
@@ -31,7 +31,7 @@ seo:
 
 Most e-commerce sites fail Core Web Vitals tests. This comes as no surprise, since e-commerce staples like rich imagery, pop-ups, dynamic pricing and real-time inventory lookups can lead to slow pages and sometimes frustrating UX. 
 
-![](/img/blog/core-web-vitals-ecommerce-1.png)
+![](/v3/img/blog/core-web-vitals-ecommerce-1.png)
 
 Google’s latest ranking update, “[Page Experience update](https://developers.google.com/search/docs/guides/page-experience),” includes the addition of three perceptual speed metrics to the search engine’s ranking algorithm. With the addition of these three metrics, collectively referred to as “Core Web Vitals,” Google aims to measure the experience a page provides based on the time it takes to load and become interactive.
 
@@ -47,7 +47,7 @@ Read on for a deep dive into CWV metrics, what updates to expect in 2021, and ho
 * First Input Delay (FID) measures interactivity. It measures the time it takes the page to respond to user interaction. A FID that is faster than 100ms is considered ‘good.’ This appears to be the metric that is easiest to optimize e-commerce sites for, as most of them currently meet the FID threshold.
 * Cumulative Layout Shift (CLS) measures visual stability. CLS is calculated by summing all of the page layout shifts that aren't caused by user interaction. A CLS that is lower than 0.1 is considered ‘good’ and a page with a CLS that of 0.25 or above will provide a janky experience. Please note that loading third-party content after the first render, or changes to the page caused by JavaScript rendering, can have a negative impact on CLS.
 
-![LCP, FID, and CLS definitions](/img/blog/core-web-vitals-ecommerce-2.png)
+![LCP, FID, and CLS definitions](/v3/img/blog/core-web-vitals-ecommerce-2.png)
 
 In order to pass Core Web Vitals a page needs to meet the three thresholds listed above for at least 75% of its traffic.
 
@@ -76,7 +76,7 @@ The good news is that Jamstack sites have an advantage when it comes to LCP, sin
 
 Blocking JavaScript is a particularly bad practice, but also a very solvable one. Common offenders are personalization and optimization services that block the page load to dynamically inject content. If any service requires using scripts, we recommend you always add the async attribute. If the service doesn’t function properly this way, consider using another one, or else you’ll see the impact on your performance.
 
-![Web perf culprit: blocking scripts](/img/blog/cwv-builder3.png)
+![Web perf culprit: blocking scripts](/v3/img/blog/cwv-builder3.png)
 
 Images are major culprits of inflated load times. Even when lazy-loaded, images can be oversized, use legacy formats, or be otherwise unoptimized. Builder and other API-driven services, including Imgix and Cloudinary, solve these issues out-of-the-box, but here’s how you can do this yourself:
 
@@ -84,7 +84,7 @@ Images are major culprits of inflated load times. Even when lazy-loaded, images 
 * Use dynamic `srcset` to deliver the optimal image based on resolution
 * Jamstack tip: use the Image component of your framework to get additional optimizations (e.g. `Next/Image` or `Gatsby/Image`)
 
-![Web perf culprit: oversized images](/img/blog/cwv-images-size.png)
+![Web perf culprit: oversized images](/v3/img/blog/cwv-images-size.png)
 
 The last culprit is an interesting one. E-commerce sites in particular love popups, but the Chrome UX report often counts them as the largest visual element on the page, adding up to seconds to your LCP metric. Google recommends to [avoid full screen interstitials](https://developers.google.com/search/blog/2016/08/helping-users-easily-access-content-on) however possible, which we agree with. But if you must use them, our recommendation is to only trigger popups upon user input, even if passive (e.g scrolling, mouse movements, etc.). This way, the popup will not be considered part of the full page load.
 
@@ -100,7 +100,7 @@ Optimize your Jamstack site’s FID by ensuring you’re loading the minimal Jav
 
 To debug and improve FID, try profiling your JavaScript using Google Chrome’s [performance tab](https://developer.chrome.com/docs/devtools/evaluate-performance/) to see what is taking up so much execution time. Look for long running scripts (long bars on the flame graph, like below) and find ways to remove or defer that JavaScript.
 
-![Core web vitals flame graph](/img/blog/cwv4-builder4.png)
+![Core web vitals flame graph](/v3/img/blog/cwv4-builder4.png)
 
 
 
@@ -114,7 +114,7 @@ Thankfully, there are a few things you can do to improve your CLS score, includi
 * Avoid dynamically injecting content, and use placeholders when needed to preserve the required space on the page.
 * Preload your custom fonts and use `font-display: optional`
 
-![](/img/blog/cls-optimization.png)
+![](/v3/img/blog/cls-optimization.png)
 
 ## Use Static Site Generation (SSG)
 

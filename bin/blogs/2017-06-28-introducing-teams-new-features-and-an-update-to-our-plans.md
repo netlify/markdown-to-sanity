@@ -3,14 +3,14 @@ title: 'Introducing Teams, New Features and an Update to Our Plans'
 authors:
   - Matt Biilmann
   - Chris Bach
-image: /img/blog/teams-blog-post-header.jpg
+image: /v3/img/blog/teams-blog-post-header.jpg
 format: blog
 topics:
   - news
 short_title: 'Intro to Teams, Features and New Plans'
 tags:
   - plans
-  - features
+  - Features
   - teams
   - ELRs
 description: >-
@@ -120,4 +120,4 @@ Special thanks to everyone who's joined us so far on the journey to re-think the
 
 _This post has been featured on **[Netlify Milestones on the road to 1 Million Devs](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#introduced-split-branch-testing)**_:
 
-[![Netlify 1 Million Devs article feature](/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#introduced-split-branch-testing)
+[![Netlify 1 Million Devs article feature](/v3/img/blog/featured-on-1-million-devs-banner.png)](https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/#introduced-split-branch-testing)

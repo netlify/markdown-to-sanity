@@ -7,10 +7,10 @@ short_title: Accessing ENV Variables in Webpack
 date: 2016-10-04T00:00:00.000Z
 thumbnail: null
 title: Access Local Environment Variables using Webpack
-image: /img/blog/
+image: /v3/img/blog/
 tags:
-  - react
-  - jamstack
+  - React
+  - Jamstack
 description: >-
   Building a Frontend JavaScript application in any framework will most like
   have you using a modern build tool like Gulp or Webpack. At Netlify we built
@@ -25,7 +25,7 @@ have you using a modern build tool like Gulp or [Webpack](https://webpack.github
 
 Netlify allows you to add [environment variables](https://www.netlify.com/docs/continuous-deployment/) to your build so you can define the way your site is built. In addition to the variables you choose to define, Netlify has a number of pre-defined variables saved in our own UI:
 
-![script example](/img/blog/env_variables.png)
+![script example](/v3/img/blog/env_variables.png)
 
 The only downside to this UI only approach is that you are unable to access those variables in your local development environment.
 

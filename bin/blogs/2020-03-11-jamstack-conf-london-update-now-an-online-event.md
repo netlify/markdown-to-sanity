@@ -12,8 +12,8 @@ date: '2020-03-12'
 topics:
   - news
 tags:
-  - JAMstack
-  - JAMstack Conf
+  - Jamstack
+  - Jamstack Conf
 tweet: ''
 format: blog
 relatedposts:
@@ -23,11 +23,11 @@ seo:
   metadescription: >-
     In light of the public health risks related to coronavirus (COVID-19), we are transitioning JAMstack Conf London (May 27-28, 2020) to a virtual, online event. This is the best way forward for the global JAMstack community.
   metatitle: 'Read JAMstack Conf London Update - Conf Now An Online Event'
-  ogimage: /img/blog/jamstack-promo-7-1-.png
+  ogimage: /v3/img/blog/jamstack-promo-7-1-.png
 ---
 In light of the public health risks related to coronavirus (COVID-19), we have decided to transition [JAMstack Conf London, May 27-28](https://jamstackconf.com/) to an online event. We believe this is the best way forward for the global JAMstack community, and we are excited to bring everyone together virtually at the end of May!
 
-![JAMstack Conf London 2020 - Now an online event](/img/blog/jamstack-promo-7-1-.png)
+![JAMstack Conf London 2020 - Now an online event](/v3/img/blog/jamstack-promo-7-1-.png)
 
 JAMstack Conf is a celebration of the next generation of web apps, where the [JAMstack community](https://jamstack.org/community/) and ecosystem comes together to learn, connect and create. We received more than 100 CFP submissions for the London event, dozens of interested sponsors and were expecting 800 attendees. While we’re disappointed to miss each other in-person, we are confident we can channel this energy and enthusiasm into an online event that’s more accessible for our global community members.
 

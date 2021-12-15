@@ -10,7 +10,7 @@ cmsUserSlug: ""
 date: 2016-08-30
 tags:
   - deploy contexts
-  - deploy previews
+  - Deploy Previews
   - continuous delivery
 topics:
   - news

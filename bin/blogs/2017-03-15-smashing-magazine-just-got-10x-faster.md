@@ -2,14 +2,14 @@
 title: Smashing Magazine just got 10x faster
 authors:
   - Chris Bach
-image: /img/blog/logomark.jpg
+image: /v3/img/blog/logomark.jpg
 format: blog
 short_title: Learn why Smashing left WordPress and chose the JAMstack instead.
 topics:
   - insights
 tags:
   - popular
-  - JAMstack
+  - Jamstack
   - Design
   - CMS
   - APIs
@@ -48,7 +48,7 @@ Smashing Magazine made a decision last year to redesign their site because they 
 
 WordPress was causing major headaches and Smashing was no longer happy with what it had to offer.  Even with using most of the caching plugins available, it was clear that WordPress was not working since they had issues with *every single caching plugin*.
 
-![undefined](/img/blog/gif_1.gif)
+![undefined](/v3/img/blog/gif_1.gif)
 
 *If* Netlify was going to take this on we had to understand that the top priorities for Smashing were:
 
@@ -62,7 +62,7 @@ WordPress was causing major headaches and Smashing was no longer happy with what
 
 Is that all? After a few discussions and a team pow-wow Netlify decided that this was too big of an opportunity to miss.  Smashing magazine would provide us the perfect use case to prove that JAMstack sites were **the** way to develop sites.
 
-![undefined](/img/blog/gif_4.gif)
+![undefined](/v3/img/blog/gif_4.gif)
 
 This meant we had needed multiple assets for Smashing. We needed to create a build tool for the magazine itself, a content management system for their thousands of blogs posts, a comments engine (over 200,000 comments!), an eCommerce platform for purchases, a subscription service, and a member login.
 
@@ -85,7 +85,7 @@ You can find a list of those APIs on our [open source page](https://www.netlify.
 
 By far, one of the biggest projects that came out of the Smashing job was the content management system open source project **[Netlify CMS](https://www.netlifycms.org/)**.
 
-![undefined](/img/blog/netlifycms.svg)
+![undefined](/v3/img/blog/netlifycms.svg)
 
 Far from it’s bloated, monolithic cousins like WordPress, we wanted to bring Netlify CMS to the modern, Git-centric world by integrating content editors into a Git workflow. In addition, Netlify CMS is platform agnostic and works with (almost) all static site generators and sites stored in GitHub.  It’s fast, easy, flexible, and we are very proud of it.
 
@@ -99,7 +99,7 @@ A few months later, here we are... Smashing announced a beta site today, [next.s
 
 SmashingMagazine.com is now much faster, they went from 800 ms time to first load to 80 ms. Smashing’s users will have a smoother experience due to the easier integrations, speed, and better performance.
 
-![undefined](/img/blog/gif_2.gif)
+![undefined](/v3/img/blog/gif_2.gif)
 
 Smashing now has the unified platform they were dreaming of. They go to **one** place for the robust needs of their site. With Netlify, our open source projects, and a more efficient way of managing content there’s no longer confusion about which buttons to push or which tool to go to for what.
 

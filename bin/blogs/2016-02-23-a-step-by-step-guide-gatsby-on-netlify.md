@@ -10,12 +10,12 @@ title: 'A Step-by-Step Guide: Gatsby on Netlify'
 description: A short guide to help you set up Gatsby on Netlify with continuous deployment.
 tags:
   - popular
-  - gatsby
-  - nodejs
-  - react
-  - tutorial
+  - Gatsby
+  - NodeJS
+  - React
+  - Tutorial
 format: blog
-image: /img/blog/gatsby-leonardo.jpg
+image: /v3/img/blog/gatsby-leonardo.jpg
 seo:
   metadescription: Explore this guide to learn how to set up Gatsbyjs on Netlify. Get deploy previews, continuous deployment, and more for your Gatsby sites and apps.
 ---
@@ -155,7 +155,7 @@ Now that your code is on GitHub let's connect it to Netlify.
 
 ### Step 1: Add Your New Site
 
-![New Site Button](/img/blog/new_site_button.png)
+![New Site Button](/v3/img/blog/new_site_button.png)
 
 Once you've logged in, click the **New site from Git** button on your dashboard.
 
@@ -163,7 +163,7 @@ Once you've logged in, click the **New site from Git** button on your dashboard.
 
 Clicking the button brings you to this screen where you connect Netlify to your Git repository. Select the service you use.
 
-![Connect Git Repo](/img/blog/create_link_repo.png)
+![Connect Git Repo](/v3/img/blog/create_link_repo.png)
 
 When you push to GitHub, Gitlab, or Bitbucket, Netlify does all the work for you, meaning no more manual deploying of updates or changes!
 
@@ -175,7 +175,7 @@ Click the **Authorize Application** button to allow Netlify and GitHub to talk t
 
 ### Step 4: Choose Your Repo
 
-![Choose Your Repo](/img/blog/choose_repo.png)
+![Choose Your Repo](/v3/img/blog/choose_repo.png)
 
 Now that you've connected Netlify and GitHub, you see a list of your Git repositories. Select the one you created earlier.
 
@@ -183,13 +183,13 @@ Now that you've connected Netlify and GitHub, you see a list of your Git reposit
 
 Here you configure your options. For this tutorial, the defaults are what you need, so click **Deploy site**.
 
-![Deploy Settings](/img/blog/deploy_settings.png)
+![Deploy Settings](/v3/img/blog/deploy_settings.png)
 
 ### Step 6: Build Your Site
 
 Now it's time to sit back and relax, grab something cold to drink, scratch the dog behind the ears, or get up and walk around. (You've probably been in front of the computer for too long today, right?) Netlify does the rest, and you can watch the progress.
 
-![Deploy Progress](/img/blog/deploy_progress.png)
+![Deploy Progress](/v3/img/blog/deploy_progress.png)
 
 ### Step 7: Make changes
 
@@ -197,7 +197,7 @@ When you make changes to your site they are automatically reflected locally, but
 
 ### Step 8: Done
 
-![Gatsby Hello World!](/img/blog/gatsby.png)
+![Gatsby Hello World!](/v3/img/blog/gatsby.png)
 
 Wait, you thought there was going to be more? Nope! Netlify has done it all for you, including giving your site a temporary name. Now you can add your custom domain, and your site is live for your adoring public to view. Congratulations, and thanks for using Netlify!
 

@@ -7,9 +7,9 @@ topics:
   - tutorials
 tags:
   - popular
-  - tutorial
-  - functions
-  - serverless
+  - Tutorial
+  - Functions
+  - Serverless
 format: blog
 description: >-
   Create a URL shortener that uses your own custom domain with Netlify Functions

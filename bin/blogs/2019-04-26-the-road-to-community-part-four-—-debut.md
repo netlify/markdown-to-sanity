@@ -10,7 +10,7 @@ date: '2019-04-26'
 topics:
   - news
 tags:
-  - community support
+  - Community support
 tweet: ''
 format: blog
 ---
@@ -22,7 +22,7 @@ After quietly launching to some of our most trusted stakeholders, we felt confid
 
 We had known for some time that we would be launching a new product, Netlify Dev, at the New York installment of our popular series, JAMstack_conf. (Join us [in London in July](https://jamstackconf.com/london/), or in San Francisco for our [flagship conference in O](https://jamstackconf.com/sf/)[ctober](https://jamstackconf.com/sf/).) We introduced Netlify Dev with a bang, and it totally paid off: Netlify Dev stayed pinned to the top of Hacker News for the better part of a day. 
 
-![](/img/blog/mikito-tateisi-333584-unsplash.jpg)
+![](/v3/img/blog/mikito-tateisi-333584-unsplash.jpg)
 
 Photo by [Mikito Tateisi on Unsplash](https://unsplash.com/photos/bJhT_8nbUA0)
 
@@ -36,7 +36,7 @@ As already documented in my previous blog posts, we spent time thinking about th
 
 We spent a good couple of weeks beta testing with our stakeholders (meetup organizers, enthusiasts, and many more) making sure we got as close to “done” as possible before launch. Test-driving our Community in beta allowed us to zero in on areas that needed more work before our user volume increased, for example, where notification bots were concerned. We spent some time writing some custom integrations for our internal Slack workspace, which helps take the guesswork out of identifying posts that need attention.
 
-![](/img/blog/neonbrand-581118-unsplash.jpg)
+![](/v3/img/blog/neonbrand-581118-unsplash.jpg)
 
 Photo by [NeONBRAND on Unsplash](https://unsplash.com/photos/rQ4UGzFBYJ8)
 
