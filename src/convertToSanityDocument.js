@@ -134,7 +134,7 @@ async function convertToSanityDocument({data = {}, contents}) {
     description,
     "slug":{
     "_type":"slug",
-      "current": `/blog/${year}/${month}/${day}/${slugify(title ? title : `no-title-${nanoid()}`, { lower: true, strict: true })}/`
+      "current": `${year}/${month}/${day}/${slugify(title ? title : `no-title-${nanoid()}`, { lower: true, strict: true })}/`
     },
     publishDate: `${year}-${month}-${day}`,
     "markdown": turndownService.turndown(contents),
