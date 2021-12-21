@@ -18,7 +18,7 @@ topics:
 
 Arik Fraimovich (creator of the [excellent Redash tool](http://redash.io/)), asked some good questions about our migration from Angular 1 to React (covered in or our 3 part article series on [Converting from Angular to React](https://www.netlify.com/blog/2016/07/26/our-conversion-from-angular-to-react/)) on Twitter:
 
-{{< tweet 782662944685449216 >}}
+{% renderFile "./src/components/pages/blog/tweet.vue", { tweetId: "782662944685449216" } %}
 
 I made a quick reply on Twitter, but obviously this is a big enough subject that doing a full retrospective on the process definitely doesn't fit in a tweet. So here's a (way) longer series of thoughts on this.
 

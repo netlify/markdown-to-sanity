@@ -16,7 +16,7 @@ Last month AWS announced the release of Node.js 12 for Lambda functions.
 
 This means faster functions & new Node.js features. 🎉
 
-{{< tweet 1196543520997171200 >}}
+{% renderFile "./src/components/pages/blog/tweet.vue", { tweetId: "1196543520997171200" } %}
 
 Starting today, all new sites will be using Node.js 12 as the default function runtime. All existing sites can update to Node.js 12 for [Netlify Functions](https://www.netlify.com/products/functions/) via the instructions below.
 
@@ -36,6 +36,6 @@ To take advantage of the newer Node.js runtime with functions on sites created b
 
 After setting the environment variable, update your function code to trigger a new deployment.
 
-## Questions? 
+## Questions?
 
 If you have questions, feel free to drop us a line in the [Netlify Community forums](https://community.netlify.com/).

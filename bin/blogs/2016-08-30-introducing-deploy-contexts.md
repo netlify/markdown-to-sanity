@@ -18,7 +18,7 @@ topics:
 
 Launching [Deploy Previews](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/) last month was an amazing moment for us. Many people told us how this feature is improving their development workflows.
 
-{{< tweet 768580952339525632 >}}
+{% renderFile "./src/components/pages/blog/tweet.vue", { tweetId: "768580952339525632" } %}
 
 However, deploying every branch in a Git repository has its consequences and new challenges. The number of deploys we process is growing exponentially, reaching 1 million very soon. After using Deploy Previews for some time, we realized that with a few tweaks they could be even more useful.
 
