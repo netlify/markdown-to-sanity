@@ -40,10 +40,10 @@ You can sell products on Jamstack sites using Stripe Checkout to process payment
 
 ## Set up a new site for local development with Netlify
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/netlify-set-up-a-new-site-for-local-development-with-netlify-dev"
-  title="Set up a new site for local development with Netlify Dev"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Set up a new site for local development with Netlify Dev",
+  eggheadVideoUrl: "https://egghead.io/lessons/netlify-set-up-a-new-site-for-local-development-with-netlify-dev"
+} %}
 
 Our first step is to create a new site that will display our products. The Stripe and serverless setup we’re going to build will work with any Jamstack-friendly development approach, including your favorite static site generator. For this example, we’ll be using plain HTML, CSS, and JavaScript with no build tools or frameworks.
 
@@ -142,7 +142,7 @@ Working locally makes development much faster, but how do we do that with server
 To get started, we need to install the `netlify-cli` globally, which adds a global `netlify` (and the shorter `ntl`) command, then we log into our Netlify account:
 
 ```bash
-# install the 
+# install the
 npm install -g netlify-cli
 
 # log into your Netlify account
@@ -174,10 +174,10 @@ The site will automatically open in the browser and we’ll see the basic site s
 
 ## Write a serverless function that returns product data
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/javascript-return-json-data-from-a-serverless-function-using-netlify-functions"
-  title="Return JSON data from a serverless function using Netlify Functions"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Return JSON data from a serverless function using Netlify Functions",
+  eggheadVideoUrl: "https://egghead.io/lessons/javascript-return-json-data-from-a-serverless-function-using-netlify-functions"
+} %}
 
 Next, let’s get products on the screen! We’re going to use a serverless function to load our JSON data.
 
@@ -250,10 +250,10 @@ Once we’ve saved our updated config, we can start the server with `ntl dev` an
 
 ## Use the fetch API to load data into an HTML page
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/javascript-use-the-native-fetch-api-to-load-json-data-into-an-html-page"
-  title="Use the native Fetch API to load JSON data into an HTML page"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Use the native Fetch API to load JSON data into an HTML page",
+  eggheadVideoUrl: "https://egghead.io/lessons/javascript-use-the-native-fetch-api-to-load-json-data-into-an-html-page"
+} %}
 
 To load the product data into the frontend of our site, we need to add some client-side JavaScript.
 
@@ -308,10 +308,10 @@ Reload the browser to see the data displayed.
 
 ## Use HTML templates to display asynchronously loaded JSON data
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/javascript-use-html-templates-to-display-json-data"
-  title="Use HTML templates to display JSON data"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Use HTML templates to display JSON data",
+  eggheadVideoUrl: "https://egghead.io/lessons/javascript-use-html-templates-to-display-json-data"
+} %}
 
 To create the markup for our products, we’re going to use [the HTML `<template>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). We can define product markup in a component-like fashion, which gives us the benefit of keeping HTML in HTML while still letting us set the content using JavaScript. (#UseThePlatform)
 
@@ -433,18 +433,18 @@ To make our products look a little more presentable, let’s add styles for the 
 +   grid-template-columns: repeat(2, 1fr);
 +   margin-top: 3rem;
 + }
-+ 
++
 + .product img {
 +   max-width: 100%;
 + }
-+ 
++
 + .product form {
 +   align-items: baseline;
 +   display: grid;
 +   gap: 0.5rem;
 +   grid-template-columns: 70px 50px 1fr;
 + }
-+ 
++
 + .product input {
 +   border: 1px solid teal;
 +   border-radius: 0.25rem;
@@ -452,7 +452,7 @@ To make our products look a little more presentable, let’s add styles for the 
 +   line-height: 1.25rem;
 +   padding: 0.25rem;
 + }
-+ 
++
 + .product button {
 +   background: teal;
 +   border: none;
@@ -471,10 +471,10 @@ Reload the browser to see the styled products.
 
 ## Connect to Netlify and set up automatic deployments using the Netlify CLI
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/netlify-set-up-a-github-repository-for-automatic-deploys-using-netlify-s-cli"
-  title="Set up a GitHub repository for automatic deploys using Netlify’s CLI"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Set up a GitHub repository for automatic deploys using Netlify’s CLI",
+  eggheadVideoUrl: "https://egghead.io/lessons/netlify-set-up-a-github-repository-for-automatic-deploys-using-netlify-s-cli"
+} %}
 
 At this point, let’s get our site set up on Netlify to make sure everything is working the way we expect it.
 
@@ -542,10 +542,10 @@ At this point, any time we make changes, we can commit them to our `master` bran
 
 ## Use Netlify environment variables for local development
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/egghead-use-netlify-environment-variables-during-local-development"
-  title="Use Netlify environment variables during local development"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Use Netlify environment variables during local development",
+  eggheadVideoUrl: "https://egghead.io/lessons/egghead-use-netlify-environment-variables-during-local-development"
+} %}
 
 Working with third-party APIs often requires secret tokens, API keys, and other sensitive data that we can’t commit to our code repositories. We can store these secret values as environment variables in Netlify, which makes them available to our builds without exposing them in source code. And since we’re using Netlify Dev, we can _also_ use the environment variables locally, which is super convenient.
 
@@ -586,10 +586,10 @@ After saving, go to the command line and run `ntl dev` to see the environment va
 
 ## Handle product purchasing flow with Stripe Checkout
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/javascript-use-serverless-functions-to-handle-the-stripe-checkout-flow-on-jamstack-sites"
-  title="Use serverless functions to handle the Stripe Checkout flow on Jamstack sites"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Use serverless functions to handle the Stripe Checkout flow on Jamstack sites",
+  eggheadVideoUrl: "https://egghead.io/lessons/javascript-use-serverless-functions-to-handle-the-stripe-checkout-flow-on-jamstack-sites"
+} %}
 
 At this point, we have product data, a site to display the products, and Stripe credentials that will allow us to process payments — now we need to actually build the checkout flow!
 

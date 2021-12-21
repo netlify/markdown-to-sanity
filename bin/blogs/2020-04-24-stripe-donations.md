@@ -41,10 +41,10 @@ We recently teamed up again on _Learn With Jason_ to [build a Jamstack site with
 
 If you prefer video, this tutorial is also available as [an egghead lesson](https://jason.af/egghead/stripe-donations).
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/egghead-add-a-donation-button-to-a-website-using-stripe"
-  title="Add a Donation Button to a Website Using Stripe"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Add a Donation Button to a Website Using Stripe",
+  eggheadVideoUrl: "https://egghead.io/lessons/egghead-add-a-donation-button-to-a-website-using-stripe"
+} %}
 
 ## Create a donation product on Stripe
 

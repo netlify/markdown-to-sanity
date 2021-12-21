@@ -25,10 +25,12 @@ In this tutorial, we will show you how easy it is to launch your site on Netlify
 
 If you prefer video, this tutorial is also available as [an egghead lesson](https://jason.af/egghead/netlify-deploy).
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/egghead-deploy-a-site-to-netlify-from-git"
-  title="Deploy a Site to Netlify From Git"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue",
+  {
+    eggheadVideoUrl="https://egghead.io/lessons/egghead-deploy-a-site-to-netlify-from-git",
+    eggheadVideoTitle="Deploy a Site to Netlify From Git"
+  }
+%}
 
 ## Step 1: Add Your New Site
 

@@ -49,10 +49,10 @@ The first things we need to migrate a WordPress site to the Jamstack is a WordPr
 
 ### Install WPGraphQL and WPGraphiQL
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-install-wpgraphql-and-wpgraphiql-plugins-in-wordpress-using-the-command-line"
-  title="Install WPGraphQL and WPGraphiQL plugins in WordPress using the command line"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Install WPGraphQL and WPGraphiQL plugins in WordPress using the command line",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-install-wpgraphql-and-wpgraphiql-plugins-in-wordpress-using-the-command-line"
+} %}
 
 The heart of a Jamstack-friendly WordPress site is pulling WordPress data from an API instead of using the built-in template system. One of the most approachable options for accessing WordPress data via API is [WPGraphQL](https://wpgraphql.com/).
 
@@ -111,10 +111,10 @@ Great! We’ve now got a functioning GraphQL API for WordPress that we can use t
 
 ## Create a new Gatsby site
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-create-a-new-gatsby-site-using-npx-and-the-hello-world-starter"
-  title="Create a new Gatsby site using npx and the hello world starter"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Create a new Gatsby site using npx and the hello world starter",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-create-a-new-gatsby-site-using-npx-and-the-hello-world-starter"
+} %}
 
 Before we can use our WordPress data, we need to create a new Jamstack site that will display it.
 
@@ -137,10 +137,10 @@ This generates a new site in a directory called `wordpress-jamstack` with a bare
 
 ### Install and configure `gatsby-source-graphql`
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-install-and-configure-gatsby-source-graphql-to-read-wordpress-data-from-wpgraphql"
-  title="Install and configure `gatsby-source-graphql` to read WordPress data from WPGraphQL"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Install and configure `gatsby-source-graphql` to read WordPress data from WPGraphQL",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-install-and-configure-gatsby-source-graphql-to-read-wordpress-data-from-wpgraphql"
+} %}
 
 Gatsby uses [source plugins](https://www.gatsbyjs.org/tutorial/part-five/) to load data. One of the most powerful source plugins is `gatsby-source-graphql`, which allows us to use _any_ GraphQL API as a data source in Gatsby.
 
@@ -209,10 +209,10 @@ After executing the query by pressing the play button, we’ll see our WordPress
 
 ## Create pages from WordPress content
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-create-pages-in-gatsby-from-wordpress-pages"
-  title="Create pages in Gatsby from WordPress pages"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Create pages in Gatsby from WordPress pages",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-create-pages-in-gatsby-from-wordpress-pages"
+} %}
 
 Now that we have a Gatsby site that has access to our WordPress data, we can start creating pages.
 
@@ -288,10 +288,10 @@ This doesn’t look like much right now, but it gives us the page ID, which will
 
 ### Write a GraphQL query to load page content from WordPress
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-display-wordpress-page-content-in-gatsby-page-template-components"
-  title="Display WordPress page content in Gatsby page template components"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Display WordPress page content in Gatsby page template components",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-display-wordpress-page-content-in-gatsby-page-template-components"
+} %}
 
 Collocating GraphQL queries with the components that use them is a great way to keep your codebase understandable. Because of this, we’re going to query for individual page data using the page ID in the template component itself.
 
@@ -367,10 +367,10 @@ Save and check out `http://localhost:8000` — it’s working!
 
 ## Add a shared layout and styles
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-add-a-shared-layout-component-and-global-styles-to-a-gatsby-site"
-  title="Add a shared layout component and global styles to a Gatsby site"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Add a shared layout component and global styles to a Gatsby site",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-add-a-shared-layout-component-and-global-styles-to-a-gatsby-site"
+} %}
 
 To make our Gatsby site look more like a real website, we need to add a layout — a shared header in this case — and styles.
 
@@ -513,10 +513,10 @@ After saving this change, our page at `http://localhost:8000` will start looking
 
 ## Create pages from WordPress posts
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-load-wordpress-post-data-and-create-gatsby-pages"
-  title="Load WordPress post data and create Gatsby pages"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Load WordPress post data and create Gatsby pages",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-load-wordpress-post-data-and-create-gatsby-pages"
+} %}
 
 In WordPress, content can be split up into multiple content types. By default, there are “pages”, which we’ve already handled, and “posts”, which are most commonly used to power blogs.
 
@@ -628,10 +628,10 @@ Hey, that wasn’t so bad — we’re getting pretty close here!
 
 ## Add support for WordPress block styles
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-add-styles-for-wordpress-content-blocks-in-gatsby-pages"
-  title="Add styles for WordPress content blocks in Gatsby pages"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Add styles for WordPress content blocks in Gatsby pages",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-add-styles-for-wordpress-content-blocks-in-gatsby-pages"
+} %}
 
 With the release of Gutenberg, WordPress introduced a block-based editor that allows a slick visual editing experience that supports some stylized blocks like pull quotes.
 
@@ -680,10 +680,10 @@ This looks pretty okay considering we didn’t write any custom styles.
 
 ## Create a page to show blog previews
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-create-a-page-in-gatsby-to-show-wordpress-blog-post-previews"
-  title="Create a page in Gatsby to show WordPress blog post previews"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Create a page in Gatsby to show WordPress blog post previews",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-create-a-page-in-gatsby-to-show-wordpress-blog-post-previews"
+} %}
 
 To allow site visitors to browse blog posts, we need to create a page that lists post previews.
 
@@ -738,10 +738,10 @@ Save this file, then head to `http://localhost:8000/blog` to see the previews.
 
 ## Use WordPress settings to configure your Gatsby site
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-use-wordpress-settings-to-configure-your-gatsby-site"
-  title="Use WordPress settings to configure your Gatsby site"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Use WordPress settings to configure your Gatsby site",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-use-wordpress-settings-to-configure-your-gatsby-site"
+} %}
 
 WordPress has a full-featured set of tools for managing site settings that is friendly to non-developers, which means it’s more approachable for site contributors than modifying code.
 
@@ -794,10 +794,10 @@ Save and check out the site to see that the settings are being loaded. If you wa
 
 ## Create Gatsby navigation from WordPress menus
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-create-gatsby-navigation-from-wordpress-menus"
-  title="Create Gatsby navigation from WordPress menus"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Create Gatsby navigation from WordPress menus",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-create-gatsby-navigation-from-wordpress-menus"
+} %}
 
 WordPress menus allow content editors to control the navigation settings on the site. If we want to use those menus for our Gatsby site, we can!
 
@@ -898,10 +898,10 @@ All that’s left to do at this point is get this site deployed!
 
 ## Deploy a WordPress-powered Gatsby site to Netlify using the Netlify CLI
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-deploy-a-wordpress-powered-gatsby-site-to-netlify-using-the-netlify-cli"
-  title="Deploy a WordPress-powered Gatsby site to Netlify using the Netlify CLI"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Deploy a WordPress-powered Gatsby site to Netlify using the Netlify CLI",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-deploy-a-wordpress-powered-gatsby-site-to-netlify-using-the-netlify-cli"
+} %}
 
 To deploy the site, we need to have the code in a repository on GitHub, Bitbucket, or GitLab.
 
@@ -942,10 +942,10 @@ The site we built in this tutorial is live at <https://egghead-wordpress-jamstac
 
 ## Automatically trigger Netlify deploys whenever changes are made in WordPress
 
-{{< egghead-embed
-  link="https://egghead.io/lessons/gatsby-automatically-trigger-netlify-deploys-for-wordpress-changes"
-  title="Automatically trigger Netlify deploys for WordPress changes"
->}}
+{% renderFile "./src/components/pages/blog/egghead-embed.vue", {
+  eggheadVideoTitle: "Automatically trigger Netlify deploys for WordPress changes",
+  eggheadVideoUrl: "https://egghead.io/lessons/gatsby-automatically-trigger-netlify-deploys-for-wordpress-changes"
+} %}
 
 Netlify sites automatically rebuild whenever changes are pushed to our code, but we _also_ want the site to rebuild when changes are made to our WordPress content.
 
