@@ -332,6 +332,7 @@ WordPress returns markup and HTML-encoded entities, so we need to use `dangerous
 To use our page data, we can grab just the `data` prop in our component, then drill down to the page content and display those values:
 
 ```diff-jsx
+  {% raw %}
   import React from "react"
   import { graphql } from "gatsby"
 
@@ -359,6 +360,7 @@ To use our page data, we can grab just the `data` prop in our component, then dr
   }
 
   export default PageTemplate
+  {% endraw %}
 ```
 
 Save and check out `http://localhost:8000` — it’s working!
@@ -407,6 +409,7 @@ This sets up a `header` element with a link to go back to the home page and a `m
 Once we have a layout component, we need to import it in our page template and wrap it around the output:
 
 ```diff-jsx
+  {% raw %}
   import React from "react"
   import { graphql } from "gatsby"
 + import Layout from '../components/layout';
@@ -435,6 +438,7 @@ Once we have a layout component, we need to import it in our page template and w
   }
 
   export default PageTemplate
+  {% endraw %}
 ```
 
 Once we’ve saved these changes, we can head to `http://localhost:8000` to see the header at the top of the page.
@@ -529,6 +533,7 @@ Fortunately, the process for creating pages from WordPress posts is _very_ simil
 To start, we can duplicate `src/templates/page-template.js` and name the new file `src/templates/post-template.js`. Inside, we need to make the following edits:
 
 ```diff-jsx
+  {% raw %}
   import React from "react"
   import { graphql } from "gatsby"
   import Layout from "../components/layout"
@@ -561,6 +566,7 @@ To start, we can duplicate `src/templates/page-template.js` and name the new fil
 
 - export default PageTemplate
 + export default PostTemplate
+  {% endraw %}
 ```
 
 Now we’re ready to actually load post data and create Gatsby pages.
@@ -690,6 +696,7 @@ To allow site visitors to browse blog posts, we need to create a page that lists
 To do this, we’re going to create a Gatsby page at `src/pages/blog.js`, query for post data, and map over the results to create a list of previews:
 
 ```jsx
+{% raw %}
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
@@ -730,6 +737,7 @@ const Blog = ({ data }) => {
 }
 
 export default Blog
+{% endraw %}
 ```
 
 Save this file, then head to `http://localhost:8000/blog` to see the previews.
