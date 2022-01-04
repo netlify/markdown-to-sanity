@@ -438,14 +438,14 @@ This is what the beer template look like:
             <div class="col-lg-5 col-sm-6">
                 <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-                <h2 class="section-heading">{{ .Title }}</h2>
-                {{ .Content }}
+                <h2 class="section-heading">{% raw %}{{ .Title }}{% endraw %}</h2>
+                {% raw %}{{ .Content }}{% endraw %}
             </div>
-            {{ with .Params.img }}
+            {% raw %}{{ with .Params.img }}{% endraw %}
             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                <img class="img-responsive" src="img/{{ . }}" alt="">
+                <img class="img-responsive" src="img/{% raw %}{{ . }}{% endraw %}" alt="">
             </div>
-            {{ end }}
+            {% raw %}{{ end }}{% endraw %}
         </div>
     </div>
 </div>
@@ -454,7 +454,7 @@ This is what the beer template look like:
 In this template, we will add a select field with five options (whose values range from 1 to 5):
 
 ```html
-Rating: <select id="{{ .Params.id }}">
+Rating: <select id="{% raw %}{{ .Params.id }}{% endraw %}">
   <option></option>
   <option value="1">1</option>
   <option value="2">2</option>
@@ -488,11 +488,11 @@ In sequence, let’s use some templating scripts to loop the next scripts for ev
 
 ```html
 <script>
-{{ range $index, $element :=  .Data.Pages }}
-  {{ if (eq .Section "beers")}}
+{% raw %}{{ range $index, $element :=  .Data.Pages }}{% endraw %}
+  {% raw %}{{ if (eq .Section "beers")}}{% endraw %}
     // Our beer specific code will go here
-  {{ end }}
-{{ end }}
+  {% raw %}{{ end }}{% endraw %}
+{% raw %}{{ end }}{% endraw %}
 </script>
 ```
 
@@ -501,22 +501,22 @@ Now, let’s enable the jQueryBarRating plugin and fetch the “getRating” lam
 ```html
 <script>
 var apiURL = "https://[your-url]/beer/rating";
-{{ range $index, $element :=  .Data.Pages }}
-  {{ if (eq .Section "beers")}}
+{% raw %}{{ range $index, $element :=  .Data.Pages }}{% endraw %}
+  {% raw %}{{ if (eq .Section "beers")}}{% endraw %}
     $(function() {
-      var element = $('#{{ .Params.id }}');
+      var element = $('#{% raw %}{{ .Params.id }}{% endraw %}');
       // Initialize the Star Rating System
       element.barrating({
         theme: 'fontawesome-stars',
         allowEmpty: true,
       });
       // Load the Rating from the server
-      $.getJSON(apiURL + "?beer={{ .Params.id }}", function( data ) {
+      $.getJSON(apiURL + "?beer={% raw %}{{ .Params.id }}{% endraw %}", function( data ) {
         element.barrating('set', Math.round(data.averageRating));
       });
     });
-  {{ end }}
-{{ end }}
+  {% raw %}{{ end }}{% endraw %}
+{% raw %}{{ end }}{% endraw %}
 </script>
 ```
 
@@ -535,27 +535,27 @@ Finally, let’s handle the user input and save his own rating:
 
 <script>
 var apiURL = "https://[your-url]/beer/rating";
-{{ range $index, $element :=  .Data.Pages }}
-  {{ if (eq .Section "beers")}}
+{% raw %}{{ range $index, $element :=  .Data.Pages }}{% endraw %}
+  {% raw %}{{ if (eq .Section "beers")}}{% endraw %}
     $(function() {
-      var element = $('#{{ .Params.id }}');
+      var element = $('#{% raw %}{{ .Params.id }}{% endraw %}');
       // Initialize the Star Rating System
       element.barrating({
         theme: 'fontawesome-stars',
         allowEmpty: true,
         onSelect: function(value, text, event) {
           if(event) {
-            $.post( apiURL, JSON.stringify({ beer: "{{ .Params.id }}", rating: value }));
+            $.post( apiURL, JSON.stringify({ beer: "{% raw %}{{ .Params.id }}{% endraw %}", rating: value }));
           }
         }
       });
       // Load the Rating from the server
-      $.getJSON(apiURL + "?beer={{ .Params.id }}", function( data ) {
+      $.getJSON(apiURL + "?beer={% raw %}{{ .Params.id }}{% endraw %}", function( data ) {
         element.barrating('set', Math.round(data.averageRating));
       });
     });
-  {{ end }}
-{{ end }}
+  {% raw %}{{ end }}{% endraw %}
+{% raw %}{{ end }}{% endraw %}
 </script>
 ```
 

@@ -27,8 +27,8 @@ If you prefer video, this tutorial is also available as [an egghead lesson](http
 
 {% renderFile "./src/components/pages/blog/egghead-embed.vue",
   {
-    eggheadVideoUrl="https://egghead.io/lessons/egghead-deploy-a-site-to-netlify-from-git",
-    eggheadVideoTitle="Deploy a Site to Netlify From Git"
+    eggheadVideoUrl: "https://egghead.io/lessons/egghead-deploy-a-site-to-netlify-from-git",
+    eggheadVideoTitle: "Deploy a Site to Netlify From Git"
   }
 %}
 

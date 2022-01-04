@@ -60,7 +60,7 @@ Here’s a quick rundown of what a valid Netlify form looks like:
                   :checked="soundBite === form.chosenClip"
                   @input="ev => form.chosenClip = ev.target.value"
                 >
-                <span>{{ soundBite }}</span>
+                <span>{% raw %}{{ soundBite }}{% endraw %}</span>
               </label>
             </li>
           </ul>

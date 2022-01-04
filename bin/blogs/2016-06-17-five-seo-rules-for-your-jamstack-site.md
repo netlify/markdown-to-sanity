@@ -106,9 +106,9 @@ Adding basic social sharing is as easy and tweaking your page templates or parti
 ```
 <div class="share-page">
     Share this on &rarr;
-    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
-    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
-    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+    <a href="https://twitter.com/intent/tweet?text={% raw %}{{ page.title }}{% endraw %}&url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}&via={% raw %}{{ site.twitter_username }}{% endraw %}&related={% raw %}{{ site.twitter_username }}{% endraw %}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+    <a href="https://facebook.com/sharer.php?u={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    <a href="https://plus.google.com/share?url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
 </div>
 ```
 

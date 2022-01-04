@@ -36,7 +36,7 @@ seo:
 
 *This is a contributed post by Moriel Schottlender. Moriel is a physicist turned software engineer turned systems architect, currently working on modernizing Wikipedia’s architecture. She’s an open source enthusiast, right-to-left language support evangelist, and a general domain hoarder. You can find her as [@mooeypoo](https://twitter.com/mooeypoo) on Twitter, [Polywork](https://www.polywork.com/mooeypoo), and most other social platforms.*
 
-<hr> 
+<hr>
 
 A little while ago, after much consideration and thought, I decided to migrate my hackathon-style backend-heavy dynamic tool [neutrality.wtf](https://neutrality.wtf/#/) to a serverless architecture, hosted by Netlify. You can read about my thought process about why I ended up not only deciding to migrate but being excited about it in [a blog post I wrote about migrating to a serverless approach](https://www.netlify.com/blog/2021/05/27/can-dynamic-sites-go-serverless/).
 
@@ -46,7 +46,7 @@ Refactoring and rewriting code is never an easy thing to do; there are a lot of 
 
 If you've made the decision to delve into Jamstack and are now facing the daunting challenge of rewriting a monolithic project, I'm hoping this post can guide you through the process in a way that makes it much less daunting, and, dare I hope — even exciting!
 
-## Step 1: Planning the architecture 
+## Step 1: Planning the architecture
 
 The first step was to try and evaluate what I have, and see what I want to achieve. In the case of neutrality.wtf, the old architecture (written in the caffeine-haze that is a hackathon) was already attempting to achieve some separation of concerns with one repo for the UI and another repo (as a submodule) for the "business logic." But the two weren't as separate as they should be, and given 6 years of occasional fixes and features, that separation was rapidly degrading.
 
@@ -113,11 +113,11 @@ See, my library was delivering what it should have quite well — it expected an
 
 … But the operation took 10 whole seconds to complete. Oops.
 
-I don't know when was the last time you surfed large pages on the web, but no one waits 10 full seconds for a response. This was completely unacceptable and unusable. I knew the code does what it needs to do. It was now time to make sure it's working better and more efficiently. 
+I don't know when was the last time you surfed large pages on the web, but no one waits 10 full seconds for a response. This was completely unacceptable and unusable. I knew the code does what it needs to do. It was now time to make sure it's working better and more efficiently.
 
 ## Step 3: Now that it works, make it work better
 
-Now that the code worked I could look at why the operation is taking so long, and how to fix it. 
+Now that the code worked I could look at why the operation is taking so long, and how to fix it.
 
 My attempts to keep behavior separate and distinct also meant that I was repeating operations that were expensive. Now that things worked, I needed to reconsider once again what my library will do versus the microservice, and how they can work well together.
 
@@ -157,7 +157,7 @@ Serverless architecture with microservices is great at encouraging a separation 
 
 The library has a role to play in the product that I was envisioning, but clearly, it could be used for other use cases as well. I wanted to make it more generic — allowing potential users to utilize the behaviors in products that I don't necessarily immediately think about. There's power in that, especially in an open source software — but there's also a huge risk. Overgeneralizing a piece of software can also make it so complex that it is unusable.
 
-This is a pitfall that is unfortunately pretty common for us engineers. We get excited about a piece of software and add features and flexibility and configuration variables because we can. This is also the source of the known online joke about recognizing tools and websites that were "made by engineers"; it's not that the software is bad — it's that these pieces of software tend to be so customizable and flexible, that the user experience ends up being more chaos than order. 
+This is a pitfall that is unfortunately pretty common for us engineers. We get excited about a piece of software and add features and flexibility and configuration variables because we can. This is also the source of the known online joke about recognizing tools and websites that were "made by engineers"; it's not that the software is bad — it's that these pieces of software tend to be so customizable and flexible, that the user experience ends up being more chaos than order.
 
 There's a fine line that keeps complexity at bay while allowing for generalized flexible systems to exist and be used. That line is often really hard to keep in control.
 
@@ -165,13 +165,13 @@ There's a fine line that keeps complexity at bay while allowing for generalized 
 
 Most technical systems and codebases have complexity in them, and most are trying to abstract that complexity in some way for their users; the question is usually what tradeoffs you're going to make about the complexity, and where you decide it should "live" in your system.
 
-The more features you add, the more complex the system can end up being for those who use the system. The more you encapsulate the complexity, the cleaner your system becomes, but also all much harder to extend. 
+The more features you add, the more complex the system can end up being for those who use the system. The more you encapsulate the complexity, the cleaner your system becomes, but also all much harder to extend.
 
 Deciding where the line lies depends on the goals you set for yourself, and how you define what users will utilize your system. This is true for both user-facing products and technical codebases like npm libraries, where your users are the developers.
 
-When thinking about my replacement library, I wanted to make it as clean as possible to invoke the replacement operation, which meant I was willing to have the tradeoff of a slightly more complex internal working and internal calculation of the process. 
+When thinking about my replacement library, I wanted to make it as clean as possible to invoke the replacement operation, which meant I was willing to have the tradeoff of a slightly more complex internal working and internal calculation of the process.
 
-This also helped me keep some features at bay; I tried to keep in mind the main use case of the neutrality.wtf web app, and the secondary use case of a browser extension that replaces words on the page in the tab. 
+This also helped me keep some features at bay; I tried to keep in mind the main use case of the neutrality.wtf web app, and the secondary use case of a browser extension that replaces words on the page in the tab.
 
 The choices I made for which configuration variable to include were based on those two main features, and those would likely be the considerations I keep making in the future when that library is maintained and extended. If the use cases change in the future, the considerations may change as well, but keeping in mind the main goals and use cases makes sure it's easier to reign in uncontrolled expansions where the library would be so complex to use, with so many dependent configuration options, that it becomes too complex.
 
@@ -197,7 +197,7 @@ async function RunOperation (event) {
   let result = replacer.replace(data.content, 'men', 'women', {
     baseUrl: urlObj.origin,
     replaceBothWays: true
-  });  
+  });
 
   // Output result
   return {
@@ -206,7 +206,7 @@ async function RunOperation (event) {
       "Content-Type": "text/html",
     },
     body: result
-  }}
+  }}{% endraw %}
 
 exports.handler = builder(RunOperation);
 ```
@@ -221,7 +221,7 @@ To test the optimization that the On-demand Builders give me, I ran a little tes
 
 Without the on-demand builders, the system took about 7 seconds to fetch the complete replaced result. Subsequent calls were slightly faster (about 6 seconds), probably because the service was already running. It was still quite a lot, especially for the cases where multiple people share a single URL they've replaced — meaning many people open the same requested URL over and over.
 
-With the on-demand builders enabled on the microservice output, cache came into play. While the first run of the requested URL still took about 7 seconds, subsequent runs took an average of 600ms-800ms each. **That is over 7 times faster!** 
+With the on-demand builders enabled on the microservice output, cache came into play. While the first run of the requested URL still took about 7 seconds, subsequent runs took an average of 600ms-800ms each. **That is over 7 times faster!**
 
 On top of that improved speed, using the on-demand builder cache meant that the system skipped activating the actual microservice, this lowered the actual usage of the server resources significantly. Double win — times seven!
 
@@ -254,9 +254,9 @@ This was super handy, and setting it up in the `netlify.toml` file is the only t
 
 Finally, I was ready to add the interface.
 
-## Step 5: Create the interface 
+## Step 5: Create the interface
 
-The entire point of a serverless application is that the architecture is loosely coupled and that the UI is decoupled — the UI is (or multiples of UIs) are independent of the microservice. That means I could make multiple interfaces that talk to my API or replace them seamlessly if I ever need to. 
+The entire point of a serverless application is that the architecture is loosely coupled and that the UI is decoupled — the UI is (or multiples of UIs) are independent of the microservice. That means I could make multiple interfaces that talk to my API or replace them seamlessly if I ever need to.
 
 Neutrality.wtf has a single purpose input to accept requested URLs with one or two informational pages, so I chose a very simple vuejs app with vuetify component library. The operation is done by the microservice, so I didn't even have a need for a full app with state management. It was a simple matter of collecting (and validating) user input, sending it to the microservice, and displaying the result.
 
@@ -278,7 +278,7 @@ The `netlify dev` command would build the microservice for me locally, and then 
 
 Since the `.functions` folder that contains the microservice is in the same folder (and repo) as the front-end, running this compound command gives me another huge benefit: it basically provides me with a fully operational staging server for both front- and back-end changes.
 
-Netlify's deployment CI/CD includes a PR preview; when I deploy I don't need to use the `netlify dev` command, since the system automatically builds the microservice for me. I just tell Netlify to run its internal operations and then `npm run build` to run the vuejs front-end, and whatever changes I make to either the UI or microservice, Netlify will automatically produce a working version of the entire system for me — locally and in PR previews — making it possible for me to test and QA the entire system together before I deploy it. 
+Netlify's deployment CI/CD includes a PR preview; when I deploy I don't need to use the `netlify dev` command, since the system automatically builds the microservice for me. I just tell Netlify to run its internal operations and then `npm run build` to run the vuejs front-end, and whatever changes I make to either the UI or microservice, Netlify will automatically produce a working version of the entire system for me — locally and in PR previews — making it possible for me to test and QA the entire system together before I deploy it.
 
 Staging servers cost a lot of money and take a lot of effort to keep up with the deployment server. Now, I get it done for me!
 

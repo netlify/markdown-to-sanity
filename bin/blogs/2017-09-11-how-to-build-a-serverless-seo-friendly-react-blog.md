@@ -253,7 +253,7 @@ Next we'll update `BlogPost.js` to fetch and display posts based on the route:
           return (
             <div>
               <h1>{post.title}</h1>
-              <div dangerouslySetInnerHTML={{__html: post.body}} />
+              <div dangerouslySetInnerHTML={% raw %}{{__html: post.body}}{% endraw %} />
             </div>
           );
         } else {
@@ -326,7 +326,7 @@ Here's what the complete code for the component looks like. Inspect the DOM to v
               </Helmet>
 
               <h1>{post.title}</h1>
-              <div dangerouslySetInnerHTML={{__html: post.body}} />
+              <div dangerouslySetInnerHTML={% raw %}{{__html: post.body}}{% endraw %} />
             </div>
           );
         } else {

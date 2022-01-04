@@ -105,7 +105,7 @@ You can also do this same thing with a [Layout template](https://www.11ty.dev/do
 
 ```markup
 <!doctype html>
-{{ content }}
+{% raw %}{{ content }}{% endraw %}
 ```
 
 And then add the layout reference to our `index.vue` template file:

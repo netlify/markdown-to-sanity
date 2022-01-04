@@ -256,7 +256,7 @@ Create a .babelrc file and add a reference to the babel-preset-env.
 {
   presets: ["env"]
 }
-```    
+```
 
 Add new key to our webpack module, which will also have a rule that is our loader.
 

@@ -270,9 +270,9 @@ Now we get to put a summary of all our posts on one page! First, we need to edit
 +    <li *ngFor="let post of posts$ | async">
 +      <a [routerLink]="post.route">
 +        <div class="post-card">
-+          <h2>{{ post.title }}</h2>
-+          <p>{{ post.authors }}</p>
-+          <b>{{ post.description }}</b>
++          <h2>{% raw %}{{ post.title }}{% endraw %}</h2>
++          <p>{% raw %}{{ post.authors }}{% endraw %}</p>
++          <b>{% raw %}{{ post.description }}{% endraw %}</b>
 +        </div>
 +      </a>
 +    </li>

@@ -212,7 +212,7 @@ The payment request object provides a `canMakePayment` method that allows you ch
     }, [stripe]);
 
 +   if (paymentRequest) {
-+     return <PaymentRequestButtonElement options={{ paymentRequest }} />;
++     return <PaymentRequestButtonElement options={% raw %}{{ paymentRequest }}{% endraw %} />;
 +   }
 
     // Use a traditional checkout form.

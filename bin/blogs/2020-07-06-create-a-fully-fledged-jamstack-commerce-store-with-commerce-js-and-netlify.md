@@ -474,7 +474,7 @@ There are three component and pages in which we first utilize our pre-rendered p
                         Products
                         <span
                           className="position-absolute font-size-tiny text-right"
-                          style={{ right: '-12px', top: '-4px' }}
+                          style={% raw %}{{ right: '-12px', top: '-4px' }}{% endraw %}
                         >
                           {category.count}
                         </span>
@@ -524,10 +524,10 @@ There are three component and pages in which we first utilize our pre-rendered p
                           <a className="mb-5 d-block font-color-black cursor-pointer">
                             <div
                               className="mb-3"
-                              style={{
+                              style={% raw %}{{
                                 paddingBottom: '125%',
                                 background: `url("${product.media.source}") center center/cover`
-                              }}
+                              }}{% endraw %}
                             />
                             <p className="font-size-subheader mb-2 font-weight-medium">
                               {product.name}
@@ -561,7 +561,7 @@ There are three component and pages in which we first utilize our pre-rendered p
               <div
                 ref={this.sidebar}
                 className="position-fixed left-0 right-0"
-                style={{ top: '7.5rem' }}
+                style={% raw %}{{ top: '7.5rem' }}{% endraw %}
               >
                 { this.renderSidebar() }
               </div>
@@ -1054,7 +1054,7 @@ In our `cartItem.js` in `components/cart/` is where we are retrieving our cart a
             <div className="cart-item d-flex">
               <div
                 className="cart-item--image mr-4"
-                style={{ backgroundImage: `url("${item.media.source}")` }}
+                style={% raw %}{{ backgroundImage: `url("${item.media.source}")` }}{% endraw %}
               ></div>
               <div className="flex-grow-1 borderbottom border-color-gray400 h-100">
                 <div className="d-flex justify-content-between mb-2">

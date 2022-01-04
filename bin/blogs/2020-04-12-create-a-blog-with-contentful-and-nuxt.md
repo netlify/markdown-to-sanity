@@ -65,15 +65,15 @@ From here, if you go to Settings > API Keys, you will find an example token all 
 
 ## Set up with Netlify
 
-If you click the **deploy to netlify button** on this very post, you will be prompted to sign in and we’ll deploy the site for you! 
+If you click the **deploy to netlify button** on this very post, you will be prompted to sign in and we’ll deploy the site for you!
 
-If you prefer going through the steps with a Nuxt application from scratch, you can set the build command to be `npm run generate` or `yarn generate` and our directory for deployment to be `dist`, and you’re on your way! 
+If you prefer going through the steps with a Nuxt application from scratch, you can set the build command to be `npm run generate` or `yarn generate` and our directory for deployment to be `dist`, and you’re on your way!
 
 From here, within the site dashboard, go to **Settings > Build & Deploy**, and set a few environment variables:
 
 ![Environment Variables in the Netlify Dashboard](/v3/img/blog/env-var.jpg)
 
-* `CONTENTFUL_ACCESSTOKEN` – this will be the Content Delivery API- access token 
+* `CONTENTFUL_ACCESSTOKEN` – this will be the Content Delivery API- access token
 * `CONTENTFUL_SPACE` – this will be the Space ID
 * `CONTENTFUL_ENVIRONMENT` (optional, it will default to master)
 
@@ -93,17 +93,17 @@ You should be all set up! Now every time you make a change and push to master, y
 
 ---
 
-# Project Setup 
+# Project Setup
 
-The following section isn’t required reading, but if you choose to set up this project from scratch or want to get to know all the pieces in order to best use it, this section will guide you. 
+The following section isn’t required reading, but if you choose to set up this project from scratch or want to get to know all the pieces in order to best use it, this section will guide you.
 
 ## Bringing in Contentful
 
 We just talked about how we’re using that `.env` file to use our environment variables locally, let’s talk a bit about how we’re bringing in data from the Contentful API and using those environment variables.
 
-We install a few packages: 
+We install a few packages:
 
-* `dotenv`: allows you to use those environment variables locally 
+* `dotenv`: allows you to use those environment variables locally
 * `contentful`
 * `node-sass` and `sass-loader`: allows us to use scss in our project
 * `@nuxtjs/markdownit`– A Nuxt module that allows us to take a string of markdown and parse it into HTML
@@ -113,8 +113,8 @@ In our nuxt.config.js file, we’ll import dotenv and use the .config method. Fr
 ```js
 import dotenv from "dotenv"; dotenv.config();
 
-export default {   
-...  
+export default {
+...
   env: {
    CONTENTFUL_SPACE: process.env.CONTENTFUL_SPACE,
    CONTENTFUL_ACCESSTOKEN: process.env.CONTENTFUL_ACCESSTOKEN,
@@ -128,8 +128,8 @@ We will create a plugin for Contentful. It will require the Contentful package `
 ```js
 const contentful = require("contentful");
 
-module.exports = contentful.createClient({  
-  space: process.env.CONTENTFUL_SPACE,  
+module.exports = contentful.createClient({
+  space: process.env.CONTENTFUL_SPACE,
   accessToken: process.env.CONTENTFUL_ACCESSTOKEN
 });
 ```
@@ -213,11 +213,11 @@ From there, we can loop through our posts and expose what we like in that first 
          "
        ></div>
        <h2 class="title">
-         <nuxt-link :to="post.fields.slug">{{ post.fields.title }}</nuxt-link>
+         <nuxt-link :to="post.fields.slug">{% raw %}{{ post.fields.title }}{% endraw %}</nuxt-link>
        </h2>
-       <p class="author">By {{ post.fields.author.fields.name }}</p>
+       <p class="author">By {% raw %}{{ post.fields.author.fields.name }}{% endraw %}</p>
        <p class="description">
-         {{ post.fields.description }}<br />
+         {% raw %}{{ post.fields.description }}{% endraw %}<br />
          <nuxt-link :to="post.fields.slug" class="more">Read more ⟶</nuxt-link>
        </p>
      </section>
@@ -259,8 +259,8 @@ First, we’ll store the `slug` in our data, and in our computed property, we’
    <p class="back">
      <nuxt-link to="/">⟵ Back to Home</nuxt-link>
    </p>
-   <h1>{{ post.fields.title }}</h1>
-   <p class="author">By {{ post.fields.author.fields.name }}</p>
+   <h1>{% raw %}{{ post.fields.title }}{% endraw %}</h1>
+   <p class="author">By {% raw %}{{ post.fields.author.fields.name }}{% endraw %}</p>
    <div
      class="image"
      :style="
@@ -274,7 +274,7 @@ First, we’ll store the `slug` in our data, and in our computed property, we’
 
 Now, like before, we can format and choose what we want to show for any individual post.
 
-You might notice this line: 
+You might notice this line:
 
 ```html
 <article v-html="$md.render(post.fields.body)"></article>
@@ -300,7 +300,7 @@ export default {
       '/post3'
     ]
   }
-} 
+}
 ```
 
 So we’ll make that programmatically. We don’t have easy access to the store in the config file, but we have access to the plugin we made and the environment variables, so we can create dynamic routes this way:
@@ -312,7 +312,7 @@ const contentful = require("contentful");
 const client = contentful.createClient({
  space: process.env.CONTENTFUL_SPACE,
  accessToken: process.env.CONTENTFUL_ACCESSTOKEN
-}); 
+});
 ```
 
 Then we can generate our routes. I’ve used a promise.all here so that you can easily add more fields like authors if you like, without a refactor:

@@ -93,7 +93,7 @@ A **config.toml** is already available in the file folder structure. Here you ca
        description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
 
      [[menu.main]]
-         name = "About" 
+         name = "About"
          url  = "/about"
          weight = 1
 
@@ -140,75 +140,75 @@ Now that you have a basic understanding of how content is organized, let's work 
 
     <--! site/layouts/_default/list.html -->
 
-    {{ partial "header" . }}
+    {% raw %}{{ partial "header" . }}{% endraw %}
 
-    <div class="content container {{ .Title }} {{ .Section | urlize }}">
-      <h1>{{ .Section }}</h1>
+    <div class="content container {% raw %}{{ .Title }}{% endraw %} {% raw %}{{ .Section | urlize }}{% endraw %}">
+      <h1>{% raw %}{{ .Section }}{% endraw %}</h1>
       <!-- Sections are defined in the config.toml -->
       <!-- Food -->
-      {{ if eq .Section "food" }}
+      {% raw %}{{ if eq .Section "food" }}{% endraw %}
         <!-- categories are defined in the site/content -->
-        {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+        {% raw %}{{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}{% endraw %}
           <section>
-            {{ if eq "categories" $taxonomyname }}
-              {{ range $key, $value := $taxonomy }}
-                {{ if ne $key "drinks"}}
-                  <h2><em>{{ $key }}</em></h2>
+            {% raw %}{{ if eq "categories" $taxonomyname }}{% endraw %}
+              {% raw %}{{ range $key, $value := $taxonomy }}{% endraw %}
+                {% raw %}{{ if ne $key "drinks"}}{% endraw %}
+                  <h2><em>{% raw %}{{ $key }}{% endraw %}</em></h2>
                   <hr>
-                  {{ range $value.Pages.GroupByParam "type" }}
-                    <h3>{{ .Key }}</h3>
+                  {% raw %}{{ range $value.Pages.GroupByParam "type" }}{% endraw %}
+                    <h3>{% raw %}{{ .Key }}{% endraw %}</h3>
                     <ul>
-                    {{ range .Pages }}
+                    {% raw %}{{ range .Pages }}{% endraw %}
                       <li>
-                        <p><strong>{{ .Title }}:</strong> {{ .Params.description }}</p>
-                        <p>{{ .Params.price }}</p>
+                        <p><strong>{% raw %}{{ .Title }}{% endraw %}:</strong> {% raw %}{{ .Params.description }}{% endraw %}</p>
+                        <p>{% raw %}{{ .Params.price }}{% endraw %}</p>
                       </li>
-                    {{ end }}
+                    {% raw %}{{ end }}{% endraw %}
                     </ul>
-                  {{ end }}
-                {{ end }}
-              {{ end }}
-            {{ end }}
+                  {% raw %}{{ end }}{% endraw %}
+                {% raw %}{{ end }}{% endraw %}
+              {% raw %}{{ end }}{% endraw %}
+            {% raw %}{{ end }}{% endraw %}
           </section>
-        {{ end }}
+        {% raw %}{{ end }}{% endraw %}
       <!-- Drinks -->
-      {{ else if eq .Section "drinks" }}
-        {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+      {% raw %}{{ else if eq .Section "drinks" }}{% endraw %}
+        {% raw %}{{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}{% endraw %}
           <section>
-            {{ if eq "categories" $taxonomyname }}
-              {{ range $key, $value := $taxonomy }}
-                {{ if eq $key "drinks"}}
-                  {{ range $value.Pages.GroupByParam "type" }}
-                    <h2><em>{{ .Key }}</em></h3>
+            {% raw %}{{ if eq "categories" $taxonomyname }}{% endraw %}
+              {% raw %}{{ range $key, $value := $taxonomy }}{% endraw %}
+                {% raw %}{{ if eq $key "drinks"}}{% endraw %}
+                  {% raw %}{{ range $value.Pages.GroupByParam "type" }}{% endraw %}
+                    <h2><em>{% raw %}{{ .Key }}{% endraw %}</em></h3>
                     <hr>
                     <ul>
-                    {{ range .Pages }}
+                    {% raw %}{{ range .Pages }}{% endraw %}
                       <li>
-                        <p><strong>{{ .Title }}:</strong> {{ .Params.description }}</p>
-                        <p>{{ .Params.price }}</p>
+                        <p><strong>{% raw %}{{ .Title }}{% endraw %}:</strong> {% raw %}{{ .Params.description }}{% endraw %}</p>
+                        <p>{% raw %}{{ .Params.price }}{% endraw %}</p>
                       </li>
-                    {{ end }}
+                    {% raw %}{{ end }}{% endraw %}
                     </ul>
-                  {{ end }}
-                {{ end }}
-              {{ end }}
-            {{ end }}
+                  {% raw %}{{ end }}{% endraw %}
+                {% raw %}{{ end }}{% endraw %}
+              {% raw %}{{ end }}{% endraw %}
+            {% raw %}{{ end }}{% endraw %}
           </section>
-        {{ end }}
+        {% raw %}{{ end }}{% endraw %}
       <!-- Image Gallery -->
-      {{ else if eq .Section "gallery" }}
+      {% raw %}{{ else if eq .Section "gallery" }}{% endraw %}
         <div class="gallery-carousel">
-          {{ range where .Pages "Section" "gallery" }}
-            <div><img src="{{ .Params.image }}"/></div>
-          {{ end }}
+          {% raw %}{{ range where .Pages "Section" "gallery" }}{% endraw %}
+            <div><img src="{% raw %}{{ .Params.image }}{% endraw %}"/></div>
+          {% raw %}{{ end }}{% endraw %}
         </div>
         <div class="buttons">
           <button class="prev half-button">Prev</button>
           <button class="next half-button">Next</button>
         </div>
-      {{ end }}
+      {% raw %}{{ end }}{% endraw %}
     </div>
 
-    {{ partial "footer" . }}
+    {% raw %}{{ partial "footer" . }}{% endraw %}
 
 Adding the food menu was straightforward. However, making continual updates to the menu will be tedious (as you might have discovered first hand). In [Part 2](/blog/2017/10/11/coding-modern-websites-with-the-jamstack-part-2/) of this tutorial, I  show you how to maintain the content of this site without using the command line.

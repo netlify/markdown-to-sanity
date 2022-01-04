@@ -114,7 +114,7 @@ The markup is being render using  [Hugo](http://gohugo.io/), and it gives us the
 
 <--! src/layouts/partials/head.html -->
 <body>
-  {{ partial "search" . }}
+  {% raw %}{{ partial "search" . }}{% endraw %}
   …
 ```
 
@@ -161,7 +161,7 @@ Some of the cooler AlgoIia examples use text highlight to enhance search results
 
 [![jam-search](/v3/img/blog/jam-search.gif)](https://community.algolia.com/instantsearch.js/examples/media/)
 
-Algolia provides a faster experience by milliseconds and we are living in an age where [Milliseconds Matter](https://blog.algolia.com/). 
+Algolia provides a faster experience by milliseconds and we are living in an age where [Milliseconds Matter](https://blog.algolia.com/).
 
 Our search results are now returning to the user at less than **10ms** on average. Lunr.js was actually a great solution but comparable with the speed at which Algolia delivers content it was not nearly as fast and lacked the cool features like [Typo-Tolerance ](https://www.algolia.com/doc/guides/textual-relevance/typo-tolerance/)and [Synonym Matching](https://www.algolia.com/doc/guides/textual-relevance/synonyms/).
 

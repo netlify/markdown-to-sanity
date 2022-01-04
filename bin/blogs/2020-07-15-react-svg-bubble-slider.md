@@ -137,11 +137,11 @@ You can access the [current reaction via a render prop](https://react-svg-bubble
     +       <SvgBubbleSlider icons={ICONS_TO_USE}>
     +         {({ reaction }) => (
     +           <div
-    +             style={{
+    +             style={% raw %}{{
     +               display: "flex",
     +               justifyContent: "center",
     +               margin: "24px 0px",
-    +             }}
+    +             }}{% endraw %}
     +           >
     +             <button onClick={() => console.log(reaction)}>
     +               {reaction ? reaction : "?"}
@@ -186,11 +186,11 @@ Import `useState` so you can store the count value in React's local state, then 
             <SvgBubbleSlider icons={ICONS_TO_USE}>
               {({ reaction }) => (
                 <div
-                  style={{
+                  style={% raw %}{{
                     display: "flex",
                     justifyContent: "center",
                     margin: "24px 0px",
-                  }}
+                  }}{% endraw %}
                 >
                   <button onClick={() => console.log(reaction)}>
                     {reaction ? reaction : "?"}
@@ -260,11 +260,11 @@ We're now going to surface the icons and their corresponding counts by mapping o
             <SvgBubbleSlider icons={ICONS_TO_USE}>
                 {({ reaction }) => (
                   <div
-                    style={{
+                    style={% raw %}{{
                       display: "flex",
                       justifyContent: "center",
                       margin: "24px 0px",
-                    }}
+                    }}{% endraw %}
                   >
                     <button onClick={() => console.log(reaction)}>
                       {reaction ? reaction : "?"}
@@ -273,22 +273,22 @@ We're now going to surface the icons and their corresponding counts by mapping o
                 )}
             </SvgBubbleSlider>
     +       <div
-    +         style={{
+    +         style={% raw %}{{
     +           display: "grid",
     +           gridTemplateColumns: "repeat(6, 48px)",
     +           justifyContent: "center",
-    +         }}
+    +         }}{% endraw %}
     +       >
     +         {stateReactions.map((reaction, index) => {
     +           const { name, count } = reaction
     +           return (
     +             <div
     +               key={index}
-    +               style={{
+    +               style={% raw %}{{
     +                 alignItems: "center",
     +                 display: "flex",
     +                 flexDirection: "column",
-    +               }}
+    +               }}{% endraw %}
     +             >
     +               <SvgIcon name={name} />
     +               <div>{count}</div>
@@ -347,11 +347,11 @@ This operation updates state using `setStateReactions` and each time an update o
             <SvgBubbleSlider icons={ICONS_TO_USE}>
               {({ reaction }) => (
                 <div
-                  style={{
+                  style={% raw %}{{
                     display: "flex",
                     justifyContent: "center",
                     margin: "24px 0px",
-                  }}
+                  }}{% endraw %}
                 >
     -             <button onClick={() => console.log(reaction)}>
     +             <button onClick={() => handleReaction(reaction)}
@@ -361,22 +361,22 @@ This operation updates state using `setStateReactions` and each time an update o
               )}
             </SvgBubbleSlider>
             <div
-              style={{
+              style={% raw %}{{
                 display: "grid",
                 gridTemplateColumns: "repeat(6, 48px)",
                 justifyContent: "center",
-              }}
+              }}{% endraw %}
             >
               {stateReactions.map((reaction, index) => {
                 const { name, count } = reaction
                 return (
                   <div
                     key={index}
-                    style={{
+                    style={% raw %}{{
                       alignItems: "center",
                       display: "flex",
                       flexDirection: "column",
-                    }}
+                    }}{% endraw %}
                   >
                     <SvgIcon name={name} />
                     <div>{count}</div>

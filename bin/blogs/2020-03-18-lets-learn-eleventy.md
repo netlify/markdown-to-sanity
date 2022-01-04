@@ -78,7 +78,7 @@ And you create `layout.liquid` with the following:
     <title>My Eleventy Site</title>
   </head>
   <body>
-    {{ content }}
+    {% raw %}{{ content }}{% endraw %}
   </body>
 </html>
 ```
@@ -113,16 +113,16 @@ title: Hello frontmatter!
 This is my website.
 ```
 
-In `layout.liquid`, we can reference the title anywhere using `{{ title }}`:
+In `layout.liquid`, we can reference the title anywhere using `{% raw %}{{ title }}{% endraw %}`:
 
 ```html
 <html>
   <head>
-    <title>{{ title }}</title>
+    <title>{% raw %}{{ title }}{% endraw %}</title>
   </head>
   <body>
-    <h1>{{ title }}</h1>
-    {{ content }}
+    <h1>{% raw %}{{ title }}{% endraw %}</h1>
+    {% raw %}{{ content }}{% endraw %}
   </body>
 </html>
 ```
@@ -158,11 +158,11 @@ We can now access our global data using the file name and the property. For exam
 ```html
 <html>
   <head>
-    <title>{{ title }} · {{ site.title }}</title>
+    <title>{% raw %}{{ title }}{% endraw %} · {% raw %}{{ site.title }}{% endraw %}</title>
   </head>
   <body>
-    <h1>{{ title }}</h1>
-    {{ content }}
+    <h1>{% raw %}{{ title }}{% endraw %}</h1>
+    {% raw %}{{ content }}{% endraw %}
   </body>
 </html>
 ```
@@ -230,7 +230,7 @@ Welcome to my site!
 
 {% for blog in collections.blog %}
 
-- [{{blog.data.title}}]({{blog.url}})
+- [{% raw %}{{blog.data.title}}{% endraw %}]({% raw %}{{blog.url}}{% endraw %})
 
 {% endfor %}
 ```
@@ -280,15 +280,15 @@ Welcome to my site!
 
 {% for blog in blogs %}
 
-- [{{blog.data.title}}]({{blog.url}})
+- [{% raw %}{{blog.data.title}}{% endraw %}]({% raw %}{{blog.url}}{% endraw %})
 
 {% endfor %}
 
 {% if pagination.href.previous %}
-  <a href="{{pagination.href.previous}}">Previous Page</a>
+  <a href="{% raw %}{{pagination.href.previous}}{% endraw %}">Previous Page</a>
 {% endif %}
 {% if pagination.href.next %}
-  <a href="{{pagination.href.next}}">Next Page</a>
+  <a href="{% raw %}{{pagination.href.next}}{% endraw %}">Next Page</a>
 {% endif %}
 ```
 
@@ -320,13 +320,13 @@ pagination:
   alias: character
   size: 1
 layout: layout.liquid
-permalink: '/characters/{{character.name|slug}}/'
+permalink: '/characters/{% raw %}{{character.name|slug}}{% endraw %}/'
 title: Rick & Morty Characters
 ---
 
-## {{character.name}}
+## {% raw %}{{character.name}}{% endraw %}
 
-![{{character.name}}]({{character.image}})
+![{% raw %}{{character.name}}{% endraw %}]({% raw %}{{character.image}}{% endraw %})
 ```
 
 Setting the `pagination.size` to 1 means we create a page for each result!

@@ -47,7 +47,7 @@ Netlify CMS:
       - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
         label: "Post" # Used in the UI, ie.: "New Post"
         folder: "_posts"
-        slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+        slug: "{% raw %}{{year}}{% endraw %}-{% raw %}{{month}}{% endraw %}-{% raw %}{{day}}{% endraw %}-{% raw %}{{slug}}{% endraw %}"
         create: true # Allow users to create new documents in this collection
         fields: # The fields each document in this collection have
           - {label: "Title", name: "title", widget: "string", tagname: "h1"}

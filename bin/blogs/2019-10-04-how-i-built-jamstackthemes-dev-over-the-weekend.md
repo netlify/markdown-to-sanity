@@ -89,7 +89,7 @@ Creating the Homepage
 The homepage is a grid of themes. The grid is a forEach loop (in Hugo a `range`) with a partial for the theme card. The grid is styled using flex-box.
 
     {% raw %}
-    {{ $themes := (where .Site.RegularPages "Type" "theme") }}<div class="grids">    {{ range sort $themes "Lastmod" "desc" }}    {{ partial "theme-card.html" . }}{{ end }</div>
+    {% raw %}{{ $themes := (where .Site.RegularPages "Type" "theme") }}{% endraw %}<div class="grids">    {% raw %}{{ range sort $themes "Lastmod" "desc" }}{% endraw %}    {% raw %}{{ partial "theme-card.html" . }}{% endraw %}{% raw %}{{ end }</div>
     {% endraw %}
 
 
@@ -114,7 +114,7 @@ I wrote the following node script `generate-github.json`. It reads the markdown 
 This writes a JSON file to `data/themes.json`, which includes all the GitHub meta data for each theme. Themes are keyed objects. So in the Hugo template I can easily lookup the data from different layouts.
 
     {% raw %}
-    {{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}{{ $repo := index .Site.Data.themes $repoName }}{{ $repo }}
+    {% raw %}{{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}{% endraw %}{% raw %}{{ $repo := index .Site.Data.themes $repoName }}{% endraw %}{% raw %}{{ $repo }}{% endraw %}
     {% endraw %}
 
 
@@ -128,12 +128,12 @@ For example, given the following markdown file...
     [  ...  "daviddarnes-alembic": {    "theme_key": "daviddarnes-alembic",    "name": "alembic",    "repo": "daviddarnes/alembic",    "branch": "master",    "url": "https://github.com/daviddarnes/alembic",    "stars": 331,    "forks": 367,    "open_issues": 3,    "last_commit": "2019-07-09T07:57:57Z"  },  ...]
 
 
-\`{% raw %}{{ $repoName }}{% endraw %}\` would output `daviddarnes-alembic`. We can use this to lookup the object in `data/themes.json` using `{% raw %}{{ $repo := index .Site.Data.themes $repoName }}{% endraw %}`
+\`{% raw %}{% raw %}{{ $repoName }}{% endraw %}{% endraw %}\` would output `daviddarnes-alembic`. We can use this to lookup the object in `data/themes.json` using `{% raw %}{% raw %}{{ $repo := index .Site.Data.themes $repoName }}{% endraw %}{% endraw %}`
 
 In our template we can then render this data
 
     {% raw %}
-    {{ $repo.stars }}
+    {% raw %}{{ $repo.stars }}{% endraw %}
     {% endraw %}
 
 
@@ -157,7 +157,7 @@ I wrote a node script to capture hi-res screenshots. The script iterates through
 Two thumbnails are generated for each theme. In the Hugo layouts I used `srcset` to serve the 2x images on higher density devices (macs?).
 
     {% raw %}
-    <img width="280" height="180" loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" />
+    <img width="280" height="180" loading="lazy" src="{% raw %}{{ $filePath | relURL }}{% endraw %}" alt="{% raw %}{{ .theme.Params.title }}{% endraw %} screenshot" srcset="{% raw %}{{ $filePathHiRes | relURL }}{% endraw %} 2x" />
     {% endraw %}
 
 

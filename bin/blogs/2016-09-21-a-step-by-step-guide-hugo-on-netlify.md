@@ -139,23 +139,23 @@ Most themes will document how to set them up in their `README.md` file. For the 
  ```
 3. We must update our landing page layout with the theme's template layout located at `themes/hugo-strata-theme/index.html`. For your convenience, here is the code from this theme (as of 9/9/16) to replace the contents of your `index.html` located in `site/layouts/index.html`.
      ```
-     {{ define "main" }}
-      {{ if not .Site.Params.about.hide }}
-        {{ partial "about" . }}
-      {{ end }}
+     {% raw %}{{ define "main" }}{% endraw %}
+      {% raw %}{{ if not .Site.Params.about.hide }}{% endraw %}
+        {% raw %}{{ partial "about" . }}{% endraw %}
+      {% raw %}{{ end }}{% endraw %}
 
-      {{ if not .Site.Params.portfolio.hide }}
-        {{ partial "portfolio" . }}
-      {{ end }}
+      {% raw %}{{ if not .Site.Params.portfolio.hide }}{% endraw %}
+        {% raw %}{{ partial "portfolio" . }}{% endraw %}
+      {% raw %}{{ end }}{% endraw %}
 
-      {{ if not .Site.Params.recentposts.hide }}
-        {{ partial "recent-posts" . }}
-      {{ end }}
+      {% raw %}{{ if not .Site.Params.recentposts.hide }}{% endraw %}
+        {% raw %}{{ partial "recent-posts" . }}{% endraw %}
+      {% raw %}{{ end }}{% endraw %}
 
-      {{ if not .Site.Params.contact.hide }}
-        {{ partial "contact" . }}
-      {{ end }}
-     {{ end }}
+      {% raw %}{{ if not .Site.Params.contact.hide }}{% endraw %}
+        {% raw %}{{ partial "contact" . }}{% endraw %}
+      {% raw %}{{ end }}{% endraw %}
+     {% raw %}{{ end }}{% endraw %}
      ```
 4. To include our new about page into this theme's navigation, open up the `config.toml` file we edited earlier and update the menu variables to include the about page as follows:
      ```

@@ -154,7 +154,7 @@ This solution uses Algolia InstantSearch for JavaScript. With this library, you 
 First, here’s the front-end code (go here for the [full code](https://github.com/jamstack/jamstack.org/blob/1d17a5b889696ef3000834bc757e142499b2a67e/src/site/_includes/search-js.njk)):
 
     {% raw %}
-    const searchClient = algoliasearch('{{ algolia.appId }}', '{{ algolia.searchOnlyApiKey }}');
+    const searchClient = algoliasearch('{% raw %}{{ algolia.appId }}{% endraw %}', '{% raw %}{{ algolia.searchOnlyApiKey }}{% endraw %}');
     search.addWidgets([
      instantsearch.widgets.searchBox({
        container: '#searchbox',
@@ -173,18 +173,18 @@ First, here’s the front-end code (go here for the [full code](https://github.c
        },
        templates: {
          item: `
-           <a href="{{ url }}" class="mb-4 group jamstacktv-link">
+           <a href="{% raw %}{{ url }}{% endraw %}" class="mb-4 group jamstacktv-link">
              <div class="relative jamstacktv-card">
-               <img src="{{ video.thumbnails.medium }}" alt="{{ video.title }}" class="jamstacktv-img" width="480" height="360">
-               <span class="jamstacktv-duration">{{{ displayStartInline }}}{{ displayDuration }}</span>
-               {{{ scrubberHtml }}}
+               <img src="{% raw %}{{ video.thumbnails.medium }}{% endraw %}" alt="{% raw %}{{ video.title }}{% endraw %}" class="jamstacktv-img" width="480" height="360">
+               <span class="jamstacktv-duration">{% raw %}{{{ displayStartInline }}{% endraw %}}{% raw %}{{ displayDuration }}{% endraw %}</span>
+               {% raw %}{{{ scrubberHtml }}{% endraw %}}
              </div>
-             <div class="jamstacktv-item {{ wrapperClass }}">
+             <div class="jamstacktv-item {% raw %}{{ wrapperClass }}{% endraw %}">
                <div class="jamstacktv-meta mb-1">
-                 <span class="jamstacktv-category">{{#helpers.highlight}}{ "attribute": "playlist.title" }{{/helpers.highlight}}</span>
-                 <span class="jamstacktv-title">{{#helpers.highlight}}{ "attribute": "video.title" }{{/helpers.highlight}}</span>
+                 <span class="jamstacktv-category">{% raw %}{{#helpers.highlight}}{% endraw %}{ "attribute": "playlist.title" }{% raw %}{{/helpers.highlight}}{% endraw %}</span>
+                 <span class="jamstacktv-title">{% raw %}{{#helpers.highlight}}{% endraw %}{ "attribute": "video.title" }{% raw %}{{/helpers.highlight}}{% endraw %}</span>
                </div>
-               <span class="jamstacktv-caption-quote">{{#helpers.highlight}}{ "attribute": "video.sentence" }{{/helpers.highlight}}</span>
+               <span class="jamstacktv-caption-quote">{% raw %}{{#helpers.highlight}}{% endraw %}{ "attribute": "video.sentence" }{% raw %}{{/helpers.highlight}}{% endraw %}</span>
              </div>
            </div>
          `,
@@ -215,8 +215,8 @@ As users type, they also want to know why an item appears in the results. This i
 
 And here’s the code for that. InstantSearch uses [“templates”](https://www.algolia.com/doc/api-reference/widgets/search-box/js/#widget-param-templates) to format the results. You can see the full template above. Here’s the part that highlights the matching terms:
     {% raw %}
-    <span class="jamstacktv-category">{{#helpers.highlight}}{ "attribute": "playlist.title" }{{/helpers.highlight}}</span>
-                 <span class="jamstacktv-title">{{#helpers.highlight}}{ "attribute": "video.title" }{{/helpers.highlight}}</span>
+    <span class="jamstacktv-category">{% raw %}{{#helpers.highlight}}{% endraw %}{ "attribute": "playlist.title" }{% raw %}{{/helpers.highlight}}{% endraw %}</span>
+                 <span class="jamstacktv-title">{% raw %}{{#helpers.highlight}}{% endraw %}{ "attribute": "video.title" }{% raw %}{{/helpers.highlight}}{% endraw %}</span>
     {% endraw %}
 
 ### Ordering the results with searchable attributes

@@ -171,17 +171,17 @@ Within the layout section’s list.html, we already have the HTML to display our
 ```
 <!-- Image Gallery -->
 ...
-  {{ else if eq .Section "gallery" }}
+  {% raw %}{{ else if eq .Section "gallery" }}{% endraw %}
     <div class="gallery-carousel">
-      {{ range where .Pages "Section" "gallery" }}
-        <div><img src="{{ .Params.image }}"/></div>
-      {{ end }}
+      {% raw %}{{ range where .Pages "Section" "gallery" }}{% endraw %}
+        <div><img src="{% raw %}{{ .Params.image }}{% endraw %}"/></div>
+      {% raw %}{{ end }}{% endraw %}
     </div>
     <div class="buttons">
       <button class="prev half-button">Prev</button>
       <button class="next half-button">Next</button>
     </div>
-  {{ end }}
+  {% raw %}{{ end }}{% endraw %}
 ```
 
 Similar to Food and Drinks, we will need to add an image's type to our content section as well as the config.toml.

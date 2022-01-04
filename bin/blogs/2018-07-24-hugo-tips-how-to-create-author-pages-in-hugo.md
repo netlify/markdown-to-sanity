@@ -91,24 +91,24 @@ To create a specific author template:
 
 *layouts/authors/list.html*
 ```html
-<h1>{{ .Params.name }}</h1>
-<img src="{{ .Params.photo }}" alt=""/>
+<h1>{% raw %}{{ .Params.name }}{% endraw %}</h1>
+<img src="{% raw %}{{ .Params.photo }}{% endraw %}" alt=""/>
 
 <h2>Bio</h2>
-{{ .Content }}
-{{ with .Params.twitter }}
+{% raw %}{{ .Content }}{% endraw %}
+{% raw %}{{ with .Params.twitter }}{% endraw %}
   <p>
-    <a href="https://twitter.com/{{ substr . 1 }}">
-      Follow {{ $.Params.name }} on Twitter
+    <a href="https://twitter.com/{% raw %}{{ substr . 1 }}{% endraw %}">
+      Follow {% raw %}{{ $.Params.name }}{% endraw %} on Twitter
     </a>
   </p>
-{{ end }}
+{% raw %}{{ end }}{% endraw %}
 
 <h2>Articles</h2>
 <ul>
-{{ range .Data.Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-{{ end }}
+{% raw %}{{ range .Data.Pages }}{% endraw %}
+    <li><a href="{% raw %}{{ .Permalink }}{% endraw %}">{% raw %}{{ .Title }}{% endraw %}</a></li>
+{% raw %}{{ end }}{% endraw %}
 </ul>
 ```
 
@@ -128,9 +128,9 @@ Instead of adding extra logic to our `list.html`, we can take advantage of [Hugo
 ```html
 <h1>Authors</h1>
 <ul>
-{{ range .Data.Pages }}
-  <li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
-{{ end }}
+{% raw %}{{ range .Data.Pages }}{% endraw %}
+  <li><a href="{% raw %}{{ .Permalink }}{% endraw %}">{% raw %}{{ .Params.name }}{% endraw %}</a></li>
+{% raw %}{{ end }}{% endraw %}
 </ul>
 ```
 
@@ -158,16 +158,16 @@ nonfiction respectively.
 In the template that renders your post, you can show additional information about the author(s), like an avatar and a link to their page, with the following snippet:
 
 ```html
-{{- range .Params.authors }}
-  {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+{% raw %}{{- range .Params.authors }}{% endraw %}
+  {% raw %}{{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}{% endraw %}
     <figure>
-      <img src="{{ .Params.photo }}" alt=""/>
+      <img src="{% raw %}{{ .Params.photo }}{% endraw %}" alt=""/>
       <figcaption>
-        <a href="{{ .Permalink }}">{{ .Params.name }}</a>
+        <a href="{% raw %}{{ .Permalink }}{% endraw %}">{% raw %}{{ .Params.name }}{% endraw %}</a>
       </figcaption>
     </figure>
-  {{ end }}
-{{ end }}
+  {% raw %}{{ end }}{% endraw %}
+{% raw %}{{ end }}{% endraw %}
 ```
 
 

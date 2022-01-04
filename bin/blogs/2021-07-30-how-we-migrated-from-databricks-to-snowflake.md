@@ -152,11 +152,11 @@ Our workarounds for `array_distinct()`, `array_except()`, and `reverse()` were m
 
         {% macro reverse_array(column_name, max_size) %}
 
-            case array_size({{column_name}})
+            case array_size({% raw %}{{column_name}}{% endraw %})
             {% for i in range(max_size) %}
-               when {{i+1}} then array_construct(
+               when {% raw %}{{i+1}}{% endraw %} then array_construct(
                 {%- for j in (range(i+1)|reverse) %}
-                    {{column_name}}[{{j}}]
+                    {% raw %}{{column_name}}{% endraw %}[{% raw %}{{j}}{% endraw %}]
                     {%- if not loop.last -%},{%- endif -%}
                 {% endfor %}
                 )
@@ -235,7 +235,7 @@ Could you tell that we're obsessed with checklists in general? (We're also fans 
 *    Tested all models locally and they passed
 *    If an incremental model, it has been run successfully twice (i.e., once as a full-refresh and once as an incremental build)
 *    Done manual data comparisons (count(\*), min(col), max(col)) between the DBX & Snowflake version of marts tables. Another method: take a BI aggregation query (e.g. revenue by month), and run it across both systems and compare the results in a spreadsheet or in a Mode report.
-*    Removed DBX `{% raw %}{{ config() }}{% endraw %}` parameters: `file_format`, `partition_by`
+*    Removed DBX `{% raw %}{% raw %}{{ config() }}{% endraw %}{% endraw %}` parameters: `file_format`, `partition_by`
 *    Checked that your models are materialized the same way as before (check `dbt_project.yml`)
 *    Bonus: If you've learned new DBX-Snowflake migration tips, please contribute to the Snowflake Migration Tips doc!
 

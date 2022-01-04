@@ -353,8 +353,8 @@ To use our page data, we can grab just the `data` prop in our component, then dr
 +   const page = data.wpgraphql.page
 +   return (
 +     <>
-+       <h1 dangerouslySetInnerHTML={{ __html: page.title }} />
-+       <div dangerouslySetInnerHTML={{ __html: page.content }} />
++       <h1 dangerouslySetInnerHTML={% raw %}{{ __html: page.title }}{% endraw %} />
++       <div dangerouslySetInnerHTML={% raw %}{{ __html: page.content }}{% endraw %} />
 +     </>
 +   )
   }
@@ -430,8 +430,8 @@ Once we have a layout component, we need to import it in our page template and w
     return (
 -     <>
 +     <Layout>
-        <h1 dangerouslySetInnerHTML={{ __html: page.title }} />
-        <div dangerouslySetInnerHTML={{ __html: page.content }} />
+        <h1 dangerouslySetInnerHTML={% raw %}{{ __html: page.title }}{% endraw %} />
+        <div dangerouslySetInnerHTML={% raw %}{{ __html: page.content }}{% endraw %} />
 -     </>
 +     </Layout>
     )
@@ -556,10 +556,10 @@ To start, we can duplicate `src/templates/page-template.js` and name the new fil
 +   const post = data.wpgraphql.post
     return (
       <Layout>
--       <h1 dangerouslySetInnerHTML={{ __html: page.title }} />
--       <div dangerouslySetInnerHTML={{ __html: page.content }} />
-+       <h1 dangerouslySetInnerHTML={{ __html: post.title }} />
-+       <div dangerouslySetInnerHTML={{ __html: post.content }} />
+-       <h1 dangerouslySetInnerHTML={% raw %}{{ __html: page.title }}{% endraw %} />
+-       <div dangerouslySetInnerHTML={% raw %}{{ __html: page.content }}{% endraw %} />
++       <h1 dangerouslySetInnerHTML={% raw %}{{ __html: post.title }}{% endraw %} />
++       <div dangerouslySetInnerHTML={% raw %}{{ __html: post.content }}{% endraw %} />
       </Layout>
     )
   }
@@ -726,10 +726,10 @@ const Blog = ({ data }) => {
           <h2>
             <Link
               to={`/blog/${post.uri}`}
-              dangerouslySetInnerHTML={{ __html: post.title }}
+              dangerouslySetInnerHTML={% raw %}{{ __html: post.title }}{% endraw %}
             />
           </h2>
-          <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
+          <div dangerouslySetInnerHTML={% raw %}{{ __html: post.excerpt }}{% endraw %} />
         </article>
       ))}
     </Layout>

@@ -193,7 +193,7 @@ Like so:
 +<div class="product-item">
 +  <img [src]="product.image" />
 +  <div class="product-item-details">
-+    <h3 class="product-name">{{ product.name }}</h3>
++    <h3 class="product-name">{% raw %}{{ product.name }}{% endraw %}</h3>
 +  </div>
 +</div>
 ```
@@ -284,7 +284,7 @@ We're going to change a few things inside of the Products HTML template:
 * apply an [`*ngIf`](https://angular.io/api/common/NgIf) conditional directive to say if we have the products data use an [async pipe](https://angular.io/api/common/AsyncPipe) assigning the data to `products`, else displaying a loading block [Angular template](https://angular.io/guide/structural-directives)
 * then we pass in the Product List component (`app-product-list`)
 * we also pass a few parameters to the Product list component including an [`*ngFor`](https://angular.io/api/common/NgForOf) to loop through the products and assign each one to `product`
-* inside the component we'll use [Angular's text interpolation](https://angular.io/guide/interpolation) to display the product's name (`{{ product.name }}`)
+* inside the component we'll use [Angular's text interpolation](https://angular.io/guide/interpolation) to display the product's name (`{% raw %}{{ product.name }}{% endraw %}`)
 * finally, we take the existing 'loading' text and place it inside the conditional `ng-template` named `#loadingBlock`
 
 That was a lot of words but let's take a look below to see what the code actually looks like.
@@ -302,7 +302,7 @@ That was a lot of words but let's take a look below to see what the code actuall
 +      *ngFor="let product of products"
 +      [product]="product"
 +    >
-+      {{ product.name }}
++      {% raw %}{{ product.name }}{% endraw %}
 +    </app-product-list>
 +  </main>
 +  <ng-template #loadingBlock>

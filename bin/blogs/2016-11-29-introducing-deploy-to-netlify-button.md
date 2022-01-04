@@ -45,13 +45,13 @@ Once the site is created, you can also make further changes by modifying the cod
 
 To create a template, you can set basic configuration options for their templates using the netlify.toml file. Within the new template section, you can set a list of incoming hooks that notify Netlify to build sites created with this template. You can also set required environment variables that must be changed before creating the site based on your template. This is an example of how it looks:
 
-{{< code-snippet >}}[template]
+{% raw %}{{< code-snippet >}}{% endraw %}[template]
   incoming-hooks = ["Contentful"]
 
 [template.environment]
   CONTENTFUL_TOKEN = "this is your Contentful token"
   SITE_LOGO = "https://www.netlify.com/logo-placeholder.svg"
-{{< /code-snippet >}}
+{% raw %}{{< /code-snippet >}}{% endraw %}
 
 You can find more information about how to create templates and buttons in [its own documentation](/docs/deploy_button/).
 

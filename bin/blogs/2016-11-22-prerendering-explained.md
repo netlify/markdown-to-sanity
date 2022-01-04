@@ -46,7 +46,7 @@ Google’s web crawler is a bot that checks out the content and navigation of yo
   </head>
   <body>
 
-    <p>Nothing here {{'yet' + '!'}}</p>
+    <p>Nothing here {% raw %}{{'yet' + '!'}}{% endraw %}</p>
 
   </body>
 </html>

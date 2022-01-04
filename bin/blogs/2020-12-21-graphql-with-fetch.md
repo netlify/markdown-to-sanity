@@ -27,7 +27,8 @@ relatedposts:
 
 GraphQL is a powerful solution for working with data, but it often gets a bad rap for being too complicated to set up and use. In this tutorial, we'll learn how to send GraphQL queries and mutations without any third-party tools using the browser's built-in Fetch API.
 
-## How to send a GraphQL query with Fetch
+How to send a GraphQL query with Fetch
+--------------------------------------
 
 Under the hood, GraphQL works by sending HTTP requests to an endpoint. This means that there's nothing magical about sending a GraphQL request — we can use built-in browser APIs to send them!
 
@@ -35,8 +36,8 @@ Under the hood, GraphQL works by sending HTTP requests to an endpoint. This mean
 
 First, let's look at the component parts of a GraphQL query:
 
-1. The query itself
-2. Any query variables
+1.  The query itself
+2.  Any query variables
 
 A GraphQL query might look something like this:
 
@@ -68,7 +69,8 @@ Query variables are passed to GraphQL as a JavaScript object:
 
 In this case, the variable will be set to the current date and time that the query is executed, which means we'll only see future episodes.
 
-## How can we send the GraphQL query to the GraphQL endpoint using Fetch?
+How can we send the GraphQL query to the GraphQL endpoint using Fetch?
+----------------------------------------------------------------------
 
 Once we have the query and variables, we can write a bit of JavaScript to send a call with the Fetch API:
 
@@ -109,7 +111,8 @@ This sends the GraphQL query and variables as a JSON object to the endpoint `htt
 
 If you'd like to try this with other GraphQL endpoints, check out the [Rick and Morty GraphQL API](https://rickandmortyapi.com/documentation/#graphql) or the [countries API](https://countries.trevorblades.com/).
 
-## What are the requirements to send a GraphQL query request?
+What are the requirements to send a GraphQL query request?
+----------------------------------------------------------
 
 For a GraphQL request to be successfully sent as an HTTP request, we have to meet a few requirements. Let's step through them one at a time.
 
@@ -139,15 +142,16 @@ This is optional, technically, but it's a good idea to include a `Content-Type` 
 
 Many GraphQL endpoints will require an `Authorization` header or other access control, which will vary depending on the service or tools you're using to serve GraphQL data. Check the docs for your GraphQL endpoint if you run into access control issues when sending your request.
 
-## GraphQL clients are powerful, but you may not need one!
+GraphQL clients are powerful, but you may not need one!
+-------------------------------------------------------
 
 GraphQL clients like Apollo and URQL add a lot of extra power, including caching support and advanced features like subscriptions. In apps that have lots of queries or that are implementing complex data management, it's probably a good idea to implement an actual GraphQL client.
 
 However, if you're building an app that needs to make a few GraphQL queries, you may not need a full-blown GraphQL client! In a lot of cases, a simple HTTP request is enough.
 
-## Further reading
+Further reading
+---------------
 
-- [Learn more about GraphQL](https://graphql.org/learn/)
-- [Learn more about the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- Watch me and Emma Bostian use this approach to [build a dynamic Jamstack app with Hasura GraphQL](https://www.learnwithjason.dev/we-need-to-taco-bout-your-choices)
-
+*   [Learn more about GraphQL](https://graphql.org/learn/)
+*   [Learn more about the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+*   Watch me and Emma Bostian use this approach to [build a dynamic Jamstack app with Hasura GraphQL](https://www.learnwithjason.dev/we-need-to-taco-bout-your-choices)

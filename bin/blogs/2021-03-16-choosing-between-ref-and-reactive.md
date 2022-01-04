@@ -86,8 +86,8 @@ export default {
 </script>
 
 <template>
-  <p>Wrong: {{ heroName.value }}</p>
-  <p>Correct: {{ heroName }}</p>
+  <p>Wrong: {% raw %}{{ heroName.value }}{% endraw %}</p>
+  <p>Correct: {% raw %}{{ heroName }}{% endraw %}</p>
 </template>
 ```
 
@@ -161,9 +161,9 @@ export default {
 
 ```html
 <template>
-  <h1>{{ heroName }}</h1>
-  <p>First Name: {{ state.firstName }}</p>
-  <p>Current Count: {{ state.currentCount }}</p>
+  <h1>{% raw %}{{ heroName }}{% endraw %}</h1>
+  <p>First Name: {% raw %}{{ state.firstName }}{% endraw %}</p>
+  <p>Current Count: {% raw %}{{ state.currentCount }}{% endraw %}</p>
 </template>
 ```
 
@@ -221,9 +221,9 @@ export default {
 
 ```html
 <template>
-  <h1>{{ heroName }}</h1>
-  <p>First Name: {{ firstName }}</p>
-  <p>Current Count: {{ currentCount }}</p>
+  <h1>{% raw %}{{ heroName }}{% endraw %}</h1>
+  <p>First Name: {% raw %}{{ firstName }}{% endraw %}</p>
+  <p>Current Count: {% raw %}{{ currentCount }}{% endraw %}</p>
 </template>
 ```
 

@@ -261,20 +261,20 @@ All the product pages are built during the Gatsby build process. The main produc
       <div className="content">
         <div
           className="full-width-image-container margin-top-0"
-          style={{
+          style={% raw %}{{
             backgroundImage: `url(${
               !!image.childImageSharp ? image.childImageSharp.fluid.src : image
             })`
-          }}>
+          }}{% endraw %}>
           <h2
             className="has-text-weight-bold is-size-1"
-            style={{
+            style={% raw %}{{
               boxShadow:
                 '0.5rem 0 0 rgba(0, 0, 0, 0.75), -0.5rem 0 0 rgba(0, 0, 0, 0.75)',
               backgroundColor: 'rgba(0, 0, 0, 0.75)',
               color: 'white',
               padding: '1rem'
-            }}>
+            }}{% endraw %}>
             {title}
           </h2>
         </div>
@@ -728,7 +728,7 @@ As you can see in the code snippet above, when the “Add to Cart” button is c
 
       return (
         <CartContext.Provider
-          value={{
+          value={% raw %}{{
             state,
             addToCart,
             removeItemFromCart,
@@ -736,7 +736,7 @@ As you can see in the code snippet above, when the “Add to Cart” button is c
             notifications,
             addNotification,
             removeNotification
-          }}>
+          }}{% endraw %}>
           {children}
         </CartContext.Provider>
       );

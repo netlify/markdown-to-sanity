@@ -395,7 +395,7 @@ Now that we are able to make Markdown blog posts with dynamic routes, we should 
               posts.map((post) => {
                 return (
                   <li key={post.slug}>
-                    <Link href={{ pathname: `/post/${post.slug}` }}>
+                    <Link href={% raw %}{{ pathname: `/post/${post.slug}` }}{% endraw %}>
                       <a>{post.frontmatter.title}</a>
                     </Link>
                   </li>

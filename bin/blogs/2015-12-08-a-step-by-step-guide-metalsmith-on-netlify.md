@@ -199,14 +199,14 @@ We create the *home.hbt* file with the following content in the templates folder
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>{{ title }}</title>
+    <title>{% raw %}{{ title }}{% endraw %}</title>
 
     <link rel="stylesheet" type="text/css" href="./styles/main.css" />
 </head>
 <body>
 
     <div class="main-wrapper">
-        {{{ contents }}}
+        {% raw %}{{{ contents }}}{% endraw %}
     </div>
 
 </body>
@@ -245,18 +245,18 @@ We'll keep it simple and merely present the content with a title and the aforeme
 I present to you the *page.hbt* file (in the templates directory):
 
 ```
-{{> header}}
+{% raw %}{{> header}}{% endraw %}
 
-<h2>{{title}}</h2>
+<h2>{% raw %}{{title}}{% endraw %}</h2>
 
 <article>
-    {{{contents}}}
+    {% raw %}{{{contents}}{% endraw %}}
 </article>
 
-{{> footer}}
+{% raw %}{{> footer}}{% endraw %}
 ```
 
-To add the partials we simply insert the line `{{> partial-name }}` as seen above.
+To add the partials we simply insert the line `{% raw %}{{> partial-name }}{% endraw %}` as seen above.
 
 Let's move on to creating these partials.
 
@@ -309,7 +309,7 @@ The header partials file *header.hbt* in the `templates/partials` folder:
 The footer partials file *footer.hbt* in the `templates/partials` folder:
 
 ```
-            </div> {{!-- END .main-wrapper --}}
+            </div> {% raw %}{{!-- END .main-wrapper --}}{% endraw %}
         <footer>
             © Metalsmith demo site - demonstrating Metalsmith in continuous deployment using GitHub on Netlify.
         </footer>
@@ -393,15 +393,15 @@ To see the difference between our two collections, the pages and the articles, w
 The *article.hbt* template file:
 
 ```
-{{> header}}
+{% raw %}{{> header}}{% endraw %}
 
-<h2>{{title}}</h2>
+<h2>{% raw %}{{title}}{% endraw %}</h2>
 
 <article>
-    {{{contents}}}
+    {% raw %}{{{contents}}{% endraw %}}
 </article>
 
-{{> footer}}
+{% raw %}{{> footer}}{% endraw %}
 ```
 
 Next, we need to create at least one article, but preferably a few more than that, to illustrate how the files are sorted. Each of the articles should have the following YAML frontmatter:
@@ -431,27 +431,27 @@ template: blog.hbt
 For our blog template, we create a *blog.hbt* file in the templates folder and put the following content in it:
 
 ```
-{{> header}}
+{% raw %}{{> header}}{% endraw %}
 
-<h2>{{title}}</h2>
+<h2>{% raw %}{{title}}{% endraw %}</h2>
 
 <article>
     <ul>
-        {{#each collections.articles}}
+        {% raw %}{{#each collections.articles}}{% endraw %}
             <li>
-                <h3>{{this.title}}</h3>
-                <article>{{this.contents}}</article>
+                <h3>{% raw %}{{this.title}}{% endraw %}</h3>
+                <article>{% raw %}{{this.contents}}{% endraw %}</article>
             </li>
-        {{/each}}
+        {% raw %}{{/each}}{% endraw %}
     </ul>
 </article>
 
-{{> footer}}
+{% raw %}{{> footer}}{% endraw %}
 ```
 
 Remember the collections we made, aptly named pages and articles?
 
-Well, as mentioned it's easy to access these in the template and we're doing this with the `{{#each collections.articles}}` line in the template above.  The subsequent calls to `this.title` and `this.contents` are easy to comprehend and will print out the title and content for each of the files in the articles collection.
+Well, as mentioned it's easy to access these in the template and we're doing this with the `{% raw %}{{#each collections.articles}}{% endraw %}` line in the template above.  The subsequent calls to `this.title` and `this.contents` are easy to comprehend and will print out the title and content for each of the files in the articles collection.
 
 ### 16. Build It
 If you made it this far, you should already have an idea of how Metalsmith works internally and where to start if you want to use Metalsmith with continuous deployment on Netlify, with GitHub serving the files.

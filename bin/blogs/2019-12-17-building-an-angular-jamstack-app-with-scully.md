@@ -125,7 +125,7 @@ Inside of the view file for the main page, `app.component.html`, we'll add an [n
 
     {% raw %}
     <ul <li *ngFor="”let" route of scully.available$ | async”>
-      <a [routerLink]="”route.route”">{{route.title || route.route}}</a>
+      <a [routerLink]="”route.route”">{% raw %}{{route.title || route.route}}{% endraw %}</a>
     </ul>
     {% endraw %}
 
