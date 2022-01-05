@@ -8,7 +8,7 @@ const sanityClient = require('@sanity/client')
 const client = sanityClient({
   projectId: 'o0o2tn5x',
   dataset: 'import-blog-data',
-  token: 'skzLDOzsYekJMYFTuNYyRk0hg87larhePKf69j3VceHU3WRLss96QULMVGsHyddihDsbleK4k5u1XCPqKb9I5quqHxKNLDG5Z6Y0YPwD0gaGCYtMwZC0mix6bcMHFEqIoVvM5lb2Xb7kStkjx8sE9JPDVlAaNrnVf3Fj1w1fISFdW2pOKNU5', 
+  token: 'skzLDOzsYekJMYFTuNYyRk0hg87larhePKf69j3VceHU3WRLss96QULMVGsHyddihDsbleK4k5u1XCPqKb9I5quqHxKNLDG5Z6Y0YPwD0gaGCYtMwZC0mix6bcMHFEqIoVvM5lb2Xb7kStkjx8sE9JPDVlAaNrnVf3Fj1w1fISFdW2pOKNU5',
 })
 
 
@@ -75,7 +75,10 @@ async function getRelatedPostRef(post) {
 }
 
 async function convertToSanityDocument({data = {}, contents}) {
-  const turndownService = new TurndownService()
+  const turndownService = new TurndownService({
+    codeBlockStyle: 'fenced',
+    fence: '```'
+  })
 
   const { title, description, date, authors, lastmod, topics, tags, relatedposts, seo } = data.frontmatter || {}
 
