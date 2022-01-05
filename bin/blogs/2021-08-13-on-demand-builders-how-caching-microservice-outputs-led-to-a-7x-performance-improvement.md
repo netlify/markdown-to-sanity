@@ -206,7 +206,7 @@ async function RunOperation (event) {
       "Content-Type": "text/html",
     },
     body: result
-  }}{% endraw %}
+  }}
 
 exports.handler = builder(RunOperation);
 ```

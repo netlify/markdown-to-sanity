@@ -16,7 +16,7 @@ tags:
 tweet: Building Serverless CRUD apps with Netlify Functions & FaunaDB
 format: blog
 ---
-Serverless functions seem to be all the rage these days. But why? 
+Serverless functions seem to be all the rage these days. But why?
 
 Devs are adopting the FAAS (Functions-as-a-Service) because of:
 
@@ -94,7 +94,7 @@ This application is using [React](https://reactjs.org/) for the frontend, [Netli
 
     In your terminal, run the following command:
 
-    ```bash 
+    ```bash
     export FAUNADB_SERVER_SECRET=YourFaunaDBSecretHere
     ```
 
@@ -268,53 +268,52 @@ Let's rock and roll.
 
     In `package.json` add:
 
-    ```json
-    {
-      "name": "react-lambda",
-      ...
-      "proxy": {
-        "/.netlify/functions": {
-          "target": "http://localhost:9000",
-          "pathRewrite": {
-            "^/\\.netlify/functions": ""
-          }
-        }
+```json
+{
+  "name": "react-lambda",
+  "proxy": {
+    "/.netlify/functions": {
+      "target": "http://localhost:9000",
+      "pathRewrite": {
+        "^/\\.netlify/functions": ""
       }
     }
-    ```
+  }
+}
+```
 
     This will proxy requests we make to `/.netlify/functions` to our locally-running function server at port 9000.
 
 3. **Add our `start` & `build` commands**
 
-    Let's go ahead and add our `start` & `build` command to npm scripts in `package.json`. These will let us run things locally and give a command for Netlify to build our app and functions when we are ready to deploy.
+Let's go ahead and add our `start` & `build` command to npm scripts in `package.json`. These will let us run things locally and give a command for Netlify to build our app and functions when we are ready to deploy.
 
-    We are going to be using the `npm-run-all` npm module to run our frontend and backend in parallel in the same terminal window.
+We are going to be using the `npm-run-all` npm module to run our frontend and backend in parallel in the same terminal window.
 
-    So install it!
+So install it!
 
     ```
     npm install npm-run-all --save-dev
     ```
 
-    **About `npm start`**
+**About `npm start`**
 
-    The `start:app` command will run `react-scripts start` to run our react app
+The `start:app` command will run `react-scripts start` to run our react app
 
-    The `start:server` command will run `netlify-lambda serve functions -c ./webpack.config.js` to run our function code locally. The `-c webpack-config` flag lets us set a custom webpack config to [fix a module issue](https://medium.com/@danbruder/typeerror-require-is-not-a-function-webpack-faunadb-6e785858d23b) with FaunaDB module.
+The `start:server` command will run `netlify-lambda serve functions -c ./webpack.config.js` to run our function code locally. The `-c webpack-config` flag lets us set a custom webpack config to [fix a module issue](https://medium.com/@danbruder/typeerror-require-is-not-a-function-webpack-faunadb-6e785858d23b) with FaunaDB module.
 
-    Running `npm start` in our terminal will run `npm-run-all --parallel start:app start:server` to fire them both up at once.
+Running `npm start` in our terminal will run `npm-run-all --parallel start:app start:server` to fire them both up at once.
 
-    **About `npm build`**
+**About `npm build`**
 
-    The `build:app` command will run `react-scripts build` to run our React app.
+The `build:app` command will run `react-scripts build` to run our React app.
 
-    The `build:server` command will run `netlify-lambda build functions -c ./webpack.config.js` to run our function code locally.
+The `build:server` command will run `netlify-lambda build functions -c ./webpack.config.js` to run our function code locally.
 
-    Running `npm run build` in our terminal will run `npm-run-all --parallel build:**` to fire them both up at once.
+Running `npm run build` in our terminal will run `npm-run-all --parallel build:**` to fire them both up at once.
 
 
-    **Your `package.json` should look like**
+**Your `package.json` should look like**
 
     ```json
     {

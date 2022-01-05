@@ -57,7 +57,7 @@ Authentication has a lot of moving parts, but — if you stick with me — by th
 
 Set up the repo from a starter app by clicking this button:
 
-[![/img/deploy/button.svg](/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/learnwithjason/demo-base&utm_source=tutorial&utm_medium=stripe-subscriptions-jl&utm_campaign=devex)
+[![/v3/img/deploy/button.svg](/v3/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/learnwithjason/demo-base&utm_source=tutorial&utm_medium=stripe-subscriptions-jl&utm_campaign=devex)
 
 Clicking this button will:
 
@@ -232,10 +232,10 @@ Next, import the [Netlify Identity widget](https://github.com/netlify/netlify-id
 + <script>
 +   const button1 = document.getElementById('left');
 +   const button2 = document.getElementById('right');
-+   
++
 +   const login = () => netlifyIdentity.open('login');
 +   const signup = () => netlifyIdentity.open('signup');
-+   
++
 +   // by default, add login and signup functionality
 +   button1.addEventListener('click', login);
 +   button2.addEventListener('click', signup);
@@ -734,7 +734,7 @@ Open your Netlify dashboard and add two new environment variables:
 
 Whenever someone creates a new account with Netlify Identity, you can use the `identity-signup.js` handler to automatically create a new customer in [Stripe](https://www.stripe.com) that is subscribed to the free plan, then store the new Netlify and Stripe IDs in Fauna.
 
-To do this, install the `stripe` package: 
+To do this, install the `stripe` package:
 
 ```jsx
 npm install stripe
